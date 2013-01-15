@@ -1,0 +1,189 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>537. Zend\Db\Sql\Platform\Mysql\SelectDecorator &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="538. Zend\Db\Adapter\Driver\Mysqli\Connection" href="../Mysqli/Connection.html" />
+    <link rel="prev" title="536. Zend\Db\Sql\Platform\Mysql\Mysql" href="Mysql.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Mysqli/Connection.html" title="538. Zend\Db\Adapter\Driver\Mysqli\Connection"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Mysql.html" title="536. Zend\Db\Sql\Platform\Mysql\Mysql"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-sql-platform-mysql-selectdecorator">
+<h1>537. Zend\Db\Sql\Platform\Mysql\SelectDecorator<a class="headerlink" href="#zend-db-sql-platform-mysql-selectdecorator" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="methods">
+<h2>537.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setsubject">
+<h3>537.1.1. setSubject<a class="headerlink" href="#setsubject" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSubject">
+<tt class="descname">setSubject</tt><big>(</big><em>$select</em><big>)</big><a class="headerlink" href="#setSubject" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param Select $select</p>
+</dd></dl>
+
+</div>
+<div class="section" id="preparestatement">
+<h3>537.1.2. prepareStatement<a class="headerlink" href="#preparestatement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareStatement">
+<tt class="descname">prepareStatement</tt><big>(</big><em>$adapter</em>, <em>$statementContainer</em><big>)</big><a class="headerlink" href="#prepareStatement" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param Adapter $adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$statementContainer</strong> (<em>StatementContainerInterface</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsqlstring">
+<h3>537.1.3. getSqlString<a class="headerlink" href="#getsqlstring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSqlString">
+<tt class="descname">getSqlString</tt><big>(</big><span class="optional">[</span><em>$platform = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getSqlString" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param PlatformInterface $platform</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="processlimit">
+<h3>537.1.4. processLimit<a class="headerlink" href="#processlimit" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="processLimit">
+<tt class="descname">processLimit</tt><big>(</big><em>$platform</em><span class="optional">[</span>, <em>$adapter = false</em><span class="optional">[</span>, <em>$parameterContainer = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#processLimit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="processoffset">
+<h3>537.1.5. processOffset<a class="headerlink" href="#processoffset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="processOffset">
+<tt class="descname">processOffset</tt><big>(</big><em>$platform</em><span class="optional">[</span>, <em>$adapter = false</em><span class="optional">[</span>, <em>$parameterContainer = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#processOffset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">537. Zend\Db\Sql\Platform\Mysql\SelectDecorator</a><ul>
+<li><a class="reference internal" href="#methods">537.1. Methods</a><ul>
+<li><a class="reference internal" href="#setsubject">537.1.1. setSubject</a></li>
+<li><a class="reference internal" href="#preparestatement">537.1.2. prepareStatement</a></li>
+<li><a class="reference internal" href="#getsqlstring">537.1.3. getSqlString</a></li>
+<li><a class="reference internal" href="#processlimit">537.1.4. processLimit</a></li>
+<li><a class="reference internal" href="#processoffset">537.1.5. processOffset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Mysql.html"
+                        title="previous chapter">536. Zend\Db\Sql\Platform\Mysql\Mysql</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Mysqli/Connection.html"
+                        title="next chapter">538. Zend\Db\Adapter\Driver\Mysqli\Connection</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Mysql/SelectDecorator.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Mysqli/Connection.html" title="538. Zend\Db\Adapter\Driver\Mysqli\Connection"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Mysql.html" title="536. Zend\Db\Sql\Platform\Mysql\Mysql"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

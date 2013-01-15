@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>701. Zend\Feed\PubSubHubbub\HttpResponse &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="702. Zend\Feed\PubSubHubbub\PubSubHubbub" href="PubSubHubbub.html" />
+    <link rel="prev" title="697. Zend\Feed\PubSubHubbub\handle" href="CallbackInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="PubSubHubbub.html" title="702. Zend\Feed\PubSubHubbub\PubSubHubbub"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="CallbackInterface.html" title="697. Zend\Feed\PubSubHubbub\handle"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-pubsubhubbub-httpresponse">
+<h1>701. Zend\Feed\PubSubHubbub\HttpResponse<a class="headerlink" href="#zend-feed-pubsubhubbub-httpresponse" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>701.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="send">
+<h3>701.1.1. send<a class="headerlink" href="#send" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">send</tt><big>(</big><big>)</big></dt>
+<dd><p>Send the response, including all headers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="sendheaders">
+<h3>701.1.2. sendHeaders<a class="headerlink" href="#sendheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="sendHeaders">
+<tt class="descname">sendHeaders</tt><big>(</big><big>)</big><a class="headerlink" href="#sendHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send all headers</p>
+<p>Sends any headers specified. If an <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> setHttpResponseCode() HTTP response code}
+has been specified, it is sent with the first header.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setheader">
+<h3>701.1.3. setHeader<a class="headerlink" href="#setheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHeader">
+<tt class="descname">setHeader</tt><big>(</big><em>$name</em>, <em>$value</em><span class="optional">[</span>, <em>$replace = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a header</p>
+<p>If $replace is true, replaces any headers already defined with that
+$name.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$replace</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ZendFeedPubSubHubbubHttpResponse</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheader">
+<h3>701.1.4. getHeader<a class="headerlink" href="#getheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeader">
+<tt class="descname">getHeader</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if a specific Header is set and return its value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheaders">
+<h3>701.1.5. getHeaders<a class="headerlink" href="#getheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeaders">
+<tt class="descname">getHeaders</tt><big>(</big><big>)</big><a class="headerlink" href="#getHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return array of headers; see <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> $headers} for format</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="cansendheaders">
+<h3>701.1.6. canSendHeaders<a class="headerlink" href="#cansendheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="canSendHeaders">
+<tt class="descname">canSendHeaders</tt><big>(</big><span class="optional">[</span><em>$throw = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#canSendHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Can we send headers?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$throw</strong> (<em>bool</em>) &#8211; Whether or not to throw an exception if headers have been sent; defaults to false</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">HttpResponse</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setstatuscode">
+<h3>701.1.7. setStatusCode<a class="headerlink" href="#setstatuscode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setStatusCode">
+<tt class="descname">setStatusCode</tt><big>(</big><em>$code</em><big>)</big><a class="headerlink" href="#setStatusCode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set HTTP response code to use with headers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$code</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">HttpResponse</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getstatuscode">
+<h3>701.1.8. getStatusCode<a class="headerlink" href="#getstatuscode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getStatusCode">
+<tt class="descname">getStatusCode</tt><big>(</big><big>)</big><a class="headerlink" href="#getStatusCode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve HTTP response code</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcontent">
+<h3>701.1.9. setContent<a class="headerlink" href="#setcontent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setContent">
+<tt class="descname">setContent</tt><big>(</big><em>$content</em><big>)</big><a class="headerlink" href="#setContent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set body content</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$content</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendFeedPubSubHubbubHttpResponse</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcontent">
+<h3>701.1.10. getContent<a class="headerlink" href="#getcontent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getContent">
+<tt class="descname">getContent</tt><big>(</big><big>)</big><a class="headerlink" href="#getContent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the body content</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizeheader">
+<h3>701.1.11. _normalizeHeader<a class="headerlink" href="#normalizeheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_normalizeHeader">
+<tt class="descname">_normalizeHeader</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#_normalizeHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalizes a header name to X-Capitalized-Names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">701. Zend\Feed\PubSubHubbub\HttpResponse</a><ul>
+<li><a class="reference internal" href="#methods">701.1. Methods</a><ul>
+<li><a class="reference internal" href="#send">701.1.1. send</a></li>
+<li><a class="reference internal" href="#sendheaders">701.1.2. sendHeaders</a></li>
+<li><a class="reference internal" href="#setheader">701.1.3. setHeader</a></li>
+<li><a class="reference internal" href="#getheader">701.1.4. getHeader</a></li>
+<li><a class="reference internal" href="#getheaders">701.1.5. getHeaders</a></li>
+<li><a class="reference internal" href="#cansendheaders">701.1.6. canSendHeaders</a></li>
+<li><a class="reference internal" href="#setstatuscode">701.1.7. setStatusCode</a></li>
+<li><a class="reference internal" href="#getstatuscode">701.1.8. getStatusCode</a></li>
+<li><a class="reference internal" href="#setcontent">701.1.9. setContent</a></li>
+<li><a class="reference internal" href="#getcontent">701.1.10. getContent</a></li>
+<li><a class="reference internal" href="#normalizeheader">701.1.11. _normalizeHeader</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="CallbackInterface.html"
+                        title="previous chapter">697. Zend\Feed\PubSubHubbub\handle</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="PubSubHubbub.html"
+                        title="next chapter">702. Zend\Feed\PubSubHubbub\PubSubHubbub</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/PubSubHubbub/HttpResponse.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="PubSubHubbub.html" title="702. Zend\Feed\PubSubHubbub\PubSubHubbub"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="CallbackInterface.html" title="697. Zend\Feed\PubSubHubbub\handle"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

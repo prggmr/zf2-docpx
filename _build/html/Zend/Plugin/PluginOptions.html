@@ -1,0 +1,445 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>666. Zend\Cache\Storage\Plugin\PluginOptions &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="667. Zend\Cache\Storage\Plugin\Serializer" href="Serializer.html" />
+    <link rel="prev" title="664. Zend\Cache\Storage\Plugin\setOptions" href="PluginInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Serializer.html" title="667. Zend\Cache\Storage\Plugin\Serializer"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="PluginInterface.html" title="664. Zend\Cache\Storage\Plugin\setOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-plugin-pluginoptions">
+<h1>666. Zend\Cache\Storage\Plugin\PluginOptions<a class="headerlink" href="#zend-cache-storage-plugin-pluginoptions" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>666.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setclearingfactor">
+<h3>666.1.1. setClearingFactor<a class="headerlink" href="#setclearingfactor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClearingFactor">
+<tt class="descname">setClearingFactor</tt><big>(</big><em>$clearingFactor</em><big>)</big><a class="headerlink" href="#setClearingFactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set automatic clearing factor</p>
+<p>Used by:
+- ClearExpiredByFactor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$clearingFactor</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclearingfactor">
+<h3>666.1.2. getClearingFactor<a class="headerlink" href="#getclearingfactor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClearingFactor">
+<tt class="descname">getClearingFactor</tt><big>(</big><big>)</big><a class="headerlink" href="#getClearingFactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get automatic clearing factor</p>
+<p>Used by:
+- ClearExpiredByFactor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setexceptioncallback">
+<h3>666.1.3. setExceptionCallback<a class="headerlink" href="#setexceptioncallback" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setExceptionCallback">
+<tt class="descname">setExceptionCallback</tt><big>(</big><em>$exceptionCallback</em><big>)</big><a class="headerlink" href="#setExceptionCallback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set callback to call on intercepted exception</p>
+<p>Used by:
+- ExceptionHandler</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$exceptionCallback</strong> (<em>callable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getexceptioncallback">
+<h3>666.1.4. getExceptionCallback<a class="headerlink" href="#getexceptioncallback" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExceptionCallback">
+<tt class="descname">getExceptionCallback</tt><big>(</big><big>)</big><a class="headerlink" href="#getExceptionCallback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get callback to call on intercepted exception</p>
+<p>Used by:
+- ExceptionHandler</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|callable</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setexitonabort">
+<h3>666.1.5. setExitOnAbort<a class="headerlink" href="#setexitonabort" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setExitOnAbort">
+<tt class="descname">setExitOnAbort</tt><big>(</big><em>$exitOnAbort</em><big>)</big><a class="headerlink" href="#setExitOnAbort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exit if connection aborted and ignore_user_abort is disabled.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$exitOnAbort</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getexitonabort">
+<h3>666.1.6. getExitOnAbort<a class="headerlink" href="#getexitonabort" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExitOnAbort">
+<tt class="descname">getExitOnAbort</tt><big>(</big><big>)</big><a class="headerlink" href="#getExitOnAbort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exit if connection aborted and ignore_user_abort is disabled.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setoptimizingfactor">
+<h3>666.1.7. setOptimizingFactor<a class="headerlink" href="#setoptimizingfactor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptimizingFactor">
+<tt class="descname">setOptimizingFactor</tt><big>(</big><em>$optimizingFactor</em><big>)</big><a class="headerlink" href="#setOptimizingFactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set automatic optimizing factor</p>
+<p>Used by:
+- OptimizeByFactor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$optimizingFactor</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getoptimizingfactor">
+<h3>666.1.8. getOptimizingFactor<a class="headerlink" href="#getoptimizingfactor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getOptimizingFactor">
+<tt class="descname">getOptimizingFactor</tt><big>(</big><big>)</big><a class="headerlink" href="#getOptimizingFactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set automatic optimizing factor</p>
+<p>Used by:
+- OptimizeByFactor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setserializer">
+<h3>666.1.9. setSerializer<a class="headerlink" href="#setserializer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSerializer">
+<tt class="descname">setSerializer</tt><big>(</big><em>$serializer</em><big>)</big><a class="headerlink" href="#setSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set serializer</p>
+<p>Used by:
+- Serializer</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$serializer</strong> (<em>string|SerializerAdapter</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Serializer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getserializer">
+<h3>666.1.10. getSerializer<a class="headerlink" href="#getserializer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSerializer">
+<tt class="descname">getSerializer</tt><big>(</big><big>)</big><a class="headerlink" href="#getSerializer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get serializer</p>
+<p>Used by:
+- Serializer</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">SerializerAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setserializeroptions">
+<h3>666.1.11. setSerializerOptions<a class="headerlink" href="#setserializeroptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSerializerOptions">
+<tt class="descname">setSerializerOptions</tt><big>(</big><em>$serializerOptions</em><big>)</big><a class="headerlink" href="#setSerializerOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set configuration options for instantiating a serializer adapter</p>
+<p>Used by:
+- Serializer</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$serializerOptions</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getserializeroptions">
+<h3>666.1.12. getSerializerOptions<a class="headerlink" href="#getserializeroptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSerializerOptions">
+<tt class="descname">getSerializerOptions</tt><big>(</big><big>)</big><a class="headerlink" href="#getSerializerOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get configuration options for instantiating a serializer adapter</p>
+<p>Used by:
+- Serializer</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setthrowexceptions">
+<h3>666.1.13. setThrowExceptions<a class="headerlink" href="#setthrowexceptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setThrowExceptions">
+<tt class="descname">setThrowExceptions</tt><big>(</big><em>$throwExceptions</em><big>)</big><a class="headerlink" href="#setThrowExceptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set flag indicating we should re-throw exceptions</p>
+<p>Used by:
+- ExceptionHandler</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$throwExceptions</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PluginOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getthrowexceptions">
+<h3>666.1.14. getThrowExceptions<a class="headerlink" href="#getthrowexceptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getThrowExceptions">
+<tt class="descname">getThrowExceptions</tt><big>(</big><big>)</big><a class="headerlink" href="#getThrowExceptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Should we re-throw exceptions?</p>
+<p>Used by:
+- ExceptionHandler</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizefactor">
+<h3>666.1.15. normalizeFactor<a class="headerlink" href="#normalizefactor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="normalizeFactor">
+<tt class="descname">normalizeFactor</tt><big>(</big><em>$factor</em><big>)</big><a class="headerlink" href="#normalizeFactor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize a factor</p>
+<p>Cast to int and ensure we have a value greater than zero.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$factor</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">666. Zend\Cache\Storage\Plugin\PluginOptions</a><ul>
+<li><a class="reference internal" href="#methods">666.1. Methods</a><ul>
+<li><a class="reference internal" href="#setclearingfactor">666.1.1. setClearingFactor</a></li>
+<li><a class="reference internal" href="#getclearingfactor">666.1.2. getClearingFactor</a></li>
+<li><a class="reference internal" href="#setexceptioncallback">666.1.3. setExceptionCallback</a></li>
+<li><a class="reference internal" href="#getexceptioncallback">666.1.4. getExceptionCallback</a></li>
+<li><a class="reference internal" href="#setexitonabort">666.1.5. setExitOnAbort</a></li>
+<li><a class="reference internal" href="#getexitonabort">666.1.6. getExitOnAbort</a></li>
+<li><a class="reference internal" href="#setoptimizingfactor">666.1.7. setOptimizingFactor</a></li>
+<li><a class="reference internal" href="#getoptimizingfactor">666.1.8. getOptimizingFactor</a></li>
+<li><a class="reference internal" href="#setserializer">666.1.9. setSerializer</a></li>
+<li><a class="reference internal" href="#getserializer">666.1.10. getSerializer</a></li>
+<li><a class="reference internal" href="#setserializeroptions">666.1.11. setSerializerOptions</a></li>
+<li><a class="reference internal" href="#getserializeroptions">666.1.12. getSerializerOptions</a></li>
+<li><a class="reference internal" href="#setthrowexceptions">666.1.13. setThrowExceptions</a></li>
+<li><a class="reference internal" href="#getthrowexceptions">666.1.14. getThrowExceptions</a></li>
+<li><a class="reference internal" href="#normalizefactor">666.1.15. normalizeFactor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="PluginInterface.html"
+                        title="previous chapter">664. Zend\Cache\Storage\Plugin\setOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Serializer.html"
+                        title="next chapter">667. Zend\Cache\Storage\Plugin\Serializer</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Plugin/PluginOptions.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Serializer.html" title="667. Zend\Cache\Storage\Plugin\Serializer"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="PluginInterface.html" title="664. Zend\Cache\Storage\Plugin\setOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

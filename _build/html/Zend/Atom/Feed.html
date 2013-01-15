@@ -1,0 +1,469 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>82. Zend\Feed\Reader\Extension\Atom\Feed &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="83. Zend\Feed\Writer\Renderer\Feed\Atom\Source" href="Source.html" />
+    <link rel="prev" title="81. Zend\Feed\Reader\Extension\Atom\Entry" href="Entry.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Source.html" title="83. Zend\Feed\Writer\Renderer\Feed\Atom\Source"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Entry.html" title="81. Zend\Feed\Reader\Extension\Atom\Entry"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-reader-extension-atom-feed">
+<h1>82. Zend\Feed\Reader\Extension\Atom\Feed<a class="headerlink" href="#zend-feed-reader-extension-atom-feed" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category Zend</p>
+<div class="section" id="methods">
+<h2>82.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getauthor">
+<h3>82.1.1. getAuthor<a class="headerlink" href="#getauthor" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAuthor">
+<tt class="descname">getAuthor</tt><big>(</big><span class="optional">[</span><em>$index = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getAuthor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a single author</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$index</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getauthors">
+<h3>82.1.2. getAuthors<a class="headerlink" href="#getauthors" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAuthors">
+<tt class="descname">getAuthors</tt><big>(</big><big>)</big><a class="headerlink" href="#getAuthors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array with feed authors</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">CollectionAuthor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcopyright">
+<h3>82.1.3. getCopyright<a class="headerlink" href="#getcopyright" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCopyright">
+<tt class="descname">getCopyright</tt><big>(</big><big>)</big><a class="headerlink" href="#getCopyright" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the copyright entry</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdatecreated">
+<h3>82.1.4. getDateCreated<a class="headerlink" href="#getdatecreated" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDateCreated">
+<tt class="descname">getDateCreated</tt><big>(</big><big>)</big><a class="headerlink" href="#getDateCreated" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed creation date</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DateTime|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdatemodified">
+<h3>82.1.5. getDateModified<a class="headerlink" href="#getdatemodified" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDateModified">
+<tt class="descname">getDateModified</tt><big>(</big><big>)</big><a class="headerlink" href="#getDateModified" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed modification date</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DateTime|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdescription">
+<h3>82.1.6. getDescription<a class="headerlink" href="#getdescription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDescription">
+<tt class="descname">getDescription</tt><big>(</big><big>)</big><a class="headerlink" href="#getDescription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed description</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getgenerator">
+<h3>82.1.7. getGenerator<a class="headerlink" href="#getgenerator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getGenerator">
+<tt class="descname">getGenerator</tt><big>(</big><big>)</big><a class="headerlink" href="#getGenerator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed generator entry</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getid">
+<h3>82.1.8. getId<a class="headerlink" href="#getid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getId">
+<tt class="descname">getId</tt><big>(</big><big>)</big><a class="headerlink" href="#getId" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed ID</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlanguage">
+<h3>82.1.9. getLanguage<a class="headerlink" href="#getlanguage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLanguage">
+<tt class="descname">getLanguage</tt><big>(</big><big>)</big><a class="headerlink" href="#getLanguage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed language</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getimage">
+<h3>82.1.10. getImage<a class="headerlink" href="#getimage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getImage">
+<tt class="descname">getImage</tt><big>(</big><big>)</big><a class="headerlink" href="#getImage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed image</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getbaseurl">
+<h3>82.1.11. getBaseUrl<a class="headerlink" href="#getbaseurl" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBaseUrl">
+<tt class="descname">getBaseUrl</tt><big>(</big><big>)</big><a class="headerlink" href="#getBaseUrl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the base URI of the feed (if set).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlink">
+<h3>82.1.12. getLink<a class="headerlink" href="#getlink" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLink">
+<tt class="descname">getLink</tt><big>(</big><big>)</big><a class="headerlink" href="#getLink" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a link to the source website</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfeedlink">
+<h3>82.1.13. getFeedLink<a class="headerlink" href="#getfeedlink" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFeedLink">
+<tt class="descname">getFeedLink</tt><big>(</big><big>)</big><a class="headerlink" href="#getFeedLink" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a link to the feed&#8217;s XML Url</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gethubs">
+<h3>82.1.14. getHubs<a class="headerlink" href="#gethubs" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHubs">
+<tt class="descname">getHubs</tt><big>(</big><big>)</big><a class="headerlink" href="#getHubs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array of any supported Pusubhubbub endpoints</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettitle">
+<h3>82.1.15. getTitle<a class="headerlink" href="#gettitle" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTitle">
+<tt class="descname">getTitle</tt><big>(</big><big>)</big><a class="headerlink" href="#getTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed title</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcategories">
+<h3>82.1.16. getCategories<a class="headerlink" href="#getcategories" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCategories">
+<tt class="descname">getCategories</tt><big>(</big><big>)</big><a class="headerlink" href="#getCategories" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get all categories</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">CollectionCategory</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getauthorfromelement">
+<h3>82.1.17. getAuthorFromElement<a class="headerlink" href="#getauthorfromelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAuthorFromElement">
+<tt class="descname">getAuthorFromElement</tt><big>(</big><em>$element</em><big>)</big><a class="headerlink" href="#getAuthorFromElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an author entry in RSS format</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$element</strong> (<em>DOMElement</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="absolutiseuri">
+<h3>82.1.18. absolutiseUri<a class="headerlink" href="#absolutiseuri" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="absolutiseUri">
+<tt class="descname">absolutiseUri</tt><big>(</big><em>$link</em><big>)</big><a class="headerlink" href="#absolutiseUri" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Attempt to absolutise the URI, i.e. if a relative URI apply the</dt>
+<dd>xml:base value as a prefix to turn into an absolute URI.</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="registernamespaces">
+<h3>82.1.19. registerNamespaces<a class="headerlink" href="#registernamespaces" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerNamespaces">
+<tt class="descname">registerNamespaces</tt><big>(</big><big>)</big><a class="headerlink" href="#registerNamespaces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register the default namespaces for the current feed format</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getatomtype">
+<h3>82.1.20. getAtomType<a class="headerlink" href="#getatomtype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAtomType">
+<tt class="descname">getAtomType</tt><big>(</big><big>)</big><a class="headerlink" href="#getAtomType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Detect the presence of any Atom namespaces in use</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">82. Zend\Feed\Reader\Extension\Atom\Feed</a><ul>
+<li><a class="reference internal" href="#methods">82.1. Methods</a><ul>
+<li><a class="reference internal" href="#getauthor">82.1.1. getAuthor</a></li>
+<li><a class="reference internal" href="#getauthors">82.1.2. getAuthors</a></li>
+<li><a class="reference internal" href="#getcopyright">82.1.3. getCopyright</a></li>
+<li><a class="reference internal" href="#getdatecreated">82.1.4. getDateCreated</a></li>
+<li><a class="reference internal" href="#getdatemodified">82.1.5. getDateModified</a></li>
+<li><a class="reference internal" href="#getdescription">82.1.6. getDescription</a></li>
+<li><a class="reference internal" href="#getgenerator">82.1.7. getGenerator</a></li>
+<li><a class="reference internal" href="#getid">82.1.8. getId</a></li>
+<li><a class="reference internal" href="#getlanguage">82.1.9. getLanguage</a></li>
+<li><a class="reference internal" href="#getimage">82.1.10. getImage</a></li>
+<li><a class="reference internal" href="#getbaseurl">82.1.11. getBaseUrl</a></li>
+<li><a class="reference internal" href="#getlink">82.1.12. getLink</a></li>
+<li><a class="reference internal" href="#getfeedlink">82.1.13. getFeedLink</a></li>
+<li><a class="reference internal" href="#gethubs">82.1.14. getHubs</a></li>
+<li><a class="reference internal" href="#gettitle">82.1.15. getTitle</a></li>
+<li><a class="reference internal" href="#getcategories">82.1.16. getCategories</a></li>
+<li><a class="reference internal" href="#getauthorfromelement">82.1.17. getAuthorFromElement</a></li>
+<li><a class="reference internal" href="#absolutiseuri">82.1.18. absolutiseUri</a></li>
+<li><a class="reference internal" href="#registernamespaces">82.1.19. registerNamespaces</a></li>
+<li><a class="reference internal" href="#getatomtype">82.1.20. getAtomType</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Entry.html"
+                        title="previous chapter">81. Zend\Feed\Reader\Extension\Atom\Entry</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Source.html"
+                        title="next chapter">83. Zend\Feed\Writer\Renderer\Feed\Atom\Source</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Atom/Feed.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Source.html" title="83. Zend\Feed\Writer\Renderer\Feed\Atom\Source"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Entry.html" title="81. Zend\Feed\Reader\Extension\Atom\Entry"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

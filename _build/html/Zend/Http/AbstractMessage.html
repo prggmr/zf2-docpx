@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>506. Zend\Http\AbstractMessage &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="507. Zend\Http\Client" href="Client.html" />
+    <link rel="prev" title="505. Zend\Form\View\Helper\FormWeek" href="../Helper/FormWeek.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Client.html" title="507. Zend\Http\Client"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Helper/FormWeek.html" title="505. Zend\Form\View\Helper\FormWeek"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-http-abstractmessage">
+<h1>506. Zend\Http\AbstractMessage<a class="headerlink" href="#zend-http-abstractmessage" title="Permalink to this headline">¶</a></h1>
+<p>HTTP standard message (Request/Response)</p>
+<div class="section" id="methods">
+<h2>506.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setversion">
+<h3>506.1.1. setVersion<a class="headerlink" href="#setversion" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setVersion">
+<tt class="descname">setVersion</tt><big>(</big><em>$version</em><big>)</big><a class="headerlink" href="#setVersion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the HTTP version for this object, one of 1.0 or 1.1
+(AbstractMessage::VERSION_10, AbstractMessage::VERSION_11)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$version</strong> (<em>string</em>) &#8211; (Must be 1.0 or 1.1)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractMessage</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getversion">
+<h3>506.1.2. getVersion<a class="headerlink" href="#getversion" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getVersion">
+<tt class="descname">getVersion</tt><big>(</big><big>)</big><a class="headerlink" href="#getVersion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the HTTP version for this request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setheaders">
+<h3>506.1.3. setHeaders<a class="headerlink" href="#setheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHeaders">
+<tt class="descname">setHeaders</tt><big>(</big><em>$headers</em><big>)</big><a class="headerlink" href="#setHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide an alternate Parameter Container implementation for headers in this object,
+(this is NOT the primary API for value setting, for that see getHeaders())</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param Headers $headers:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">AbstractMessage</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="getheaders">
+<h3>506.1.4. getHeaders<a class="headerlink" href="#getheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeaders">
+<tt class="descname">getHeaders</tt><big>(</big><big>)</big><a class="headerlink" href="#getHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the header container responsible for headers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Headers</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="tostring">
+<h3>506.1.5. __toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__toString">
+<tt class="descname">__toString</tt><big>(</big><big>)</big><a class="headerlink" href="#__toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Allow PHP casting of this object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>506.1.6. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="version-10">
+<h4>506.1.6.1. VERSION_10<a class="headerlink" href="#version-10" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="version-11">
+<h4>506.1.6.2. VERSION_11<a class="headerlink" href="#version-11" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">506. Zend\Http\AbstractMessage</a><ul>
+<li><a class="reference internal" href="#methods">506.1. Methods</a><ul>
+<li><a class="reference internal" href="#setversion">506.1.1. setVersion</a></li>
+<li><a class="reference internal" href="#getversion">506.1.2. getVersion</a></li>
+<li><a class="reference internal" href="#setheaders">506.1.3. setHeaders</a></li>
+<li><a class="reference internal" href="#getheaders">506.1.4. getHeaders</a></li>
+<li><a class="reference internal" href="#tostring">506.1.5. __toString</a></li>
+<li><a class="reference internal" href="#constants">506.1.6. Constants</a><ul>
+<li><a class="reference internal" href="#version-10">506.1.6.1. VERSION_10</a></li>
+<li><a class="reference internal" href="#version-11">506.1.6.2. VERSION_11</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Helper/FormWeek.html"
+                        title="previous chapter">505. Zend\Form\View\Helper\FormWeek</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Client.html"
+                        title="next chapter">507. Zend\Http\Client</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Http/AbstractMessage.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Client.html" title="507. Zend\Http\Client"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Helper/FormWeek.html" title="505. Zend\Form\View\Helper\FormWeek"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

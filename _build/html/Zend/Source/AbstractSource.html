@@ -1,0 +1,590 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>775. Zend\Db\Metadata\Source\AbstractSource &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="776. Zend\Db\Metadata\Source\MysqlMetadata" href="MysqlMetadata.html" />
+    <link rel="prev" title="774. Zend\Feed\Reader\Extension\Slash\Entry" href="../Slash/Entry.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="MysqlMetadata.html" title="776. Zend\Db\Metadata\Source\MysqlMetadata"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Slash/Entry.html" title="774. Zend\Feed\Reader\Extension\Slash\Entry"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-metadata-source-abstractsource">
+<h1>775. Zend\Db\Metadata\Source\AbstractSource<a class="headerlink" href="#zend-db-metadata-source-abstractsource" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>775.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>775.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><em>$adapter</em><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$adapter</strong> (<em>Adapter</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getschemas">
+<h3>775.1.2. getSchemas<a class="headerlink" href="#getschemas" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSchemas">
+<tt class="descname">getSchemas</tt><big>(</big><big>)</big><a class="headerlink" href="#getSchemas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get schemas</p>
+</dd></dl>
+
+</div>
+<div class="section" id="gettablenames">
+<h3>775.1.3. getTableNames<a class="headerlink" href="#gettablenames" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTableNames">
+<tt class="descname">getTableNames</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">[</span>, <em>$includeViews = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTableNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get table names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$includeViews</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string[]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettables">
+<h3>775.1.4. getTables<a class="headerlink" href="#gettables" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTables">
+<tt class="descname">getTables</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">[</span>, <em>$includeViews = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTables" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get tables</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$includeViews</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ObjectTableObject[]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettable">
+<h3>775.1.5. getTable<a class="headerlink" href="#gettable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTable">
+<tt class="descname">getTable</tt><big>(</big><em>$tableName</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get table</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$tableName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ObjectTableObject</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getviewnames">
+<h3>775.1.6. getViewNames<a class="headerlink" href="#getviewnames" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getViewNames">
+<tt class="descname">getViewNames</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getViewNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get view names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$schema</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getviews">
+<h3>775.1.7. getViews<a class="headerlink" href="#getviews" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getViews">
+<tt class="descname">getViews</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getViews" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get views</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$schema</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getview">
+<h3>775.1.8. getView<a class="headerlink" href="#getview" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getView">
+<tt class="descname">getView</tt><big>(</big><em>$viewName</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getView" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get view</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$viewName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ZendDbMetadataObjectTableObject</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcolumnnames">
+<h3>775.1.9. getColumnNames<a class="headerlink" href="#getcolumnnames" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getColumnNames">
+<tt class="descname">getColumnNames</tt><big>(</big><em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getColumnNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gt column names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcolumns">
+<h3>775.1.10. getColumns<a class="headerlink" href="#getcolumns" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getColumns">
+<tt class="descname">getColumns</tt><big>(</big><em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getColumns" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get columns</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcolumn">
+<h3>775.1.11. getColumn<a class="headerlink" href="#getcolumn" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getColumn">
+<tt class="descname">getColumn</tt><big>(</big><em>$columnName</em>, <em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getColumn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get column</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$columnName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ObjectColumnObject</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getconstraints">
+<h3>775.1.12. getConstraints<a class="headerlink" href="#getconstraints" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getConstraints">
+<tt class="descname">getConstraints</tt><big>(</big><em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getConstraints" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get constraints</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getconstraint">
+<h3>775.1.13. getConstraint<a class="headerlink" href="#getconstraint" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getConstraint">
+<tt class="descname">getConstraint</tt><big>(</big><em>$constraintName</em>, <em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getConstraint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get constraint</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$constraintName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ObjectConstraintObject</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getconstraintkeys">
+<h3>775.1.14. getConstraintKeys<a class="headerlink" href="#getconstraintkeys" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getConstraintKeys">
+<tt class="descname">getConstraintKeys</tt><big>(</big><em>$constraint</em>, <em>$table</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getConstraintKeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get constraint keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$constraint</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$table</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettriggernames">
+<h3>775.1.15. getTriggerNames<a class="headerlink" href="#gettriggernames" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTriggerNames">
+<tt class="descname">getTriggerNames</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTriggerNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get trigger names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$schema</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettriggers">
+<h3>775.1.16. getTriggers<a class="headerlink" href="#gettriggers" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTriggers">
+<tt class="descname">getTriggers</tt><big>(</big><span class="optional">[</span><em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTriggers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get triggers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$schema</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettrigger">
+<h3>775.1.17. getTrigger<a class="headerlink" href="#gettrigger" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTrigger">
+<tt class="descname">getTrigger</tt><big>(</big><em>$triggerName</em><span class="optional">[</span>, <em>$schema = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getTrigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get trigger</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$triggerName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$schema</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">ObjectTriggerObject</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preparedatahierarchy">
+<h3>775.1.18. prepareDataHierarchy<a class="headerlink" href="#preparedatahierarchy" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareDataHierarchy">
+<tt class="descname">prepareDataHierarchy</tt><big>(</big><em>$type</em><big>)</big><a class="headerlink" href="#prepareDataHierarchy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare data hierarchy</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$type</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$key</strong> (<em>string</em>) &#8211; <p>...</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="loadschemadata">
+<h3>775.1.19. loadSchemaData<a class="headerlink" href="#loadschemadata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadSchemaData">
+<tt class="descname">loadSchemaData</tt><big>(</big><big>)</big><a class="headerlink" href="#loadSchemaData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="loadtablenamedata">
+<h3>775.1.20. loadTableNameData<a class="headerlink" href="#loadtablenamedata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadTableNameData">
+<tt class="descname">loadTableNameData</tt><big>(</big><em>$schema</em><big>)</big><a class="headerlink" href="#loadTableNameData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="loadcolumndata">
+<h3>775.1.21. loadColumnData<a class="headerlink" href="#loadcolumndata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadColumnData">
+<tt class="descname">loadColumnData</tt><big>(</big><em>$table</em>, <em>$schema</em><big>)</big><a class="headerlink" href="#loadColumnData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="loadconstraintdata">
+<h3>775.1.22. loadConstraintData<a class="headerlink" href="#loadconstraintdata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadConstraintData">
+<tt class="descname">loadConstraintData</tt><big>(</big><em>$table</em>, <em>$schema</em><big>)</big><a class="headerlink" href="#loadConstraintData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="loadtriggerdata">
+<h3>775.1.23. loadTriggerData<a class="headerlink" href="#loadtriggerdata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadTriggerData">
+<tt class="descname">loadTriggerData</tt><big>(</big><em>$schema</em><big>)</big><a class="headerlink" href="#loadTriggerData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>775.1.24. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="default-schema">
+<h4>775.1.24.1. DEFAULT_SCHEMA<a class="headerlink" href="#default-schema" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">775. Zend\Db\Metadata\Source\AbstractSource</a><ul>
+<li><a class="reference internal" href="#methods">775.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">775.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getschemas">775.1.2. getSchemas</a></li>
+<li><a class="reference internal" href="#gettablenames">775.1.3. getTableNames</a></li>
+<li><a class="reference internal" href="#gettables">775.1.4. getTables</a></li>
+<li><a class="reference internal" href="#gettable">775.1.5. getTable</a></li>
+<li><a class="reference internal" href="#getviewnames">775.1.6. getViewNames</a></li>
+<li><a class="reference internal" href="#getviews">775.1.7. getViews</a></li>
+<li><a class="reference internal" href="#getview">775.1.8. getView</a></li>
+<li><a class="reference internal" href="#getcolumnnames">775.1.9. getColumnNames</a></li>
+<li><a class="reference internal" href="#getcolumns">775.1.10. getColumns</a></li>
+<li><a class="reference internal" href="#getcolumn">775.1.11. getColumn</a></li>
+<li><a class="reference internal" href="#getconstraints">775.1.12. getConstraints</a></li>
+<li><a class="reference internal" href="#getconstraint">775.1.13. getConstraint</a></li>
+<li><a class="reference internal" href="#getconstraintkeys">775.1.14. getConstraintKeys</a></li>
+<li><a class="reference internal" href="#gettriggernames">775.1.15. getTriggerNames</a></li>
+<li><a class="reference internal" href="#gettriggers">775.1.16. getTriggers</a></li>
+<li><a class="reference internal" href="#gettrigger">775.1.17. getTrigger</a></li>
+<li><a class="reference internal" href="#preparedatahierarchy">775.1.18. prepareDataHierarchy</a></li>
+<li><a class="reference internal" href="#loadschemadata">775.1.19. loadSchemaData</a></li>
+<li><a class="reference internal" href="#loadtablenamedata">775.1.20. loadTableNameData</a></li>
+<li><a class="reference internal" href="#loadcolumndata">775.1.21. loadColumnData</a></li>
+<li><a class="reference internal" href="#loadconstraintdata">775.1.22. loadConstraintData</a></li>
+<li><a class="reference internal" href="#loadtriggerdata">775.1.23. loadTriggerData</a></li>
+<li><a class="reference internal" href="#constants">775.1.24. Constants</a><ul>
+<li><a class="reference internal" href="#default-schema">775.1.24.1. DEFAULT_SCHEMA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Slash/Entry.html"
+                        title="previous chapter">774. Zend\Feed\Reader\Extension\Slash\Entry</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="MysqlMetadata.html"
+                        title="next chapter">776. Zend\Db\Metadata\Source\MysqlMetadata</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Source/AbstractSource.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="MysqlMetadata.html" title="776. Zend\Db\Metadata\Source\MysqlMetadata"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Slash/Entry.html" title="774. Zend\Feed\Reader\Extension\Slash\Entry"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

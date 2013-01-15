@@ -1,0 +1,1218 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>507. Zend\Http\Client &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="508. Zend\Http\ClientStatic" href="ClientStatic.html" />
+    <link rel="prev" title="506. Zend\Http\AbstractMessage" href="AbstractMessage.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ClientStatic.html" title="508. Zend\Http\ClientStatic"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AbstractMessage.html" title="506. Zend\Http\AbstractMessage"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-http-client">
+<h1>507. Zend\Http\Client<a class="headerlink" href="#zend-http-client" title="Permalink to this headline">¶</a></h1>
+<p>Http client</p>
+<div class="section" id="methods">
+<h2>507.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>507.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$uri = false</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$uri</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$options</strong> (<em>array|Traversable</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setoptions">
+<h3>507.1.2. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set configuration parameters for this HTTP client</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ClientExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setadapter">
+<h3>507.1.3. setAdapter<a class="headerlink" href="#setadapter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAdapter">
+<tt class="descname">setAdapter</tt><big>(</big><em>$adapter</em><big>)</big><a class="headerlink" href="#setAdapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the connection adapter</p>
+<p>While this method is not called more than one for a client, it is
+separated from -&gt;request() to preserve logic and readability</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$adapter</strong> (<em>ClientAdapterAdapterInterface|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ClientExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getadapter">
+<h3>507.1.4. getAdapter<a class="headerlink" href="#getadapter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAdapter">
+<tt class="descname">getAdapter</tt><big>(</big><big>)</big><a class="headerlink" href="#getAdapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the connection adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ClientAdapterAdapterInterface $adapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setrequest">
+<h3>507.1.5. setRequest<a class="headerlink" href="#setrequest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRequest">
+<tt class="descname">setRequest</tt><big>(</big><em>$request</em><big>)</big><a class="headerlink" href="#setRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$request</strong> (<em>Request</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrequest">
+<h3>507.1.6. getRequest<a class="headerlink" href="#getrequest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRequest">
+<tt class="descname">getRequest</tt><big>(</big><big>)</big><a class="headerlink" href="#getRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setresponse">
+<h3>507.1.7. setResponse<a class="headerlink" href="#setresponse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setResponse">
+<tt class="descname">setResponse</tt><big>(</big><em>$response</em><big>)</big><a class="headerlink" href="#setResponse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set response</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$response</strong> (<em>Response</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getresponse">
+<h3>507.1.8. getResponse<a class="headerlink" href="#getresponse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getResponse">
+<tt class="descname">getResponse</tt><big>(</big><big>)</big><a class="headerlink" href="#getResponse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Response</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Response</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlastrawrequest">
+<h3>507.1.9. getLastRawRequest<a class="headerlink" href="#getlastrawrequest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLastRawRequest">
+<tt class="descname">getLastRawRequest</tt><big>(</big><big>)</big><a class="headerlink" href="#getLastRawRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the last request (as a string)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlastrawresponse">
+<h3>507.1.10. getLastRawResponse<a class="headerlink" href="#getlastrawresponse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLastRawResponse">
+<tt class="descname">getLastRawResponse</tt><big>(</big><big>)</big><a class="headerlink" href="#getLastRawResponse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the last response (as a string)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getredirectionscount">
+<h3>507.1.11. getRedirectionsCount<a class="headerlink" href="#getredirectionscount" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRedirectionsCount">
+<tt class="descname">getRedirectionsCount</tt><big>(</big><big>)</big><a class="headerlink" href="#getRedirectionsCount" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the redirections count</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="seturi">
+<h3>507.1.12. setUri<a class="headerlink" href="#seturi" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUri">
+<tt class="descname">setUri</tt><big>(</big><em>$uri</em><big>)</big><a class="headerlink" href="#setUri" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Uri (to the request)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$uri</strong> (<em>string|Http</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="geturi">
+<h3>507.1.13. getUri<a class="headerlink" href="#geturi" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUri">
+<tt class="descname">getUri</tt><big>(</big><big>)</big><a class="headerlink" href="#getUri" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get uri (from the request)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Http</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setmethod">
+<h3>507.1.14. setMethod<a class="headerlink" href="#setmethod" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setMethod">
+<tt class="descname">setMethod</tt><big>(</big><em>$method</em><big>)</big><a class="headerlink" href="#setMethod" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the HTTP method (to the request)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$method</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmethod">
+<h3>507.1.15. getMethod<a class="headerlink" href="#getmethod" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMethod">
+<tt class="descname">getMethod</tt><big>(</big><big>)</big><a class="headerlink" href="#getMethod" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the HTTP method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setenctype">
+<h3>507.1.16. setEncType<a class="headerlink" href="#setenctype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEncType">
+<tt class="descname">setEncType</tt><big>(</big><em>$encType</em><span class="optional">[</span>, <em>$boundary = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setEncType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the encoding type and the boundary (if any)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$encType</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$boundary</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Client</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getenctype">
+<h3>507.1.17. getEncType<a class="headerlink" href="#getenctype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEncType">
+<tt class="descname">getEncType</tt><big>(</big><big>)</big><a class="headerlink" href="#getEncType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the encoding type</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setrawbody">
+<h3>507.1.18. setRawBody<a class="headerlink" href="#setrawbody" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRawBody">
+<tt class="descname">setRawBody</tt><big>(</big><em>$body</em><big>)</big><a class="headerlink" href="#setRawBody" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set raw body (for advanced use cases)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$body</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setparameterpost">
+<h3>507.1.19. setParameterPost<a class="headerlink" href="#setparameterpost" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setParameterPost">
+<tt class="descname">setParameterPost</tt><big>(</big><em>$post</em><big>)</big><a class="headerlink" href="#setParameterPost" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the POST parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$post</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setparameterget">
+<h3>507.1.20. setParameterGet<a class="headerlink" href="#setparameterget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setParameterGet">
+<tt class="descname">setParameterGet</tt><big>(</big><em>$query</em><big>)</big><a class="headerlink" href="#setParameterGet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the GET parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$query</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcookies">
+<h3>507.1.21. getCookies<a class="headerlink" href="#getcookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCookies">
+<tt class="descname">getCookies</tt><big>(</big><big>)</big><a class="headerlink" href="#getCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current cookies</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcookieid">
+<h3>507.1.22. getCookieId<a class="headerlink" href="#getcookieid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCookieId">
+<tt class="descname">getCookieId</tt><big>(</big><em>$cookie</em><big>)</big><a class="headerlink" href="#getCookieId" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the cookie Id (name+domain+path)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cookie</strong> (<em>HeaderSetCookie|HeaderCookie</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addcookie">
+<h3>507.1.23. addCookie<a class="headerlink" href="#addcookie" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addCookie">
+<tt class="descname">addCookie</tt><big>(</big><em>$cookie</em><span class="optional">[</span>, <em>$value = false</em><span class="optional">[</span>, <em>$expire = false</em><span class="optional">[</span>, <em>$path = false</em><span class="optional">[</span>, <em>$domain = false</em><span class="optional">[</span>, <em>$secure = false</em><span class="optional">[</span>, <em>$httponly = true</em><span class="optional">[</span>, <em>$maxAge = false</em><span class="optional">[</span>, <em>$version = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#addCookie" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a cookie</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$cookie</strong> (<em>array|ArrayIterator|HeaderSetCookie|string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$expire</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$path</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$domain</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$secure</strong> (<em>bool</em>) &#8211; </li>
+<li><strong>$httponly</strong> (<em>bool</em>) &#8211; </li>
+<li><strong>$maxAge</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$version</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Client</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcookies">
+<h3>507.1.24. setCookies<a class="headerlink" href="#setcookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCookies">
+<tt class="descname">setCookies</tt><big>(</big><em>$cookies</em><big>)</big><a class="headerlink" href="#setCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set an array of cookies</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cookies</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearcookies">
+<h3>507.1.25. clearCookies<a class="headerlink" href="#clearcookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearCookies">
+<tt class="descname">clearCookies</tt><big>(</big><big>)</big><a class="headerlink" href="#clearCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear all the cookies</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setheaders">
+<h3>507.1.26. setHeaders<a class="headerlink" href="#setheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHeaders">
+<tt class="descname">setHeaders</tt><big>(</big><em>$headers</em><big>)</big><a class="headerlink" href="#setHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the headers (for the request)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$headers</strong> (<em>Headers|array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasheader">
+<h3>507.1.27. hasHeader<a class="headerlink" href="#hasheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasHeader">
+<tt class="descname">hasHeader</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#hasHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if exists the header type specified</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheader">
+<h3>507.1.28. getHeader<a class="headerlink" href="#getheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeader">
+<tt class="descname">getHeader</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the header value of the request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setstream">
+<h3>507.1.29. setStream<a class="headerlink" href="#setstream" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setStream">
+<tt class="descname">setStream</tt><big>(</big><span class="optional">[</span><em>$streamfile = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setStream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set streaming for received data</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$streamfile</strong> (<em>string|bool</em>) &#8211; Stream file, true for temp file, false/null for no streaming</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendHttpClient</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getstream">
+<h3>507.1.30. getStream<a class="headerlink" href="#getstream" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getStream">
+<tt class="descname">getStream</tt><big>(</big><big>)</big><a class="headerlink" href="#getStream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get status of streaming for received data</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="opentempstream">
+<h3>507.1.31. openTempStream<a class="headerlink" href="#opentempstream" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="openTempStream">
+<tt class="descname">openTempStream</tt><big>(</big><big>)</big><a class="headerlink" href="#openTempStream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create temporary stream</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">resource</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setauth">
+<h3>507.1.32. setAuth<a class="headerlink" href="#setauth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAuth">
+<tt class="descname">setAuth</tt><big>(</big><em>$user</em>, <em>$password</em><span class="optional">[</span>, <em>$type = &quot;basic&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setAuth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a HTTP authentication &#8220;Authorization:&#8221; header according to the
+specified user, password and authentication method.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$user</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$password</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$type</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Client</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="calcauthdigest">
+<h3>507.1.33. calcAuthDigest<a class="headerlink" href="#calcauthdigest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="calcAuthDigest">
+<tt class="descname">calcAuthDigest</tt><big>(</big><em>$user</em>, <em>$password</em><span class="optional">[</span>, <em>$type = &quot;basic&quot;</em><span class="optional">[</span>, <em>$digest = false</em><span class="optional">[</span>, <em>$entityBody = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#calcAuthDigest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the response value according to the HTTP authentication type</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $user:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string $password:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $type:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param array $digest:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">param null|string $entityBody:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">string|bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="resetparameters">
+<h3>507.1.34. resetParameters<a class="headerlink" href="#resetparameters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="resetParameters">
+<tt class="descname">resetParameters</tt><big>(</big><span class="optional">[</span><em>$clearCookies = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#resetParameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reset all the HTTP parameters (auth,cookies,request, response, etc)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$clearCookies</strong> (<em>bool</em>) &#8211; Also clear all valid cookies? (defaults to false)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Client</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="dispatch">
+<h3>507.1.35. dispatch<a class="headerlink" href="#dispatch" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">dispatch</tt><big>(</big><em>$request</em><span class="optional">[</span>, <em>$response = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Dispatch</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$request</strong> (<em>StdlibRequestInterface</em>) &#8211; </li>
+<li><strong>$response</strong> (<em>StdlibResponseInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">StdlibResponseInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="send">
+<h3>507.1.36. send<a class="headerlink" href="#send" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">send</tt><big>(</big><span class="optional">[</span><em>$request = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Send HTTP request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$request</strong> (<em>Request</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Response</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ClientExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfileupload">
+<h3>507.1.37. setFileUpload<a class="headerlink" href="#setfileupload" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFileUpload">
+<tt class="descname">setFileUpload</tt><big>(</big><em>$filename</em>, <em>$formname</em><span class="optional">[</span>, <em>$data = false</em><span class="optional">[</span>, <em>$ctype = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#setFileUpload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a file to upload (using a POST request)</p>
+<p>Can be used in two ways:</p>
+<p>1. $data is null (default): $filename is treated as the name if a local file which
+will be read and sent. Will try to guess the content type using mime_content_type().
+2. $data is set - $filename is sent as the file name, but $data is sent as the file
+contents and no file is read from the file system. In this case, you need to
+manually set the Content-Type ($ctype) or it will default to
+application/octet-stream.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$filename</strong> (<em>string</em>) &#8211; Name of file to upload, or name to save as</li>
+<li><strong>$formname</strong> (<em>string</em>) &#8211; Name of form element to send as</li>
+<li><strong>$data</strong> (<em>string</em>) &#8211; Data to send (if null, $filename is read and sent)</li>
+<li><strong>$ctype</strong> (<em>string</em>) &#8211; Content type to use (if $data is set and $ctype is
+null, will be application/octet-stream)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">Client</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="removefileupload">
+<h3>507.1.38. removeFileUpload<a class="headerlink" href="#removefileupload" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="removeFileUpload">
+<tt class="descname">removeFileUpload</tt><big>(</big><em>$filename</em><big>)</big><a class="headerlink" href="#removeFileUpload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a file to upload</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filename</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preparecookies">
+<h3>507.1.39. prepareCookies<a class="headerlink" href="#preparecookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareCookies">
+<tt class="descname">prepareCookies</tt><big>(</big><em>$domain</em>, <em>$path</em>, <em>$secure</em><big>)</big><a class="headerlink" href="#prepareCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare Cookies</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$domain</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$path</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$secure</strong> (<em>boolean</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">HeaderCookie|bool</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareheaders">
+<h3>507.1.40. prepareHeaders<a class="headerlink" href="#prepareheaders" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareHeaders">
+<tt class="descname">prepareHeaders</tt><big>(</big><em>$body</em>, <em>$uri</em><big>)</big><a class="headerlink" href="#prepareHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare the request headers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$body</strong> (<em>resource|string</em>) &#8211; </li>
+<li><strong>$uri</strong> (<em>Http</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preparebody">
+<h3>507.1.41. prepareBody<a class="headerlink" href="#preparebody" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareBody">
+<tt class="descname">prepareBody</tt><big>(</big><big>)</big><a class="headerlink" href="#prepareBody" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare the request body (for PATCH, POST and PUT requests)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ZendHttpClientExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detectfilemimetype">
+<h3>507.1.42. detectFileMimeType<a class="headerlink" href="#detectfilemimetype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="detectFileMimeType">
+<tt class="descname">detectFileMimeType</tt><big>(</big><em>$file</em><big>)</big><a class="headerlink" href="#detectFileMimeType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attempt to detect the MIME type of a file using available extensions</p>
+<p>This method will try to detect the MIME type of a file. If the fileinfo
+extension is available, it will be used. If not, the mime_magic
+extension which is deprecated but is still available in many PHP setups
+will be tried.</p>
+<p>If neither extension is available, the default application/octet-stream
+MIME type will be returned</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$file</strong> (<em>string</em>) &#8211; File path</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string MIME type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="encodeformdata">
+<h3>507.1.43. encodeFormData<a class="headerlink" href="#encodeformdata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="encodeFormData">
+<tt class="descname">encodeFormData</tt><big>(</big><em>$boundary</em>, <em>$name</em>, <em>$value</em><span class="optional">[</span>, <em>$filename = false</em><span class="optional">[</span>, <em>$headers = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#encodeFormData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encode data to a multipart/form-data part suitable for a POST request.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$boundary</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$filename</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$headers</strong> (<em>array</em>) &#8211; Associative array of optional headers &#64;example (&#8220;Content-Transfer-Encoding&#8221; =&gt; &#8220;binary&#8221;)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="flattenparametersarray">
+<h3>507.1.44. flattenParametersArray<a class="headerlink" href="#flattenparametersarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="flattenParametersArray">
+<tt class="descname">flattenParametersArray</tt><big>(</big><em>$parray</em><span class="optional">[</span>, <em>$prefix = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#flattenParametersArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert an array of parameters into a flat array of (key, value) pairs</p>
+<p>Will flatten a potentially multi-dimentional array of parameters (such
+as POST parameters) into a flat array of (key, value) paris. In case
+of multi-dimentional arrays, square brackets ([]) will be added to the
+key to indicate an array.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param array $parray:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string $prefix:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="dorequest">
+<h3>507.1.45. doRequest<a class="headerlink" href="#dorequest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="doRequest">
+<tt class="descname">doRequest</tt><big>(</big><em>$uri</em>, <em>$method</em><span class="optional">[</span>, <em>$secure = false</em><span class="optional">[</span>, <em>$headers = false</em><span class="optional">[</span>, <em>$body = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#doRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Separating this from send method allows subclasses to wrap
+the interaction with the adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$uri</strong> (<em>Http</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$secure</strong> (<em>bool</em>) &#8211; </li>
+<li><strong>$headers</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$body</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string the raw response</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="encodeauthheader">
+<h3>507.1.46. encodeAuthHeader<a class="headerlink" href="#encodeauthheader" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="encodeAuthHeader">
+<tt class="descname">encodeAuthHeader</tt><big>(</big><em>$user</em>, <em>$password</em><span class="optional">[</span>, <em>$type = &quot;basic&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#encodeAuthHeader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a HTTP authentication &#8220;Authorization:&#8221; header according to the
+specified user, password and authentication method.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $user:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string $password:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $type:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">throws:</th><td class="field-body">ZendHttpClientExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="constants">
+<h3>507.1.47. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="auth-basic">
+<h4>507.1.47.1. AUTH_BASIC<a class="headerlink" href="#auth-basic" title="Permalink to this headline">¶</a></h4>
+<p>&#64;const string Supported HTTP Authentication methods</p>
+</div>
+<div class="section" id="auth-digest">
+<h4>507.1.47.2. AUTH_DIGEST<a class="headerlink" href="#auth-digest" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="enc-urlencoded">
+<h4>507.1.47.3. ENC_URLENCODED<a class="headerlink" href="#enc-urlencoded" title="Permalink to this headline">¶</a></h4>
+<p>&#64;const string POST data encoding methods</p>
+</div>
+<div class="section" id="enc-formdata">
+<h4>507.1.47.4. ENC_FORMDATA<a class="headerlink" href="#enc-formdata" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="digest-realm">
+<h4>507.1.47.5. DIGEST_REALM<a class="headerlink" href="#digest-realm" title="Permalink to this headline">¶</a></h4>
+<p>&#64;const string DIGEST Authentication</p>
+</div>
+<div class="section" id="digest-qop">
+<h4>507.1.47.6. DIGEST_QOP<a class="headerlink" href="#digest-qop" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="digest-nonce">
+<h4>507.1.47.7. DIGEST_NONCE<a class="headerlink" href="#digest-nonce" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="digest-opaque">
+<h4>507.1.47.8. DIGEST_OPAQUE<a class="headerlink" href="#digest-opaque" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="digest-nc">
+<h4>507.1.47.9. DIGEST_NC<a class="headerlink" href="#digest-nc" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="digest-cnonce">
+<h4>507.1.47.10. DIGEST_CNONCE<a class="headerlink" href="#digest-cnonce" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">507. Zend\Http\Client</a><ul>
+<li><a class="reference internal" href="#methods">507.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">507.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setoptions">507.1.2. setOptions</a></li>
+<li><a class="reference internal" href="#setadapter">507.1.3. setAdapter</a></li>
+<li><a class="reference internal" href="#getadapter">507.1.4. getAdapter</a></li>
+<li><a class="reference internal" href="#setrequest">507.1.5. setRequest</a></li>
+<li><a class="reference internal" href="#getrequest">507.1.6. getRequest</a></li>
+<li><a class="reference internal" href="#setresponse">507.1.7. setResponse</a></li>
+<li><a class="reference internal" href="#getresponse">507.1.8. getResponse</a></li>
+<li><a class="reference internal" href="#getlastrawrequest">507.1.9. getLastRawRequest</a></li>
+<li><a class="reference internal" href="#getlastrawresponse">507.1.10. getLastRawResponse</a></li>
+<li><a class="reference internal" href="#getredirectionscount">507.1.11. getRedirectionsCount</a></li>
+<li><a class="reference internal" href="#seturi">507.1.12. setUri</a></li>
+<li><a class="reference internal" href="#geturi">507.1.13. getUri</a></li>
+<li><a class="reference internal" href="#setmethod">507.1.14. setMethod</a></li>
+<li><a class="reference internal" href="#getmethod">507.1.15. getMethod</a></li>
+<li><a class="reference internal" href="#setenctype">507.1.16. setEncType</a></li>
+<li><a class="reference internal" href="#getenctype">507.1.17. getEncType</a></li>
+<li><a class="reference internal" href="#setrawbody">507.1.18. setRawBody</a></li>
+<li><a class="reference internal" href="#setparameterpost">507.1.19. setParameterPost</a></li>
+<li><a class="reference internal" href="#setparameterget">507.1.20. setParameterGet</a></li>
+<li><a class="reference internal" href="#getcookies">507.1.21. getCookies</a></li>
+<li><a class="reference internal" href="#getcookieid">507.1.22. getCookieId</a></li>
+<li><a class="reference internal" href="#addcookie">507.1.23. addCookie</a></li>
+<li><a class="reference internal" href="#setcookies">507.1.24. setCookies</a></li>
+<li><a class="reference internal" href="#clearcookies">507.1.25. clearCookies</a></li>
+<li><a class="reference internal" href="#setheaders">507.1.26. setHeaders</a></li>
+<li><a class="reference internal" href="#hasheader">507.1.27. hasHeader</a></li>
+<li><a class="reference internal" href="#getheader">507.1.28. getHeader</a></li>
+<li><a class="reference internal" href="#setstream">507.1.29. setStream</a></li>
+<li><a class="reference internal" href="#getstream">507.1.30. getStream</a></li>
+<li><a class="reference internal" href="#opentempstream">507.1.31. openTempStream</a></li>
+<li><a class="reference internal" href="#setauth">507.1.32. setAuth</a></li>
+<li><a class="reference internal" href="#calcauthdigest">507.1.33. calcAuthDigest</a></li>
+<li><a class="reference internal" href="#resetparameters">507.1.34. resetParameters</a></li>
+<li><a class="reference internal" href="#dispatch">507.1.35. dispatch</a></li>
+<li><a class="reference internal" href="#send">507.1.36. send</a></li>
+<li><a class="reference internal" href="#setfileupload">507.1.37. setFileUpload</a></li>
+<li><a class="reference internal" href="#removefileupload">507.1.38. removeFileUpload</a></li>
+<li><a class="reference internal" href="#preparecookies">507.1.39. prepareCookies</a></li>
+<li><a class="reference internal" href="#prepareheaders">507.1.40. prepareHeaders</a></li>
+<li><a class="reference internal" href="#preparebody">507.1.41. prepareBody</a></li>
+<li><a class="reference internal" href="#detectfilemimetype">507.1.42. detectFileMimeType</a></li>
+<li><a class="reference internal" href="#encodeformdata">507.1.43. encodeFormData</a></li>
+<li><a class="reference internal" href="#flattenparametersarray">507.1.44. flattenParametersArray</a></li>
+<li><a class="reference internal" href="#dorequest">507.1.45. doRequest</a></li>
+<li><a class="reference internal" href="#encodeauthheader">507.1.46. encodeAuthHeader</a></li>
+<li><a class="reference internal" href="#constants">507.1.47. Constants</a><ul>
+<li><a class="reference internal" href="#auth-basic">507.1.47.1. AUTH_BASIC</a></li>
+<li><a class="reference internal" href="#auth-digest">507.1.47.2. AUTH_DIGEST</a></li>
+<li><a class="reference internal" href="#enc-urlencoded">507.1.47.3. ENC_URLENCODED</a></li>
+<li><a class="reference internal" href="#enc-formdata">507.1.47.4. ENC_FORMDATA</a></li>
+<li><a class="reference internal" href="#digest-realm">507.1.47.5. DIGEST_REALM</a></li>
+<li><a class="reference internal" href="#digest-qop">507.1.47.6. DIGEST_QOP</a></li>
+<li><a class="reference internal" href="#digest-nonce">507.1.47.7. DIGEST_NONCE</a></li>
+<li><a class="reference internal" href="#digest-opaque">507.1.47.8. DIGEST_OPAQUE</a></li>
+<li><a class="reference internal" href="#digest-nc">507.1.47.9. DIGEST_NC</a></li>
+<li><a class="reference internal" href="#digest-cnonce">507.1.47.10. DIGEST_CNONCE</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AbstractMessage.html"
+                        title="previous chapter">506. Zend\Http\AbstractMessage</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ClientStatic.html"
+                        title="next chapter">508. Zend\Http\ClientStatic</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Http/Client.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ClientStatic.html" title="508. Zend\Http\ClientStatic"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AbstractMessage.html" title="506. Zend\Http\AbstractMessage"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>434. Zend\Form\add &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="449. Zend\Form\prepareFieldset" href="FieldsetPrepareAwareInterface.html" />
+    <link rel="prev" title="433. Zend\Form\Fieldset" href="Fieldset.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FieldsetPrepareAwareInterface.html" title="449. Zend\Form\prepareFieldset"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Fieldset.html" title="433. Zend\Form\Fieldset"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-add">
+<h1>434. Zend\Form\add<a class="headerlink" href="#zend-form-add" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormadd">
+<tt class="descname">ZendFormadd</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormadd" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an element or fieldset</p>
+<p>$flags could contain metadata such as the alias under which to register
+the element or fieldset, order in which to prioritize it, etc.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$elementOrFieldset</strong> (<em>array|Traversable|ElementInterface</em>) &#8211; Typically, only allow objects implementing ElementInterface;
+however, keeping it flexible to allow a factory-based form
+implementation as well</li>
+<li><strong>$flags</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FieldsetInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-has">
+<h1>435. Zend\Form\has<a class="headerlink" href="#zend-form-has" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormhas">
+<tt class="descname">ZendFormhas</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormhas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Does the fieldset have an element/fieldset by the given name?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$elementOrFieldset</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-get">
+<h1>436. Zend\Form\get<a class="headerlink" href="#zend-form-get" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormget">
+<tt class="descname">ZendFormget</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve a named element or fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$elementOrFieldset</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ElementInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-remove">
+<h1>437. Zend\Form\remove<a class="headerlink" href="#zend-form-remove" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormremove">
+<tt class="descname">ZendFormremove</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormremove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a named element or fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$elementOrFieldset</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FieldsetInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-setpriority">
+<h1>438. Zend\Form\setPriority<a class="headerlink" href="#zend-form-setpriority" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormsetPriority">
+<tt class="descname">ZendFormsetPriority</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormsetPriority" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set/change the priority of an element or fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$elementOrFieldset</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$priority</strong> (<em>int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FieldsetInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-getelements">
+<h1>439. Zend\Form\getElements<a class="headerlink" href="#zend-form-getelements" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormgetElements">
+<tt class="descname">ZendFormgetElements</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormgetElements" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve all attached elements</p>
+<p>Storage is an implementation detail of the concrete class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array|Traversable</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-getfieldsets">
+<h1>440. Zend\Form\getFieldsets<a class="headerlink" href="#zend-form-getfieldsets" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormgetFieldsets">
+<tt class="descname">ZendFormgetFieldsets</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormgetFieldsets" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve all attached fieldsets</p>
+<p>Storage is an implementation detail of the concrete class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array|Traversable</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-populatevalues">
+<h1>441. Zend\Form\populateValues<a class="headerlink" href="#zend-form-populatevalues" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormpopulateValues">
+<tt class="descname">ZendFormpopulateValues</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormpopulateValues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursively populate value attributes of elements</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-setobject">
+<h1>442. Zend\Form\setObject<a class="headerlink" href="#zend-form-setobject" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormsetObject">
+<tt class="descname">ZendFormsetObject</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormsetObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the object used by the hydrator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$object</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FieldsetInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-getobject">
+<h1>443. Zend\Form\getObject<a class="headerlink" href="#zend-form-getobject" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormgetObject">
+<tt class="descname">ZendFormgetObject</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormgetObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the object used by the hydrator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-allowobjectbinding">
+<h1>444. Zend\Form\allowObjectBinding<a class="headerlink" href="#zend-form-allowobjectbinding" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormallowObjectBinding">
+<tt class="descname">ZendFormallowObjectBinding</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormallowObjectBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the object can be set in this fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$object</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-sethydrator">
+<h1>445. Zend\Form\setHydrator<a class="headerlink" href="#zend-form-sethydrator" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormsetHydrator">
+<tt class="descname">ZendFormsetHydrator</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormsetHydrator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the hydrator to use when binding an object to the element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$hydrator</strong> (<em>HydratorInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FieldsetInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-gethydrator">
+<h1>446. Zend\Form\getHydrator<a class="headerlink" href="#zend-form-gethydrator" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormgetHydrator">
+<tt class="descname">ZendFormgetHydrator</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormgetHydrator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the hydrator used when binding an object to the element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|HydratorInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-bindvalues">
+<h1>447. Zend\Form\bindValues<a class="headerlink" href="#zend-form-bindvalues" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormbindValues">
+<tt class="descname">ZendFormbindValues</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormbindValues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bind values to the bound object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$values</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zend-form-allowvaluebinding">
+<h1>448. Zend\Form\allowValueBinding<a class="headerlink" href="#zend-form-allowvaluebinding" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="ZendFormallowValueBinding">
+<tt class="descname">ZendFormallowValueBinding</tt><big>(</big><big>)</big><a class="headerlink" href="#ZendFormallowValueBinding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if this fieldset can bind data</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">434. Zend\Form\add</a></li>
+<li><a class="reference internal" href="#zend-form-has">435. Zend\Form\has</a></li>
+<li><a class="reference internal" href="#zend-form-get">436. Zend\Form\get</a></li>
+<li><a class="reference internal" href="#zend-form-remove">437. Zend\Form\remove</a></li>
+<li><a class="reference internal" href="#zend-form-setpriority">438. Zend\Form\setPriority</a></li>
+<li><a class="reference internal" href="#zend-form-getelements">439. Zend\Form\getElements</a></li>
+<li><a class="reference internal" href="#zend-form-getfieldsets">440. Zend\Form\getFieldsets</a></li>
+<li><a class="reference internal" href="#zend-form-populatevalues">441. Zend\Form\populateValues</a></li>
+<li><a class="reference internal" href="#zend-form-setobject">442. Zend\Form\setObject</a></li>
+<li><a class="reference internal" href="#zend-form-getobject">443. Zend\Form\getObject</a></li>
+<li><a class="reference internal" href="#zend-form-allowobjectbinding">444. Zend\Form\allowObjectBinding</a></li>
+<li><a class="reference internal" href="#zend-form-sethydrator">445. Zend\Form\setHydrator</a></li>
+<li><a class="reference internal" href="#zend-form-gethydrator">446. Zend\Form\getHydrator</a></li>
+<li><a class="reference internal" href="#zend-form-bindvalues">447. Zend\Form\bindValues</a></li>
+<li><a class="reference internal" href="#zend-form-allowvaluebinding">448. Zend\Form\allowValueBinding</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Fieldset.html"
+                        title="previous chapter">433. Zend\Form\Fieldset</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FieldsetPrepareAwareInterface.html"
+                        title="next chapter">449. Zend\Form\prepareFieldset</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Form/FieldsetInterface.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FieldsetPrepareAwareInterface.html" title="449. Zend\Form\prepareFieldset"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Fieldset.html" title="433. Zend\Form\Fieldset"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

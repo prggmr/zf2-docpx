@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>305. Zend\EventManager\SharedEventManager &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="306. Zend\EventManager\setSharedManager" href="SharedEventManagerAwareInterface.html" />
+    <link rel="prev" title="304. Zend\EventManager\ResponseCollection" href="ResponseCollection.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="SharedEventManagerAwareInterface.html" title="306. Zend\EventManager\setSharedManager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ResponseCollection.html" title="304. Zend\EventManager\ResponseCollection"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-eventmanager-sharedeventmanager">
+<h1>305. Zend\EventManager\SharedEventManager<a class="headerlink" href="#zend-eventmanager-sharedeventmanager" title="Permalink to this headline">¶</a></h1>
+<p>Shared/contextual EventManager</p>
+<p>Allows attaching to EMs composed by other classes without having an instance first.
+The assumption is that the SharedEventManager will be injected into EventManager
+instances, and then queried for additional listeners when triggering an event.</p>
+<div class="section" id="methods">
+<h2>305.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="attach">
+<h3>305.1.1. attach<a class="headerlink" href="#attach" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">attach</tt><big>(</big><em>$id</em>, <em>$event</em>, <em>$callback</em><span class="optional">[</span>, <em>$priority = 1</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Attach a listener to an event</p>
+<p>Allows attaching a callback to an event offered by one or more
+identifying components. As an example, the following connects to the
+&#8220;getAll&#8221; event of both an AbstractResource and EntityResource:</p>
+<p>&lt;code&gt;
+$sharedEventManager = new SharedEventManager();
+$sharedEventManager-&gt;attach(</p>
+<blockquote>
+<div><p>array(&#8216;MyResourceAbstractResource&#8217;, &#8216;MyResourceEntityResource&#8217;),
+&#8216;getAll&#8217;,
+function ($e) use ($cache) {</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>if (!$id = $e-&gt;getParam(&#8216;id&#8217;, false)) {</dt>
+<dd>return;</dd>
+</dl>
+<p>}
+if (!$data = $cache-&gt;load(get_class($resource) . &#8216;::getOne::&#8217; . $id )) {</p>
+<blockquote>
+<div>return;</div></blockquote>
+<p>}
+return $data;</p>
+</div></blockquote>
+<p>}</p>
+</div></blockquote>
+<p>);
+&lt;/code&gt;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$id</strong> (<em>string|array</em>) &#8211; Identifier(s) for event emitting component(s)</li>
+<li><strong>$event</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$callback</strong> (<em>callable</em>) &#8211; PHP Callback</li>
+<li><strong>$priority</strong> (<em>int</em>) &#8211; Priority at which listener should execute</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">CallbackHandler|array Either CallbackHandler or array of CallbackHandlers</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detach">
+<h3>305.1.2. detach<a class="headerlink" href="#detach" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">detach</tt><big>(</big><em>$id</em>, <em>$listener</em><big>)</big></dt>
+<dd><p>Detach a listener from an event offered by a given resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$id</strong> (<em>string|int</em>) &#8211; </li>
+<li><strong>$listener</strong> (<em>CallbackHandler</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">bool Returns true if event and listener found, and unsubscribed; returns false if either event or listener not found</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getevents">
+<h3>305.1.3. getEvents<a class="headerlink" href="#getevents" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEvents">
+<tt class="descname">getEvents</tt><big>(</big><em>$id</em><big>)</big><a class="headerlink" href="#getEvents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve all registered events for a given resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$id</strong> (<em>string|int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlisteners">
+<h3>305.1.4. getListeners<a class="headerlink" href="#getlisteners" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getListeners">
+<tt class="descname">getListeners</tt><big>(</big><em>$id</em>, <em>$event</em><big>)</big><a class="headerlink" href="#getListeners" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve all listeners for a given identifier and event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$id</strong> (<em>string|int</em>) &#8211; </li>
+<li><strong>$event</strong> (<em>string|int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">false|PriorityQueue</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearlisteners">
+<h3>305.1.5. clearListeners<a class="headerlink" href="#clearlisteners" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearListeners">
+<tt class="descname">clearListeners</tt><big>(</big><em>$id</em><span class="optional">[</span>, <em>$event = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#clearListeners" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear all listeners for a given identifier, optionally for a specific event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$id</strong> (<em>string|int</em>) &#8211; </li>
+<li><strong>$event</strong> (<em>null|string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">bool</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">305. Zend\EventManager\SharedEventManager</a><ul>
+<li><a class="reference internal" href="#methods">305.1. Methods</a><ul>
+<li><a class="reference internal" href="#attach">305.1.1. attach</a></li>
+<li><a class="reference internal" href="#detach">305.1.2. detach</a></li>
+<li><a class="reference internal" href="#getevents">305.1.3. getEvents</a></li>
+<li><a class="reference internal" href="#getlisteners">305.1.4. getListeners</a></li>
+<li><a class="reference internal" href="#clearlisteners">305.1.5. clearListeners</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ResponseCollection.html"
+                        title="previous chapter">304. Zend\EventManager\ResponseCollection</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="SharedEventManagerAwareInterface.html"
+                        title="next chapter">306. Zend\EventManager\setSharedManager</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/EventManager/SharedEventManager.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="SharedEventManagerAwareInterface.html" title="306. Zend\EventManager\setSharedManager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ResponseCollection.html" title="304. Zend\EventManager\ResponseCollection"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

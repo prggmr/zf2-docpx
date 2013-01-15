@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>20. Zend\Authentication\Adapter\Digest &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="21. Zend\Cache\Storage\Adapter\Filesystem" href="Filesystem.html" />
+    <link rel="prev" title="19. Zend\Cache\Storage\Adapter\DbaOptions" href="DbaOptions.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Filesystem.html" title="21. Zend\Cache\Storage\Adapter\Filesystem"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DbaOptions.html" title="19. Zend\Cache\Storage\Adapter\DbaOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-authentication-adapter-digest">
+<h1>20. Zend\Authentication\Adapter\Digest<a class="headerlink" href="#zend-authentication-adapter-digest" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>20.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>20.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$filename = false</em><span class="optional">[</span>, <em>$realm = false</em><span class="optional">[</span>, <em>$username = false</em><span class="optional">[</span>, <em>$password = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets adapter options</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$filename</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$realm</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$username</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$password</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilename">
+<h3>20.1.2. getFilename<a class="headerlink" href="#getfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilename">
+<tt class="descname">getFilename</tt><big>(</big><big>)</big><a class="headerlink" href="#getFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the filename option value or null if it has not yet been set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilename">
+<h3>20.1.3. setFilename<a class="headerlink" href="#setfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilename">
+<tt class="descname">setFilename</tt><big>(</big><em>$filename</em><big>)</big><a class="headerlink" href="#setFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the filename option value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filename</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Digest Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrealm">
+<h3>20.1.4. getRealm<a class="headerlink" href="#getrealm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRealm">
+<tt class="descname">getRealm</tt><big>(</big><big>)</big><a class="headerlink" href="#getRealm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the realm option value or null if it has not yet been set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setrealm">
+<h3>20.1.5. setRealm<a class="headerlink" href="#setrealm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRealm">
+<tt class="descname">setRealm</tt><big>(</big><em>$realm</em><big>)</big><a class="headerlink" href="#setRealm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the realm option value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$realm</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Digest Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getusername">
+<h3>20.1.6. getUsername<a class="headerlink" href="#getusername" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUsername">
+<tt class="descname">getUsername</tt><big>(</big><big>)</big><a class="headerlink" href="#getUsername" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the username option value or null if it has not yet been set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setusername">
+<h3>20.1.7. setUsername<a class="headerlink" href="#setusername" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUsername">
+<tt class="descname">setUsername</tt><big>(</big><em>$username</em><big>)</big><a class="headerlink" href="#setUsername" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the username option value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$username</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Digest Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpassword">
+<h3>20.1.8. getPassword<a class="headerlink" href="#getpassword" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPassword">
+<tt class="descname">getPassword</tt><big>(</big><big>)</big><a class="headerlink" href="#getPassword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the password option value or null if it has not yet been set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpassword">
+<h3>20.1.9. setPassword<a class="headerlink" href="#setpassword" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPassword">
+<tt class="descname">setPassword</tt><big>(</big><em>$password</em><big>)</big><a class="headerlink" href="#setPassword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the password option value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$password</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Digest Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="authenticate">
+<h3>20.1.10. authenticate<a class="headerlink" href="#authenticate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">authenticate</tt><big>(</big><big>)</big></dt>
+<dd><p>Defined by ZendAuthenticationAdapterAdapterInterface</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AuthenticationResult</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="securestringcompare">
+<h3>20.1.11. _secureStringCompare<a class="headerlink" href="#securestringcompare" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_secureStringCompare">
+<tt class="descname">_secureStringCompare</tt><big>(</big><em>$a</em>, <em>$b</em><big>)</big><a class="headerlink" href="#_secureStringCompare" title="Permalink to this definition">¶</a></dt>
+<dd><p>Securely compare two strings for equality while avoided C level memcmp()
+optimisations capable of leaking timing information useful to an attacker
+attempting to iteratively guess the unknown string (e.g. password) being
+compared against.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$a</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$b</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">bool</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">20. Zend\Authentication\Adapter\Digest</a><ul>
+<li><a class="reference internal" href="#methods">20.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">20.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getfilename">20.1.2. getFilename</a></li>
+<li><a class="reference internal" href="#setfilename">20.1.3. setFilename</a></li>
+<li><a class="reference internal" href="#getrealm">20.1.4. getRealm</a></li>
+<li><a class="reference internal" href="#setrealm">20.1.5. setRealm</a></li>
+<li><a class="reference internal" href="#getusername">20.1.6. getUsername</a></li>
+<li><a class="reference internal" href="#setusername">20.1.7. setUsername</a></li>
+<li><a class="reference internal" href="#getpassword">20.1.8. getPassword</a></li>
+<li><a class="reference internal" href="#setpassword">20.1.9. setPassword</a></li>
+<li><a class="reference internal" href="#authenticate">20.1.10. authenticate</a></li>
+<li><a class="reference internal" href="#securestringcompare">20.1.11. _secureStringCompare</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DbaOptions.html"
+                        title="previous chapter">19. Zend\Cache\Storage\Adapter\DbaOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Filesystem.html"
+                        title="next chapter">21. Zend\Cache\Storage\Adapter\Filesystem</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/Digest.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Filesystem.html" title="21. Zend\Cache\Storage\Adapter\Filesystem"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DbaOptions.html" title="19. Zend\Cache\Storage\Adapter\DbaOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

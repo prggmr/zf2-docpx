@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>762. Zend\Code\Scanner\DirectoryScanner &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="763. Zend\Code\Scanner\DocBlockScanner" href="DocBlockScanner.html" />
+    <link rel="prev" title="761. Zend\Code\Scanner\DerivedClassScanner" href="DerivedClassScanner.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="DocBlockScanner.html" title="763. Zend\Code\Scanner\DocBlockScanner"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DerivedClassScanner.html" title="761. Zend\Code\Scanner\DerivedClassScanner"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-code-scanner-directoryscanner">
+<h1>762. Zend\Code\Scanner\DirectoryScanner<a class="headerlink" href="#zend-code-scanner-directoryscanner" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="methods">
+<h2>762.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>762.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$directory = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$directory</strong> (<em>null|string|array</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="adddirectory">
+<h3>762.1.2. addDirectory<a class="headerlink" href="#adddirectory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addDirectory">
+<tt class="descname">addDirectory</tt><big>(</big><em>$directory</em><big>)</big><a class="headerlink" href="#addDirectory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add directory</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$directory</strong> (<em>DirectoryScanner|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="adddirectoryscanner">
+<h3>762.1.3. addDirectoryScanner<a class="headerlink" href="#adddirectoryscanner" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addDirectoryScanner">
+<tt class="descname">addDirectoryScanner</tt><big>(</big><em>$directoryScanner</em><big>)</big><a class="headerlink" href="#addDirectoryScanner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add directory scanner</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$directoryScanner</strong> (<em>DirectoryScanner</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addfilescanner">
+<h3>762.1.4. addFileScanner<a class="headerlink" href="#addfilescanner" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addFileScanner">
+<tt class="descname">addFileScanner</tt><big>(</big><em>$fileScanner</em><big>)</big><a class="headerlink" href="#addFileScanner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add file scanner</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$fileScanner</strong> (<em>FileScanner</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="scan">
+<h3>762.1.5. scan<a class="headerlink" href="#scan" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">scan</tt><big>(</big><big>)</big></dt>
+<dd><p>Scan</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnamespaces">
+<h3>762.1.6. getNamespaces<a class="headerlink" href="#getnamespaces" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNamespaces">
+<tt class="descname">getNamespaces</tt><big>(</big><big>)</big><a class="headerlink" href="#getNamespaces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get namespace</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+</div>
+<div class="section" id="getfiles">
+<h3>762.1.7. getFiles<a class="headerlink" href="#getfiles" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFiles">
+<tt class="descname">getFiles</tt><big>(</big><span class="optional">[</span><em>$returnFileScanners = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$returnFileScanners</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclassnames">
+<h3>762.1.8. getClassNames<a class="headerlink" href="#getclassnames" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClassNames">
+<tt class="descname">getClassNames</tt><big>(</big><big>)</big><a class="headerlink" href="#getClassNames" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get class names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string[]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclasses">
+<h3>762.1.9. getClasses<a class="headerlink" href="#getclasses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClasses">
+<tt class="descname">getClasses</tt><big>(</big><span class="optional">[</span><em>$returnDerivedScannerClass = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get classes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$returnDerivedScannerClass</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string[]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasclass">
+<h3>762.1.10. hasClass<a class="headerlink" href="#hasclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasClass">
+<tt class="descname">hasClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#hasClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check for a class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$class</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclass">
+<h3>762.1.11. getClass<a class="headerlink" href="#getclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClass">
+<tt class="descname">getClass</tt><big>(</big><em>$class</em><span class="optional">[</span>, <em>$returnDerivedScannerClass = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$class</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$returnDerivedScannerClass</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">ClassScanner|DerivedClassScanner</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createclasstofilescannercache">
+<h3>762.1.12. createClassToFileScannerCache<a class="headerlink" href="#createclasstofilescannercache" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createClassToFileScannerCache">
+<tt class="descname">createClassToFileScannerCache</tt><big>(</big><big>)</big><a class="headerlink" href="#createClassToFileScannerCache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create class to file scanner cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="export">
+<h3>762.1.13. export<a class="headerlink" href="#export" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">export</tt><big>(</big><big>)</big></dt>
+<dd><p>Export</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+</div>
+<div class="section" id="tostring">
+<h3>762.1.14. __toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__toString">
+<tt class="descname">__toString</tt><big>(</big><big>)</big><a class="headerlink" href="#__toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>__ToString</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">762. Zend\Code\Scanner\DirectoryScanner</a><ul>
+<li><a class="reference internal" href="#methods">762.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">762.1.1. __construct</a></li>
+<li><a class="reference internal" href="#adddirectory">762.1.2. addDirectory</a></li>
+<li><a class="reference internal" href="#adddirectoryscanner">762.1.3. addDirectoryScanner</a></li>
+<li><a class="reference internal" href="#addfilescanner">762.1.4. addFileScanner</a></li>
+<li><a class="reference internal" href="#scan">762.1.5. scan</a></li>
+<li><a class="reference internal" href="#getnamespaces">762.1.6. getNamespaces</a></li>
+<li><a class="reference internal" href="#getfiles">762.1.7. getFiles</a></li>
+<li><a class="reference internal" href="#getclassnames">762.1.8. getClassNames</a></li>
+<li><a class="reference internal" href="#getclasses">762.1.9. getClasses</a></li>
+<li><a class="reference internal" href="#hasclass">762.1.10. hasClass</a></li>
+<li><a class="reference internal" href="#getclass">762.1.11. getClass</a></li>
+<li><a class="reference internal" href="#createclasstofilescannercache">762.1.12. createClassToFileScannerCache</a></li>
+<li><a class="reference internal" href="#export">762.1.13. export</a></li>
+<li><a class="reference internal" href="#tostring">762.1.14. __toString</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DerivedClassScanner.html"
+                        title="previous chapter">761. Zend\Code\Scanner\DerivedClassScanner</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="DocBlockScanner.html"
+                        title="next chapter">763. Zend\Code\Scanner\DocBlockScanner</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Scanner/DirectoryScanner.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="DocBlockScanner.html" title="763. Zend\Code\Scanner\DocBlockScanner"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DerivedClassScanner.html" title="761. Zend\Code\Scanner\DerivedClassScanner"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

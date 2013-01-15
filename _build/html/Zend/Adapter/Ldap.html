@@ -1,0 +1,486 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>27. Zend\Authentication\Adapter\Ldap &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="28. Zend\Cache\Storage\Adapter\Memcached" href="Memcached.html" />
+    <link rel="prev" title="26. Zend\Cache\Storage\Adapter\KeyListIterator" href="KeyListIterator.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Memcached.html" title="28. Zend\Cache\Storage\Adapter\Memcached"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="KeyListIterator.html" title="26. Zend\Cache\Storage\Adapter\KeyListIterator"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-authentication-adapter-ldap">
+<h1>27. Zend\Authentication\Adapter\Ldap<a class="headerlink" href="#zend-authentication-adapter-ldap" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>27.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>27.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">[</span>, <em>$username = false</em><span class="optional">[</span>, <em>$password = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$options</strong> (<em>array</em>) &#8211; An array of arrays of ZendLdapLdap options</li>
+<li><strong>$username</strong> (<em>string</em>) &#8211; The username of the account being authenticated</li>
+<li><strong>$password</strong> (<em>string</em>) &#8211; The password of the account being authenticated</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getoptions">
+<h3>27.1.2. getOptions<a class="headerlink" href="#getoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getOptions">
+<tt class="descname">getOptions</tt><big>(</big><big>)</big><a class="headerlink" href="#getOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the array of arrays of ZendLdapLdap options of this adapter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setoptions">
+<h3>27.1.3. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><em>$options</em><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the array of arrays of ZendLdapLdap options to be used by
+this adapter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array</em>) &#8211; The array of arrays of ZendLdapLdap options</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getusername">
+<h3>27.1.4. getUsername<a class="headerlink" href="#getusername" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUsername">
+<tt class="descname">getUsername</tt><big>(</big><big>)</big><a class="headerlink" href="#getUsername" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the username of the account being authenticated, or
+NULL if none is set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setusername">
+<h3>27.1.5. setUsername<a class="headerlink" href="#setusername" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUsername">
+<tt class="descname">setUsername</tt><big>(</big><em>$username</em><big>)</big><a class="headerlink" href="#setUsername" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the username for binding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$username</strong> (<em>string</em>) &#8211; The username for binding</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpassword">
+<h3>27.1.6. getPassword<a class="headerlink" href="#getpassword" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPassword">
+<tt class="descname">getPassword</tt><big>(</big><big>)</big><a class="headerlink" href="#getPassword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the password of the account being authenticated, or
+NULL if none is set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpassword">
+<h3>27.1.7. setPassword<a class="headerlink" href="#setpassword" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPassword">
+<tt class="descname">setPassword</tt><big>(</big><em>$password</em><big>)</big><a class="headerlink" href="#setPassword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the password for the account</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$password</strong> (<em>string</em>) &#8211; The password of the account being authenticated</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setidentity">
+<h3>27.1.8. setIdentity<a class="headerlink" href="#setidentity" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setIdentity">
+<tt class="descname">setIdentity</tt><big>(</big><em>$identity</em><big>)</big><a class="headerlink" href="#setIdentity" title="Permalink to this definition">¶</a></dt>
+<dd><p>setIdentity() - set the identity (username) to be used</p>
+<p>Proxies to <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> setUsername()}</p>
+<p>Closes ZF-6813</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$identity</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcredential">
+<h3>27.1.9. setCredential<a class="headerlink" href="#setcredential" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCredential">
+<tt class="descname">setCredential</tt><big>(</big><em>$credential</em><big>)</big><a class="headerlink" href="#setCredential" title="Permalink to this definition">¶</a></dt>
+<dd><p>setCredential() - set the credential (password) value to be used</p>
+<p>Proxies to <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> setPassword()}</p>
+<p>Closes ZF-6813</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$credential</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getldap">
+<h3>27.1.10. getLdap<a class="headerlink" href="#getldap" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLdap">
+<tt class="descname">getLdap</tt><big>(</big><big>)</big><a class="headerlink" href="#getLdap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the LDAP Object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendLdapLdap The ZendLdapLdap object used to authenticate the credentials</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setldap">
+<h3>27.1.11. setLdap<a class="headerlink" href="#setldap" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setLdap">
+<tt class="descname">setLdap</tt><big>(</big><em>$ldap</em><big>)</big><a class="headerlink" href="#setLdap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set an Ldap connection</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$ldap</strong> (<em>ZendLdapLdap</em>) &#8211; An existing Ldap object</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Ldap Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getauthorityname">
+<h3>27.1.12. getAuthorityName<a class="headerlink" href="#getauthorityname" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAuthorityName">
+<tt class="descname">getAuthorityName</tt><big>(</big><big>)</big><a class="headerlink" href="#getAuthorityName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a domain name for the current LDAP options. This is used
+for skipping redundant operations (e.g. authentications).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="authenticate">
+<h3>27.1.13. authenticate<a class="headerlink" href="#authenticate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">authenticate</tt><big>(</big><big>)</big></dt>
+<dd><p>Authenticate the user</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AuthenticationResult</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareoptions">
+<h3>27.1.14. prepareOptions<a class="headerlink" href="#prepareoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareOptions">
+<tt class="descname">prepareOptions</tt><big>(</big><em>$ldap</em>, <em>$options</em><big>)</big><a class="headerlink" href="#prepareOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the LDAP specific options on the ZendLdapLdap instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$ldap</strong> (<em>ZendLdapLdap</em>) &#8211; </li>
+<li><strong>$options</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array of auth-adapter specific options</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="checkgroupmembership">
+<h3>27.1.15. checkGroupMembership<a class="headerlink" href="#checkgroupmembership" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkGroupMembership">
+<tt class="descname">checkGroupMembership</tt><big>(</big><em>$ldap</em>, <em>$canonicalName</em>, <em>$dn</em>, <em>$adapterOptions</em><big>)</big><a class="headerlink" href="#checkGroupMembership" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks the group membership of the bound user</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$ldap</strong> (<em>ZendLdapLdap</em>) &#8211; </li>
+<li><strong>$canonicalName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$dn</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$adapterOptions</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string|true</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getaccountobject">
+<h3>27.1.16. getAccountObject<a class="headerlink" href="#getaccountobject" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAccountObject">
+<tt class="descname">getAccountObject</tt><big>(</big><span class="optional">[</span><em>$returnAttribs = false</em><span class="optional">[</span>, <em>$omitAttribs = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getAccountObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>getAccountObject() - Returns the result entry as a stdClass object</p>
+<p>This resembles the feature <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> ZendAuthenticationAdapterDbTable::getResultRowObject()}.
+Closes ZF-6813</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$returnAttribs</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$omitAttribs</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">stdClass|bool</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="optionstostring">
+<h3>27.1.17. optionsToString<a class="headerlink" href="#optionstostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="optionsToString">
+<tt class="descname">optionsToString</tt><big>(</big><em>$options</em><big>)</big><a class="headerlink" href="#optionsToString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts options to string</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">27. Zend\Authentication\Adapter\Ldap</a><ul>
+<li><a class="reference internal" href="#methods">27.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">27.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getoptions">27.1.2. getOptions</a></li>
+<li><a class="reference internal" href="#setoptions">27.1.3. setOptions</a></li>
+<li><a class="reference internal" href="#getusername">27.1.4. getUsername</a></li>
+<li><a class="reference internal" href="#setusername">27.1.5. setUsername</a></li>
+<li><a class="reference internal" href="#getpassword">27.1.6. getPassword</a></li>
+<li><a class="reference internal" href="#setpassword">27.1.7. setPassword</a></li>
+<li><a class="reference internal" href="#setidentity">27.1.8. setIdentity</a></li>
+<li><a class="reference internal" href="#setcredential">27.1.9. setCredential</a></li>
+<li><a class="reference internal" href="#getldap">27.1.10. getLdap</a></li>
+<li><a class="reference internal" href="#setldap">27.1.11. setLdap</a></li>
+<li><a class="reference internal" href="#getauthorityname">27.1.12. getAuthorityName</a></li>
+<li><a class="reference internal" href="#authenticate">27.1.13. authenticate</a></li>
+<li><a class="reference internal" href="#prepareoptions">27.1.14. prepareOptions</a></li>
+<li><a class="reference internal" href="#checkgroupmembership">27.1.15. checkGroupMembership</a></li>
+<li><a class="reference internal" href="#getaccountobject">27.1.16. getAccountObject</a></li>
+<li><a class="reference internal" href="#optionstostring">27.1.17. optionsToString</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="KeyListIterator.html"
+                        title="previous chapter">26. Zend\Cache\Storage\Adapter\KeyListIterator</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Memcached.html"
+                        title="next chapter">28. Zend\Cache\Storage\Adapter\Memcached</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/Ldap.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Memcached.html" title="28. Zend\Cache\Storage\Adapter\Memcached"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="KeyListIterator.html" title="26. Zend\Cache\Storage\Adapter\KeyListIterator"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

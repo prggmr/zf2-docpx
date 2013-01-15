@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>744. Zend\Barcode\Renderer\Svg &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="745. Zend\Db\ResultSet\AbstractResultSet" href="../ResultSet/AbstractResultSet.html" />
+    <link rel="prev" title="733. Zend\Feed\Writer\Renderer\render" href="RendererInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../ResultSet/AbstractResultSet.html" title="745. Zend\Db\ResultSet\AbstractResultSet"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="RendererInterface.html" title="733. Zend\Feed\Writer\Renderer\render"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-barcode-renderer-svg">
+<h1>744. Zend\Barcode\Renderer\Svg<a class="headerlink" href="#zend-barcode-renderer-svg" title="Permalink to this headline">¶</a></h1>
+<p>Class for rendering the barcode as svg</p>
+<div class="section" id="methods">
+<h2>744.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setheight">
+<h3>744.1.1. setHeight<a class="headerlink" href="#setheight" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHeight">
+<tt class="descname">setHeight</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#setHeight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set height of the result image</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>null|integer</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionOutOfRangeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Svg</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheight">
+<h3>744.1.2. getHeight<a class="headerlink" href="#getheight" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeight">
+<tt class="descname">getHeight</tt><big>(</big><big>)</big><a class="headerlink" href="#getHeight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get barcode height</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setwidth">
+<h3>744.1.3. setWidth<a class="headerlink" href="#setwidth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setWidth">
+<tt class="descname">setWidth</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#setWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set barcode width</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionOutOfRangeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">self</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getwidth">
+<h3>744.1.4. getWidth<a class="headerlink" href="#getwidth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getWidth">
+<tt class="descname">getWidth</tt><big>(</big><big>)</big><a class="headerlink" href="#getWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get barcode width</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setresource">
+<h3>744.1.5. setResource<a class="headerlink" href="#setresource" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setResource">
+<tt class="descname">setResource</tt><big>(</big><em>$svg</em><big>)</big><a class="headerlink" href="#setResource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set an image resource to draw the barcode inside</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$svg</strong> (<em>DOMDocument</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Svg</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="initrenderer">
+<h3>744.1.6. initRenderer<a class="headerlink" href="#initrenderer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="initRenderer">
+<tt class="descname">initRenderer</tt><big>(</big><big>)</big><a class="headerlink" href="#initRenderer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize the image resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="readrootelement">
+<h3>744.1.7. readRootElement<a class="headerlink" href="#readrootelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="readRootElement">
+<tt class="descname">readRootElement</tt><big>(</big><big>)</big><a class="headerlink" href="#readRootElement" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="appendrootelement">
+<h3>744.1.8. appendRootElement<a class="headerlink" href="#appendrootelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="appendRootElement">
+<tt class="descname">appendRootElement</tt><big>(</big><em>$tagName</em><span class="optional">[</span>, <em>$attributes = false</em><span class="optional">[</span>, <em>$textContent = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#appendRootElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Append a new DOMElement to the root element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$tagName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$attributes</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$textContent</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createelement">
+<h3>744.1.9. createElement<a class="headerlink" href="#createelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createElement">
+<tt class="descname">createElement</tt><big>(</big><em>$tagName</em><span class="optional">[</span>, <em>$attributes = false</em><span class="optional">[</span>, <em>$textContent = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#createElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create DOMElement</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$tagName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$attributes</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$textContent</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">DOMElement</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="checkspecificparams">
+<h3>744.1.10. checkSpecificParams<a class="headerlink" href="#checkspecificparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkSpecificParams">
+<tt class="descname">checkSpecificParams</tt><big>(</big><big>)</big><a class="headerlink" href="#checkSpecificParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check barcode parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="checkdimensions">
+<h3>744.1.11. checkDimensions<a class="headerlink" href="#checkdimensions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkDimensions">
+<tt class="descname">checkDimensions</tt><big>(</big><big>)</big><a class="headerlink" href="#checkDimensions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check barcode dimensions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="draw">
+<h3>744.1.12. draw<a class="headerlink" href="#draw" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">draw</tt><big>(</big><big>)</big></dt>
+<dd><p>Draw the barcode in the rendering resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="render">
+<h3>744.1.13. render<a class="headerlink" href="#render" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">render</tt><big>(</big><big>)</big></dt>
+<dd><p>Draw and render the barcode with correct headers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="drawpolygon">
+<h3>744.1.14. drawPolygon<a class="headerlink" href="#drawpolygon" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="drawPolygon">
+<tt class="descname">drawPolygon</tt><big>(</big><em>$points</em>, <em>$color</em><span class="optional">[</span>, <em>$filled = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#drawPolygon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw a polygon in the svg resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$points</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$color</strong> (<em>integer</em>) &#8211; </li>
+<li><strong>$filled</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="drawtext">
+<h3>744.1.15. drawText<a class="headerlink" href="#drawtext" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="drawText">
+<tt class="descname">drawText</tt><big>(</big><em>$text</em>, <em>$size</em>, <em>$position</em>, <em>$font</em>, <em>$color</em><span class="optional">[</span>, <em>$alignment = &quot;center&quot;</em><span class="optional">[</span>, <em>$orientation = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#drawText" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw a polygon in the svg resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$text</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$size</strong> (<em>float</em>) &#8211; </li>
+<li><strong>$position</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$font</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$color</strong> (<em>integer</em>) &#8211; </li>
+<li><strong>$alignment</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$orientation</strong> (<em>float</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">744. Zend\Barcode\Renderer\Svg</a><ul>
+<li><a class="reference internal" href="#methods">744.1. Methods</a><ul>
+<li><a class="reference internal" href="#setheight">744.1.1. setHeight</a></li>
+<li><a class="reference internal" href="#getheight">744.1.2. getHeight</a></li>
+<li><a class="reference internal" href="#setwidth">744.1.3. setWidth</a></li>
+<li><a class="reference internal" href="#getwidth">744.1.4. getWidth</a></li>
+<li><a class="reference internal" href="#setresource">744.1.5. setResource</a></li>
+<li><a class="reference internal" href="#initrenderer">744.1.6. initRenderer</a></li>
+<li><a class="reference internal" href="#readrootelement">744.1.7. readRootElement</a></li>
+<li><a class="reference internal" href="#appendrootelement">744.1.8. appendRootElement</a></li>
+<li><a class="reference internal" href="#createelement">744.1.9. createElement</a></li>
+<li><a class="reference internal" href="#checkspecificparams">744.1.10. checkSpecificParams</a></li>
+<li><a class="reference internal" href="#checkdimensions">744.1.11. checkDimensions</a></li>
+<li><a class="reference internal" href="#draw">744.1.12. draw</a></li>
+<li><a class="reference internal" href="#render">744.1.13. render</a></li>
+<li><a class="reference internal" href="#drawpolygon">744.1.14. drawPolygon</a></li>
+<li><a class="reference internal" href="#drawtext">744.1.15. drawText</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="RendererInterface.html"
+                        title="previous chapter">733. Zend\Feed\Writer\Renderer\render</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../ResultSet/AbstractResultSet.html"
+                        title="next chapter">745. Zend\Db\ResultSet\AbstractResultSet</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Renderer/Svg.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../ResultSet/AbstractResultSet.html" title="745. Zend\Db\ResultSet\AbstractResultSet"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="RendererInterface.html" title="733. Zend\Feed\Writer\Renderer\render"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,590 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>463. Zend\Code\Generator\FileGenerator &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="464. Zend\Code\Generator\FileGeneratorRegistry" href="FileGeneratorRegistry.html" />
+    <link rel="prev" title="462. Zend\Code\Generator\DocBlockGenerator" href="DocBlockGenerator.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FileGeneratorRegistry.html" title="464. Zend\Code\Generator\FileGeneratorRegistry"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DocBlockGenerator.html" title="462. Zend\Code\Generator\DocBlockGenerator"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-code-generator-filegenerator">
+<h1>463. Zend\Code\Generator\FileGenerator<a class="headerlink" href="#zend-code-generator-filegenerator" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>463.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>463.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<p>Passes $options to <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> setOptions()}.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="fromreflectedfilename">
+<h3>463.1.2. fromReflectedFileName<a class="headerlink" href="#fromreflectedfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromReflectedFileName">
+<tt class="descname">fromReflectedFileName</tt><big>(</big><em>$filePath</em><span class="optional">[</span>, <em>$includeIfNotAlreadyIncluded = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#fromReflectedFileName" title="Permalink to this definition">¶</a></dt>
+<dd><p>fromReflectedFilePath() - use this if you intend on generating code generation objects based on the same file.
+This will keep previous changes to the file in tact during the same PHP process</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$filePath</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$includeIfNotAlreadyIncluded</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FileGenerator</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="fromreflection">
+<h3>463.1.3. fromReflection<a class="headerlink" href="#fromreflection" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromReflection">
+<tt class="descname">fromReflection</tt><big>(</big><em>$fileReflection</em><big>)</big><a class="headerlink" href="#fromReflection" title="Permalink to this definition">¶</a></dt>
+<dd><p>fromReflection()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$fileReflection</strong> (<em>FileReflection</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="fromarray">
+<h3>463.1.4. fromArray<a class="headerlink" href="#fromarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromArray">
+<tt class="descname">fromArray</tt><big>(</big><em>$values</em><big>)</big><a class="headerlink" href="#fromArray" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="setdocblock">
+<h3>463.1.5. setDocBlock<a class="headerlink" href="#setdocblock" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDocBlock">
+<tt class="descname">setDocBlock</tt><big>(</big><em>$docBlock</em><big>)</big><a class="headerlink" href="#setDocBlock" title="Permalink to this definition">¶</a></dt>
+<dd><p>setDocBlock() Set the DocBlock</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$docBlock</strong> (<em>DocBlockGenerator|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdocblock">
+<h3>463.1.6. getDocBlock<a class="headerlink" href="#getdocblock" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDocBlock">
+<tt class="descname">getDocBlock</tt><big>(</big><big>)</big><a class="headerlink" href="#getDocBlock" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get DocBlock</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DocBlockGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setrequiredfiles">
+<h3>463.1.7. setRequiredFiles<a class="headerlink" href="#setrequiredfiles" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRequiredFiles">
+<tt class="descname">setRequiredFiles</tt><big>(</big><em>$requiredFiles</em><big>)</big><a class="headerlink" href="#setRequiredFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>setRequiredFiles</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$requiredFiles</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrequiredfiles">
+<h3>463.1.8. getRequiredFiles<a class="headerlink" href="#getrequiredfiles" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRequiredFiles">
+<tt class="descname">getRequiredFiles</tt><big>(</big><big>)</big><a class="headerlink" href="#getRequiredFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>getRequiredFiles()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclasses">
+<h3>463.1.9. setClasses<a class="headerlink" href="#setclasses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClasses">
+<tt class="descname">setClasses</tt><big>(</big><em>$classes</em><big>)</big><a class="headerlink" href="#setClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>setClasses()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$classes</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnamespace">
+<h3>463.1.10. getNamespace<a class="headerlink" href="#getnamespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNamespace">
+<tt class="descname">getNamespace</tt><big>(</big><big>)</big><a class="headerlink" href="#getNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>getNamespace()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnamespace">
+<h3>463.1.11. setNamespace<a class="headerlink" href="#setnamespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNamespace">
+<tt class="descname">setNamespace</tt><big>(</big><em>$namespace</em><big>)</big><a class="headerlink" href="#setNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>setNamespace()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$namespace</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getuses">
+<h3>463.1.12. getUses<a class="headerlink" href="#getuses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUses">
+<tt class="descname">getUses</tt><big>(</big><span class="optional">[</span><em>$withResolvedAs = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getUses" title="Permalink to this definition">¶</a></dt>
+<dd><p>getUses()</p>
+<p>Returns an array with the first element the use statement, second is the as part.
+If $withResolvedAs is set to true, there will be a third element that is the
+&#8220;resolved&#8221; as statement, as the second part is not required in use statements</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$withResolvedAs</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setuses">
+<h3>463.1.13. setUses<a class="headerlink" href="#setuses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUses">
+<tt class="descname">setUses</tt><big>(</big><em>$uses</em><big>)</big><a class="headerlink" href="#setUses" title="Permalink to this definition">¶</a></dt>
+<dd><p>setUses()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$uses</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setuse">
+<h3>463.1.14. setUse<a class="headerlink" href="#setuse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUse">
+<tt class="descname">setUse</tt><big>(</big><em>$use</em><span class="optional">[</span>, <em>$as = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setUse" title="Permalink to this definition">¶</a></dt>
+<dd><p>setUse()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$use</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$as</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FileGenerator</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclass">
+<h3>463.1.15. getClass<a class="headerlink" href="#getclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClass">
+<tt class="descname">getClass</tt><big>(</big><span class="optional">[</span><em>$name = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>getClass()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ClassGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclass">
+<h3>463.1.16. setClass<a class="headerlink" href="#setclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClass">
+<tt class="descname">setClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#setClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>setClass()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$class</strong> (<em>array|string|ClassGenerator</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilename">
+<h3>463.1.17. setFilename<a class="headerlink" href="#setfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilename">
+<tt class="descname">setFilename</tt><big>(</big><em>$filename</em><big>)</big><a class="headerlink" href="#setFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>setFilename()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filename</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilename">
+<h3>463.1.18. getFilename<a class="headerlink" href="#getfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilename">
+<tt class="descname">getFilename</tt><big>(</big><big>)</big><a class="headerlink" href="#getFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>getFilename()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclasses">
+<h3>463.1.19. getClasses<a class="headerlink" href="#getclasses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClasses">
+<tt class="descname">getClasses</tt><big>(</big><big>)</big><a class="headerlink" href="#getClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>getClasses()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ClassGenerator[] Array of ClassGenerators</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setbody">
+<h3>463.1.20. setBody<a class="headerlink" href="#setbody" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setBody">
+<tt class="descname">setBody</tt><big>(</big><em>$body</em><big>)</big><a class="headerlink" href="#setBody" title="Permalink to this definition">¶</a></dt>
+<dd><p>setBody()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$body</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileGenerator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getbody">
+<h3>463.1.21. getBody<a class="headerlink" href="#getbody" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBody">
+<tt class="descname">getBody</tt><big>(</big><big>)</big><a class="headerlink" href="#getBody" title="Permalink to this definition">¶</a></dt>
+<dd><p>getBody()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="issourcedirty">
+<h3>463.1.22. isSourceDirty<a class="headerlink" href="#issourcedirty" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isSourceDirty">
+<tt class="descname">isSourceDirty</tt><big>(</big><big>)</big><a class="headerlink" href="#isSourceDirty" title="Permalink to this definition">¶</a></dt>
+<dd><p>isSourceDirty()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="generate">
+<h3>463.1.23. generate<a class="headerlink" href="#generate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">generate</tt><big>(</big><big>)</big></dt>
+<dd><p>generate()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="write">
+<h3>463.1.24. write<a class="headerlink" href="#write" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">write</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">463. Zend\Code\Generator\FileGenerator</a><ul>
+<li><a class="reference internal" href="#methods">463.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">463.1.1. __construct</a></li>
+<li><a class="reference internal" href="#fromreflectedfilename">463.1.2. fromReflectedFileName</a></li>
+<li><a class="reference internal" href="#fromreflection">463.1.3. fromReflection</a></li>
+<li><a class="reference internal" href="#fromarray">463.1.4. fromArray</a></li>
+<li><a class="reference internal" href="#setdocblock">463.1.5. setDocBlock</a></li>
+<li><a class="reference internal" href="#getdocblock">463.1.6. getDocBlock</a></li>
+<li><a class="reference internal" href="#setrequiredfiles">463.1.7. setRequiredFiles</a></li>
+<li><a class="reference internal" href="#getrequiredfiles">463.1.8. getRequiredFiles</a></li>
+<li><a class="reference internal" href="#setclasses">463.1.9. setClasses</a></li>
+<li><a class="reference internal" href="#getnamespace">463.1.10. getNamespace</a></li>
+<li><a class="reference internal" href="#setnamespace">463.1.11. setNamespace</a></li>
+<li><a class="reference internal" href="#getuses">463.1.12. getUses</a></li>
+<li><a class="reference internal" href="#setuses">463.1.13. setUses</a></li>
+<li><a class="reference internal" href="#setuse">463.1.14. setUse</a></li>
+<li><a class="reference internal" href="#getclass">463.1.15. getClass</a></li>
+<li><a class="reference internal" href="#setclass">463.1.16. setClass</a></li>
+<li><a class="reference internal" href="#setfilename">463.1.17. setFilename</a></li>
+<li><a class="reference internal" href="#getfilename">463.1.18. getFilename</a></li>
+<li><a class="reference internal" href="#getclasses">463.1.19. getClasses</a></li>
+<li><a class="reference internal" href="#setbody">463.1.20. setBody</a></li>
+<li><a class="reference internal" href="#getbody">463.1.21. getBody</a></li>
+<li><a class="reference internal" href="#issourcedirty">463.1.22. isSourceDirty</a></li>
+<li><a class="reference internal" href="#generate">463.1.23. generate</a></li>
+<li><a class="reference internal" href="#write">463.1.24. write</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DocBlockGenerator.html"
+                        title="previous chapter">462. Zend\Code\Generator\DocBlockGenerator</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FileGeneratorRegistry.html"
+                        title="next chapter">464. Zend\Code\Generator\FileGeneratorRegistry</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Generator/FileGenerator.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FileGeneratorRegistry.html" title="464. Zend\Code\Generator\FileGeneratorRegistry"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DocBlockGenerator.html" title="462. Zend\Code\Generator\DocBlockGenerator"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

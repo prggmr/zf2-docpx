@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>86. Zend\Barcode\Barcode &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="87. Zend\Barcode\ObjectPluginManager" href="ObjectPluginManager.html" />
+    <link rel="prev" title="85. Zend\Authentication\Result" href="../Authentication/Result.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ObjectPluginManager.html" title="87. Zend\Barcode\ObjectPluginManager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Authentication/Result.html" title="85. Zend\Authentication\Result"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-barcode-barcode">
+<h1>86. Zend\Barcode\Barcode<a class="headerlink" href="#zend-barcode-barcode" title="Permalink to this headline">¶</a></h1>
+<p>Class for generate Barcode</p>
+<div class="section" id="methods">
+<h2>86.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getobjectpluginmanager">
+<h3>86.1.1. getObjectPluginManager<a class="headerlink" href="#getobjectpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObjectPluginManager">
+<tt class="descname">getObjectPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getObjectPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the parser plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ObjectPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrendererpluginmanager">
+<h3>86.1.2. getRendererPluginManager<a class="headerlink" href="#getrendererpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRendererPluginManager">
+<tt class="descname">getRendererPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getRendererPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the renderer plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">RendererPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="factory">
+<h3>86.1.3. factory<a class="headerlink" href="#factory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">factory</tt><big>(</big><em>$barcode</em><span class="optional">[</span>, <em>$renderer = &quot;image&quot;</em><span class="optional">[</span>, <em>$barcodeConfig = false</em><span class="optional">[</span>, <em>$rendererConfig = false</em><span class="optional">[</span>, <em>$automaticRenderError = true</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Factory for Zend_Barcode classes.</p>
+<p>First argument may be a string containing the base of the adapter class
+name, e.g. &#8216;int25&#8217; corresponds to class ObjectInt25.  This
+is case-insensitive.</p>
+<p>First argument may alternatively be an object of type Traversable.
+The barcode class base name is read from the &#8216;barcode&#8217; property.
+The barcode config parameters are read from the &#8216;params&#8217; property.</p>
+<p>Second argument is optional and may be an associative array of key-value
+pairs.  This is used as the argument to the barcode constructor.</p>
+<p>If the first argument is of type Traversable, it is assumed to contain
+all parameters, and the second argument is ignored.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$barcode</strong> (<em>mixed</em>) &#8211; String name of barcode class, or Traversable object.</li>
+<li><strong>$renderer</strong> (<em>mixed</em>) &#8211; String name of renderer class</li>
+<li><strong>$barcodeConfig</strong> (<em>mixed</em>) &#8211; OPTIONAL; an array or Traversable object with barcode parameters.</li>
+<li><strong>$rendererConfig</strong> (<em>mixed</em>) &#8211; OPTIONAL; an array or Traversable object with renderer parameters.</li>
+<li><strong>$automaticRenderError</strong> (<em>bool</em>) &#8211; OPTIONAL; set the automatic rendering of exception</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">Barcode</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="makebarcode">
+<h3>86.1.4. makeBarcode<a class="headerlink" href="#makebarcode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="makeBarcode">
+<tt class="descname">makeBarcode</tt><big>(</big><em>$barcode</em><span class="optional">[</span>, <em>$barcodeConfig = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#makeBarcode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Barcode Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$barcode</strong> (<em>mixed</em>) &#8211; String name of barcode class, or Traversable object, or barcode object.</li>
+<li><strong>$barcodeConfig</strong> (<em>mixed</em>) &#8211; OPTIONAL; an array or Traversable object with barcode parameters.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Object</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="makerenderer">
+<h3>86.1.5. makeRenderer<a class="headerlink" href="#makerenderer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="makeRenderer">
+<tt class="descname">makeRenderer</tt><big>(</big><span class="optional">[</span><em>$renderer = &quot;image&quot;</em><span class="optional">[</span>, <em>$rendererConfig = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#makeRenderer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Renderer Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$renderer</strong> (<em>mixed</em>) &#8211; String name of renderer class, or Traversable object.</li>
+<li><strong>$rendererConfig</strong> (<em>mixed</em>) &#8211; OPTIONAL; an array or Traversable object with renderer parameters.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRendererCreationException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">RendererRendererInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="render">
+<h3>86.1.6. render<a class="headerlink" href="#render" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">render</tt><big>(</big><em>$barcode</em>, <em>$renderer</em><span class="optional">[</span>, <em>$barcodeConfig = false</em><span class="optional">[</span>, <em>$rendererConfig = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Proxy to renderer render() method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>|</strong> (<em>array</em>) &#8211; ObjectObjectInterface | array | Traversable $barcode</li>
+<li><strong>|</strong> &#8211; RendererRendererInterface $renderer</li>
+<li><strong>|</strong> &#8211; Traversable $barcodeConfig</li>
+<li><strong>|</strong> &#8211; Traversable $rendererConfig</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="draw">
+<h3>86.1.7. draw<a class="headerlink" href="#draw" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">draw</tt><big>(</big><em>$barcode</em>, <em>$renderer</em><span class="optional">[</span>, <em>$barcodeConfig = false</em><span class="optional">[</span>, <em>$rendererConfig = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Proxy to renderer draw() method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>|</strong> (<em>array</em>) &#8211; ObjectObjectInterface | array | Traversable $barcode</li>
+<li><strong>|</strong> &#8211; RendererRendererInterface $renderer</li>
+<li><strong>|</strong> &#8211; Traversable $barcodeConfig</li>
+<li><strong>|</strong> &#8211; Traversable $rendererConfig</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">mixed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setbarcodefont">
+<h3>86.1.8. setBarcodeFont<a class="headerlink" href="#setbarcodefont" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setBarcodeFont">
+<tt class="descname">setBarcodeFont</tt><big>(</big><em>$font</em><big>)</big><a class="headerlink" href="#setBarcodeFont" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the default font for new instances of barcode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$font</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getbarcodefont">
+<h3>86.1.9. getBarcodeFont<a class="headerlink" href="#getbarcodefont" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBarcodeFont">
+<tt class="descname">getBarcodeFont</tt><big>(</big><big>)</big><a class="headerlink" href="#getBarcodeFont" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get current default font</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">86. Zend\Barcode\Barcode</a><ul>
+<li><a class="reference internal" href="#methods">86.1. Methods</a><ul>
+<li><a class="reference internal" href="#getobjectpluginmanager">86.1.1. getObjectPluginManager</a></li>
+<li><a class="reference internal" href="#getrendererpluginmanager">86.1.2. getRendererPluginManager</a></li>
+<li><a class="reference internal" href="#factory">86.1.3. factory</a></li>
+<li><a class="reference internal" href="#makebarcode">86.1.4. makeBarcode</a></li>
+<li><a class="reference internal" href="#makerenderer">86.1.5. makeRenderer</a></li>
+<li><a class="reference internal" href="#render">86.1.6. render</a></li>
+<li><a class="reference internal" href="#draw">86.1.7. draw</a></li>
+<li><a class="reference internal" href="#setbarcodefont">86.1.8. setBarcodeFont</a></li>
+<li><a class="reference internal" href="#getbarcodefont">86.1.9. getBarcodeFont</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Authentication/Result.html"
+                        title="previous chapter">85. Zend\Authentication\Result</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ObjectPluginManager.html"
+                        title="next chapter">87. Zend\Barcode\ObjectPluginManager</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Barcode/Barcode.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ObjectPluginManager.html" title="87. Zend\Barcode\ObjectPluginManager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Authentication/Result.html" title="85. Zend\Authentication\Result"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>248. Zend\Filter\Encrypt\Openssl &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="249. Zend\Feed\Reader\Entry\AbstractEntry" href="../Entry/AbstractEntry.html" />
+    <link rel="prev" title="245. Zend\Filter\Encrypt\encrypt" href="EncryptionAlgorithmInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Entry/AbstractEntry.html" title="249. Zend\Feed\Reader\Entry\AbstractEntry"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="EncryptionAlgorithmInterface.html" title="245. Zend\Filter\Encrypt\encrypt"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-filter-encrypt-openssl">
+<h1>248. Zend\Filter\Encrypt\Openssl<a class="headerlink" href="#zend-filter-encrypt-openssl" title="Permalink to this headline">¶</a></h1>
+<p>Encryption adapter for openssl</p>
+<div class="section" id="methods">
+<h2>248.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>248.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class constructor
+Available options</p>
+<blockquote>
+<div>&#8216;public&#8217;      =&gt; public key
+&#8216;private&#8217;     =&gt; private key
+&#8216;envelope&#8217;    =&gt; envelope key
+&#8216;passphrase&#8217;  =&gt; passphrase
+&#8216;compression&#8217; =&gt; compress value with this compression adapter
+&#8216;package&#8217;     =&gt; pack envelope keys into encrypted string, simplifies decryption</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>string|array|Traversable</em>) &#8211; Options for this adapter</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionExtensionNotLoadedException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setkeys">
+<h3>248.1.2. _setKeys<a class="headerlink" href="#setkeys" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_setKeys">
+<tt class="descname">_setKeys</tt><big>(</big><em>$keys</em><big>)</big><a class="headerlink" href="#_setKeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the encryption keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$keys</strong> (<em>string|array</em>) &#8211; Key with type association</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Openssl</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpublickey">
+<h3>248.1.3. getPublicKey<a class="headerlink" href="#getpublickey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPublicKey">
+<tt class="descname">getPublicKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getPublicKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all public keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpublickey">
+<h3>248.1.4. setPublicKey<a class="headerlink" href="#setpublickey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPublicKey">
+<tt class="descname">setPublicKey</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#setPublicKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets public keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string|array</em>) &#8211; Public keys</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendFilterEncryptOpenssl</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getprivatekey">
+<h3>248.1.5. getPrivateKey<a class="headerlink" href="#getprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPrivateKey">
+<tt class="descname">getPrivateKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all private keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setprivatekey">
+<h3>248.1.6. setPrivateKey<a class="headerlink" href="#setprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPrivateKey">
+<tt class="descname">setPrivateKey</tt><big>(</big><em>$key</em><span class="optional">[</span>, <em>$passphrase = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets private keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$key</strong> (<em>string</em>) &#8211; Private key</li>
+<li><strong>$passphrase</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Openssl</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getenvelopekey">
+<h3>248.1.7. getEnvelopeKey<a class="headerlink" href="#getenvelopekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEnvelopeKey">
+<tt class="descname">getEnvelopeKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getEnvelopeKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all envelope keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setenvelopekey">
+<h3>248.1.8. setEnvelopeKey<a class="headerlink" href="#setenvelopekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEnvelopeKey">
+<tt class="descname">setEnvelopeKey</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#setEnvelopeKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets envelope keys</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string|array</em>) &#8211; Envelope keys</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendFilterEncryptOpenssl</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpassphrase">
+<h3>248.1.9. getPassphrase<a class="headerlink" href="#getpassphrase" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPassphrase">
+<tt class="descname">getPassphrase</tt><big>(</big><big>)</big><a class="headerlink" href="#getPassphrase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the passphrase</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpassphrase">
+<h3>248.1.10. setPassphrase<a class="headerlink" href="#setpassphrase" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPassphrase">
+<tt class="descname">setPassphrase</tt><big>(</big><em>$passphrase</em><big>)</big><a class="headerlink" href="#setPassphrase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a new passphrase</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$passphrase</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Openssl</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcompression">
+<h3>248.1.11. getCompression<a class="headerlink" href="#getcompression" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCompression">
+<tt class="descname">getCompression</tt><big>(</big><big>)</big><a class="headerlink" href="#getCompression" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the compression</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcompression">
+<h3>248.1.12. setCompression<a class="headerlink" href="#setcompression" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCompression">
+<tt class="descname">setCompression</tt><big>(</big><em>$compression</em><big>)</big><a class="headerlink" href="#setCompression" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a internal compression for values to encrypt</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$compression</strong> (<em>string|array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Openssl</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpackage">
+<h3>248.1.13. getPackage<a class="headerlink" href="#getpackage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPackage">
+<tt class="descname">getPackage</tt><big>(</big><big>)</big><a class="headerlink" href="#getPackage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns if header should be packaged</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpackage">
+<h3>248.1.14. setPackage<a class="headerlink" href="#setpackage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPackage">
+<tt class="descname">setPackage</tt><big>(</big><em>$package</em><big>)</big><a class="headerlink" href="#setPackage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets if the envelope keys should be included in the encrypted value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$package</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Openssl</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="encrypt">
+<h3>248.1.15. encrypt<a class="headerlink" href="#encrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">encrypt</tt><big>(</big><em>$value</em><big>)</big></dt>
+<dd><p>Encrypts $value with the defined settings
+Note that you also need the &#8220;encrypted&#8221; keys to be able to decrypt</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>string</em>) &#8211; Content to encrypt</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string The encrypted content</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="decrypt">
+<h3>248.1.16. decrypt<a class="headerlink" href="#decrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">decrypt</tt><big>(</big><em>$value</em><big>)</big></dt>
+<dd><p>Defined by ZendFilterFilterInterface</p>
+<p>Decrypts $value with the defined settings</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>string</em>) &#8211; Content to decrypt</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string The decrypted content</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="tostring">
+<h3>248.1.17. toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toString">
+<tt class="descname">toString</tt><big>(</big><big>)</big><a class="headerlink" href="#toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the adapter name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">248. Zend\Filter\Encrypt\Openssl</a><ul>
+<li><a class="reference internal" href="#methods">248.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">248.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setkeys">248.1.2. _setKeys</a></li>
+<li><a class="reference internal" href="#getpublickey">248.1.3. getPublicKey</a></li>
+<li><a class="reference internal" href="#setpublickey">248.1.4. setPublicKey</a></li>
+<li><a class="reference internal" href="#getprivatekey">248.1.5. getPrivateKey</a></li>
+<li><a class="reference internal" href="#setprivatekey">248.1.6. setPrivateKey</a></li>
+<li><a class="reference internal" href="#getenvelopekey">248.1.7. getEnvelopeKey</a></li>
+<li><a class="reference internal" href="#setenvelopekey">248.1.8. setEnvelopeKey</a></li>
+<li><a class="reference internal" href="#getpassphrase">248.1.9. getPassphrase</a></li>
+<li><a class="reference internal" href="#setpassphrase">248.1.10. setPassphrase</a></li>
+<li><a class="reference internal" href="#getcompression">248.1.11. getCompression</a></li>
+<li><a class="reference internal" href="#setcompression">248.1.12. setCompression</a></li>
+<li><a class="reference internal" href="#getpackage">248.1.13. getPackage</a></li>
+<li><a class="reference internal" href="#setpackage">248.1.14. setPackage</a></li>
+<li><a class="reference internal" href="#encrypt">248.1.15. encrypt</a></li>
+<li><a class="reference internal" href="#decrypt">248.1.16. decrypt</a></li>
+<li><a class="reference internal" href="#tostring">248.1.17. toString</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="EncryptionAlgorithmInterface.html"
+                        title="previous chapter">245. Zend\Filter\Encrypt\encrypt</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Entry/AbstractEntry.html"
+                        title="next chapter">249. Zend\Feed\Reader\Entry\AbstractEntry</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Encrypt/Openssl.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Entry/AbstractEntry.html" title="249. Zend\Feed\Reader\Entry\AbstractEntry"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="EncryptionAlgorithmInterface.html" title="245. Zend\Filter\Encrypt\encrypt"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

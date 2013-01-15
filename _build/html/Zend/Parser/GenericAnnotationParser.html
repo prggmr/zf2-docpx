@@ -1,0 +1,308 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>618. Zend\Code\Annotation\Parser\GenericAnnotationParser &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="619. Zend\Code\Annotation\Parser\onCreateAnnotation" href="ParserInterface.html" />
+    <link rel="prev" title="617. Zend\Code\Annotation\Parser\DoctrineAnnotationParser" href="DoctrineAnnotationParser.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ParserInterface.html" title="619. Zend\Code\Annotation\Parser\onCreateAnnotation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DoctrineAnnotationParser.html" title="617. Zend\Code\Annotation\Parser\DoctrineAnnotationParser"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-code-annotation-parser-genericannotationparser">
+<h1>618. Zend\Code\Annotation\Parser\GenericAnnotationParser<a class="headerlink" href="#zend-code-annotation-parser-genericannotationparser" title="Permalink to this headline">¶</a></h1>
+<p>Generic annotation parser</p>
+<p>Expects registration of AnnotationInterface instances. Such instances
+will be passed annotation content to their initialize() method, which
+they are then responsible for parsing.</p>
+<div class="section" id="methods">
+<h2>618.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="oncreateannotation">
+<h3>618.1.1. onCreateAnnotation<a class="headerlink" href="#oncreateannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onCreateAnnotation">
+<tt class="descname">onCreateAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#onCreateAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Listen to onCreateAnnotation, and attempt to return an annotation object
+instance.</p>
+<p>If the annotation class or alias is not registered, immediately returns
+false. Otherwise, resolves the class, clones it, and, if any content is
+present, calls <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> AnnotationInterface::initialize()} with the
+content.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>EventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">false|AnnotationInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registerannotation">
+<h3>618.1.2. registerAnnotation<a class="headerlink" href="#registerannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerAnnotation">
+<tt class="descname">registerAnnotation</tt><big>(</big><em>$annotation</em><big>)</big><a class="headerlink" href="#registerAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register annotations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$annotation</strong> (<em>string|AnnotationInterface</em>) &#8211; String class name of an
+AnnotationInterface implementation, or actual instance</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">GenericAnnotationParser</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registerannotations">
+<h3>618.1.3. registerAnnotations<a class="headerlink" href="#registerannotations" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerAnnotations">
+<tt class="descname">registerAnnotations</tt><big>(</big><em>$annotations</em><big>)</big><a class="headerlink" href="#registerAnnotations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register many annotations at once</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$annotations</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">GenericAnnotationParser</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasannotation">
+<h3>618.1.4. hasAnnotation<a class="headerlink" href="#hasannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasAnnotation">
+<tt class="descname">hasAnnotation</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#hasAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the manager has annotations for a class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$class</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setalias">
+<h3>618.1.5. setAlias<a class="headerlink" href="#setalias" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAlias">
+<tt class="descname">setAlias</tt><big>(</big><em>$alias</em>, <em>$class</em><big>)</big><a class="headerlink" href="#setAlias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias an annotation name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$alias</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$class</strong> (<em>string</em>) &#8211; May be either a registered annotation name or another alias</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">GenericAnnotationParser</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizealias">
+<h3>618.1.6. normalizeAlias<a class="headerlink" href="#normalizealias" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="normalizeAlias">
+<tt class="descname">normalizeAlias</tt><big>(</big><em>$alias</em><big>)</big><a class="headerlink" href="#normalizeAlias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize an alias name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$alias</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasalias">
+<h3>618.1.7. hasAlias<a class="headerlink" href="#hasalias" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasAlias">
+<tt class="descname">hasAlias</tt><big>(</big><em>$alias</em><big>)</big><a class="headerlink" href="#hasAlias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do we have an alias by the provided name?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$alias</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="resolvealias">
+<h3>618.1.8. resolveAlias<a class="headerlink" href="#resolvealias" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="resolveAlias">
+<tt class="descname">resolveAlias</tt><big>(</big><em>$alias</em><big>)</big><a class="headerlink" href="#resolveAlias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resolve an alias to a class name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$alias</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">618. Zend\Code\Annotation\Parser\GenericAnnotationParser</a><ul>
+<li><a class="reference internal" href="#methods">618.1. Methods</a><ul>
+<li><a class="reference internal" href="#oncreateannotation">618.1.1. onCreateAnnotation</a></li>
+<li><a class="reference internal" href="#registerannotation">618.1.2. registerAnnotation</a></li>
+<li><a class="reference internal" href="#registerannotations">618.1.3. registerAnnotations</a></li>
+<li><a class="reference internal" href="#hasannotation">618.1.4. hasAnnotation</a></li>
+<li><a class="reference internal" href="#setalias">618.1.5. setAlias</a></li>
+<li><a class="reference internal" href="#normalizealias">618.1.6. normalizeAlias</a></li>
+<li><a class="reference internal" href="#hasalias">618.1.7. hasAlias</a></li>
+<li><a class="reference internal" href="#resolvealias">618.1.8. resolveAlias</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DoctrineAnnotationParser.html"
+                        title="previous chapter">617. Zend\Code\Annotation\Parser\DoctrineAnnotationParser</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ParserInterface.html"
+                        title="next chapter">619. Zend\Code\Annotation\Parser\onCreateAnnotation</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Parser/GenericAnnotationParser.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ParserInterface.html" title="619. Zend\Code\Annotation\Parser\onCreateAnnotation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DoctrineAnnotationParser.html" title="617. Zend\Code\Annotation\Parser\DoctrineAnnotationParser"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

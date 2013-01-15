@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>488. Zend\Form\View\Helper\FormLabel &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="489. Zend\Form\View\Helper\FormMonth" href="FormMonth.html" />
+    <link rel="prev" title="487. Zend\Form\View\Helper\FormInput" href="FormInput.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FormMonth.html" title="489. Zend\Form\View\Helper\FormMonth"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="FormInput.html" title="487. Zend\Form\View\Helper\FormInput"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-view-helper-formlabel">
+<h1>488. Zend\Form\View\Helper\FormLabel<a class="headerlink" href="#zend-form-view-helper-formlabel" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>488.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="opentag">
+<h3>488.1.1. openTag<a class="headerlink" href="#opentag" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="openTag">
+<tt class="descname">openTag</tt><big>(</big><span class="optional">[</span><em>$attributesOrElement = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#openTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate an opening label tag</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$attributesOrElement</strong> (<em>null|array|ElementInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Throws ExceptionDomainException:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="closetag">
+<h3>488.1.2. closeTag<a class="headerlink" href="#closetag" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="closeTag">
+<tt class="descname">closeTag</tt><big>(</big><big>)</big><a class="headerlink" href="#closeTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a closing label tag</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="invoke">
+<h3>488.1.3. __invoke<a class="headerlink" href="#invoke" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__invoke">
+<tt class="descname">__invoke</tt><big>(</big><span class="optional">[</span><em>$element = false</em><span class="optional">[</span>, <em>$labelContent = false</em><span class="optional">[</span>, <em>$position = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__invoke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a form label, optionally with content</p>
+<p>Always generates a &#8220;for&#8221; statement, as we cannot assume the form input
+will be provided in the $labelContent.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$element</strong> (<em>ElementInterface</em>) &#8211; </li>
+<li><strong>$labelContent</strong> (<em>null|string</em>) &#8211; </li>
+<li><strong>$position</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionDomainException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string|FormLabel</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>488.1.4. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="append">
+<h4>488.1.4.1. APPEND<a class="headerlink" href="#append" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="prepend">
+<h4>488.1.4.2. PREPEND<a class="headerlink" href="#prepend" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">488. Zend\Form\View\Helper\FormLabel</a><ul>
+<li><a class="reference internal" href="#methods">488.1. Methods</a><ul>
+<li><a class="reference internal" href="#opentag">488.1.1. openTag</a></li>
+<li><a class="reference internal" href="#closetag">488.1.2. closeTag</a></li>
+<li><a class="reference internal" href="#invoke">488.1.3. __invoke</a></li>
+<li><a class="reference internal" href="#constants">488.1.4. Constants</a><ul>
+<li><a class="reference internal" href="#append">488.1.4.1. APPEND</a></li>
+<li><a class="reference internal" href="#prepend">488.1.4.2. PREPEND</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="FormInput.html"
+                        title="previous chapter">487. Zend\Form\View\Helper\FormInput</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FormMonth.html"
+                        title="next chapter">489. Zend\Form\View\Helper\FormMonth</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Helper/FormLabel.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FormMonth.html" title="489. Zend\Form\View\Helper\FormMonth"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="FormInput.html" title="487. Zend\Form\View\Helper\FormInput"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

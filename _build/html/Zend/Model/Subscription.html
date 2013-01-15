@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>531. Zend\Feed\PubSubHubbub\Model\Subscription &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="532. Zend\Feed\PubSubHubbub\Model\setSubscription" href="SubscriptionPersistenceInterface.html" />
+    <link rel="prev" title="530. Zend\Feed\PubSubHubbub\Model\AbstractModel" href="AbstractModel.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="SubscriptionPersistenceInterface.html" title="532. Zend\Feed\PubSubHubbub\Model\setSubscription"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AbstractModel.html" title="530. Zend\Feed\PubSubHubbub\Model\AbstractModel"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-pubsubhubbub-model-subscription">
+<h1>531. Zend\Feed\PubSubHubbub\Model\Subscription<a class="headerlink" href="#zend-feed-pubsubhubbub-model-subscription" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>531.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setsubscription">
+<h3>531.1.1. setSubscription<a class="headerlink" href="#setsubscription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSubscription">
+<tt class="descname">setSubscription</tt><big>(</big><em>$data</em><big>)</big><a class="headerlink" href="#setSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save subscription to RDMBS</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">PubSubHubbubExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsubscription">
+<h3>531.1.2. getSubscription<a class="headerlink" href="#getsubscription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSubscription">
+<tt class="descname">getSubscription</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#getSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get subscription by ID/key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">PubSubHubbubExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hassubscription">
+<h3>531.1.3. hasSubscription<a class="headerlink" href="#hassubscription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasSubscription">
+<tt class="descname">hasSubscription</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#hasSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if a subscription matching the key exists</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">PubSubHubbubExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="deletesubscription">
+<h3>531.1.4. deleteSubscription<a class="headerlink" href="#deletesubscription" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="deleteSubscription">
+<tt class="descname">deleteSubscription</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#deleteSubscription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete a subscription</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnow">
+<h3>531.1.5. getNow<a class="headerlink" href="#getnow" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNow">
+<tt class="descname">getNow</tt><big>(</big><big>)</big><a class="headerlink" href="#getNow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a new DateTime or the one injected for testing</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DateTime</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnow">
+<h3>531.1.6. setNow<a class="headerlink" href="#setnow" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNow">
+<tt class="descname">setNow</tt><big>(</big><em>$now</em><big>)</big><a class="headerlink" href="#setNow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a DateTime instance for assisting with unit testing</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$now</strong> (<em>DateTime</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Subscription</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">531. Zend\Feed\PubSubHubbub\Model\Subscription</a><ul>
+<li><a class="reference internal" href="#methods">531.1. Methods</a><ul>
+<li><a class="reference internal" href="#setsubscription">531.1.1. setSubscription</a></li>
+<li><a class="reference internal" href="#getsubscription">531.1.2. getSubscription</a></li>
+<li><a class="reference internal" href="#hassubscription">531.1.3. hasSubscription</a></li>
+<li><a class="reference internal" href="#deletesubscription">531.1.4. deleteSubscription</a></li>
+<li><a class="reference internal" href="#getnow">531.1.5. getNow</a></li>
+<li><a class="reference internal" href="#setnow">531.1.6. setNow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AbstractModel.html"
+                        title="previous chapter">530. Zend\Feed\PubSubHubbub\Model\AbstractModel</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="SubscriptionPersistenceInterface.html"
+                        title="next chapter">532. Zend\Feed\PubSubHubbub\Model\setSubscription</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Model/Subscription.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="SubscriptionPersistenceInterface.html" title="532. Zend\Feed\PubSubHubbub\Model\setSubscription"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AbstractModel.html" title="530. Zend\Feed\PubSubHubbub\Model\AbstractModel"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

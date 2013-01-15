@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>10. Zend\Cache\Storage\Adapter\AdapterOptions &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="11. Zend\Db\Adapter\AdapterServiceFactory" href="AdapterServiceFactory.html" />
+    <link rel="prev" title="5. Zend\Http\Client\Adapter\setOptions" href="AdapterInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="AdapterServiceFactory.html" title="11. Zend\Db\Adapter\AdapterServiceFactory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AdapterInterface.html" title="5. Zend\Http\Client\Adapter\setOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-adapter-adapteroptions">
+<h1>10. Zend\Cache\Storage\Adapter\AdapterOptions<a class="headerlink" href="#zend-cache-storage-adapter-adapteroptions" title="Permalink to this headline">¶</a></h1>
+<p>Unless otherwise marked, all options in this class affect all adapters.</p>
+<div class="section" id="methods">
+<h2>10.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setadapter">
+<h3>10.1.1. setAdapter<a class="headerlink" href="#setadapter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAdapter">
+<tt class="descname">setAdapter</tt><big>(</big><span class="optional">[</span><em>$adapter = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setAdapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adapter using this instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$adapter</strong> (<em>StorageInterface|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AdapterOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setkeypattern">
+<h3>10.1.2. setKeyPattern<a class="headerlink" href="#setkeypattern" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setKeyPattern">
+<tt class="descname">setKeyPattern</tt><big>(</big><em>$keyPattern</em><big>)</big><a class="headerlink" href="#setKeyPattern" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set key pattern</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$keyPattern</strong> (<em>null|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AdapterOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getkeypattern">
+<h3>10.1.3. getKeyPattern<a class="headerlink" href="#getkeypattern" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getKeyPattern">
+<tt class="descname">getKeyPattern</tt><big>(</big><big>)</big><a class="headerlink" href="#getKeyPattern" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get key pattern</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnamespace">
+<h3>10.1.4. setNamespace<a class="headerlink" href="#setnamespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNamespace">
+<tt class="descname">setNamespace</tt><big>(</big><em>$namespace</em><big>)</big><a class="headerlink" href="#setNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set namespace.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$namespace</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AdapterOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnamespace">
+<h3>10.1.5. getNamespace<a class="headerlink" href="#getnamespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNamespace">
+<tt class="descname">getNamespace</tt><big>(</big><big>)</big><a class="headerlink" href="#getNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get namespace</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setreadable">
+<h3>10.1.6. setReadable<a class="headerlink" href="#setreadable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setReadable">
+<tt class="descname">setReadable</tt><big>(</big><em>$readable</em><big>)</big><a class="headerlink" href="#setReadable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable/Disable reading data from cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$readable</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getreadable">
+<h3>10.1.7. getReadable<a class="headerlink" href="#getreadable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getReadable">
+<tt class="descname">getReadable</tt><big>(</big><big>)</big><a class="headerlink" href="#getReadable" title="Permalink to this definition">¶</a></dt>
+<dd><p>If reading data from cache enabled.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setttl">
+<h3>10.1.8. setTtl<a class="headerlink" href="#setttl" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTtl">
+<tt class="descname">setTtl</tt><big>(</big><em>$ttl</em><big>)</big><a class="headerlink" href="#setTtl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set time to live.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$ttl</strong> (<em>int|float</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AdapterOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getttl">
+<h3>10.1.9. getTtl<a class="headerlink" href="#getttl" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTtl">
+<tt class="descname">getTtl</tt><big>(</big><big>)</big><a class="headerlink" href="#getTtl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get time to live.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">float</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setwritable">
+<h3>10.1.10. setWritable<a class="headerlink" href="#setwritable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setWritable">
+<tt class="descname">setWritable</tt><big>(</big><em>$writable</em><big>)</big><a class="headerlink" href="#setWritable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable/Disable writing data to cache.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$writable</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AdapterOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getwritable">
+<h3>10.1.11. getWritable<a class="headerlink" href="#getwritable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getWritable">
+<tt class="descname">getWritable</tt><big>(</big><big>)</big><a class="headerlink" href="#getWritable" title="Permalink to this definition">¶</a></dt>
+<dd><p>If writing data to cache enabled.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="triggeroptionevent">
+<h3>10.1.12. triggerOptionEvent<a class="headerlink" href="#triggeroptionevent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="triggerOptionEvent">
+<tt class="descname">triggerOptionEvent</tt><big>(</big><em>$optionName</em>, <em>$optionValue</em><big>)</big><a class="headerlink" href="#triggerOptionEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Triggers an option event if this options instance has a connection to
+an adapter implements EventsCapableInterface.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$optionName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$optionValue</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizettl">
+<h3>10.1.13. normalizeTtl<a class="headerlink" href="#normalizettl" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="normalizeTtl">
+<tt class="descname">normalizeTtl</tt><big>(</big><em>$ttl</em><big>)</big><a class="headerlink" href="#normalizeTtl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validates and normalize a TTL.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$ttl</strong> (<em>int|float</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">10. Zend\Cache\Storage\Adapter\AdapterOptions</a><ul>
+<li><a class="reference internal" href="#methods">10.1. Methods</a><ul>
+<li><a class="reference internal" href="#setadapter">10.1.1. setAdapter</a></li>
+<li><a class="reference internal" href="#setkeypattern">10.1.2. setKeyPattern</a></li>
+<li><a class="reference internal" href="#getkeypattern">10.1.3. getKeyPattern</a></li>
+<li><a class="reference internal" href="#setnamespace">10.1.4. setNamespace</a></li>
+<li><a class="reference internal" href="#getnamespace">10.1.5. getNamespace</a></li>
+<li><a class="reference internal" href="#setreadable">10.1.6. setReadable</a></li>
+<li><a class="reference internal" href="#getreadable">10.1.7. getReadable</a></li>
+<li><a class="reference internal" href="#setttl">10.1.8. setTtl</a></li>
+<li><a class="reference internal" href="#getttl">10.1.9. getTtl</a></li>
+<li><a class="reference internal" href="#setwritable">10.1.10. setWritable</a></li>
+<li><a class="reference internal" href="#getwritable">10.1.11. getWritable</a></li>
+<li><a class="reference internal" href="#triggeroptionevent">10.1.12. triggerOptionEvent</a></li>
+<li><a class="reference internal" href="#normalizettl">10.1.13. normalizeTtl</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AdapterInterface.html"
+                        title="previous chapter">5. Zend\Http\Client\Adapter\setOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="AdapterServiceFactory.html"
+                        title="next chapter">11. Zend\Db\Adapter\AdapterServiceFactory</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/AdapterOptions.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="AdapterServiceFactory.html" title="11. Zend\Db\Adapter\AdapterServiceFactory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AdapterInterface.html" title="5. Zend\Http\Client\Adapter\setOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

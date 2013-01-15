@@ -1,0 +1,317 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>93. Zend\Cache\StorageFactory &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="94. Zend\Captcha\AbstractAdapter" href="../Captcha/AbstractAdapter.html" />
+    <link rel="prev" title="92. Zend\Cache\PatternPluginManager" href="PatternPluginManager.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Captcha/AbstractAdapter.html" title="94. Zend\Captcha\AbstractAdapter"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="PatternPluginManager.html" title="92. Zend\Cache\PatternPluginManager"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storagefactory">
+<h1>93. Zend\Cache\StorageFactory<a class="headerlink" href="#zend-cache-storagefactory" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>93.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="factory">
+<h3>93.1.1. factory<a class="headerlink" href="#factory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">factory</tt><big>(</big><em>$cfg</em><big>)</big></dt>
+<dd><p>The storage factory
+This can instantiate storage adapters and plugins.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cfg</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">StorageStorageInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="adapterfactory">
+<h3>93.1.2. adapterFactory<a class="headerlink" href="#adapterfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="adapterFactory">
+<tt class="descname">adapterFactory</tt><big>(</big><em>$adapterName</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#adapterFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Instantiate a storage adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$adapterName</strong> (<em>string|StorageStorageInterface</em>) &#8211; </li>
+<li><strong>$options</strong> (<em>array|Traversable|StorageAdapterAdapterOptions</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">StorageStorageInterface</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getadapterpluginmanager">
+<h3>93.1.3. getAdapterPluginManager<a class="headerlink" href="#getadapterpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAdapterPluginManager">
+<tt class="descname">getAdapterPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getAdapterPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the adapter plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">StorageAdapterPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setadapterpluginmanager">
+<h3>93.1.4. setAdapterPluginManager<a class="headerlink" href="#setadapterpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAdapterPluginManager">
+<tt class="descname">setAdapterPluginManager</tt><big>(</big><em>$adapters</em><big>)</big><a class="headerlink" href="#setAdapterPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change the adapter plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$adapters</strong> (<em>StorageAdapterPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="resetadapterpluginmanager">
+<h3>93.1.5. resetAdapterPluginManager<a class="headerlink" href="#resetadapterpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="resetAdapterPluginManager">
+<tt class="descname">resetAdapterPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#resetAdapterPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets the internal adapter plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="pluginfactory">
+<h3>93.1.6. pluginFactory<a class="headerlink" href="#pluginfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="pluginFactory">
+<tt class="descname">pluginFactory</tt><big>(</big><em>$pluginName</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#pluginFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Instantiate a storage plugin</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$pluginName</strong> (<em>string|StoragePluginPluginInterface</em>) &#8211; </li>
+<li><strong>$options</strong> (<em>array|Traversable|StoragePluginPluginOptions</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">StoragePluginPluginInterface</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpluginmanager">
+<h3>93.1.7. getPluginManager<a class="headerlink" href="#getpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPluginManager">
+<tt class="descname">getPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">StoragePluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpluginmanager">
+<h3>93.1.8. setPluginManager<a class="headerlink" href="#setpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPluginManager">
+<tt class="descname">setPluginManager</tt><big>(</big><em>$plugins</em><big>)</big><a class="headerlink" href="#setPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change the plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$plugins</strong> (<em>StoragePluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="resetpluginmanager">
+<h3>93.1.9. resetPluginManager<a class="headerlink" href="#resetpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="resetPluginManager">
+<tt class="descname">resetPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#resetPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets the internal plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">93. Zend\Cache\StorageFactory</a><ul>
+<li><a class="reference internal" href="#methods">93.1. Methods</a><ul>
+<li><a class="reference internal" href="#factory">93.1.1. factory</a></li>
+<li><a class="reference internal" href="#adapterfactory">93.1.2. adapterFactory</a></li>
+<li><a class="reference internal" href="#getadapterpluginmanager">93.1.3. getAdapterPluginManager</a></li>
+<li><a class="reference internal" href="#setadapterpluginmanager">93.1.4. setAdapterPluginManager</a></li>
+<li><a class="reference internal" href="#resetadapterpluginmanager">93.1.5. resetAdapterPluginManager</a></li>
+<li><a class="reference internal" href="#pluginfactory">93.1.6. pluginFactory</a></li>
+<li><a class="reference internal" href="#getpluginmanager">93.1.7. getPluginManager</a></li>
+<li><a class="reference internal" href="#setpluginmanager">93.1.8. setPluginManager</a></li>
+<li><a class="reference internal" href="#resetpluginmanager">93.1.9. resetPluginManager</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="PatternPluginManager.html"
+                        title="previous chapter">92. Zend\Cache\PatternPluginManager</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Captcha/AbstractAdapter.html"
+                        title="next chapter">94. Zend\Captcha\AbstractAdapter</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Cache/StorageFactory.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Captcha/AbstractAdapter.html" title="94. Zend\Captcha\AbstractAdapter"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="PatternPluginManager.html" title="92. Zend\Cache\PatternPluginManager"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

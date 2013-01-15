@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>400. Zend\EventManager\Filter\FilterIterator &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="401. Zend\Filter\FilterPluginManager" href="FilterPluginManager.html" />
+    <link rel="prev" title="399. Zend\Filter\filter" href="FilterInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="401. Zend\Filter\FilterPluginManager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="FilterInterface.html" title="399. Zend\Filter\filter"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-eventmanager-filter-filteriterator">
+<h1>400. Zend\EventManager\Filter\FilterIterator<a class="headerlink" href="#zend-eventmanager-filter-filteriterator" title="Permalink to this headline">¶</a></h1>
+<p>Specialized priority queue implementation for use with an intercepting
+filter chain.</p>
+<p>Allows removal</p>
+<div class="section" id="methods">
+<h2>400.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="contains">
+<h3>400.1.1. contains<a class="headerlink" href="#contains" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">contains</tt><big>(</big><em>$datum</em><big>)</big></dt>
+<dd><p>Does the queue contain a given value?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$datum</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="remove">
+<h3>400.1.2. remove<a class="headerlink" href="#remove" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">remove</tt><big>(</big><em>$datum</em><big>)</big></dt>
+<dd><p>Remove a value from the queue</p>
+<p>This is an expensive operation. It must first iterate through all values,
+and then re-populate itself. Use only if absolutely necessary.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$datum</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="next">
+<h3>400.1.3. next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">next</tt><big>(</big><span class="optional">[</span><em>$context = false</em><span class="optional">[</span>, <em>$params = false</em><span class="optional">[</span>, <em>$chain = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Iterate the next filter in the chain</p>
+<p>Iterates and calls the next filter in the chain.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$context</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$params</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$chain</strong> (<em>FilterIterator</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">mixed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">400. Zend\EventManager\Filter\FilterIterator</a><ul>
+<li><a class="reference internal" href="#methods">400.1. Methods</a><ul>
+<li><a class="reference internal" href="#contains">400.1.1. contains</a></li>
+<li><a class="reference internal" href="#remove">400.1.2. remove</a></li>
+<li><a class="reference internal" href="#next">400.1.3. next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="FilterInterface.html"
+                        title="previous chapter">399. Zend\Filter\filter</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FilterPluginManager.html"
+                        title="next chapter">401. Zend\Filter\FilterPluginManager</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Filter/FilterIterator.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="401. Zend\Filter\FilterPluginManager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="FilterInterface.html" title="399. Zend\Filter\filter"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>189. Zend\Dom\NodeList &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="190. Zend\Dom\Query" href="Query.html" />
+    <link rel="prev" title="188. Zend\Dom\Css2Xpath" href="Css2Xpath.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Query.html" title="190. Zend\Dom\Query"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Css2Xpath.html" title="188. Zend\Dom\Css2Xpath"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-dom-nodelist">
+<h1>189. Zend\Dom\NodeList<a class="headerlink" href="#zend-dom-nodelist" title="Permalink to this headline">¶</a></h1>
+<p>Nodelist for DOM XPath query</p>
+<div class="section" id="methods">
+<h2>189.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>189.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><em>$cssQuery</em>, <em>$xpathQuery</em>, <em>$document</em>, <em>$nodeList</em><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$cssQuery</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$xpathQuery</strong> (<em>string|array</em>) &#8211; </li>
+<li><strong>$document</strong> (<em>DOMDocument</em>) &#8211; </li>
+<li><strong>$nodeList</strong> (<em>DOMNodeList</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcssquery">
+<h3>189.1.2. getCssQuery<a class="headerlink" href="#getcssquery" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCssQuery">
+<tt class="descname">getCssQuery</tt><big>(</big><big>)</big><a class="headerlink" href="#getCssQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve CSS Query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getxpathquery">
+<h3>189.1.3. getXpathQuery<a class="headerlink" href="#getxpathquery" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getXpathQuery">
+<tt class="descname">getXpathQuery</tt><big>(</big><big>)</big><a class="headerlink" href="#getXpathQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve XPath query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdocument">
+<h3>189.1.4. getDocument<a class="headerlink" href="#getdocument" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDocument">
+<tt class="descname">getDocument</tt><big>(</big><big>)</big><a class="headerlink" href="#getDocument" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve DOMDocument</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DOMDocument</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="rewind">
+<h3>189.1.5. rewind<a class="headerlink" href="#rewind" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">rewind</tt><big>(</big><big>)</big></dt>
+<dd><p>Iterator: rewind to first element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DOMNode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="valid">
+<h3>189.1.6. valid<a class="headerlink" href="#valid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">valid</tt><big>(</big><big>)</big></dt>
+<dd><p>Iterator: is current position valid?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="current">
+<h3>189.1.7. current<a class="headerlink" href="#current" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">current</tt><big>(</big><big>)</big></dt>
+<dd><p>Iterator: return current element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DOMNode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="key">
+<h3>189.1.8. key<a class="headerlink" href="#key" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">key</tt><big>(</big><big>)</big></dt>
+<dd><p>Iterator: return key of current element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="next">
+<h3>189.1.9. next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">next</tt><big>(</big><big>)</big></dt>
+<dd><p>Iterator: move to next element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DOMNode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="count">
+<h3>189.1.10. count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">count</tt><big>(</big><big>)</big></dt>
+<dd><p>Countable: get count</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">189. Zend\Dom\NodeList</a><ul>
+<li><a class="reference internal" href="#methods">189.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">189.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getcssquery">189.1.2. getCssQuery</a></li>
+<li><a class="reference internal" href="#getxpathquery">189.1.3. getXpathQuery</a></li>
+<li><a class="reference internal" href="#getdocument">189.1.4. getDocument</a></li>
+<li><a class="reference internal" href="#rewind">189.1.5. rewind</a></li>
+<li><a class="reference internal" href="#valid">189.1.6. valid</a></li>
+<li><a class="reference internal" href="#current">189.1.7. current</a></li>
+<li><a class="reference internal" href="#key">189.1.8. key</a></li>
+<li><a class="reference internal" href="#next">189.1.9. next</a></li>
+<li><a class="reference internal" href="#count">189.1.10. count</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Css2Xpath.html"
+                        title="previous chapter">188. Zend\Dom\Css2Xpath</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Query.html"
+                        title="next chapter">190. Zend\Dom\Query</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Dom/NodeList.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Query.html" title="190. Zend\Dom\Query"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Css2Xpath.html" title="188. Zend\Dom\Css2Xpath"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

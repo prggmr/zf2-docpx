@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>782. Zend\Db\Sql\Expression &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="783. TYPE_IDENTIFIER" href="ExpressionInterface.html" />
+    <link rel="prev" title="781. Zend\Db\Sql\Delete" href="Delete.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ExpressionInterface.html" title="783. TYPE_IDENTIFIER"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Delete.html" title="781. Zend\Db\Sql\Delete"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-sql-expression">
+<h1>782. Zend\Db\Sql\Expression<a class="headerlink" href="#zend-db-sql-expression" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="methods">
+<h2>782.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>782.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$expression = false</em><span class="optional">[</span>, <em>$parameters = false</em><span class="optional">[</span>, <em>$types = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $expression</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$parameters</strong> (<em>string|array</em>) &#8211; </li>
+<li><strong>$types</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setexpression">
+<h3>782.1.2. setExpression<a class="headerlink" href="#setexpression" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setExpression">
+<tt class="descname">setExpression</tt><big>(</big><em>$expression</em><big>)</big><a class="headerlink" href="#setExpression" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param $expression</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Expression</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getexpression">
+<h3>782.1.3. getExpression<a class="headerlink" href="#getexpression" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExpression">
+<tt class="descname">getExpression</tt><big>(</big><big>)</big><a class="headerlink" href="#getExpression" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setparameters">
+<h3>782.1.4. setParameters<a class="headerlink" href="#setparameters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setParameters">
+<tt class="descname">setParameters</tt><big>(</big><em>$parameters</em><big>)</big><a class="headerlink" href="#setParameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param $parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Expression</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getparameters">
+<h3>782.1.5. getParameters<a class="headerlink" href="#getparameters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getParameters">
+<tt class="descname">getParameters</tt><big>(</big><big>)</big><a class="headerlink" href="#getParameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return array</p>
+</dd></dl>
+
+</div>
+<div class="section" id="settypes">
+<h3>782.1.6. setTypes<a class="headerlink" href="#settypes" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTypes">
+<tt class="descname">setTypes</tt><big>(</big><em>$types</em><big>)</big><a class="headerlink" href="#setTypes" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param array $types</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Expression</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettypes">
+<h3>782.1.7. getTypes<a class="headerlink" href="#gettypes" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTypes">
+<tt class="descname">getTypes</tt><big>(</big><big>)</big><a class="headerlink" href="#getTypes" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return array</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getexpressiondata">
+<h3>782.1.8. getExpressionData<a class="headerlink" href="#getexpressiondata" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExpressionData">
+<tt class="descname">getExpressionData</tt><big>(</big><big>)</big><a class="headerlink" href="#getExpressionData" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return array</p>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>782.1.9. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="placeholder">
+<h4>782.1.9.1. PLACEHOLDER<a class="headerlink" href="#placeholder" title="Permalink to this headline">¶</a></h4>
+<p>&#64;const</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">782. Zend\Db\Sql\Expression</a><ul>
+<li><a class="reference internal" href="#methods">782.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">782.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setexpression">782.1.2. setExpression</a></li>
+<li><a class="reference internal" href="#getexpression">782.1.3. getExpression</a></li>
+<li><a class="reference internal" href="#setparameters">782.1.4. setParameters</a></li>
+<li><a class="reference internal" href="#getparameters">782.1.5. getParameters</a></li>
+<li><a class="reference internal" href="#settypes">782.1.6. setTypes</a></li>
+<li><a class="reference internal" href="#gettypes">782.1.7. getTypes</a></li>
+<li><a class="reference internal" href="#getexpressiondata">782.1.8. getExpressionData</a></li>
+<li><a class="reference internal" href="#constants">782.1.9. Constants</a><ul>
+<li><a class="reference internal" href="#placeholder">782.1.9.1. PLACEHOLDER</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Delete.html"
+                        title="previous chapter">781. Zend\Db\Sql\Delete</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ExpressionInterface.html"
+                        title="next chapter">783. TYPE_IDENTIFIER</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Sql/Expression.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ExpressionInterface.html" title="783. TYPE_IDENTIFIER"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Delete.html" title="781. Zend\Db\Sql\Delete"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>147. Zend\Console\Console &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="148. Zend\Console\Getopt" href="Getopt.html" />
+    <link rel="prev" title="129. NORMAL" href="ColorInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Getopt.html" title="148. Zend\Console\Getopt"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ColorInterface.html" title="129. NORMAL"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-console-console">
+<h1>147. Zend\Console\Console<a class="headerlink" href="#zend-console-console" title="Permalink to this headline">¶</a></h1>
+<p>An static, utility class for interacting with Console environment.
+Declared abstract to prevent from instantiating.</p>
+<div class="section" id="methods">
+<h2>147.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getinstance">
+<h3>147.1.1. getInstance<a class="headerlink" href="#getinstance" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getInstance">
+<tt class="descname">getInstance</tt><big>(</big><span class="optional">[</span><em>$forceAdapter = false</em><span class="optional">[</span>, <em>$forceCharset = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getInstance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create and return AdapterAdapterInterface instance.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$forceAdapter</strong> (<em>null|string</em>) &#8211; Optional adapter class name. Ccan be absolute namespace or class name
+relative to ZendConsoleAdapter. If not provided, a best matching
+adapter will be automatically selected.</li>
+<li><strong>$forceCharset</strong> (<em>null|string</em>) &#8211; optional charset name can be absolute namespace or class name relative to
+ZendConsoleCharset. If not provided, charset will be detected
+automatically.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AdapterAdapterInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="iswindows">
+<h3>147.1.2. isWindows<a class="headerlink" href="#iswindows" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isWindows">
+<tt class="descname">isWindows</tt><big>(</big><big>)</big><a class="headerlink" href="#isWindows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if currently running under MS Windows</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="isansicon">
+<h3>147.1.3. isAnsicon<a class="headerlink" href="#isansicon" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isAnsicon">
+<tt class="descname">isAnsicon</tt><big>(</big><big>)</big><a class="headerlink" href="#isAnsicon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if running under MS Windows Ansicon</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isconsole">
+<h3>147.1.4. isConsole<a class="headerlink" href="#isconsole" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isConsole">
+<tt class="descname">isConsole</tt><big>(</big><big>)</big><a class="headerlink" href="#isConsole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if running in a console environment (CLI)</p>
+<p>By default, returns value of PHP_SAPI global constant. If $isConsole is
+set, and a boolean value, that value will be returned.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="overrideisconsole">
+<h3>147.1.5. overrideIsConsole<a class="headerlink" href="#overrideisconsole" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="overrideIsConsole">
+<tt class="descname">overrideIsConsole</tt><big>(</big><em>$flag</em><big>)</big><a class="headerlink" href="#overrideIsConsole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Override the &#8220;is console environment&#8221; flag</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$flag</strong> (<em>null|bool</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detectbestadapter">
+<h3>147.1.6. detectBestAdapter<a class="headerlink" href="#detectbestadapter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="detectBestAdapter">
+<tt class="descname">detectBestAdapter</tt><big>(</big><big>)</big><a class="headerlink" href="#detectBestAdapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Try to detect best matching adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="callstatic">
+<h3>147.1.7. __callStatic<a class="headerlink" href="#callstatic" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__callStatic">
+<tt class="descname">__callStatic</tt><big>(</big><em>$funcName</em>, <em>$arguments</em><big>)</big><a class="headerlink" href="#__callStatic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pass-thru static call to current AdapterInterface instance.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$funcName</strong> &#8211; </li>
+<li><strong>$arguments</strong> &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">mixed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">147. Zend\Console\Console</a><ul>
+<li><a class="reference internal" href="#methods">147.1. Methods</a><ul>
+<li><a class="reference internal" href="#getinstance">147.1.1. getInstance</a></li>
+<li><a class="reference internal" href="#iswindows">147.1.2. isWindows</a></li>
+<li><a class="reference internal" href="#isansicon">147.1.3. isAnsicon</a></li>
+<li><a class="reference internal" href="#isconsole">147.1.4. isConsole</a></li>
+<li><a class="reference internal" href="#overrideisconsole">147.1.5. overrideIsConsole</a></li>
+<li><a class="reference internal" href="#detectbestadapter">147.1.6. detectBestAdapter</a></li>
+<li><a class="reference internal" href="#callstatic">147.1.7. __callStatic</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ColorInterface.html"
+                        title="previous chapter">129. NORMAL</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Getopt.html"
+                        title="next chapter">148. Zend\Console\Getopt</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Console/Console.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Getopt.html" title="148. Zend\Console\Getopt"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ColorInterface.html" title="129. NORMAL"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

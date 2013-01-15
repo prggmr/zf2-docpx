@@ -1,0 +1,620 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>403. Zend\Filter\Inflector &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="404. Zend\Filter\Int" href="Int.html" />
+    <link rel="prev" title="402. Zend\Filter\HtmlEntities" href="HtmlEntities.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Int.html" title="404. Zend\Filter\Int"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="HtmlEntities.html" title="402. Zend\Filter\HtmlEntities"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-filter-inflector">
+<h1>403. Zend\Filter\Inflector<a class="headerlink" href="#zend-filter-inflector" title="Permalink to this headline">¶</a></h1>
+<p>Filter chain for string inflection</p>
+<div class="section" id="methods">
+<h2>403.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>403.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>string|array|Traversable</em>) &#8211; Options to set</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpluginmanager">
+<h3>403.1.2. getPluginManager<a class="headerlink" href="#getpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPluginManager">
+<tt class="descname">getPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">FilterPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpluginmanager">
+<h3>403.1.3. setPluginManager<a class="headerlink" href="#setpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPluginManager">
+<tt class="descname">setPluginManager</tt><big>(</big><em>$manager</em><big>)</big><a class="headerlink" href="#setPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$manager</strong> (<em>FilterPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setoptions">
+<h3>403.1.4. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><em>$options</em><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set options</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setthrowtargetexceptionson">
+<h3>403.1.5. setThrowTargetExceptionsOn<a class="headerlink" href="#setthrowtargetexceptionson" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setThrowTargetExceptionsOn">
+<tt class="descname">setThrowTargetExceptionsOn</tt><big>(</big><em>$throwTargetExceptionsOn</em><big>)</big><a class="headerlink" href="#setThrowTargetExceptionsOn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Whether or not the inflector should throw an exception when a replacement
+identifier is still found within an inflected target.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$throwTargetExceptionsOn</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isthrowtargetexceptionson">
+<h3>403.1.6. isThrowTargetExceptionsOn<a class="headerlink" href="#isthrowtargetexceptionson" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isThrowTargetExceptionsOn">
+<tt class="descname">isThrowTargetExceptionsOn</tt><big>(</big><big>)</big><a class="headerlink" href="#isThrowTargetExceptionsOn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will exceptions be thrown?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settargetreplacementidentifier">
+<h3>403.1.7. setTargetReplacementIdentifier<a class="headerlink" href="#settargetreplacementidentifier" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTargetReplacementIdentifier">
+<tt class="descname">setTargetReplacementIdentifier</tt><big>(</big><em>$targetReplacementIdentifier</em><big>)</big><a class="headerlink" href="#setTargetReplacementIdentifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the Target Replacement Identifier, by default &#8216;:&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$targetReplacementIdentifier</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettargetreplacementidentifier">
+<h3>403.1.8. getTargetReplacementIdentifier<a class="headerlink" href="#gettargetreplacementidentifier" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTargetReplacementIdentifier">
+<tt class="descname">getTargetReplacementIdentifier</tt><big>(</big><big>)</big><a class="headerlink" href="#getTargetReplacementIdentifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Target Replacement Identifier</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settarget">
+<h3>403.1.9. setTarget<a class="headerlink" href="#settarget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTarget">
+<tt class="descname">setTarget</tt><big>(</big><em>$target</em><big>)</big><a class="headerlink" href="#setTarget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a Target
+ex: &#8216;scripts/:controller/:action.:suffix&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettarget">
+<h3>403.1.10. getTarget<a class="headerlink" href="#gettarget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTarget">
+<tt class="descname">getTarget</tt><big>(</big><big>)</big><a class="headerlink" href="#getTarget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve target</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settargetreference">
+<h3>403.1.11. setTargetReference<a class="headerlink" href="#settargetreference" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTargetReference">
+<tt class="descname">setTargetReference</tt><big>(</big><em>$target</em><big>)</big><a class="headerlink" href="#setTargetReference" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Target Reference</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$target</strong> (<em>reference</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setrules">
+<h3>403.1.12. setRules<a class="headerlink" href="#setrules" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setRules">
+<tt class="descname">setRules</tt><big>(</big><em>$rules</em><big>)</big><a class="headerlink" href="#setRules" title="Permalink to this definition">¶</a></dt>
+<dd><p>SetRules() is the same as calling addRules() with the exception that it
+clears the rules before adding them.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$rules</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addrules">
+<h3>403.1.13. addRules<a class="headerlink" href="#addrules" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addRules">
+<tt class="descname">addRules</tt><big>(</big><em>$rules</em><big>)</big><a class="headerlink" href="#addRules" title="Permalink to this definition">¶</a></dt>
+<dd><p>AddRules(): multi-call to setting filter rules.</p>
+<p>If prefixed with a &#8221;:&#8221; (colon), a filter rule will be added.  If not
+prefixed, a static replacement will be added.</p>
+<p>ex:
+array(</p>
+<blockquote>
+<div>&#8216;:controller&#8217; =&gt; array(&#8216;CamelCaseToUnderscore&#8217;,&#8217;StringToLower&#8217;),
+&#8216;:action&#8217;     =&gt; array(&#8216;CamelCaseToUnderscore&#8217;,&#8217;StringToLower&#8217;),
+&#8216;suffix&#8217;      =&gt; &#8216;phtml&#8217;
+);</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>array</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrules">
+<h3>403.1.14. getRules<a class="headerlink" href="#getrules" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRules">
+<tt class="descname">getRules</tt><big>(</big><span class="optional">[</span><em>$spec = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getRules" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get rules</p>
+<p>By default, returns all rules. If a $spec is provided, will return those
+rules if found, false otherwise.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array|false</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getrule">
+<h3>403.1.15. getRule<a class="headerlink" href="#getrule" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getRule">
+<tt class="descname">getRule</tt><big>(</big><em>$spec</em>, <em>$index</em><big>)</big><a class="headerlink" href="#getRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>getRule() returns a rule set by setFilterRule(), a numeric index must be provided</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$index</strong> (<em>int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FilterInterface|false</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearrules">
+<h3>403.1.16. clearRules<a class="headerlink" href="#clearrules" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearRules">
+<tt class="descname">clearRules</tt><big>(</big><big>)</big><a class="headerlink" href="#clearRules" title="Permalink to this definition">¶</a></dt>
+<dd><p>ClearRules() clears the rules currently in the inflector</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Inflector</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilterrule">
+<h3>403.1.17. setFilterRule<a class="headerlink" href="#setfilterrule" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilterRule">
+<tt class="descname">setFilterRule</tt><big>(</big><em>$spec</em>, <em>$ruleSet</em><big>)</big><a class="headerlink" href="#setFilterRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a filtering rule for a spec.  $ruleSet can be a string, Filter object
+or an array of strings or filter objects.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$ruleSet</strong> (<em>array|string|ZendFilterFilterInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Inflector</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addfilterrule">
+<h3>403.1.18. addFilterRule<a class="headerlink" href="#addfilterrule" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addFilterRule">
+<tt class="descname">addFilterRule</tt><big>(</big><em>$spec</em>, <em>$ruleSet</em><big>)</big><a class="headerlink" href="#addFilterRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a filter rule for a spec</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$ruleSet</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Inflector</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setstaticrule">
+<h3>403.1.19. setStaticRule<a class="headerlink" href="#setstaticrule" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setStaticRule">
+<tt class="descname">setStaticRule</tt><big>(</big><em>$name</em>, <em>$value</em><big>)</big><a class="headerlink" href="#setStaticRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a static rule for a spec.  This is a single string value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Inflector</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setstaticrulereference">
+<h3>403.1.20. setStaticRuleReference<a class="headerlink" href="#setstaticrulereference" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setStaticRuleReference">
+<tt class="descname">setStaticRuleReference</tt><big>(</big><em>$name</em>, <em>$reference</em><big>)</big><a class="headerlink" href="#setStaticRuleReference" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Static Rule Reference.</p>
+<p>This allows a consuming class to pass a property or variable
+in to be referenced when its time to build the output string from the
+target.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$reference</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Inflector</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="filter">
+<h3>403.1.21. filter<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">filter</tt><big>(</big><em>$source</em><big>)</big></dt>
+<dd><p>Inflect</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$source</strong> (<em>string|array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizespec">
+<h3>403.1.22. _normalizeSpec<a class="headerlink" href="#normalizespec" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_normalizeSpec">
+<tt class="descname">_normalizeSpec</tt><big>(</big><em>$spec</em><big>)</big><a class="headerlink" href="#_normalizeSpec" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize spec string</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>403.1.23. _getRule<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_getRule">
+<tt class="descname">_getRule</tt><big>(</big><em>$rule</em><big>)</big><a class="headerlink" href="#_getRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resolve named filters and convert them to filter objects.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$rule</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilterInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">403. Zend\Filter\Inflector</a><ul>
+<li><a class="reference internal" href="#methods">403.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">403.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getpluginmanager">403.1.2. getPluginManager</a></li>
+<li><a class="reference internal" href="#setpluginmanager">403.1.3. setPluginManager</a></li>
+<li><a class="reference internal" href="#setoptions">403.1.4. setOptions</a></li>
+<li><a class="reference internal" href="#setthrowtargetexceptionson">403.1.5. setThrowTargetExceptionsOn</a></li>
+<li><a class="reference internal" href="#isthrowtargetexceptionson">403.1.6. isThrowTargetExceptionsOn</a></li>
+<li><a class="reference internal" href="#settargetreplacementidentifier">403.1.7. setTargetReplacementIdentifier</a></li>
+<li><a class="reference internal" href="#gettargetreplacementidentifier">403.1.8. getTargetReplacementIdentifier</a></li>
+<li><a class="reference internal" href="#settarget">403.1.9. setTarget</a></li>
+<li><a class="reference internal" href="#gettarget">403.1.10. getTarget</a></li>
+<li><a class="reference internal" href="#settargetreference">403.1.11. setTargetReference</a></li>
+<li><a class="reference internal" href="#setrules">403.1.12. setRules</a></li>
+<li><a class="reference internal" href="#addrules">403.1.13. addRules</a></li>
+<li><a class="reference internal" href="#getrules">403.1.14. getRules</a></li>
+<li><a class="reference internal" href="#getrule">403.1.15. getRule</a></li>
+<li><a class="reference internal" href="#clearrules">403.1.16. clearRules</a></li>
+<li><a class="reference internal" href="#setfilterrule">403.1.17. setFilterRule</a></li>
+<li><a class="reference internal" href="#addfilterrule">403.1.18. addFilterRule</a></li>
+<li><a class="reference internal" href="#setstaticrule">403.1.19. setStaticRule</a></li>
+<li><a class="reference internal" href="#setstaticrulereference">403.1.20. setStaticRuleReference</a></li>
+<li><a class="reference internal" href="#filter">403.1.21. filter</a></li>
+<li><a class="reference internal" href="#normalizespec">403.1.22. _normalizeSpec</a></li>
+<li><a class="reference internal" href="#id1">403.1.23. _getRule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="HtmlEntities.html"
+                        title="previous chapter">402. Zend\Filter\HtmlEntities</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Int.html"
+                        title="next chapter">404. Zend\Filter\Int</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Filter/Inflector.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Int.html" title="404. Zend\Filter\Int"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="HtmlEntities.html" title="402. Zend\Filter\HtmlEntities"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

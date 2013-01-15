@@ -1,0 +1,412 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>904. Zend\Feed\Writer\Feed &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="905. Zend\Feed\Writer\FeedFactory" href="FeedFactory.html" />
+    <link rel="prev" title="903. Zend\Feed\Writer\ExtensionManager" href="ExtensionManager.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FeedFactory.html" title="905. Zend\Feed\Writer\FeedFactory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ExtensionManager.html" title="903. Zend\Feed\Writer\ExtensionManager"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-writer-feed">
+<h1>904. Zend\Feed\Writer\Feed<a class="headerlink" href="#zend-feed-writer-feed" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category Zend</p>
+<div class="section" id="methods">
+<h2>904.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="createentry">
+<h3>904.1.1. createEntry<a class="headerlink" href="#createentry" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createEntry">
+<tt class="descname">createEntry</tt><big>(</big><big>)</big><a class="headerlink" href="#createEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new ZendFeedWriterEntry data container for use. This is NOT
+added to the current feed automatically, but is necessary to create a
+container with some initial values preset based on the current feed data.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendFeedWriterEntry</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addtombstone">
+<h3>904.1.2. addTombstone<a class="headerlink" href="#addtombstone" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addTombstone">
+<tt class="descname">addTombstone</tt><big>(</big><em>$deleted</em><big>)</big><a class="headerlink" href="#addTombstone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Appends a ZendFeedWriterDeleted object representing a new entry tombstone
+to the feed data container&#8217;s internal group of entries.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$deleted</strong> (<em>Deleted</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createtombstone">
+<h3>904.1.3. createTombstone<a class="headerlink" href="#createtombstone" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createTombstone">
+<tt class="descname">createTombstone</tt><big>(</big><big>)</big><a class="headerlink" href="#createTombstone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a new ZendFeedWriterDeleted data container for use. This is NOT
+added to the current feed automatically, but is necessary to create a
+container with some initial values preset based on the current feed data.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addentry">
+<h3>904.1.4. addEntry<a class="headerlink" href="#addentry" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addEntry">
+<tt class="descname">addEntry</tt><big>(</big><em>$entry</em><big>)</big><a class="headerlink" href="#addEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Appends a ZendFeedWriterEntry object representing a new entry/item
+the feed data container&#8217;s internal group of entries.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$entry</strong> (<em>Entry</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Feed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="removeentry">
+<h3>904.1.5. removeEntry<a class="headerlink" href="#removeentry" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="removeEntry">
+<tt class="descname">removeEntry</tt><big>(</big><em>$index</em><big>)</big><a class="headerlink" href="#removeEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes a specific indexed entry from the internal queue. Entries must be
+added to a feed container in order to be indexed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$index</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Feed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getentry">
+<h3>904.1.6. getEntry<a class="headerlink" href="#getentry" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEntry">
+<tt class="descname">getEntry</tt><big>(</big><span class="optional">[</span><em>$index = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve a specific indexed entry from the internal queue. Entries must be
+added to a feed container in order to be indexed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$index</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="orderbydate">
+<h3>904.1.7. orderByDate<a class="headerlink" href="#orderbydate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="orderByDate">
+<tt class="descname">orderByDate</tt><big>(</big><big>)</big><a class="headerlink" href="#orderByDate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Orders all indexed entries by date, thus offering date ordered readable
+content where a parser (or Homo Sapien) ignores the generic rule that
+XML element order is irrelevant and has no intrinsic meaning.</p>
+<p>Using this method will alter the original indexation.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Feed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="count">
+<h3>904.1.8. count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">count</tt><big>(</big><big>)</big></dt>
+<dd><p>Get the number of feed entries.
+Required by the Iterator interface.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="current">
+<h3>904.1.9. current<a class="headerlink" href="#current" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">current</tt><big>(</big><big>)</big></dt>
+<dd><p>Return the current entry</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Entry</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="key">
+<h3>904.1.10. key<a class="headerlink" href="#key" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">key</tt><big>(</big><big>)</big></dt>
+<dd><p>Return the current feed key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="next">
+<h3>904.1.11. next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">next</tt><big>(</big><big>)</big></dt>
+<dd><p>Move the feed pointer forward</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="rewind">
+<h3>904.1.12. rewind<a class="headerlink" href="#rewind" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">rewind</tt><big>(</big><big>)</big></dt>
+<dd><p>Reset the pointer in the feed object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="valid">
+<h3>904.1.13. valid<a class="headerlink" href="#valid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">valid</tt><big>(</big><big>)</big></dt>
+<dd><p>Check to see if the iterator is still valid</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="export">
+<h3>904.1.14. export<a class="headerlink" href="#export" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">export</tt><big>(</big><em>$type</em><span class="optional">[</span>, <em>$ignoreExceptions = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Attempt to build and return the feed resulting from the data set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$type</strong> (<em>string</em>) &#8211; The feed type &#8220;rss&#8221; or &#8220;atom&#8221; to export as</li>
+<li><strong>$ignoreExceptions</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">904. Zend\Feed\Writer\Feed</a><ul>
+<li><a class="reference internal" href="#methods">904.1. Methods</a><ul>
+<li><a class="reference internal" href="#createentry">904.1.1. createEntry</a></li>
+<li><a class="reference internal" href="#addtombstone">904.1.2. addTombstone</a></li>
+<li><a class="reference internal" href="#createtombstone">904.1.3. createTombstone</a></li>
+<li><a class="reference internal" href="#addentry">904.1.4. addEntry</a></li>
+<li><a class="reference internal" href="#removeentry">904.1.5. removeEntry</a></li>
+<li><a class="reference internal" href="#getentry">904.1.6. getEntry</a></li>
+<li><a class="reference internal" href="#orderbydate">904.1.7. orderByDate</a></li>
+<li><a class="reference internal" href="#count">904.1.8. count</a></li>
+<li><a class="reference internal" href="#current">904.1.9. current</a></li>
+<li><a class="reference internal" href="#key">904.1.10. key</a></li>
+<li><a class="reference internal" href="#next">904.1.11. next</a></li>
+<li><a class="reference internal" href="#rewind">904.1.12. rewind</a></li>
+<li><a class="reference internal" href="#valid">904.1.13. valid</a></li>
+<li><a class="reference internal" href="#export">904.1.14. export</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ExtensionManager.html"
+                        title="previous chapter">903. Zend\Feed\Writer\ExtensionManager</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FeedFactory.html"
+                        title="next chapter">905. Zend\Feed\Writer\FeedFactory</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Writer/Feed.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FeedFactory.html" title="905. Zend\Feed\Writer\FeedFactory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ExtensionManager.html" title="903. Zend\Feed\Writer\ExtensionManager"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

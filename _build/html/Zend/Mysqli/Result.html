@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>540. Zend\Db\Adapter\Driver\Mysqli\Result &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="541. Zend\Db\Adapter\Driver\Mysqli\Statement" href="Statement.html" />
+    <link rel="prev" title="539. Zend\Db\Adapter\Driver\Mysqli\Mysqli" href="Mysqli.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Statement.html" title="541. Zend\Db\Adapter\Driver\Mysqli\Statement"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Mysqli.html" title="539. Zend\Db\Adapter\Driver\Mysqli\Mysqli"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-adapter-driver-mysqli-result">
+<h1>540. Zend\Db\Adapter\Driver\Mysqli\Result<a class="headerlink" href="#zend-db-adapter-driver-mysqli-result" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>540.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="initialize">
+<h3>540.1.1. initialize<a class="headerlink" href="#initialize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">initialize</tt><big>(</big><em>$resource</em>, <em>$generatedValue</em><span class="optional">[</span>, <em>$isBuffered = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Initialize</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$resource</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$generatedValue</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$isBuffered</strong> (<em>bool|null</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Result</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="buffer">
+<h3>540.1.2. buffer<a class="headerlink" href="#buffer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">buffer</tt><big>(</big><big>)</big></dt>
+<dd><p>Force buffering</p>
+</dd></dl>
+
+</div>
+<div class="section" id="isbuffered">
+<h3>540.1.3. isBuffered<a class="headerlink" href="#isbuffered" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isBuffered">
+<tt class="descname">isBuffered</tt><big>(</big><big>)</big><a class="headerlink" href="#isBuffered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if is buffered</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getresource">
+<h3>540.1.4. getResource<a class="headerlink" href="#getresource" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getResource">
+<tt class="descname">getResource</tt><big>(</big><big>)</big><a class="headerlink" href="#getResource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isqueryresult">
+<h3>540.1.5. isQueryResult<a class="headerlink" href="#isqueryresult" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isQueryResult">
+<tt class="descname">isQueryResult</tt><big>(</big><big>)</big><a class="headerlink" href="#isQueryResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is query result?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getaffectedrows">
+<h3>540.1.6. getAffectedRows<a class="headerlink" href="#getaffectedrows" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAffectedRows">
+<tt class="descname">getAffectedRows</tt><big>(</big><big>)</big><a class="headerlink" href="#getAffectedRows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get affected rows</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="current">
+<h3>540.1.7. current<a class="headerlink" href="#current" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">current</tt><big>(</big><big>)</big></dt>
+<dd><p>Current</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="loaddatafrommysqlistatement">
+<h3>540.1.8. loadDataFromMysqliStatement<a class="headerlink" href="#loaddatafrommysqlistatement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadDataFromMysqliStatement">
+<tt class="descname">loadDataFromMysqliStatement</tt><big>(</big><big>)</big><a class="headerlink" href="#loadDataFromMysqliStatement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mysqli&#8217;s binding and returning of statement values</p>
+<p>Mysqli requires you to bind variables to the extension in order to
+get data out.  These values have to be references:</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="loadfrommysqliresult">
+<h3>540.1.9. loadFromMysqliResult<a class="headerlink" href="#loadfrommysqliresult" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="loadFromMysqliResult">
+<tt class="descname">loadFromMysqliResult</tt><big>(</big><big>)</big><a class="headerlink" href="#loadFromMysqliResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load from mysqli result</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="next">
+<h3>540.1.10. next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">next</tt><big>(</big><big>)</big></dt>
+<dd><p>Next</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="key">
+<h3>540.1.11. key<a class="headerlink" href="#key" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">key</tt><big>(</big><big>)</big></dt>
+<dd><p>Key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="rewind">
+<h3>540.1.12. rewind<a class="headerlink" href="#rewind" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">rewind</tt><big>(</big><big>)</big></dt>
+<dd><p>Rewind</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="valid">
+<h3>540.1.13. valid<a class="headerlink" href="#valid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">valid</tt><big>(</big><big>)</big></dt>
+<dd><p>Valid</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="count">
+<h3>540.1.14. count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">count</tt><big>(</big><big>)</big></dt>
+<dd><p>Count</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfieldcount">
+<h3>540.1.15. getFieldCount<a class="headerlink" href="#getfieldcount" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFieldCount">
+<tt class="descname">getFieldCount</tt><big>(</big><big>)</big><a class="headerlink" href="#getFieldCount" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get field count</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getgeneratedvalue">
+<h3>540.1.16. getGeneratedValue<a class="headerlink" href="#getgeneratedvalue" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getGeneratedValue">
+<tt class="descname">getGeneratedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#getGeneratedValue" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get generated value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">540. Zend\Db\Adapter\Driver\Mysqli\Result</a><ul>
+<li><a class="reference internal" href="#methods">540.1. Methods</a><ul>
+<li><a class="reference internal" href="#initialize">540.1.1. initialize</a></li>
+<li><a class="reference internal" href="#buffer">540.1.2. buffer</a></li>
+<li><a class="reference internal" href="#isbuffered">540.1.3. isBuffered</a></li>
+<li><a class="reference internal" href="#getresource">540.1.4. getResource</a></li>
+<li><a class="reference internal" href="#isqueryresult">540.1.5. isQueryResult</a></li>
+<li><a class="reference internal" href="#getaffectedrows">540.1.6. getAffectedRows</a></li>
+<li><a class="reference internal" href="#current">540.1.7. current</a></li>
+<li><a class="reference internal" href="#loaddatafrommysqlistatement">540.1.8. loadDataFromMysqliStatement</a></li>
+<li><a class="reference internal" href="#loadfrommysqliresult">540.1.9. loadFromMysqliResult</a></li>
+<li><a class="reference internal" href="#next">540.1.10. next</a></li>
+<li><a class="reference internal" href="#key">540.1.11. key</a></li>
+<li><a class="reference internal" href="#rewind">540.1.12. rewind</a></li>
+<li><a class="reference internal" href="#valid">540.1.13. valid</a></li>
+<li><a class="reference internal" href="#count">540.1.14. count</a></li>
+<li><a class="reference internal" href="#getfieldcount">540.1.15. getFieldCount</a></li>
+<li><a class="reference internal" href="#getgeneratedvalue">540.1.16. getGeneratedValue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Mysqli.html"
+                        title="previous chapter">539. Zend\Db\Adapter\Driver\Mysqli\Mysqli</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Statement.html"
+                        title="next chapter">541. Zend\Db\Adapter\Driver\Mysqli\Statement</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Mysqli/Result.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Statement.html" title="541. Zend\Db\Adapter\Driver\Mysqli\Statement"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Mysqli.html" title="539. Zend\Db\Adapter\Driver\Mysqli\Mysqli"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

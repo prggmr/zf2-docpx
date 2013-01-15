@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>555. Zend\Barcode\Object\Error &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="556. Zend\Barcode\Object\Identcode" href="Identcode.html" />
+    <link rel="prev" title="554. Zend\Barcode\Object\Ean8" href="Ean8.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Identcode.html" title="556. Zend\Barcode\Object\Identcode"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Ean8.html" title="554. Zend\Barcode\Object\Ean8"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-barcode-object-error">
+<h1>555. Zend\Barcode\Object\Error<a class="headerlink" href="#zend-barcode-object-error" title="Permalink to this headline">¶</a></h1>
+<p>Class for generate Barcode</p>
+<div class="section" id="methods">
+<h2>555.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="validatetext">
+<h3>555.1.1. validateText<a class="headerlink" href="#validatetext" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="validateText">
+<tt class="descname">validateText</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#validateText" title="Permalink to this definition">¶</a></dt>
+<dd><p>All texts are accepted</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheight">
+<h3>555.1.2. getHeight<a class="headerlink" href="#getheight" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeight">
+<tt class="descname">getHeight</tt><big>(</big><span class="optional">[</span><em>$recalculate = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getHeight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Height is forced</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$recalculate</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getwidth">
+<h3>555.1.3. getWidth<a class="headerlink" href="#getwidth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getWidth">
+<tt class="descname">getWidth</tt><big>(</big><span class="optional">[</span><em>$recalculate = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Width is forced</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$recalculate</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="draw">
+<h3>555.1.4. draw<a class="headerlink" href="#draw" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">draw</tt><big>(</big><big>)</big></dt>
+<dd><p>Reset precedent instructions
+and draw the error message</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preparebarcode">
+<h3>555.1.5. prepareBarcode<a class="headerlink" href="#preparebarcode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareBarcode">
+<tt class="descname">prepareBarcode</tt><big>(</big><big>)</big><a class="headerlink" href="#prepareBarcode" title="Permalink to this definition">¶</a></dt>
+<dd><p>For compatibility reason</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="checkspecificparams">
+<h3>555.1.6. checkSpecificParams<a class="headerlink" href="#checkspecificparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkSpecificParams">
+<tt class="descname">checkSpecificParams</tt><big>(</big><big>)</big><a class="headerlink" href="#checkSpecificParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>For compatibility reason</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="calculatebarcodewidth">
+<h3>555.1.7. calculateBarcodeWidth<a class="headerlink" href="#calculatebarcodewidth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="calculateBarcodeWidth">
+<tt class="descname">calculateBarcodeWidth</tt><big>(</big><big>)</big><a class="headerlink" href="#calculateBarcodeWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>For compatibility reason</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">555. Zend\Barcode\Object\Error</a><ul>
+<li><a class="reference internal" href="#methods">555.1. Methods</a><ul>
+<li><a class="reference internal" href="#validatetext">555.1.1. validateText</a></li>
+<li><a class="reference internal" href="#getheight">555.1.2. getHeight</a></li>
+<li><a class="reference internal" href="#getwidth">555.1.3. getWidth</a></li>
+<li><a class="reference internal" href="#draw">555.1.4. draw</a></li>
+<li><a class="reference internal" href="#preparebarcode">555.1.5. prepareBarcode</a></li>
+<li><a class="reference internal" href="#checkspecificparams">555.1.6. checkSpecificParams</a></li>
+<li><a class="reference internal" href="#calculatebarcodewidth">555.1.7. calculateBarcodeWidth</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Ean8.html"
+                        title="previous chapter">554. Zend\Barcode\Object\Ean8</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Identcode.html"
+                        title="next chapter">556. Zend\Barcode\Object\Identcode</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Object/Error.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Identcode.html" title="556. Zend\Barcode\Object\Identcode"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Ean8.html" title="554. Zend\Barcode\Object\Ean8"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

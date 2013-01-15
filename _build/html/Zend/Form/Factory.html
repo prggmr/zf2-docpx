@@ -1,0 +1,527 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>432. Zend\Form\Factory &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="433. Zend\Form\Fieldset" href="Fieldset.html" />
+    <link rel="prev" title="431. Zend\Form\prepareElement" href="ElementPrepareAwareInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Fieldset.html" title="433. Zend\Form\Fieldset"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ElementPrepareAwareInterface.html" title="431. Zend\Form\prepareElement"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-factory">
+<h1>432. Zend\Form\Factory<a class="headerlink" href="#zend-form-factory" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>432.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setinputfilterfactory">
+<h3>432.1.1. setInputFilterFactory<a class="headerlink" href="#setinputfilterfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setInputFilterFactory">
+<tt class="descname">setInputFilterFactory</tt><big>(</big><em>$inputFilterFactory</em><big>)</big><a class="headerlink" href="#setInputFilterFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set input filter factory to use when creating forms</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$inputFilterFactory</strong> (<em>InputFilterFactory</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Factory</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getinputfilterfactory">
+<h3>432.1.2. getInputFilterFactory<a class="headerlink" href="#getinputfilterfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getInputFilterFactory">
+<tt class="descname">getInputFilterFactory</tt><big>(</big><big>)</big><a class="headerlink" href="#getInputFilterFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get current input filter factory</p>
+<p>If none provided, uses an unconfigured instance.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">InputFilterFactory</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="create">
+<h3>432.1.3. create<a class="headerlink" href="#create" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">create</tt><big>(</big><em>$spec</em><big>)</big></dt>
+<dd><p>Create an element, fieldset, or form</p>
+<p>Introspects the &#8216;type&#8217; key of the provided $spec, and determines what
+type is being requested; if none is provided, assumes the spec
+represents simply an element.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ElementInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionDomainException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createelement">
+<h3>432.1.4. createElement<a class="headerlink" href="#createelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createElement">
+<tt class="descname">createElement</tt><big>(</big><em>$spec</em><big>)</big><a class="headerlink" href="#createElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create an element based on the provided specification</p>
+<p>Specification can contain any of the following:
+- type: the Element class to use; defaults to ZendFormElement
+- name: what name to provide the element, if any
+- options: an array, Traversable, or ArrayAccess object of element options
+- attributes: an array, Traversable, or ArrayAccess object of element</p>
+<blockquote>
+<div>attributes to assign</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ElementInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException for an invalid $spec</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionDomainException for an invalid element type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createfieldset">
+<h3>432.1.5. createFieldset<a class="headerlink" href="#createfieldset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createFieldset">
+<tt class="descname">createFieldset</tt><big>(</big><em>$spec</em><big>)</big><a class="headerlink" href="#createFieldset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a fieldset based on the provided specification</p>
+<p>Specification can contain any of the following:
+- type: the Fieldset class to use; defaults to ZendFormFieldset
+- name: what name to provide the fieldset, if any
+- options: an array, Traversable, or ArrayAccess object of element options
+- attributes: an array, Traversable, or ArrayAccess object of element</p>
+<blockquote>
+<div>attributes to assign</div></blockquote>
+<ul class="simple">
+<li>elements: an array or Traversable object where each entry is an array
+or ArrayAccess object containing the keys:
+- flags: (optional) array of flags to pass to FieldsetInterface::add()
+- spec: the actual element specification, per <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> createElement()}</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FieldsetInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException for an invalid $spec</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionDomainException for an invalid fieldset type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createform">
+<h3>432.1.6. createForm<a class="headerlink" href="#createform" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createForm">
+<tt class="descname">createForm</tt><big>(</big><em>$spec</em><big>)</big><a class="headerlink" href="#createForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a form based on the provided specification</p>
+<p>Specification follows that of <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> createFieldset()}, and adds the
+following keys:</p>
+<ul class="simple">
+<li>input_filter: input filter instance, named input filter class, or
+array specification for the input filter factory</li>
+<li>hydrator: hydrator instance or named hydrator class</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$spec</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FormInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException for an invalid $spec</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionDomainException for an invalid form type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="validatespecification">
+<h3>432.1.7. validateSpecification<a class="headerlink" href="#validatespecification" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="validateSpecification">
+<tt class="descname">validateSpecification</tt><big>(</big><em>$spec</em>, <em>$method</em><big>)</big><a class="headerlink" href="#validateSpecification" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate a provided specification</p>
+<p>Ensures we have an array, Traversable, or ArrayAccess object, and returns it.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; Method invoking the validator</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">array|ArrayAccess</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException for invalid $spec</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjectelements">
+<h3>432.1.8. prepareAndInjectElements<a class="headerlink" href="#prepareandinjectelements" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectElements">
+<tt class="descname">prepareAndInjectElements</tt><big>(</big><em>$elements</em>, <em>$fieldset</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectElements" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a list of element specifications, creates the elements, and injects them into the provided fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$elements</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </li>
+<li><strong>$fieldset</strong> (<em>FieldsetInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; Method invoking this one (for exception messages)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjectfieldsets">
+<h3>432.1.9. prepareAndInjectFieldsets<a class="headerlink" href="#prepareandinjectfieldsets" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectFieldsets">
+<tt class="descname">prepareAndInjectFieldsets</tt><big>(</big><em>$fieldsets</em>, <em>$masterFieldset</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectFieldsets" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a list of fieldset specifications, creates the fieldsets, and injects them into the master fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$fieldsets</strong> (<em>array|Traversable|ArrayAccess</em>) &#8211; </li>
+<li><strong>$masterFieldset</strong> (<em>FieldsetInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; Method invoking this one (for exception messages)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjectobject">
+<h3>432.1.10. prepareAndInjectObject<a class="headerlink" href="#prepareandinjectobject" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectObject">
+<tt class="descname">prepareAndInjectObject</tt><big>(</big><em>$objectName</em>, <em>$fieldset</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare and inject an object</p>
+<p>Takes a string indicating a class name, instantiates the class
+by that name, and injects the class instance as the bound object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$objectName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$fieldset</strong> (<em>FieldsetInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionDomainException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjecthydrator">
+<h3>432.1.11. prepareAndInjectHydrator<a class="headerlink" href="#prepareandinjecthydrator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectHydrator">
+<tt class="descname">prepareAndInjectHydrator</tt><big>(</big><em>$hydratorOrName</em>, <em>$fieldset</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectHydrator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare and inject a named hydrator</p>
+<p>Takes a string indicating a hydrator class name (or a concrete instance), instantiates the class
+by that name, and injects the hydrator instance into the form.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$hydratorOrName</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$fieldset</strong> (<em>FieldsetInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">void</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionDomainException If $hydratorOrName is not a string, does not resolve to a known class, or
+the class does not implement HydratorHydratorInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjectinputfilter">
+<h3>432.1.12. prepareAndInjectInputFilter<a class="headerlink" href="#prepareandinjectinputfilter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectInputFilter">
+<tt class="descname">prepareAndInjectInputFilter</tt><big>(</big><em>$spec</em>, <em>$form</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectInputFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare an input filter instance and inject in the provided form</p>
+<p>If the input filter specified is a string, assumes it is a class name,
+and attempts to instantiate it. If the class does not exist, or does
+not extend InputFilterInterface, an exception is raised.</p>
+<p>Otherwise, $spec is passed on to the attached InputFilter Factory
+instance in order to create the input filter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>string|array|Traversable</em>) &#8211; </li>
+<li><strong>$form</strong> (<em>FormInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">void</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionDomainException for unknown InputFilter class or invalid InputFilter instance</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="prepareandinjectvalidationgroup">
+<h3>432.1.13. prepareAndInjectValidationGroup<a class="headerlink" href="#prepareandinjectvalidationgroup" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareAndInjectValidationGroup">
+<tt class="descname">prepareAndInjectValidationGroup</tt><big>(</big><em>$spec</em>, <em>$form</em>, <em>$method</em><big>)</big><a class="headerlink" href="#prepareAndInjectValidationGroup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare a validation group and inject in the provided form</p>
+<p>Takes an array of elements names</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$spec</strong> (<em>string|array|Traversable</em>) &#8211; </li>
+<li><strong>$form</strong> (<em>FormInterface</em>) &#8211; </li>
+<li><strong>$method</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">void</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionDomainException if validation group given is not an array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="issubclassof">
+<h3>432.1.14. isSubclassOf<a class="headerlink" href="#issubclassof" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isSubclassOf">
+<tt class="descname">isSubclassOf</tt><big>(</big><em>$className</em>, <em>$type</em><big>)</big><a class="headerlink" href="#isSubclassOf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the object has this class as one of its parents</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $className:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string $type:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">432. Zend\Form\Factory</a><ul>
+<li><a class="reference internal" href="#methods">432.1. Methods</a><ul>
+<li><a class="reference internal" href="#setinputfilterfactory">432.1.1. setInputFilterFactory</a></li>
+<li><a class="reference internal" href="#getinputfilterfactory">432.1.2. getInputFilterFactory</a></li>
+<li><a class="reference internal" href="#create">432.1.3. create</a></li>
+<li><a class="reference internal" href="#createelement">432.1.4. createElement</a></li>
+<li><a class="reference internal" href="#createfieldset">432.1.5. createFieldset</a></li>
+<li><a class="reference internal" href="#createform">432.1.6. createForm</a></li>
+<li><a class="reference internal" href="#validatespecification">432.1.7. validateSpecification</a></li>
+<li><a class="reference internal" href="#prepareandinjectelements">432.1.8. prepareAndInjectElements</a></li>
+<li><a class="reference internal" href="#prepareandinjectfieldsets">432.1.9. prepareAndInjectFieldsets</a></li>
+<li><a class="reference internal" href="#prepareandinjectobject">432.1.10. prepareAndInjectObject</a></li>
+<li><a class="reference internal" href="#prepareandinjecthydrator">432.1.11. prepareAndInjectHydrator</a></li>
+<li><a class="reference internal" href="#prepareandinjectinputfilter">432.1.12. prepareAndInjectInputFilter</a></li>
+<li><a class="reference internal" href="#prepareandinjectvalidationgroup">432.1.13. prepareAndInjectValidationGroup</a></li>
+<li><a class="reference internal" href="#issubclassof">432.1.14. isSubclassOf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ElementPrepareAwareInterface.html"
+                        title="previous chapter">431. Zend\Form\prepareElement</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Fieldset.html"
+                        title="next chapter">433. Zend\Form\Fieldset</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Form/Factory.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Fieldset.html" title="433. Zend\Form\Fieldset"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ElementPrepareAwareInterface.html" title="431. Zend\Form\prepareElement"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

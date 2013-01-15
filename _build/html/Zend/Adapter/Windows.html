@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>47. Zend\Console\Adapter\Windows &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="48. Zend\Console\Adapter\WindowsAnsicon" href="WindowsAnsicon.html" />
+    <link rel="prev" title="46. Zend\Cache\Storage\Adapter\WinCacheOptions" href="WinCacheOptions.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="WindowsAnsicon.html" title="48. Zend\Console\Adapter\WindowsAnsicon"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="WinCacheOptions.html" title="46. Zend\Cache\Storage\Adapter\WinCacheOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-console-adapter-windows">
+<h1>47. Zend\Console\Adapter\Windows<a class="headerlink" href="#zend-console-adapter-windows" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>47.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getwidth">
+<h3>47.1.1. getWidth<a class="headerlink" href="#getwidth" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getWidth">
+<tt class="descname">getWidth</tt><big>(</big><big>)</big><a class="headerlink" href="#getWidth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine and return current console width.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getheight">
+<h3>47.1.2. getHeight<a class="headerlink" href="#getheight" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHeight">
+<tt class="descname">getHeight</tt><big>(</big><big>)</big><a class="headerlink" href="#getHeight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine and return current console height.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="runprobecommand">
+<h3>47.1.3. runProbeCommand<a class="headerlink" href="#runprobecommand" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="runProbeCommand">
+<tt class="descname">runProbeCommand</tt><big>(</big><big>)</big><a class="headerlink" href="#runProbeCommand" title="Permalink to this definition">¶</a></dt>
+<dd><p>Probe for system capabilities and cache results</p>
+<p>Run a Windows Powershell command that determines parameters of console window. The command is fed through
+standard input (with echo) to prevent Powershell from creating a sub-thread and hanging PHP when run through
+a debugger/IDE.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="runmodecommand">
+<h3>47.1.4. runModeCommand<a class="headerlink" href="#runmodecommand" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="runModeCommand">
+<tt class="descname">runModeCommand</tt><big>(</big><big>)</big><a class="headerlink" href="#runModeCommand" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run and cache results of mode command</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isutf8">
+<h3>47.1.5. isUtf8<a class="headerlink" href="#isutf8" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isUtf8">
+<tt class="descname">isUtf8</tt><big>(</big><big>)</big><a class="headerlink" href="#isUtf8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if console is UTF-8 compatible</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpos">
+<h3>47.1.6. setPos<a class="headerlink" href="#setpos" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPos">
+<tt class="descname">setPos</tt><big>(</big><em>$x</em>, <em>$y</em><big>)</big><a class="headerlink" href="#setPos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set cursor position</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$x</strong> (<em>int</em>) &#8211; </li>
+<li><strong>$y</strong> (<em>int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettitle">
+<h3>47.1.7. getTitle<a class="headerlink" href="#gettitle" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTitle">
+<tt class="descname">getTitle</tt><big>(</big><big>)</big><a class="headerlink" href="#getTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return current console window title.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcharset">
+<h3>47.1.8. setCharset<a class="headerlink" href="#setcharset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCharset">
+<tt class="descname">setCharset</tt><big>(</big><em>$charset</em><big>)</big><a class="headerlink" href="#setCharset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Console charset to use.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$charset</strong> (<em>CharsetCharsetInterface</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcharset">
+<h3>47.1.9. getCharset<a class="headerlink" href="#getcharset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCharset">
+<tt class="descname">getCharset</tt><big>(</big><big>)</big><a class="headerlink" href="#getCharset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get charset currently in use by this adapter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">CharsetCharsetInterface $charset</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdefaultcharset">
+<h3>47.1.10. getDefaultCharset<a class="headerlink" href="#getdefaultcharset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDefaultCharset">
+<tt class="descname">getDefaultCharset</tt><big>(</big><big>)</big><a class="headerlink" href="#getDefaultCharset" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return CharsetAsciiExtended</p>
+</dd></dl>
+
+</div>
+<div class="section" id="switchtoutf8">
+<h3>47.1.11. switchToUtf8<a class="headerlink" href="#switchtoutf8" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="switchToUtf8">
+<tt class="descname">switchToUtf8</tt><big>(</big><big>)</big><a class="headerlink" href="#switchToUtf8" title="Permalink to this definition">¶</a></dt>
+<dd><p>Switch to utf-8 encoding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clear">
+<h3>47.1.12. clear<a class="headerlink" href="#clear" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">clear</tt><big>(</big><big>)</big></dt>
+<dd><p>Clear console screen</p>
+</dd></dl>
+
+</div>
+<div class="section" id="clearline">
+<h3>47.1.13. clearLine<a class="headerlink" href="#clearline" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearLine">
+<tt class="descname">clearLine</tt><big>(</big><big>)</big><a class="headerlink" href="#clearLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear line at cursor position</p>
+</dd></dl>
+
+</div>
+<div class="section" id="readchar">
+<h3>47.1.14. readChar<a class="headerlink" href="#readchar" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="readChar">
+<tt class="descname">readChar</tt><big>(</big><span class="optional">[</span><em>$mask = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#readChar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a single character from the console input</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$mask</strong> (<em>string|null</em>) &#8211; A list of allowed chars</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="char">
+<h3>47.1.15. $char<a class="headerlink" href="#char" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">$char()</tt></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="readline">
+<h3>47.1.16. readLine<a class="headerlink" href="#readline" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="readLine">
+<tt class="descname">readLine</tt><big>(</big><span class="optional">[</span><em>$maxLength = 2048</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#readLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a single line from the console input.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$maxLength</strong> (<em>int</em>) &#8211; Maximum response length</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">47. Zend\Console\Adapter\Windows</a><ul>
+<li><a class="reference internal" href="#methods">47.1. Methods</a><ul>
+<li><a class="reference internal" href="#getwidth">47.1.1. getWidth</a></li>
+<li><a class="reference internal" href="#getheight">47.1.2. getHeight</a></li>
+<li><a class="reference internal" href="#runprobecommand">47.1.3. runProbeCommand</a></li>
+<li><a class="reference internal" href="#runmodecommand">47.1.4. runModeCommand</a></li>
+<li><a class="reference internal" href="#isutf8">47.1.5. isUtf8</a></li>
+<li><a class="reference internal" href="#setpos">47.1.6. setPos</a></li>
+<li><a class="reference internal" href="#gettitle">47.1.7. getTitle</a></li>
+<li><a class="reference internal" href="#setcharset">47.1.8. setCharset</a></li>
+<li><a class="reference internal" href="#getcharset">47.1.9. getCharset</a></li>
+<li><a class="reference internal" href="#getdefaultcharset">47.1.10. getDefaultCharset</a></li>
+<li><a class="reference internal" href="#switchtoutf8">47.1.11. switchToUtf8</a></li>
+<li><a class="reference internal" href="#clear">47.1.12. clear</a></li>
+<li><a class="reference internal" href="#clearline">47.1.13. clearLine</a></li>
+<li><a class="reference internal" href="#readchar">47.1.14. readChar</a></li>
+<li><a class="reference internal" href="#char">47.1.15. $char</a></li>
+<li><a class="reference internal" href="#readline">47.1.16. readLine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="WinCacheOptions.html"
+                        title="previous chapter">46. Zend\Cache\Storage\Adapter\WinCacheOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="WindowsAnsicon.html"
+                        title="next chapter">48. Zend\Console\Adapter\WindowsAnsicon</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/Windows.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="WindowsAnsicon.html" title="48. Zend\Console\Adapter\WindowsAnsicon"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="WinCacheOptions.html" title="46. Zend\Cache\Storage\Adapter\WinCacheOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

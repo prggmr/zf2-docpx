@@ -1,0 +1,941 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>633. Zend\Cache\Pattern\PatternOptions &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="634. Zend\Db\Adapter\Driver\Pdo\Connection" href="../Pdo/Connection.html" />
+    <link rel="prev" title="631. Zend\Cache\Pattern\setOptions" href="PatternInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Pdo/Connection.html" title="634. Zend\Db\Adapter\Driver\Pdo\Connection"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="PatternInterface.html" title="631. Zend\Cache\Pattern\setOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-pattern-patternoptions">
+<h1>633. Zend\Cache\Pattern\PatternOptions<a class="headerlink" href="#zend-cache-pattern-patternoptions" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>633.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>633.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcachebydefault">
+<h3>633.1.2. setCacheByDefault<a class="headerlink" href="#setcachebydefault" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCacheByDefault">
+<tt class="descname">setCacheByDefault</tt><big>(</big><em>$cacheByDefault</em><big>)</big><a class="headerlink" href="#setCacheByDefault" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set flag indicating whether or not to cache by default</p>
+<p>Used by:
+- ClassCache
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cacheByDefault</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcachebydefault">
+<h3>633.1.3. getCacheByDefault<a class="headerlink" href="#getcachebydefault" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCacheByDefault">
+<tt class="descname">getCacheByDefault</tt><big>(</big><big>)</big><a class="headerlink" href="#getCacheByDefault" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do we cache by default?</p>
+<p>Used by:
+- ClassCache
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcacheoutput">
+<h3>633.1.4. setCacheOutput<a class="headerlink" href="#setcacheoutput" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCacheOutput">
+<tt class="descname">setCacheOutput</tt><big>(</big><em>$cacheOutput</em><big>)</big><a class="headerlink" href="#setCacheOutput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set whether or not to cache output</p>
+<p>Used by:
+- CallbackCache
+- ClassCache
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cacheOutput</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcacheoutput">
+<h3>633.1.5. getCacheOutput<a class="headerlink" href="#getcacheoutput" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCacheOutput">
+<tt class="descname">getCacheOutput</tt><big>(</big><big>)</big><a class="headerlink" href="#getCacheOutput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will we cache output?</p>
+<p>Used by:
+- CallbackCache
+- ClassCache
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclass">
+<h3>633.1.6. setClass<a class="headerlink" href="#setclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClass">
+<tt class="descname">setClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#setClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set class name</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$class</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclass">
+<h3>633.1.7. getClass<a class="headerlink" href="#getclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClass">
+<tt class="descname">getClass</tt><big>(</big><big>)</big><a class="headerlink" href="#getClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get class name</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclasscachemethods">
+<h3>633.1.8. setClassCacheMethods<a class="headerlink" href="#setclasscachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClassCacheMethods">
+<tt class="descname">setClassCacheMethods</tt><big>(</big><em>$classCacheMethods</em><big>)</big><a class="headerlink" href="#setClassCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set list of method return values to cache</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$classCacheMethods</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclasscachemethods">
+<h3>633.1.9. getClassCacheMethods<a class="headerlink" href="#getclasscachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClassCacheMethods">
+<tt class="descname">getClassCacheMethods</tt><big>(</big><big>)</big><a class="headerlink" href="#getClassCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of methods from which to cache return values</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclassnoncachemethods">
+<h3>633.1.10. setClassNonCacheMethods<a class="headerlink" href="#setclassnoncachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClassNonCacheMethods">
+<tt class="descname">setClassNonCacheMethods</tt><big>(</big><em>$classNonCacheMethods</em><big>)</big><a class="headerlink" href="#setClassNonCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set list of method return values NOT to cache</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$classNonCacheMethods</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclassnoncachemethods">
+<h3>633.1.11. getClassNonCacheMethods<a class="headerlink" href="#getclassnoncachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClassNonCacheMethods">
+<tt class="descname">getClassNonCacheMethods</tt><big>(</big><big>)</big><a class="headerlink" href="#getClassNonCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of methods from which NOT to cache return values</p>
+<p>Used by:
+- ClassCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdirpermission">
+<h3>633.1.12. setDirPermission<a class="headerlink" href="#setdirpermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDirPermission">
+<tt class="descname">setDirPermission</tt><big>(</big><em>$dirPermission</em><big>)</big><a class="headerlink" href="#setDirPermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set directory permission</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$dirPermission</strong> (<em>false|int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdirpermission">
+<h3>633.1.13. getDirPermission<a class="headerlink" href="#getdirpermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDirPermission">
+<tt class="descname">getDirPermission</tt><big>(</big><big>)</big><a class="headerlink" href="#getDirPermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets directory permission</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setumask">
+<h3>633.1.14. setUmask<a class="headerlink" href="#setumask" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUmask">
+<tt class="descname">setUmask</tt><big>(</big><em>$umask</em><big>)</big><a class="headerlink" href="#setUmask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set umask</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$umask</strong> (<em>false|int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getumask">
+<h3>633.1.15. getUmask<a class="headerlink" href="#getumask" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUmask">
+<tt class="descname">getUmask</tt><big>(</big><big>)</big><a class="headerlink" href="#getUmask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get umask</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilelocking">
+<h3>633.1.16. setFileLocking<a class="headerlink" href="#setfilelocking" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFileLocking">
+<tt class="descname">setFileLocking</tt><big>(</big><em>$fileLocking</em><big>)</big><a class="headerlink" href="#setFileLocking" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set whether or not file locking should be used</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$fileLocking</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilelocking">
+<h3>633.1.17. getFileLocking<a class="headerlink" href="#getfilelocking" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFileLocking">
+<tt class="descname">getFileLocking</tt><big>(</big><big>)</big><a class="headerlink" href="#getFileLocking" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is file locking enabled?</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilepermission">
+<h3>633.1.18. setFilePermission<a class="headerlink" href="#setfilepermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilePermission">
+<tt class="descname">setFilePermission</tt><big>(</big><em>$filePermission</em><big>)</big><a class="headerlink" href="#setFilePermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set file permission</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filePermission</strong> (<em>false|int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilepermission">
+<h3>633.1.19. getFilePermission<a class="headerlink" href="#getfilepermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilePermission">
+<tt class="descname">getFilePermission</tt><big>(</big><big>)</big><a class="headerlink" href="#getFilePermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets file permission</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setindexfilename">
+<h3>633.1.20. setIndexFilename<a class="headerlink" href="#setindexfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setIndexFilename">
+<tt class="descname">setIndexFilename</tt><big>(</big><em>$indexFilename</em><big>)</big><a class="headerlink" href="#setIndexFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set value for index filename</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$indexFilename</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getindexfilename">
+<h3>633.1.21. getIndexFilename<a class="headerlink" href="#getindexfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getIndexFilename">
+<tt class="descname">getIndexFilename</tt><big>(</big><big>)</big><a class="headerlink" href="#getIndexFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get value for index filename</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setobject">
+<h3>633.1.22. setObject<a class="headerlink" href="#setobject" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setObject">
+<tt class="descname">setObject</tt><big>(</big><em>$object</em><big>)</big><a class="headerlink" href="#setObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set object to cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$object</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">$this</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getobject">
+<h3>633.1.23. getObject<a class="headerlink" href="#getobject" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObject">
+<tt class="descname">getObject</tt><big>(</big><big>)</big><a class="headerlink" href="#getObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get object to cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|object</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setobjectcachemagicproperties">
+<h3>633.1.24. setObjectCacheMagicProperties<a class="headerlink" href="#setobjectcachemagicproperties" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setObjectCacheMagicProperties">
+<tt class="descname">setObjectCacheMagicProperties</tt><big>(</big><em>$objectCacheMagicProperties</em><big>)</big><a class="headerlink" href="#setObjectCacheMagicProperties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set flag indicating whether or not to cache magic properties</p>
+<p>Used by:
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$objectCacheMagicProperties</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getobjectcachemagicproperties">
+<h3>633.1.25. getObjectCacheMagicProperties<a class="headerlink" href="#getobjectcachemagicproperties" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObjectCacheMagicProperties">
+<tt class="descname">getObjectCacheMagicProperties</tt><big>(</big><big>)</big><a class="headerlink" href="#getObjectCacheMagicProperties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Should we cache magic properties?</p>
+<p>Used by:
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setobjectcachemethods">
+<h3>633.1.26. setObjectCacheMethods<a class="headerlink" href="#setobjectcachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setObjectCacheMethods">
+<tt class="descname">setObjectCacheMethods</tt><big>(</big><em>$objectCacheMethods</em><big>)</big><a class="headerlink" href="#setObjectCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set list of object methods for which to cache return values</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$objectCacheMethods</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getobjectcachemethods">
+<h3>633.1.27. getObjectCacheMethods<a class="headerlink" href="#getobjectcachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObjectCacheMethods">
+<tt class="descname">getObjectCacheMethods</tt><big>(</big><big>)</big><a class="headerlink" href="#getObjectCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of object methods for which to cache return values</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setobjectkey">
+<h3>633.1.28. setObjectKey<a class="headerlink" href="#setobjectkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setObjectKey">
+<tt class="descname">setObjectKey</tt><big>(</big><em>$objectKey</em><big>)</big><a class="headerlink" href="#setObjectKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the object key part.</p>
+<p>Used to generate a callback key in order to speed up key generation.</p>
+<p>Used by:
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$objectKey</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">$this</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getobjectkey">
+<h3>633.1.29. getObjectKey<a class="headerlink" href="#getobjectkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObjectKey">
+<tt class="descname">getObjectKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getObjectKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get object key</p>
+<p>Used by:
+- ObjectCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setobjectnoncachemethods">
+<h3>633.1.30. setObjectNonCacheMethods<a class="headerlink" href="#setobjectnoncachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setObjectNonCacheMethods">
+<tt class="descname">setObjectNonCacheMethods</tt><big>(</big><em>$objectNonCacheMethods</em><big>)</big><a class="headerlink" href="#setObjectNonCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set list of object methods for which NOT to cache return values</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$objectNonCacheMethods</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getobjectnoncachemethods">
+<h3>633.1.31. getObjectNonCacheMethods<a class="headerlink" href="#getobjectnoncachemethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getObjectNonCacheMethods">
+<tt class="descname">getObjectNonCacheMethods</tt><big>(</big><big>)</big><a class="headerlink" href="#getObjectNonCacheMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of object methods for which NOT to cache return values</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpublicdir">
+<h3>633.1.32. setPublicDir<a class="headerlink" href="#setpublicdir" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPublicDir">
+<tt class="descname">setPublicDir</tt><big>(</big><em>$publicDir</em><big>)</big><a class="headerlink" href="#setPublicDir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set location of public directory</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$publicDir</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpublicdir">
+<h3>633.1.33. getPublicDir<a class="headerlink" href="#getpublicdir" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPublicDir">
+<tt class="descname">getPublicDir</tt><big>(</big><big>)</big><a class="headerlink" href="#getPublicDir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get location of public directory</p>
+<p>Used by:
+- CaptureCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setstorage">
+<h3>633.1.34. setStorage<a class="headerlink" href="#setstorage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setStorage">
+<tt class="descname">setStorage</tt><big>(</big><em>$storage</em><big>)</big><a class="headerlink" href="#setStorage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set storage adapter</p>
+<p>Required for the following Pattern classes:
+- CallbackCache
+- ClassCache
+- ObjectCache
+- OutputCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$storage</strong> (<em>string|array|Storage</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">PatternOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getstorage">
+<h3>633.1.35. getStorage<a class="headerlink" href="#getstorage" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getStorage">
+<tt class="descname">getStorage</tt><big>(</big><big>)</big><a class="headerlink" href="#getStorage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get storage adapter</p>
+<p>Used by:
+- CallbackCache
+- ClassCache
+- ObjectCache
+- OutputCache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|Storage</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="recursivestrtolower">
+<h3>633.1.36. recursiveStrtolower<a class="headerlink" href="#recursivestrtolower" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="recursiveStrtolower">
+<tt class="descname">recursiveStrtolower</tt><big>(</big><em>$array</em><big>)</big><a class="headerlink" href="#recursiveStrtolower" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursively apply strtolower on all values of an array, and return as a
+list of unique values</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$array</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="normalizeobjectmethods">
+<h3>633.1.37. normalizeObjectMethods<a class="headerlink" href="#normalizeobjectmethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="normalizeObjectMethods">
+<tt class="descname">normalizeObjectMethods</tt><big>(</big><em>$methods</em><big>)</big><a class="headerlink" href="#normalizeObjectMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize object methods</p>
+<p>Recursively casts values to lowercase, then determines if any are in a
+list of methods not handled, raising an exception if so.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$methods</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="storagefactory">
+<h3>633.1.38. storageFactory<a class="headerlink" href="#storagefactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="storageFactory">
+<tt class="descname">storageFactory</tt><big>(</big><em>$storage</em><big>)</big><a class="headerlink" href="#storageFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a storage object from a given specification</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$storage</strong> (<em>array|string|Storage</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Storage</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">633. Zend\Cache\Pattern\PatternOptions</a><ul>
+<li><a class="reference internal" href="#methods">633.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">633.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setcachebydefault">633.1.2. setCacheByDefault</a></li>
+<li><a class="reference internal" href="#getcachebydefault">633.1.3. getCacheByDefault</a></li>
+<li><a class="reference internal" href="#setcacheoutput">633.1.4. setCacheOutput</a></li>
+<li><a class="reference internal" href="#getcacheoutput">633.1.5. getCacheOutput</a></li>
+<li><a class="reference internal" href="#setclass">633.1.6. setClass</a></li>
+<li><a class="reference internal" href="#getclass">633.1.7. getClass</a></li>
+<li><a class="reference internal" href="#setclasscachemethods">633.1.8. setClassCacheMethods</a></li>
+<li><a class="reference internal" href="#getclasscachemethods">633.1.9. getClassCacheMethods</a></li>
+<li><a class="reference internal" href="#setclassnoncachemethods">633.1.10. setClassNonCacheMethods</a></li>
+<li><a class="reference internal" href="#getclassnoncachemethods">633.1.11. getClassNonCacheMethods</a></li>
+<li><a class="reference internal" href="#setdirpermission">633.1.12. setDirPermission</a></li>
+<li><a class="reference internal" href="#getdirpermission">633.1.13. getDirPermission</a></li>
+<li><a class="reference internal" href="#setumask">633.1.14. setUmask</a></li>
+<li><a class="reference internal" href="#getumask">633.1.15. getUmask</a></li>
+<li><a class="reference internal" href="#setfilelocking">633.1.16. setFileLocking</a></li>
+<li><a class="reference internal" href="#getfilelocking">633.1.17. getFileLocking</a></li>
+<li><a class="reference internal" href="#setfilepermission">633.1.18. setFilePermission</a></li>
+<li><a class="reference internal" href="#getfilepermission">633.1.19. getFilePermission</a></li>
+<li><a class="reference internal" href="#setindexfilename">633.1.20. setIndexFilename</a></li>
+<li><a class="reference internal" href="#getindexfilename">633.1.21. getIndexFilename</a></li>
+<li><a class="reference internal" href="#setobject">633.1.22. setObject</a></li>
+<li><a class="reference internal" href="#getobject">633.1.23. getObject</a></li>
+<li><a class="reference internal" href="#setobjectcachemagicproperties">633.1.24. setObjectCacheMagicProperties</a></li>
+<li><a class="reference internal" href="#getobjectcachemagicproperties">633.1.25. getObjectCacheMagicProperties</a></li>
+<li><a class="reference internal" href="#setobjectcachemethods">633.1.26. setObjectCacheMethods</a></li>
+<li><a class="reference internal" href="#getobjectcachemethods">633.1.27. getObjectCacheMethods</a></li>
+<li><a class="reference internal" href="#setobjectkey">633.1.28. setObjectKey</a></li>
+<li><a class="reference internal" href="#getobjectkey">633.1.29. getObjectKey</a></li>
+<li><a class="reference internal" href="#setobjectnoncachemethods">633.1.30. setObjectNonCacheMethods</a></li>
+<li><a class="reference internal" href="#getobjectnoncachemethods">633.1.31. getObjectNonCacheMethods</a></li>
+<li><a class="reference internal" href="#setpublicdir">633.1.32. setPublicDir</a></li>
+<li><a class="reference internal" href="#getpublicdir">633.1.33. getPublicDir</a></li>
+<li><a class="reference internal" href="#setstorage">633.1.34. setStorage</a></li>
+<li><a class="reference internal" href="#getstorage">633.1.35. getStorage</a></li>
+<li><a class="reference internal" href="#recursivestrtolower">633.1.36. recursiveStrtolower</a></li>
+<li><a class="reference internal" href="#normalizeobjectmethods">633.1.37. normalizeObjectMethods</a></li>
+<li><a class="reference internal" href="#storagefactory">633.1.38. storageFactory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="PatternInterface.html"
+                        title="previous chapter">631. Zend\Cache\Pattern\setOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Pdo/Connection.html"
+                        title="next chapter">634. Zend\Db\Adapter\Driver\Pdo\Connection</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Pattern/PatternOptions.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Pdo/Connection.html" title="634. Zend\Db\Adapter\Driver\Pdo\Connection"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="PatternInterface.html" title="631. Zend\Cache\Pattern\setOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

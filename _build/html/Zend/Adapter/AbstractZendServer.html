@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Zend\Cache\Storage\Adapter\AbstractZendServer &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="3. Zend\Db\Adapter\Adapter" href="Adapter.html" />
+    <link rel="prev" title="1. Zend\File\Transfer\Adapter\AbstractAdapter" href="AbstractAdapter.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Adapter.html" title="3. Zend\Db\Adapter\Adapter"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AbstractAdapter.html" title="1. Zend\File\Transfer\Adapter\AbstractAdapter"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-adapter-abstractzendserver">
+<h1>2. Zend\Cache\Storage\Adapter\AbstractZendServer<a class="headerlink" href="#zend-cache-storage-adapter-abstractzendserver" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>2.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="internalgetitem">
+<h3>2.1.1. internalGetItem<a class="headerlink" href="#internalgetitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetItem">
+<tt class="descname">internalGetItem</tt><big>(</big><em>$normalizedKey</em><span class="optional">[</span>, <em>$success = false</em><span class="optional">[</span>, <em>$casToken = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#internalGetItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to get an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$success</strong> (<em>bool</em>) &#8211; </li>
+<li><strong>$casToken</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">mixed Data on success, null on failure</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalgetitems">
+<h3>2.1.2. internalGetItems<a class="headerlink" href="#internalgetitems" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetItems">
+<tt class="descname">internalGetItems</tt><big>(</big><em>$normalizedKeys</em><big>)</big><a class="headerlink" href="#internalGetItems" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to get multiple items.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKeys</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array Associative array of keys and values</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalhasitem">
+<h3>2.1.3. internalHasItem<a class="headerlink" href="#internalhasitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalHasItem">
+<tt class="descname">internalHasItem</tt><big>(</big><em>$normalizedKey</em><big>)</big><a class="headerlink" href="#internalHasItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to test if an item exists.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalhasitems">
+<h3>2.1.4. internalHasItems<a class="headerlink" href="#internalhasitems" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalHasItems">
+<tt class="descname">internalHasItems</tt><big>(</big><em>$normalizedKeys</em><big>)</big><a class="headerlink" href="#internalHasItems" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to test multiple items.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKeys</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array Array of found keys</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalgetmetadatas">
+<h3>2.1.5. internalGetMetadatas<a class="headerlink" href="#internalgetmetadatas" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetMetadatas">
+<tt class="descname">internalGetMetadatas</tt><big>(</big><em>$normalizedKeys</em><big>)</big><a class="headerlink" href="#internalGetMetadatas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get metadata for multiple items</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKeys</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array Associative array of keys and metadata</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>&#64;triggers getMetadatas.pre(PreEvent)
+&#64;triggers getMetadatas.post(PostEvent)
+&#64;triggers getMetadatas.exception(ExceptionEvent)</p>
+</div>
+<div class="section" id="internalsetitem">
+<h3>2.1.6. internalSetItem<a class="headerlink" href="#internalsetitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalSetItem">
+<tt class="descname">internalSetItem</tt><big>(</big><em>$normalizedKey</em>, <em>$value</em><big>)</big><a class="headerlink" href="#internalSetItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to store an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">bool</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalremoveitem">
+<h3>2.1.7. internalRemoveItem<a class="headerlink" href="#internalremoveitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalRemoveItem">
+<tt class="descname">internalRemoveItem</tt><big>(</big><em>$normalizedKey</em><big>)</big><a class="headerlink" href="#internalRemoveItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to remove an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalgetcapabilities">
+<h3>2.1.8. internalGetCapabilities<a class="headerlink" href="#internalgetcapabilities" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetCapabilities">
+<tt class="descname">internalGetCapabilities</tt><big>(</big><big>)</big><a class="headerlink" href="#internalGetCapabilities" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to get capabilities of this adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Capabilities</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zdcstore">
+<h3>2.1.9. zdcStore<a class="headerlink" href="#zdcstore" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="zdcStore">
+<tt class="descname">zdcStore</tt><big>(</big><em>$internalKey</em>, <em>$value</em>, <em>$ttl</em><big>)</big><a class="headerlink" href="#zdcStore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store data into Zend Data Cache (zdc)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$internalKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+<li><strong>$ttl</strong> (<em>int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">void</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zdcfetch">
+<h3>2.1.10. zdcFetch<a class="headerlink" href="#zdcfetch" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="zdcFetch">
+<tt class="descname">zdcFetch</tt><big>(</big><em>$internalKey</em><big>)</big><a class="headerlink" href="#zdcFetch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch a single item from Zend Data Cache (zdc)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$internalKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed The stored value or FALSE if item wasn&#8217;t found</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zdcfetchmulti">
+<h3>2.1.11. zdcFetchMulti<a class="headerlink" href="#zdcfetchmulti" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="zdcFetchMulti">
+<tt class="descname">zdcFetchMulti</tt><big>(</big><em>$internalKeys</em><big>)</big><a class="headerlink" href="#zdcFetchMulti" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fetch multiple items from Zend Data Cache (zdc)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$internalKeys</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array All found items</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="zdcdelete">
+<h3>2.1.12. zdcDelete<a class="headerlink" href="#zdcdelete" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="zdcDelete">
+<tt class="descname">zdcDelete</tt><big>(</big><em>$internalKey</em><big>)</big><a class="headerlink" href="#zdcDelete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete data from Zend Data Cache (zdc)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$internalKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>2.1.13. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="namespace-separator">
+<h4>2.1.13.1. NAMESPACE_SEPARATOR<a class="headerlink" href="#namespace-separator" title="Permalink to this headline">¶</a></h4>
+<p>The namespace separator used on Zend Data Cache functions</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2. Zend\Cache\Storage\Adapter\AbstractZendServer</a><ul>
+<li><a class="reference internal" href="#methods">2.1. Methods</a><ul>
+<li><a class="reference internal" href="#internalgetitem">2.1.1. internalGetItem</a></li>
+<li><a class="reference internal" href="#internalgetitems">2.1.2. internalGetItems</a></li>
+<li><a class="reference internal" href="#internalhasitem">2.1.3. internalHasItem</a></li>
+<li><a class="reference internal" href="#internalhasitems">2.1.4. internalHasItems</a></li>
+<li><a class="reference internal" href="#internalgetmetadatas">2.1.5. internalGetMetadatas</a></li>
+<li><a class="reference internal" href="#internalsetitem">2.1.6. internalSetItem</a></li>
+<li><a class="reference internal" href="#internalremoveitem">2.1.7. internalRemoveItem</a></li>
+<li><a class="reference internal" href="#internalgetcapabilities">2.1.8. internalGetCapabilities</a></li>
+<li><a class="reference internal" href="#zdcstore">2.1.9. zdcStore</a></li>
+<li><a class="reference internal" href="#zdcfetch">2.1.10. zdcFetch</a></li>
+<li><a class="reference internal" href="#zdcfetchmulti">2.1.11. zdcFetchMulti</a></li>
+<li><a class="reference internal" href="#zdcdelete">2.1.12. zdcDelete</a></li>
+<li><a class="reference internal" href="#constants">2.1.13. Constants</a><ul>
+<li><a class="reference internal" href="#namespace-separator">2.1.13.1. NAMESPACE_SEPARATOR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AbstractAdapter.html"
+                        title="previous chapter">1. Zend\File\Transfer\Adapter\AbstractAdapter</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Adapter.html"
+                        title="next chapter">3. Zend\Db\Adapter\Adapter</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/AbstractZendServer.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Adapter.html" title="3. Zend\Db\Adapter\Adapter"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AbstractAdapter.html" title="1. Zend\File\Transfer\Adapter\AbstractAdapter"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

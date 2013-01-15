@@ -1,0 +1,91 @@
+.. /Feed/Reader/Extension/Slash/Entry.php generated using docpx on 01/15/13 05:29pm
+
+
+Zend\\Feed\\Reader\\Extension\\Slash\\Entry
+*******************************************
+
+
+@category Zend
+
+
+
+Methods
+=======
+
+getSection
+----------
+
+.. function:: getSection()
+
+
+    Get the entry section
+
+    :rtype: string|null 
+
+
+
+getDepartment
+-------------
+
+.. function:: getDepartment()
+
+
+    Get the entry department
+
+    :rtype: string|null 
+
+
+
+getHitParade
+------------
+
+.. function:: getHitParade()
+
+
+    Get the entry hit_parade
+
+    :rtype: array 
+
+
+
+getCommentCount
+---------------
+
+.. function:: getCommentCount()
+
+
+    Get the entry comments
+
+    :rtype: int 
+
+
+
+getData
+-------
+
+.. function:: getData($name, [$type = "string"])
+
+
+    Get the entry data specified by name
+
+    :param string $name: 
+    :param string $type: 
+
+    :rtype: mixed|null 
+
+
+
+registerNamespaces
+------------------
+
+.. function:: registerNamespaces()
+
+
+    Register Slash namespaces
+
+    :rtype: void 
+
+
+
+
+

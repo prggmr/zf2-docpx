@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>149. Zend\Console\Request &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="150. Zend\Console\Response" href="Response.html" />
+    <link rel="prev" title="148. Zend\Console\Getopt" href="Getopt.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Response.html" title="150. Zend\Console\Response"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Getopt.html" title="148. Zend\Console\Getopt"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-console-request">
+<h1>149. Zend\Console\Request<a class="headerlink" href="#zend-console-request" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>149.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>149.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$args = false</em><span class="optional">[</span>, <em>$env = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a new CLI request</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$args</strong> (<em>array|null</em>) &#8211; Console arguments. If not supplied, $_SERVER[&#8216;argv&#8217;] will be used</li>
+<li><strong>$env</strong> (<em>array|null</em>) &#8211; Environment data. If not supplied, $_ENV will be used</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setparams">
+<h3>149.1.2. setParams<a class="headerlink" href="#setparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setParams">
+<tt class="descname">setParams</tt><big>(</big><em>$params</em><big>)</big><a class="headerlink" href="#setParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exchange parameters object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$params</strong> (<em>ZendStdlibParameters</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Request</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getparams">
+<h3>149.1.3. getParams<a class="headerlink" href="#getparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getParams">
+<tt class="descname">getParams</tt><big>(</big><big>)</big><a class="headerlink" href="#getParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the container responsible for parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendStdlibParameters</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getparam">
+<h3>149.1.4. getParam<a class="headerlink" href="#getparam" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getParam">
+<tt class="descname">getParam</tt><big>(</big><em>$name</em><span class="optional">[</span>, <em>$default = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getParam" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a single parameter.
+Shortcut for $request-&gt;params()-&gt;get()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; Parameter name</li>
+<li><strong>$default</strong> (<em>string</em>) &#8211; (optional) default value in case the parameter does not exist</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">mixed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="params">
+<h3>149.1.5. params<a class="headerlink" href="#params" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">params</tt><big>(</big><big>)</big></dt>
+<dd><p>Return the container responsible for parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendStdlibParameters</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setenv">
+<h3>149.1.6. setEnv<a class="headerlink" href="#setenv" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEnv">
+<tt class="descname">setEnv</tt><big>(</big><em>$env</em><big>)</big><a class="headerlink" href="#setEnv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide an alternate Parameter Container implementation for env parameters in this object, (this is NOT the
+primary API for value setting, for that see env())</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$env</strong> (<em>ZendStdlibParameters</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendConsoleRequest</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="env">
+<h3>149.1.7. env<a class="headerlink" href="#env" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">env</tt><big>(</big><big>)</big></dt>
+<dd><p>Return the parameter container responsible for env parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendStdlibParameters</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="tostring">
+<h3>149.1.8. toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toString">
+<tt class="descname">toString</tt><big>(</big><big>)</big><a class="headerlink" href="#toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>149.1.9. __toString<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__toString">
+<tt class="descname">__toString</tt><big>(</big><big>)</big><a class="headerlink" href="#__toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Allow PHP casting of this object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setscriptname">
+<h3>149.1.10. setScriptName<a class="headerlink" href="#setscriptname" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setScriptName">
+<tt class="descname">setScriptName</tt><big>(</big><em>$scriptName</em><big>)</big><a class="headerlink" href="#setScriptName" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $scriptName</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getscriptname">
+<h3>149.1.11. getScriptName<a class="headerlink" href="#getscriptname" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getScriptName">
+<tt class="descname">getScriptName</tt><big>(</big><big>)</big><a class="headerlink" href="#getScriptName" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">149. Zend\Console\Request</a><ul>
+<li><a class="reference internal" href="#methods">149.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">149.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setparams">149.1.2. setParams</a></li>
+<li><a class="reference internal" href="#getparams">149.1.3. getParams</a></li>
+<li><a class="reference internal" href="#getparam">149.1.4. getParam</a></li>
+<li><a class="reference internal" href="#params">149.1.5. params</a></li>
+<li><a class="reference internal" href="#setenv">149.1.6. setEnv</a></li>
+<li><a class="reference internal" href="#env">149.1.7. env</a></li>
+<li><a class="reference internal" href="#tostring">149.1.8. toString</a></li>
+<li><a class="reference internal" href="#id1">149.1.9. __toString</a></li>
+<li><a class="reference internal" href="#setscriptname">149.1.10. setScriptName</a></li>
+<li><a class="reference internal" href="#getscriptname">149.1.11. getScriptName</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Getopt.html"
+                        title="previous chapter">148. Zend\Console\Getopt</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Response.html"
+                        title="next chapter">150. Zend\Console\Response</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Console/Request.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Response.html" title="150. Zend\Console\Response"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Getopt.html" title="148. Zend\Console\Getopt"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>55. Zend\Form\Annotation\AnnotationBuilder &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="56. Zend\Code\Annotation\AnnotationCollection" href="AnnotationCollection.html" />
+    <link rel="prev" title="54. Zend\Form\Annotation\AllowEmpty" href="AllowEmpty.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="AnnotationCollection.html" title="56. Zend\Code\Annotation\AnnotationCollection"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AllowEmpty.html" title="54. Zend\Form\Annotation\AllowEmpty"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-annotation-annotationbuilder">
+<h1>55. Zend\Form\Annotation\AnnotationBuilder<a class="headerlink" href="#zend-form-annotation-annotationbuilder" title="Permalink to this headline">¶</a></h1>
+<p>Parses a class&#8217; properties for annotations in order to create a form and
+input filter definition.</p>
+<div class="section" id="methods">
+<h2>55.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setformfactory">
+<h3>55.1.1. setFormFactory<a class="headerlink" href="#setformfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFormFactory">
+<tt class="descname">setFormFactory</tt><big>(</big><em>$formFactory</em><big>)</big><a class="headerlink" href="#setFormFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set form factory to use when building form from annotations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$formFactory</strong> (<em>Factory</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AnnotationBuilder</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setannotationmanager">
+<h3>55.1.2. setAnnotationManager<a class="headerlink" href="#setannotationmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAnnotationManager">
+<tt class="descname">setAnnotationManager</tt><big>(</big><em>$annotationManager</em><big>)</big><a class="headerlink" href="#setAnnotationManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set annotation manager to use when building form from annotations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$annotationManager</strong> (<em>AnnotationManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AnnotationBuilder</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="seteventmanager">
+<h3>55.1.3. setEventManager<a class="headerlink" href="#seteventmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEventManager">
+<tt class="descname">setEventManager</tt><big>(</big><em>$events</em><big>)</big><a class="headerlink" href="#setEventManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set event manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$events</strong> (<em>EventManagerInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AnnotationBuilder</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getformfactory">
+<h3>55.1.4. getFormFactory<a class="headerlink" href="#getformfactory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFormFactory">
+<tt class="descname">getFormFactory</tt><big>(</big><big>)</big><a class="headerlink" href="#getFormFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve form factory</p>
+<p>Lazy-loads the default form factory if none is currently set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Factory</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getannotationmanager">
+<h3>55.1.5. getAnnotationManager<a class="headerlink" href="#getannotationmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAnnotationManager">
+<tt class="descname">getAnnotationManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getAnnotationManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve annotation manager</p>
+<p>If none is currently set, creates one with default annotations.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AnnotationManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="geteventmanager">
+<h3>55.1.6. getEventManager<a class="headerlink" href="#geteventmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEventManager">
+<tt class="descname">getEventManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getEventManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get event manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">EventManagerInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getformspecification">
+<h3>55.1.7. getFormSpecification<a class="headerlink" href="#getformspecification" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFormSpecification">
+<tt class="descname">getFormSpecification</tt><big>(</big><em>$entity</em><big>)</big><a class="headerlink" href="#getFormSpecification" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates and returns a form specification for use with a factory</p>
+<p>Parses the object provided, and processes annotations for the class and
+all properties. Information from annotations is then used to create
+specifications for a form, its elements, and its input filter.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$entity</strong> (<em>string|object</em>) &#8211; Either an instance or a valid class name for an entity</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">if $entity is not an object or class name</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ArrayObject</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="createform">
+<h3>55.1.8. createForm<a class="headerlink" href="#createform" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="createForm">
+<tt class="descname">createForm</tt><big>(</big><em>$entity</em><big>)</big><a class="headerlink" href="#createForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a form from an object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$entity</strong> (<em>string|object</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ZendFormForm</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getentity">
+<h3>55.1.9. getEntity<a class="headerlink" href="#getentity" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEntity">
+<tt class="descname">getEntity</tt><big>(</big><big>)</big><a class="headerlink" href="#getEntity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the entity used to construct the form.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">object</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="configureform">
+<h3>55.1.10. configureForm<a class="headerlink" href="#configureform" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="configureForm">
+<tt class="descname">configureForm</tt><big>(</big><em>$annotations</em>, <em>$reflection</em>, <em>$formSpec</em>, <em>$filterSpec</em><big>)</big><a class="headerlink" href="#configureForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configure the form specification from annotations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$annotations</strong> (<em>AnnotationCollection</em>) &#8211; </li>
+<li><strong>$reflection</strong> (<em>ClassReflection</em>) &#8211; </li>
+<li><strong>$formSpec</strong> (<em>ArrayObject</em>) &#8211; </li>
+<li><strong>$filterSpec</strong> (<em>ArrayObject</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void &#64;triggers discoverName</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>&#64;triggers configureForm</p>
+</div>
+<div class="section" id="configureelement">
+<h3>55.1.11. configureElement<a class="headerlink" href="#configureelement" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="configureElement">
+<tt class="descname">configureElement</tt><big>(</big><em>$annotations</em>, <em>$reflection</em>, <em>$formSpec</em>, <em>$filterSpec</em><big>)</big><a class="headerlink" href="#configureElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configure an element from annotations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$annotations</strong> (<em>AnnotationCollection</em>) &#8211; </li>
+<li><strong>$reflection</strong> (<em>ZendCodeReflectionPropertyReflection</em>) &#8211; </li>
+<li><strong>$formSpec</strong> (<em>ArrayObject</em>) &#8211; </li>
+<li><strong>$filterSpec</strong> (<em>ArrayObject</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void &#64;triggers checkForExclude</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>&#64;triggers discoverName
+&#64;triggers configureElement</p>
+</div>
+<div class="section" id="discovername">
+<h3>55.1.12. discoverName<a class="headerlink" href="#discovername" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="discoverName">
+<tt class="descname">discoverName</tt><big>(</big><em>$annotations</em>, <em>$reflection</em><big>)</big><a class="headerlink" href="#discoverName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Discover the name of the given form or element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$annotations</strong> (<em>AnnotationCollection</em>) &#8211; </li>
+<li><strong>$reflection</strong> (<em>Reflector</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="r">
+<h3>55.1.13. $r<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">$r()</tt></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="checkforexclude">
+<h3>55.1.14. checkForExclude<a class="headerlink" href="#checkforexclude" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkForExclude">
+<tt class="descname">checkForExclude</tt><big>(</big><em>$annotations</em><big>)</big><a class="headerlink" href="#checkForExclude" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if an element is marked to exclude from the definitions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$annotations</strong> (<em>AnnotationCollection</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">true|false</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>55.1.15. $r<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">$r()</tt></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="issubclassof">
+<h3>55.1.16. isSubclassOf<a class="headerlink" href="#issubclassof" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isSubclassOf">
+<tt class="descname">isSubclassOf</tt><big>(</big><em>$className</em>, <em>$type</em><big>)</big><a class="headerlink" href="#isSubclassOf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the object has this class as one of its parents</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $className:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string $type:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">55. Zend\Form\Annotation\AnnotationBuilder</a><ul>
+<li><a class="reference internal" href="#methods">55.1. Methods</a><ul>
+<li><a class="reference internal" href="#setformfactory">55.1.1. setFormFactory</a></li>
+<li><a class="reference internal" href="#setannotationmanager">55.1.2. setAnnotationManager</a></li>
+<li><a class="reference internal" href="#seteventmanager">55.1.3. setEventManager</a></li>
+<li><a class="reference internal" href="#getformfactory">55.1.4. getFormFactory</a></li>
+<li><a class="reference internal" href="#getannotationmanager">55.1.5. getAnnotationManager</a></li>
+<li><a class="reference internal" href="#geteventmanager">55.1.6. getEventManager</a></li>
+<li><a class="reference internal" href="#getformspecification">55.1.7. getFormSpecification</a></li>
+<li><a class="reference internal" href="#createform">55.1.8. createForm</a></li>
+<li><a class="reference internal" href="#getentity">55.1.9. getEntity</a></li>
+<li><a class="reference internal" href="#configureform">55.1.10. configureForm</a></li>
+<li><a class="reference internal" href="#configureelement">55.1.11. configureElement</a></li>
+<li><a class="reference internal" href="#discovername">55.1.12. discoverName</a></li>
+<li><a class="reference internal" href="#r">55.1.13. $r</a></li>
+<li><a class="reference internal" href="#checkforexclude">55.1.14. checkForExclude</a></li>
+<li><a class="reference internal" href="#id1">55.1.15. $r</a></li>
+<li><a class="reference internal" href="#issubclassof">55.1.16. isSubclassOf</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AllowEmpty.html"
+                        title="previous chapter">54. Zend\Form\Annotation\AllowEmpty</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="AnnotationCollection.html"
+                        title="next chapter">56. Zend\Code\Annotation\AnnotationCollection</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Annotation/AnnotationBuilder.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="AnnotationCollection.html" title="56. Zend\Code\Annotation\AnnotationCollection"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AllowEmpty.html" title="54. Zend\Form\Annotation\AllowEmpty"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

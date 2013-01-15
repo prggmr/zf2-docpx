@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>689. Zend\Console\Prompt\Line &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="690. Zend\Console\Prompt\Number" href="Number.html" />
+    <link rel="prev" title="688. Zend\Console\Prompt\Confirm" href="Confirm.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Number.html" title="690. Zend\Console\Prompt\Number"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Confirm.html" title="688. Zend\Console\Prompt\Confirm"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-console-prompt-line">
+<h1>689. Zend\Console\Prompt\Line<a class="headerlink" href="#zend-console-prompt-line" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>689.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>689.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$promptText = &quot;Please enter value: &quot;</em><span class="optional">[</span>, <em>$allowEmpty = false</em><span class="optional">[</span>, <em>$maxLength = 2048</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ask the user for an answer (a line of text)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$promptText</strong> (<em>string</em>) &#8211; The prompt text to display in console</li>
+<li><strong>$allowEmpty</strong> (<em>bool</em>) &#8211; Is empty response allowed?</li>
+<li><strong>$maxLength</strong> (<em>int</em>) &#8211; Maximum response length</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="show">
+<h3>689.1.2. show<a class="headerlink" href="#show" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">show</tt><big>(</big><big>)</big></dt>
+<dd><p>Show the prompt to user and return the answer.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setallowempty">
+<h3>689.1.3. setAllowEmpty<a class="headerlink" href="#setallowempty" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAllowEmpty">
+<tt class="descname">setAllowEmpty</tt><big>(</big><em>$allowEmpty</em><big>)</big><a class="headerlink" href="#setAllowEmpty" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param  bool $allowEmpty</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getallowempty">
+<h3>689.1.4. getAllowEmpty<a class="headerlink" href="#getallowempty" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAllowEmpty">
+<tt class="descname">getAllowEmpty</tt><big>(</big><big>)</big><a class="headerlink" href="#getAllowEmpty" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return bool</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setmaxlength">
+<h3>689.1.5. setMaxLength<a class="headerlink" href="#setmaxlength" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setMaxLength">
+<tt class="descname">setMaxLength</tt><big>(</big><em>$maxLength</em><big>)</big><a class="headerlink" href="#setMaxLength" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param int $maxLength</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getmaxlength">
+<h3>689.1.6. getMaxLength<a class="headerlink" href="#getmaxlength" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMaxLength">
+<tt class="descname">getMaxLength</tt><big>(</big><big>)</big><a class="headerlink" href="#getMaxLength" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return int</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setprompttext">
+<h3>689.1.7. setPromptText<a class="headerlink" href="#setprompttext" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPromptText">
+<tt class="descname">setPromptText</tt><big>(</big><em>$promptText</em><big>)</big><a class="headerlink" href="#setPromptText" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $promptText</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getprompttext">
+<h3>689.1.8. getPromptText<a class="headerlink" href="#getprompttext" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPromptText">
+<tt class="descname">getPromptText</tt><big>(</big><big>)</big><a class="headerlink" href="#getPromptText" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">689. Zend\Console\Prompt\Line</a><ul>
+<li><a class="reference internal" href="#methods">689.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">689.1.1. __construct</a></li>
+<li><a class="reference internal" href="#show">689.1.2. show</a></li>
+<li><a class="reference internal" href="#setallowempty">689.1.3. setAllowEmpty</a></li>
+<li><a class="reference internal" href="#getallowempty">689.1.4. getAllowEmpty</a></li>
+<li><a class="reference internal" href="#setmaxlength">689.1.5. setMaxLength</a></li>
+<li><a class="reference internal" href="#getmaxlength">689.1.6. getMaxLength</a></li>
+<li><a class="reference internal" href="#setprompttext">689.1.7. setPromptText</a></li>
+<li><a class="reference internal" href="#getprompttext">689.1.8. getPromptText</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Confirm.html"
+                        title="previous chapter">688. Zend\Console\Prompt\Confirm</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Number.html"
+                        title="next chapter">690. Zend\Console\Prompt\Number</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Prompt/Line.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Number.html" title="690. Zend\Console\Prompt\Number"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Confirm.html" title="688. Zend\Console\Prompt\Confirm"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

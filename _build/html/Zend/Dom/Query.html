@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>190. Zend\Dom\Query &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="191. Zend\Db\Adapter\Driver\getCurrentSchema" href="../Driver/ConnectionInterface.html" />
+    <link rel="prev" title="189. Zend\Dom\NodeList" href="NodeList.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Driver/ConnectionInterface.html" title="191. Zend\Db\Adapter\Driver\getCurrentSchema"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="NodeList.html" title="189. Zend\Dom\NodeList"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-dom-query">
+<h1>190. Zend\Dom\Query<a class="headerlink" href="#zend-dom-query" title="Permalink to this headline">¶</a></h1>
+<p>Query DOM structures based on CSS selectors and/or XPath</p>
+<div class="section" id="methods">
+<h2>190.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>190.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$document = false</em><span class="optional">[</span>, <em>$encoding = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$document</strong> (<em>null|string</em>) &#8211; </li>
+<li><strong>$encoding</strong> (<em>null|string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setencoding">
+<h3>190.1.2. setEncoding<a class="headerlink" href="#setencoding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEncoding">
+<tt class="descname">setEncoding</tt><big>(</big><em>$encoding</em><big>)</big><a class="headerlink" href="#setEncoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set document encoding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$encoding</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Query</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getencoding">
+<h3>190.1.3. getEncoding<a class="headerlink" href="#getencoding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEncoding">
+<tt class="descname">getEncoding</tt><big>(</big><big>)</big><a class="headerlink" href="#getEncoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get document encoding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdocument">
+<h3>190.1.4. setDocument<a class="headerlink" href="#setdocument" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDocument">
+<tt class="descname">setDocument</tt><big>(</big><em>$document</em><span class="optional">[</span>, <em>$encoding = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDocument" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set document to query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$document</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$encoding</strong> (<em>null|string</em>) &#8211; Document encoding</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Query</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdocumenthtml">
+<h3>190.1.5. setDocumentHtml<a class="headerlink" href="#setdocumenthtml" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDocumentHtml">
+<tt class="descname">setDocumentHtml</tt><big>(</big><em>$document</em><span class="optional">[</span>, <em>$encoding = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDocumentHtml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register HTML document</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$document</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$encoding</strong> (<em>null|string</em>) &#8211; Document encoding</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Query</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdocumentxhtml">
+<h3>190.1.6. setDocumentXhtml<a class="headerlink" href="#setdocumentxhtml" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDocumentXhtml">
+<tt class="descname">setDocumentXhtml</tt><big>(</big><em>$document</em><span class="optional">[</span>, <em>$encoding = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDocumentXhtml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register XHTML document</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$document</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$encoding</strong> (<em>null|string</em>) &#8211; Document encoding</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Query</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdocumentxml">
+<h3>190.1.7. setDocumentXml<a class="headerlink" href="#setdocumentxml" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDocumentXml">
+<tt class="descname">setDocumentXml</tt><big>(</big><em>$document</em><span class="optional">[</span>, <em>$encoding = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDocumentXml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register XML document</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$document</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$encoding</strong> (<em>null|string</em>) &#8211; Document encoding</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Query</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdocument">
+<h3>190.1.8. getDocument<a class="headerlink" href="#getdocument" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDocument">
+<tt class="descname">getDocument</tt><big>(</big><big>)</big><a class="headerlink" href="#getDocument" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve current document</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdocumenttype">
+<h3>190.1.9. getDocumentType<a class="headerlink" href="#getdocumenttype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDocumentType">
+<tt class="descname">getDocumentType</tt><big>(</big><big>)</big><a class="headerlink" href="#getDocumentType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get document type</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdocumenterrors">
+<h3>190.1.10. getDocumentErrors<a class="headerlink" href="#getdocumenterrors" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDocumentErrors">
+<tt class="descname">getDocumentErrors</tt><big>(</big><big>)</big><a class="headerlink" href="#getDocumentErrors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get any DOMDocument errors found</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="execute">
+<h3>190.1.11. execute<a class="headerlink" href="#execute" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">execute</tt><big>(</big><em>$query</em><big>)</big></dt>
+<dd><p>Perform a CSS selector query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$query</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">NodeList</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="queryxpath">
+<h3>190.1.12. queryXpath<a class="headerlink" href="#queryxpath" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="queryXpath">
+<tt class="descname">queryXpath</tt><big>(</big><em>$xpathQuery</em><span class="optional">[</span>, <em>$query = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#queryXpath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform an XPath query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$xpathQuery</strong> (<em>string|array</em>) &#8211; </li>
+<li><strong>$query</strong> (<em>string|null</em>) &#8211; CSS selector query</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">NodeList</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registerxpathnamespaces">
+<h3>190.1.13. registerXpathNamespaces<a class="headerlink" href="#registerxpathnamespaces" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerXpathNamespaces">
+<tt class="descname">registerXpathNamespaces</tt><big>(</big><em>$xpathNamespaces</em><big>)</big><a class="headerlink" href="#registerXpathNamespaces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register XPath namespaces</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$xpathNamespaces</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registerxpathphpfunctions">
+<h3>190.1.14. registerXpathPhpFunctions<a class="headerlink" href="#registerxpathphpfunctions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerXpathPhpFunctions">
+<tt class="descname">registerXpathPhpFunctions</tt><big>(</big><span class="optional">[</span><em>$xpathPhpFunctions = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#registerXpathPhpFunctions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register PHP Functions to use in internal DOMXPath</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$xpathPhpFunctions</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnodelist">
+<h3>190.1.15. getNodeList<a class="headerlink" href="#getnodelist" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNodeList">
+<tt class="descname">getNodeList</tt><big>(</big><em>$document</em>, <em>$xpathQuery</em><big>)</big><a class="headerlink" href="#getNodeList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare node list</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$document</strong> (<em>DOMDocument</em>) &#8211; </li>
+<li><strong>$xpathQuery</strong> (<em>string|array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>190.1.16. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="doc-xml">
+<h4>190.1.16.1. DOC_XML<a class="headerlink" href="#doc-xml" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="doc-html">
+<h4>190.1.16.2. DOC_HTML<a class="headerlink" href="#doc-html" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="doc-xhtml">
+<h4>190.1.16.3. DOC_XHTML<a class="headerlink" href="#doc-xhtml" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">190. Zend\Dom\Query</a><ul>
+<li><a class="reference internal" href="#methods">190.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">190.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setencoding">190.1.2. setEncoding</a></li>
+<li><a class="reference internal" href="#getencoding">190.1.3. getEncoding</a></li>
+<li><a class="reference internal" href="#setdocument">190.1.4. setDocument</a></li>
+<li><a class="reference internal" href="#setdocumenthtml">190.1.5. setDocumentHtml</a></li>
+<li><a class="reference internal" href="#setdocumentxhtml">190.1.6. setDocumentXhtml</a></li>
+<li><a class="reference internal" href="#setdocumentxml">190.1.7. setDocumentXml</a></li>
+<li><a class="reference internal" href="#getdocument">190.1.8. getDocument</a></li>
+<li><a class="reference internal" href="#getdocumenttype">190.1.9. getDocumentType</a></li>
+<li><a class="reference internal" href="#getdocumenterrors">190.1.10. getDocumentErrors</a></li>
+<li><a class="reference internal" href="#execute">190.1.11. execute</a></li>
+<li><a class="reference internal" href="#queryxpath">190.1.12. queryXpath</a></li>
+<li><a class="reference internal" href="#registerxpathnamespaces">190.1.13. registerXpathNamespaces</a></li>
+<li><a class="reference internal" href="#registerxpathphpfunctions">190.1.14. registerXpathPhpFunctions</a></li>
+<li><a class="reference internal" href="#getnodelist">190.1.15. getNodeList</a></li>
+<li><a class="reference internal" href="#constants">190.1.16. Constants</a><ul>
+<li><a class="reference internal" href="#doc-xml">190.1.16.1. DOC_XML</a></li>
+<li><a class="reference internal" href="#doc-html">190.1.16.2. DOC_HTML</a></li>
+<li><a class="reference internal" href="#doc-xhtml">190.1.16.3. DOC_XHTML</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="NodeList.html"
+                        title="previous chapter">189. Zend\Dom\NodeList</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Driver/ConnectionInterface.html"
+                        title="next chapter">191. Zend\Db\Adapter\Driver\getCurrentSchema</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Dom/Query.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Driver/ConnectionInterface.html" title="191. Zend\Db\Adapter\Driver\getCurrentSchema"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="NodeList.html" title="189. Zend\Dom\NodeList"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

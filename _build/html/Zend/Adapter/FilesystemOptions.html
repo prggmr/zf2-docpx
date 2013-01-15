@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>23. Zend\Cache\Storage\Adapter\FilesystemOptions &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="24. Zend\File\Transfer\Adapter\FilterPluginManager" href="FilterPluginManager.html" />
+    <link rel="prev" title="22. Zend\Cache\Storage\Adapter\FilesystemIterator" href="FilesystemIterator.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="24. Zend\File\Transfer\Adapter\FilterPluginManager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="FilesystemIterator.html" title="22. Zend\Cache\Storage\Adapter\FilesystemIterator"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-adapter-filesystemoptions">
+<h1>23. Zend\Cache\Storage\Adapter\FilesystemOptions<a class="headerlink" href="#zend-cache-storage-adapter-filesystemoptions" title="Permalink to this headline">¶</a></h1>
+<p>These are options specific to the Filesystem adapter</p>
+<div class="section" id="methods">
+<h2>23.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>23.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcachedir">
+<h3>23.1.2. setCacheDir<a class="headerlink" href="#setcachedir" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCacheDir">
+<tt class="descname">setCacheDir</tt><big>(</big><em>$cacheDir</em><big>)</big><a class="headerlink" href="#setCacheDir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set cache dir</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cacheDir</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcachedir">
+<h3>23.1.3. getCacheDir<a class="headerlink" href="#getcachedir" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCacheDir">
+<tt class="descname">getCacheDir</tt><big>(</big><big>)</big><a class="headerlink" href="#getCacheDir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get cache dir</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setclearstatcache">
+<h3>23.1.4. setClearStatCache<a class="headerlink" href="#setclearstatcache" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setClearStatCache">
+<tt class="descname">setClearStatCache</tt><big>(</big><em>$clearStatCache</em><big>)</big><a class="headerlink" href="#setClearStatCache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set clear stat cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$clearStatCache</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getclearstatcache">
+<h3>23.1.5. getClearStatCache<a class="headerlink" href="#getclearstatcache" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClearStatCache">
+<tt class="descname">getClearStatCache</tt><big>(</big><big>)</big><a class="headerlink" href="#getClearStatCache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get clear stat cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdirlevel">
+<h3>23.1.6. setDirLevel<a class="headerlink" href="#setdirlevel" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDirLevel">
+<tt class="descname">setDirLevel</tt><big>(</big><em>$dirLevel</em><big>)</big><a class="headerlink" href="#setDirLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set dir level</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$dirLevel</strong> (<em>int</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getdirlevel">
+<h3>23.1.7. getDirLevel<a class="headerlink" href="#getdirlevel" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDirLevel">
+<tt class="descname">getDirLevel</tt><big>(</big><big>)</big><a class="headerlink" href="#getDirLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get dir level</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdirpermission">
+<h3>23.1.8. setDirPermission<a class="headerlink" href="#setdirpermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDirPermission">
+<tt class="descname">setDirPermission</tt><big>(</big><em>$dirPermission</em><big>)</big><a class="headerlink" href="#setDirPermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set permission to create directories on unix systems</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$dirPermission</strong> (<em>false|string|int</em>) &#8211; FALSE to disable explicit permission or an octal number</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">link:</th><td class="field-body">h h</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="getdirpermission">
+<h3>23.1.9. getDirPermission<a class="headerlink" href="#getdirpermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDirPermission">
+<tt class="descname">getDirPermission</tt><big>(</big><big>)</big><a class="headerlink" href="#getDirPermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get permission to create directories on unix systems</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilelocking">
+<h3>23.1.10. setFileLocking<a class="headerlink" href="#setfilelocking" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFileLocking">
+<tt class="descname">setFileLocking</tt><big>(</big><em>$fileLocking</em><big>)</big><a class="headerlink" href="#setFileLocking" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set file locking</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$fileLocking</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilelocking">
+<h3>23.1.11. getFileLocking<a class="headerlink" href="#getfilelocking" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFileLocking">
+<tt class="descname">getFileLocking</tt><big>(</big><big>)</big><a class="headerlink" href="#getFileLocking" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get file locking</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilepermission">
+<h3>23.1.12. setFilePermission<a class="headerlink" href="#setfilepermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilePermission">
+<tt class="descname">setFilePermission</tt><big>(</big><em>$filePermission</em><big>)</big><a class="headerlink" href="#setFilePermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set permission to create files on unix systems</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filePermission</strong> (<em>false|string|int</em>) &#8211; FALSE to disable explicit permission or an octal number</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">link:</th><td class="field-body">h h</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="getfilepermission">
+<h3>23.1.13. getFilePermission<a class="headerlink" href="#getfilepermission" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilePermission">
+<tt class="descname">getFilePermission</tt><big>(</big><big>)</big><a class="headerlink" href="#getFilePermission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get permission to create files on unix systems</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnamespaceseparator">
+<h3>23.1.14. setNamespaceSeparator<a class="headerlink" href="#setnamespaceseparator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNamespaceSeparator">
+<tt class="descname">setNamespaceSeparator</tt><big>(</big><em>$namespaceSeparator</em><big>)</big><a class="headerlink" href="#setNamespaceSeparator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set namespace separator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$namespaceSeparator</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnamespaceseparator">
+<h3>23.1.15. getNamespaceSeparator<a class="headerlink" href="#getnamespaceseparator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNamespaceSeparator">
+<tt class="descname">getNamespaceSeparator</tt><big>(</big><big>)</big><a class="headerlink" href="#getNamespaceSeparator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get namespace separator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnoatime">
+<h3>23.1.16. setNoAtime<a class="headerlink" href="#setnoatime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNoAtime">
+<tt class="descname">setNoAtime</tt><big>(</big><em>$noAtime</em><big>)</big><a class="headerlink" href="#setNoAtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set no atime</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$noAtime</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnoatime">
+<h3>23.1.17. getNoAtime<a class="headerlink" href="#getnoatime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNoAtime">
+<tt class="descname">getNoAtime</tt><big>(</big><big>)</big><a class="headerlink" href="#getNoAtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get no atime</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setnoctime">
+<h3>23.1.18. setNoCtime<a class="headerlink" href="#setnoctime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setNoCtime">
+<tt class="descname">setNoCtime</tt><big>(</big><em>$noCtime</em><big>)</big><a class="headerlink" href="#setNoCtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set no ctime</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$noCtime</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getnoctime">
+<h3>23.1.19. getNoCtime<a class="headerlink" href="#getnoctime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getNoCtime">
+<tt class="descname">getNoCtime</tt><big>(</big><big>)</big><a class="headerlink" href="#getNoCtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get no ctime</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setumask">
+<h3>23.1.20. setUmask<a class="headerlink" href="#setumask" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUmask">
+<tt class="descname">setUmask</tt><big>(</big><em>$umask</em><big>)</big><a class="headerlink" href="#setUmask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the umask to create files and directories on unix systems</p>
+<p>Note: On multithreaded webservers it&#8217;s better to explicit set file and dir permission.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$umask</strong> (<em>false|string|int</em>) &#8211; FALSE to disable umask or an octal number</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilesystemOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">link:</th><td class="field-body">h h</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">link:</th><td class="field-body">h h</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="getumask">
+<h3>23.1.21. getUmask<a class="headerlink" href="#getumask" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getUmask">
+<tt class="descname">getUmask</tt><big>(</big><big>)</big><a class="headerlink" href="#getUmask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the umask to create files and directories on unix systems</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">false|int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">23. Zend\Cache\Storage\Adapter\FilesystemOptions</a><ul>
+<li><a class="reference internal" href="#methods">23.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">23.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setcachedir">23.1.2. setCacheDir</a></li>
+<li><a class="reference internal" href="#getcachedir">23.1.3. getCacheDir</a></li>
+<li><a class="reference internal" href="#setclearstatcache">23.1.4. setClearStatCache</a></li>
+<li><a class="reference internal" href="#getclearstatcache">23.1.5. getClearStatCache</a></li>
+<li><a class="reference internal" href="#setdirlevel">23.1.6. setDirLevel</a></li>
+<li><a class="reference internal" href="#getdirlevel">23.1.7. getDirLevel</a></li>
+<li><a class="reference internal" href="#setdirpermission">23.1.8. setDirPermission</a></li>
+<li><a class="reference internal" href="#getdirpermission">23.1.9. getDirPermission</a></li>
+<li><a class="reference internal" href="#setfilelocking">23.1.10. setFileLocking</a></li>
+<li><a class="reference internal" href="#getfilelocking">23.1.11. getFileLocking</a></li>
+<li><a class="reference internal" href="#setfilepermission">23.1.12. setFilePermission</a></li>
+<li><a class="reference internal" href="#getfilepermission">23.1.13. getFilePermission</a></li>
+<li><a class="reference internal" href="#setnamespaceseparator">23.1.14. setNamespaceSeparator</a></li>
+<li><a class="reference internal" href="#getnamespaceseparator">23.1.15. getNamespaceSeparator</a></li>
+<li><a class="reference internal" href="#setnoatime">23.1.16. setNoAtime</a></li>
+<li><a class="reference internal" href="#getnoatime">23.1.17. getNoAtime</a></li>
+<li><a class="reference internal" href="#setnoctime">23.1.18. setNoCtime</a></li>
+<li><a class="reference internal" href="#getnoctime">23.1.19. getNoCtime</a></li>
+<li><a class="reference internal" href="#setumask">23.1.20. setUmask</a></li>
+<li><a class="reference internal" href="#getumask">23.1.21. getUmask</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="FilesystemIterator.html"
+                        title="previous chapter">22. Zend\Cache\Storage\Adapter\FilesystemIterator</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FilterPluginManager.html"
+                        title="next chapter">24. Zend\File\Transfer\Adapter\FilterPluginManager</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/FilesystemOptions.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="24. Zend\File\Transfer\Adapter\FilterPluginManager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="FilesystemIterator.html" title="22. Zend\Cache\Storage\Adapter\FilesystemIterator"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

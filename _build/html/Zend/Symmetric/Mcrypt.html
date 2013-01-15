@@ -1,0 +1,562 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>849. Zend\Crypt\Symmetric\Mcrypt &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="850. Zend\Crypt\Symmetric\PaddingPluginManager" href="PaddingPluginManager.html" />
+    <link rel="prev" title="848. Zend\Feed\PubSubHubbub\Subscriber\Callback" href="../Subscriber/Callback.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="PaddingPluginManager.html" title="850. Zend\Crypt\Symmetric\PaddingPluginManager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Subscriber/Callback.html" title="848. Zend\Feed\PubSubHubbub\Subscriber\Callback"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-crypt-symmetric-mcrypt">
+<h1>849. Zend\Crypt\Symmetric\Mcrypt<a class="headerlink" href="#zend-crypt-symmetric-mcrypt" title="Permalink to this headline">¶</a></h1>
+<p>Symmetric encryption using the Mcrypt extension</p>
+<p>NOTE: DO NOT USE only this class to encrypt data.
+This class doesn&#8217;t provide authentication and integrity check over the data.
+PLEASE USE ZendCryptBlockCipher instead!</p>
+<div class="section" id="methods">
+<h2>849.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>849.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdefaultoptions">
+<h3>849.1.2. setDefaultOptions<a class="headerlink" href="#setdefaultoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDefaultOptions">
+<tt class="descname">setDefaultOptions</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDefaultOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set default options</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpaddingpluginmanager">
+<h3>849.1.3. getPaddingPluginManager<a class="headerlink" href="#getpaddingpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPaddingPluginManager">
+<tt class="descname">getPaddingPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getPaddingPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the padding plugin manager.  If it doesn&#8217;t exist it&#8217;s created.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PaddingPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpaddingpluginmanager">
+<h3>849.1.4. setPaddingPluginManager<a class="headerlink" href="#setpaddingpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPaddingPluginManager">
+<tt class="descname">setPaddingPluginManager</tt><big>(</big><em>$plugins</em><big>)</big><a class="headerlink" href="#setPaddingPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the padding plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$plugins</strong> (<em>string|PaddingPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getkeysize">
+<h3>849.1.5. getKeySize<a class="headerlink" href="#getkeysize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getKeySize">
+<tt class="descname">getKeySize</tt><big>(</big><big>)</big><a class="headerlink" href="#getKeySize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the maximum key size for the selected cipher and mode of operation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setkey">
+<h3>849.1.6. setKey<a class="headerlink" href="#setkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setKey">
+<tt class="descname">setKey</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#setKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the encryption key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Mcrypt</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getkey">
+<h3>849.1.7. getKey<a class="headerlink" href="#getkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getKey">
+<tt class="descname">getKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the encryption key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setalgorithm">
+<h3>849.1.8. setAlgorithm<a class="headerlink" href="#setalgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAlgorithm">
+<tt class="descname">setAlgorithm</tt><big>(</big><em>$algo</em><big>)</big><a class="headerlink" href="#setAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the encryption algorithm (cipher)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$algo</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Mcrypt</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getalgorithm">
+<h3>849.1.9. getAlgorithm<a class="headerlink" href="#getalgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAlgorithm">
+<tt class="descname">getAlgorithm</tt><big>(</big><big>)</big><a class="headerlink" href="#getAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the encryption algorithm</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpadding">
+<h3>849.1.10. setPadding<a class="headerlink" href="#setpadding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPadding">
+<tt class="descname">setPadding</tt><big>(</big><em>$padding</em><big>)</big><a class="headerlink" href="#setPadding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the padding object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$padding</strong> (<em>PaddingPaddingInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Mcrypt</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpadding">
+<h3>849.1.11. getPadding<a class="headerlink" href="#getpadding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPadding">
+<tt class="descname">getPadding</tt><big>(</big><big>)</big><a class="headerlink" href="#getPadding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the padding object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">PaddingPaddingInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="encrypt">
+<h3>849.1.12. encrypt<a class="headerlink" href="#encrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">encrypt</tt><big>(</big><em>$data</em><big>)</big></dt>
+<dd><p>Encrypt</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="decrypt">
+<h3>849.1.13. decrypt<a class="headerlink" href="#decrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">decrypt</tt><big>(</big><em>$data</em><big>)</big></dt>
+<dd><p>Decrypt</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsaltsize">
+<h3>849.1.14. getSaltSize<a class="headerlink" href="#getsaltsize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSaltSize">
+<tt class="descname">getSaltSize</tt><big>(</big><big>)</big><a class="headerlink" href="#getSaltSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the salt (IV) size</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsupportedalgorithms">
+<h3>849.1.15. getSupportedAlgorithms<a class="headerlink" href="#getsupportedalgorithms" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSupportedAlgorithms">
+<tt class="descname">getSupportedAlgorithms</tt><big>(</big><big>)</big><a class="headerlink" href="#getSupportedAlgorithms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the supported algorithms</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setsalt">
+<h3>849.1.16. setSalt<a class="headerlink" href="#setsalt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSalt">
+<tt class="descname">setSalt</tt><big>(</big><em>$salt</em><big>)</big><a class="headerlink" href="#setSalt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the salt (IV)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$salt</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Mcrypt</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsalt">
+<h3>849.1.17. getSalt<a class="headerlink" href="#getsalt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSalt">
+<tt class="descname">getSalt</tt><big>(</big><big>)</big><a class="headerlink" href="#getSalt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the salt (IV)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setmode">
+<h3>849.1.18. setMode<a class="headerlink" href="#setmode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setMode">
+<tt class="descname">setMode</tt><big>(</big><em>$mode</em><big>)</big><a class="headerlink" href="#setMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the cipher mode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$mode</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Mcrypt</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmode">
+<h3>849.1.19. getMode<a class="headerlink" href="#getmode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMode">
+<tt class="descname">getMode</tt><big>(</big><big>)</big><a class="headerlink" href="#getMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the cipher mode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsupportedmodes">
+<h3>849.1.20. getSupportedModes<a class="headerlink" href="#getsupportedmodes" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSupportedModes">
+<tt class="descname">getSupportedModes</tt><big>(</big><big>)</big><a class="headerlink" href="#getSupportedModes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get all supported encryption modes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getblocksize">
+<h3>849.1.21. getBlockSize<a class="headerlink" href="#getblocksize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBlockSize">
+<tt class="descname">getBlockSize</tt><big>(</big><big>)</big><a class="headerlink" href="#getBlockSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the block size</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>849.1.22. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="default-padding">
+<h4>849.1.22.1. DEFAULT_PADDING<a class="headerlink" href="#default-padding" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">849. Zend\Crypt\Symmetric\Mcrypt</a><ul>
+<li><a class="reference internal" href="#methods">849.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">849.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setdefaultoptions">849.1.2. setDefaultOptions</a></li>
+<li><a class="reference internal" href="#getpaddingpluginmanager">849.1.3. getPaddingPluginManager</a></li>
+<li><a class="reference internal" href="#setpaddingpluginmanager">849.1.4. setPaddingPluginManager</a></li>
+<li><a class="reference internal" href="#getkeysize">849.1.5. getKeySize</a></li>
+<li><a class="reference internal" href="#setkey">849.1.6. setKey</a></li>
+<li><a class="reference internal" href="#getkey">849.1.7. getKey</a></li>
+<li><a class="reference internal" href="#setalgorithm">849.1.8. setAlgorithm</a></li>
+<li><a class="reference internal" href="#getalgorithm">849.1.9. getAlgorithm</a></li>
+<li><a class="reference internal" href="#setpadding">849.1.10. setPadding</a></li>
+<li><a class="reference internal" href="#getpadding">849.1.11. getPadding</a></li>
+<li><a class="reference internal" href="#encrypt">849.1.12. encrypt</a></li>
+<li><a class="reference internal" href="#decrypt">849.1.13. decrypt</a></li>
+<li><a class="reference internal" href="#getsaltsize">849.1.14. getSaltSize</a></li>
+<li><a class="reference internal" href="#getsupportedalgorithms">849.1.15. getSupportedAlgorithms</a></li>
+<li><a class="reference internal" href="#setsalt">849.1.16. setSalt</a></li>
+<li><a class="reference internal" href="#getsalt">849.1.17. getSalt</a></li>
+<li><a class="reference internal" href="#setmode">849.1.18. setMode</a></li>
+<li><a class="reference internal" href="#getmode">849.1.19. getMode</a></li>
+<li><a class="reference internal" href="#getsupportedmodes">849.1.20. getSupportedModes</a></li>
+<li><a class="reference internal" href="#getblocksize">849.1.21. getBlockSize</a></li>
+<li><a class="reference internal" href="#constants">849.1.22. Constants</a><ul>
+<li><a class="reference internal" href="#default-padding">849.1.22.1. DEFAULT_PADDING</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Subscriber/Callback.html"
+                        title="previous chapter">848. Zend\Feed\PubSubHubbub\Subscriber\Callback</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="PaddingPluginManager.html"
+                        title="next chapter">850. Zend\Crypt\Symmetric\PaddingPluginManager</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Symmetric/Mcrypt.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="PaddingPluginManager.html" title="850. Zend\Crypt\Symmetric\PaddingPluginManager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Subscriber/Callback.html" title="848. Zend\Feed\PubSubHubbub\Subscriber\Callback"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

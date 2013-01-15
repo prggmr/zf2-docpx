@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>626. Zend\Cache\Pattern\CallbackCache &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="627. Zend\Cache\Pattern\CaptureCache" href="CaptureCache.html" />
+    <link rel="prev" title="625. Zend\Cache\Pattern\AbstractPattern" href="AbstractPattern.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="CaptureCache.html" title="627. Zend\Cache\Pattern\CaptureCache"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AbstractPattern.html" title="625. Zend\Cache\Pattern\AbstractPattern"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-pattern-callbackcache">
+<h1>626. Zend\Cache\Pattern\CallbackCache<a class="headerlink" href="#zend-cache-pattern-callbackcache" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>626.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setoptions">
+<h3>626.1.1. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><em>$options</em><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set options</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>PatternOptions</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">CallbackCache</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException if missing storage option</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="call">
+<h3>626.1.2. call<a class="headerlink" href="#call" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">call</tt><big>(</big><em>$callback</em><span class="optional">[</span>, <em>$args = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Call the specified callback or get the result from cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$callback</strong> (<em>callable</em>) &#8211; A valid callback</li>
+<li><strong>$args</strong> (<em>array</em>) &#8211; Callback arguments</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">mixed Result</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first">ExceptionRuntimeException if invalid cached data</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">Exception</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>626.1.3. __call<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__call">
+<tt class="descname">__call</tt><big>(</big><em>$function</em>, <em>$args</em><big>)</big><a class="headerlink" href="#__call" title="Permalink to this definition">¶</a></dt>
+<dd><p>function call handler</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$function</strong> (<em>string</em>) &#8211; Function name to call</li>
+<li><strong>$args</strong> (<em>array</em>) &#8211; Function arguments</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">mixed</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first">ExceptionRuntimeException</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">Exception</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="generatekey">
+<h3>626.1.4. generateKey<a class="headerlink" href="#generatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="generateKey">
+<tt class="descname">generateKey</tt><big>(</big><em>$callback</em><span class="optional">[</span>, <em>$args = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#generateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a unique key in base of a key representing the callback part
+and a key representing the arguments part.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$callback</strong> (<em>callable</em>) &#8211; A valid callback</li>
+<li><strong>$args</strong> (<em>array</em>) &#8211; Callback arguments</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first">ExceptionRuntimeException</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="generatecallbackkey">
+<h3>626.1.5. generateCallbackKey<a class="headerlink" href="#generatecallbackkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="generateCallbackKey">
+<tt class="descname">generateCallbackKey</tt><big>(</big><em>$callback</em>, <em>$args</em><big>)</big><a class="headerlink" href="#generateCallbackKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a unique key in base of a key representing the callback part
+and a key representing the arguments part.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$callback</strong> (<em>callable</em>) &#8211; A valid callback</li>
+<li><strong>$args</strong> (<em>array</em>) &#8211; Callback arguments</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><p class="first">if callback not serializable</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><p class="first">if invalid callback</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="generateargumentskey">
+<h3>626.1.6. generateArgumentsKey<a class="headerlink" href="#generateargumentskey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="generateArgumentsKey">
+<tt class="descname">generateArgumentsKey</tt><big>(</big><em>$args</em><big>)</big><a class="headerlink" href="#generateArgumentsKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a unique key of the argument part.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$args</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">626. Zend\Cache\Pattern\CallbackCache</a><ul>
+<li><a class="reference internal" href="#methods">626.1. Methods</a><ul>
+<li><a class="reference internal" href="#setoptions">626.1.1. setOptions</a></li>
+<li><a class="reference internal" href="#call">626.1.2. call</a></li>
+<li><a class="reference internal" href="#id1">626.1.3. __call</a></li>
+<li><a class="reference internal" href="#generatekey">626.1.4. generateKey</a></li>
+<li><a class="reference internal" href="#generatecallbackkey">626.1.5. generateCallbackKey</a></li>
+<li><a class="reference internal" href="#generateargumentskey">626.1.6. generateArgumentsKey</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AbstractPattern.html"
+                        title="previous chapter">625. Zend\Cache\Pattern\AbstractPattern</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="CaptureCache.html"
+                        title="next chapter">627. Zend\Cache\Pattern\CaptureCache</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Pattern/CallbackCache.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="CaptureCache.html" title="627. Zend\Cache\Pattern\CaptureCache"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AbstractPattern.html" title="625. Zend\Cache\Pattern\AbstractPattern"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

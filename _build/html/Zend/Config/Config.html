@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>126. Zend\Config\Config &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="127. Zend\Config\Factory" href="Factory.html" />
+    <link rel="prev" title="125. Zend\Filter\Compress\Zip" href="../Compress/Zip.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Factory.html" title="127. Zend\Config\Factory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Compress/Zip.html" title="125. Zend\Filter\Compress\Zip"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-config-config">
+<h1>126. Zend\Config\Config<a class="headerlink" href="#zend-config-config" title="Permalink to this headline">¶</a></h1>
+<p>Provides a property based interface to an array.
+The data are read-only unless $allowModifications is set to true
+on construction.</p>
+<p>Implements Countable, Iterator and ArrayAccess
+to facilitate easy access to the data.</p>
+<div class="section" id="methods">
+<h2>126.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>126.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><em>$array</em><span class="optional">[</span>, <em>$allowModifications = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor.</p>
+<p>Data is read-only unless $allowModifications is set to true
+on construction.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$array</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$allowModifications</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="get">
+<h3>126.1.2. get<a class="headerlink" href="#get" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">get</tt><big>(</big><em>$name</em><span class="optional">[</span>, <em>$default = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Retrieve a value and return $default if there is no element set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$default</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">mixed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>126.1.3. __get<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__get">
+<tt class="descname">__get</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#__get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Magic function so that $obj-&gt;value will work.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="set">
+<h3>126.1.4. __set<a class="headerlink" href="#set" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__set">
+<tt class="descname">__set</tt><big>(</big><em>$name</em>, <em>$value</em><big>)</big><a class="headerlink" href="#__set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a value in the config.</p>
+<p>Only allow setting of a property if $allowModifications  was set to true
+on construction. Otherwise, throw an exception.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$name</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">void</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clone">
+<h3>126.1.5. __clone<a class="headerlink" href="#clone" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__clone">
+<tt class="descname">__clone</tt><big>(</big><big>)</big><a class="headerlink" href="#__clone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deep clone of this instance to ensure that nested ZendConfigs are also
+cloned.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="toarray">
+<h3>126.1.6. toArray<a class="headerlink" href="#toarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toArray">
+<tt class="descname">toArray</tt><big>(</big><big>)</big><a class="headerlink" href="#toArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return an associative array of the stored data.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isset">
+<h3>126.1.7. __isset<a class="headerlink" href="#isset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__isset">
+<tt class="descname">__isset</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#__isset" title="Permalink to this definition">¶</a></dt>
+<dd><p>isset() overloading</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="unset">
+<h3>126.1.8. __unset<a class="headerlink" href="#unset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__unset">
+<tt class="descname">__unset</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#__unset" title="Permalink to this definition">¶</a></dt>
+<dd><p>unset() overloading</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="count">
+<h3>126.1.9. count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">count</tt><big>(</big><big>)</big></dt>
+<dd><p>count(): defined by Countable interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="current">
+<h3>126.1.10. current<a class="headerlink" href="#current" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">current</tt><big>(</big><big>)</big></dt>
+<dd><p>current(): defined by Iterator interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="key">
+<h3>126.1.11. key<a class="headerlink" href="#key" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">key</tt><big>(</big><big>)</big></dt>
+<dd><p>key(): defined by Iterator interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="next">
+<h3>126.1.12. next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">next</tt><big>(</big><big>)</big></dt>
+<dd><p>next(): defined by Iterator interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="rewind">
+<h3>126.1.13. rewind<a class="headerlink" href="#rewind" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">rewind</tt><big>(</big><big>)</big></dt>
+<dd><p>rewind(): defined by Iterator interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="valid">
+<h3>126.1.14. valid<a class="headerlink" href="#valid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">valid</tt><big>(</big><big>)</big></dt>
+<dd><p>valid(): defined by Iterator interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetexists">
+<h3>126.1.15. offsetExists<a class="headerlink" href="#offsetexists" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetExists">
+<tt class="descname">offsetExists</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetExists" title="Permalink to this definition">¶</a></dt>
+<dd><p>offsetExists(): defined by ArrayAccess interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetget">
+<h3>126.1.16. offsetGet<a class="headerlink" href="#offsetget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetGet">
+<tt class="descname">offsetGet</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetGet" title="Permalink to this definition">¶</a></dt>
+<dd><p>offsetGet(): defined by ArrayAccess interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetset">
+<h3>126.1.17. offsetSet<a class="headerlink" href="#offsetset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetSet">
+<tt class="descname">offsetSet</tt><big>(</big><em>$offset</em>, <em>$value</em><big>)</big><a class="headerlink" href="#offsetSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>offsetSet(): defined by ArrayAccess interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param mixed $value:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetunset">
+<h3>126.1.18. offsetUnset<a class="headerlink" href="#offsetunset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetUnset">
+<tt class="descname">offsetUnset</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetUnset" title="Permalink to this definition">¶</a></dt>
+<dd><p>offsetUnset(): defined by ArrayAccess interface.</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="merge">
+<h3>126.1.19. merge<a class="headerlink" href="#merge" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">merge</tt><big>(</big><em>$merge</em><big>)</big></dt>
+<dd><p>Merge another Config with this one.</p>
+<p>For duplicate keys, the following will be performed:
+- Nested Configs will be recursively merged.
+- Items in $merge with INTEGER keys will be appended.
+- Items in $merge with STRING keys will overwrite current values.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$merge</strong> (<em>Config</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Config</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setreadonly">
+<h3>126.1.20. setReadOnly<a class="headerlink" href="#setreadonly" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setReadOnly">
+<tt class="descname">setReadOnly</tt><big>(</big><big>)</big><a class="headerlink" href="#setReadOnly" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prevent any more modifications being made to this instance.</p>
+<p>Useful after merge() has been used to merge multiple Config objects
+into one object which should then not be modified again.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isreadonly">
+<h3>126.1.21. isReadOnly<a class="headerlink" href="#isreadonly" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isReadOnly">
+<tt class="descname">isReadOnly</tt><big>(</big><big>)</big><a class="headerlink" href="#isReadOnly" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns whether this Config object is read only or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">126. Zend\Config\Config</a><ul>
+<li><a class="reference internal" href="#methods">126.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">126.1.1. __construct</a></li>
+<li><a class="reference internal" href="#get">126.1.2. get</a></li>
+<li><a class="reference internal" href="#id1">126.1.3. __get</a></li>
+<li><a class="reference internal" href="#set">126.1.4. __set</a></li>
+<li><a class="reference internal" href="#clone">126.1.5. __clone</a></li>
+<li><a class="reference internal" href="#toarray">126.1.6. toArray</a></li>
+<li><a class="reference internal" href="#isset">126.1.7. __isset</a></li>
+<li><a class="reference internal" href="#unset">126.1.8. __unset</a></li>
+<li><a class="reference internal" href="#count">126.1.9. count</a></li>
+<li><a class="reference internal" href="#current">126.1.10. current</a></li>
+<li><a class="reference internal" href="#key">126.1.11. key</a></li>
+<li><a class="reference internal" href="#next">126.1.12. next</a></li>
+<li><a class="reference internal" href="#rewind">126.1.13. rewind</a></li>
+<li><a class="reference internal" href="#valid">126.1.14. valid</a></li>
+<li><a class="reference internal" href="#offsetexists">126.1.15. offsetExists</a></li>
+<li><a class="reference internal" href="#offsetget">126.1.16. offsetGet</a></li>
+<li><a class="reference internal" href="#offsetset">126.1.17. offsetSet</a></li>
+<li><a class="reference internal" href="#offsetunset">126.1.18. offsetUnset</a></li>
+<li><a class="reference internal" href="#merge">126.1.19. merge</a></li>
+<li><a class="reference internal" href="#setreadonly">126.1.20. setReadOnly</a></li>
+<li><a class="reference internal" href="#isreadonly">126.1.21. isReadOnly</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Compress/Zip.html"
+                        title="previous chapter">125. Zend\Filter\Compress\Zip</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Factory.html"
+                        title="next chapter">127. Zend\Config\Factory</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Config/Config.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Factory.html" title="127. Zend\Config\Factory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Compress/Zip.html" title="125. Zend\Filter\Compress\Zip"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

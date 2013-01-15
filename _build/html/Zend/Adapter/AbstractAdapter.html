@@ -1,0 +1,1319 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. Zend\File\Transfer\Adapter\AbstractAdapter &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="2. Zend\Cache\Storage\Adapter\AbstractZendServer" href="AbstractZendServer.html" />
+    <link rel="prev" title="Welcome to ZF2 by Docpx’s documentation!" href="../../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="AbstractZendServer.html" title="2. Zend\Cache\Storage\Adapter\AbstractZendServer"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../../index.html" title="Welcome to ZF2 by Docpx’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-file-transfer-adapter-abstractadapter">
+<h1>1. Zend\File\Transfer\Adapter\AbstractAdapter<a class="headerlink" href="#zend-file-transfer-adapter-abstractadapter" title="Permalink to this headline">¶</a></h1>
+<p>Abstract class for file transfers (Downloads and Uploads)</p>
+<p>This class needs a full rewrite. It re-implements functionality present in
+ZendFilterInput and/or ZendFormElement, and in a way that&#8217;s inconsistent
+with either one. Additionally, plugin loader usage is now deprecated &#8211; but
+modifying that should be done in tandem with a rewrite to utilize validator
+and filter chains instead.</p>
+<div class="section" id="methods">
+<h2>1.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="send">
+<h3>1.1.1. send<a class="headerlink" href="#send" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">send</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Send file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="receive">
+<h3>1.1.2. receive<a class="headerlink" href="#receive" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">receive</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Receive file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>mixed</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="issent">
+<h3>1.1.3. isSent<a class="headerlink" href="#issent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isSent">
+<tt class="descname">isSent</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isSent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is file sent?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array|string|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isreceived">
+<h3>1.1.4. isReceived<a class="headerlink" href="#isreceived" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isReceived">
+<tt class="descname">isReceived</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isReceived" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is file received?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array|string|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isuploaded">
+<h3>1.1.5. isUploaded<a class="headerlink" href="#isuploaded" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isUploaded">
+<tt class="descname">isUploaded</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isUploaded" title="Permalink to this definition">¶</a></dt>
+<dd><p>Has a file been uploaded ?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array|string|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isfiltered">
+<h3>1.1.6. isFiltered<a class="headerlink" href="#isfiltered" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isFiltered">
+<tt class="descname">isFiltered</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isFiltered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Has the file been filtered ?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array|string|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfiltermanager">
+<h3>1.1.7. setFilterManager<a class="headerlink" href="#setfiltermanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilterManager">
+<tt class="descname">setFilterManager</tt><big>(</big><em>$filterManager</em><big>)</big><a class="headerlink" href="#setFilterManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the filter plugin manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filterManager</strong> (<em>FilterPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfiltermanager">
+<h3>1.1.8. getFilterManager<a class="headerlink" href="#getfiltermanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilterManager">
+<tt class="descname">getFilterManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getFilterManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the filter plugin manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">FilterPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setvalidatormanager">
+<h3>1.1.9. setValidatorManager<a class="headerlink" href="#setvalidatormanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setValidatorManager">
+<tt class="descname">setValidatorManager</tt><big>(</big><em>$validatorManager</em><big>)</big><a class="headerlink" href="#setValidatorManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the validator plugin manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$validatorManager</strong> (<em>ValidatorPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getvalidatormanager">
+<h3>1.1.10. getValidatorManager<a class="headerlink" href="#getvalidatormanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getValidatorManager">
+<tt class="descname">getValidatorManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getValidatorManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the validator plugin manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ValidatorPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addvalidator">
+<h3>1.1.11. addValidator<a class="headerlink" href="#addvalidator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addValidator">
+<tt class="descname">addValidator</tt><big>(</big><em>$validator</em><span class="optional">[</span>, <em>$breakChainOnFailure = false</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#addValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a new validator for this class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$validator</strong> (<em>string|ValidatorValidatorInterface</em>) &#8211; Type of validator to add</li>
+<li><strong>$breakChainOnFailure</strong> (<em>bool</em>) &#8211; If the validation chain should stop an failure</li>
+<li><strong>$options</strong> (<em>string|array</em>) &#8211; Options to set for the validator</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to limit this validator to</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">AbstractAdapter</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException for invalid type</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addvalidators">
+<h3>1.1.12. addValidators<a class="headerlink" href="#addvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addValidators">
+<tt class="descname">addValidators</tt><big>(</big><em>$validators</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#addValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add Multiple validators at once</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$validators</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">AbstractAdapter</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException for invalid type</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setvalidators">
+<h3>1.1.13. setValidators<a class="headerlink" href="#setvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setValidators">
+<tt class="descname">setValidators</tt><big>(</big><em>$validators</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a validator for the class, erasing all previous set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$validators</strong> (<em>array</em>) &#8211; Validators to set</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to limit this validator to</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AbstractAdapter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasvalidator">
+<h3>1.1.14. hasValidator<a class="headerlink" href="#hasvalidator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasValidator">
+<tt class="descname">hasValidator</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#hasValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if a given validator has already been registered</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getvalidator">
+<h3>1.1.15. getValidator<a class="headerlink" href="#getvalidator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getValidator">
+<tt class="descname">getValidator</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve individual validator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ValidatorValidatorInterface|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getvalidators">
+<h3>1.1.16. getValidators<a class="headerlink" href="#getvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getValidators">
+<tt class="descname">getValidators</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all set validators</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Returns the validator for this files</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">null|array List of set validators</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="removevalidator">
+<h3>1.1.17. removeValidator<a class="headerlink" href="#removevalidator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="removeValidator">
+<tt class="descname">removeValidator</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#removeValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove an individual validator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearvalidators">
+<h3>1.1.18. clearValidators<a class="headerlink" href="#clearvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearValidators">
+<tt class="descname">clearValidators</tt><big>(</big><big>)</big><a class="headerlink" href="#clearValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all validators</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setoptions">
+<h3>1.1.19. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets Options for adapters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$options</strong> (<em>array</em>) &#8211; Options to set</li>
+<li><strong>$files</strong> (<em>array</em>) &#8211; (Optional) Files to set the options for</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AbstractAdapter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getoptions">
+<h3>1.1.20. getOptions<a class="headerlink" href="#getoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getOptions">
+<tt class="descname">getOptions</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns set options for adapters or files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array</em>) &#8211; (Optional) Files to return the options for</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array Options for given files</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isvalid">
+<h3>1.1.21. isValid<a class="headerlink" href="#isvalid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isValid">
+<tt class="descname">isValid</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isValid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the files are valid</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool True if all checks are valid</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmessages">
+<h3>1.1.22. getMessages<a class="headerlink" href="#getmessages" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMessages">
+<tt class="descname">getMessages</tt><big>(</big><big>)</big><a class="headerlink" href="#getMessages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns found validation messages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="geterrors">
+<h3>1.1.23. getErrors<a class="headerlink" href="#geterrors" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getErrors">
+<tt class="descname">getErrors</tt><big>(</big><big>)</big><a class="headerlink" href="#getErrors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve error codes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="haserrors">
+<h3>1.1.24. hasErrors<a class="headerlink" href="#haserrors" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasErrors">
+<tt class="descname">hasErrors</tt><big>(</big><big>)</big><a class="headerlink" href="#hasErrors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Are there errors registered?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addfilter">
+<h3>1.1.25. addFilter<a class="headerlink" href="#addfilter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addFilter">
+<tt class="descname">addFilter</tt><big>(</big><em>$filter</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#addFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a new filter for this class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$filter</strong> (<em>string|FilterFilterInterface</em>) &#8211; Type of filter to add</li>
+<li><strong>$options</strong> (<em>string|array</em>) &#8211; Options to set for the filter</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to limit this filter to</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">AbstractAdapter</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException for invalid type</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addfilters">
+<h3>1.1.26. addFilters<a class="headerlink" href="#addfilters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addFilters">
+<tt class="descname">addFilters</tt><big>(</big><em>$filters</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#addFilters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add Multiple filters at once</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$filters</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AbstractAdapter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfilters">
+<h3>1.1.27. setFilters<a class="headerlink" href="#setfilters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFilters">
+<tt class="descname">setFilters</tt><big>(</big><em>$filters</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setFilters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a filter for the class, erasing all previous set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$filters</strong> (<em>array</em>) &#8211; Filter to set</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to limit this filter to</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">FilterAbstractFilter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasfilter">
+<h3>1.1.28. hasFilter<a class="headerlink" href="#hasfilter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasFilter">
+<tt class="descname">hasFilter</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#hasFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if a given filter has already been registered</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilter">
+<h3>1.1.29. getFilter<a class="headerlink" href="#getfilter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilter">
+<tt class="descname">getFilter</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve individual filter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FilterFilterInterface|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilters">
+<h3>1.1.30. getFilters<a class="headerlink" href="#getfilters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilters">
+<tt class="descname">getFilters</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFilters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all set filters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Returns the filter for this files</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array List of set filters</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException When file not found</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="removefilter">
+<h3>1.1.31. removeFilter<a class="headerlink" href="#removefilter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="removeFilter">
+<tt class="descname">removeFilter</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#removeFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove an individual filter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearfilters">
+<h3>1.1.32. clearFilters<a class="headerlink" href="#clearfilters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearFilters">
+<tt class="descname">clearFilters</tt><big>(</big><big>)</big><a class="headerlink" href="#clearFilters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all filters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilename">
+<h3>1.1.33. getFileName<a class="headerlink" href="#getfilename" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFileName">
+<tt class="descname">getFileName</tt><big>(</big><span class="optional">[</span><em>$file = false</em><span class="optional">[</span>, <em>$path = true</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFileName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieves the filename of transferred files.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$file</strong> (<em>string</em>) &#8211; (Optional) Element to return the filename for</li>
+<li><strong>$path</strong> (<em>bool</em>) &#8211; (Optional) Should the path also be returned ?</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string|array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfileinfo">
+<h3>1.1.34. getFileInfo<a class="headerlink" href="#getfileinfo" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFileInfo">
+<tt class="descname">getFileInfo</tt><big>(</big><span class="optional">[</span><em>$file = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFileInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve additional internal file informations for files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$file</strong> (<em>string</em>) &#8211; (Optional) File to get informations for</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setdestination">
+<h3>1.1.35. setDestination<a class="headerlink" href="#setdestination" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setDestination">
+<tt class="descname">setDestination</tt><big>(</big><em>$destination</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setDestination" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a new destination for the given files</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $destination:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">New destination directory</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param string|array $files:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">Files to set the new destination for</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+<tr class="field-even field"><th class="field-name">throws:</th><td class="field-body">ExceptionInvalidArgumentException when the given destination is not a directory or does not exist</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="getdestination">
+<h3>1.1.36. getDestination<a class="headerlink" href="#getdestination" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getDestination">
+<tt class="descname">getDestination</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getDestination" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve destination directory value</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>null|string|array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">null|string|array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settranslator">
+<h3>1.1.37. setTranslator<a class="headerlink" href="#settranslator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTranslator">
+<tt class="descname">setTranslator</tt><big>(</big><span class="optional">[</span><em>$translator = false</em><span class="optional">[</span>, <em>$textDomain = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#setTranslator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets translator to use in helper</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$translator</strong> (<em>Translator</em>) &#8211; [optional] translator.
+Default is null, which sets no translator.</li>
+<li><strong>$textDomain</strong> (<em>string</em>) &#8211; [optional] text domain
+Default is null, which skips setTranslatorTextDomain</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AbstractAdapter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettranslator">
+<h3>1.1.38. getTranslator<a class="headerlink" href="#gettranslator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTranslator">
+<tt class="descname">getTranslator</tt><big>(</big><big>)</big><a class="headerlink" href="#getTranslator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve localization translator object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Translator|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hastranslator">
+<h3>1.1.39. hasTranslator<a class="headerlink" href="#hastranslator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasTranslator">
+<tt class="descname">hasTranslator</tt><big>(</big><big>)</big><a class="headerlink" href="#hasTranslator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the helper has a translator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settranslatorenabled">
+<h3>1.1.40. setTranslatorEnabled<a class="headerlink" href="#settranslatorenabled" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTranslatorEnabled">
+<tt class="descname">setTranslatorEnabled</tt><big>(</big><span class="optional">[</span><em>$flag = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setTranslatorEnabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Indicate whether or not translation should be enabled</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$flag</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="istranslatorenabled">
+<h3>1.1.41. isTranslatorEnabled<a class="headerlink" href="#istranslatorenabled" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isTranslatorEnabled">
+<tt class="descname">isTranslatorEnabled</tt><big>(</big><big>)</big><a class="headerlink" href="#isTranslatorEnabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is translation enabled?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settranslatortextdomain">
+<h3>1.1.42. setTranslatorTextDomain<a class="headerlink" href="#settranslatortextdomain" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTranslatorTextDomain">
+<tt class="descname">setTranslatorTextDomain</tt><big>(</big><span class="optional">[</span><em>$textDomain = &quot;default&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setTranslatorTextDomain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set translation text domain</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$textDomain</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettranslatortextdomain">
+<h3>1.1.43. getTranslatorTextDomain<a class="headerlink" href="#gettranslatortextdomain" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTranslatorTextDomain">
+<tt class="descname">getTranslatorTextDomain</tt><big>(</big><big>)</big><a class="headerlink" href="#getTranslatorTextDomain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the translation text domain</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gethash">
+<h3>1.1.44. getHash<a class="headerlink" href="#gethash" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHash">
+<tt class="descname">getHash</tt><big>(</big><span class="optional">[</span><em>$hash = &quot;crc32&quot;</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getHash" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the hash for a given file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$hash</strong> (<em>string</em>) &#8211; Hash algorithm to use</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to return the hash for</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string|array Hashstring</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionInvalidArgumentException On unknown hash algorithm</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilesize">
+<h3>1.1.45. getFileSize<a class="headerlink" href="#getfilesize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFileSize">
+<tt class="descname">getFileSize</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFileSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the real filesize of the file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; Files to get the filesize from</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|array Filesize</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException When the file does not exist</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detectfilesize">
+<h3>1.1.46. detectFileSize<a class="headerlink" href="#detectfilesize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="detectFileSize">
+<tt class="descname">detectFileSize</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#detectFileSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to detect the size of a file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>array</em>) &#8211; File infos</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string Filesize of given file</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmimetype">
+<h3>1.1.47. getMimeType<a class="headerlink" href="#getmimetype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMimeType">
+<tt class="descname">getMimeType</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getMimeType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the real mimetype of the file
+Uses fileinfo, when not available mime_magic and as last fallback a manual given mimetype</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; Files to get the mimetype from</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|array MimeType</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException When the file does not exist</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detectmimetype">
+<h3>1.1.48. detectMimeType<a class="headerlink" href="#detectmimetype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="detectMimeType">
+<tt class="descname">detectMimeType</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#detectMimeType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to detect the mime type of a file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>array</em>) &#8211; File infos</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string Mimetype of given file</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="tobytestring">
+<h3>1.1.49. toByteString<a class="headerlink" href="#tobytestring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toByteString">
+<tt class="descname">toByteString</tt><big>(</big><em>$size</em><big>)</big><a class="headerlink" href="#toByteString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the formatted size</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$size</strong> (<em>integer</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="filter">
+<h3>1.1.50. filter<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">filter</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Internal function to filter all given files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool False on error</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettmpdir">
+<h3>1.1.51. getTmpDir<a class="headerlink" href="#gettmpdir" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTmpDir">
+<tt class="descname">getTmpDir</tt><big>(</big><big>)</big><a class="headerlink" href="#getTmpDir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine system TMP directory and detect if we have read access</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException if unable to determine directory</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="ispathwriteable">
+<h3>1.1.52. isPathWriteable<a class="headerlink" href="#ispathwriteable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isPathWriteable">
+<tt class="descname">isPathWriteable</tt><big>(</big><em>$path</em><big>)</big><a class="headerlink" href="#isPathWriteable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tries to detect if we can read and write to the given path</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$path</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfiles">
+<h3>1.1.53. getFiles<a class="headerlink" href="#getfiles" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFiles">
+<tt class="descname">getFiles</tt><big>(</big><em>$files</em><span class="optional">[</span>, <em>$names = false</em><span class="optional">[</span>, <em>$noexception = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns found files based on internal file array and given files</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to return</li>
+<li><strong>$names</strong> (<em>bool</em>) &#8211; (Optional) Returns only names on true, else complete info</li>
+<li><strong>$noexception</strong> (<em>bool</em>) &#8211; (Optional) Allows throwing an exception, otherwise returns an empty array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">array Found files</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException On false filename</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getvalidatoridentifier">
+<h3>1.1.54. getValidatorIdentifier<a class="headerlink" href="#getvalidatoridentifier" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getValidatorIdentifier">
+<tt class="descname">getValidatorIdentifier</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getValidatorIdentifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve internal identifier for a named validator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfilteridentifier">
+<h3>1.1.55. getFilterIdentifier<a class="headerlink" href="#getfilteridentifier" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFilterIdentifier">
+<tt class="descname">getFilterIdentifier</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#getFilterIdentifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve internal identifier for a named filter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>1.1.56. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>1.1.56.1. FILTER<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="validator">
+<h4>1.1.56.2. VALIDATOR<a class="headerlink" href="#validator" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1. Zend\File\Transfer\Adapter\AbstractAdapter</a><ul>
+<li><a class="reference internal" href="#methods">1.1. Methods</a><ul>
+<li><a class="reference internal" href="#send">1.1.1. send</a></li>
+<li><a class="reference internal" href="#receive">1.1.2. receive</a></li>
+<li><a class="reference internal" href="#issent">1.1.3. isSent</a></li>
+<li><a class="reference internal" href="#isreceived">1.1.4. isReceived</a></li>
+<li><a class="reference internal" href="#isuploaded">1.1.5. isUploaded</a></li>
+<li><a class="reference internal" href="#isfiltered">1.1.6. isFiltered</a></li>
+<li><a class="reference internal" href="#setfiltermanager">1.1.7. setFilterManager</a></li>
+<li><a class="reference internal" href="#getfiltermanager">1.1.8. getFilterManager</a></li>
+<li><a class="reference internal" href="#setvalidatormanager">1.1.9. setValidatorManager</a></li>
+<li><a class="reference internal" href="#getvalidatormanager">1.1.10. getValidatorManager</a></li>
+<li><a class="reference internal" href="#addvalidator">1.1.11. addValidator</a></li>
+<li><a class="reference internal" href="#addvalidators">1.1.12. addValidators</a></li>
+<li><a class="reference internal" href="#setvalidators">1.1.13. setValidators</a></li>
+<li><a class="reference internal" href="#hasvalidator">1.1.14. hasValidator</a></li>
+<li><a class="reference internal" href="#getvalidator">1.1.15. getValidator</a></li>
+<li><a class="reference internal" href="#getvalidators">1.1.16. getValidators</a></li>
+<li><a class="reference internal" href="#removevalidator">1.1.17. removeValidator</a></li>
+<li><a class="reference internal" href="#clearvalidators">1.1.18. clearValidators</a></li>
+<li><a class="reference internal" href="#setoptions">1.1.19. setOptions</a></li>
+<li><a class="reference internal" href="#getoptions">1.1.20. getOptions</a></li>
+<li><a class="reference internal" href="#isvalid">1.1.21. isValid</a></li>
+<li><a class="reference internal" href="#getmessages">1.1.22. getMessages</a></li>
+<li><a class="reference internal" href="#geterrors">1.1.23. getErrors</a></li>
+<li><a class="reference internal" href="#haserrors">1.1.24. hasErrors</a></li>
+<li><a class="reference internal" href="#addfilter">1.1.25. addFilter</a></li>
+<li><a class="reference internal" href="#addfilters">1.1.26. addFilters</a></li>
+<li><a class="reference internal" href="#setfilters">1.1.27. setFilters</a></li>
+<li><a class="reference internal" href="#hasfilter">1.1.28. hasFilter</a></li>
+<li><a class="reference internal" href="#getfilter">1.1.29. getFilter</a></li>
+<li><a class="reference internal" href="#getfilters">1.1.30. getFilters</a></li>
+<li><a class="reference internal" href="#removefilter">1.1.31. removeFilter</a></li>
+<li><a class="reference internal" href="#clearfilters">1.1.32. clearFilters</a></li>
+<li><a class="reference internal" href="#getfilename">1.1.33. getFileName</a></li>
+<li><a class="reference internal" href="#getfileinfo">1.1.34. getFileInfo</a></li>
+<li><a class="reference internal" href="#setdestination">1.1.35. setDestination</a></li>
+<li><a class="reference internal" href="#getdestination">1.1.36. getDestination</a></li>
+<li><a class="reference internal" href="#settranslator">1.1.37. setTranslator</a></li>
+<li><a class="reference internal" href="#gettranslator">1.1.38. getTranslator</a></li>
+<li><a class="reference internal" href="#hastranslator">1.1.39. hasTranslator</a></li>
+<li><a class="reference internal" href="#settranslatorenabled">1.1.40. setTranslatorEnabled</a></li>
+<li><a class="reference internal" href="#istranslatorenabled">1.1.41. isTranslatorEnabled</a></li>
+<li><a class="reference internal" href="#settranslatortextdomain">1.1.42. setTranslatorTextDomain</a></li>
+<li><a class="reference internal" href="#gettranslatortextdomain">1.1.43. getTranslatorTextDomain</a></li>
+<li><a class="reference internal" href="#gethash">1.1.44. getHash</a></li>
+<li><a class="reference internal" href="#getfilesize">1.1.45. getFileSize</a></li>
+<li><a class="reference internal" href="#detectfilesize">1.1.46. detectFileSize</a></li>
+<li><a class="reference internal" href="#getmimetype">1.1.47. getMimeType</a></li>
+<li><a class="reference internal" href="#detectmimetype">1.1.48. detectMimeType</a></li>
+<li><a class="reference internal" href="#tobytestring">1.1.49. toByteString</a></li>
+<li><a class="reference internal" href="#filter">1.1.50. filter</a></li>
+<li><a class="reference internal" href="#gettmpdir">1.1.51. getTmpDir</a></li>
+<li><a class="reference internal" href="#ispathwriteable">1.1.52. isPathWriteable</a></li>
+<li><a class="reference internal" href="#getfiles">1.1.53. getFiles</a></li>
+<li><a class="reference internal" href="#getvalidatoridentifier">1.1.54. getValidatorIdentifier</a></li>
+<li><a class="reference internal" href="#getfilteridentifier">1.1.55. getFilterIdentifier</a></li>
+<li><a class="reference internal" href="#constants">1.1.56. Constants</a><ul>
+<li><a class="reference internal" href="#id1">1.1.56.1. FILTER</a></li>
+<li><a class="reference internal" href="#validator">1.1.56.2. VALIDATOR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../../index.html"
+                        title="previous chapter">Welcome to ZF2 by Docpx&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="AbstractZendServer.html"
+                        title="next chapter">2. Zend\Cache\Storage\Adapter\AbstractZendServer</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/AbstractAdapter.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="AbstractZendServer.html" title="2. Zend\Cache\Storage\Adapter\AbstractZendServer"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../../index.html" title="Welcome to ZF2 by Docpx’s documentation!"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

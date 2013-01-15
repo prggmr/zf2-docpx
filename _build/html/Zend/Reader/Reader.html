@@ -1,0 +1,637 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>715. Zend\Feed\Reader\Reader &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="716. Zend\Config\Reader\fromFile" href="ReaderInterface.html" />
+    <link rel="prev" title="714. Zend\Config\Reader\Json" href="Json.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ReaderInterface.html" title="716. Zend\Config\Reader\fromFile"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Json.html" title="714. Zend\Config\Reader\Json"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-reader-reader">
+<h1>715. Zend\Feed\Reader\Reader<a class="headerlink" href="#zend-feed-reader-reader" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category Zend</p>
+<div class="section" id="methods">
+<h2>715.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getcache">
+<h3>715.1.1. getCache<a class="headerlink" href="#getcache" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCache">
+<tt class="descname">getCache</tt><big>(</big><big>)</big><a class="headerlink" href="#getCache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the Feed cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">CacheStorage</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcache">
+<h3>715.1.2. setCache<a class="headerlink" href="#setcache" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCache">
+<tt class="descname">setCache</tt><big>(</big><em>$cache</em><big>)</big><a class="headerlink" href="#setCache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the feed cache</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cache</strong> (<em>CacheStorage</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="sethttpclient">
+<h3>715.1.3. setHttpClient<a class="headerlink" href="#sethttpclient" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHttpClient">
+<tt class="descname">setHttpClient</tt><big>(</big><em>$httpClient</em><big>)</big><a class="headerlink" href="#setHttpClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the HTTP client instance</p>
+<p>Sets the HTTP client object to use for retrieving the feeds.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$httpClient</strong> (<em>ZendHttpClient</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gethttpclient">
+<h3>715.1.4. getHttpClient<a class="headerlink" href="#gethttpclient" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHttpClient">
+<tt class="descname">getHttpClient</tt><big>(</big><big>)</big><a class="headerlink" href="#getHttpClient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the HTTP client object. If none is set, a new ZendHttpClient will be used.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ZendHttpClient</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="sethttpmethodoverride">
+<h3>715.1.5. setHttpMethodOverride<a class="headerlink" href="#sethttpmethodoverride" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHttpMethodOverride">
+<tt class="descname">setHttpMethodOverride</tt><big>(</big><span class="optional">[</span><em>$override = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setHttpMethodOverride" title="Permalink to this definition">¶</a></dt>
+<dd><p>Toggle using POST instead of PUT and DELETE HTTP methods</p>
+<p>Some feed implementations do not accept PUT and DELETE HTTP
+methods, or they can&#8217;t be used because of proxies or other
+measures. This allows turning on using POST where PUT and
+DELETE would normally be used; in addition, an
+X-Method-Override header will be sent with a value of PUT or
+DELETE as appropriate.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$override</strong> (<em>bool</em>) &#8211; Whether to override PUT and DELETE.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gethttpmethodoverride">
+<h3>715.1.6. getHttpMethodOverride<a class="headerlink" href="#gethttpmethodoverride" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHttpMethodOverride">
+<tt class="descname">getHttpMethodOverride</tt><big>(</big><big>)</big><a class="headerlink" href="#getHttpMethodOverride" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the HTTP override state</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="usehttpconditionalget">
+<h3>715.1.7. useHttpConditionalGet<a class="headerlink" href="#usehttpconditionalget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="useHttpConditionalGet">
+<tt class="descname">useHttpConditionalGet</tt><big>(</big><span class="optional">[</span><em>$bool = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#useHttpConditionalGet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the flag indicating whether or not to use HTTP conditional GET</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$bool</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="import">
+<h3>715.1.8. import<a class="headerlink" href="#import" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">import</tt><big>(</big><em>$uri</em><span class="optional">[</span>, <em>$etag = false</em><span class="optional">[</span>, <em>$lastModified = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Import a feed by providing a URI</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$uri</strong> (<em>string</em>) &#8211; The URI to the feed</li>
+<li><strong>$etag</strong> (<em>string</em>) &#8211; OPTIONAL Last received ETag for this resource</li>
+<li><strong>$lastModified</strong> (<em>string</em>) &#8211; OPTIONAL Last-Modified value for this resource</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">FeedFeedInterface</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="importstring">
+<h3>715.1.9. importString<a class="headerlink" href="#importstring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="importString">
+<tt class="descname">importString</tt><big>(</big><em>$string</em><big>)</big><a class="headerlink" href="#importString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Import a feed from a string</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$string</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FeedFeedInterface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="importfile">
+<h3>715.1.10. importFile<a class="headerlink" href="#importfile" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="importFile">
+<tt class="descname">importFile</tt><big>(</big><em>$filename</em><big>)</big><a class="headerlink" href="#importFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Imports a feed from a file located at $filename.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$filename</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionRuntimeException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">FeedFeedInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="findfeedlinks">
+<h3>715.1.11. findFeedLinks<a class="headerlink" href="#findfeedlinks" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="findFeedLinks">
+<tt class="descname">findFeedLinks</tt><big>(</big><em>$uri</em><big>)</big><a class="headerlink" href="#findFeedLinks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find feed links</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$uri</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FeedSet</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detecttype">
+<h3>715.1.12. detectType<a class="headerlink" href="#detecttype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="detectType">
+<tt class="descname">detectType</tt><big>(</big><em>$feed</em><span class="optional">[</span>, <em>$specOnly = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#detectType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Detect the feed type of the provided feed</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$feed</strong> (<em>FeedAbstractFeed|DOMDocument|string</em>) &#8211; </li>
+<li><strong>$specOnly</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first">ExceptionInvalidArgumentException</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setextensionmanager">
+<h3>715.1.13. setExtensionManager<a class="headerlink" href="#setextensionmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setExtensionManager">
+<tt class="descname">setExtensionManager</tt><big>(</big><em>$extensionManager</em><big>)</big><a class="headerlink" href="#setExtensionManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set plugin manager for use with Extensions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$extensionManager</strong> (<em>ExtensionManager</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getextensionmanager">
+<h3>715.1.14. getExtensionManager<a class="headerlink" href="#getextensionmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExtensionManager">
+<tt class="descname">getExtensionManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getExtensionManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get plugin manager for use with Extensions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ExtensionManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registerextension">
+<h3>715.1.15. registerExtension<a class="headerlink" href="#registerextension" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerExtension">
+<tt class="descname">registerExtension</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#registerExtension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register an Extension by name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException if unable to resolve Extension class</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isregistered">
+<h3>715.1.16. isRegistered<a class="headerlink" href="#isregistered" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isRegistered">
+<tt class="descname">isRegistered</tt><big>(</big><em>$extensionName</em><big>)</big><a class="headerlink" href="#isRegistered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is a given named Extension registered?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$extensionName</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getextensions">
+<h3>715.1.17. getExtensions<a class="headerlink" href="#getextensions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getExtensions">
+<tt class="descname">getExtensions</tt><big>(</big><big>)</big><a class="headerlink" href="#getExtensions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of extensions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="reset">
+<h3>715.1.18. reset<a class="headerlink" href="#reset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">reset</tt><big>(</big><big>)</big></dt>
+<dd><p>Reset class state to defaults</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="registercoreextensions">
+<h3>715.1.19. registerCoreExtensions<a class="headerlink" href="#registercoreextensions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="registerCoreExtensions">
+<tt class="descname">registerCoreExtensions</tt><big>(</big><big>)</big><a class="headerlink" href="#registerCoreExtensions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register core (default) extensions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="arrayunique">
+<h3>715.1.20. arrayUnique<a class="headerlink" href="#arrayunique" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="arrayUnique">
+<tt class="descname">arrayUnique</tt><big>(</big><em>$array</em><big>)</big><a class="headerlink" href="#arrayUnique" title="Permalink to this definition">¶</a></dt>
+<dd><p>Utility method to apply array_unique operation to a multidimensional
+array.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>array</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>715.1.21. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="namespace-atom-03">
+<h4>715.1.21.1. NAMESPACE_ATOM_03<a class="headerlink" href="#namespace-atom-03" title="Permalink to this headline">¶</a></h4>
+<p>Namespace constants</p>
+</div>
+<div class="section" id="namespace-atom-10">
+<h4>715.1.21.2. NAMESPACE_ATOM_10<a class="headerlink" href="#namespace-atom-10" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="namespace-rdf">
+<h4>715.1.21.3. NAMESPACE_RDF<a class="headerlink" href="#namespace-rdf" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="namespace-rss-090">
+<h4>715.1.21.4. NAMESPACE_RSS_090<a class="headerlink" href="#namespace-rss-090" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="namespace-rss-10">
+<h4>715.1.21.5. NAMESPACE_RSS_10<a class="headerlink" href="#namespace-rss-10" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-any">
+<h4>715.1.21.6. TYPE_ANY<a class="headerlink" href="#type-any" title="Permalink to this headline">¶</a></h4>
+<p>Feed type constants</p>
+</div>
+<div class="section" id="type-atom-03">
+<h4>715.1.21.7. TYPE_ATOM_03<a class="headerlink" href="#type-atom-03" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-atom-10">
+<h4>715.1.21.8. TYPE_ATOM_10<a class="headerlink" href="#type-atom-10" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-atom-10-entry">
+<h4>715.1.21.9. TYPE_ATOM_10_ENTRY<a class="headerlink" href="#type-atom-10-entry" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-atom-any">
+<h4>715.1.21.10. TYPE_ATOM_ANY<a class="headerlink" href="#type-atom-any" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-090">
+<h4>715.1.21.11. TYPE_RSS_090<a class="headerlink" href="#type-rss-090" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-091">
+<h4>715.1.21.12. TYPE_RSS_091<a class="headerlink" href="#type-rss-091" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-091-netscape">
+<h4>715.1.21.13. TYPE_RSS_091_NETSCAPE<a class="headerlink" href="#type-rss-091-netscape" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-091-userland">
+<h4>715.1.21.14. TYPE_RSS_091_USERLAND<a class="headerlink" href="#type-rss-091-userland" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-092">
+<h4>715.1.21.15. TYPE_RSS_092<a class="headerlink" href="#type-rss-092" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-093">
+<h4>715.1.21.16. TYPE_RSS_093<a class="headerlink" href="#type-rss-093" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-094">
+<h4>715.1.21.17. TYPE_RSS_094<a class="headerlink" href="#type-rss-094" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-10">
+<h4>715.1.21.18. TYPE_RSS_10<a class="headerlink" href="#type-rss-10" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-20">
+<h4>715.1.21.19. TYPE_RSS_20<a class="headerlink" href="#type-rss-20" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="type-rss-any">
+<h4>715.1.21.20. TYPE_RSS_ANY<a class="headerlink" href="#type-rss-any" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">715. Zend\Feed\Reader\Reader</a><ul>
+<li><a class="reference internal" href="#methods">715.1. Methods</a><ul>
+<li><a class="reference internal" href="#getcache">715.1.1. getCache</a></li>
+<li><a class="reference internal" href="#setcache">715.1.2. setCache</a></li>
+<li><a class="reference internal" href="#sethttpclient">715.1.3. setHttpClient</a></li>
+<li><a class="reference internal" href="#gethttpclient">715.1.4. getHttpClient</a></li>
+<li><a class="reference internal" href="#sethttpmethodoverride">715.1.5. setHttpMethodOverride</a></li>
+<li><a class="reference internal" href="#gethttpmethodoverride">715.1.6. getHttpMethodOverride</a></li>
+<li><a class="reference internal" href="#usehttpconditionalget">715.1.7. useHttpConditionalGet</a></li>
+<li><a class="reference internal" href="#import">715.1.8. import</a></li>
+<li><a class="reference internal" href="#importstring">715.1.9. importString</a></li>
+<li><a class="reference internal" href="#importfile">715.1.10. importFile</a></li>
+<li><a class="reference internal" href="#findfeedlinks">715.1.11. findFeedLinks</a></li>
+<li><a class="reference internal" href="#detecttype">715.1.12. detectType</a></li>
+<li><a class="reference internal" href="#setextensionmanager">715.1.13. setExtensionManager</a></li>
+<li><a class="reference internal" href="#getextensionmanager">715.1.14. getExtensionManager</a></li>
+<li><a class="reference internal" href="#registerextension">715.1.15. registerExtension</a></li>
+<li><a class="reference internal" href="#isregistered">715.1.16. isRegistered</a></li>
+<li><a class="reference internal" href="#getextensions">715.1.17. getExtensions</a></li>
+<li><a class="reference internal" href="#reset">715.1.18. reset</a></li>
+<li><a class="reference internal" href="#registercoreextensions">715.1.19. registerCoreExtensions</a></li>
+<li><a class="reference internal" href="#arrayunique">715.1.20. arrayUnique</a></li>
+<li><a class="reference internal" href="#constants">715.1.21. Constants</a><ul>
+<li><a class="reference internal" href="#namespace-atom-03">715.1.21.1. NAMESPACE_ATOM_03</a></li>
+<li><a class="reference internal" href="#namespace-atom-10">715.1.21.2. NAMESPACE_ATOM_10</a></li>
+<li><a class="reference internal" href="#namespace-rdf">715.1.21.3. NAMESPACE_RDF</a></li>
+<li><a class="reference internal" href="#namespace-rss-090">715.1.21.4. NAMESPACE_RSS_090</a></li>
+<li><a class="reference internal" href="#namespace-rss-10">715.1.21.5. NAMESPACE_RSS_10</a></li>
+<li><a class="reference internal" href="#type-any">715.1.21.6. TYPE_ANY</a></li>
+<li><a class="reference internal" href="#type-atom-03">715.1.21.7. TYPE_ATOM_03</a></li>
+<li><a class="reference internal" href="#type-atom-10">715.1.21.8. TYPE_ATOM_10</a></li>
+<li><a class="reference internal" href="#type-atom-10-entry">715.1.21.9. TYPE_ATOM_10_ENTRY</a></li>
+<li><a class="reference internal" href="#type-atom-any">715.1.21.10. TYPE_ATOM_ANY</a></li>
+<li><a class="reference internal" href="#type-rss-090">715.1.21.11. TYPE_RSS_090</a></li>
+<li><a class="reference internal" href="#type-rss-091">715.1.21.12. TYPE_RSS_091</a></li>
+<li><a class="reference internal" href="#type-rss-091-netscape">715.1.21.13. TYPE_RSS_091_NETSCAPE</a></li>
+<li><a class="reference internal" href="#type-rss-091-userland">715.1.21.14. TYPE_RSS_091_USERLAND</a></li>
+<li><a class="reference internal" href="#type-rss-092">715.1.21.15. TYPE_RSS_092</a></li>
+<li><a class="reference internal" href="#type-rss-093">715.1.21.16. TYPE_RSS_093</a></li>
+<li><a class="reference internal" href="#type-rss-094">715.1.21.17. TYPE_RSS_094</a></li>
+<li><a class="reference internal" href="#type-rss-10">715.1.21.18. TYPE_RSS_10</a></li>
+<li><a class="reference internal" href="#type-rss-20">715.1.21.19. TYPE_RSS_20</a></li>
+<li><a class="reference internal" href="#type-rss-any">715.1.21.20. TYPE_RSS_ANY</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Json.html"
+                        title="previous chapter">714. Zend\Config\Reader\Json</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ReaderInterface.html"
+                        title="next chapter">716. Zend\Config\Reader\fromFile</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Reader/Reader.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ReaderInterface.html" title="716. Zend\Config\Reader\fromFile"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Json.html" title="714. Zend\Config\Reader\Json"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

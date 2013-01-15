@@ -1,0 +1,520 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>677. Zend\Db\Sql\Predicate\Predicate &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="&lt;no title&gt;" href="PredicateInterface.html" />
+    <link rel="prev" title="676. Zend\Db\Sql\Predicate\Operator" href="Operator.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="PredicateInterface.html" title="&lt;no title&gt;"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Operator.html" title="676. Zend\Db\Sql\Predicate\Operator"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-sql-predicate-predicate">
+<h1>677. Zend\Db\Sql\Predicate\Predicate<a class="headerlink" href="#zend-db-sql-predicate-predicate" title="Permalink to this headline">¶</a></h1>
+<p>&#64;property Predicate $and</p>
+<div class="section" id="methods">
+<h2>677.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="nest">
+<h3>677.1.1. nest<a class="headerlink" href="#nest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">nest</tt><big>(</big><big>)</big></dt>
+<dd><p>Begin nesting predicates</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Predicate</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setunnest">
+<h3>677.1.2. setUnnest<a class="headerlink" href="#setunnest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setUnnest">
+<tt class="descname">setUnnest</tt><big>(</big><em>$predicate</em><big>)</big><a class="headerlink" href="#setUnnest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Indicate what predicate will be unnested</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$predicate</strong> (<em>Predicate</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="unnest">
+<h3>677.1.3. unnest<a class="headerlink" href="#unnest" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">unnest</tt><big>(</big><big>)</big></dt>
+<dd><p>Indicate end of nested predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Predicate</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">RuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="equalto">
+<h3>677.1.4. equalTo<a class="headerlink" href="#equalto" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="equalTo">
+<tt class="descname">equalTo</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#equalTo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Equal To&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="notequalto">
+<h3>677.1.5. notEqualTo<a class="headerlink" href="#notequalto" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="notEqualTo">
+<tt class="descname">notEqualTo</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#notEqualTo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Not Equal To&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="lessthan">
+<h3>677.1.6. lessThan<a class="headerlink" href="#lessthan" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="lessThan">
+<tt class="descname">lessThan</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#lessThan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Less Than&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="greaterthan">
+<h3>677.1.7. greaterThan<a class="headerlink" href="#greaterthan" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="greaterThan">
+<tt class="descname">greaterThan</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#greaterThan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Greater Than&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="lessthanorequalto">
+<h3>677.1.8. lessThanOrEqualTo<a class="headerlink" href="#lessthanorequalto" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="lessThanOrEqualTo">
+<tt class="descname">lessThanOrEqualTo</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#lessThanOrEqualTo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Less Than Or Equal To&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="greaterthanorequalto">
+<h3>677.1.9. greaterThanOrEqualTo<a class="headerlink" href="#greaterthanorequalto" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="greaterThanOrEqualTo">
+<tt class="descname">greaterThanOrEqualTo</tt><big>(</big><em>$left</em>, <em>$right</em><span class="optional">[</span>, <em>$leftType = &quot;identifier&quot;</em><span class="optional">[</span>, <em>$rightType = &quot;value&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#greaterThanOrEqualTo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;Greater Than Or Equal To&#8221; predicate</p>
+<p>Utilizes Operator predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$left</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$right</strong> (<em>int|float|bool|string</em>) &#8211; </li>
+<li><strong>$leftType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+<li><strong>$rightType</strong> (<em>string</em>) &#8211; TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE <a class="reference external" href="mailto:{&#37;&#52;&#48;see">{<span>&#64;</span>see</a> allowedTypes}</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="like">
+<h3>677.1.10. like<a class="headerlink" href="#like" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">like</tt><big>(</big><em>$identifier</em>, <em>$like</em><big>)</big></dt>
+<dd><p>Create &#8220;Like&#8221; predicate</p>
+<p>Utilizes Like predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$identifier</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$like</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="literal">
+<h3>677.1.11. literal<a class="headerlink" href="#literal" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">literal</tt><big>(</big><em>$literal</em>, <em>$parameter</em><big>)</big></dt>
+<dd><p>Create &#8220;Literal&#8221; predicate</p>
+<p>Utilizes Like predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$literal</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$parameter</strong> (<em>int|float|bool|string|array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isnull">
+<h3>677.1.12. isNull<a class="headerlink" href="#isnull" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isNull">
+<tt class="descname">isNull</tt><big>(</big><em>$identifier</em><big>)</big><a class="headerlink" href="#isNull" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;IS NULL&#8221; predicate</p>
+<p>Utilizes IsNull predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$identifier</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Predicate</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isnotnull">
+<h3>677.1.13. isNotNull<a class="headerlink" href="#isnotnull" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isNotNull">
+<tt class="descname">isNotNull</tt><big>(</big><em>$identifier</em><big>)</big><a class="headerlink" href="#isNotNull" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create &#8220;IS NOT NULL&#8221; predicate</p>
+<p>Utilizes IsNotNull predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$identifier</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Predicate</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="in">
+<h3>677.1.14. in<a class="headerlink" href="#in" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">in</tt><big>(</big><em>$identifier</em><span class="optional">[</span>, <em>$valueSet = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Create &#8220;in&#8221; predicate</p>
+<p>Utilizes In predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$identifier</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$valueSet</strong> (<em>array|Select</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="between">
+<h3>677.1.15. between<a class="headerlink" href="#between" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">between</tt><big>(</big><em>$identifier</em>, <em>$minValue</em>, <em>$maxValue</em><big>)</big></dt>
+<dd><p>Create &#8220;between&#8221; predicate</p>
+<p>Utilizes Between predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$identifier</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$minValue</strong> (<em>int|float|string</em>) &#8211; </li>
+<li><strong>$maxValue</strong> (<em>int|float|string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Predicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="get">
+<h3>677.1.16. __get<a class="headerlink" href="#get" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__get">
+<tt class="descname">__get</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#__get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overloading</p>
+<p>Overloads &#8220;or&#8221;, &#8220;and&#8221;, &#8220;nest&#8221;, and &#8220;unnest&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Predicate</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">677. Zend\Db\Sql\Predicate\Predicate</a><ul>
+<li><a class="reference internal" href="#methods">677.1. Methods</a><ul>
+<li><a class="reference internal" href="#nest">677.1.1. nest</a></li>
+<li><a class="reference internal" href="#setunnest">677.1.2. setUnnest</a></li>
+<li><a class="reference internal" href="#unnest">677.1.3. unnest</a></li>
+<li><a class="reference internal" href="#equalto">677.1.4. equalTo</a></li>
+<li><a class="reference internal" href="#notequalto">677.1.5. notEqualTo</a></li>
+<li><a class="reference internal" href="#lessthan">677.1.6. lessThan</a></li>
+<li><a class="reference internal" href="#greaterthan">677.1.7. greaterThan</a></li>
+<li><a class="reference internal" href="#lessthanorequalto">677.1.8. lessThanOrEqualTo</a></li>
+<li><a class="reference internal" href="#greaterthanorequalto">677.1.9. greaterThanOrEqualTo</a></li>
+<li><a class="reference internal" href="#like">677.1.10. like</a></li>
+<li><a class="reference internal" href="#literal">677.1.11. literal</a></li>
+<li><a class="reference internal" href="#isnull">677.1.12. isNull</a></li>
+<li><a class="reference internal" href="#isnotnull">677.1.13. isNotNull</a></li>
+<li><a class="reference internal" href="#in">677.1.14. in</a></li>
+<li><a class="reference internal" href="#between">677.1.15. between</a></li>
+<li><a class="reference internal" href="#get">677.1.16. __get</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Operator.html"
+                        title="previous chapter">676. Zend\Db\Sql\Predicate\Operator</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="PredicateInterface.html"
+                        title="next chapter">&lt;no title&gt;</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Predicate/Predicate.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="PredicateInterface.html" title="&lt;no title&gt;"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Operator.html" title="676. Zend\Db\Sql\Predicate\Operator"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,757 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>110. Zend\Http\Client\Cookies &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="111. Zend\Code\NameInformation" href="../Code/NameInformation.html" />
+    <link rel="prev" title="109. Zend\Console\Charset\Utf8Heavy" href="../Charset/Utf8Heavy.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Code/NameInformation.html" title="111. Zend\Code\NameInformation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Charset/Utf8Heavy.html" title="109. Zend\Console\Charset\Utf8Heavy"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-http-client-cookies">
+<h1>110. Zend\Http\Client\Cookies<a class="headerlink" href="#zend-http-client-cookies" title="Permalink to this headline">¶</a></h1>
+<p>A Cookies object is designed to contain and maintain HTTP cookies, and should
+be used along with Zend_Http_Client in order to manage cookies across HTTP requests and
+responses.</p>
+<p>The class contains an array of ZendHttpHeaderCookie objects. Cookies can be added
+automatically from a request or manually. Then, the Cookies class can find and return the
+cookies needed for a specific HTTP request.</p>
+<p>A special parameter can be passed to all methods of this class that return cookies: Cookies
+can be returned either in their native form (as ZendHttpHeaderCookie objects) or as strings -
+the later is suitable for sending as the value of the &#8220;Cookie&#8221; header in an HTTP request.
+You can also choose, when returning more than one cookie, whether to get an array of strings
+(by passing ZendHttpClientCookies::COOKIE_STRING_ARRAY) or one unified string for all cookies
+(by passing ZendHttpClientCookies::COOKIE_STRING_CONCAT).</p>
+<div class="section" id="methods">
+<h2>110.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>110.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Construct</p>
+</dd></dl>
+
+</div>
+<div class="section" id="addcookie">
+<h3>110.1.2. addCookie<a class="headerlink" href="#addcookie" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addCookie">
+<tt class="descname">addCookie</tt><big>(</big><em>$cookie</em><span class="optional">[</span>, <em>$refUri = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#addCookie" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a cookie to the class. Cookie should be passed either as a ZendHttpHeaderCookie object
+or as a string - in which case an object is created from the string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$cookie</strong> (<em>Cookie|string</em>) &#8211; </li>
+<li><strong>$refUri</strong> (<em>UriUri|string</em>) &#8211; Optional reference URI (for domain, path, secure)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><p class="first last">if invalid $cookie value</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="addcookiesfromresponse">
+<h3>110.1.3. addCookiesFromResponse<a class="headerlink" href="#addcookiesfromresponse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="addCookiesFromResponse">
+<tt class="descname">addCookiesFromResponse</tt><big>(</big><em>$response</em>, <em>$refUri</em><big>)</big><a class="headerlink" href="#addCookiesFromResponse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse an HTTP response, adding all the cookies set in that response</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$response</strong> (<em>Response</em>) &#8211; </li>
+<li><strong>$refUri</strong> (<em>UriUri|string</em>) &#8211; Requested URI</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getallcookies">
+<h3>110.1.4. getAllCookies<a class="headerlink" href="#getallcookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAllCookies">
+<tt class="descname">getAllCookies</tt><big>(</big><span class="optional">[</span><em>$retAs = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getAllCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get all cookies in the cookie jar as an array</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$retAs</strong> (<em>int</em>) &#8211; Whether to return cookies as objects of ZendHttpHeaderCookie or as strings</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array|string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmatchingcookies">
+<h3>110.1.5. getMatchingCookies<a class="headerlink" href="#getmatchingcookies" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMatchingCookies">
+<tt class="descname">getMatchingCookies</tt><big>(</big><em>$uri</em><span class="optional">[</span>, <em>$matchSessionCookies = true</em><span class="optional">[</span>, <em>$retAs = false</em><span class="optional">[</span>, <em>$now = false</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#getMatchingCookies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return an array of all cookies matching a specific request according to the request URI,
+whether session cookies should be sent or not, and the time to consider as &#8220;now&#8221; when
+checking cookie expiry time.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$uri</strong> (<em>string|UriUri</em>) &#8211; URI to check against (secure, domain, path)</li>
+<li><strong>$matchSessionCookies</strong> (<em>bool</em>) &#8211; Whether to send session cookies</li>
+<li><strong>$retAs</strong> (<em>int</em>) &#8211; Whether to return cookies as objects of ZendHttpHeaderCookie or as strings</li>
+<li><strong>$now</strong> (<em>int</em>) &#8211; Override the current time when checking for expiry time</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><p class="first">if invalid URI</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array|string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcookie">
+<h3>110.1.6. getCookie<a class="headerlink" href="#getcookie" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCookie">
+<tt class="descname">getCookie</tt><big>(</big><em>$uri</em>, <em>$cookieName</em><span class="optional">[</span>, <em>$retAs = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getCookie" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a specific cookie according to a URI and name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$uri</strong> (<em>UriUri|string</em>) &#8211; The uri (domain and path) to match</li>
+<li><strong>$cookieName</strong> (<em>string</em>) &#8211; The cookie&#8217;s name</li>
+<li><strong>$retAs</strong> (<em>int</em>) &#8211; Whether to return cookies as objects of ZendHttpHeaderCookie or as strings</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><p class="first">if invalid URI specified or invalid $retAs value</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Cookie|string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="flattencookiesarray">
+<h3>110.1.7. _flattenCookiesArray<a class="headerlink" href="#flattencookiesarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_flattenCookiesArray">
+<tt class="descname">_flattenCookiesArray</tt><big>(</big><em>$ptr</em><span class="optional">[</span>, <em>$retAs = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#_flattenCookiesArray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function to recursively flatten an array. Should be used when exporting the
+cookies array (or parts of it)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$ptr</strong> (<em>ZendHttpHeaderCookie|array</em>) &#8211; </li>
+<li><strong>$retAs</strong> (<em>int</em>) &#8211; What value to return</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array|string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="matchdomain">
+<h3>110.1.8. _matchDomain<a class="headerlink" href="#matchdomain" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_matchDomain">
+<tt class="descname">_matchDomain</tt><big>(</big><em>$domain</em><big>)</big><a class="headerlink" href="#_matchDomain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subset of the cookies array matching a specific domain</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$domain</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="matchpath">
+<h3>110.1.9. _matchPath<a class="headerlink" href="#matchpath" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_matchPath">
+<tt class="descname">_matchPath</tt><big>(</big><em>$domains</em>, <em>$path</em><big>)</big><a class="headerlink" href="#_matchPath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subset of a domain-matching cookies that also match a specified path</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$domains</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$path</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="fromresponse">
+<h3>110.1.10. fromResponse<a class="headerlink" href="#fromresponse" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromResponse">
+<tt class="descname">fromResponse</tt><big>(</big><em>$response</em>, <em>$refUri</em><big>)</big><a class="headerlink" href="#fromResponse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a new Cookies object and automatically load into it all the
+cookies set in an Http_Response object. If $uri is set, it will be
+considered as the requested URI for setting default domain and path
+of the cookie.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$response</strong> (<em>Response</em>) &#8211; HTTP Response object</li>
+<li><strong>$uri</strong> (<em>UriUri|string</em>) &#8211; The requested URI</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Cookies</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">todo:</th><td class="field-body">A A</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="count">
+<h3>110.1.11. count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">count</tt><big>(</big><big>)</big></dt>
+<dd><p>Required by Countable interface</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getiterator">
+<h3>110.1.12. getIterator<a class="headerlink" href="#getiterator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getIterator">
+<tt class="descname">getIterator</tt><big>(</big><big>)</big><a class="headerlink" href="#getIterator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Required by IteratorAggregate interface</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ArrayIterator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isempty">
+<h3>110.1.13. isEmpty<a class="headerlink" href="#isempty" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isEmpty">
+<tt class="descname">isEmpty</tt><big>(</big><big>)</big><a class="headerlink" href="#isEmpty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tells if the array of cookies is empty</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="reset">
+<h3>110.1.14. reset<a class="headerlink" href="#reset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">reset</tt><big>(</big><big>)</big></dt>
+<dd><p>Empties the cookieJar of any cookie</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Cookies</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="offsetexists">
+<h3>110.1.15. offsetExists<a class="headerlink" href="#offsetexists" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetExists">
+<tt class="descname">offsetExists</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetExists" title="Permalink to this definition">¶</a></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+Whether a offset exists</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>An offset to check for.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">bool Returns true on success or false on failure.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>&lt;/p&gt;
+&lt;p&gt;
+The return value will be casted to boolean if non-boolean was returned.</p>
+</div>
+<div class="section" id="offsetget">
+<h3>110.1.16. offsetGet<a class="headerlink" href="#offsetget" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetGet">
+<tt class="descname">offsetGet</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetGet" title="Permalink to this definition">¶</a></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+Offset to retrieve</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The offset to retrieve.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">mixed Can return all value types.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetset">
+<h3>110.1.17. offsetSet<a class="headerlink" href="#offsetset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetSet">
+<tt class="descname">offsetSet</tt><big>(</big><em>$offset</em>, <em>$value</em><big>)</big><a class="headerlink" href="#offsetSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+Offset to set</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The offset to assign the value to.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $value:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The value to set.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="offsetunset">
+<h3>110.1.18. offsetUnset<a class="headerlink" href="#offsetunset" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="offsetUnset">
+<tt class="descname">offsetUnset</tt><big>(</big><em>$offset</em><big>)</big><a class="headerlink" href="#offsetUnset" title="Permalink to this definition">¶</a></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+Offset to unset</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param mixed $offset:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The offset to unset.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="serialize">
+<h3>110.1.19. serialize<a class="headerlink" href="#serialize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">serialize</tt><big>(</big><big>)</big></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+String representation of object</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">string the string representation of the object or &amp;null;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="unserialize">
+<h3>110.1.20. unserialize<a class="headerlink" href="#unserialize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">unserialize</tt><big>(</big><em>$serialized</em><big>)</big></dt>
+<dd><p>(PHP 5 &amp;gt;= 5.1.0)&lt;br/&gt;
+Constructs the object</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $serialized:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">&lt;p&gt;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>The string representation of the object.
+&lt;/p&gt;</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">mixed the original value unserialized.</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="fromarray">
+<h3>110.1.21. fromArray<a class="headerlink" href="#fromarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromArray">
+<tt class="descname">fromArray</tt><big>(</big><em>$values</em><big>)</big><a class="headerlink" href="#fromArray" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="fromstring">
+<h3>110.1.22. fromString<a class="headerlink" href="#fromstring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="fromString">
+<tt class="descname">fromString</tt><big>(</big><em>$string</em><big>)</big><a class="headerlink" href="#fromString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="toarray">
+<h3>110.1.23. toArray<a class="headerlink" href="#toarray" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toArray">
+<tt class="descname">toArray</tt><big>(</big><big>)</big><a class="headerlink" href="#toArray" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="tostring">
+<h3>110.1.24. toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toString">
+<tt class="descname">toString</tt><big>(</big><big>)</big><a class="headerlink" href="#toString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="get">
+<h3>110.1.25. get<a class="headerlink" href="#get" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">get</tt><big>(</big><em>$name</em><span class="optional">[</span>, <em>$default = false</em><span class="optional">]</span><big>)</big></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="set">
+<h3>110.1.26. set<a class="headerlink" href="#set" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">set</tt><big>(</big><em>$name</em>, <em>$value</em><big>)</big></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>110.1.27. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="cookie-object">
+<h4>110.1.27.1. COOKIE_OBJECT<a class="headerlink" href="#cookie-object" title="Permalink to this headline">¶</a></h4>
+<p>Return cookie(s) as a ZendHttpHeaderCookie object</p>
+</div>
+<div class="section" id="cookie-string-array">
+<h4>110.1.27.2. COOKIE_STRING_ARRAY<a class="headerlink" href="#cookie-string-array" title="Permalink to this headline">¶</a></h4>
+<p>Return cookie(s) as a string (suitable for sending in an HTTP request)</p>
+</div>
+<div class="section" id="cookie-string-concat">
+<h4>110.1.27.3. COOKIE_STRING_CONCAT<a class="headerlink" href="#cookie-string-concat" title="Permalink to this headline">¶</a></h4>
+<p>Return all cookies as one long string (suitable for sending in an HTTP request)</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">110. Zend\Http\Client\Cookies</a><ul>
+<li><a class="reference internal" href="#methods">110.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">110.1.1. __construct</a></li>
+<li><a class="reference internal" href="#addcookie">110.1.2. addCookie</a></li>
+<li><a class="reference internal" href="#addcookiesfromresponse">110.1.3. addCookiesFromResponse</a></li>
+<li><a class="reference internal" href="#getallcookies">110.1.4. getAllCookies</a></li>
+<li><a class="reference internal" href="#getmatchingcookies">110.1.5. getMatchingCookies</a></li>
+<li><a class="reference internal" href="#getcookie">110.1.6. getCookie</a></li>
+<li><a class="reference internal" href="#flattencookiesarray">110.1.7. _flattenCookiesArray</a></li>
+<li><a class="reference internal" href="#matchdomain">110.1.8. _matchDomain</a></li>
+<li><a class="reference internal" href="#matchpath">110.1.9. _matchPath</a></li>
+<li><a class="reference internal" href="#fromresponse">110.1.10. fromResponse</a></li>
+<li><a class="reference internal" href="#count">110.1.11. count</a></li>
+<li><a class="reference internal" href="#getiterator">110.1.12. getIterator</a></li>
+<li><a class="reference internal" href="#isempty">110.1.13. isEmpty</a></li>
+<li><a class="reference internal" href="#reset">110.1.14. reset</a></li>
+<li><a class="reference internal" href="#offsetexists">110.1.15. offsetExists</a></li>
+<li><a class="reference internal" href="#offsetget">110.1.16. offsetGet</a></li>
+<li><a class="reference internal" href="#offsetset">110.1.17. offsetSet</a></li>
+<li><a class="reference internal" href="#offsetunset">110.1.18. offsetUnset</a></li>
+<li><a class="reference internal" href="#serialize">110.1.19. serialize</a></li>
+<li><a class="reference internal" href="#unserialize">110.1.20. unserialize</a></li>
+<li><a class="reference internal" href="#fromarray">110.1.21. fromArray</a></li>
+<li><a class="reference internal" href="#fromstring">110.1.22. fromString</a></li>
+<li><a class="reference internal" href="#toarray">110.1.23. toArray</a></li>
+<li><a class="reference internal" href="#tostring">110.1.24. toString</a></li>
+<li><a class="reference internal" href="#get">110.1.25. get</a></li>
+<li><a class="reference internal" href="#set">110.1.26. set</a></li>
+<li><a class="reference internal" href="#constants">110.1.27. Constants</a><ul>
+<li><a class="reference internal" href="#cookie-object">110.1.27.1. COOKIE_OBJECT</a></li>
+<li><a class="reference internal" href="#cookie-string-array">110.1.27.2. COOKIE_STRING_ARRAY</a></li>
+<li><a class="reference internal" href="#cookie-string-concat">110.1.27.3. COOKIE_STRING_CONCAT</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Charset/Utf8Heavy.html"
+                        title="previous chapter">109. Zend\Console\Charset\Utf8Heavy</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Code/NameInformation.html"
+                        title="next chapter">111. Zend\Code\NameInformation</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Client/Cookies.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Code/NameInformation.html" title="111. Zend\Code\NameInformation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Charset/Utf8Heavy.html" title="109. Zend\Console\Charset\Utf8Heavy"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

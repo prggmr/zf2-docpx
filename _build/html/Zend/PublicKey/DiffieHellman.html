@@ -1,0 +1,534 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>705. Zend\Crypt\PublicKey\DiffieHellman &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="706. Zend\Crypt\PublicKey\Rsa" href="Rsa.html" />
+    <link rel="prev" title="704. Zend\Feed\PubSubHubbub\Subscriber" href="../PubSubHubbub/Subscriber.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Rsa.html" title="706. Zend\Crypt\PublicKey\Rsa"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../PubSubHubbub/Subscriber.html" title="704. Zend\Feed\PubSubHubbub\Subscriber"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-crypt-publickey-diffiehellman">
+<h1>705. Zend\Crypt\PublicKey\DiffieHellman<a class="headerlink" href="#zend-crypt-publickey-diffiehellman" title="Permalink to this headline">¶</a></h1>
+<p>PHP implementation of the Diffie-Hellman public key encryption algorithm.
+Allows two unassociated parties to establish a joint shared secret key
+to be used in encrypting subsequent communications.</p>
+<div class="section" id="methods">
+<h2>705.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>705.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><em>$prime</em>, <em>$generator</em><span class="optional">[</span>, <em>$privateKey = false</em><span class="optional">[</span>, <em>$privateKeyFormat = &quot;number&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor; if set construct the object using the parameter array to
+set values for Prime, Generator and Private.
+If a Private Key is not set, one will be generated at random.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$prime</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$generator</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$privateKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$privateKeyFormat</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="useopensslextension">
+<h3>705.1.2. useOpensslExtension<a class="headerlink" href="#useopensslextension" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="useOpensslExtension">
+<tt class="descname">useOpensslExtension</tt><big>(</big><span class="optional">[</span><em>$flag = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#useOpensslExtension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set whether to use openssl extension</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param bool $flag:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="generatekeys">
+<h3>705.1.3. generateKeys<a class="headerlink" href="#generatekeys" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="generateKeys">
+<tt class="descname">generateKeys</tt><big>(</big><big>)</big><a class="headerlink" href="#generateKeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate own public key. If a private number has not already been set,
+one will be generated at this stage.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DiffieHellman</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setpublickey">
+<h3>705.1.4. setPublicKey<a class="headerlink" href="#setpublickey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPublicKey">
+<tt class="descname">setPublicKey</tt><big>(</big><em>$number</em><span class="optional">[</span>, <em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setPublicKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setter for the value of the public number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$number</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$format</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">DiffieHellman</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ZendCryptExceptionInvalidArgumentException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getpublickey">
+<h3>705.1.5. getPublicKey<a class="headerlink" href="#getpublickey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPublicKey">
+<tt class="descname">getPublicKey</tt><big>(</big><span class="optional">[</span><em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getPublicKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns own public key for communication to the second party to this transaction</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$format</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="computesecretkey">
+<h3>705.1.6. computeSecretKey<a class="headerlink" href="#computesecretkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="computeSecretKey">
+<tt class="descname">computeSecretKey</tt><big>(</big><em>$publicKey</em><span class="optional">[</span>, <em>$publicKeyFormat = &quot;number&quot;</em><span class="optional">[</span>, <em>$secretKeyFormat = &quot;number&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#computeSecretKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the shared secret key based on the public key received from the
+the second party to this transaction. This should agree to the secret
+key the second party computes on our own public key.
+Once in agreement, the key is known to only to both parties.
+By default, the function expects the public key to be in binary form
+which is the typical format when being transmitted.</p>
+<p>If you need the binary form of the shared secret key, call
+getSharedSecretKey() with the optional parameter for Binary output.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$publicKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$publicKeyFormat</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$secretKeyFormat</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first">ZendCryptExceptionInvalidArgumentException</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ZendCryptExceptionRuntimeException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsharedsecretkey">
+<h3>705.1.7. getSharedSecretKey<a class="headerlink" href="#getsharedsecretkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSharedSecretKey">
+<tt class="descname">getSharedSecretKey</tt><big>(</big><span class="optional">[</span><em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getSharedSecretKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the computed shared secret key from the DiffieHellman transaction</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$format</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setprime">
+<h3>705.1.8. setPrime<a class="headerlink" href="#setprime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPrime">
+<tt class="descname">setPrime</tt><big>(</big><em>$number</em><big>)</big><a class="headerlink" href="#setPrime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setter for the value of the prime number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$number</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">DiffieHellman</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getprime">
+<h3>705.1.9. getPrime<a class="headerlink" href="#getprime" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPrime">
+<tt class="descname">getPrime</tt><big>(</big><span class="optional">[</span><em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getPrime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Getter for the value of the prime number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$format</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setgenerator">
+<h3>705.1.10. setGenerator<a class="headerlink" href="#setgenerator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setGenerator">
+<tt class="descname">setGenerator</tt><big>(</big><em>$number</em><big>)</big><a class="headerlink" href="#setGenerator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setter for the value of the generator number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$number</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">DiffieHellman</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getgenerator">
+<h3>705.1.11. getGenerator<a class="headerlink" href="#getgenerator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getGenerator">
+<tt class="descname">getGenerator</tt><big>(</big><span class="optional">[</span><em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getGenerator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Getter for the value of the generator number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$format</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ZendCryptExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setprivatekey">
+<h3>705.1.12. setPrivateKey<a class="headerlink" href="#setprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setPrivateKey">
+<tt class="descname">setPrivateKey</tt><big>(</big><em>$number</em><span class="optional">[</span>, <em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setter for the value of the private number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$number</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$format</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">DiffieHellman</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ZendCryptExceptionInvalidArgumentException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getprivatekey">
+<h3>705.1.13. getPrivateKey<a class="headerlink" href="#getprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getPrivateKey">
+<tt class="descname">getPrivateKey</tt><big>(</big><span class="optional">[</span><em>$format = &quot;number&quot;</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Getter for the value of the private number</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$format</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="hasprivatekey">
+<h3>705.1.14. hasPrivateKey<a class="headerlink" href="#hasprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasPrivateKey">
+<tt class="descname">hasPrivateKey</tt><big>(</big><big>)</big><a class="headerlink" href="#hasPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check whether a private key currently exists.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="convert">
+<h3>705.1.15. convert<a class="headerlink" href="#convert" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">convert</tt><big>(</big><em>$number</em><span class="optional">[</span>, <em>$inputFormat = &quot;number&quot;</em><span class="optional">[</span>, <em>$outputFormat = &quot;binary&quot;</em><span class="optional">]</span><span class="optional">]</span><big>)</big></dt>
+<dd><p>Convert number between formats</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$number</strong> &#8211; </li>
+<li><strong>$inputFormat</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$outputFormat</strong> (<em>string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="generateprivatekey">
+<h3>705.1.16. generatePrivateKey<a class="headerlink" href="#generateprivatekey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="generatePrivateKey">
+<tt class="descname">generatePrivateKey</tt><big>(</big><big>)</big><a class="headerlink" href="#generatePrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>In the event a private number/key has not been set by the user,
+or generated by ext/openssl, a best attempt will be made to
+generate a random key. Having a random number generator installed
+on linux/bsd is highly recommended! The alternative is not recommended
+for production unless without any other option.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>705.1.17. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="default-key-size">
+<h4>705.1.17.1. DEFAULT_KEY_SIZE<a class="headerlink" href="#default-key-size" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="format-binary">
+<h4>705.1.17.2. FORMAT_BINARY<a class="headerlink" href="#format-binary" title="Permalink to this headline">¶</a></h4>
+<p>Key formats</p>
+</div>
+<div class="section" id="format-number">
+<h4>705.1.17.3. FORMAT_NUMBER<a class="headerlink" href="#format-number" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="format-btwoc">
+<h4>705.1.17.4. FORMAT_BTWOC<a class="headerlink" href="#format-btwoc" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">705. Zend\Crypt\PublicKey\DiffieHellman</a><ul>
+<li><a class="reference internal" href="#methods">705.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">705.1.1. __construct</a></li>
+<li><a class="reference internal" href="#useopensslextension">705.1.2. useOpensslExtension</a></li>
+<li><a class="reference internal" href="#generatekeys">705.1.3. generateKeys</a></li>
+<li><a class="reference internal" href="#setpublickey">705.1.4. setPublicKey</a></li>
+<li><a class="reference internal" href="#getpublickey">705.1.5. getPublicKey</a></li>
+<li><a class="reference internal" href="#computesecretkey">705.1.6. computeSecretKey</a></li>
+<li><a class="reference internal" href="#getsharedsecretkey">705.1.7. getSharedSecretKey</a></li>
+<li><a class="reference internal" href="#setprime">705.1.8. setPrime</a></li>
+<li><a class="reference internal" href="#getprime">705.1.9. getPrime</a></li>
+<li><a class="reference internal" href="#setgenerator">705.1.10. setGenerator</a></li>
+<li><a class="reference internal" href="#getgenerator">705.1.11. getGenerator</a></li>
+<li><a class="reference internal" href="#setprivatekey">705.1.12. setPrivateKey</a></li>
+<li><a class="reference internal" href="#getprivatekey">705.1.13. getPrivateKey</a></li>
+<li><a class="reference internal" href="#hasprivatekey">705.1.14. hasPrivateKey</a></li>
+<li><a class="reference internal" href="#convert">705.1.15. convert</a></li>
+<li><a class="reference internal" href="#generateprivatekey">705.1.16. generatePrivateKey</a></li>
+<li><a class="reference internal" href="#constants">705.1.17. Constants</a><ul>
+<li><a class="reference internal" href="#default-key-size">705.1.17.1. DEFAULT_KEY_SIZE</a></li>
+<li><a class="reference internal" href="#format-binary">705.1.17.2. FORMAT_BINARY</a></li>
+<li><a class="reference internal" href="#format-number">705.1.17.3. FORMAT_NUMBER</a></li>
+<li><a class="reference internal" href="#format-btwoc">705.1.17.4. FORMAT_BTWOC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../PubSubHubbub/Subscriber.html"
+                        title="previous chapter">704. Zend\Feed\PubSubHubbub\Subscriber</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Rsa.html"
+                        title="next chapter">706. Zend\Crypt\PublicKey\Rsa</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/PublicKey/DiffieHellman.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Rsa.html" title="706. Zend\Crypt\PublicKey\Rsa"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../PubSubHubbub/Subscriber.html" title="704. Zend\Feed\PubSubHubbub\Subscriber"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

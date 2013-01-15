@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>732. Zend\Barcode\Renderer\Pdf &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="733. Zend\Feed\Writer\Renderer\render" href="RendererInterface.html" />
+    <link rel="prev" title="731. Zend\Barcode\Renderer\Image" href="Image.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="RendererInterface.html" title="733. Zend\Feed\Writer\Renderer\render"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Image.html" title="731. Zend\Barcode\Renderer\Image"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-barcode-renderer-pdf">
+<h1>732. Zend\Barcode\Renderer\Pdf<a class="headerlink" href="#zend-barcode-renderer-pdf" title="Permalink to this headline">¶</a></h1>
+<p>Class for rendering the barcode in PDF resource</p>
+<div class="section" id="methods">
+<h2>732.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setresource">
+<h3>732.1.1. setResource<a class="headerlink" href="#setresource" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setResource">
+<tt class="descname">setResource</tt><big>(</big><em>$pdf</em><span class="optional">[</span>, <em>$page = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setResource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a PDF resource to draw the barcode inside</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$pdf</strong> (<em>PdfDocument</em>) &#8211; </li>
+<li><strong>$page</strong> (<em>integer</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Pdf</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="checkspecificparams">
+<h3>732.1.2. checkSpecificParams<a class="headerlink" href="#checkspecificparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="checkSpecificParams">
+<tt class="descname">checkSpecificParams</tt><big>(</big><big>)</big><a class="headerlink" href="#checkSpecificParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check renderer parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="render">
+<h3>732.1.3. render<a class="headerlink" href="#render" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">render</tt><big>(</big><big>)</big></dt>
+<dd><p>Draw the barcode in the PDF, send headers and the PDF</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="initrenderer">
+<h3>732.1.4. initRenderer<a class="headerlink" href="#initrenderer" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="initRenderer">
+<tt class="descname">initRenderer</tt><big>(</big><big>)</big><a class="headerlink" href="#initRenderer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize the PDF resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="drawpolygon">
+<h3>732.1.5. drawPolygon<a class="headerlink" href="#drawpolygon" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="drawPolygon">
+<tt class="descname">drawPolygon</tt><big>(</big><em>$points</em>, <em>$color</em><span class="optional">[</span>, <em>$filled = true</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#drawPolygon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw a polygon in the rendering resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$points</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$color</strong> (<em>integer</em>) &#8211; </li>
+<li><strong>$filled</strong> (<em>bool</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="drawtext">
+<h3>732.1.6. drawText<a class="headerlink" href="#drawtext" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="drawText">
+<tt class="descname">drawText</tt><big>(</big><em>$text</em>, <em>$size</em>, <em>$position</em>, <em>$font</em>, <em>$color</em><span class="optional">[</span>, <em>$alignment = &quot;center&quot;</em><span class="optional">[</span>, <em>$orientation = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#drawText" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw a polygon in the rendering resource</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$text</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$size</strong> (<em>float</em>) &#8211; </li>
+<li><strong>$position</strong> (<em>array</em>) &#8211; </li>
+<li><strong>$font</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$color</strong> (<em>integer</em>) &#8211; </li>
+<li><strong>$alignment</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$orientation</strong> (<em>float</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="widthforstringusingfontsize">
+<h3>732.1.7. widthForStringUsingFontSize<a class="headerlink" href="#widthforstringusingfontsize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="widthForStringUsingFontSize">
+<tt class="descname">widthForStringUsingFontSize</tt><big>(</big><em>$text</em>, <em>$font</em>, <em>$fontSize</em><big>)</big><a class="headerlink" href="#widthForStringUsingFontSize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the width of a string:
+in case of using alignment parameter in drawText</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$text</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$font</strong> (<em>Font</em>) &#8211; </li>
+<li><strong>$fontSize</strong> (<em>float</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">float</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">732. Zend\Barcode\Renderer\Pdf</a><ul>
+<li><a class="reference internal" href="#methods">732.1. Methods</a><ul>
+<li><a class="reference internal" href="#setresource">732.1.1. setResource</a></li>
+<li><a class="reference internal" href="#checkspecificparams">732.1.2. checkSpecificParams</a></li>
+<li><a class="reference internal" href="#render">732.1.3. render</a></li>
+<li><a class="reference internal" href="#initrenderer">732.1.4. initRenderer</a></li>
+<li><a class="reference internal" href="#drawpolygon">732.1.5. drawPolygon</a></li>
+<li><a class="reference internal" href="#drawtext">732.1.6. drawText</a></li>
+<li><a class="reference internal" href="#widthforstringusingfontsize">732.1.7. widthForStringUsingFontSize</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Image.html"
+                        title="previous chapter">731. Zend\Barcode\Renderer\Image</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="RendererInterface.html"
+                        title="next chapter">733. Zend\Feed\Writer\Renderer\render</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Renderer/Pdf.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="RendererInterface.html" title="733. Zend\Feed\Writer\Renderer\render"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Image.html" title="731. Zend\Barcode\Renderer\Image"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>174. Zend\Di\Definition\RuntimeDefinition &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="175. Zend\Crypt\Key\Derivation\Pbkdf2" href="../Derivation/Pbkdf2.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="PartialMarker.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Derivation/Pbkdf2.html" title="175. Zend\Crypt\Key\Derivation\Pbkdf2"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="PartialMarker.html" title="&lt;no title&gt;"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-di-definition-runtimedefinition">
+<h1>174. Zend\Di\Definition\RuntimeDefinition<a class="headerlink" href="#zend-di-definition-runtimedefinition" title="Permalink to this headline">¶</a></h1>
+<p>Class definitions based on runtime reflection</p>
+<div class="section" id="methods">
+<h2>174.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>174.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$introspectionStrategy = false</em><span class="optional">[</span>, <em>$explicitClasses = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$introspectionStrategy</strong> (<em>null|IntrospectionStrategy</em>) &#8211; </li>
+<li><strong>$explicitClasses</strong> (<em>array|null</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setintrospectionstrategy">
+<h3>174.1.2. setIntrospectionStrategy<a class="headerlink" href="#setintrospectionstrategy" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setIntrospectionStrategy">
+<tt class="descname">setIntrospectionStrategy</tt><big>(</big><em>$introspectionStrategy</em><big>)</big><a class="headerlink" href="#setIntrospectionStrategy" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param  IntrospectionStrategy $introspectionStrategy</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getintrospectionstrategy">
+<h3>174.1.3. getIntrospectionStrategy<a class="headerlink" href="#getintrospectionstrategy" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getIntrospectionStrategy">
+<tt class="descname">getIntrospectionStrategy</tt><big>(</big><big>)</big><a class="headerlink" href="#getIntrospectionStrategy" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return IntrospectionStrategy</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setexplicitclasses">
+<h3>174.1.4. setExplicitClasses<a class="headerlink" href="#setexplicitclasses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setExplicitClasses">
+<tt class="descname">setExplicitClasses</tt><big>(</big><em>$explicitClasses</em><big>)</big><a class="headerlink" href="#setExplicitClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set explicit classes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$explicitClasses</strong> (<em>array</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="forceloadclass">
+<h3>174.1.5. forceLoadClass<a class="headerlink" href="#forceloadclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="forceLoadClass">
+<tt class="descname">forceLoadClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#forceLoadClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $class</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getclasses">
+<h3>174.1.6. getClasses<a class="headerlink" href="#getclasses" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClasses">
+<tt class="descname">getClasses</tt><big>(</big><big>)</big><a class="headerlink" href="#getClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="hasclass">
+<h3>174.1.7. hasClass<a class="headerlink" href="#hasclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasClass">
+<tt class="descname">hasClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#hasClass" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getclasssupertypes">
+<h3>174.1.8. getClassSupertypes<a class="headerlink" href="#getclasssupertypes" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getClassSupertypes">
+<tt class="descname">getClassSupertypes</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#getClassSupertypes" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getinstantiator">
+<h3>174.1.9. getInstantiator<a class="headerlink" href="#getinstantiator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getInstantiator">
+<tt class="descname">getInstantiator</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#getInstantiator" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="hasmethods">
+<h3>174.1.10. hasMethods<a class="headerlink" href="#hasmethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasMethods">
+<tt class="descname">hasMethods</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#hasMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="hasmethod">
+<h3>174.1.11. hasMethod<a class="headerlink" href="#hasmethod" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasMethod">
+<tt class="descname">hasMethod</tt><big>(</big><em>$class</em>, <em>$method</em><big>)</big><a class="headerlink" href="#hasMethod" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getmethods">
+<h3>174.1.12. getMethods<a class="headerlink" href="#getmethods" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMethods">
+<tt class="descname">getMethods</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#getMethods" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="hasmethodparameters">
+<h3>174.1.13. hasMethodParameters<a class="headerlink" href="#hasmethodparameters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="hasMethodParameters">
+<tt class="descname">hasMethodParameters</tt><big>(</big><em>$class</em>, <em>$method</em><big>)</big><a class="headerlink" href="#hasMethodParameters" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="getmethodparameters">
+<h3>174.1.14. getMethodParameters<a class="headerlink" href="#getmethodparameters" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMethodParameters">
+<tt class="descname">getMethodParameters</tt><big>(</big><em>$class</em>, <em>$method</em><big>)</big><a class="headerlink" href="#getMethodParameters" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="mailto:{&#37;&#52;&#48;inheritDoc">{<span>&#64;</span>inheritDoc</a>}</p>
+</dd></dl>
+
+</div>
+<div class="section" id="processclass">
+<h3>174.1.15. processClass<a class="headerlink" href="#processclass" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="processClass">
+<tt class="descname">processClass</tt><big>(</big><em>$class</em><big>)</big><a class="headerlink" href="#processClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $class</p>
+</dd></dl>
+
+</div>
+<div class="section" id="processparams">
+<h3>174.1.16. processParams<a class="headerlink" href="#processparams" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="processParams">
+<tt class="descname">processParams</tt><big>(</big><em>$def</em>, <em>$rClass</em>, <em>$rMethod</em><big>)</big><a class="headerlink" href="#processParams" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param array                                  $def</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>$rClass</strong> (<em>ZendCodeReflectionClassReflection</em>) &#8211; </li>
+<li><strong>$rMethod</strong> (<em>ZendCodeReflectionMethodReflection</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">174. Zend\Di\Definition\RuntimeDefinition</a><ul>
+<li><a class="reference internal" href="#methods">174.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">174.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setintrospectionstrategy">174.1.2. setIntrospectionStrategy</a></li>
+<li><a class="reference internal" href="#getintrospectionstrategy">174.1.3. getIntrospectionStrategy</a></li>
+<li><a class="reference internal" href="#setexplicitclasses">174.1.4. setExplicitClasses</a></li>
+<li><a class="reference internal" href="#forceloadclass">174.1.5. forceLoadClass</a></li>
+<li><a class="reference internal" href="#getclasses">174.1.6. getClasses</a></li>
+<li><a class="reference internal" href="#hasclass">174.1.7. hasClass</a></li>
+<li><a class="reference internal" href="#getclasssupertypes">174.1.8. getClassSupertypes</a></li>
+<li><a class="reference internal" href="#getinstantiator">174.1.9. getInstantiator</a></li>
+<li><a class="reference internal" href="#hasmethods">174.1.10. hasMethods</a></li>
+<li><a class="reference internal" href="#hasmethod">174.1.11. hasMethod</a></li>
+<li><a class="reference internal" href="#getmethods">174.1.12. getMethods</a></li>
+<li><a class="reference internal" href="#hasmethodparameters">174.1.13. hasMethodParameters</a></li>
+<li><a class="reference internal" href="#getmethodparameters">174.1.14. getMethodParameters</a></li>
+<li><a class="reference internal" href="#processclass">174.1.15. processClass</a></li>
+<li><a class="reference internal" href="#processparams">174.1.16. processParams</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="PartialMarker.html"
+                        title="previous chapter">&lt;no title&gt;</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Derivation/Pbkdf2.html"
+                        title="next chapter">175. Zend\Crypt\Key\Derivation\Pbkdf2</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Definition/RuntimeDefinition.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Derivation/Pbkdf2.html" title="175. Zend\Crypt\Key\Derivation\Pbkdf2"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="PartialMarker.html" title="&lt;no title&gt;"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>413. Zend\Filter\StripTags &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="414. Zend\Form\Element" href="../Form/Element.html" />
+    <link rel="prev" title="412. Zend\Filter\StripNewlines" href="StripNewlines.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Form/Element.html" title="414. Zend\Form\Element"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="StripNewlines.html" title="412. Zend\Filter\StripNewlines"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-filter-striptags">
+<h1>413. Zend\Filter\StripTags<a class="headerlink" href="#zend-filter-striptags" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>413.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>413.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the filter options
+Allowed options are</p>
+<blockquote>
+<div>&#8216;allowTags&#8217;     =&gt; Tags which are allowed
+&#8216;allowAttribs&#8217;  =&gt; Attributes which are allowed
+&#8216;allowComments&#8217; =&gt; Are comments allowed ?</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>string|array|Traversable</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettagsallowed">
+<h3>413.1.2. getTagsAllowed<a class="headerlink" href="#gettagsallowed" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTagsAllowed">
+<tt class="descname">getTagsAllowed</tt><big>(</big><big>)</big><a class="headerlink" href="#getTagsAllowed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the tagsAllowed option</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settagsallowed">
+<h3>413.1.3. setTagsAllowed<a class="headerlink" href="#settagsallowed" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setTagsAllowed">
+<tt class="descname">setTagsAllowed</tt><big>(</big><em>$tagsAllowed</em><big>)</big><a class="headerlink" href="#setTagsAllowed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the tagsAllowed option</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$tagsAllowed</strong> (<em>array|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">StripTags Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getattributesallowed">
+<h3>413.1.4. getAttributesAllowed<a class="headerlink" href="#getattributesallowed" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAttributesAllowed">
+<tt class="descname">getAttributesAllowed</tt><big>(</big><big>)</big><a class="headerlink" href="#getAttributesAllowed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the attributesAllowed option</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setattributesallowed">
+<h3>413.1.5. setAttributesAllowed<a class="headerlink" href="#setattributesallowed" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setAttributesAllowed">
+<tt class="descname">setAttributesAllowed</tt><big>(</big><em>$attributesAllowed</em><big>)</big><a class="headerlink" href="#setAttributesAllowed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the attributesAllowed option</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$attributesAllowed</strong> (<em>array|string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">StripTags Provides a fluent interface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="filter">
+<h3>413.1.6. filter<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">filter</tt><big>(</big><em>$value</em><big>)</big></dt>
+<dd><p>Defined by ZendFilterFilterInterface</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param string $value:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">rtype:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="filtertag">
+<h3>413.1.7. _filterTag<a class="headerlink" href="#filtertag" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_filterTag">
+<tt class="descname">_filterTag</tt><big>(</big><em>$tag</em><big>)</big><a class="headerlink" href="#_filterTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Filters a single tag against the current option settings</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$tag</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>413.1.8. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="unique-id-prefix">
+<h4>413.1.8.1. UNIQUE_ID_PREFIX<a class="headerlink" href="#unique-id-prefix" title="Permalink to this headline">¶</a></h4>
+<p>Unique ID prefix used for allowing comments</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">413. Zend\Filter\StripTags</a><ul>
+<li><a class="reference internal" href="#methods">413.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">413.1.1. __construct</a></li>
+<li><a class="reference internal" href="#gettagsallowed">413.1.2. getTagsAllowed</a></li>
+<li><a class="reference internal" href="#settagsallowed">413.1.3. setTagsAllowed</a></li>
+<li><a class="reference internal" href="#getattributesallowed">413.1.4. getAttributesAllowed</a></li>
+<li><a class="reference internal" href="#setattributesallowed">413.1.5. setAttributesAllowed</a></li>
+<li><a class="reference internal" href="#filter">413.1.6. filter</a></li>
+<li><a class="reference internal" href="#filtertag">413.1.7. _filterTag</a></li>
+<li><a class="reference internal" href="#constants">413.1.8. Constants</a><ul>
+<li><a class="reference internal" href="#unique-id-prefix">413.1.8.1. UNIQUE_ID_PREFIX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="StripNewlines.html"
+                        title="previous chapter">412. Zend\Filter\StripNewlines</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Form/Element.html"
+                        title="next chapter">414. Zend\Form\Element</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Filter/StripTags.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Form/Element.html" title="414. Zend\Form\Element"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="StripNewlines.html" title="412. Zend\Filter\StripNewlines"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

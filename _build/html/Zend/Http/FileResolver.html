@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>509. Zend\Authentication\Adapter\Http\FileResolver &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="510. Zend\Authentication\Adapter\Http\resolve" href="ResolverInterface.html" />
+    <link rel="prev" title="508. Zend\Http\ClientStatic" href="ClientStatic.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ResolverInterface.html" title="510. Zend\Authentication\Adapter\Http\resolve"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ClientStatic.html" title="508. Zend\Http\ClientStatic"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-authentication-adapter-http-fileresolver">
+<h1>509. Zend\Authentication\Adapter\Http\FileResolver<a class="headerlink" href="#zend-authentication-adapter-http-fileresolver" title="Permalink to this headline">¶</a></h1>
+<p>HTTP Authentication File Resolver</p>
+<div class="section" id="methods">
+<h2>509.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>509.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$path = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$path</strong> (<em>string</em>) &#8211; Complete filename where the credentials are stored</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setfile">
+<h3>509.1.2. setFile<a class="headerlink" href="#setfile" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setFile">
+<tt class="descname">setFile</tt><big>(</big><em>$path</em><big>)</big><a class="headerlink" href="#setFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the path to the credentials file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$path</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">FileResolver Provides a fluent interface</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException if path is not readable</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getfile">
+<h3>509.1.3. getFile<a class="headerlink" href="#getfile" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getFile">
+<tt class="descname">getFile</tt><big>(</big><big>)</big><a class="headerlink" href="#getFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the path to the credentials file</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="resolve">
+<h3>509.1.4. resolve<a class="headerlink" href="#resolve" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">resolve</tt><big>(</big><em>$username</em>, <em>$realm</em><span class="optional">[</span>, <em>$password = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Resolve credentials</p>
+<p>Only the first matching username/realm combination in the file is
+returned. If the file contains credentials for Digest authentication,
+the returned string is the password hash, or h(a1) from RFC 2617. The
+returned string is the plain-text password for Basic authentication.</p>
+<dl class="docutils">
+<dt>The expected format of the file is:</dt>
+<dd>username:realm:sharedSecret</dd>
+</dl>
+<p>That is, each line consists of the user&#8217;s username, the applicable
+authentication realm, and the password or hash, each delimited by
+colons.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$username</strong> (<em>string</em>) &#8211; Username</li>
+<li><strong>$realm</strong> (<em>string</em>) &#8211; Authentication Realm</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">string|false User&#8217;s shared secret, if the user is found in the
+realm, false otherwise.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">509. Zend\Authentication\Adapter\Http\FileResolver</a><ul>
+<li><a class="reference internal" href="#methods">509.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">509.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setfile">509.1.2. setFile</a></li>
+<li><a class="reference internal" href="#getfile">509.1.3. getFile</a></li>
+<li><a class="reference internal" href="#resolve">509.1.4. resolve</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ClientStatic.html"
+                        title="previous chapter">508. Zend\Http\ClientStatic</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ResolverInterface.html"
+                        title="next chapter">510. Zend\Authentication\Adapter\Http\resolve</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Http/FileResolver.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ResolverInterface.html" title="510. Zend\Authentication\Adapter\Http\resolve"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ClientStatic.html" title="508. Zend\Http\ClientStatic"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

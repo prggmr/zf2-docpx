@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>473. Zend\Form\View\Helper\FormButton &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="474. Zend\Form\View\Helper\FormCaptcha" href="FormCaptcha.html" />
+    <link rel="prev" title="472. Zend\Form\View\Helper\Form" href="Form.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FormCaptcha.html" title="474. Zend\Form\View\Helper\FormCaptcha"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Form.html" title="472. Zend\Form\View\Helper\Form"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-view-helper-formbutton">
+<h1>473. Zend\Form\View\Helper\FormButton<a class="headerlink" href="#zend-form-view-helper-formbutton" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>473.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="opentag">
+<h3>473.1.1. openTag<a class="headerlink" href="#opentag" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="openTag">
+<tt class="descname">openTag</tt><big>(</big><span class="optional">[</span><em>$attributesOrElement = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#openTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate an opening button tag</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$attributesOrElement</strong> (<em>null|array|ElementInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">Throws ExceptionDomainException:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="closetag">
+<h3>473.1.2. closeTag<a class="headerlink" href="#closetag" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="closeTag">
+<tt class="descname">closeTag</tt><big>(</big><big>)</big><a class="headerlink" href="#closeTag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a closing button tag</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="render">
+<h3>473.1.3. render<a class="headerlink" href="#render" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">render</tt><big>(</big><em>$element</em><span class="optional">[</span>, <em>$buttonContent = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Render a form &lt;button&gt; element from the provided $element,
+using content from $buttonContent or the element&#8217;s &#8220;label&#8221; attribute</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$element</strong> (<em>ElementInterface</em>) &#8211; </li>
+<li><strong>$buttonContent</strong> (<em>null|string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionDomainException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="invoke">
+<h3>473.1.4. __invoke<a class="headerlink" href="#invoke" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__invoke">
+<tt class="descname">__invoke</tt><big>(</big><span class="optional">[</span><em>$element = false</em><span class="optional">[</span>, <em>$buttonContent = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__invoke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Invoke helper as functor</p>
+<p>Proxies to <a class="reference external" href="mailto:{&#37;&#52;&#48;link">{<span>&#64;</span>link</a> render()}.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$element</strong> (<em>ElementInterface|null</em>) &#8211; </li>
+<li><strong>$buttonContent</strong> (<em>null|string</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string|FormButton</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettype">
+<h3>473.1.5. getType<a class="headerlink" href="#gettype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getType">
+<tt class="descname">getType</tt><big>(</big><em>$element</em><big>)</big><a class="headerlink" href="#getType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine button type to use</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$element</strong> (<em>ElementInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">473. Zend\Form\View\Helper\FormButton</a><ul>
+<li><a class="reference internal" href="#methods">473.1. Methods</a><ul>
+<li><a class="reference internal" href="#opentag">473.1.1. openTag</a></li>
+<li><a class="reference internal" href="#closetag">473.1.2. closeTag</a></li>
+<li><a class="reference internal" href="#render">473.1.3. render</a></li>
+<li><a class="reference internal" href="#invoke">473.1.4. __invoke</a></li>
+<li><a class="reference internal" href="#gettype">473.1.5. getType</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Form.html"
+                        title="previous chapter">472. Zend\Form\View\Helper\Form</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FormCaptcha.html"
+                        title="next chapter">474. Zend\Form\View\Helper\FormCaptcha</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Helper/FormButton.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FormCaptcha.html" title="474. Zend\Form\View\Helper\FormCaptcha"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Form.html" title="472. Zend\Form\View\Helper\Form"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>667. Zend\Cache\Storage\Plugin\Serializer &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="668. Zend\Feed\Reader\Extension\Podcast\Entry" href="../Podcast/Entry.html" />
+    <link rel="prev" title="666. Zend\Cache\Storage\Plugin\PluginOptions" href="PluginOptions.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../Podcast/Entry.html" title="668. Zend\Feed\Reader\Extension\Podcast\Entry"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="PluginOptions.html" title="666. Zend\Cache\Storage\Plugin\PluginOptions"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-plugin-serializer">
+<h1>667. Zend\Cache\Storage\Plugin\Serializer<a class="headerlink" href="#zend-cache-storage-plugin-serializer" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>667.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="attach">
+<h3>667.1.1. attach<a class="headerlink" href="#attach" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">attach</tt><big>(</big><em>$events</em><span class="optional">[</span>, <em>$priority = 1</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Attach</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$events</strong> (<em>EventManagerInterface</em>) &#8211; </li>
+<li><strong>$priority</strong> (<em>int</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">Serializer</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionLogicException</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="detach">
+<h3>667.1.2. detach<a class="headerlink" href="#detach" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">detach</tt><big>(</big><em>$events</em><big>)</big></dt>
+<dd><p>Detach</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$events</strong> (<em>EventManagerInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Serializer</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionLogicException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onreaditempost">
+<h3>667.1.3. onReadItemPost<a class="headerlink" href="#onreaditempost" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onReadItemPost">
+<tt class="descname">onReadItemPost</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onReadItemPost" title="Permalink to this definition">¶</a></dt>
+<dd><p>On read item post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>PostEvent</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onreaditemspost">
+<h3>667.1.4. onReadItemsPost<a class="headerlink" href="#onreaditemspost" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onReadItemsPost">
+<tt class="descname">onReadItemsPost</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onReadItemsPost" title="Permalink to this definition">¶</a></dt>
+<dd><p>On read items post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>PostEvent</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onwriteitempre">
+<h3>667.1.5. onWriteItemPre<a class="headerlink" href="#onwriteitempre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onWriteItemPre">
+<tt class="descname">onWriteItemPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onWriteItemPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On write item pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onwriteitemspre">
+<h3>667.1.6. onWriteItemsPre<a class="headerlink" href="#onwriteitemspre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onWriteItemsPre">
+<tt class="descname">onWriteItemsPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onWriteItemsPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On write items pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onincrementitempre">
+<h3>667.1.7. onIncrementItemPre<a class="headerlink" href="#onincrementitempre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onIncrementItemPre">
+<tt class="descname">onIncrementItemPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onIncrementItemPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On increment item pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="onincrementitemspre">
+<h3>667.1.8. onIncrementItemsPre<a class="headerlink" href="#onincrementitemspre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onIncrementItemsPre">
+<tt class="descname">onIncrementItemsPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onIncrementItemsPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On increment items pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="ondecrementitempre">
+<h3>667.1.9. onDecrementItemPre<a class="headerlink" href="#ondecrementitempre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onDecrementItemPre">
+<tt class="descname">onDecrementItemPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onDecrementItemPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On decrement item pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="ondecrementitemspre">
+<h3>667.1.10. onDecrementItemsPre<a class="headerlink" href="#ondecrementitemspre" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onDecrementItemsPre">
+<tt class="descname">onDecrementItemsPre</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onDecrementItemsPre" title="Permalink to this definition">¶</a></dt>
+<dd><p>On decrement items pre</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>Event</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">mixed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="ongetcapabilitiespost">
+<h3>667.1.11. onGetCapabilitiesPost<a class="headerlink" href="#ongetcapabilitiespost" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="onGetCapabilitiesPost">
+<tt class="descname">onGetCapabilitiesPost</tt><big>(</big><em>$event</em><big>)</big><a class="headerlink" href="#onGetCapabilitiesPost" title="Permalink to this definition">¶</a></dt>
+<dd><p>On get capabilities</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$event</strong> (<em>PostEvent</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">667. Zend\Cache\Storage\Plugin\Serializer</a><ul>
+<li><a class="reference internal" href="#methods">667.1. Methods</a><ul>
+<li><a class="reference internal" href="#attach">667.1.1. attach</a></li>
+<li><a class="reference internal" href="#detach">667.1.2. detach</a></li>
+<li><a class="reference internal" href="#onreaditempost">667.1.3. onReadItemPost</a></li>
+<li><a class="reference internal" href="#onreaditemspost">667.1.4. onReadItemsPost</a></li>
+<li><a class="reference internal" href="#onwriteitempre">667.1.5. onWriteItemPre</a></li>
+<li><a class="reference internal" href="#onwriteitemspre">667.1.6. onWriteItemsPre</a></li>
+<li><a class="reference internal" href="#onincrementitempre">667.1.7. onIncrementItemPre</a></li>
+<li><a class="reference internal" href="#onincrementitemspre">667.1.8. onIncrementItemsPre</a></li>
+<li><a class="reference internal" href="#ondecrementitempre">667.1.9. onDecrementItemPre</a></li>
+<li><a class="reference internal" href="#ondecrementitemspre">667.1.10. onDecrementItemsPre</a></li>
+<li><a class="reference internal" href="#ongetcapabilitiespost">667.1.11. onGetCapabilitiesPost</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="PluginOptions.html"
+                        title="previous chapter">666. Zend\Cache\Storage\Plugin\PluginOptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../Podcast/Entry.html"
+                        title="next chapter">668. Zend\Feed\Reader\Extension\Podcast\Entry</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Plugin/Serializer.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../Podcast/Entry.html" title="668. Zend\Feed\Reader\Extension\Podcast\Entry"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="PluginOptions.html" title="666. Zend\Cache\Storage\Plugin\PluginOptions"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

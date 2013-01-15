@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>121. Zend\Filter\Compress\Gz &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="122. Zend\Filter\Compress\Lzf" href="Lzf.html" />
+    <link rel="prev" title="118. Zend\Filter\Compress\compress" href="CompressionAlgorithmInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Lzf.html" title="122. Zend\Filter\Compress\Lzf"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="CompressionAlgorithmInterface.html" title="118. Zend\Filter\Compress\compress"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-filter-compress-gz">
+<h1>121. Zend\Filter\Compress\Gz<a class="headerlink" href="#zend-filter-compress-gz" title="Permalink to this headline">¶</a></h1>
+<p>Compression adapter for Gzip (ZLib)</p>
+<div class="section" id="methods">
+<h2>121.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>121.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>null|array|Traversable</em>) &#8211; (Optional) Options to set</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionExtensionNotLoadedException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">if zlib extension not loaded</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getlevel">
+<h3>121.1.2. getLevel<a class="headerlink" href="#getlevel" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getLevel">
+<tt class="descname">getLevel</tt><big>(</big><big>)</big><a class="headerlink" href="#getLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the set compression level</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setlevel">
+<h3>121.1.3. setLevel<a class="headerlink" href="#setlevel" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setLevel">
+<tt class="descname">setLevel</tt><big>(</big><em>$level</em><big>)</big><a class="headerlink" href="#setLevel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a new compression level</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$level</strong> (<em>integer</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Gz</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getmode">
+<h3>121.1.4. getMode<a class="headerlink" href="#getmode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getMode">
+<tt class="descname">getMode</tt><big>(</big><big>)</big><a class="headerlink" href="#getMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the set compression mode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setmode">
+<h3>121.1.5. setMode<a class="headerlink" href="#setmode" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setMode">
+<tt class="descname">setMode</tt><big>(</big><em>$mode</em><big>)</big><a class="headerlink" href="#setMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a new compression mode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$mode</strong> (<em>string</em>) &#8211; Supported are &#8216;compress&#8217;, &#8216;deflate&#8217; and &#8216;file&#8217;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Gz</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException for invalid $mode value</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getarchive">
+<h3>121.1.6. getArchive<a class="headerlink" href="#getarchive" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getArchive">
+<tt class="descname">getArchive</tt><big>(</big><big>)</big><a class="headerlink" href="#getArchive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the set archive</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setarchive">
+<h3>121.1.7. setArchive<a class="headerlink" href="#setarchive" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setArchive">
+<tt class="descname">setArchive</tt><big>(</big><em>$archive</em><big>)</big><a class="headerlink" href="#setArchive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the archive to use for de-/compression</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$archive</strong> (<em>string</em>) &#8211; Archive to use</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Gz</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="compress">
+<h3>121.1.8. compress<a class="headerlink" href="#compress" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">compress</tt><big>(</big><em>$content</em><big>)</big></dt>
+<dd><p>Compresses the given content</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$content</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException if unable to open archive or error during decompression</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="decompress">
+<h3>121.1.9. decompress<a class="headerlink" href="#decompress" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">decompress</tt><big>(</big><em>$content</em><big>)</big></dt>
+<dd><p>Decompresses the given content</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$content</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException if unable to open archive or error during decompression</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="tostring">
+<h3>121.1.10. toString<a class="headerlink" href="#tostring" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="toString">
+<tt class="descname">toString</tt><big>(</big><big>)</big><a class="headerlink" href="#toString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the adapter name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">121. Zend\Filter\Compress\Gz</a><ul>
+<li><a class="reference internal" href="#methods">121.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">121.1.1. __construct</a></li>
+<li><a class="reference internal" href="#getlevel">121.1.2. getLevel</a></li>
+<li><a class="reference internal" href="#setlevel">121.1.3. setLevel</a></li>
+<li><a class="reference internal" href="#getmode">121.1.4. getMode</a></li>
+<li><a class="reference internal" href="#setmode">121.1.5. setMode</a></li>
+<li><a class="reference internal" href="#getarchive">121.1.6. getArchive</a></li>
+<li><a class="reference internal" href="#setarchive">121.1.7. setArchive</a></li>
+<li><a class="reference internal" href="#compress">121.1.8. compress</a></li>
+<li><a class="reference internal" href="#decompress">121.1.9. decompress</a></li>
+<li><a class="reference internal" href="#tostring">121.1.10. toString</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="CompressionAlgorithmInterface.html"
+                        title="previous chapter">118. Zend\Filter\Compress\compress</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Lzf.html"
+                        title="next chapter">122. Zend\Filter\Compress\Lzf</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Compress/Gz.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Lzf.html" title="122. Zend\Filter\Compress\Lzf"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="CompressionAlgorithmInterface.html" title="118. Zend\Filter\Compress\compress"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

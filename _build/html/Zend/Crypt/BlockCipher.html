@@ -1,0 +1,554 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>154. Zend\Crypt\BlockCipher &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="155. Zend\Crypt\Hash" href="Hash.html" />
+    <link rel="prev" title="153. Zend\Feed\Reader\Extension\CreativeCommons\Feed" href="../CreativeCommons/Feed.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Hash.html" title="155. Zend\Crypt\Hash"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../CreativeCommons/Feed.html" title="153. Zend\Feed\Reader\Extension\CreativeCommons\Feed"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-crypt-blockcipher">
+<h1>154. Zend\Crypt\BlockCipher<a class="headerlink" href="#zend-crypt-blockcipher" title="Permalink to this headline">¶</a></h1>
+<p>Encrypt using a symmetric cipher then authenticate using HMAC (SHA-256)</p>
+<div class="section" id="methods">
+<h2>154.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>154.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><em>$cipher</em><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cipher</strong> (<em>SymmetricInterface</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="factory">
+<h3>154.1.2. factory<a class="headerlink" href="#factory" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">factory</tt><big>(</big><em>$adapter</em><span class="optional">[</span>, <em>$options = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Factory.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$adapter</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$options</strong> (<em>array</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">BlockCipher</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsymmetricpluginmanager">
+<h3>154.1.3. getSymmetricPluginManager<a class="headerlink" href="#getsymmetricpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSymmetricPluginManager">
+<tt class="descname">getSymmetricPluginManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getSymmetricPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the symmetric cipher plugin manager.  If it doesn&#8217;t exist it&#8217;s created.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">SymmetricPluginManager</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setsymmetricpluginmanager">
+<h3>154.1.4. setSymmetricPluginManager<a class="headerlink" href="#setsymmetricpluginmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSymmetricPluginManager">
+<tt class="descname">setSymmetricPluginManager</tt><big>(</big><em>$plugins</em><big>)</big><a class="headerlink" href="#setSymmetricPluginManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the symmetric cipher plugin manager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$plugins</strong> (<em>string|SymmetricPluginManager</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcipher">
+<h3>154.1.5. setCipher<a class="headerlink" href="#setcipher" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCipher">
+<tt class="descname">setCipher</tt><big>(</big><em>$cipher</em><big>)</big><a class="headerlink" href="#setCipher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the symmetric cipher</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$cipher</strong> (<em>SymmetricInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcipher">
+<h3>154.1.6. getCipher<a class="headerlink" href="#getcipher" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCipher">
+<tt class="descname">getCipher</tt><big>(</big><big>)</big><a class="headerlink" href="#getCipher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get symmetric cipher</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">SymmetricInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setkeyiteration">
+<h3>154.1.7. setKeyIteration<a class="headerlink" href="#setkeyiteration" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setKeyIteration">
+<tt class="descname">setKeyIteration</tt><big>(</big><em>$num</em><big>)</big><a class="headerlink" href="#setKeyIteration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the number of iterations for Pbkdf2</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$num</strong> (<em>integer</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getkeyiteration">
+<h3>154.1.8. getKeyIteration<a class="headerlink" href="#getkeyiteration" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getKeyIteration">
+<tt class="descname">getKeyIteration</tt><big>(</big><big>)</big><a class="headerlink" href="#getKeyIteration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the number of iterations for Pbkdf2</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">integer</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setsalt">
+<h3>154.1.9. setSalt<a class="headerlink" href="#setsalt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setSalt">
+<tt class="descname">setSalt</tt><big>(</big><em>$salt</em><big>)</big><a class="headerlink" href="#setSalt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the salt (IV)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$salt</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getsalt">
+<h3>154.1.10. getSalt<a class="headerlink" href="#getsalt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getSalt">
+<tt class="descname">getSalt</tt><big>(</big><big>)</big><a class="headerlink" href="#getSalt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the salt (IV)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setbinaryoutput">
+<h3>154.1.11. setBinaryOutput<a class="headerlink" href="#setbinaryoutput" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setBinaryOutput">
+<tt class="descname">setBinaryOutput</tt><big>(</big><em>$value</em><big>)</big><a class="headerlink" href="#setBinaryOutput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable/disable the binary output</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$value</strong> (<em>bool</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getbinaryoutput">
+<h3>154.1.12. getBinaryOutput<a class="headerlink" href="#getbinaryoutput" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBinaryOutput">
+<tt class="descname">getBinaryOutput</tt><big>(</big><big>)</big><a class="headerlink" href="#getBinaryOutput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the value of binary output</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setkey">
+<h3>154.1.13. setKey<a class="headerlink" href="#setkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setKey">
+<tt class="descname">setKey</tt><big>(</big><em>$key</em><big>)</big><a class="headerlink" href="#setKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the encryption/decryption key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$key</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getkey">
+<h3>154.1.14. getKey<a class="headerlink" href="#getkey" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getKey">
+<tt class="descname">getKey</tt><big>(</big><big>)</big><a class="headerlink" href="#getKey" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the key</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setcipheralgorithm">
+<h3>154.1.15. setCipherAlgorithm<a class="headerlink" href="#setcipheralgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setCipherAlgorithm">
+<tt class="descname">setCipherAlgorithm</tt><big>(</big><em>$algo</em><big>)</big><a class="headerlink" href="#setCipherAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set algorithm of the symmetric cipher</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$algo</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcipheralgorithm">
+<h3>154.1.16. getCipherAlgorithm<a class="headerlink" href="#getcipheralgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCipherAlgorithm">
+<tt class="descname">getCipherAlgorithm</tt><big>(</big><big>)</big><a class="headerlink" href="#getCipherAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the cipher algorithm</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getciphersupportedalgorithms">
+<h3>154.1.17. getCipherSupportedAlgorithms<a class="headerlink" href="#getciphersupportedalgorithms" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getCipherSupportedAlgorithms">
+<tt class="descname">getCipherSupportedAlgorithms</tt><big>(</big><big>)</big><a class="headerlink" href="#getCipherSupportedAlgorithms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the supported algorithms of the symmetric cipher</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">array</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="sethashalgorithm">
+<h3>154.1.18. setHashAlgorithm<a class="headerlink" href="#sethashalgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setHashAlgorithm">
+<tt class="descname">setHashAlgorithm</tt><big>(</big><em>$hash</em><big>)</big><a class="headerlink" href="#setHashAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the hash algorithm for HMAC authentication</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$hash</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">BlockCipher</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gethashalgorithm">
+<h3>154.1.19. getHashAlgorithm<a class="headerlink" href="#gethashalgorithm" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getHashAlgorithm">
+<tt class="descname">getHashAlgorithm</tt><big>(</big><big>)</big><a class="headerlink" href="#getHashAlgorithm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the hash algorithm for HMAC authentication</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="encrypt">
+<h3>154.1.20. encrypt<a class="headerlink" href="#encrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">encrypt</tt><big>(</big><em>$data</em><big>)</big></dt>
+<dd><p>Encrypt then authenticate using HMAC</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="decrypt">
+<h3>154.1.21. decrypt<a class="headerlink" href="#decrypt" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">decrypt</tt><big>(</big><em>$data</em><big>)</big></dt>
+<dd><p>Decrypt</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$data</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string|bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionInvalidArgumentException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h3>154.1.22. Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="key-deriv-hmac">
+<h4>154.1.22.1. KEY_DERIV_HMAC<a class="headerlink" href="#key-deriv-hmac" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">154. Zend\Crypt\BlockCipher</a><ul>
+<li><a class="reference internal" href="#methods">154.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">154.1.1. __construct</a></li>
+<li><a class="reference internal" href="#factory">154.1.2. factory</a></li>
+<li><a class="reference internal" href="#getsymmetricpluginmanager">154.1.3. getSymmetricPluginManager</a></li>
+<li><a class="reference internal" href="#setsymmetricpluginmanager">154.1.4. setSymmetricPluginManager</a></li>
+<li><a class="reference internal" href="#setcipher">154.1.5. setCipher</a></li>
+<li><a class="reference internal" href="#getcipher">154.1.6. getCipher</a></li>
+<li><a class="reference internal" href="#setkeyiteration">154.1.7. setKeyIteration</a></li>
+<li><a class="reference internal" href="#getkeyiteration">154.1.8. getKeyIteration</a></li>
+<li><a class="reference internal" href="#setsalt">154.1.9. setSalt</a></li>
+<li><a class="reference internal" href="#getsalt">154.1.10. getSalt</a></li>
+<li><a class="reference internal" href="#setbinaryoutput">154.1.11. setBinaryOutput</a></li>
+<li><a class="reference internal" href="#getbinaryoutput">154.1.12. getBinaryOutput</a></li>
+<li><a class="reference internal" href="#setkey">154.1.13. setKey</a></li>
+<li><a class="reference internal" href="#getkey">154.1.14. getKey</a></li>
+<li><a class="reference internal" href="#setcipheralgorithm">154.1.15. setCipherAlgorithm</a></li>
+<li><a class="reference internal" href="#getcipheralgorithm">154.1.16. getCipherAlgorithm</a></li>
+<li><a class="reference internal" href="#getciphersupportedalgorithms">154.1.17. getCipherSupportedAlgorithms</a></li>
+<li><a class="reference internal" href="#sethashalgorithm">154.1.18. setHashAlgorithm</a></li>
+<li><a class="reference internal" href="#gethashalgorithm">154.1.19. getHashAlgorithm</a></li>
+<li><a class="reference internal" href="#encrypt">154.1.20. encrypt</a></li>
+<li><a class="reference internal" href="#decrypt">154.1.21. decrypt</a></li>
+<li><a class="reference internal" href="#constants">154.1.22. Constants</a><ul>
+<li><a class="reference internal" href="#key-deriv-hmac">154.1.22.1. KEY_DERIV_HMAC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../CreativeCommons/Feed.html"
+                        title="previous chapter">153. Zend\Feed\Reader\Extension\CreativeCommons\Feed</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Hash.html"
+                        title="next chapter">155. Zend\Crypt\Hash</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Crypt/BlockCipher.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Hash.html" title="155. Zend\Crypt\Hash"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../CreativeCommons/Feed.html" title="153. Zend\Feed\Reader\Extension\CreativeCommons\Feed"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

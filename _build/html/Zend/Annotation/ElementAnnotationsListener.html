@@ -1,0 +1,458 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>61. Zend\Form\Annotation\ElementAnnotationsListener &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="62. Zend\Form\Annotation\ErrorMessage" href="ErrorMessage.html" />
+    <link rel="prev" title="60. Zend\Form\Annotation\ComposedObject" href="ComposedObject.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ErrorMessage.html" title="62. Zend\Form\Annotation\ErrorMessage"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="ComposedObject.html" title="60. Zend\Form\Annotation\ComposedObject"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-form-annotation-elementannotationslistener">
+<h1>61. Zend\Form\Annotation\ElementAnnotationsListener<a class="headerlink" href="#zend-form-annotation-elementannotationslistener" title="Permalink to this headline">¶</a></h1>
+<p>Default listeners for element annotations</p>
+<p>Defines and attaches a set of default listeners for element annotations
+(which are defined on object properties). These include:</p>
+<ul class="simple">
+<li>AllowEmpty</li>
+<li>Attributes</li>
+<li>ErrorMessage</li>
+<li>Filter</li>
+<li>Flags</li>
+<li>Input</li>
+<li>Hydrator</li>
+<li>Object</li>
+<li>Required</li>
+<li>Type</li>
+<li>Validator</li>
+</ul>
+<p>See the individual annotation classes for more details. The handlers registered
+work with the annotation values, as well as the element and input specification
+passed in the event object.</p>
+<div class="section" id="methods">
+<h2>61.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="attach">
+<h3>61.1.1. attach<a class="headerlink" href="#attach" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">attach</tt><big>(</big><em>$events</em><big>)</big></dt>
+<dd><p>Attach listeners</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$events</strong> (<em>EventManagerInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleallowemptyannotation">
+<h3>61.1.2. handleAllowEmptyAnnotation<a class="headerlink" href="#handleallowemptyannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleAllowEmptyAnnotation">
+<tt class="descname">handleAllowEmptyAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleAllowEmptyAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the AllowEmpty annotation</p>
+<p>Sets the allow_empty flag on the input specification array.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleattributesannotation">
+<h3>61.1.3. handleAttributesAnnotation<a class="headerlink" href="#handleattributesannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleAttributesAnnotation">
+<tt class="descname">handleAttributesAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleAttributesAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Attributes annotation</p>
+<p>Sets the attributes array of the element specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handlecomposedobjectannotation">
+<h3>61.1.4. handleComposedObjectAnnotation<a class="headerlink" href="#handlecomposedobjectannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleComposedObjectAnnotation">
+<tt class="descname">handleComposedObjectAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleComposedObjectAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Allow creating fieldsets from composed entity properties</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleerrormessageannotation">
+<h3>61.1.5. handleErrorMessageAnnotation<a class="headerlink" href="#handleerrormessageannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleErrorMessageAnnotation">
+<tt class="descname">handleErrorMessageAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleErrorMessageAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the ErrorMessage annotation</p>
+<p>Sets the error_message of the input specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleexcludeannotation">
+<h3>61.1.6. handleExcludeAnnotation<a class="headerlink" href="#handleexcludeannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleExcludeAnnotation">
+<tt class="descname">handleExcludeAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleExcludeAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if the element has been marked to exclude from the definition</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handlefilterannotation">
+<h3>61.1.7. handleFilterAnnotation<a class="headerlink" href="#handlefilterannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleFilterAnnotation">
+<tt class="descname">handleFilterAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleFilterAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Filter annotation</p>
+<p>Adds a filter to the filter chain specification for the input.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleflagsannotation">
+<h3>61.1.8. handleFlagsAnnotation<a class="headerlink" href="#handleflagsannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleFlagsAnnotation">
+<tt class="descname">handleFlagsAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleFlagsAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Flags annotation</p>
+<p>Sets the element flags in the specification (used typically for setting
+priority).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handlehydratorannotation">
+<h3>61.1.9. handleHydratorAnnotation<a class="headerlink" href="#handlehydratorannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleHydratorAnnotation">
+<tt class="descname">handleHydratorAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleHydratorAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Hydrator annotation</p>
+<p>Sets the hydrator class to use in the fieldset specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleinputannotation">
+<h3>61.1.10. handleInputAnnotation<a class="headerlink" href="#handleinputannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleInputAnnotation">
+<tt class="descname">handleInputAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleInputAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Input annotation</p>
+<p>Sets the filter specification for the current element to the specified
+input class name.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleobjectannotation">
+<h3>61.1.11. handleObjectAnnotation<a class="headerlink" href="#handleobjectannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleObjectAnnotation">
+<tt class="descname">handleObjectAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleObjectAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Object annotation</p>
+<p>Sets the object to bind to the form or fieldset</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handleoptionsannotation">
+<h3>61.1.12. handleOptionsAnnotation<a class="headerlink" href="#handleoptionsannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleOptionsAnnotation">
+<tt class="descname">handleOptionsAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleOptionsAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Options annotation</p>
+<p>Sets the element options in the specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handlerequiredannotation">
+<h3>61.1.13. handleRequiredAnnotation<a class="headerlink" href="#handlerequiredannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleRequiredAnnotation">
+<tt class="descname">handleRequiredAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleRequiredAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Required annotation</p>
+<p>Sets the required flag on the input based on the annotation value.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handletypeannotation">
+<h3>61.1.14. handleTypeAnnotation<a class="headerlink" href="#handletypeannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleTypeAnnotation">
+<tt class="descname">handleTypeAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleTypeAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Type annotation</p>
+<p>Sets the element class type to use in the element specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="handlevalidatorannotation">
+<h3>61.1.15. handleValidatorAnnotation<a class="headerlink" href="#handlevalidatorannotation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="handleValidatorAnnotation">
+<tt class="descname">handleValidatorAnnotation</tt><big>(</big><em>$e</em><big>)</big><a class="headerlink" href="#handleValidatorAnnotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handle the Validator annotation</p>
+<p>Adds a validator to the validator chain of the input specification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$e</strong> (<em>ZendEventManagerEventInterface</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">61. Zend\Form\Annotation\ElementAnnotationsListener</a><ul>
+<li><a class="reference internal" href="#methods">61.1. Methods</a><ul>
+<li><a class="reference internal" href="#attach">61.1.1. attach</a></li>
+<li><a class="reference internal" href="#handleallowemptyannotation">61.1.2. handleAllowEmptyAnnotation</a></li>
+<li><a class="reference internal" href="#handleattributesannotation">61.1.3. handleAttributesAnnotation</a></li>
+<li><a class="reference internal" href="#handlecomposedobjectannotation">61.1.4. handleComposedObjectAnnotation</a></li>
+<li><a class="reference internal" href="#handleerrormessageannotation">61.1.5. handleErrorMessageAnnotation</a></li>
+<li><a class="reference internal" href="#handleexcludeannotation">61.1.6. handleExcludeAnnotation</a></li>
+<li><a class="reference internal" href="#handlefilterannotation">61.1.7. handleFilterAnnotation</a></li>
+<li><a class="reference internal" href="#handleflagsannotation">61.1.8. handleFlagsAnnotation</a></li>
+<li><a class="reference internal" href="#handlehydratorannotation">61.1.9. handleHydratorAnnotation</a></li>
+<li><a class="reference internal" href="#handleinputannotation">61.1.10. handleInputAnnotation</a></li>
+<li><a class="reference internal" href="#handleobjectannotation">61.1.11. handleObjectAnnotation</a></li>
+<li><a class="reference internal" href="#handleoptionsannotation">61.1.12. handleOptionsAnnotation</a></li>
+<li><a class="reference internal" href="#handlerequiredannotation">61.1.13. handleRequiredAnnotation</a></li>
+<li><a class="reference internal" href="#handletypeannotation">61.1.14. handleTypeAnnotation</a></li>
+<li><a class="reference internal" href="#handlevalidatorannotation">61.1.15. handleValidatorAnnotation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="ComposedObject.html"
+                        title="previous chapter">60. Zend\Form\Annotation\ComposedObject</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ErrorMessage.html"
+                        title="next chapter">62. Zend\Form\Annotation\ErrorMessage</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Annotation/ElementAnnotationsListener.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ErrorMessage.html" title="62. Zend\Form\Annotation\ErrorMessage"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="ComposedObject.html" title="60. Zend\Form\Annotation\ComposedObject"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

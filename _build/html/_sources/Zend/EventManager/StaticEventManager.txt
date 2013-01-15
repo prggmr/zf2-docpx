@@ -1,0 +1,90 @@
+.. /EventManager/StaticEventManager.php generated using docpx on 01/15/13 05:29pm
+
+
+Zend\\EventManager\\StaticEventManager
+**************************************
+
+
+Static version of EventManager
+
+
+
+Methods
+=======
+
+__construct
+-----------
+
+.. function:: __construct()
+
+
+    Singleton
+
+    :rtype: void 
+
+
+
+__clone
+-------
+
+.. function:: __clone()
+
+
+    Singleton
+
+    :rtype: void 
+
+
+
+getInstance
+-----------
+
+.. function:: getInstance()
+
+
+    Retrieve instance
+
+    :rtype: StaticEventManager 
+
+
+
+setInstance
+-----------
+
+.. function:: setInstance($instance)
+
+
+    Set the singleton to a specific SharedEventManagerInterface instance
+
+    :param SharedEventManagerInterface $instance: 
+
+    :rtype: void 
+
+
+
+hasInstance
+-----------
+
+.. function:: hasInstance()
+
+
+    Is a singleton instance defined?
+
+    :rtype: bool 
+
+
+
+resetInstance
+-------------
+
+.. function:: resetInstance()
+
+
+    Reset the singleton instance
+
+    :rtype: void 
+
+
+
+
+

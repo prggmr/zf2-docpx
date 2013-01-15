@@ -1,0 +1,570 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>17. Zend\Cache\Storage\Adapter\Dba &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="18. Zend\Cache\Storage\Adapter\DbaIterator" href="DbaIterator.html" />
+    <link rel="prev" title="16. Zend\Authentication\Adapter\DbTable" href="DbTable.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="DbaIterator.html" title="18. Zend\Cache\Storage\Adapter\DbaIterator"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DbTable.html" title="16. Zend\Authentication\Adapter\DbTable"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-cache-storage-adapter-dba">
+<h1>17. Zend\Cache\Storage\Adapter\Dba<a class="headerlink" href="#zend-cache-storage-adapter-dba" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="methods">
+<h2>17.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>17.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>null|array|Traversable|DbaOptions</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionExceptionInterface:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="destruct">
+<h3>17.1.2. __destruct<a class="headerlink" href="#destruct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__destruct">
+<tt class="descname">__destruct</tt><big>(</big><big>)</big><a class="headerlink" href="#__destruct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destructor</p>
+<p>Closes an open dba resource</p>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<p>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</p>
+<blockquote>
+<div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rtype:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="setoptions">
+<h3>17.1.3. setOptions<a class="headerlink" href="#setoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setOptions">
+<tt class="descname">setOptions</tt><big>(</big><em>$options</em><big>)</big><a class="headerlink" href="#setOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set options.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array|Traversable|DbaOptions</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Apc</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">g g</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="getoptions">
+<h3>17.1.4. getOptions<a class="headerlink" href="#getoptions" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getOptions">
+<tt class="descname">getOptions</tt><big>(</big><big>)</big><a class="headerlink" href="#getOptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get options.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">DbaOptions</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Warning: Illegal string offset &#8216;type&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43</p>
+<dl class="docutils">
+<dt>Warning: Illegal string offset &#8216;text&#8217; in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44</dt>
+<dd><table class="first last docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">see:</th><td class="field-body">s s</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<div class="section" id="gettotalspace">
+<h3>17.1.5. getTotalSpace<a class="headerlink" href="#gettotalspace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getTotalSpace">
+<tt class="descname">getTotalSpace</tt><big>(</big><big>)</big><a class="headerlink" href="#getTotalSpace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get total space in bytes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int|float</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="event">
+<h3>17.1.6. $event<a class="headerlink" href="#event" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">$event()</tt></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="getavailablespace">
+<h3>17.1.7. getAvailableSpace<a class="headerlink" href="#getavailablespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getAvailableSpace">
+<tt class="descname">getAvailableSpace</tt><big>(</big><big>)</big><a class="headerlink" href="#getAvailableSpace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get available space in bytes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int|float</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="flush">
+<h3>17.1.8. flush<a class="headerlink" href="#flush" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">flush</tt><big>(</big><big>)</big></dt>
+<dd><p>Flush the whole storage</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearbynamespace">
+<h3>17.1.9. clearByNamespace<a class="headerlink" href="#clearbynamespace" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearByNamespace">
+<tt class="descname">clearByNamespace</tt><big>(</big><em>$namespace</em><big>)</big><a class="headerlink" href="#clearByNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove items by given namespace</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$namespace</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearbyprefix">
+<h3>17.1.10. clearByPrefix<a class="headerlink" href="#clearbyprefix" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearByPrefix">
+<tt class="descname">clearByPrefix</tt><big>(</big><em>$prefix</em><big>)</big><a class="headerlink" href="#clearByPrefix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove items matching given prefix</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$prefix</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getiterator">
+<h3>17.1.11. getIterator<a class="headerlink" href="#getiterator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getIterator">
+<tt class="descname">getIterator</tt><big>(</big><big>)</big><a class="headerlink" href="#getIterator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the storage iterator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">ApcIterator</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="optimize">
+<h3>17.1.12. optimize<a class="headerlink" href="#optimize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">optimize</tt><big>(</big><big>)</big></dt>
+<dd><p>Optimize the storage</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalgetitem">
+<h3>17.1.13. internalGetItem<a class="headerlink" href="#internalgetitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetItem">
+<tt class="descname">internalGetItem</tt><big>(</big><em>$normalizedKey</em><span class="optional">[</span>, <em>$success = false</em><span class="optional">[</span>, <em>$casToken = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#internalGetItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to get an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$success</strong> (<em>bool</em>) &#8211; </li>
+<li><strong>$casToken</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">mixed Data on success, null on failure</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalhasitem">
+<h3>17.1.14. internalHasItem<a class="headerlink" href="#internalhasitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalHasItem">
+<tt class="descname">internalHasItem</tt><big>(</big><em>$normalizedKey</em><big>)</big><a class="headerlink" href="#internalHasItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to test if an item exists.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalsetitem">
+<h3>17.1.15. internalSetItem<a class="headerlink" href="#internalsetitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalSetItem">
+<tt class="descname">internalSetItem</tt><big>(</big><em>$normalizedKey</em>, <em>$value</em><big>)</big><a class="headerlink" href="#internalSetItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to store an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">bool</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internaladditem">
+<h3>17.1.16. internalAddItem<a class="headerlink" href="#internaladditem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalAddItem">
+<tt class="descname">internalAddItem</tt><big>(</big><em>$normalizedKey</em>, <em>$value</em><big>)</big><a class="headerlink" href="#internalAddItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </li>
+<li><strong>$value</strong> (<em>mixed</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">bool</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body"><p class="first last">ExceptionExceptionInterface</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalremoveitem">
+<h3>17.1.17. internalRemoveItem<a class="headerlink" href="#internalremoveitem" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalRemoveItem">
+<tt class="descname">internalRemoveItem</tt><big>(</big><em>$normalizedKey</em><big>)</big><a class="headerlink" href="#internalRemoveItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to remove an item.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$normalizedKey</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionExceptionInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="internalgetcapabilities">
+<h3>17.1.18. internalGetCapabilities<a class="headerlink" href="#internalgetcapabilities" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="internalGetCapabilities">
+<tt class="descname">internalGetCapabilities</tt><big>(</big><big>)</big><a class="headerlink" href="#internalGetCapabilities" title="Permalink to this definition">¶</a></dt>
+<dd><p>Internal method to get capabilities of this adapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Capabilities</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>17.1.19. $event<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">$event()</tt></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="open">
+<h3>17.1.20. _open<a class="headerlink" href="#open" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_open">
+<tt class="descname">_open</tt><big>(</big><big>)</big><a class="headerlink" href="#_open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open the database if not already done.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionLogicException</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="close">
+<h3>17.1.21. _close<a class="headerlink" href="#close" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="_close">
+<tt class="descname">_close</tt><big>(</big><big>)</big><a class="headerlink" href="#_close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Close database file if opened</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">17. Zend\Cache\Storage\Adapter\Dba</a><ul>
+<li><a class="reference internal" href="#methods">17.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">17.1.1. __construct</a></li>
+<li><a class="reference internal" href="#destruct">17.1.2. __destruct</a></li>
+<li><a class="reference internal" href="#setoptions">17.1.3. setOptions</a></li>
+<li><a class="reference internal" href="#getoptions">17.1.4. getOptions</a></li>
+<li><a class="reference internal" href="#gettotalspace">17.1.5. getTotalSpace</a></li>
+<li><a class="reference internal" href="#event">17.1.6. $event</a></li>
+<li><a class="reference internal" href="#getavailablespace">17.1.7. getAvailableSpace</a></li>
+<li><a class="reference internal" href="#flush">17.1.8. flush</a></li>
+<li><a class="reference internal" href="#clearbynamespace">17.1.9. clearByNamespace</a></li>
+<li><a class="reference internal" href="#clearbyprefix">17.1.10. clearByPrefix</a></li>
+<li><a class="reference internal" href="#getiterator">17.1.11. getIterator</a></li>
+<li><a class="reference internal" href="#optimize">17.1.12. optimize</a></li>
+<li><a class="reference internal" href="#internalgetitem">17.1.13. internalGetItem</a></li>
+<li><a class="reference internal" href="#internalhasitem">17.1.14. internalHasItem</a></li>
+<li><a class="reference internal" href="#internalsetitem">17.1.15. internalSetItem</a></li>
+<li><a class="reference internal" href="#internaladditem">17.1.16. internalAddItem</a></li>
+<li><a class="reference internal" href="#internalremoveitem">17.1.17. internalRemoveItem</a></li>
+<li><a class="reference internal" href="#internalgetcapabilities">17.1.18. internalGetCapabilities</a></li>
+<li><a class="reference internal" href="#id1">17.1.19. $event</a></li>
+<li><a class="reference internal" href="#open">17.1.20. _open</a></li>
+<li><a class="reference internal" href="#close">17.1.21. _close</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DbTable.html"
+                        title="previous chapter">16. Zend\Authentication\Adapter\DbTable</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="DbaIterator.html"
+                        title="next chapter">18. Zend\Cache\Storage\Adapter\DbaIterator</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/Dba.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="DbaIterator.html" title="18. Zend\Cache\Storage\Adapter\DbaIterator"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DbTable.html" title="16. Zend\Authentication\Adapter\DbTable"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

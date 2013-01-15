@@ -1,0 +1,432 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>25. Zend\File\Transfer\Adapter\Http &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="26. Zend\Cache\Storage\Adapter\KeyListIterator" href="KeyListIterator.html" />
+    <link rel="prev" title="24. Zend\File\Transfer\Adapter\FilterPluginManager" href="FilterPluginManager.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="KeyListIterator.html" title="26. Zend\Cache\Storage\Adapter\KeyListIterator"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="24. Zend\File\Transfer\Adapter\FilterPluginManager"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-file-transfer-adapter-http">
+<h1>25. Zend\File\Transfer\Adapter\Http<a class="headerlink" href="#zend-file-transfer-adapter-http" title="Permalink to this headline">¶</a></h1>
+<p>File transfer adapter class for the HTTP protocol</p>
+<div class="section" id="methods">
+<h2>25.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>25.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor for Http File Transfers</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>array</em>) &#8211; OPTIONAL Options to set</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionPhpEnvironmentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">if file uploads are not allowed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setvalidators">
+<h3>25.1.2. setValidators<a class="headerlink" href="#setvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setValidators">
+<tt class="descname">setValidators</tt><big>(</big><em>$validators</em><span class="optional">[</span>, <em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets a validator for the class, erasing all previous set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$validators</strong> (<em>array</em>) &#8211; Validator to set</li>
+<li><strong>$files</strong> (<em>string|array</em>) &#8211; Files to limit this validator to</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">AbstractAdapter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="removevalidator">
+<h3>25.1.3. removeValidator<a class="headerlink" href="#removevalidator" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="removeValidator">
+<tt class="descname">removeValidator</tt><big>(</big><em>$name</em><big>)</big><a class="headerlink" href="#removeValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove an individual validator</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="clearvalidators">
+<h3>25.1.4. clearValidators<a class="headerlink" href="#clearvalidators" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="clearValidators">
+<tt class="descname">clearValidators</tt><big>(</big><big>)</big><a class="headerlink" href="#clearValidators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear the validators</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">AbstractAdapter</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="send">
+<h3>25.1.5. send<a class="headerlink" href="#send" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">send</tt><big>(</big><span class="optional">[</span><em>$options = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Send the file to the client (Download)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$options</strong> (<em>string|array</em>) &#8211; Options for the file(s) to send</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionBadMethodCallException Not implemented</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isvalid">
+<h3>25.1.6. isValid<a class="headerlink" href="#isvalid" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isValid">
+<tt class="descname">isValid</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isValid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the files are valid</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool True if all checks are valid</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="receive">
+<h3>25.1.7. receive<a class="headerlink" href="#receive" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">receive</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big></dt>
+<dd><p>Receive the file from the client (Upload)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to receive</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="issent">
+<h3>25.1.8. isSent<a class="headerlink" href="#issent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isSent">
+<tt class="descname">isSent</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isSent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the file was already sent</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionBadMethodCallException Not implemented</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isreceived">
+<h3>25.1.9. isReceived<a class="headerlink" href="#isreceived" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isReceived">
+<tt class="descname">isReceived</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isReceived" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the file was already received</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isfiltered">
+<h3>25.1.10. isFiltered<a class="headerlink" href="#isfiltered" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isFiltered">
+<tt class="descname">isFiltered</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isFiltered" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the file was already filtered</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>string|array</em>) &#8211; (Optional) Files to check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isuploaded">
+<h3>25.1.11. isUploaded<a class="headerlink" href="#isuploaded" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isUploaded">
+<tt class="descname">isUploaded</tt><big>(</big><span class="optional">[</span><em>$files = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#isUploaded" title="Permalink to this definition">¶</a></dt>
+<dd><p>Has a file been uploaded ?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$files</strong> (<em>array|string|null</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getprogress">
+<h3>25.1.12. getProgress<a class="headerlink" href="#getprogress" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getProgress">
+<tt class="descname">getProgress</tt><big>(</big><span class="optional">[</span><em>$id = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#getProgress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the actual progress of file up-/downloads</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$id</strong> (<em>string|array</em>) &#8211; The upload to get the progress for</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">array|null</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Throws :</th><td class="field-body">ExceptionPhpEnvironmentException whether APC nor UploadProgress extension installed</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Throws :</th><td class="field-body">ExceptionRuntimeException</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isapcavailable">
+<h3>25.1.13. isApcAvailable<a class="headerlink" href="#isapcavailable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isApcAvailable">
+<tt class="descname">isApcAvailable</tt><big>(</big><big>)</big><a class="headerlink" href="#isApcAvailable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks the APC extension for progress information</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="isuploadprogressavailable">
+<h3>25.1.14. isUploadProgressAvailable<a class="headerlink" href="#isuploadprogressavailable" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="isUploadProgressAvailable">
+<tt class="descname">isUploadProgressAvailable</tt><big>(</big><big>)</big><a class="headerlink" href="#isUploadProgressAvailable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks the UploadProgress extension for progress information</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preparefiles">
+<h3>25.1.15. prepareFiles<a class="headerlink" href="#preparefiles" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="prepareFiles">
+<tt class="descname">prepareFiles</tt><big>(</big><big>)</big><a class="headerlink" href="#prepareFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare the $_FILES array to match the internal syntax of one file per entry</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Http</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">25. Zend\File\Transfer\Adapter\Http</a><ul>
+<li><a class="reference internal" href="#methods">25.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">25.1.1. __construct</a></li>
+<li><a class="reference internal" href="#setvalidators">25.1.2. setValidators</a></li>
+<li><a class="reference internal" href="#removevalidator">25.1.3. removeValidator</a></li>
+<li><a class="reference internal" href="#clearvalidators">25.1.4. clearValidators</a></li>
+<li><a class="reference internal" href="#send">25.1.5. send</a></li>
+<li><a class="reference internal" href="#isvalid">25.1.6. isValid</a></li>
+<li><a class="reference internal" href="#receive">25.1.7. receive</a></li>
+<li><a class="reference internal" href="#issent">25.1.8. isSent</a></li>
+<li><a class="reference internal" href="#isreceived">25.1.9. isReceived</a></li>
+<li><a class="reference internal" href="#isfiltered">25.1.10. isFiltered</a></li>
+<li><a class="reference internal" href="#isuploaded">25.1.11. isUploaded</a></li>
+<li><a class="reference internal" href="#getprogress">25.1.12. getProgress</a></li>
+<li><a class="reference internal" href="#isapcavailable">25.1.13. isApcAvailable</a></li>
+<li><a class="reference internal" href="#isuploadprogressavailable">25.1.14. isUploadProgressAvailable</a></li>
+<li><a class="reference internal" href="#preparefiles">25.1.15. prepareFiles</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="FilterPluginManager.html"
+                        title="previous chapter">24. Zend\File\Transfer\Adapter\FilterPluginManager</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="KeyListIterator.html"
+                        title="next chapter">26. Zend\Cache\Storage\Adapter\KeyListIterator</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Adapter/Http.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="KeyListIterator.html" title="26. Zend\Cache\Storage\Adapter\KeyListIterator"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="FilterPluginManager.html" title="24. Zend\File\Transfer\Adapter\FilterPluginManager"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

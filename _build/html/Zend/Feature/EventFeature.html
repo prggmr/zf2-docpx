@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>355. Zend\Db\TableGateway\Feature\EventFeature &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="356. Zend\Db\TableGateway\Feature\FeatureSet" href="FeatureSet.html" />
+    <link rel="prev" title="352. Zend\Db\Adapter\Driver\Feature\setupDefaultFeatures" href="DriverFeatureInterface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="FeatureSet.html" title="356. Zend\Db\TableGateway\Feature\FeatureSet"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DriverFeatureInterface.html" title="352. Zend\Db\Adapter\Driver\Feature\setupDefaultFeatures"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-db-tablegateway-feature-eventfeature">
+<h1>355. Zend\Db\TableGateway\Feature\EventFeature<a class="headerlink" href="#zend-db-tablegateway-feature-eventfeature" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category   Zend</p>
+<div class="section" id="methods">
+<h2>355.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construct">
+<h3>355.1.1. __construct<a class="headerlink" href="#construct" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="__construct">
+<tt class="descname">__construct</tt><big>(</big><span class="optional">[</span><em>$eventManager = false</em><span class="optional">[</span>, <em>$tableGatewayEvent = false</em><span class="optional">]</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#__construct" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param EventManagerInterface $eventManager</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$tableGatewayEvent</strong> (<em>EventFeatureTableGatewayEvent</em>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="geteventmanager">
+<h3>355.1.2. getEventManager<a class="headerlink" href="#geteventmanager" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEventManager">
+<tt class="descname">getEventManager</tt><big>(</big><big>)</big><a class="headerlink" href="#getEventManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve composed event manager instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">EventManagerInterface</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getevent">
+<h3>355.1.3. getEvent<a class="headerlink" href="#getevent" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEvent">
+<tt class="descname">getEvent</tt><big>(</big><big>)</big><a class="headerlink" href="#getEvent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve composed event instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">EventFeatureTableGatewayEvent</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preinitialize">
+<h3>355.1.4. preInitialize<a class="headerlink" href="#preinitialize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="preInitialize">
+<tt class="descname">preInitialize</tt><big>(</big><big>)</big><a class="headerlink" href="#preInitialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize feature and trigger &#8220;preInitialize&#8221; event</p>
+<p>Ensures that the composed TableGateway has identifiers based on the
+class name, and that the event target is set to the TableGateway
+instance. It then triggers the &#8220;preInitialize&#8221; event.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="postinitialize">
+<h3>355.1.5. postInitialize<a class="headerlink" href="#postinitialize" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="postInitialize">
+<tt class="descname">postInitialize</tt><big>(</big><big>)</big><a class="headerlink" href="#postInitialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;postInitialize&#8221; event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preselect">
+<h3>355.1.6. preSelect<a class="headerlink" href="#preselect" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="preSelect">
+<tt class="descname">preSelect</tt><big>(</big><em>$select</em><big>)</big><a class="headerlink" href="#preSelect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;preSelect&#8221; event</p>
+<p>Triggers the &#8220;preSelect&#8221; event mapping the following parameters:
+- $select as &#8220;select&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$select</strong> (<em>Select</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="postselect">
+<h3>355.1.7. postSelect<a class="headerlink" href="#postselect" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="postSelect">
+<tt class="descname">postSelect</tt><big>(</big><em>$statement</em>, <em>$result</em>, <em>$resultSet</em><big>)</big><a class="headerlink" href="#postSelect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;postSelect&#8221; event</p>
+<p>Triggers the &#8220;postSelect&#8221; event mapping the following parameters:
+- $statement as &#8220;statement&#8221;
+- $result as &#8220;result&#8221;
+- $resultSet as &#8220;result_set&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$statement</strong> (<em>StatementInterface</em>) &#8211; </li>
+<li><strong>$result</strong> (<em>ResultInterface</em>) &#8211; </li>
+<li><strong>$resultSet</strong> (<em>ResultSetInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preinsert">
+<h3>355.1.8. preInsert<a class="headerlink" href="#preinsert" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="preInsert">
+<tt class="descname">preInsert</tt><big>(</big><em>$insert</em><big>)</big><a class="headerlink" href="#preInsert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;preInsert&#8221; event</p>
+<p>Triggers the &#8220;preInsert&#8221; event mapping the following parameters:
+- $insert as &#8220;insert&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$insert</strong> (<em>Insert</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="postinsert">
+<h3>355.1.9. postInsert<a class="headerlink" href="#postinsert" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="postInsert">
+<tt class="descname">postInsert</tt><big>(</big><em>$statement</em>, <em>$result</em><big>)</big><a class="headerlink" href="#postInsert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;postInsert&#8221; event</p>
+<p>Triggers the &#8220;postInsert&#8221; event mapping the following parameters:
+- $statement as &#8220;statement&#8221;
+- $result as &#8220;result&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$statement</strong> (<em>StatementInterface</em>) &#8211; </li>
+<li><strong>$result</strong> (<em>ResultInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="preupdate">
+<h3>355.1.10. preUpdate<a class="headerlink" href="#preupdate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="preUpdate">
+<tt class="descname">preUpdate</tt><big>(</big><em>$update</em><big>)</big><a class="headerlink" href="#preUpdate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;preUpdate&#8221; event</p>
+<p>Triggers the &#8220;preUpdate&#8221; event mapping the following parameters:
+- $update as &#8220;update&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$update</strong> (<em>Update</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="postupdate">
+<h3>355.1.11. postUpdate<a class="headerlink" href="#postupdate" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="postUpdate">
+<tt class="descname">postUpdate</tt><big>(</big><em>$statement</em>, <em>$result</em><big>)</big><a class="headerlink" href="#postUpdate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;postUpdate&#8221; event</p>
+<p>Triggers the &#8220;postUpdate&#8221; event mapping the following parameters:
+- $statement as &#8220;statement&#8221;
+- $result as &#8220;result&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$statement</strong> (<em>StatementInterface</em>) &#8211; </li>
+<li><strong>$result</strong> (<em>ResultInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="predelete">
+<h3>355.1.12. preDelete<a class="headerlink" href="#predelete" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="preDelete">
+<tt class="descname">preDelete</tt><big>(</big><em>$delete</em><big>)</big><a class="headerlink" href="#preDelete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;preDelete&#8221; event</p>
+<p>Triggers the &#8220;preDelete&#8221; event mapping the following parameters:
+- $delete as &#8220;delete&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$delete</strong> (<em>Delete</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">void</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="postdelete">
+<h3>355.1.13. postDelete<a class="headerlink" href="#postdelete" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="postDelete">
+<tt class="descname">postDelete</tt><big>(</big><em>$statement</em>, <em>$result</em><big>)</big><a class="headerlink" href="#postDelete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger the &#8220;postDelete&#8221; event</p>
+<p>Triggers the &#8220;postDelete&#8221; event mapping the following parameters:
+- $statement as &#8220;statement&#8221;
+- $result as &#8220;result&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>$statement</strong> (<em>StatementInterface</em>) &#8211; </li>
+<li><strong>$result</strong> (<em>ResultInterface</em>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">void</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">355. Zend\Db\TableGateway\Feature\EventFeature</a><ul>
+<li><a class="reference internal" href="#methods">355.1. Methods</a><ul>
+<li><a class="reference internal" href="#construct">355.1.1. __construct</a></li>
+<li><a class="reference internal" href="#geteventmanager">355.1.2. getEventManager</a></li>
+<li><a class="reference internal" href="#getevent">355.1.3. getEvent</a></li>
+<li><a class="reference internal" href="#preinitialize">355.1.4. preInitialize</a></li>
+<li><a class="reference internal" href="#postinitialize">355.1.5. postInitialize</a></li>
+<li><a class="reference internal" href="#preselect">355.1.6. preSelect</a></li>
+<li><a class="reference internal" href="#postselect">355.1.7. postSelect</a></li>
+<li><a class="reference internal" href="#preinsert">355.1.8. preInsert</a></li>
+<li><a class="reference internal" href="#postinsert">355.1.9. postInsert</a></li>
+<li><a class="reference internal" href="#preupdate">355.1.10. preUpdate</a></li>
+<li><a class="reference internal" href="#postupdate">355.1.11. postUpdate</a></li>
+<li><a class="reference internal" href="#predelete">355.1.12. preDelete</a></li>
+<li><a class="reference internal" href="#postdelete">355.1.13. postDelete</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="DriverFeatureInterface.html"
+                        title="previous chapter">352. Zend\Db\Adapter\Driver\Feature\setupDefaultFeatures</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="FeatureSet.html"
+                        title="next chapter">356. Zend\Db\TableGateway\Feature\FeatureSet</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Feature/EventFeature.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="FeatureSet.html" title="356. Zend\Db\TableGateway\Feature\FeatureSet"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DriverFeatureInterface.html" title="352. Zend\Db\Adapter\Driver\Feature\setupDefaultFeatures"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

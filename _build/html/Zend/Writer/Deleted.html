@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>901. Zend\Feed\Writer\Deleted &mdash; ZF2 by Docpx 2 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="ZF2 by Docpx 2 documentation" href="../../index.html" />
+    <link rel="next" title="902. Zend\Feed\Writer\Entry" href="Entry.html" />
+    <link rel="prev" title="900. Zend\Config\Writer\AbstractWriter" href="AbstractWriter.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Entry.html" title="902. Zend\Feed\Writer\Entry"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="AbstractWriter.html" title="900. Zend\Config\Writer\AbstractWriter"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="zend-feed-writer-deleted">
+<h1>901. Zend\Feed\Writer\Deleted<a class="headerlink" href="#zend-feed-writer-deleted" title="Permalink to this headline">¶</a></h1>
+<p>&#64;category Zend</p>
+<div class="section" id="methods">
+<h2>901.1. Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setencoding">
+<h3>901.1.1. setEncoding<a class="headerlink" href="#setencoding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setEncoding">
+<tt class="descname">setEncoding</tt><big>(</big><em>$encoding</em><big>)</big><a class="headerlink" href="#setEncoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the feed character encoding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$encoding</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getencoding">
+<h3>901.1.2. getEncoding<a class="headerlink" href="#getencoding" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getEncoding">
+<tt class="descname">getEncoding</tt><big>(</big><big>)</big><a class="headerlink" href="#getEncoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the feed character encoding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string|null</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="remove">
+<h3>901.1.3. remove<a class="headerlink" href="#remove" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt>
+<tt class="descname">remove</tt><big>(</big><em>$name</em><big>)</big></dt>
+<dd><p>Unset a specific data point</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$name</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="settype">
+<h3>901.1.4. setType<a class="headerlink" href="#settype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setType">
+<tt class="descname">setType</tt><big>(</big><em>$type</em><big>)</big><a class="headerlink" href="#setType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the current feed type being exported to &#8220;rss&#8221; or &#8220;atom&#8221;. This allows
+other objects to gracefully choose whether to execute or not, depending
+on their appropriateness for the current type, e.g. renderers.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$type</strong> (<em>string</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="gettype">
+<h3>901.1.5. getType<a class="headerlink" href="#gettype" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getType">
+<tt class="descname">getType</tt><big>(</big><big>)</big><a class="headerlink" href="#getType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve the current or last feed type exported.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string Value will be &#8220;rss&#8221; or &#8220;atom&#8221;</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="setreference">
+<h3>901.1.6. setReference<a class="headerlink" href="#setreference" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setReference">
+<tt class="descname">setReference</tt><big>(</big><em>$reference</em><big>)</big><a class="headerlink" href="#setReference" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set reference</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$reference</strong> &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getreference">
+<h3>901.1.7. getReference<a class="headerlink" href="#getreference" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getReference">
+<tt class="descname">getReference</tt><big>(</big><big>)</big><a class="headerlink" href="#getReference" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setwhen">
+<h3>901.1.8. setWhen<a class="headerlink" href="#setwhen" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setWhen">
+<tt class="descname">setWhen</tt><big>(</big><span class="optional">[</span><em>$date = false</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#setWhen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set when</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$date</strong> (<em>null|string|DateTime</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getwhen">
+<h3>901.1.9. getWhen<a class="headerlink" href="#getwhen" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getWhen">
+<tt class="descname">getWhen</tt><big>(</big><big>)</big><a class="headerlink" href="#getWhen" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return DateTime</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setby">
+<h3>901.1.10. setBy<a class="headerlink" href="#setby" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setBy">
+<tt class="descname">setBy</tt><big>(</big><em>$by</em><big>)</big><a class="headerlink" href="#setBy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set by</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>$by</strong> (<em>array</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Throws ExceptionInvalidArgumentException:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getby">
+<h3>901.1.11. getBy<a class="headerlink" href="#getby" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getBy">
+<tt class="descname">getBy</tt><big>(</big><big>)</big><a class="headerlink" href="#getBy" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+<div class="section" id="setcomment">
+<h3>901.1.12. setComment<a class="headerlink" href="#setcomment" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="setComment">
+<tt class="descname">setComment</tt><big>(</big><em>$comment</em><big>)</big><a class="headerlink" href="#setComment" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param string $comment</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Deleted</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="getcomment">
+<h3>901.1.13. getComment<a class="headerlink" href="#getcomment" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="getComment">
+<tt class="descname">getComment</tt><big>(</big><big>)</big><a class="headerlink" href="#getComment" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;return string</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">901. Zend\Feed\Writer\Deleted</a><ul>
+<li><a class="reference internal" href="#methods">901.1. Methods</a><ul>
+<li><a class="reference internal" href="#setencoding">901.1.1. setEncoding</a></li>
+<li><a class="reference internal" href="#getencoding">901.1.2. getEncoding</a></li>
+<li><a class="reference internal" href="#remove">901.1.3. remove</a></li>
+<li><a class="reference internal" href="#settype">901.1.4. setType</a></li>
+<li><a class="reference internal" href="#gettype">901.1.5. getType</a></li>
+<li><a class="reference internal" href="#setreference">901.1.6. setReference</a></li>
+<li><a class="reference internal" href="#getreference">901.1.7. getReference</a></li>
+<li><a class="reference internal" href="#setwhen">901.1.8. setWhen</a></li>
+<li><a class="reference internal" href="#getwhen">901.1.9. getWhen</a></li>
+<li><a class="reference internal" href="#setby">901.1.10. setBy</a></li>
+<li><a class="reference internal" href="#getby">901.1.11. getBy</a></li>
+<li><a class="reference internal" href="#setcomment">901.1.12. setComment</a></li>
+<li><a class="reference internal" href="#getcomment">901.1.13. getComment</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="AbstractWriter.html"
+                        title="previous chapter">900. Zend\Config\Writer\AbstractWriter</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Entry.html"
+                        title="next chapter">902. Zend\Feed\Writer\Entry</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/zend/Writer/Deleted.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Entry.html" title="902. Zend\Feed\Writer\Entry"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="AbstractWriter.html" title="900. Zend\Config\Writer\AbstractWriter"
+             >previous</a> |</li>
+        <li><a href="../../index.html">ZF2 by Docpx 2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Zend Framework Community. Generated with Docpx.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
