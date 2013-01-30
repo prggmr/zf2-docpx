@@ -1,4 +1,4 @@
-.. Validator/Barcode/Ean13.php generated using docpx on 01/30/13 03:02pm
+.. Validator/Barcode/Ean13.php generated using docpx on 01/30/13 03:27pm
 
 
 Class

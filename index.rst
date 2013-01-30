@@ -11,6 +11,10 @@ using docpx.
 
 Enjoy!
 
+.. note::
+
+    This documentation is NOT the offical Zend Framework Documetation!
+
 Source Code
 ===========
 
@@ -18,14 +22,5 @@ Source Code
     :glob:
     :numbered:
 
-    Zend/*/*
-    Zend/*/*/*
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+    zend/*/*
+    zend/*/*/*

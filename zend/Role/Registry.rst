@@ -1,4 +1,4 @@
-.. Permissions/Acl/Role/Registry.php generated using docpx on 01/30/13 03:02pm
+.. Permissions/Acl/Role/Registry.php generated using docpx on 01/30/13 03:27pm
 
 
 Class

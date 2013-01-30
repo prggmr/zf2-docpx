@@ -1,4 +1,4 @@
-.. Log/Formatter/ExceptionHandler.php generated using docpx on 01/30/13 03:02pm
+.. Log/Formatter/ExceptionHandler.php generated using docpx on 01/30/13 03:26pm
 
 
 Class

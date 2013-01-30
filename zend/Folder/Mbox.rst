@@ -1,4 +1,4 @@
-.. Mail/Storage/Folder/Mbox.php generated using docpx on 01/30/13 03:02pm
+.. Mail/Storage/Folder/Mbox.php generated using docpx on 01/30/13 03:26pm
 
 
 Class
