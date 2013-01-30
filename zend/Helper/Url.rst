@@ -1,5 +1,8 @@
-.. View/Helper/Url.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Url.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Url
 =======================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Url
 Helper for making easy links and getting urls that depend on the routes and router.
 
 Methods
-+++++++
+-------
 
 setRouter
----------
++++++++++
 
 .. function:: setRouter()
 
@@ -24,7 +27,7 @@ setRouter
 
 
 setRouteMatch
--------------
++++++++++++++
 
 .. function:: setRouteMatch()
 
@@ -38,7 +41,7 @@ setRouteMatch
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

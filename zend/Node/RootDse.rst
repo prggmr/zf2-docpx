@@ -1,5 +1,8 @@
-.. Ldap/Node/RootDse.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/RootDse.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\RootDse
 =========================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node\\RootDse
 Zend\Ldap\Node\RootDse provides a simple data-container for the RootDse node.
 
 Methods
-+++++++
+-------
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -24,7 +27,7 @@ create
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -39,7 +42,7 @@ __construct
 
 
 getNamingContexts
------------------
++++++++++++++++++
 
 .. function:: getNamingContexts()
 
@@ -51,7 +54,7 @@ getNamingContexts
 
 
 getSubschemaSubentry
---------------------
+++++++++++++++++++++
 
 .. function:: getSubschemaSubentry()
 
@@ -63,7 +66,7 @@ getSubschemaSubentry
 
 
 supportsVersion
----------------
++++++++++++++++
 
 .. function:: supportsVersion()
 
@@ -77,7 +80,7 @@ supportsVersion
 
 
 supportsSaslMechanism
----------------------
++++++++++++++++++++++
 
 .. function:: supportsSaslMechanism()
 
@@ -91,7 +94,7 @@ supportsSaslMechanism
 
 
 getServerType
--------------
++++++++++++++
 
 .. function:: getServerType()
 
@@ -103,7 +106,7 @@ getServerType
 
 
 getSchemaDn
------------
++++++++++++
 
 .. function:: getSchemaDn()
 
@@ -117,17 +120,17 @@ getSchemaDn
 
 
 Constants
-+++++++++
+---------
 
 SERVER_TYPE_GENERIC
-===================
++++++++++++++++++++
 
 SERVER_TYPE_OPENLDAP
-====================
+++++++++++++++++++++
 
 SERVER_TYPE_ACTIVEDIRECTORY
-===========================
++++++++++++++++++++++++++++
 
 SERVER_TYPE_EDIRECTORY
-======================
+++++++++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. Authentication/Storage/NonPersistent.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Storage/NonPersistent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Storage\\NonPersistent
 ============================================
@@ -11,10 +14,10 @@ re-populated. So there's no need to use sessions, this simple value class
 will hold the data for rest of the current request.
 
 Methods
-+++++++
+-------
 
 isEmpty
--------
++++++++
 
 .. function:: isEmpty()
 
@@ -26,7 +29,7 @@ isEmpty
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -39,7 +42,7 @@ read
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -53,7 +56,7 @@ write
 
 
 clear
------
++++++
 
 .. function:: clear()
 

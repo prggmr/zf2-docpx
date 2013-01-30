@@ -1,5 +1,8 @@
-.. ProgressBar/Upload/AbstractUploadHandler.php generated using docpx on 01/30/13 03:32am
+.. ProgressBar/Upload/AbstractUploadHandler.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ProgressBar\\Upload\\AbstractUploadHandler
 ================================================
@@ -7,10 +10,10 @@ Zend\\ProgressBar\\Upload\\AbstractUploadHandler
 Abstract class for Upload Progress Handlers
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -39,7 +42,7 @@ setOptions
 
 
 setSessionNamespace
--------------------
++++++++++++++++++++
 
 .. function:: setSessionNamespace()
 
@@ -51,7 +54,7 @@ setSessionNamespace
 
 
 getSessionNamespace
--------------------
++++++++++++++++++++
 
 .. function:: getSessionNamespace()
 
@@ -61,7 +64,7 @@ getSessionNamespace
 
 
 setProgressAdapter
-------------------
+++++++++++++++++++
 
 .. function:: setProgressAdapter()
 
@@ -73,7 +76,7 @@ setProgressAdapter
 
 
 getProgressAdapter
-------------------
+++++++++++++++++++
 
 .. function:: getProgressAdapter()
 
@@ -83,7 +86,7 @@ getProgressAdapter
 
 
 getProgress
------------
++++++++++++
 
 .. function:: getProgress()
 
@@ -95,7 +98,7 @@ getProgress
 
 
 getUploadProgress
------------------
++++++++++++++++++
 
 .. function:: getUploadProgress()
 
@@ -107,7 +110,7 @@ getUploadProgress
 
 
 toByteString
-------------
+++++++++++++
 
 .. function:: toByteString()
 

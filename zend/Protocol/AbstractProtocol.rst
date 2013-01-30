@@ -1,5 +1,8 @@
-.. Mail/Protocol/AbstractProtocol.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/AbstractProtocol.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\AbstractProtocol
 ======================================
@@ -7,10 +10,10 @@ Zend\\Mail\\Protocol\\AbstractProtocol
 Provides low-level methods for concrete adapters to communicate with a remote mail server and track requests and responses.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -35,7 +38,7 @@ __destruct
 
 
 setMaximumLog
--------------
++++++++++++++
 
 .. function:: setMaximumLog()
 
@@ -47,7 +50,7 @@ setMaximumLog
 
 
 getMaximumLog
--------------
++++++++++++++
 
 .. function:: getMaximumLog()
 
@@ -59,7 +62,7 @@ getMaximumLog
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -71,7 +74,7 @@ connect
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -83,7 +86,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -95,7 +98,7 @@ getResponse
 
 
 getLog
-------
+++++++
 
 .. function:: getLog()
 
@@ -107,7 +110,7 @@ getLog
 
 
 resetLog
---------
+++++++++
 
 .. function:: resetLog()
 
@@ -117,7 +120,7 @@ resetLog
 
 
 _addLog
--------
++++++++
 
 .. function:: _addLog()
 
@@ -129,7 +132,7 @@ _addLog
 
 
 _connect
---------
+++++++++
 
 .. function:: _connect()
 
@@ -147,7 +150,7 @@ _connect
 
 
 _disconnect
------------
++++++++++++
 
 .. function:: _disconnect()
 
@@ -157,7 +160,7 @@ _disconnect
 
 
 _send
------
++++++
 
 .. function:: _send()
 
@@ -173,7 +176,7 @@ _send
 
 
 _receive
---------
+++++++++
 
 .. function:: _receive()
 
@@ -189,7 +192,7 @@ _receive
 
 
 _expect
--------
++++++++
 
 .. function:: _expect()
 
@@ -211,15 +214,15 @@ _expect
 
 
 Constants
-+++++++++
+---------
 
 EOL
-===
++++
 
 Mail default EOL string
 
 TIMEOUT_CONNECTION
-==================
+++++++++++++++++++
 
 Default timeout in seconds for initiating session
 

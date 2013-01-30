@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/Tag/GenericTag.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/Tag/GenericTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\GenericTag
 =================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -30,7 +33,7 @@ initialize
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -42,7 +45,7 @@ getName
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -52,7 +55,7 @@ setName
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -62,7 +65,7 @@ getContent
 
 
 returnValue
------------
++++++++++++
 
 .. function:: returnValue()
 
@@ -74,7 +77,7 @@ returnValue
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -89,7 +92,7 @@ __toString
 
 
 parse
------
++++++
 
 .. function:: parse()
 

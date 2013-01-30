@@ -1,5 +1,8 @@
-.. Feed/Writer/Extension/ITunes/Feed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Extension/ITunes/Feed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Extension\\ITunes\\Feed
 ===========================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Extension\\ITunes\\Feed
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -34,7 +37,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -46,7 +49,7 @@ getEncoding
 
 
 setItunesBlock
---------------
+++++++++++++++
 
 .. function:: setItunesBlock()
 
@@ -62,7 +65,7 @@ setItunesBlock
 
 
 addItunesAuthors
-----------------
+++++++++++++++++
 
 .. function:: addItunesAuthors()
 
@@ -76,7 +79,7 @@ addItunesAuthors
 
 
 addItunesAuthor
----------------
++++++++++++++++
 
 .. function:: addItunesAuthor()
 
@@ -92,7 +95,7 @@ addItunesAuthor
 
 
 setItunesCategories
--------------------
++++++++++++++++++++
 
 .. function:: setItunesCategories()
 
@@ -108,7 +111,7 @@ setItunesCategories
 
 
 setItunesImage
---------------
+++++++++++++++
 
 .. function:: setItunesImage()
 
@@ -124,7 +127,7 @@ setItunesImage
 
 
 setItunesDuration
------------------
++++++++++++++++++
 
 .. function:: setItunesDuration()
 
@@ -140,7 +143,7 @@ setItunesDuration
 
 
 setItunesExplicit
------------------
++++++++++++++++++
 
 .. function:: setItunesExplicit()
 
@@ -156,7 +159,7 @@ setItunesExplicit
 
 
 setItunesKeywords
------------------
++++++++++++++++++
 
 .. function:: setItunesKeywords()
 
@@ -172,7 +175,7 @@ setItunesKeywords
 
 
 setItunesNewFeedUrl
--------------------
++++++++++++++++++++
 
 .. function:: setItunesNewFeedUrl()
 
@@ -188,7 +191,7 @@ setItunesNewFeedUrl
 
 
 addItunesOwners
----------------
++++++++++++++++
 
 .. function:: addItunesOwners()
 
@@ -202,7 +205,7 @@ addItunesOwners
 
 
 addItunesOwner
---------------
+++++++++++++++
 
 .. function:: addItunesOwner()
 
@@ -218,7 +221,7 @@ addItunesOwner
 
 
 setItunesSubtitle
------------------
++++++++++++++++++
 
 .. function:: setItunesSubtitle()
 
@@ -234,7 +237,7 @@ setItunesSubtitle
 
 
 setItunesSummary
-----------------
+++++++++++++++++
 
 .. function:: setItunesSummary()
 
@@ -250,7 +253,7 @@ setItunesSummary
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 

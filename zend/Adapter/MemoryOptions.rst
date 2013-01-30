@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/MemoryOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/MemoryOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\MemoryOptions
 ============================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\MemoryOptions
 These are options specific to the APC adapter
 
 Methods
-+++++++
+-------
 
 setMemoryLimit
---------------
+++++++++++++++
 
 .. function:: setMemoryLimit()
 
@@ -30,7 +33,7 @@ setMemoryLimit
 
 
 getMemoryLimit
---------------
+++++++++++++++
 
 .. function:: getMemoryLimit()
 
@@ -45,7 +48,7 @@ getMemoryLimit
 
 
 normalizeMemoryLimit
---------------------
+++++++++++++++++++++
 
 .. function:: normalizeMemoryLimit()
 

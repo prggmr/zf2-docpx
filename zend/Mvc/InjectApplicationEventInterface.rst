@@ -1,5 +1,8 @@
-.. Mvc/InjectApplicationEventInterface.php generated using docpx on 01/30/13 03:32am
+.. Mvc/InjectApplicationEventInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mvc\\setEvent
 ===================
@@ -14,6 +17,9 @@ Zend\\Mvc\\setEvent
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Mvc\\getEvent
 ===================

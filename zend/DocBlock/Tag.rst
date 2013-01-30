@@ -1,14 +1,17 @@
-.. Code/Generator/DocBlock/Tag.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/DocBlock/Tag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\DocBlock\\Tag
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -32,7 +35,7 @@ fromReflection
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -44,7 +47,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -54,7 +57,7 @@ getName
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -66,7 +69,7 @@ setDescription
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -76,7 +79,7 @@ getDescription
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 

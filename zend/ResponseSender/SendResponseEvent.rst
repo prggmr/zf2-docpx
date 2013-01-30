@@ -1,14 +1,17 @@
-.. Mvc/ResponseSender/SendResponseEvent.php generated using docpx on 01/30/13 03:32am
+.. Mvc/ResponseSender/SendResponseEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\ResponseSender\\SendResponseEvent
 ============================================
 
 Methods
-+++++++
+-------
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -20,7 +23,7 @@ setResponse
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -30,7 +33,7 @@ getResponse
 
 
 setContentSent
---------------
+++++++++++++++
 
 .. function:: setContentSent()
 
@@ -42,7 +45,7 @@ setContentSent
 
 
 contentSent
------------
++++++++++++
 
 .. function:: contentSent()
 
@@ -52,7 +55,7 @@ contentSent
 
 
 setHeadersSent
---------------
+++++++++++++++
 
 .. function:: setHeadersSent()
 
@@ -64,7 +67,7 @@ setHeadersSent
 
 
 headersSent
------------
++++++++++++
 
 .. function:: headersSent()
 
@@ -76,8 +79,8 @@ headersSent
 
 
 Constants
-+++++++++
+---------
 
 EVENT_SEND_RESPONSE
-===================
++++++++++++++++++++
 

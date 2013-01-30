@@ -1,14 +1,17 @@
-.. Validator/GreaterThan.php generated using docpx on 01/30/13 03:32am
+.. Validator/GreaterThan.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\GreaterThan
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -34,7 +37,7 @@ getMin
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -48,7 +51,7 @@ setMin
 
 
 getInclusive
-------------
+++++++++++++
 
 .. function:: getInclusive()
 
@@ -60,7 +63,7 @@ getInclusive
 
 
 setInclusive
-------------
+++++++++++++
 
 .. function:: setInclusive()
 
@@ -74,7 +77,7 @@ setInclusive
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -90,11 +93,11 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOT_GREATER
-===========
++++++++++++
 
 NOT_GREATER_INCLUSIVE
-=====================
++++++++++++++++++++++
 

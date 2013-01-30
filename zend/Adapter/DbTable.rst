@@ -1,14 +1,17 @@
-.. Authentication/Adapter/DbTable.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Adapter/DbTable.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Adapter\\DbTable
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setTableName
-------------
+++++++++++++
 
 .. function:: setTableName()
 
@@ -40,7 +43,7 @@ setTableName
 
 
 setIdentityColumn
------------------
++++++++++++++++++
 
 .. function:: setIdentityColumn()
 
@@ -54,7 +57,7 @@ setIdentityColumn
 
 
 setCredentialColumn
--------------------
++++++++++++++++++++
 
 .. function:: setCredentialColumn()
 
@@ -68,7 +71,7 @@ setCredentialColumn
 
 
 setCredentialTreatment
-----------------------
+++++++++++++++++++++++
 
 .. function:: setCredentialTreatment()
 
@@ -93,7 +96,7 @@ setCredentialTreatment
 
 
 setAmbiguityIdentity
---------------------
+++++++++++++++++++++
 
 .. function:: setAmbiguityIdentity()
 
@@ -109,7 +112,7 @@ setAmbiguityIdentity
 
 
 getAmbiguityIdentity
---------------------
+++++++++++++++++++++
 
 .. function:: getAmbiguityIdentity()
 
@@ -122,7 +125,7 @@ getAmbiguityIdentity
 
 
 getDbSelect
------------
++++++++++++
 
 .. function:: getDbSelect()
 
@@ -134,7 +137,7 @@ getDbSelect
 
 
 getResultRowObject
-------------------
+++++++++++++++++++
 
 .. function:: getResultRowObject()
 
@@ -149,7 +152,7 @@ getResultRowObject
 
 
 authenticate
-------------
+++++++++++++
 
 .. function:: authenticate()
 
@@ -165,7 +168,7 @@ authenticate
 
 
 _authenticateSetup
-------------------
+++++++++++++++++++
 
 .. function:: _authenticateSetup()
 
@@ -180,7 +183,7 @@ _authenticateSetup
 
 
 _authenticateCreateSelect
--------------------------
++++++++++++++++++++++++++
 
 .. function:: _authenticateCreateSelect()
 
@@ -193,7 +196,7 @@ _authenticateCreateSelect
 
 
 _authenticateQuerySelect
-------------------------
+++++++++++++++++++++++++
 
 .. function:: _authenticateQuerySelect()
 
@@ -210,7 +213,7 @@ _authenticateQuerySelect
 
 
 _authenticateValidateResultSet
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: _authenticateValidateResultSet()
 
@@ -225,7 +228,7 @@ _authenticateValidateResultSet
 
 
 _authenticateValidateResult
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: _authenticateValidateResult()
 
@@ -241,7 +244,7 @@ _authenticateValidateResult
 
 
 _authenticateCreateAuthResult
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: _authenticateCreateAuthResult()
 

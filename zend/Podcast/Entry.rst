@@ -1,5 +1,8 @@
-.. Feed/Reader/Extension/Podcast/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Podcast/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Podcast\\Entry
 =============================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\Extension\\Podcast\\Entry
 
 
 Methods
-+++++++
+-------
 
 getCastAuthor
--------------
++++++++++++++
 
 .. function:: getCastAuthor()
 
@@ -22,7 +25,7 @@ getCastAuthor
 
 
 getBlock
---------
+++++++++
 
 .. function:: getBlock()
 
@@ -34,7 +37,7 @@ getBlock
 
 
 getDuration
------------
++++++++++++
 
 .. function:: getDuration()
 
@@ -46,7 +49,7 @@ getDuration
 
 
 getExplicit
------------
++++++++++++
 
 .. function:: getExplicit()
 
@@ -58,7 +61,7 @@ getExplicit
 
 
 getKeywords
------------
++++++++++++
 
 .. function:: getKeywords()
 
@@ -70,7 +73,7 @@ getKeywords
 
 
 getSubtitle
------------
++++++++++++
 
 .. function:: getSubtitle()
 
@@ -82,7 +85,7 @@ getSubtitle
 
 
 getSummary
-----------
+++++++++++
 
 .. function:: getSummary()
 
@@ -94,7 +97,7 @@ getSummary
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

@@ -1,5 +1,8 @@
-.. Memory/Container/Movable.php generated using docpx on 01/30/13 03:32am
+.. Memory/Container/Movable.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Memory\\Container\\Movable
 ================================
@@ -9,10 +12,10 @@ Memory value container
 Movable (may be swapped with specified backend and unloaded).
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 lock
-----
+++++
 
 .. function:: lock()
 
@@ -36,7 +39,7 @@ lock
 
 
 unlock
-------
+++++++
 
 .. function:: unlock()
 
@@ -46,7 +49,7 @@ unlock
 
 
 isLocked
---------
+++++++++
 
 .. function:: isLocked()
 
@@ -58,7 +61,7 @@ isLocked
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -77,7 +80,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -92,7 +95,7 @@ __set
 
 
 getRef
-------
+++++++
 
 .. function:: getRef()
 
@@ -107,7 +110,7 @@ getRef
 
 
 touch
------
++++++
 
 .. function:: touch()
 
@@ -119,7 +122,7 @@ touch
 
 
 processUpdate
--------------
++++++++++++++
 
 .. function:: processUpdate()
 
@@ -131,7 +134,7 @@ processUpdate
 
 
 startTrace
-----------
+++++++++++
 
 .. function:: startTrace()
 
@@ -142,7 +145,7 @@ startTrace
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -153,7 +156,7 @@ setValue
 
 
 unloadValue
------------
++++++++++++
 
 .. function:: unloadValue()
 
@@ -164,7 +167,7 @@ unloadValue
 
 
 markAsSwapped
--------------
++++++++++++++
 
 .. function:: markAsSwapped()
 
@@ -175,7 +178,7 @@ markAsSwapped
 
 
 isSwapped
----------
++++++++++
 
 .. function:: isSwapped()
 
@@ -188,7 +191,7 @@ isSwapped
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -201,7 +204,7 @@ getId
 
 
 destroy
--------
++++++++
 
 .. function:: destroy()
 
@@ -214,16 +217,16 @@ destroy
 
 
 Constants
-+++++++++
+---------
 
 LOADED
-======
+++++++
 
 Value states */
 
 SWAPPED
-=======
++++++++
 
 LOCKED
-======
+++++++
 

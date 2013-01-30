@@ -1,5 +1,8 @@
-.. Code/Annotation/Parser/DoctrineAnnotationParser.php generated using docpx on 01/30/13 03:32am
+.. Code/Annotation/Parser/DoctrineAnnotationParser.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Annotation\\Parser\\DoctrineAnnotationParser
 ========================================================
@@ -13,10 +16,10 @@ are interested in, the raw annotation is passed to the DocParser in order to
 retrieve the annotation object instance. Otherwise, it is skipped.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setDocParser
-------------
+++++++++++++
 
 .. function:: setDocParser()
 
@@ -40,7 +43,7 @@ setDocParser
 
 
 getDocParser
-------------
+++++++++++++
 
 .. function:: getDocParser()
 
@@ -54,7 +57,7 @@ getDocParser
 
 
 onCreateAnnotation
-------------------
+++++++++++++++++++
 
 .. function:: onCreateAnnotation()
 
@@ -68,7 +71,7 @@ onCreateAnnotation
 
 
 registerAnnotation
-------------------
+++++++++++++++++++
 
 .. function:: registerAnnotation()
 
@@ -82,7 +85,7 @@ registerAnnotation
 
 
 registerAnnotations
--------------------
++++++++++++++++++++
 
 .. function:: registerAnnotations()
 

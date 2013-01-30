@@ -1,14 +1,17 @@
-.. Code/Scanner/MethodScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/MethodScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\MethodScanner
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -32,7 +35,7 @@ setClass
 
 
 setScannerClass
----------------
++++++++++++++++
 
 .. function:: setScannerClass()
 
@@ -44,7 +47,7 @@ setScannerClass
 
 
 getClassScanner
----------------
++++++++++++++++
 
 .. function:: getClassScanner()
 
@@ -54,7 +57,7 @@ getClassScanner
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -64,7 +67,7 @@ getName
 
 
 getLineStart
-------------
+++++++++++++
 
 .. function:: getLineStart()
 
@@ -74,7 +77,7 @@ getLineStart
 
 
 getLineEnd
-----------
+++++++++++
 
 .. function:: getLineEnd()
 
@@ -84,7 +87,7 @@ getLineEnd
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -94,7 +97,7 @@ getDocComment
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -106,7 +109,7 @@ getAnnotations
 
 
 isFinal
--------
++++++++
 
 .. function:: isFinal()
 
@@ -116,7 +119,7 @@ isFinal
 
 
 isAbstract
-----------
+++++++++++
 
 .. function:: isAbstract()
 
@@ -126,7 +129,7 @@ isAbstract
 
 
 isPublic
---------
+++++++++
 
 .. function:: isPublic()
 
@@ -136,7 +139,7 @@ isPublic
 
 
 isProtected
------------
++++++++++++
 
 .. function:: isProtected()
 
@@ -146,7 +149,7 @@ isProtected
 
 
 isPrivate
----------
++++++++++
 
 .. function:: isPrivate()
 
@@ -156,7 +159,7 @@ isPrivate
 
 
 isStatic
---------
+++++++++
 
 .. function:: isStatic()
 
@@ -166,7 +169,7 @@ isStatic
 
 
 getNumberOfParameters
----------------------
++++++++++++++++++++++
 
 .. function:: getNumberOfParameters()
 
@@ -176,7 +179,7 @@ getNumberOfParameters
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -188,7 +191,7 @@ getParameters
 
 
 getParameter
-------------
+++++++++++++
 
 .. function:: getParameter()
 
@@ -202,7 +205,7 @@ getParameter
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -212,21 +215,21 @@ getBody
 
 
 export
-------
+++++++
 
 .. function:: export()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
 
 
 scan
-----
+++++
 
 .. function:: scan()
 

@@ -1,5 +1,8 @@
-.. Feed/Writer/Writer.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Writer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Writer
 ==========================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Writer
 
 
 Methods
-+++++++
+-------
 
 setExtensionManager
--------------------
++++++++++++++++++++
 
 .. function:: setExtensionManager()
 
@@ -22,7 +25,7 @@ setExtensionManager
 
 
 getExtensionManager
--------------------
++++++++++++++++++++
 
 .. function:: getExtensionManager()
 
@@ -34,7 +37,7 @@ getExtensionManager
 
 
 registerExtension
------------------
++++++++++++++++++
 
 .. function:: registerExtension()
 
@@ -50,7 +53,7 @@ registerExtension
 
 
 isRegistered
-------------
+++++++++++++
 
 .. function:: isRegistered()
 
@@ -64,7 +67,7 @@ isRegistered
 
 
 getExtensions
--------------
++++++++++++++
 
 .. function:: getExtensions()
 
@@ -76,7 +79,7 @@ getExtensions
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -88,7 +91,7 @@ reset
 
 
 registerCoreExtensions
-----------------------
+++++++++++++++++++++++
 
 .. function:: registerCoreExtensions()
 
@@ -100,7 +103,7 @@ registerCoreExtensions
 
 
 lcfirst
--------
++++++++
 
 .. function:: lcfirst()
 
@@ -109,66 +112,66 @@ lcfirst
 
 
 Constants
-+++++++++
+---------
 
 NAMESPACE_ATOM_03
-=================
++++++++++++++++++
 
 Namespace constants
 
 NAMESPACE_ATOM_10
-=================
++++++++++++++++++
 
 NAMESPACE_RDF
-=============
++++++++++++++
 
 NAMESPACE_RSS_090
-=================
++++++++++++++++++
 
 NAMESPACE_RSS_10
-================
+++++++++++++++++
 
 TYPE_ANY
-========
+++++++++
 
 Feed type constants
 
 TYPE_ATOM_03
-============
+++++++++++++
 
 TYPE_ATOM_10
-============
+++++++++++++
 
 TYPE_ATOM_ANY
-=============
++++++++++++++
 
 TYPE_RSS_090
-============
+++++++++++++
 
 TYPE_RSS_091
-============
+++++++++++++
 
 TYPE_RSS_091_NETSCAPE
-=====================
++++++++++++++++++++++
 
 TYPE_RSS_091_USERLAND
-=====================
++++++++++++++++++++++
 
 TYPE_RSS_092
-============
+++++++++++++
 
 TYPE_RSS_093
-============
+++++++++++++
 
 TYPE_RSS_094
-============
+++++++++++++
 
 TYPE_RSS_10
-===========
++++++++++++
 
 TYPE_RSS_20
-===========
++++++++++++
 
 TYPE_RSS_ANY
-============
+++++++++++++
 

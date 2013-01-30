@@ -1,14 +1,17 @@
-.. Mvc/View/Console/InjectNamedConsoleParamsListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Console/InjectNamedConsoleParamsListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Console\\InjectNamedConsoleParamsListener
 ==========================================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 injectNamedParams
------------------
++++++++++++++++++
 
 .. function:: injectNamedParams()
 

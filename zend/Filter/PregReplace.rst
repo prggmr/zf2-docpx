@@ -1,14 +1,17 @@
-.. Filter/PregReplace.php generated using docpx on 01/30/13 03:32am
+.. Filter/PregReplace.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\PregReplace
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setPattern
-----------
+++++++++++
 
 .. function:: setPattern()
 
@@ -40,7 +43,7 @@ setPattern
 
 
 getPattern
-----------
+++++++++++
 
 .. function:: getPattern()
 
@@ -52,7 +55,7 @@ getPattern
 
 
 setReplacement
---------------
+++++++++++++++
 
 .. function:: setReplacement()
 
@@ -69,7 +72,7 @@ setReplacement
 
 
 getReplacement
---------------
+++++++++++++++
 
 .. function:: getReplacement()
 
@@ -81,7 +84,7 @@ getReplacement
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -97,7 +100,7 @@ filter
 
 
 validatePattern
----------------
++++++++++++++++
 
 .. function:: validatePattern()
 

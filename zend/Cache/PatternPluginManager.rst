@@ -1,5 +1,8 @@
-.. Cache/PatternPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Cache/PatternPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\PatternPluginManager
 =================================
@@ -11,10 +14,10 @@ Pattern\PatternInterface. Additionally, it registers a number of default
 patterns available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

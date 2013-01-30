@@ -1,14 +1,17 @@
-.. View/Resolver/AggregateResolver.php generated using docpx on 01/30/13 03:32am
+.. View/Resolver/AggregateResolver.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Resolver\\AggregateResolver
 =======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -32,7 +35,7 @@ count
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -44,7 +47,7 @@ getIterator
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -59,7 +62,7 @@ attach
 
 
 resolve
--------
++++++++
 
 .. function:: resolve()
 
@@ -74,7 +77,7 @@ resolve
 
 
 getLastSuccessfulResolver
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getLastSuccessfulResolver()
 
@@ -86,7 +89,7 @@ getLastSuccessfulResolver
 
 
 getLastLookupFailure
---------------------
+++++++++++++++++++++
 
 .. function:: getLastLookupFailure()
 
@@ -100,11 +103,11 @@ getLastLookupFailure
 
 
 Constants
-+++++++++
+---------
 
 FAILURE_NO_RESOLVERS
-====================
+++++++++++++++++++++
 
 FAILURE_NOT_FOUND
-=================
++++++++++++++++++
 

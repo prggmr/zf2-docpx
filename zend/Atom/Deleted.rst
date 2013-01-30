@@ -1,14 +1,17 @@
-.. Feed/Writer/Renderer/Entry/Atom/Deleted.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Renderer/Entry/Atom/Deleted.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Renderer\\Entry\\Atom\\Deleted
 ==================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -32,7 +35,7 @@ render
 
 
 _setComment
------------
++++++++++++
 
 .. function:: _setComment()
 
@@ -47,7 +50,7 @@ _setComment
 
 
 _setBy
-------
+++++++
 
 .. function:: _setBy()
 

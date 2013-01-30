@@ -1,5 +1,8 @@
-.. Loader/PluginClassLoader.php generated using docpx on 01/30/13 03:32am
+.. Loader/PluginClassLoader.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Loader\\PluginClassLoader
 ===============================
@@ -7,10 +10,10 @@ Zend\\Loader\\PluginClassLoader
 Plugin class locator interface
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 addStaticMap
-------------
+++++++++++++
 
 .. function:: addStaticMap()
 
@@ -40,7 +43,7 @@ addStaticMap
 
 
 registerPlugin
---------------
+++++++++++++++
 
 .. function:: registerPlugin()
 
@@ -55,7 +58,7 @@ registerPlugin
 
 
 registerPlugins
----------------
++++++++++++++++
 
 .. function:: registerPlugins()
 
@@ -81,7 +84,7 @@ registerPlugins
 
 
 unregisterPlugin
-----------------
+++++++++++++++++
 
 .. function:: unregisterPlugin()
 
@@ -95,7 +98,7 @@ unregisterPlugin
 
 
 getRegisteredPlugins
---------------------
+++++++++++++++++++++
 
 .. function:: getRegisteredPlugins()
 
@@ -107,7 +110,7 @@ getRegisteredPlugins
 
 
 isLoaded
---------
+++++++++
 
 .. function:: isLoaded()
 
@@ -121,7 +124,7 @@ isLoaded
 
 
 getClassName
-------------
+++++++++++++
 
 .. function:: getClassName()
 
@@ -135,7 +138,7 @@ getClassName
 
 
 load
-----
+++++
 
 .. function:: load()
 
@@ -149,7 +152,7 @@ load
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 

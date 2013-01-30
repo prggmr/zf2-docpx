@@ -1,14 +1,17 @@
-.. Db/Sql/Predicate/In.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/In.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\In
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setIdentifier
--------------
++++++++++++++
 
 .. function:: setIdentifier()
 
@@ -35,7 +38,7 @@ setIdentifier
 
 
 getIdentifier
--------------
++++++++++++++
 
 .. function:: getIdentifier()
 
@@ -47,7 +50,7 @@ getIdentifier
 
 
 setValueSet
------------
++++++++++++
 
 .. function:: setValueSet()
 
@@ -63,14 +66,14 @@ setValueSet
 
 
 getValueSet
------------
++++++++++++
 
 .. function:: getValueSet()
 
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 

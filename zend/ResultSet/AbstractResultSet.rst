@@ -1,14 +1,17 @@
-.. Db/ResultSet/AbstractResultSet.php generated using docpx on 01/30/13 03:32am
+.. Db/ResultSet/AbstractResultSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\ResultSet\\AbstractResultSet
 ======================================
 
 Methods
-+++++++
+-------
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -24,21 +27,21 @@ initialize
 
 
 buffer
-------
+++++++
 
 .. function:: buffer()
 
 
 
 isBuffered
-----------
+++++++++++
 
 .. function:: isBuffered()
 
 
 
 getDataSource
--------------
++++++++++++++
 
 .. function:: getDataSource()
 
@@ -50,7 +53,7 @@ getDataSource
 
 
 getFieldCount
--------------
++++++++++++++
 
 .. function:: getFieldCount()
 
@@ -62,7 +65,7 @@ getFieldCount
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -74,7 +77,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -86,7 +89,7 @@ key
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -98,7 +101,7 @@ current
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -110,7 +113,7 @@ valid
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -122,7 +125,7 @@ rewind
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -134,7 +137,7 @@ count
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

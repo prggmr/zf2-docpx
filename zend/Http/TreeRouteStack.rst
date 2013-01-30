@@ -1,5 +1,8 @@
-.. Mvc/Router/Http/TreeRouteStack.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/Http/TreeRouteStack.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\Http\\TreeRouteStack
 =======================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\Http\\TreeRouteStack
 Tree search implementation.
 
 Methods
-+++++++
+-------
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -21,7 +24,7 @@ init
 
 
 addRoute
---------
+++++++++
 
 .. function:: addRoute()
 
@@ -38,7 +41,7 @@ addRoute
 
 
 routeFromArray
---------------
+++++++++++++++
 
 .. function:: routeFromArray()
 
@@ -56,7 +59,7 @@ routeFromArray
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -71,7 +74,7 @@ match
 
 
 assemble
---------
+++++++++
 
 .. function:: assemble()
 
@@ -90,7 +93,7 @@ assemble
 
 
 setBaseUrl
-----------
+++++++++++
 
 .. function:: setBaseUrl()
 
@@ -104,7 +107,7 @@ setBaseUrl
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -116,7 +119,7 @@ getBaseUrl
 
 
 setRequestUri
--------------
++++++++++++++
 
 .. function:: setRequestUri()
 
@@ -130,7 +133,7 @@ setRequestUri
 
 
 getRequestUri
--------------
++++++++++++++
 
 .. function:: getRequestUri()
 

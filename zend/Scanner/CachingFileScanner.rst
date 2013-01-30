@@ -1,14 +1,17 @@
-.. Code/Scanner/CachingFileScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/CachingFileScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\CachingFileScanner
 =======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 clearCache
-----------
+++++++++++
 
 .. function:: clearCache()
 
@@ -32,7 +35,7 @@ clearCache
 
 
 getAnnotationManager
---------------------
+++++++++++++++++++++
 
 .. function:: getAnnotationManager()
 
@@ -42,7 +45,7 @@ getAnnotationManager
 
 
 getFile
--------
++++++++
 
 .. function:: getFile()
 
@@ -52,7 +55,7 @@ getFile
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -62,7 +65,7 @@ getDocComment
 
 
 getNamespaces
--------------
++++++++++++++
 
 .. function:: getNamespaces()
 
@@ -72,7 +75,7 @@ getNamespaces
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -84,7 +87,7 @@ getUses
 
 
 getIncludes
------------
++++++++++++
 
 .. function:: getIncludes()
 
@@ -94,7 +97,7 @@ getIncludes
 
 
 getClassNames
--------------
++++++++++++++
 
 .. function:: getClassNames()
 
@@ -104,7 +107,7 @@ getClassNames
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -114,7 +117,7 @@ getClasses
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -126,7 +129,7 @@ getClass
 
 
 getClassNameInformation
------------------------
++++++++++++++++++++++++
 
 .. function:: getClassNameInformation()
 
@@ -138,7 +141,7 @@ getClassNameInformation
 
 
 getFunctionNames
-----------------
+++++++++++++++++
 
 .. function:: getFunctionNames()
 
@@ -148,7 +151,7 @@ getFunctionNames
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 

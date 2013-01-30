@@ -1,5 +1,8 @@
-.. Ldap/Node/RootDse/eDirectory.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/RootDse/eDirectory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\RootDse\\eDirectory
 =====================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\RootDse\eDirectory provides a simple data-container for the
 RootDse node of a Novell eDirectory server.
 
 Methods
-+++++++
+-------
 
 supportsExtension
------------------
++++++++++++++++++
 
 .. function:: supportsExtension()
 
@@ -25,7 +28,7 @@ supportsExtension
 
 
 getVendorName
--------------
++++++++++++++
 
 .. function:: getVendorName()
 
@@ -37,7 +40,7 @@ getVendorName
 
 
 getVendorVersion
-----------------
+++++++++++++++++
 
 .. function:: getVendorVersion()
 
@@ -49,7 +52,7 @@ getVendorVersion
 
 
 getDsaName
-----------
+++++++++++
 
 .. function:: getDsaName()
 
@@ -61,7 +64,7 @@ getDsaName
 
 
 getStatisticsErrors
--------------------
++++++++++++++++++++
 
 .. function:: getStatisticsErrors()
 
@@ -73,7 +76,7 @@ getStatisticsErrors
 
 
 getStatisticsSecurityErrors
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: getStatisticsSecurityErrors()
 
@@ -85,7 +88,7 @@ getStatisticsSecurityErrors
 
 
 getStatisticsChainings
-----------------------
+++++++++++++++++++++++
 
 .. function:: getStatisticsChainings()
 
@@ -97,7 +100,7 @@ getStatisticsChainings
 
 
 getStatisticsReferralsReturned
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getStatisticsReferralsReturned()
 
@@ -109,7 +112,7 @@ getStatisticsReferralsReturned
 
 
 getStatisticsExtendedOps
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getStatisticsExtendedOps()
 
@@ -121,7 +124,7 @@ getStatisticsExtendedOps
 
 
 getStatisticsAbandonOps
------------------------
++++++++++++++++++++++++
 
 .. function:: getStatisticsAbandonOps()
 
@@ -133,7 +136,7 @@ getStatisticsAbandonOps
 
 
 getStatisticsWholeSubtreeSearchOps
-----------------------------------
+++++++++++++++++++++++++++++++++++
 
 .. function:: getStatisticsWholeSubtreeSearchOps()
 
@@ -145,7 +148,7 @@ getStatisticsWholeSubtreeSearchOps
 
 
 getServerType
--------------
++++++++++++++
 
 .. function:: getServerType()
 

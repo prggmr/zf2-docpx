@@ -1,14 +1,17 @@
-.. Config/Writer/Xml.php generated using docpx on 01/30/13 03:32am
+.. Config/Writer/Xml.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Writer\\Xml
 =========================
 
 Methods
-+++++++
+-------
 
 processConfig
--------------
++++++++++++++
 
 .. function:: processConfig()
 
@@ -22,7 +25,7 @@ processConfig
 
 
 addBranch
----------
++++++++++
 
 .. function:: addBranch()
 

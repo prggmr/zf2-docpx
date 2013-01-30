@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/Session.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/Session.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\Session
 ======================================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -38,7 +41,7 @@ getOptions
 
 
 getSessionContainer
--------------------
++++++++++++++++++++
 
 .. function:: getSessionContainer()
 
@@ -50,7 +53,7 @@ getSessionContainer
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -62,7 +65,7 @@ getIterator
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -74,7 +77,7 @@ flush
 
 
 clearByPrefix
--------------
++++++++++++++
 
 .. function:: clearByPrefix()
 
@@ -88,7 +91,7 @@ clearByPrefix
 
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -106,7 +109,7 @@ internalGetItem
 
 
 internalGetItems
-----------------
+++++++++++++++++
 
 .. function:: internalGetItems()
 
@@ -122,7 +125,7 @@ internalGetItems
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -136,7 +139,7 @@ internalHasItem
 
 
 internalHasItems
-----------------
+++++++++++++++++
 
 .. function:: internalHasItems()
 
@@ -150,7 +153,7 @@ internalHasItems
 
 
 internalGetMetadata
--------------------
++++++++++++++++++++
 
 .. function:: internalGetMetadata()
 
@@ -168,7 +171,7 @@ internalGetMetadata
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -185,7 +188,7 @@ internalSetItem
 
 
 internalSetItems
-----------------
+++++++++++++++++
 
 .. function:: internalSetItems()
 
@@ -201,7 +204,7 @@ internalSetItems
 
 
 internalAddItem
----------------
++++++++++++++++
 
 .. function:: internalAddItem()
 
@@ -218,7 +221,7 @@ internalAddItem
 
 
 internalAddItems
-----------------
+++++++++++++++++
 
 .. function:: internalAddItems()
 
@@ -234,7 +237,7 @@ internalAddItems
 
 
 internalReplaceItem
--------------------
++++++++++++++++++++
 
 .. function:: internalReplaceItem()
 
@@ -251,7 +254,7 @@ internalReplaceItem
 
 
 internalReplaceItems
---------------------
+++++++++++++++++++++
 
 .. function:: internalReplaceItems()
 
@@ -267,7 +270,7 @@ internalReplaceItems
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -283,7 +286,7 @@ internalRemoveItem
 
 
 internalIncrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalIncrementItem()
 
@@ -300,7 +303,7 @@ internalIncrementItem
 
 
 internalDecrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalDecrementItem()
 
@@ -317,7 +320,7 @@ internalDecrementItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 

@@ -1,14 +1,17 @@
-.. Filter/Dir.php generated using docpx on 01/30/13 03:32am
+.. Filter/Dir.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Dir
 =================
 
 Methods
-+++++++
+-------
 
 filter
-------
+++++++
 
 .. function:: filter()
 

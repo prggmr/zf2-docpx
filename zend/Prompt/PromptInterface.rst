@@ -1,5 +1,8 @@
-.. Console/Prompt/PromptInterface.php generated using docpx on 01/30/13 03:32am
+.. Console/Prompt/PromptInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Console\\Prompt\\show
 ===========================
@@ -13,6 +16,9 @@ Zend\\Console\\Prompt\\show
 
 
 
+Function
+********
+
 Zend\\Console\\Prompt\\getLastResponse
 ======================================
 
@@ -25,6 +31,9 @@ Zend\\Console\\Prompt\\getLastResponse
 
 
 
+Function
+********
+
 Zend\\Console\\Prompt\\getConsole
 =================================
 
@@ -36,6 +45,9 @@ Zend\\Console\\Prompt\\getConsole
     :rtype: ConsoleAdapter 
 
 
+
+Function
+********
 
 Zend\\Console\\Prompt\\setConsole
 =================================

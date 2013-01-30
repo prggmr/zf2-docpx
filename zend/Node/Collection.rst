@@ -1,5 +1,8 @@
-.. Ldap/Node/Collection.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Collection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Collection
 ============================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node\\Collection
 Zend\Ldap\Node\Collection provides a collection of nodes.
 
 Methods
-+++++++
+-------
 
 createEntry
------------
++++++++++++
 
 .. function:: createEntry()
 
@@ -24,7 +27,7 @@ createEntry
 
 
 key
----
++++
 
 .. function:: key()
 

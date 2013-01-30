@@ -1,5 +1,8 @@
-.. Filter/Compress/CompressionAlgorithmInterface.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress/CompressionAlgorithmInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Filter\\Compress\\compress
 ================================
@@ -15,6 +18,9 @@ Zend\\Filter\\Compress\\compress
 
 
 
+Function
+********
+
 Zend\\Filter\\Compress\\decompress
 ==================================
 
@@ -28,6 +34,9 @@ Zend\\Filter\\Compress\\decompress
     :rtype: string The decompressed data
 
 
+
+Function
+********
 
 Zend\\Filter\\Compress\\toString
 ================================

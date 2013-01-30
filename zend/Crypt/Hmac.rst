@@ -1,5 +1,8 @@
-.. Crypt/Hmac.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Hmac.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Hmac
 =================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Hmac
 PHP implementation of the RFC 2104 Hash based Message Authentication Code
 
 Methods
-+++++++
+-------
 
 compute
--------
++++++++
 
 .. function:: compute()
 
@@ -31,7 +34,7 @@ compute
 
 
 getOutputSize
--------------
++++++++++++++
 
 .. function:: getOutputSize()
 
@@ -46,7 +49,7 @@ getOutputSize
 
 
 getSupportedAlgorithms
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSupportedAlgorithms()
 
@@ -58,7 +61,7 @@ getSupportedAlgorithms
 
 
 isSupported
------------
++++++++++++
 
 .. function:: isSupported()
 
@@ -72,7 +75,7 @@ isSupported
 
 
 clearLastAlgorithmCache
------------------------
++++++++++++++++++++++++
 
 .. function:: clearLastAlgorithmCache()
 
@@ -84,11 +87,11 @@ clearLastAlgorithmCache
 
 
 Constants
-+++++++++
+---------
 
 OUTPUT_STRING
-=============
++++++++++++++
 
 OUTPUT_BINARY
-=============
++++++++++++++
 

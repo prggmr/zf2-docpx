@@ -1,5 +1,8 @@
-.. EventManager/SharedListenerAggregateInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/SharedListenerAggregateInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\attachShared
 ================================
@@ -15,6 +18,9 @@ Zend\\EventManager\\attachShared
     :param SharedEventManagerInterface: 
 
 
+
+Function
+********
 
 Zend\\EventManager\\detachShared
 ================================

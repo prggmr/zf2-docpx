@@ -1,5 +1,8 @@
-.. Navigation/Page/AbstractPage.php generated using docpx on 01/30/13 03:32am
+.. Navigation/Page/AbstractPage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\Page\\AbstractPage
 ====================================
@@ -7,10 +10,10 @@ Zend\\Navigation\\Page\\AbstractPage
 Base class for Zend\Navigation\Page pages
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -50,7 +53,7 @@ factory
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -65,7 +68,7 @@ __construct
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -77,7 +80,7 @@ init
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -98,7 +101,7 @@ setOptions
 
 
 setLabel
---------
+++++++++
 
 .. function:: setLabel()
 
@@ -114,7 +117,7 @@ setLabel
 
 
 getLabel
---------
+++++++++
 
 .. function:: getLabel()
 
@@ -126,7 +129,7 @@ getLabel
 
 
 setFragment
------------
++++++++++++
 
 .. function:: setFragment()
 
@@ -142,7 +145,7 @@ setFragment
 
 
 getFragment
------------
++++++++++++
 
 .. function:: getFragment()
 
@@ -154,7 +157,7 @@ getFragment
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -171,7 +174,7 @@ setId
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -183,7 +186,7 @@ getId
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -200,7 +203,7 @@ setClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -212,7 +215,7 @@ getClass
 
 
 setTitle
---------
+++++++++
 
 .. function:: setTitle()
 
@@ -229,7 +232,7 @@ setTitle
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -241,7 +244,7 @@ getTitle
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -258,7 +261,7 @@ setTarget
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -270,7 +273,7 @@ getTarget
 
 
 setRel
-------
+++++++
 
 .. function:: setRel()
 
@@ -293,7 +296,7 @@ setRel
 
 
 getRel
-------
+++++++
 
 .. function:: getRel()
 
@@ -315,7 +318,7 @@ getRel
 
 
 setRev
-------
+++++++
 
 .. function:: setRev()
 
@@ -338,7 +341,7 @@ setRev
 
 
 getRev
-------
+++++++
 
 .. function:: getRev()
 
@@ -360,7 +363,7 @@ getRev
 
 
 setOrder
---------
+++++++++
 
 .. function:: setOrder()
 
@@ -378,7 +381,7 @@ setOrder
 
 
 getOrder
---------
+++++++++
 
 .. function:: getOrder()
 
@@ -390,7 +393,7 @@ getOrder
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -408,7 +411,7 @@ setResource
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -420,7 +423,7 @@ getResource
 
 
 setPrivilege
-------------
+++++++++++++
 
 .. function:: setPrivilege()
 
@@ -436,7 +439,7 @@ setPrivilege
 
 
 getPrivilege
-------------
+++++++++++++
 
 .. function:: getPrivilege()
 
@@ -448,7 +451,7 @@ getPrivilege
 
 
 setActive
----------
++++++++++
 
 .. function:: setActive()
 
@@ -463,7 +466,7 @@ setActive
 
 
 isActive
---------
+++++++++
 
 .. function:: isActive()
 
@@ -479,7 +482,7 @@ isActive
 
 
 getActive
----------
++++++++++
 
 .. function:: getActive()
 
@@ -495,7 +498,7 @@ getActive
 
 
 setVisible
-----------
+++++++++++
 
 .. function:: setVisible()
 
@@ -510,7 +513,7 @@ setVisible
 
 
 isVisible
----------
++++++++++
 
 .. function:: isVisible()
 
@@ -526,7 +529,7 @@ isVisible
 
 
 getVisible
-----------
+++++++++++
 
 .. function:: getVisible()
 
@@ -544,7 +547,7 @@ getVisible
 
 
 setParent
----------
++++++++++
 
 .. function:: setParent()
 
@@ -561,7 +564,7 @@ setParent
 
 
 getParent
----------
++++++++++
 
 .. function:: getParent()
 
@@ -573,7 +576,7 @@ getParent
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -593,7 +596,7 @@ set
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -613,7 +616,7 @@ get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -632,7 +635,7 @@ __set
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -650,7 +653,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -670,7 +673,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -688,7 +691,7 @@ __unset
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -702,7 +705,7 @@ __toString
 
 
 addRel
-------
+++++++
 
 .. function:: addRel()
 
@@ -718,7 +721,7 @@ addRel
 
 
 addRev
-------
+++++++
 
 .. function:: addRev()
 
@@ -734,7 +737,7 @@ addRev
 
 
 removeRel
----------
++++++++++
 
 .. function:: removeRel()
 
@@ -748,7 +751,7 @@ removeRel
 
 
 removeRev
----------
++++++++++
 
 .. function:: removeRev()
 
@@ -762,7 +765,7 @@ removeRev
 
 
 getDefinedRel
--------------
++++++++++++++
 
 .. function:: getDefinedRel()
 
@@ -774,7 +777,7 @@ getDefinedRel
 
 
 getDefinedRev
--------------
++++++++++++++
 
 .. function:: getDefinedRev()
 
@@ -786,7 +789,7 @@ getDefinedRev
 
 
 getCustomProperties
--------------------
++++++++++++++++++++
 
 .. function:: getCustomProperties()
 
@@ -798,7 +801,7 @@ getCustomProperties
 
 
 hashCode
---------
+++++++++
 
 .. function:: hashCode()
 
@@ -810,7 +813,7 @@ hashCode
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -822,7 +825,7 @@ toArray
 
 
 normalizePropertyName
----------------------
++++++++++++++++++++++
 
 .. function:: normalizePropertyName()
 
@@ -836,7 +839,7 @@ normalizePropertyName
 
 
 getHref
--------
++++++++
 
 .. function:: getHref()
 

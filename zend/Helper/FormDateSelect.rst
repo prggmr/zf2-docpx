@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormDateSelect.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormDateSelect.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormDateSelect
 ========================================
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -25,7 +28,7 @@ render
 
 
 getDaysOptions
---------------
+++++++++++++++
 
 .. function:: getDaysOptions()
 

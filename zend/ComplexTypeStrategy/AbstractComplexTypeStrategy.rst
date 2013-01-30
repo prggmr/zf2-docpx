@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/AbstractComplexTypeStrategy.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/AbstractComplexTypeStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\AbstractComplexTypeStrategy
 ==================================================================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\AbstractComplexTypeStrategy
 Abstract class for Zend_Soap_Wsdl_Strategy.
 
 Methods
-+++++++
+-------
 
 setContext
-----------
+++++++++++
 
 .. function:: setContext()
 
@@ -24,7 +27,7 @@ setContext
 
 
 getContext
-----------
+++++++++++
 
 .. function:: getContext()
 
@@ -36,7 +39,7 @@ getContext
 
 
 scanRegisteredTypes
--------------------
++++++++++++++++++++
 
 .. function:: scanRegisteredTypes()
 

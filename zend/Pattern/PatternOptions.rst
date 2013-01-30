@@ -1,14 +1,17 @@
-.. Cache/Pattern/PatternOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Pattern/PatternOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Pattern\\PatternOptions
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setCacheByDefault
------------------
++++++++++++++++++
 
 .. function:: setCacheByDefault()
 
@@ -42,7 +45,7 @@ setCacheByDefault
 
 
 getCacheByDefault
------------------
++++++++++++++++++
 
 .. function:: getCacheByDefault()
 
@@ -58,7 +61,7 @@ getCacheByDefault
 
 
 setCacheOutput
---------------
+++++++++++++++
 
 .. function:: setCacheOutput()
 
@@ -77,7 +80,7 @@ setCacheOutput
 
 
 getCacheOutput
---------------
+++++++++++++++
 
 .. function:: getCacheOutput()
 
@@ -94,7 +97,7 @@ getCacheOutput
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -113,7 +116,7 @@ setClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -128,7 +131,7 @@ getClass
 
 
 setClassCacheMethods
---------------------
+++++++++++++++++++++
 
 .. function:: setClassCacheMethods()
 
@@ -145,7 +148,7 @@ setClassCacheMethods
 
 
 getClassCacheMethods
---------------------
+++++++++++++++++++++
 
 .. function:: getClassCacheMethods()
 
@@ -160,7 +163,7 @@ getClassCacheMethods
 
 
 setClassNonCacheMethods
------------------------
++++++++++++++++++++++++
 
 .. function:: setClassNonCacheMethods()
 
@@ -177,7 +180,7 @@ setClassNonCacheMethods
 
 
 getClassNonCacheMethods
------------------------
++++++++++++++++++++++++
 
 .. function:: getClassNonCacheMethods()
 
@@ -192,7 +195,7 @@ getClassNonCacheMethods
 
 
 setDirPermission
-----------------
+++++++++++++++++
 
 .. function:: setDirPermission()
 
@@ -208,7 +211,7 @@ setDirPermission
 
 
 getDirPermission
-----------------
+++++++++++++++++
 
 .. function:: getDirPermission()
 
@@ -220,7 +223,7 @@ getDirPermission
 
 
 setUmask
---------
+++++++++
 
 .. function:: setUmask()
 
@@ -239,7 +242,7 @@ setUmask
 
 
 getUmask
---------
+++++++++
 
 .. function:: getUmask()
 
@@ -254,7 +257,7 @@ getUmask
 
 
 setFileLocking
---------------
+++++++++++++++
 
 .. function:: setFileLocking()
 
@@ -271,7 +274,7 @@ setFileLocking
 
 
 getFileLocking
---------------
+++++++++++++++
 
 .. function:: getFileLocking()
 
@@ -286,7 +289,7 @@ getFileLocking
 
 
 setFilePermission
------------------
++++++++++++++++++
 
 .. function:: setFilePermission()
 
@@ -302,7 +305,7 @@ setFilePermission
 
 
 getFilePermission
------------------
++++++++++++++++++
 
 .. function:: getFilePermission()
 
@@ -314,7 +317,7 @@ getFilePermission
 
 
 setIndexFilename
-----------------
+++++++++++++++++
 
 .. function:: setIndexFilename()
 
@@ -328,7 +331,7 @@ setIndexFilename
 
 
 getIndexFilename
-----------------
+++++++++++++++++
 
 .. function:: getIndexFilename()
 
@@ -340,7 +343,7 @@ getIndexFilename
 
 
 setObject
----------
++++++++++
 
 .. function:: setObject()
 
@@ -356,7 +359,7 @@ setObject
 
 
 getObject
----------
++++++++++
 
 .. function:: getObject()
 
@@ -368,7 +371,7 @@ getObject
 
 
 setObjectCacheMagicProperties
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: setObjectCacheMagicProperties()
 
@@ -385,7 +388,7 @@ setObjectCacheMagicProperties
 
 
 getObjectCacheMagicProperties
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: getObjectCacheMagicProperties()
 
@@ -400,7 +403,7 @@ getObjectCacheMagicProperties
 
 
 setObjectCacheMethods
----------------------
++++++++++++++++++++++
 
 .. function:: setObjectCacheMethods()
 
@@ -416,7 +419,7 @@ setObjectCacheMethods
 
 
 getObjectCacheMethods
----------------------
++++++++++++++++++++++
 
 .. function:: getObjectCacheMethods()
 
@@ -428,7 +431,7 @@ getObjectCacheMethods
 
 
 setObjectKey
-------------
+++++++++++++
 
 .. function:: setObjectKey()
 
@@ -447,7 +450,7 @@ setObjectKey
 
 
 getObjectKey
-------------
+++++++++++++
 
 .. function:: getObjectKey()
 
@@ -462,7 +465,7 @@ getObjectKey
 
 
 setObjectNonCacheMethods
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setObjectNonCacheMethods()
 
@@ -478,7 +481,7 @@ setObjectNonCacheMethods
 
 
 getObjectNonCacheMethods
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getObjectNonCacheMethods()
 
@@ -490,7 +493,7 @@ getObjectNonCacheMethods
 
 
 setPublicDir
-------------
+++++++++++++
 
 .. function:: setPublicDir()
 
@@ -509,7 +512,7 @@ setPublicDir
 
 
 getPublicDir
-------------
+++++++++++++
 
 .. function:: getPublicDir()
 
@@ -524,7 +527,7 @@ getPublicDir
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -544,7 +547,7 @@ setStorage
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -562,7 +565,7 @@ getStorage
 
 
 recursiveStrtolower
--------------------
++++++++++++++++++++
 
 .. function:: recursiveStrtolower()
 
@@ -577,7 +580,7 @@ recursiveStrtolower
 
 
 normalizeObjectMethods
-----------------------
+++++++++++++++++++++++
 
 .. function:: normalizeObjectMethods()
 
@@ -596,7 +599,7 @@ normalizeObjectMethods
 
 
 storageFactory
---------------
+++++++++++++++
 
 .. function:: storageFactory()
 

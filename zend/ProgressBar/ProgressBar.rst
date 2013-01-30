@@ -1,5 +1,8 @@
-.. ProgressBar/ProgressBar.php generated using docpx on 01/30/13 03:32am
+.. ProgressBar/ProgressBar.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ProgressBar\\ProgressBar
 ==============================
@@ -7,10 +10,10 @@ Zend\\ProgressBar\\ProgressBar
 Zend_ProgressBar offers an interface for multiple environments.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -39,7 +42,7 @@ getAdapter
 
 
 update
-------
+++++++
 
 .. function:: update()
 
@@ -54,7 +57,7 @@ update
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -69,7 +72,7 @@ next
 
 
 finish
-------
+++++++
 
 .. function:: finish()
 

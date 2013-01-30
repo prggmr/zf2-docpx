@@ -1,5 +1,8 @@
-.. Text/Table/Table.php generated using docpx on 01/30/13 03:32am
+.. Text/Table/Table.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\Table\\Table
 ========================
@@ -7,10 +10,10 @@ Zend\\Text\\Table\\Table
 Zend\Text\Table\Table enables developers to create tables out of characters
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 setColumnWidths
----------------
++++++++++++++++
 
 .. function:: setColumnWidths()
 
@@ -55,7 +58,7 @@ setColumnWidths
 
 
 setAutoSeparate
----------------
++++++++++++++++
 
 .. function:: setAutoSeparate()
 
@@ -69,7 +72,7 @@ setAutoSeparate
 
 
 setDecorator
-------------
+++++++++++++
 
 .. function:: setDecorator()
 
@@ -83,7 +86,7 @@ setDecorator
 
 
 setPadding
-----------
+++++++++++
 
 .. function:: setPadding()
 
@@ -97,7 +100,7 @@ setPadding
 
 
 getDecoratorManager
--------------------
++++++++++++++++++++
 
 .. function:: getDecoratorManager()
 
@@ -109,7 +112,7 @@ getDecoratorManager
 
 
 setDecoratorManager
--------------------
++++++++++++++++++++
 
 .. function:: setDecoratorManager()
 
@@ -123,7 +126,7 @@ setDecoratorManager
 
 
 setDefaultColumnAlign
----------------------
++++++++++++++++++++++
 
 .. function:: setDefaultColumnAlign()
 
@@ -138,7 +141,7 @@ setDefaultColumnAlign
 
 
 setInputCharset
----------------
++++++++++++++++
 
 .. function:: setInputCharset()
 
@@ -150,7 +153,7 @@ setInputCharset
 
 
 getInputCharset
----------------
++++++++++++++++
 
 .. function:: getInputCharset()
 
@@ -162,7 +165,7 @@ getInputCharset
 
 
 setOutputCharset
-----------------
+++++++++++++++++
 
 .. function:: setOutputCharset()
 
@@ -174,7 +177,7 @@ setOutputCharset
 
 
 getOutputCharset
-----------------
+++++++++++++++++
 
 .. function:: getOutputCharset()
 
@@ -186,7 +189,7 @@ getOutputCharset
 
 
 appendRow
----------
++++++++++
 
 .. function:: appendRow()
 
@@ -203,7 +206,7 @@ appendRow
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -216,7 +219,7 @@ render
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -230,19 +233,19 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 AUTO_SEPARATE_NONE
-==================
+++++++++++++++++++
 
 Auto separator settings
 
 AUTO_SEPARATE_HEADER
-====================
+++++++++++++++++++++
 
 AUTO_SEPARATE_FOOTER
-====================
+++++++++++++++++++++
 
 AUTO_SEPARATE_ALL
-=================
++++++++++++++++++
 

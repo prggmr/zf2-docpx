@@ -1,14 +1,17 @@
-.. I18n/View/Helper/AbstractTranslatorHelper.php generated using docpx on 01/30/13 03:32am
+.. I18n/View/Helper/AbstractTranslatorHelper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\View\\Helper\\AbstractTranslatorHelper
 ==================================================
 
 Methods
-+++++++
+-------
 
 setTranslator
--------------
++++++++++++++
 
 .. function:: setTranslator()
 
@@ -25,7 +28,7 @@ setTranslator
 
 
 getTranslator
--------------
++++++++++++++
 
 .. function:: getTranslator()
 
@@ -37,7 +40,7 @@ getTranslator
 
 
 hasTranslator
--------------
++++++++++++++
 
 .. function:: hasTranslator()
 
@@ -49,7 +52,7 @@ hasTranslator
 
 
 setTranslatorEnabled
---------------------
+++++++++++++++++++++
 
 .. function:: setTranslatorEnabled()
 
@@ -64,7 +67,7 @@ setTranslatorEnabled
 
 
 isTranslatorEnabled
--------------------
++++++++++++++++++++
 
 .. function:: isTranslatorEnabled()
 
@@ -76,7 +79,7 @@ isTranslatorEnabled
 
 
 setTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: setTranslatorTextDomain()
 
@@ -90,7 +93,7 @@ setTranslatorTextDomain
 
 
 getTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: getTranslatorTextDomain()
 

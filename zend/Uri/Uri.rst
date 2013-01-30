@@ -1,5 +1,8 @@
-.. Uri/Uri.php generated using docpx on 01/30/13 03:32am
+.. Uri/Uri.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Uri\\Uri
 ==============
@@ -7,10 +10,10 @@ Zend\\Uri\\Uri
 Generic URI handler
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -36,7 +39,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -50,7 +53,7 @@ getEscaper
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -64,7 +67,7 @@ isValid
 
 
 isValidRelative
----------------
++++++++++++++++
 
 .. function:: isValidRelative()
 
@@ -76,7 +79,7 @@ isValidRelative
 
 
 isAbsolute
-----------
+++++++++++
 
 .. function:: isAbsolute()
 
@@ -88,7 +91,7 @@ isAbsolute
 
 
 parse
------
++++++
 
 .. function:: parse()
 
@@ -102,7 +105,7 @@ parse
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -116,7 +119,7 @@ toString
 
 
 normalize
----------
++++++++++
 
 .. function:: normalize()
 
@@ -136,7 +139,7 @@ normalize
 
 
 resolve
--------
++++++++
 
 .. function:: resolve()
 
@@ -159,7 +162,7 @@ resolve
 
 
 makeRelative
-------------
+++++++++++++
 
 .. function:: makeRelative()
 
@@ -179,7 +182,7 @@ makeRelative
 
 
 getScheme
----------
++++++++++
 
 .. function:: getScheme()
 
@@ -191,7 +194,7 @@ getScheme
 
 
 getUserInfo
------------
++++++++++++
 
 .. function:: getUserInfo()
 
@@ -203,7 +206,7 @@ getUserInfo
 
 
 getHost
--------
++++++++
 
 .. function:: getHost()
 
@@ -215,7 +218,7 @@ getHost
 
 
 getPort
--------
++++++++
 
 .. function:: getPort()
 
@@ -227,7 +230,7 @@ getPort
 
 
 getPath
--------
++++++++
 
 .. function:: getPath()
 
@@ -239,7 +242,7 @@ getPath
 
 
 getQuery
---------
+++++++++
 
 .. function:: getQuery()
 
@@ -251,7 +254,7 @@ getQuery
 
 
 getQueryAsArray
----------------
++++++++++++++++
 
 .. function:: getQueryAsArray()
 
@@ -266,7 +269,7 @@ getQueryAsArray
 
 
 getFragment
------------
++++++++++++
 
 .. function:: getFragment()
 
@@ -278,7 +281,7 @@ getFragment
 
 
 setScheme
----------
++++++++++
 
 .. function:: setScheme()
 
@@ -302,7 +305,7 @@ setScheme
 
 
 setUserInfo
------------
++++++++++++
 
 .. function:: setUserInfo()
 
@@ -319,7 +322,7 @@ does not have this part
 
 
 setHost
--------
++++++++
 
 .. function:: setHost()
 
@@ -346,7 +349,7 @@ setHost
 
 
 setPort
--------
++++++++
 
 .. function:: setPort()
 
@@ -360,7 +363,7 @@ setPort
 
 
 setPath
--------
++++++++
 
 .. function:: setPath()
 
@@ -374,7 +377,7 @@ setPath
 
 
 setQuery
---------
+++++++++
 
 .. function:: setQuery()
 
@@ -392,7 +395,7 @@ setQuery
 
 
 setFragment
------------
++++++++++++
 
 .. function:: setFragment()
 
@@ -409,7 +412,7 @@ does not have this part
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -421,7 +424,7 @@ __toString
 
 
 validateScheme
---------------
+++++++++++++++
 
 .. function:: validateScheme()
 
@@ -439,7 +442,7 @@ validateScheme
 
 
 validateUserInfo
-----------------
+++++++++++++++++
 
 .. function:: validateUserInfo()
 
@@ -453,7 +456,7 @@ validateUserInfo
 
 
 validateHost
-------------
+++++++++++++
 
 .. function:: validateHost()
 
@@ -478,7 +481,7 @@ validateHost
 
 
 validatePort
-------------
+++++++++++++
 
 .. function:: validatePort()
 
@@ -494,7 +497,7 @@ validatePort
 
 
 validatePath
-------------
+++++++++++++
 
 .. function:: validatePath()
 
@@ -508,7 +511,7 @@ validatePath
 
 
 validateQueryFragment
----------------------
++++++++++++++++++++++
 
 .. function:: validateQueryFragment()
 
@@ -528,7 +531,7 @@ validateQueryFragment
 
 
 encodeUserInfo
---------------
+++++++++++++++
 
 .. function:: encodeUserInfo()
 
@@ -544,7 +547,7 @@ encodeUserInfo
 
 
 encodePath
-----------
+++++++++++
 
 .. function:: encodePath()
 
@@ -563,7 +566,7 @@ encodePath
 
 
 encodeQueryFragment
--------------------
++++++++++++++++++++
 
 .. function:: encodeQueryFragment()
 
@@ -583,7 +586,7 @@ encodeQueryFragment
 
 
 parseScheme
------------
++++++++++++
 
 .. function:: parseScheme()
 
@@ -606,7 +609,7 @@ parseScheme
 
 
 removePathDotSegments
----------------------
++++++++++++++++++++++
 
 .. function:: removePathDotSegments()
 
@@ -624,7 +627,7 @@ removePathDotSegments
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -645,7 +648,7 @@ merge
 
 
 isValidIpAddress
-----------------
+++++++++++++++++
 
 .. function:: isValidIpAddress()
 
@@ -660,7 +663,7 @@ isValidIpAddress
 
 
 isValidDnsHostname
-------------------
+++++++++++++++++++
 
 .. function:: isValidDnsHostname()
 
@@ -674,7 +677,7 @@ isValidDnsHostname
 
 
 isValidRegName
---------------
+++++++++++++++
 
 .. function:: isValidRegName()
 
@@ -688,7 +691,7 @@ isValidRegName
 
 
 normalizeScheme
----------------
++++++++++++++++
 
 .. function:: normalizeScheme()
 
@@ -704,7 +707,7 @@ normalizeScheme
 
 
 normalizeHost
--------------
++++++++++++++
 
 .. function:: normalizeHost()
 
@@ -720,7 +723,7 @@ normalizeHost
 
 
 normalizePort
--------------
++++++++++++++
 
 .. function:: normalizePort()
 
@@ -738,7 +741,7 @@ normalizePort
 
 
 normalizePath
--------------
++++++++++++++
 
 .. function:: normalizePath()
 
@@ -755,7 +758,7 @@ normalizePath
 
 
 normalizeQuery
---------------
+++++++++++++++
 
 .. function:: normalizeQuery()
 
@@ -772,7 +775,7 @@ normalizeQuery
 
 
 normalizeFragment
------------------
++++++++++++++++++
 
 .. function:: normalizeFragment()
 
@@ -788,7 +791,7 @@ normalizeFragment
 
 
 decodeUrlEncodedChars
----------------------
++++++++++++++++++++++
 
 .. function:: decodeUrlEncodedChars()
 
@@ -807,24 +810,24 @@ decodeUrlEncodedChars
 
 
 Constants
-+++++++++
+---------
 
 CHAR_UNRESERVED
-===============
++++++++++++++++
 
 Character classes defined in RFC-3986
 
 CHAR_GEN_DELIMS
-===============
++++++++++++++++
 
 CHAR_SUB_DELIMS
-===============
++++++++++++++++
 
 CHAR_RESERVED
-=============
++++++++++++++
 
 HOST_IPV4
-=========
++++++++++
 
 Host part types represented as binary masks
 The binary mask consists of 5 bits in the following order:
@@ -833,32 +836,32 @@ Place 1 or 0 in the different positions for enable or disable the part.
 Finally use a hexadecimal representation.
 
 HOST_IPV6
-=========
++++++++++
 
 HOST_IPVFUTURE
-==============
+++++++++++++++
 
 HOST_IPVANY
-===========
++++++++++++
 
 HOST_DNS
-========
+++++++++
 
 HOST_DNS_OR_IPV4
-================
+++++++++++++++++
 
 HOST_DNS_OR_IPV6
-================
+++++++++++++++++
 
 HOST_DNS_OR_IPV4_OR_IPV6
-========================
+++++++++++++++++++++++++
 
 HOST_DNS_OR_IPVANY
-==================
+++++++++++++++++++
 
 HOST_REGNAME
-============
+++++++++++++
 
 HOST_ALL
-========
+++++++++
 

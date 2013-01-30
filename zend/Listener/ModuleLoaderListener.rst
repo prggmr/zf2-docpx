@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/ModuleLoaderListener.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/ModuleLoaderListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\ModuleLoaderListener
 ===================================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\ModuleLoaderListener
 Module loader listener
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -39,7 +42,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -53,7 +56,7 @@ detach
 
 
 hasCachedClassMap
------------------
++++++++++++++++++
 
 .. function:: hasCachedClassMap()
 
@@ -63,7 +66,7 @@ hasCachedClassMap
 
 
 getCachedConfig
----------------
++++++++++++++++
 
 .. function:: getCachedConfig()
 
@@ -73,7 +76,7 @@ getCachedConfig
 
 
 onLoadModulesPost
------------------
++++++++++++++++++
 
 .. function:: onLoadModulesPost()
 

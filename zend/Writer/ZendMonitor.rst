@@ -1,14 +1,17 @@
-.. Log/Writer/ZendMonitor.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/ZendMonitor.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\ZendMonitor
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 isEnabled
----------
++++++++++
 
 .. function:: isEnabled()
 
@@ -36,7 +39,7 @@ isEnabled
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -50,7 +53,7 @@ write
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 

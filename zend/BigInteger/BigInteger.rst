@@ -1,14 +1,17 @@
-.. Math/BigInteger/BigInteger.php generated using docpx on 01/30/13 03:32am
+.. Math/BigInteger/BigInteger.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Math\\BigInteger\\BigInteger
 ==================================
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -22,7 +25,7 @@ factory
 
 
 setAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: setAdapterPluginManager()
 
@@ -34,7 +37,7 @@ setAdapterPluginManager
 
 
 getAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: getAdapterPluginManager()
 
@@ -46,7 +49,7 @@ getAdapterPluginManager
 
 
 setDefaultAdapter
------------------
++++++++++++++++++
 
 .. function:: setDefaultAdapter()
 
@@ -58,7 +61,7 @@ setDefaultAdapter
 
 
 getDefaultAdapter
------------------
++++++++++++++++++
 
 .. function:: getDefaultAdapter()
 
@@ -70,7 +73,7 @@ getDefaultAdapter
 
 
 getAvailableAdapter
--------------------
++++++++++++++++++++
 
 .. function:: getAvailableAdapter()
 
@@ -84,7 +87,7 @@ getAvailableAdapter
 
 
 __callStatic
-------------
+++++++++++++
 
 .. function:: __callStatic()
 

@@ -1,5 +1,8 @@
-.. I18n/Translator/Plural/Symbol.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Plural/Symbol.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Plural\\Symbol
 ======================================
@@ -12,10 +15,10 @@ themselves, as they have to be accessed via the appropriate getter and
 setter methods.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 setNullDenotationGetter
------------------------
++++++++++++++++++++++++
 
 .. function:: setNullDenotationGetter()
 
@@ -43,7 +46,7 @@ setNullDenotationGetter
 
 
 setLeftDenotationGetter
------------------------
++++++++++++++++++++++++
 
 .. function:: setLeftDenotationGetter()
 
@@ -57,7 +60,7 @@ setLeftDenotationGetter
 
 
 getNullDenotation
------------------
++++++++++++++++++
 
 .. function:: getNullDenotation()
 
@@ -70,7 +73,7 @@ getNullDenotation
 
 
 getLeftDenotation
------------------
++++++++++++++++++
 
 .. function:: getLeftDenotation()
 

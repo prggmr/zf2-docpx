@@ -1,5 +1,8 @@
-.. Mail/Header/HeaderInterface.php generated using docpx on 01/30/13 03:32am
+.. Mail/Header/HeaderInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mail\\Header\\fromString
 ==============================
@@ -15,6 +18,9 @@ Zend\\Mail\\Header\\fromString
 
 
 
+Function
+********
+
 Zend\\Mail\\Header\\getFieldName
 ================================
 
@@ -26,6 +32,9 @@ Zend\\Mail\\Header\\getFieldName
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Mail\\Header\\getFieldValue
 =================================
@@ -41,6 +50,9 @@ Zend\\Mail\\Header\\getFieldValue
 
 
 
+Function
+********
+
 Zend\\Mail\\Header\\setEncoding
 ===============================
 
@@ -55,6 +67,9 @@ Zend\\Mail\\Header\\setEncoding
 
 
 
+Function
+********
+
 Zend\\Mail\\Header\\getEncoding
 ===============================
 
@@ -66,6 +81,9 @@ Zend\\Mail\\Header\\getEncoding
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Mail\\Header\\toString
 ============================
@@ -82,12 +100,12 @@ Zend\\Mail\\Header\\toString
 
 
 FORMAT_ENCODED
-==============
+++++++++++++++
 
 Format value in Mime-Encoding if not US-ASCII encoding is used
 
 FORMAT_RAW
-==========
+++++++++++
 
 Return value with the interval ZF2 value (UTF-8 non-encoded)
 

@@ -1,5 +1,8 @@
-.. Cache/Storage/PluginManager.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/PluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\PluginManager
 ===================================
@@ -11,10 +14,10 @@ Plugin\PluginInterface. Additionally, it registers a number of default
 plugins available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

@@ -1,5 +1,8 @@
-.. XmlRpc/Request.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Request.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Request
 =====================
@@ -15,10 +18,10 @@ generated and stored in {@link $fault}; developers may check for it using
 {@link isFault()} and {@link getFault()}.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -45,7 +48,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -57,7 +60,7 @@ getEncoding
 
 
 setMethod
----------
++++++++++
 
 .. function:: setMethod()
 
@@ -71,7 +74,7 @@ setMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -83,7 +86,7 @@ getMethod
 
 
 addParam
---------
+++++++++
 
 .. function:: addParam()
 
@@ -101,7 +104,7 @@ addParam
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -129,7 +132,7 @@ setParams
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -141,7 +144,7 @@ getParams
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
@@ -153,7 +156,7 @@ getTypes
 
 
 loadXml
--------
++++++++
 
 .. function:: loadXml()
 
@@ -169,7 +172,7 @@ loadXml
 
 
 isFault
--------
++++++++
 
 .. function:: isFault()
 
@@ -182,7 +185,7 @@ isFault
 
 
 getFault
---------
+++++++++
 
 .. function:: getFault()
 
@@ -194,7 +197,7 @@ getFault
 
 
 _getXmlRpcParams
-----------------
+++++++++++++++++
 
 .. function:: _getXmlRpcParams()
 
@@ -206,7 +209,7 @@ _getXmlRpcParams
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -218,7 +221,7 @@ saveXml
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

@@ -1,5 +1,8 @@
-.. Db/Sql/ExpressionInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/ExpressionInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Sql\\getExpressionData
 ================================
@@ -25,16 +28,16 @@ array (
 
 
 TYPE_IDENTIFIER
-===============
++++++++++++++++
 
 TYPE_VALUE
-==========
+++++++++++
 
 TYPE_LITERAL
-============
+++++++++++++
 
 TYPE_SELECT
-===========
++++++++++++
 
 @deprecated This will go away in 2.1
 

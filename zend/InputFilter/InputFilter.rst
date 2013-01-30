@@ -1,14 +1,17 @@
-.. InputFilter/InputFilter.php generated using docpx on 01/30/13 03:32am
+.. InputFilter/InputFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\InputFilter\\InputFilter
 ==============================
 
 Methods
-+++++++
+-------
 
 setFactory
-----------
+++++++++++
 
 .. function:: setFactory()
 
@@ -22,7 +25,7 @@ setFactory
 
 
 getFactory
-----------
+++++++++++
 
 .. function:: getFactory()
 
@@ -36,7 +39,7 @@ getFactory
 
 
 add
----
++++
 
 .. function:: add()
 

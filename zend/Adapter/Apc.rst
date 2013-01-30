@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/Apc.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/Apc.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\Apc
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -52,7 +55,7 @@ getOptions
 
 
 getTotalSpace
--------------
++++++++++++++
 
 .. function:: getTotalSpace()
 
@@ -64,7 +67,7 @@ getTotalSpace
 
 
 getAvailableSpace
------------------
++++++++++++++++++
 
 .. function:: getAvailableSpace()
 
@@ -76,7 +79,7 @@ getAvailableSpace
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -88,7 +91,7 @@ getIterator
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -100,7 +103,7 @@ flush
 
 
 clearByNamespace
-----------------
+++++++++++++++++
 
 .. function:: clearByNamespace()
 
@@ -114,7 +117,7 @@ clearByNamespace
 
 
 clearByPrefix
--------------
++++++++++++++
 
 .. function:: clearByPrefix()
 
@@ -128,7 +131,7 @@ clearByPrefix
 
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -146,7 +149,7 @@ internalGetItem
 
 
 internalGetItems
-----------------
+++++++++++++++++
 
 .. function:: internalGetItems()
 
@@ -162,7 +165,7 @@ internalGetItems
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -178,7 +181,7 @@ internalHasItem
 
 
 internalHasItems
-----------------
+++++++++++++++++
 
 .. function:: internalHasItems()
 
@@ -194,7 +197,7 @@ internalHasItems
 
 
 internalGetMetadata
--------------------
++++++++++++++++++++
 
 .. function:: internalGetMetadata()
 
@@ -210,7 +213,7 @@ internalGetMetadata
 
 
 internalGetMetadatas
---------------------
+++++++++++++++++++++
 
 .. function:: internalGetMetadatas()
 
@@ -228,7 +231,7 @@ internalGetMetadatas
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -245,7 +248,7 @@ internalSetItem
 
 
 internalSetItems
-----------------
+++++++++++++++++
 
 .. function:: internalSetItems()
 
@@ -261,7 +264,7 @@ internalSetItems
 
 
 internalAddItem
----------------
++++++++++++++++
 
 .. function:: internalAddItem()
 
@@ -278,7 +281,7 @@ internalAddItem
 
 
 internalAddItems
-----------------
+++++++++++++++++
 
 .. function:: internalAddItems()
 
@@ -294,7 +297,7 @@ internalAddItems
 
 
 internalReplaceItem
--------------------
++++++++++++++++++++
 
 .. function:: internalReplaceItem()
 
@@ -311,7 +314,7 @@ internalReplaceItem
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -327,7 +330,7 @@ internalRemoveItem
 
 
 internalRemoveItems
--------------------
++++++++++++++++++++
 
 .. function:: internalRemoveItems()
 
@@ -343,7 +346,7 @@ internalRemoveItems
 
 
 internalIncrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalIncrementItem()
 
@@ -360,7 +363,7 @@ internalIncrementItem
 
 
 internalDecrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalDecrementItem()
 
@@ -377,7 +380,7 @@ internalDecrementItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 
@@ -389,7 +392,7 @@ internalGetCapabilities
 
 
 normalizeMetadata
------------------
++++++++++++++++++
 
 .. function:: normalizeMetadata()
 

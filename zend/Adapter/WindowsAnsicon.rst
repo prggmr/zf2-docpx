@@ -1,5 +1,8 @@
-.. Console/Adapter/WindowsAnsicon.php generated using docpx on 01/30/13 03:32am
+.. Console/Adapter/WindowsAnsicon.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Adapter\\WindowsAnsicon
 ======================================
@@ -18,10 +21,10 @@ It's best to use non-unicode code page 437, 850, 851, 852 or similar. Run "help 
 information on how to change Windows console code page.
 
 Methods
-+++++++
+-------
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -33,7 +36,7 @@ getWidth
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -45,7 +48,7 @@ getHeight
 
 
 runModeCommand
---------------
+++++++++++++++
 
 .. function:: runModeCommand()
 
@@ -57,7 +60,7 @@ runModeCommand
 
 
 isUtf8
-------
+++++++
 
 .. function:: isUtf8()
 
@@ -69,7 +72,7 @@ isUtf8
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -81,7 +84,7 @@ getTitle
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -91,7 +94,7 @@ clear
 
 
 clearLine
----------
++++++++++
 
 .. function:: clearLine()
 
@@ -101,7 +104,7 @@ clearLine
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -113,7 +116,7 @@ setCharset
 
 
 getCharset
-----------
+++++++++++
 
 .. function:: getCharset()
 
@@ -125,7 +128,7 @@ getCharset
 
 
 getDefaultCharset
------------------
++++++++++++++++++
 
 .. function:: getDefaultCharset()
 
@@ -135,7 +138,7 @@ getDefaultCharset
 
 
 readChar
---------
+++++++++
 
 .. function:: readChar()
 

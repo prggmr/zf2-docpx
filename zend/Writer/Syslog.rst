@@ -1,5 +1,8 @@
-.. Log/Writer/Syslog.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/Syslog.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\Syslog
 =========================
@@ -7,10 +10,10 @@ Zend\\Log\\Writer\\Syslog
 Writes log messages to syslog
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 initializeValidFacilities
--------------------------
++++++++++++++++++++++++++
 
 .. function:: initializeValidFacilities()
 
@@ -36,7 +39,7 @@ initializeValidFacilities
 
 
 initializeSyslog
-----------------
+++++++++++++++++
 
 .. function:: initializeSyslog()
 
@@ -48,7 +51,7 @@ initializeSyslog
 
 
 setFacility
------------
++++++++++++
 
 .. function:: setFacility()
 
@@ -64,7 +67,7 @@ setFacility
 
 
 setApplicationName
-------------------
+++++++++++++++++++
 
 .. function:: setApplicationName()
 
@@ -78,7 +81,7 @@ setApplicationName
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 
@@ -90,7 +93,7 @@ shutdown
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 

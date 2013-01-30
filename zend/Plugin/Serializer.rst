@@ -1,14 +1,17 @@
-.. Cache/Storage/Plugin/Serializer.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Plugin/Serializer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Plugin\\Serializer
 ========================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -25,7 +28,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -41,7 +44,7 @@ detach
 
 
 onReadItemPost
---------------
+++++++++++++++
 
 .. function:: onReadItemPost()
 
@@ -55,7 +58,7 @@ onReadItemPost
 
 
 onReadItemsPost
----------------
++++++++++++++++
 
 .. function:: onReadItemsPost()
 
@@ -69,7 +72,7 @@ onReadItemsPost
 
 
 onWriteItemPre
---------------
+++++++++++++++
 
 .. function:: onWriteItemPre()
 
@@ -83,7 +86,7 @@ onWriteItemPre
 
 
 onWriteItemsPre
----------------
++++++++++++++++
 
 .. function:: onWriteItemsPre()
 
@@ -97,7 +100,7 @@ onWriteItemsPre
 
 
 onIncrementItemPre
-------------------
+++++++++++++++++++
 
 .. function:: onIncrementItemPre()
 
@@ -111,7 +114,7 @@ onIncrementItemPre
 
 
 onIncrementItemsPre
--------------------
++++++++++++++++++++
 
 .. function:: onIncrementItemsPre()
 
@@ -125,7 +128,7 @@ onIncrementItemsPre
 
 
 onDecrementItemPre
-------------------
+++++++++++++++++++
 
 .. function:: onDecrementItemPre()
 
@@ -139,7 +142,7 @@ onDecrementItemPre
 
 
 onDecrementItemsPre
--------------------
++++++++++++++++++++
 
 .. function:: onDecrementItemsPre()
 
@@ -153,7 +156,7 @@ onDecrementItemsPre
 
 
 onGetCapabilitiesPost
----------------------
++++++++++++++++++++++
 
 .. function:: onGetCapabilitiesPost()
 

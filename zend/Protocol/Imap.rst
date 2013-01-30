@@ -1,14 +1,17 @@
-.. Mail/Protocol/Imap.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/Imap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\Imap
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -34,7 +37,7 @@ __destruct
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -52,7 +55,7 @@ connect
 
 
 _nextLine
----------
++++++++++
 
 .. function:: _nextLine()
 
@@ -65,7 +68,7 @@ _nextLine
 
 
 _assumedNextLine
-----------------
+++++++++++++++++
 
 .. function:: _assumedNextLine()
 
@@ -80,7 +83,7 @@ _assumedNextLine
 
 
 _nextTaggedLine
----------------
++++++++++++++++
 
 .. function:: _nextTaggedLine()
 
@@ -94,7 +97,7 @@ _nextTaggedLine
 
 
 _decodeLine
------------
++++++++++++
 
 .. function:: _decodeLine()
 
@@ -108,7 +111,7 @@ _decodeLine
 
 
 readLine
---------
+++++++++
 
 .. function:: readLine()
 
@@ -127,7 +130,7 @@ readLine
 
 
 readResponse
-------------
+++++++++++++
 
 .. function:: readResponse()
 
@@ -143,7 +146,7 @@ readResponse
 
 
 sendRequest
------------
++++++++++++
 
 .. function:: sendRequest()
 
@@ -159,7 +162,7 @@ sendRequest
 
 
 requestAndResponse
-------------------
+++++++++++++++++++
 
 .. function:: requestAndResponse()
 
@@ -175,7 +178,7 @@ requestAndResponse
 
 
 escapeString
-------------
+++++++++++++
 
 .. function:: escapeString()
 
@@ -190,7 +193,7 @@ escapeString
 
 
 escapeList
-----------
+++++++++++
 
 .. function:: escapeList()
 
@@ -204,7 +207,7 @@ escapeList
 
 
 login
------
++++++
 
 .. function:: login()
 
@@ -219,7 +222,7 @@ login
 
 
 logout
-------
+++++++
 
 .. function:: logout()
 
@@ -231,7 +234,7 @@ logout
 
 
 capability
-----------
+++++++++++
 
 .. function:: capability()
 
@@ -245,7 +248,7 @@ capability
 
 
 examineOrSelect
----------------
++++++++++++++++
 
 .. function:: examineOrSelect()
 
@@ -264,7 +267,7 @@ examineOrSelect
 
 
 select
-------
+++++++
 
 .. function:: select()
 
@@ -280,7 +283,7 @@ select
 
 
 examine
--------
++++++++
 
 .. function:: examine()
 
@@ -296,7 +299,7 @@ examine
 
 
 fetch
------
++++++
 
 .. function:: fetch()
 
@@ -319,7 +322,7 @@ fetch
 
 
 listMailbox
------------
++++++++++++
 
 .. function:: listMailbox()
 
@@ -338,7 +341,7 @@ listMailbox
 
 
 store
------
++++++
 
 .. function:: store()
 
@@ -359,7 +362,7 @@ store
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -378,7 +381,7 @@ append
 
 
 copy
-----
+++++
 
 .. function:: copy()
 
@@ -395,7 +398,7 @@ copy
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -409,7 +412,7 @@ create
 
 
 rename
-------
+++++++
 
 .. function:: rename()
 
@@ -424,7 +427,7 @@ rename
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -438,7 +441,7 @@ delete
 
 
 expunge
--------
++++++++
 
 .. function:: expunge()
 
@@ -450,7 +453,7 @@ expunge
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -462,7 +465,7 @@ noop
 
 
 search
-------
+++++++
 
 .. function:: search()
 
@@ -481,10 +484,10 @@ search
 
 
 Constants
-+++++++++
+---------
 
 TIMEOUT_CONNECTION
-==================
+++++++++++++++++++
 
 Default timeout in seconds for initiating session
 

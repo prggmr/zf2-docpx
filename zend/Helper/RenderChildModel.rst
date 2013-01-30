@@ -1,5 +1,8 @@
-.. View/Helper/RenderChildModel.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/RenderChildModel.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\RenderChildModel
 ====================================
@@ -10,10 +13,10 @@ Finds children matching "capture-to" values, and renders them using the
 composed view instance.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -29,7 +32,7 @@ __invoke
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -46,7 +49,7 @@ render
 
 
 findChild
----------
++++++++++
 
 .. function:: findChild()
 
@@ -64,7 +67,7 @@ findChild
 
 
 getCurrent
-----------
+++++++++++
 
 .. function:: getCurrent()
 
@@ -77,7 +80,7 @@ getCurrent
 
 
 getViewModelHelper
-------------------
+++++++++++++++++++
 
 .. function:: getViewModelHelper()
 

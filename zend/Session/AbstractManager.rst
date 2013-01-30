@@ -1,5 +1,8 @@
-.. Session/AbstractManager.php generated using docpx on 01/30/13 03:32am
+.. Session/AbstractManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\AbstractManager
 ==============================
@@ -9,10 +12,10 @@ Base ManagerInterface implementation
 Defines common constructor logic and getters for Storage and Configuration
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 setConfig
----------
++++++++++
 
 .. function:: setConfig()
 
@@ -42,7 +45,7 @@ setConfig
 
 
 getConfig
----------
++++++++++
 
 .. function:: getConfig()
 
@@ -54,7 +57,7 @@ getConfig
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -68,7 +71,7 @@ setStorage
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -80,7 +83,7 @@ getStorage
 
 
 setSaveHandler
---------------
+++++++++++++++
 
 .. function:: setSaveHandler()
 
@@ -94,7 +97,7 @@ setSaveHandler
 
 
 getSaveHandler
---------------
+++++++++++++++
 
 .. function:: getSaveHandler()
 

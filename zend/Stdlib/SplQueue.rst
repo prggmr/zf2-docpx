@@ -1,5 +1,8 @@
-.. Stdlib/SplQueue.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/SplQueue.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\SplQueue
 ======================
@@ -7,10 +10,10 @@ Zend\\Stdlib\\SplQueue
 Serializable version of SplQueue
 
 Methods
-+++++++
+-------
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -22,7 +25,7 @@ toArray
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -34,7 +37,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

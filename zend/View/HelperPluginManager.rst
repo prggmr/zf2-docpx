@@ -1,5 +1,8 @@
-.. View/HelperPluginManager.php generated using docpx on 01/30/13 03:32am
+.. View/HelperPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\HelperPluginManager
 ===============================
@@ -11,10 +14,10 @@ Helper\HelperInterface. Additionally, it registers a number of default
 helpers.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 setRenderer
------------
++++++++++++
 
 .. function:: setRenderer()
 
@@ -43,7 +46,7 @@ setRenderer
 
 
 getRenderer
------------
++++++++++++
 
 .. function:: getRenderer()
 
@@ -55,7 +58,7 @@ getRenderer
 
 
 injectRenderer
---------------
+++++++++++++++
 
 .. function:: injectRenderer()
 
@@ -69,7 +72,7 @@ injectRenderer
 
 
 injectTranslator
-----------------
+++++++++++++++++
 
 .. function:: injectTranslator()
 
@@ -83,7 +86,7 @@ injectTranslator
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

@@ -1,5 +1,8 @@
-.. Form/View/Helper/FormSearch.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormSearch.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormSearch
 ====================================
@@ -12,10 +15,10 @@ the Search state might result in an appearance consistent with the platform's
 search fields rather than appearing like a regular text field.
 
 Methods
-+++++++
+-------
 
 getType
--------
++++++++
 
 .. function:: getType()
 

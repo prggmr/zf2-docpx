@@ -1,14 +1,17 @@
-.. Mvc/ResponseSender/PhpEnvironmentResponseSender.php generated using docpx on 01/30/13 03:32am
+.. Mvc/ResponseSender/PhpEnvironmentResponseSender.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\ResponseSender\\PhpEnvironmentResponseSender
 =======================================================
 
 Methods
-+++++++
+-------
 
 sendContent
------------
++++++++++++
 
 .. function:: sendContent()
 
@@ -22,7 +25,7 @@ sendContent
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

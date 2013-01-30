@@ -1,5 +1,8 @@
-.. Di/ServiceLocator/GeneratorInstance.php generated using docpx on 01/30/13 03:32am
+.. Di/ServiceLocator/GeneratorInstance.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\ServiceLocator\\GeneratorInstance
 ===========================================
@@ -7,10 +10,10 @@ Zend\\Di\\ServiceLocator\\GeneratorInstance
 Container for methods and parameters used by by Di to create a particular instance
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -36,7 +39,7 @@ getName
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -48,7 +51,7 @@ getClass
 
 
 getAlias
---------
+++++++++
 
 .. function:: getAlias()
 
@@ -60,7 +63,7 @@ getAlias
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -77,7 +80,7 @@ setClass
 
 
 setAlias
---------
+++++++++
 
 .. function:: setAlias()
 
@@ -91,7 +94,7 @@ setAlias
 
 
 getConstructor
---------------
+++++++++++++++
 
 .. function:: getConstructor()
 
@@ -103,7 +106,7 @@ getConstructor
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -116,7 +119,7 @@ getParams
 
 
 setMethods
-----------
+++++++++++
 
 .. function:: setMethods()
 
@@ -130,7 +133,7 @@ setMethods
 
 
 addMethod
----------
++++++++++
 
 .. function:: addMethod()
 
@@ -144,7 +147,7 @@ addMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -158,7 +161,7 @@ getMethods
 
 
 setShared
----------
++++++++++
 
 .. function:: setShared()
 
@@ -168,7 +171,7 @@ setShared
 
 
 isShared
---------
+++++++++
 
 .. function:: isShared()
 

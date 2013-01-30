@@ -1,5 +1,8 @@
-.. View/Helper/Navigation/Sitemap.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Navigation/Sitemap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Navigation\\Sitemap
 =======================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Navigation\\Sitemap
 Helper for printing sitemaps
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -24,7 +27,7 @@ __invoke
 
 
 setFormatOutput
----------------
++++++++++++++++
 
 .. function:: setFormatOutput()
 
@@ -38,7 +41,7 @@ setFormatOutput
 
 
 getFormatOutput
----------------
++++++++++++++++
 
 .. function:: getFormatOutput()
 
@@ -50,7 +53,7 @@ getFormatOutput
 
 
 setUseXmlDeclaration
---------------------
+++++++++++++++++++++
 
 .. function:: setUseXmlDeclaration()
 
@@ -64,7 +67,7 @@ setUseXmlDeclaration
 
 
 getUseXmlDeclaration
---------------------
+++++++++++++++++++++
 
 .. function:: getUseXmlDeclaration()
 
@@ -76,7 +79,7 @@ getUseXmlDeclaration
 
 
 setUseSitemapValidators
------------------------
++++++++++++++++++++++++
 
 .. function:: setUseSitemapValidators()
 
@@ -90,7 +93,7 @@ setUseSitemapValidators
 
 
 getUseSitemapValidators
------------------------
++++++++++++++++++++++++
 
 .. function:: getUseSitemapValidators()
 
@@ -102,7 +105,7 @@ getUseSitemapValidators
 
 
 setUseSchemaValidation
-----------------------
+++++++++++++++++++++++
 
 .. function:: setUseSchemaValidation()
 
@@ -116,7 +119,7 @@ setUseSchemaValidation
 
 
 getUseSchemaValidation
-----------------------
+++++++++++++++++++++++
 
 .. function:: getUseSchemaValidation()
 
@@ -128,7 +131,7 @@ getUseSchemaValidation
 
 
 setServerUrl
-------------
+++++++++++++
 
 .. function:: setServerUrl()
 
@@ -146,7 +149,7 @@ setServerUrl
 
 
 getServerUrl
-------------
+++++++++++++
 
 .. function:: getServerUrl()
 
@@ -158,7 +161,7 @@ getServerUrl
 
 
 xmlEscape
----------
++++++++++
 
 .. function:: xmlEscape()
 
@@ -172,7 +175,7 @@ xmlEscape
 
 
 url
----
++++
 
 .. function:: url()
 
@@ -186,7 +189,7 @@ url
 
 
 getDomSitemap
--------------
++++++++++++++
 
 .. function:: getDomSitemap()
 
@@ -211,7 +214,7 @@ getDomSitemap
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -231,15 +234,15 @@ render
 
 
 Constants
-+++++++++
+---------
 
 SITEMAP_NS
-==========
+++++++++++
 
 Namespace for the <urlset> tag
 
 SITEMAP_XSD
-===========
++++++++++++
 
 Schema URL
 

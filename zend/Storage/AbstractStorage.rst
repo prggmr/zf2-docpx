@@ -1,14 +1,17 @@
-.. Mail/Storage/AbstractStorage.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/AbstractStorage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\AbstractStorage
 ====================================
 
 Methods
-+++++++
+-------
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -30,7 +33,7 @@ __get
 
 
 getCapabilities
----------------
++++++++++++++++
 
 .. function:: getCapabilities()
 
@@ -42,7 +45,7 @@ getCapabilities
 
 
 countMessages
--------------
++++++++++++++
 
 .. function:: countMessages()
 
@@ -56,7 +59,7 @@ countMessages
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -70,7 +73,7 @@ getSize
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -84,7 +87,7 @@ getMessage
 
 
 getRawHeader
-------------
+++++++++++++
 
 .. function:: getRawHeader()
 
@@ -100,7 +103,7 @@ getRawHeader
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
@@ -115,7 +118,7 @@ getRawContent
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -129,7 +132,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -139,7 +142,7 @@ __destruct
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -150,7 +153,7 @@ close
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -160,7 +163,7 @@ noop
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -172,7 +175,7 @@ removeMessage
 
 
 getUniqueId
------------
++++++++++++
 
 .. function:: getUniqueId()
 
@@ -190,7 +193,7 @@ getUniqueId
 
 
 getNumberByUniqueId
--------------------
++++++++++++++++++++
 
 .. function:: getNumberByUniqueId()
 
@@ -209,7 +212,7 @@ getNumberByUniqueId
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -221,7 +224,7 @@ count
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -235,7 +238,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -249,7 +252,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -264,7 +267,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -278,7 +281,7 @@ offsetUnset
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -292,7 +295,7 @@ rewind
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -304,7 +307,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -316,7 +319,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -326,7 +329,7 @@ next
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -338,7 +341,7 @@ valid
 
 
 seek
-----
+++++
 
 .. function:: seek()
 

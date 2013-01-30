@@ -1,14 +1,17 @@
-.. Mvc/View/Http/RouteNotFoundStrategy.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/RouteNotFoundStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\RouteNotFoundStrategy
 ============================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 setDisplayExceptions
---------------------
+++++++++++++++++++++
 
 .. function:: setDisplayExceptions()
 
@@ -36,7 +39,7 @@ setDisplayExceptions
 
 
 displayExceptions
------------------
++++++++++++++++++
 
 .. function:: displayExceptions()
 
@@ -48,7 +51,7 @@ displayExceptions
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -62,7 +65,7 @@ detach
 
 
 setDisplayNotFoundReason
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDisplayNotFoundReason()
 
@@ -76,7 +79,7 @@ setDisplayNotFoundReason
 
 
 displayNotFoundReason
----------------------
++++++++++++++++++++++
 
 .. function:: displayNotFoundReason()
 
@@ -88,7 +91,7 @@ displayNotFoundReason
 
 
 setNotFoundTemplate
--------------------
++++++++++++++++++++
 
 .. function:: setNotFoundTemplate()
 
@@ -102,7 +105,7 @@ setNotFoundTemplate
 
 
 getNotFoundTemplate
--------------------
++++++++++++++++++++
 
 .. function:: getNotFoundTemplate()
 
@@ -114,7 +117,7 @@ getNotFoundTemplate
 
 
 detectNotFoundError
--------------------
++++++++++++++++++++
 
 .. function:: detectNotFoundError()
 
@@ -131,7 +134,7 @@ detectNotFoundError
 
 
 prepareNotFoundViewModel
-------------------------
+++++++++++++++++++++++++
 
 .. function:: prepareNotFoundViewModel()
 
@@ -145,7 +148,7 @@ prepareNotFoundViewModel
 
 
 injectNotFoundReason
---------------------
+++++++++++++++++++++
 
 .. function:: injectNotFoundReason()
 
@@ -163,7 +166,7 @@ injectNotFoundReason
 
 
 injectException
----------------
++++++++++++++++
 
 .. function:: injectException()
 
@@ -181,7 +184,7 @@ injectException
 
 
 injectController
-----------------
+++++++++++++++++
 
 .. function:: injectController()
 

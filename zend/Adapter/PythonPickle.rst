@@ -1,5 +1,8 @@
-.. Serializer/Adapter/PythonPickle.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/PythonPickle.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Adapter\\PythonPickle
 =======================================
@@ -7,10 +10,10 @@ Zend\\Serializer\\Adapter\\PythonPickle
 @link       http://www.python.org
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -48,7 +51,7 @@ getOptions
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -62,7 +65,7 @@ serialize
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -76,7 +79,7 @@ write
 
 
 writeProto
-----------
+++++++++++
 
 .. function:: writeProto()
 
@@ -88,7 +91,7 @@ writeProto
 
 
 writeGet
---------
+++++++++
 
 .. function:: writeGet()
 
@@ -100,7 +103,7 @@ writeGet
 
 
 writePut
---------
+++++++++
 
 .. function:: writePut()
 
@@ -112,7 +115,7 @@ writePut
 
 
 writeNull
----------
++++++++++
 
 .. function:: writeNull()
 
@@ -122,7 +125,7 @@ writeNull
 
 
 writeBool
----------
++++++++++
 
 .. function:: writeBool()
 
@@ -134,7 +137,7 @@ writeBool
 
 
 writeInt
---------
+++++++++
 
 .. function:: writeInt()
 
@@ -146,7 +149,7 @@ writeInt
 
 
 writeFloat
-----------
+++++++++++
 
 .. function:: writeFloat()
 
@@ -158,7 +161,7 @@ writeFloat
 
 
 writeString
------------
++++++++++++
 
 .. function:: writeString()
 
@@ -170,7 +173,7 @@ writeString
 
 
 writeArrayDict
---------------
+++++++++++++++
 
 .. function:: writeArrayDict()
 
@@ -182,7 +185,7 @@ writeArrayDict
 
 
 writeArrayList
---------------
+++++++++++++++
 
 .. function:: writeArrayList()
 
@@ -194,7 +197,7 @@ writeArrayList
 
 
 writeObject
------------
++++++++++++
 
 .. function:: writeObject()
 
@@ -206,7 +209,7 @@ writeObject
 
 
 writeStop
----------
++++++++++
 
 .. function:: writeStop()
 
@@ -216,7 +219,7 @@ writeStop
 
 
 memorize
---------
+++++++++
 
 .. function:: memorize()
 
@@ -228,7 +231,7 @@ memorize
 
 
 searchMemo
-----------
+++++++++++
 
 .. function:: searchMemo()
 
@@ -242,7 +245,7 @@ searchMemo
 
 
 quoteString
------------
++++++++++++
 
 .. function:: quoteString()
 
@@ -256,7 +259,7 @@ quoteString
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 
@@ -272,7 +275,7 @@ unserialize
 
 
 clearProcessVars
-----------------
+++++++++++++++++
 
 .. function:: clearProcessVars()
 
@@ -282,7 +285,7 @@ clearProcessVars
 
 
 load
-----
+++++
 
 .. function:: load()
 
@@ -296,7 +299,7 @@ load
 
 
 loadPut
--------
++++++++
 
 .. function:: loadPut()
 
@@ -307,7 +310,7 @@ loadPut
 
 
 loadBinPut
-----------
+++++++++++
 
 .. function:: loadBinPut()
 
@@ -318,7 +321,7 @@ loadBinPut
 
 
 loadLongBinPut
---------------
+++++++++++++++
 
 .. function:: loadLongBinPut()
 
@@ -329,7 +332,7 @@ loadLongBinPut
 
 
 loadGet
--------
++++++++
 
 .. function:: loadGet()
 
@@ -340,7 +343,7 @@ loadGet
 
 
 loadBinGet
-----------
+++++++++++
 
 .. function:: loadBinGet()
 
@@ -351,7 +354,7 @@ loadBinGet
 
 
 loadLongBinGet
---------------
+++++++++++++++
 
 .. function:: loadLongBinGet()
 
@@ -362,7 +365,7 @@ loadLongBinGet
 
 
 loadNone
---------
+++++++++
 
 .. function:: loadNone()
 
@@ -372,7 +375,7 @@ loadNone
 
 
 loadNewTrue
------------
++++++++++++
 
 .. function:: loadNewTrue()
 
@@ -382,7 +385,7 @@ loadNewTrue
 
 
 loadNewFalse
-------------
+++++++++++++
 
 .. function:: loadNewFalse()
 
@@ -392,7 +395,7 @@ loadNewFalse
 
 
 loadInt
--------
++++++++
 
 .. function:: loadInt()
 
@@ -402,7 +405,7 @@ loadInt
 
 
 loadBinInt
-----------
+++++++++++
 
 .. function:: loadBinInt()
 
@@ -412,7 +415,7 @@ loadBinInt
 
 
 loadBinInt1
------------
++++++++++++
 
 .. function:: loadBinInt1()
 
@@ -422,7 +425,7 @@ loadBinInt1
 
 
 loadBinInt2
------------
++++++++++++
 
 .. function:: loadBinInt2()
 
@@ -432,7 +435,7 @@ loadBinInt2
 
 
 loadLong
---------
+++++++++
 
 .. function:: loadLong()
 
@@ -442,7 +445,7 @@ loadLong
 
 
 loadLong1
----------
++++++++++
 
 .. function:: loadLong1()
 
@@ -452,7 +455,7 @@ loadLong1
 
 
 loadLong4
----------
++++++++++
 
 .. function:: loadLong4()
 
@@ -462,7 +465,7 @@ loadLong4
 
 
 loadFloat
----------
++++++++++
 
 .. function:: loadFloat()
 
@@ -472,7 +475,7 @@ loadFloat
 
 
 loadBinFloat
-------------
+++++++++++++
 
 .. function:: loadBinFloat()
 
@@ -482,7 +485,7 @@ loadBinFloat
 
 
 loadString
-----------
+++++++++++
 
 .. function:: loadString()
 
@@ -492,7 +495,7 @@ loadString
 
 
 loadBinString
--------------
++++++++++++++
 
 .. function:: loadBinString()
 
@@ -502,7 +505,7 @@ loadBinString
 
 
 loadShortBinString
-------------------
+++++++++++++++++++
 
 .. function:: loadShortBinString()
 
@@ -512,7 +515,7 @@ loadShortBinString
 
 
 loadBinBytes
-------------
+++++++++++++
 
 .. function:: loadBinBytes()
 
@@ -522,7 +525,7 @@ loadBinBytes
 
 
 loadShortBinBytes
------------------
++++++++++++++++++
 
 .. function:: loadShortBinBytes()
 
@@ -532,7 +535,7 @@ loadShortBinBytes
 
 
 loadUnicode
------------
++++++++++++
 
 .. function:: loadUnicode()
 
@@ -542,7 +545,7 @@ loadUnicode
 
 
 _convertMatchingUnicodeSequence2Utf8
-------------------------------------
+++++++++++++++++++++++++++++++++++++
 
 .. function:: _convertMatchingUnicodeSequence2Utf8()
 
@@ -556,7 +559,7 @@ _convertMatchingUnicodeSequence2Utf8
 
 
 hex2Utf8
---------
+++++++++
 
 .. function:: hex2Utf8()
 
@@ -572,7 +575,7 @@ hex2Utf8
 
 
 loadBinUnicode
---------------
+++++++++++++++
 
 .. function:: loadBinUnicode()
 
@@ -582,7 +585,7 @@ loadBinUnicode
 
 
 loadMark
---------
+++++++++
 
 .. function:: loadMark()
 
@@ -592,7 +595,7 @@ loadMark
 
 
 loadList
---------
+++++++++
 
 .. function:: loadList()
 
@@ -602,7 +605,7 @@ loadList
 
 
 loadAppend
-----------
+++++++++++
 
 .. function:: loadAppend()
 
@@ -612,7 +615,7 @@ loadAppend
 
 
 loadEmptyList
--------------
++++++++++++++
 
 .. function:: loadEmptyList()
 
@@ -622,7 +625,7 @@ loadEmptyList
 
 
 loadAppends
------------
++++++++++++
 
 .. function:: loadAppends()
 
@@ -632,7 +635,7 @@ loadAppends
 
 
 loadDict
---------
+++++++++
 
 .. function:: loadDict()
 
@@ -642,7 +645,7 @@ loadDict
 
 
 loadSetItem
------------
++++++++++++
 
 .. function:: loadSetItem()
 
@@ -652,7 +655,7 @@ loadSetItem
 
 
 _loadEmptyDict
---------------
+++++++++++++++
 
 .. function:: _loadEmptyDict()
 
@@ -662,7 +665,7 @@ _loadEmptyDict
 
 
 loadSetItems
-------------
+++++++++++++
 
 .. function:: loadSetItems()
 
@@ -672,7 +675,7 @@ loadSetItems
 
 
 loadTuple
----------
++++++++++
 
 .. function:: loadTuple()
 
@@ -682,7 +685,7 @@ loadTuple
 
 
 loadTuple1
-----------
+++++++++++
 
 .. function:: loadTuple1()
 
@@ -692,7 +695,7 @@ loadTuple1
 
 
 loadTuple2
-----------
+++++++++++
 
 .. function:: loadTuple2()
 
@@ -702,7 +705,7 @@ loadTuple2
 
 
 loadTuple3
-----------
+++++++++++
 
 .. function:: loadTuple3()
 
@@ -712,7 +715,7 @@ loadTuple3
 
 
 loadProto
----------
++++++++++
 
 .. function:: loadProto()
 
@@ -723,7 +726,7 @@ loadProto
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -739,7 +742,7 @@ read
 
 
 readline
---------
+++++++++
 
 .. function:: readline()
 
@@ -753,7 +756,7 @@ readline
 
 
 unquoteString
--------------
++++++++++++++
 
 .. function:: unquoteString()
 
@@ -767,7 +770,7 @@ unquoteString
 
 
 lastMarker
-----------
+++++++++++
 
 .. function:: lastMarker()
 
@@ -779,7 +782,7 @@ lastMarker
 
 
 decodeBinLong
--------------
++++++++++++++
 
 .. function:: decodeBinLong()
 
@@ -795,172 +798,172 @@ decodeBinLong
 
 
 Constants
-+++++++++
+---------
 
 OP_MARK
-=======
++++++++
 
 Pickle opcodes. See pickletools.py for extensive docs.
 
 OP_STOP
-=======
++++++++
 
 OP_POP
-======
+++++++
 
 OP_POP_MARK
-===========
++++++++++++
 
 OP_DUP
-======
+++++++
 
 OP_FLOAT
-========
+++++++++
 
 OP_INT
-======
+++++++
 
 OP_BININT
-=========
++++++++++
 
 OP_BININT1
-==========
+++++++++++
 
 OP_LONG
-=======
++++++++
 
 OP_BININT2
-==========
+++++++++++
 
 OP_NONE
-=======
++++++++
 
 OP_PERSID
-=========
++++++++++
 
 OP_BINPERSID
-============
+++++++++++++
 
 OP_REDUCE
-=========
++++++++++
 
 OP_STRING
-=========
++++++++++
 
 OP_BINSTRING
-============
+++++++++++++
 
 OP_SHORT_BINSTRING
-==================
+++++++++++++++++++
 
 OP_UNICODE
-==========
+++++++++++
 
 OP_BINUNICODE
-=============
++++++++++++++
 
 OP_APPEND
-=========
++++++++++
 
 OP_BUILD
-========
+++++++++
 
 OP_GLOBAL
-=========
++++++++++
 
 OP_DICT
-=======
++++++++
 
 OP_EMPTY_DICT
-=============
++++++++++++++
 
 OP_APPENDS
-==========
+++++++++++
 
 OP_GET
-======
+++++++
 
 OP_BINGET
-=========
++++++++++
 
 OP_INST
-=======
++++++++
 
 OP_LONG_BINGET
-==============
+++++++++++++++
 
 OP_LIST
-=======
++++++++
 
 OP_EMPTY_LIST
-=============
++++++++++++++
 
 OP_OBJ
-======
+++++++
 
 OP_PUT
-======
+++++++
 
 OP_BINPUT
-=========
++++++++++
 
 OP_LONG_BINPUT
-==============
+++++++++++++++
 
 OP_SETITEM
-==========
+++++++++++
 
 OP_TUPLE
-========
+++++++++
 
 OP_EMPTY_TUPLE
-==============
+++++++++++++++
 
 OP_SETITEMS
-===========
++++++++++++
 
 OP_BINFLOAT
-===========
++++++++++++
 
 OP_PROTO
-========
+++++++++
 
 OP_NEWOBJ
-=========
++++++++++
 
 OP_EXT1
-=======
++++++++
 
 OP_EXT2
-=======
++++++++
 
 OP_EXT4
-=======
++++++++
 
 OP_TUPLE1
-=========
++++++++++
 
 OP_TUPLE2
-=========
++++++++++
 
 OP_TUPLE3
-=========
++++++++++
 
 OP_NEWTRUE
-==========
+++++++++++
 
 OP_NEWFALSE
-===========
++++++++++++
 
 OP_LONG1
-========
+++++++++
 
 OP_LONG4
-========
+++++++++
 
 OP_BINBYTES
-===========
++++++++++++
 
 OP_SHORT_BINBYTES
-=================
++++++++++++++++++
 

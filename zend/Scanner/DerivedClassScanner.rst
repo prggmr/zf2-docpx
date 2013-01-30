@@ -1,14 +1,17 @@
-.. Code/Scanner/DerivedClassScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/DerivedClassScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\DerivedClassScanner
 ========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -30,7 +33,7 @@ getName
 
 
 getShortName
-------------
+++++++++++++
 
 .. function:: getShortName()
 
@@ -40,7 +43,7 @@ getShortName
 
 
 isInstantiable
---------------
+++++++++++++++
 
 .. function:: isInstantiable()
 
@@ -50,7 +53,7 @@ isInstantiable
 
 
 isFinal
--------
++++++++
 
 .. function:: isFinal()
 
@@ -60,7 +63,7 @@ isFinal
 
 
 isAbstract
-----------
+++++++++++
 
 .. function:: isAbstract()
 
@@ -70,7 +73,7 @@ isAbstract
 
 
 isInterface
------------
++++++++++++
 
 .. function:: isInterface()
 
@@ -80,7 +83,7 @@ isInterface
 
 
 getParentClasses
-----------------
+++++++++++++++++
 
 .. function:: getParentClasses()
 
@@ -90,7 +93,7 @@ getParentClasses
 
 
 hasParentClass
---------------
+++++++++++++++
 
 .. function:: hasParentClass()
 
@@ -100,7 +103,7 @@ hasParentClass
 
 
 getParentClass
---------------
+++++++++++++++
 
 .. function:: getParentClass()
 
@@ -110,7 +113,7 @@ getParentClass
 
 
 getInterfaces
--------------
++++++++++++++
 
 .. function:: getInterfaces()
 
@@ -122,7 +125,7 @@ getInterfaces
 
 
 getConstants
-------------
+++++++++++++
 
 .. function:: getConstants()
 
@@ -132,7 +135,7 @@ getConstants
 
 
 getProperties
--------------
++++++++++++++
 
 .. function:: getProperties()
 
@@ -144,7 +147,7 @@ getProperties
 
 
 getMethodNames
---------------
+++++++++++++++
 
 .. function:: getMethodNames()
 
@@ -154,7 +157,7 @@ getMethodNames
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -164,7 +167,7 @@ getMethods
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -178,7 +181,7 @@ getMethod
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 

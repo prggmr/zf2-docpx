@@ -1,5 +1,8 @@
-.. View/Helper/FlashMessenger.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/FlashMessenger.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\FlashMessenger
 ==================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\FlashMessenger
 Helper to proxy the plugin flash messenger
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -22,7 +25,7 @@ __invoke
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -37,7 +40,7 @@ __call
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -52,7 +55,7 @@ render
 
 
 setMessageCloseString
----------------------
++++++++++++++++++++++
 
 .. function:: setMessageCloseString()
 
@@ -66,7 +69,7 @@ setMessageCloseString
 
 
 getMessageCloseString
----------------------
++++++++++++++++++++++
 
 .. function:: getMessageCloseString()
 
@@ -78,7 +81,7 @@ getMessageCloseString
 
 
 setMessageOpenFormat
---------------------
+++++++++++++++++++++
 
 .. function:: setMessageOpenFormat()
 
@@ -92,7 +95,7 @@ setMessageOpenFormat
 
 
 getMessageOpenFormat
---------------------
+++++++++++++++++++++
 
 .. function:: getMessageOpenFormat()
 
@@ -104,7 +107,7 @@ getMessageOpenFormat
 
 
 setMessageSeparatorString
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setMessageSeparatorString()
 
@@ -118,7 +121,7 @@ setMessageSeparatorString
 
 
 getMessageSeparatorString
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getMessageSeparatorString()
 
@@ -130,7 +133,7 @@ getMessageSeparatorString
 
 
 getEscapeHtmlHelper
--------------------
++++++++++++++++++++
 
 .. function:: getEscapeHtmlHelper()
 
@@ -142,7 +145,7 @@ getEscapeHtmlHelper
 
 
 getPluginFlashMessenger
------------------------
++++++++++++++++++++++++
 
 .. function:: getPluginFlashMessenger()
 
@@ -154,7 +157,7 @@ getPluginFlashMessenger
 
 
 setPluginFlashMessenger
------------------------
++++++++++++++++++++++++
 
 .. function:: setPluginFlashMessenger()
 
@@ -166,7 +169,7 @@ setPluginFlashMessenger
 
 
 setServiceLocator
------------------
++++++++++++++++++
 
 .. function:: setServiceLocator()
 
@@ -180,7 +183,7 @@ setServiceLocator
 
 
 getServiceLocator
------------------
++++++++++++++++++
 
 .. function:: getServiceLocator()
 

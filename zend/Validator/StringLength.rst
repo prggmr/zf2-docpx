@@ -1,14 +1,17 @@
-.. Validator/StringLength.php generated using docpx on 01/30/13 03:32am
+.. Validator/StringLength.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\StringLength
 =============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -32,7 +35,7 @@ getMin
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -48,7 +51,7 @@ setMin
 
 
 getMax
-------
+++++++
 
 .. function:: getMax()
 
@@ -60,7 +63,7 @@ getMax
 
 
 setMax
-------
+++++++
 
 .. function:: setMax()
 
@@ -76,7 +79,7 @@ setMax
 
 
 getStringWrapper
-----------------
+++++++++++++++++
 
 .. function:: getStringWrapper()
 
@@ -88,7 +91,7 @@ getStringWrapper
 
 
 setStringWrapper
-----------------
+++++++++++++++++
 
 .. function:: setStringWrapper()
 
@@ -102,7 +105,7 @@ setStringWrapper
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -114,7 +117,7 @@ getEncoding
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -130,7 +133,7 @@ setEncoding
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -147,14 +150,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 TOO_SHORT
-=========
++++++++++
 
 TOO_LONG
-========
+++++++++
 

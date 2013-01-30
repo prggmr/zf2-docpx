@@ -1,5 +1,8 @@
-.. Mvc/ApplicationInterface.php generated using docpx on 01/30/13 03:32am
+.. Mvc/ApplicationInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mvc\\getServiceManager
 ============================
@@ -13,6 +16,9 @@ Zend\\Mvc\\getServiceManager
 
 
 
+Function
+********
+
 Zend\\Mvc\\getRequest
 =====================
 
@@ -25,6 +31,9 @@ Zend\\Mvc\\getRequest
 
 
 
+Function
+********
+
 Zend\\Mvc\\getResponse
 ======================
 
@@ -36,6 +45,9 @@ Zend\\Mvc\\getResponse
     :rtype: \Zend\Stdlib\ResponseInterface 
 
 
+
+Function
+********
 
 Zend\\Mvc\\run
 ==============

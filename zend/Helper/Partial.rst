@@ -1,5 +1,8 @@
-.. View/Helper/Partial.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Partial.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Partial
 ===========================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Partial
 Helper for rendering a template fragment in its own variable scope.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -28,7 +31,7 @@ __invoke
 
 
 setObjectKey
-------------
+++++++++++++
 
 .. function:: setObjectKey()
 
@@ -42,7 +45,7 @@ setObjectKey
 
 
 getObjectKey
-------------
+++++++++++++
 
 .. function:: getObjectKey()
 

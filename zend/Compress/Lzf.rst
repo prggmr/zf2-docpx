@@ -1,5 +1,8 @@
-.. Filter/Compress/Lzf.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress/Lzf.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Compress\\Lzf
 ===========================
@@ -7,10 +10,10 @@ Zend\\Filter\\Compress\\Lzf
 Compression adapter for Lzf
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 compress
---------
+++++++++
 
 .. function:: compress()
 
@@ -40,7 +43,7 @@ compress
 
 
 decompress
-----------
+++++++++++
 
 .. function:: decompress()
 
@@ -56,7 +59,7 @@ decompress
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

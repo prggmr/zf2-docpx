@@ -1,14 +1,17 @@
-.. View/Helper/HtmlPage.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HtmlPage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HtmlPage
 ============================
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -27,15 +30,15 @@ __invoke
 
 
 Constants
-+++++++++
+---------
 
 TYPE
-====
+++++
 
 Default file type for html
 
 ATTRIB_CLASSID
-==============
+++++++++++++++
 
 Object classid
 

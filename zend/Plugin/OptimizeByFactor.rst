@@ -1,14 +1,17 @@
-.. Cache/Storage/Plugin/OptimizeByFactor.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Plugin/OptimizeByFactor.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Plugin\\OptimizeByFactor
 ==============================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -25,7 +28,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -41,7 +44,7 @@ detach
 
 
 optimizeByFactor
-----------------
+++++++++++++++++
 
 .. function:: optimizeByFactor()
 

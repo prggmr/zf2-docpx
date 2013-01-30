@@ -1,5 +1,8 @@
-.. View/Model/ModelInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Model/ModelInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Model\\setOption
 ============================
@@ -16,6 +19,9 @@ Zend\\View\\Model\\setOption
 
 
 
+Function
+********
+
 Zend\\View\\Model\\setOptions
 =============================
 
@@ -30,6 +36,9 @@ Zend\\View\\Model\\setOptions
 
 
 
+Function
+********
+
 Zend\\View\\Model\\getOptions
 =============================
 
@@ -41,6 +50,9 @@ Zend\\View\\Model\\getOptions
     :rtype: array|\Traversable 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\getVariable
 ==============================
@@ -57,6 +69,9 @@ Zend\\View\\Model\\getVariable
 
 
 
+Function
+********
+
 Zend\\View\\Model\\setVariable
 ==============================
 
@@ -72,6 +87,9 @@ Zend\\View\\Model\\setVariable
 
 
 
+Function
+********
+
 Zend\\View\\Model\\setVariables
 ===============================
 
@@ -86,6 +104,9 @@ Zend\\View\\Model\\setVariables
 
 
 
+Function
+********
+
 Zend\\View\\Model\\getVariables
 ===============================
 
@@ -97,6 +118,9 @@ Zend\\View\\Model\\getVariables
     :rtype: array|\ArrayAccess 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\setTemplate
 ==============================
@@ -112,6 +136,9 @@ Zend\\View\\Model\\setTemplate
 
 
 
+Function
+********
+
 Zend\\View\\Model\\getTemplate
 ==============================
 
@@ -123,6 +150,9 @@ Zend\\View\\Model\\getTemplate
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\addChild
 ===========================
@@ -140,6 +170,9 @@ Zend\\View\\Model\\addChild
 
 
 
+Function
+********
+
 Zend\\View\\Model\\getChildren
 ==============================
 
@@ -154,6 +187,9 @@ Zend\\View\\Model\\getChildren
 
 
 
+Function
+********
+
 Zend\\View\\Model\\hasChildren
 ==============================
 
@@ -165,6 +201,9 @@ Zend\\View\\Model\\hasChildren
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\setCaptureTo
 ===============================
@@ -180,6 +219,9 @@ Zend\\View\\Model\\setCaptureTo
 
 
 
+Function
+********
+
 Zend\\View\\Model\\captureTo
 ============================
 
@@ -191,6 +233,9 @@ Zend\\View\\Model\\captureTo
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\setTerminal
 ==============================
@@ -206,6 +251,9 @@ Zend\\View\\Model\\setTerminal
 
 
 
+Function
+********
+
 Zend\\View\\Model\\terminate
 ============================
 
@@ -217,6 +265,9 @@ Zend\\View\\Model\\terminate
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\setAppend
 ============================
@@ -231,6 +282,9 @@ Zend\\View\\Model\\setAppend
     :rtype: ModelInterface 
 
 
+
+Function
+********
 
 Zend\\View\\Model\\isAppend
 ===========================

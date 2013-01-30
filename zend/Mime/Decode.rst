@@ -1,14 +1,17 @@
-.. Mime/Decode.php generated using docpx on 01/30/13 03:32am
+.. Mime/Decode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mime\\Decode
 ==================
 
 Methods
-+++++++
+-------
 
 splitMime
----------
++++++++++
 
 .. function:: splitMime()
 
@@ -27,7 +30,7 @@ splitMime
 
 
 splitMessageStruct
-------------------
+++++++++++++++++++
 
 .. function:: splitMessageStruct()
 
@@ -46,7 +49,7 @@ splitMessageStruct
 
 
 splitMessage
-------------
+++++++++++++
 
 .. function:: splitMessage()
 
@@ -67,7 +70,7 @@ splitMessage
 
 
 splitContentType
-----------------
+++++++++++++++++
 
 .. function:: splitContentType()
 
@@ -82,7 +85,7 @@ splitContentType
 
 
 splitHeaderField
-----------------
+++++++++++++++++
 
 .. function:: splitHeaderField()
 
@@ -100,7 +103,7 @@ splitHeaderField
 
 
 decodeQuotedPrintable
----------------------
++++++++++++++++++++++
 
 .. function:: decodeQuotedPrintable()
 

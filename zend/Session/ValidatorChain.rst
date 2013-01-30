@@ -1,5 +1,8 @@
-.. Session/ValidatorChain.php generated using docpx on 01/30/13 03:32am
+.. Session/ValidatorChain.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\ValidatorChain
 =============================
@@ -7,10 +10,10 @@ Zend\\Session\\ValidatorChain
 Validator chain for validating sessions
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -40,7 +43,7 @@ attach
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 

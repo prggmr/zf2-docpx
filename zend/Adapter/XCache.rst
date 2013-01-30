@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/XCache.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/XCache.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\XCache
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -52,7 +55,7 @@ getOptions
 
 
 getTotalSpace
--------------
++++++++++++++
 
 .. function:: getTotalSpace()
 
@@ -64,7 +67,7 @@ getTotalSpace
 
 
 getAvailableSpace
------------------
++++++++++++++++++
 
 .. function:: getAvailableSpace()
 
@@ -76,7 +79,7 @@ getAvailableSpace
 
 
 clearByNamespace
-----------------
+++++++++++++++++
 
 .. function:: clearByNamespace()
 
@@ -90,7 +93,7 @@ clearByNamespace
 
 
 clearByPrefix
--------------
++++++++++++++
 
 .. function:: clearByPrefix()
 
@@ -104,7 +107,7 @@ clearByPrefix
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -116,7 +119,7 @@ flush
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -128,7 +131,7 @@ getIterator
 
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -146,7 +149,7 @@ internalGetItem
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -162,7 +165,7 @@ internalHasItem
 
 
 internalGetMetadata
--------------------
++++++++++++++++++++
 
 .. function:: internalGetMetadata()
 
@@ -178,7 +181,7 @@ internalGetMetadata
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -195,7 +198,7 @@ internalSetItem
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -211,7 +214,7 @@ internalRemoveItem
 
 
 internalIncrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalIncrementItem()
 
@@ -228,7 +231,7 @@ internalIncrementItem
 
 
 internalDecrementItem
----------------------
++++++++++++++++++++++
 
 .. function:: internalDecrementItem()
 
@@ -245,7 +248,7 @@ internalDecrementItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 
@@ -257,7 +260,7 @@ internalGetCapabilities
 
 
 initAdminAuth
--------------
++++++++++++++
 
 .. function:: initAdminAuth()
 
@@ -269,7 +272,7 @@ initAdminAuth
 
 
 resetAdminAuth
---------------
+++++++++++++++
 
 .. function:: resetAdminAuth()
 
@@ -281,7 +284,7 @@ resetAdminAuth
 
 
 normalizeMetadata
------------------
++++++++++++++++++
 
 .. function:: normalizeMetadata()
 

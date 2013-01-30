@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/ObjectClass/ActiveDirectory.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/ObjectClass/ActiveDirectory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\ActiveDirectory
 ======================================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\Schema\ObjectClass\ActiveDirectory provides access to the objectC
 schema information on an Active Directory server.
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -23,7 +26,7 @@ getName
 
 
 getOid
-------
+++++++
 
 .. function:: getOid()
 
@@ -35,7 +38,7 @@ getOid
 
 
 getMustContain
---------------
+++++++++++++++
 
 .. function:: getMustContain()
 
@@ -47,7 +50,7 @@ getMustContain
 
 
 getMayContain
--------------
++++++++++++++
 
 .. function:: getMayContain()
 
@@ -59,7 +62,7 @@ getMayContain
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -71,7 +74,7 @@ getDescription
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -83,7 +86,7 @@ getType
 
 
 getParentClasses
-----------------
+++++++++++++++++
 
 .. function:: getParentClasses()
 

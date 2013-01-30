@@ -1,5 +1,8 @@
-.. Stdlib/ArrayUtils.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/ArrayUtils.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\ArrayUtils
 ========================
@@ -9,10 +12,10 @@ Utility class for testing and manipulation of PHP arrays.
 Declared abstract, as we have no need for instantiation.
 
 Methods
-+++++++
+-------
 
 hasStringKeys
--------------
++++++++++++++
 
 .. function:: hasStringKeys()
 
@@ -27,7 +30,7 @@ hasStringKeys
 
 
 hasIntegerKeys
---------------
+++++++++++++++
 
 .. function:: hasIntegerKeys()
 
@@ -42,7 +45,7 @@ hasIntegerKeys
 
 
 hasNumericKeys
---------------
+++++++++++++++
 
 .. function:: hasNumericKeys()
 
@@ -64,7 +67,7 @@ hasNumericKeys
 
 
 isList
-------
+++++++
 
 .. function:: isList()
 
@@ -92,7 +95,7 @@ isList
 
 
 isHashTable
------------
++++++++++++
 
 .. function:: isHashTable()
 
@@ -129,7 +132,7 @@ isHashTable
 
 
 inArray
--------
++++++++
 
 .. function:: inArray()
 
@@ -150,7 +153,7 @@ inArray
 
 
 iteratorToArray
----------------
++++++++++++++++
 
 .. function:: iteratorToArray()
 
@@ -170,7 +173,7 @@ iteratorToArray
 
 
 merge
------
++++++
 
 .. function:: merge()
 

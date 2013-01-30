@@ -1,5 +1,8 @@
-.. Http/Header/AbstractDate.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/AbstractDate.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\AbstractDate
 ================================
@@ -8,10 +11,10 @@ Abstract Date/Time Header
 Supports headers that have date/time as value
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -27,7 +30,7 @@ fromString
 
 
 setDateFormat
--------------
++++++++++++++
 
 .. function:: setDateFormat()
 
@@ -41,7 +44,7 @@ setDateFormat
 
 
 getDateFormat
--------------
++++++++++++++
 
 .. function:: getDateFormat()
 
@@ -53,7 +56,7 @@ getDateFormat
 
 
 setDate
--------
++++++++
 
 .. function:: setDate()
 
@@ -69,7 +72,7 @@ setDate
 
 
 getDate
--------
++++++++
 
 .. function:: getDate()
 
@@ -81,7 +84,7 @@ getDate
 
 
 date
-----
+++++
 
 .. function:: date()
 
@@ -93,7 +96,7 @@ date
 
 
 compareTo
----------
++++++++++
 
 .. function:: compareTo()
 
@@ -111,7 +114,7 @@ compareTo
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -123,7 +126,7 @@ getFieldValue
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -135,7 +138,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -149,16 +152,16 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 DATE_RFC1123
-============
+++++++++++++
 
 Date formats according to RFC 2616
 
 DATE_RFC1036
-============
+++++++++++++
 
 DATE_ANSIC
-==========
+++++++++++
 

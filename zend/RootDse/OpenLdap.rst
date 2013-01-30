@@ -1,5 +1,8 @@
-.. Ldap/Node/RootDse/OpenLdap.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/RootDse/OpenLdap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\RootDse\\OpenLdap
 ===================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\RootDse\OpenLdap provides a simple data-container for the
 RootDse node of an OpenLDAP server.
 
 Methods
-+++++++
+-------
 
 getConfigContext
-----------------
+++++++++++++++++
 
 .. function:: getConfigContext()
 
@@ -23,7 +26,7 @@ getConfigContext
 
 
 getMonitorContext
------------------
++++++++++++++++++
 
 .. function:: getMonitorContext()
 
@@ -35,7 +38,7 @@ getMonitorContext
 
 
 supportsControl
----------------
++++++++++++++++
 
 .. function:: supportsControl()
 
@@ -49,7 +52,7 @@ supportsControl
 
 
 supportsExtension
------------------
++++++++++++++++++
 
 .. function:: supportsExtension()
 
@@ -63,7 +66,7 @@ supportsExtension
 
 
 supportsFeature
----------------
++++++++++++++++
 
 .. function:: supportsFeature()
 
@@ -77,7 +80,7 @@ supportsFeature
 
 
 getServerType
--------------
++++++++++++++
 
 .. function:: getServerType()
 

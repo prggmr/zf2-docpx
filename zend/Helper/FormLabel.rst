@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormLabel.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormLabel.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormLabel
 ===================================
 
 Methods
-+++++++
+-------
 
 openTag
--------
++++++++
 
 .. function:: openTag()
 
@@ -25,7 +28,7 @@ openTag
 
 
 closeTag
---------
+++++++++
 
 .. function:: closeTag()
 
@@ -37,7 +40,7 @@ closeTag
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -60,11 +63,11 @@ __invoke
 
 
 Constants
-+++++++++
+---------
 
 APPEND
-======
+++++++
 
 PREPEND
-=======
++++++++
 

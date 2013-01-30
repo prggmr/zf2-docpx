@@ -1,14 +1,17 @@
-.. I18n/Validator/Float.php generated using docpx on 01/30/13 03:32am
+.. I18n/Validator/Float.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Validator\\Float
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -32,7 +35,7 @@ getLocale
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -46,7 +49,7 @@ setLocale
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -64,11 +67,11 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 NOT_FLOAT
-=========
++++++++++
 

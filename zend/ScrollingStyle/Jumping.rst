@@ -1,5 +1,8 @@
-.. Paginator/ScrollingStyle/Jumping.php generated using docpx on 01/30/13 03:32am
+.. Paginator/ScrollingStyle/Jumping.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\ScrollingStyle\\Jumping
 ========================================
@@ -9,10 +12,10 @@ of the page range, the page range "jumps" to the next section, and
 the cursor moves back to the beginning of the range.
 
 Methods
-+++++++
+-------
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 

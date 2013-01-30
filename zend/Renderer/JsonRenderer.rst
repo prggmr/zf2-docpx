@@ -1,5 +1,8 @@
-.. View/Renderer/JsonRenderer.php generated using docpx on 01/30/13 03:32am
+.. View/Renderer/JsonRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Renderer\\JsonRenderer
 ==================================
@@ -7,10 +10,10 @@ Zend\\View\\Renderer\\JsonRenderer
 JSON renderer
 
 Methods
-+++++++
+-------
 
 getEngine
----------
++++++++++
 
 .. function:: getEngine()
 
@@ -26,7 +29,7 @@ getEngine
 
 
 setResolver
------------
++++++++++++
 
 .. function:: setResolver()
 
@@ -41,7 +44,7 @@ setResolver
 
 
 setMergeUnnamedChildren
------------------------
++++++++++++++++++++++++
 
 .. function:: setMergeUnnamedChildren()
 
@@ -55,7 +58,7 @@ setMergeUnnamedChildren
 
 
 setJsonpCallback
-----------------
+++++++++++++++++
 
 .. function:: setJsonpCallback()
 
@@ -69,7 +72,7 @@ setJsonpCallback
 
 
 hasJsonpCallback
-----------------
+++++++++++++++++
 
 .. function:: hasJsonpCallback()
 
@@ -81,7 +84,7 @@ hasJsonpCallback
 
 
 mergeUnnamedChildren
---------------------
+++++++++++++++++++++
 
 .. function:: mergeUnnamedChildren()
 
@@ -93,7 +96,7 @@ mergeUnnamedChildren
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -111,7 +114,7 @@ render
 
 
 canRenderTrees
---------------
+++++++++++++++
 
 .. function:: canRenderTrees()
 
@@ -125,7 +128,7 @@ canRenderTrees
 
 
 recurseModel
-------------
+++++++++++++
 
 .. function:: recurseModel()
 

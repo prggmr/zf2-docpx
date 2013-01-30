@@ -1,5 +1,8 @@
-.. ProgressBar/Adapter/Console.php generated using docpx on 01/30/13 03:32am
+.. ProgressBar/Adapter/Console.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ProgressBar\\Adapter\\Console
 ===================================
@@ -8,10 +11,10 @@ Zend_ProgressBar_Adapter_Console offers a text-based progressbar for console
 applications
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -33,7 +36,7 @@ __destruct
 
 
 setOutputStream
----------------
++++++++++++++++
 
 .. function:: setOutputStream()
 
@@ -49,7 +52,7 @@ setOutputStream
 
 
 getOutputStream
----------------
++++++++++++++++
 
 .. function:: getOutputStream()
 
@@ -61,7 +64,7 @@ getOutputStream
 
 
 setWidth
---------
+++++++++
 
 .. function:: setWidth()
 
@@ -75,7 +78,7 @@ setWidth
 
 
 setElements
------------
++++++++++++
 
 .. function:: setElements()
 
@@ -91,7 +94,7 @@ setElements
 
 
 setBarLeftChar
---------------
+++++++++++++++
 
 .. function:: setBarLeftChar()
 
@@ -107,7 +110,7 @@ setBarLeftChar
 
 
 setBarRightChar
----------------
++++++++++++++++
 
 .. function:: setBarRightChar()
 
@@ -123,7 +126,7 @@ setBarRightChar
 
 
 setBarIndicatorChar
--------------------
++++++++++++++++++++
 
 .. function:: setBarIndicatorChar()
 
@@ -137,7 +140,7 @@ setBarIndicatorChar
 
 
 setTextWidth
-------------
+++++++++++++
 
 .. function:: setTextWidth()
 
@@ -151,7 +154,7 @@ setTextWidth
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -163,7 +166,7 @@ setCharset
 
 
 setFinishAction
----------------
++++++++++++++++
 
 .. function:: setFinishAction()
 
@@ -179,7 +182,7 @@ setFinishAction
 
 
 notify
-------
+++++++
 
 .. function:: notify()
 
@@ -198,7 +201,7 @@ notify
 
 
 finish
-------
+++++++
 
 .. function:: finish()
 
@@ -210,7 +213,7 @@ finish
 
 
 _calculateBarWidth
-------------------
+++++++++++++++++++
 
 .. function:: _calculateBarWidth()
 
@@ -222,7 +225,7 @@ _calculateBarWidth
 
 
 _outputData
------------
++++++++++++
 
 .. function:: _outputData()
 
@@ -240,40 +243,40 @@ _outputData
 
 
 Constants
-+++++++++
+---------
 
 ELEMENT_PERCENT
-===============
++++++++++++++++
 
 Percentage value of the progress
 
 ELEMENT_BAR
-===========
++++++++++++
 
 Visual value of the progress
 
 ELEMENT_ETA
-===========
++++++++++++
 
 ETA of the progress
 
 ELEMENT_TEXT
-============
+++++++++++++
 
 Text part of the progress
 
 FINISH_ACTION_EOL
-=================
++++++++++++++++++
 
 Finish action: End of Line
 
 FINISH_ACTION_CLEAR_LINE
-========================
+++++++++++++++++++++++++
 
 Finish action: Clear Line
 
 FINISH_ACTION_NONE
-==================
+++++++++++++++++++
 
 Finish action: None
 

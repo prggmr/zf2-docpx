@@ -1,5 +1,8 @@
-.. Db/ResultSet/ResultSetInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/ResultSet/ResultSetInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\ResultSet\\initialize
 ===============================
@@ -15,6 +18,9 @@ Zend\\Db\\ResultSet\\initialize
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Db\\ResultSet\\getFieldCount
 ==================================

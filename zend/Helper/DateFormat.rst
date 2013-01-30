@@ -1,5 +1,8 @@
-.. I18n/View/Helper/DateFormat.php generated using docpx on 01/30/13 03:32am
+.. I18n/View/Helper/DateFormat.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\View\\Helper\\DateFormat
 ====================================
@@ -7,10 +10,10 @@ Zend\\I18n\\View\\Helper\\DateFormat
 View helper for formatting dates.
 
 Methods
-+++++++
+-------
 
 setTimezone
------------
++++++++++++
 
 .. function:: setTimezone()
 
@@ -24,7 +27,7 @@ setTimezone
 
 
 getTimezone
------------
++++++++++++
 
 .. function:: getTimezone()
 
@@ -36,7 +39,7 @@ getTimezone
 
 
 setlocale
----------
++++++++++
 
 .. function:: setlocale()
 
@@ -50,7 +53,7 @@ setlocale
 
 
 getlocale
----------
++++++++++
 
 .. function:: getlocale()
 
@@ -62,7 +65,7 @@ getlocale
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

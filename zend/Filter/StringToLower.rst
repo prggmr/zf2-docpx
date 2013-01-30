@@ -1,14 +1,17 @@
-.. Filter/StringToLower.php generated using docpx on 01/30/13 03:32am
+.. Filter/StringToLower.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\StringToLower
 ===========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

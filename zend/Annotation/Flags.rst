@@ -1,5 +1,8 @@
-.. Form/Annotation/Flags.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/Flags.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\Flags
 =============================
@@ -13,10 +16,10 @@ included.
 The value should be an associative array.
 
 Methods
-+++++++
+-------
 
 getFlags
---------
+++++++++
 
 .. function:: getFlags()
 

@@ -1,5 +1,8 @@
-.. Feed/Reader/Extension/Slash/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Slash/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Slash\\Entry
 ===========================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\Extension\\Slash\\Entry
 
 
 Methods
-+++++++
+-------
 
 getSection
-----------
+++++++++++
 
 .. function:: getSection()
 
@@ -22,7 +25,7 @@ getSection
 
 
 getDepartment
--------------
++++++++++++++
 
 .. function:: getDepartment()
 
@@ -34,7 +37,7 @@ getDepartment
 
 
 getHitParade
-------------
+++++++++++++
 
 .. function:: getHitParade()
 
@@ -46,7 +49,7 @@ getHitParade
 
 
 getCommentCount
----------------
++++++++++++++++
 
 .. function:: getCommentCount()
 
@@ -58,7 +61,7 @@ getCommentCount
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -73,7 +76,7 @@ getData
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

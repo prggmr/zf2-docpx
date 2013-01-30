@@ -1,5 +1,8 @@
-.. Json/Json.php generated using docpx on 01/30/13 03:32am
+.. Json/Json.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Json
 ================
@@ -7,10 +10,10 @@ Zend\\Json\\Json
 Class for encoding to and decoding from JSON.
 
 Methods
-+++++++
+-------
 
 decode
-------
+++++++
 
 .. function:: decode()
 
@@ -31,7 +34,7 @@ objects. See {@link Zend_Json_Decoder::decode()} for details.
 
 
 encode
-------
+++++++
 
 .. function:: encode()
 
@@ -58,7 +61,7 @@ encode
 
 
 _recursiveJsonExprFinder
-------------------------
+++++++++++++++++++++++++
 
 .. function:: _recursiveJsonExprFinder()
 
@@ -80,7 +83,7 @@ _recursiveJsonExprFinder
 
 
 _getXmlValue
-------------
+++++++++++++
 
 .. function:: _getXmlValue()
 
@@ -99,7 +102,7 @@ _getXmlValue
 
 
 _processXml
------------
++++++++++++
 
 .. function:: _processXml()
 
@@ -128,7 +131,7 @@ _processXml
 
 
 fromXml
--------
++++++++
 
 .. function:: fromXml()
 
@@ -162,7 +165,7 @@ the xml2json conversion process.
 
 
 prettyPrint
------------
++++++++++++
 
 .. function:: prettyPrint()
 
@@ -181,15 +184,15 @@ prettyPrint
 
 
 Constants
-+++++++++
+---------
 
 TYPE_ARRAY
-==========
+++++++++++
 
 How objects should be encoded -- arrays or as stdClass. TYPE_ARRAY is 1
 so that it is a boolean true value, allowing it to be used with
 ext/json's functions.
 
 TYPE_OBJECT
-===========
++++++++++++
 

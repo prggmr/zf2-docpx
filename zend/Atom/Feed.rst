@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/Atom/Feed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Atom/Feed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Atom\\Feed
 =========================================
 
 Methods
-+++++++
+-------
 
 getAuthor
----------
++++++++++
 
 .. function:: getAuthor()
 
@@ -22,7 +25,7 @@ getAuthor
 
 
 getAuthors
-----------
+++++++++++
 
 .. function:: getAuthors()
 
@@ -34,7 +37,7 @@ getAuthors
 
 
 getCopyright
-------------
+++++++++++++
 
 .. function:: getCopyright()
 
@@ -46,7 +49,7 @@ getCopyright
 
 
 getDateCreated
---------------
+++++++++++++++
 
 .. function:: getDateCreated()
 
@@ -58,7 +61,7 @@ getDateCreated
 
 
 getDateModified
----------------
++++++++++++++++
 
 .. function:: getDateModified()
 
@@ -70,7 +73,7 @@ getDateModified
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -82,7 +85,7 @@ getDescription
 
 
 getGenerator
-------------
+++++++++++++
 
 .. function:: getGenerator()
 
@@ -94,7 +97,7 @@ getGenerator
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -106,7 +109,7 @@ getId
 
 
 getLanguage
------------
++++++++++++
 
 .. function:: getLanguage()
 
@@ -118,7 +121,7 @@ getLanguage
 
 
 getImage
---------
+++++++++
 
 .. function:: getImage()
 
@@ -130,7 +133,7 @@ getImage
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -142,7 +145,7 @@ getBaseUrl
 
 
 getLink
--------
++++++++
 
 .. function:: getLink()
 
@@ -154,7 +157,7 @@ getLink
 
 
 getFeedLink
------------
++++++++++++
 
 .. function:: getFeedLink()
 
@@ -166,7 +169,7 @@ getFeedLink
 
 
 getHubs
--------
++++++++
 
 .. function:: getHubs()
 
@@ -178,7 +181,7 @@ getHubs
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -190,7 +193,7 @@ getTitle
 
 
 getCategories
--------------
++++++++++++++
 
 .. function:: getCategories()
 
@@ -202,7 +205,7 @@ getCategories
 
 
 getAuthorFromElement
---------------------
+++++++++++++++++++++
 
 .. function:: getAuthorFromElement()
 
@@ -216,7 +219,7 @@ getAuthorFromElement
 
 
 absolutiseUri
--------------
++++++++++++++
 
 .. function:: absolutiseUri()
 
@@ -227,7 +230,7 @@ absolutiseUri
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 
@@ -237,7 +240,7 @@ registerNamespaces
 
 
 getAtomType
------------
++++++++++++
 
 .. function:: getAtomType()
 

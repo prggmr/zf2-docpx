@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/AbstractCallback.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/AbstractCallback.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\AbstractCallback
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 sendResponse
-------------
+++++++++++++
 
 .. function:: sendResponse()
 
@@ -53,7 +56,7 @@ sendResponse
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -69,7 +72,7 @@ setStorage
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -85,7 +88,7 @@ getStorage
 
 
 setHttpResponse
----------------
++++++++++++++++
 
 .. function:: setHttpResponse()
 
@@ -103,7 +106,7 @@ setHttpResponse
 
 
 getHttpResponse
----------------
++++++++++++++++
 
 .. function:: getHttpResponse()
 
@@ -117,7 +120,7 @@ getHttpResponse
 
 
 setSubscriberCount
-------------------
+++++++++++++++++++
 
 .. function:: setSubscriberCount()
 
@@ -135,7 +138,7 @@ setSubscriberCount
 
 
 getSubscriberCount
-------------------
+++++++++++++++++++
 
 .. function:: getSubscriberCount()
 
@@ -148,7 +151,7 @@ getSubscriberCount
 
 
 _detectCallbackUrl
-------------------
+++++++++++++++++++
 
 .. function:: _detectCallbackUrl()
 
@@ -160,7 +163,7 @@ _detectCallbackUrl
 
 
 _getHttpHost
-------------
+++++++++++++
 
 .. function:: _getHttpHost()
 
@@ -172,7 +175,7 @@ _getHttpHost
 
 
 _getHeader
-----------
+++++++++++
 
 .. function:: _getHeader()
 
@@ -186,7 +189,7 @@ _getHeader
 
 
 _getRawBody
------------
++++++++++++
 
 .. function:: _getRawBody()
 

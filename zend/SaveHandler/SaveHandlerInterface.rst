@@ -1,5 +1,8 @@
-.. Session/SaveHandler/SaveHandlerInterface.php generated using docpx on 01/30/13 03:32am
+.. Session/SaveHandler/SaveHandlerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Session\\SaveHandler\\open
 ================================
@@ -14,6 +17,9 @@ Zend\\Session\\SaveHandler\\open
 
 
 
+Function
+********
+
 Zend\\Session\\SaveHandler\\close
 =================================
 
@@ -23,6 +29,9 @@ Zend\\Session\\SaveHandler\\close
     Close Session - free resources
 
 
+
+Function
+********
 
 Zend\\Session\\SaveHandler\\read
 ================================
@@ -35,6 +44,9 @@ Zend\\Session\\SaveHandler\\read
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Session\\SaveHandler\\write
 =================================
@@ -49,6 +61,9 @@ Zend\\Session\\SaveHandler\\write
 
 
 
+Function
+********
+
 Zend\\Session\\SaveHandler\\destroy
 ===================================
 
@@ -61,6 +76,9 @@ Zend\\Session\\SaveHandler\\destroy
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Session\\SaveHandler\\gc
 ==============================

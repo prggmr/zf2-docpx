@@ -1,5 +1,8 @@
-.. Barcode/Object/Ean5.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Ean5.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Ean5
 ===========================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Ean5
 Class for generate Ean5 barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -34,7 +37,7 @@ calculateBarcodeWidth
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -46,7 +49,7 @@ prepareBarcode
 
 
 getChecksum
------------
++++++++++++
 
 .. function:: getChecksum()
 
@@ -60,14 +63,14 @@ getChecksum
 
 
 getParity
----------
++++++++++
 
 .. function:: getParity()
 
 
 
 getText
--------
++++++++
 
 .. function:: getText()
 

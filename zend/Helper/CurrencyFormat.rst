@@ -1,5 +1,8 @@
-.. I18n/View/Helper/CurrencyFormat.php generated using docpx on 01/30/13 03:32am
+.. I18n/View/Helper/CurrencyFormat.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\View\\Helper\\CurrencyFormat
 ========================================
@@ -7,10 +10,10 @@ Zend\\I18n\\View\\Helper\\CurrencyFormat
 View helper for formatting currency.
 
 Methods
-+++++++
+-------
 
 setCurrencyCode
----------------
++++++++++++++++
 
 .. function:: setCurrencyCode()
 
@@ -24,7 +27,7 @@ setCurrencyCode
 
 
 getCurrencyCode
----------------
++++++++++++++++
 
 .. function:: getCurrencyCode()
 
@@ -36,7 +39,7 @@ getCurrencyCode
 
 
 setShouldShowDecimals
----------------------
++++++++++++++++++++++
 
 .. function:: setShouldShowDecimals()
 
@@ -50,7 +53,7 @@ setShouldShowDecimals
 
 
 shouldShowDecimals
-------------------
+++++++++++++++++++
 
 .. function:: shouldShowDecimals()
 
@@ -62,7 +65,7 @@ shouldShowDecimals
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -76,7 +79,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -88,7 +91,7 @@ getLocale
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

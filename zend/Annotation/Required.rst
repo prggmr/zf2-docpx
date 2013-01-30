@@ -1,5 +1,8 @@
-.. Form/Annotation/Required.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/Required.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\Required
 ================================
@@ -12,10 +15,10 @@ input. Since the flag defaults to "true", this will typically be used to
 understood by \Zend\Filter\Boolean is allowed as the content.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getRequired
------------
++++++++++++
 
 .. function:: getRequired()
 

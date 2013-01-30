@@ -1,5 +1,8 @@
-.. Console/Console.php generated using docpx on 01/30/13 03:32am
+.. Console/Console.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Console
 ======================
@@ -8,10 +11,10 @@ An static, utility class for interacting with Console environment.
 Declared abstract to prevent from instantiating.
 
 Methods
-+++++++
+-------
 
 getInstance
------------
++++++++++++
 
 .. function:: getInstance()
 
@@ -33,7 +36,7 @@ getInstance
 
 
 isWindows
----------
++++++++++
 
 .. function:: isWindows()
 
@@ -46,7 +49,7 @@ isWindows
 
 
 isAnsicon
----------
++++++++++
 
 .. function:: isAnsicon()
 
@@ -58,7 +61,7 @@ isAnsicon
 
 
 isConsole
----------
++++++++++
 
 .. function:: isConsole()
 
@@ -73,7 +76,7 @@ isConsole
 
 
 overrideIsConsole
------------------
++++++++++++++++++
 
 .. function:: overrideIsConsole()
 
@@ -85,7 +88,7 @@ overrideIsConsole
 
 
 detectBestAdapter
------------------
++++++++++++++++++
 
 .. function:: detectBestAdapter()
 
@@ -97,7 +100,7 @@ detectBestAdapter
 
 
 __callStatic
-------------
+++++++++++++
 
 .. function:: __callStatic()
 

@@ -1,5 +1,8 @@
-.. Tag/TaggableInterface.php generated using docpx on 01/30/13 03:32am
+.. Tag/TaggableInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Tag\\getTitle
 ===================
@@ -13,6 +16,9 @@ Zend\\Tag\\getTitle
 
 
 
+Function
+********
+
 Zend\\Tag\\getWeight
 ====================
 
@@ -24,6 +30,9 @@ Zend\\Tag\\getWeight
     :rtype: float 
 
 
+
+Function
+********
 
 Zend\\Tag\\setParam
 ===================
@@ -37,6 +46,9 @@ Zend\\Tag\\setParam
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Tag\\getParam
 ===================

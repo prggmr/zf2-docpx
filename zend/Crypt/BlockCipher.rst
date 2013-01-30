@@ -1,5 +1,8 @@
-.. Crypt/BlockCipher.php generated using docpx on 01/30/13 03:32am
+.. Crypt/BlockCipher.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\BlockCipher
 ========================
@@ -7,10 +10,10 @@ Zend\\Crypt\\BlockCipher
 Encrypt using a symmetric cipher then authenticate using HMAC (SHA-256)
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -37,7 +40,7 @@ factory
 
 
 getSymmetricPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getSymmetricPluginManager()
 
@@ -49,7 +52,7 @@ getSymmetricPluginManager
 
 
 setSymmetricPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setSymmetricPluginManager()
 
@@ -63,7 +66,7 @@ setSymmetricPluginManager
 
 
 setCipher
----------
++++++++++
 
 .. function:: setCipher()
 
@@ -77,7 +80,7 @@ setCipher
 
 
 getCipher
----------
++++++++++
 
 .. function:: getCipher()
 
@@ -89,7 +92,7 @@ getCipher
 
 
 setKeyIteration
----------------
++++++++++++++++
 
 .. function:: setKeyIteration()
 
@@ -103,7 +106,7 @@ setKeyIteration
 
 
 getKeyIteration
----------------
++++++++++++++++
 
 .. function:: getKeyIteration()
 
@@ -115,7 +118,7 @@ getKeyIteration
 
 
 setSalt
--------
++++++++
 
 .. function:: setSalt()
 
@@ -131,7 +134,7 @@ setSalt
 
 
 getSalt
--------
++++++++
 
 .. function:: getSalt()
 
@@ -143,7 +146,7 @@ getSalt
 
 
 getOriginalSalt
----------------
++++++++++++++++
 
 .. function:: getOriginalSalt()
 
@@ -155,7 +158,7 @@ getOriginalSalt
 
 
 setBinaryOutput
----------------
++++++++++++++++
 
 .. function:: setBinaryOutput()
 
@@ -169,7 +172,7 @@ setBinaryOutput
 
 
 getBinaryOutput
----------------
++++++++++++++++
 
 .. function:: getBinaryOutput()
 
@@ -181,7 +184,7 @@ getBinaryOutput
 
 
 setKey
-------
+++++++
 
 .. function:: setKey()
 
@@ -197,7 +200,7 @@ setKey
 
 
 getKey
-------
+++++++
 
 .. function:: getKey()
 
@@ -209,7 +212,7 @@ getKey
 
 
 setCipherAlgorithm
-------------------
+++++++++++++++++++
 
 .. function:: setCipherAlgorithm()
 
@@ -225,7 +228,7 @@ setCipherAlgorithm
 
 
 getCipherAlgorithm
-------------------
+++++++++++++++++++
 
 .. function:: getCipherAlgorithm()
 
@@ -237,7 +240,7 @@ getCipherAlgorithm
 
 
 getCipherSupportedAlgorithms
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: getCipherSupportedAlgorithms()
 
@@ -249,7 +252,7 @@ getCipherSupportedAlgorithms
 
 
 setHashAlgorithm
-----------------
+++++++++++++++++
 
 .. function:: setHashAlgorithm()
 
@@ -265,7 +268,7 @@ setHashAlgorithm
 
 
 getHashAlgorithm
-----------------
+++++++++++++++++
 
 .. function:: getHashAlgorithm()
 
@@ -277,7 +280,7 @@ getHashAlgorithm
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -293,7 +296,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -311,8 +314,8 @@ decrypt
 
 
 Constants
-+++++++++
+---------
 
 KEY_DERIV_HMAC
-==============
+++++++++++++++
 

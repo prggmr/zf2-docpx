@@ -1,5 +1,8 @@
-.. EventManager/ResponseCollection.php generated using docpx on 01/30/13 03:32am
+.. EventManager/ResponseCollection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\ResponseCollection
 ======================================
@@ -7,10 +10,10 @@ Zend\\EventManager\\ResponseCollection
 Collection of signal handler return values
 
 Methods
-+++++++
+-------
 
 stopped
--------
++++++++
 
 .. function:: stopped()
 
@@ -22,7 +25,7 @@ stopped
 
 
 setStopped
-----------
+++++++++++
 
 .. function:: setStopped()
 
@@ -36,7 +39,7 @@ setStopped
 
 
 first
------
++++++
 
 .. function:: first()
 
@@ -48,7 +51,7 @@ first
 
 
 last
-----
+++++
 
 .. function:: last()
 
@@ -63,7 +66,7 @@ last
 
 
 contains
---------
+++++++++
 
 .. function:: contains()
 

@@ -1,5 +1,8 @@
-.. Captcha/AdapterInterface.php generated using docpx on 01/30/13 03:32am
+.. Captcha/AdapterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Captcha\\generate
 =======================
@@ -12,6 +15,9 @@ Zend\\Captcha\\generate
     :rtype: string new captcha ID
 
 
+
+Function
+********
 
 Zend\\Captcha\\setName
 ======================
@@ -27,6 +33,9 @@ Zend\\Captcha\\setName
 
 
 
+Function
+********
+
 Zend\\Captcha\\getName
 ======================
 
@@ -38,6 +47,9 @@ Zend\\Captcha\\getName
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Captcha\\getHelperName
 ============================

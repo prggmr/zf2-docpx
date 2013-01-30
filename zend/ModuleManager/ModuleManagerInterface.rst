@@ -1,5 +1,8 @@
-.. ModuleManager/ModuleManagerInterface.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/ModuleManagerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\ModuleManager\\loadModules
 ================================
@@ -12,6 +15,9 @@ Zend\\ModuleManager\\loadModules
     :rtype: ModuleManagerInterface 
 
 
+
+Function
+********
 
 Zend\\ModuleManager\\loadModule
 ===============================
@@ -27,6 +33,9 @@ Zend\\ModuleManager\\loadModule
 
 
 
+Function
+********
+
 Zend\\ModuleManager\\getLoadedModules
 =====================================
 
@@ -41,6 +50,9 @@ Zend\\ModuleManager\\getLoadedModules
 
 
 
+Function
+********
+
 Zend\\ModuleManager\\getModules
 ===============================
 
@@ -52,6 +64,9 @@ Zend\\ModuleManager\\getModules
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\ModuleManager\\setModules
 ===============================

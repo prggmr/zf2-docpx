@@ -1,5 +1,8 @@
-.. Server/Definition.php generated using docpx on 01/30/13 03:32am
+.. Server/Definition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Definition
 ========================
@@ -7,10 +10,10 @@ Zend\\Server\\Definition
 Server methods metadata
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOverwriteExistingMethods
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: setOverwriteExistingMethods()
 
@@ -36,7 +39,7 @@ setOverwriteExistingMethods
 
 
 addMethod
----------
++++++++++
 
 .. function:: addMethod()
 
@@ -53,7 +56,7 @@ addMethod
 
 
 addMethods
-----------
+++++++++++
 
 .. function:: addMethods()
 
@@ -67,7 +70,7 @@ addMethods
 
 
 setMethods
-----------
+++++++++++
 
 .. function:: setMethods()
 
@@ -81,7 +84,7 @@ setMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -95,7 +98,7 @@ hasMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -109,7 +112,7 @@ getMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -121,7 +124,7 @@ getMethods
 
 
 removeMethod
-------------
+++++++++++++
 
 .. function:: removeMethod()
 
@@ -135,7 +138,7 @@ removeMethod
 
 
 clearMethods
-------------
+++++++++++++
 
 .. function:: clearMethods()
 
@@ -147,7 +150,7 @@ clearMethods
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -159,7 +162,7 @@ toArray
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -171,7 +174,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -183,7 +186,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -195,7 +198,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -207,7 +210,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -219,7 +222,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 

@@ -1,5 +1,8 @@
-.. Crypt/Symmetric/Mcrypt.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Symmetric/Mcrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Symmetric\\Mcrypt
 ==============================
@@ -11,10 +14,10 @@ This class doesn't provide authentication and integrity check over the data.
 PLEASE USE Zend\Crypt\BlockCipher instead!
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 setDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: setDefaultOptions()
 
@@ -43,7 +46,7 @@ setDefaultOptions
 
 
 getPaddingPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: getPaddingPluginManager()
 
@@ -55,7 +58,7 @@ getPaddingPluginManager
 
 
 setPaddingPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: setPaddingPluginManager()
 
@@ -71,7 +74,7 @@ setPaddingPluginManager
 
 
 getKeySize
-----------
+++++++++++
 
 .. function:: getKeySize()
 
@@ -83,7 +86,7 @@ getKeySize
 
 
 setKey
-------
+++++++
 
 .. function:: setKey()
 
@@ -99,7 +102,7 @@ setKey
 
 
 getKey
-------
+++++++
 
 .. function:: getKey()
 
@@ -111,7 +114,7 @@ getKey
 
 
 setAlgorithm
-------------
+++++++++++++
 
 .. function:: setAlgorithm()
 
@@ -127,7 +130,7 @@ setAlgorithm
 
 
 getAlgorithm
-------------
+++++++++++++
 
 .. function:: getAlgorithm()
 
@@ -139,7 +142,7 @@ getAlgorithm
 
 
 setPadding
-----------
+++++++++++
 
 .. function:: setPadding()
 
@@ -153,7 +156,7 @@ setPadding
 
 
 getPadding
-----------
+++++++++++
 
 .. function:: getPadding()
 
@@ -165,7 +168,7 @@ getPadding
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -181,7 +184,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -197,7 +200,7 @@ decrypt
 
 
 getSaltSize
------------
++++++++++++
 
 .. function:: getSaltSize()
 
@@ -209,7 +212,7 @@ getSaltSize
 
 
 getSupportedAlgorithms
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSupportedAlgorithms()
 
@@ -221,7 +224,7 @@ getSupportedAlgorithms
 
 
 setSalt
--------
++++++++
 
 .. function:: setSalt()
 
@@ -237,7 +240,7 @@ setSalt
 
 
 getSalt
--------
++++++++
 
 .. function:: getSalt()
 
@@ -249,7 +252,7 @@ getSalt
 
 
 getOriginalSalt
----------------
++++++++++++++++
 
 .. function:: getOriginalSalt()
 
@@ -261,7 +264,7 @@ getOriginalSalt
 
 
 setMode
--------
++++++++
 
 .. function:: setMode()
 
@@ -277,7 +280,7 @@ setMode
 
 
 getMode
--------
++++++++
 
 .. function:: getMode()
 
@@ -289,7 +292,7 @@ getMode
 
 
 getSupportedModes
------------------
++++++++++++++++++
 
 .. function:: getSupportedModes()
 
@@ -301,7 +304,7 @@ getSupportedModes
 
 
 getBlockSize
-------------
+++++++++++++
 
 .. function:: getBlockSize()
 
@@ -315,8 +318,8 @@ getBlockSize
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_PADDING
-===============
++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. View/Resolver/ResolverInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Resolver/ResolverInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Resolver\\resolve
 =============================

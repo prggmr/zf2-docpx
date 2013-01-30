@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/FilesystemOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/FilesystemOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\FilesystemOptions
 ================================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\FilesystemOptions
 These are options specific to the Filesystem adapter
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setCacheDir
------------
++++++++++++
 
 .. function:: setCacheDir()
 
@@ -42,7 +45,7 @@ setCacheDir
 
 
 getCacheDir
------------
++++++++++++
 
 .. function:: getCacheDir()
 
@@ -54,7 +57,7 @@ getCacheDir
 
 
 setClearStatCache
------------------
++++++++++++++++++
 
 .. function:: setClearStatCache()
 
@@ -68,7 +71,7 @@ setClearStatCache
 
 
 getClearStatCache
------------------
++++++++++++++++++
 
 .. function:: getClearStatCache()
 
@@ -80,7 +83,7 @@ getClearStatCache
 
 
 setDirLevel
------------
++++++++++++
 
 .. function:: setDirLevel()
 
@@ -96,7 +99,7 @@ setDirLevel
 
 
 getDirLevel
------------
++++++++++++
 
 .. function:: getDirLevel()
 
@@ -108,7 +111,7 @@ getDirLevel
 
 
 setDirPermission
-----------------
+++++++++++++++++
 
 .. function:: setDirPermission()
 
@@ -127,7 +130,7 @@ setDirPermission
 
 
 getDirPermission
-----------------
+++++++++++++++++
 
 .. function:: getDirPermission()
 
@@ -139,7 +142,7 @@ getDirPermission
 
 
 setFileLocking
---------------
+++++++++++++++
 
 .. function:: setFileLocking()
 
@@ -153,7 +156,7 @@ setFileLocking
 
 
 getFileLocking
---------------
+++++++++++++++
 
 .. function:: getFileLocking()
 
@@ -165,7 +168,7 @@ getFileLocking
 
 
 setFilePermission
------------------
++++++++++++++++++
 
 .. function:: setFilePermission()
 
@@ -184,7 +187,7 @@ setFilePermission
 
 
 getFilePermission
------------------
++++++++++++++++++
 
 .. function:: getFilePermission()
 
@@ -196,7 +199,7 @@ getFilePermission
 
 
 setNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: setNamespaceSeparator()
 
@@ -210,7 +213,7 @@ setNamespaceSeparator
 
 
 getNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: getNamespaceSeparator()
 
@@ -222,7 +225,7 @@ getNamespaceSeparator
 
 
 setNoAtime
-----------
+++++++++++
 
 .. function:: setNoAtime()
 
@@ -236,7 +239,7 @@ setNoAtime
 
 
 getNoAtime
-----------
+++++++++++
 
 .. function:: getNoAtime()
 
@@ -248,7 +251,7 @@ getNoAtime
 
 
 setNoCtime
-----------
+++++++++++
 
 .. function:: setNoCtime()
 
@@ -262,7 +265,7 @@ setNoCtime
 
 
 getNoCtime
-----------
+++++++++++
 
 .. function:: getNoCtime()
 
@@ -274,7 +277,7 @@ getNoCtime
 
 
 setUmask
---------
+++++++++
 
 .. function:: setUmask()
 
@@ -296,7 +299,7 @@ setUmask
 
 
 getUmask
---------
+++++++++
 
 .. function:: getUmask()
 

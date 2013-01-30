@@ -1,5 +1,8 @@
-.. Http/Header/Allow.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Allow.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Allow
 =========================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Allow
 Allow Header
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -38,7 +41,7 @@ getFieldName
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -50,7 +53,7 @@ getFieldValue
 
 
 getAllMethods
--------------
++++++++++++++
 
 .. function:: getAllMethods()
 
@@ -62,7 +65,7 @@ getAllMethods
 
 
 getAllowedMethods
------------------
++++++++++++++++++
 
 .. function:: getAllowedMethods()
 
@@ -74,7 +77,7 @@ getAllowedMethods
 
 
 allowMethods
-------------
+++++++++++++
 
 .. function:: allowMethods()
 
@@ -88,7 +91,7 @@ allowMethods
 
 
 disallowMethods
----------------
++++++++++++++++
 
 .. function:: disallowMethods()
 
@@ -102,7 +105,7 @@ disallowMethods
 
 
 denyMethods
------------
++++++++++++
 
 .. function:: denyMethods()
 
@@ -116,7 +119,7 @@ denyMethods
 
 
 isAllowedMethod
----------------
++++++++++++++++
 
 .. function:: isAllowedMethod()
 
@@ -130,7 +133,7 @@ isAllowedMethod
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

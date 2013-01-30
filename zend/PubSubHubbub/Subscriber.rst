@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/Subscriber.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/Subscriber.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\Subscriber
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 setTopicUrl
------------
++++++++++++
 
 .. function:: setTopicUrl()
 
@@ -55,7 +58,7 @@ setTopicUrl
 
 
 getTopicUrl
------------
++++++++++++
 
 .. function:: getTopicUrl()
 
@@ -70,7 +73,7 @@ getTopicUrl
 
 
 setLeaseSeconds
----------------
++++++++++++++++
 
 .. function:: setLeaseSeconds()
 
@@ -86,7 +89,7 @@ setLeaseSeconds
 
 
 getLeaseSeconds
----------------
++++++++++++++++
 
 .. function:: getLeaseSeconds()
 
@@ -98,7 +101,7 @@ getLeaseSeconds
 
 
 setCallbackUrl
---------------
+++++++++++++++
 
 .. function:: setCallbackUrl()
 
@@ -115,7 +118,7 @@ setCallbackUrl
 
 
 getCallbackUrl
---------------
+++++++++++++++
 
 .. function:: getCallbackUrl()
 
@@ -130,7 +133,7 @@ getCallbackUrl
 
 
 setPreferredVerificationMode
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: setPreferredVerificationMode()
 
@@ -151,7 +154,7 @@ setPreferredVerificationMode
 
 
 getPreferredVerificationMode
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: getPreferredVerificationMode()
 
@@ -163,7 +166,7 @@ getPreferredVerificationMode
 
 
 addHubUrl
----------
++++++++++
 
 .. function:: addHubUrl()
 
@@ -179,7 +182,7 @@ addHubUrl
 
 
 addHubUrls
-----------
+++++++++++
 
 .. function:: addHubUrls()
 
@@ -193,7 +196,7 @@ addHubUrls
 
 
 removeHubUrl
-------------
+++++++++++++
 
 .. function:: removeHubUrl()
 
@@ -207,7 +210,7 @@ removeHubUrl
 
 
 getHubUrls
-----------
+++++++++++
 
 .. function:: getHubUrls()
 
@@ -219,7 +222,7 @@ getHubUrls
 
 
 addAuthentication
------------------
++++++++++++++++++
 
 .. function:: addAuthentication()
 
@@ -236,7 +239,7 @@ addAuthentication
 
 
 addAuthentications
-------------------
+++++++++++++++++++
 
 .. function:: addAuthentications()
 
@@ -250,7 +253,7 @@ addAuthentications
 
 
 getAuthentications
-------------------
+++++++++++++++++++
 
 .. function:: getAuthentications()
 
@@ -262,7 +265,7 @@ getAuthentications
 
 
 usePathParameter
-----------------
+++++++++++++++++
 
 .. function:: usePathParameter()
 
@@ -276,7 +279,7 @@ usePathParameter
 
 
 setParameter
-------------
+++++++++++++
 
 .. function:: setParameter()
 
@@ -293,7 +296,7 @@ setParameter
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -307,7 +310,7 @@ setParameters
 
 
 removeParameter
----------------
++++++++++++++++
 
 .. function:: removeParameter()
 
@@ -323,7 +326,7 @@ removeParameter
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -335,7 +338,7 @@ getParameters
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -350,7 +353,7 @@ setStorage
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -366,7 +369,7 @@ getStorage
 
 
 subscribeAll
-------------
+++++++++++++
 
 .. function:: subscribeAll()
 
@@ -379,7 +382,7 @@ subscribeAll
 
 
 unsubscribeAll
---------------
+++++++++++++++
 
 .. function:: unsubscribeAll()
 
@@ -392,7 +395,7 @@ unsubscribeAll
 
 
 isSuccess
----------
++++++++++
 
 .. function:: isSuccess()
 
@@ -405,7 +408,7 @@ isSuccess
 
 
 getErrors
----------
++++++++++
 
 .. function:: getErrors()
 
@@ -419,7 +422,7 @@ getErrors
 
 
 getAsyncHubs
-------------
+++++++++++++
 
 .. function:: getAsyncHubs()
 
@@ -434,7 +437,7 @@ getAsyncHubs
 
 
 _doRequest
-----------
+++++++++++
 
 .. function:: _doRequest()
 
@@ -450,7 +453,7 @@ _doRequest
 
 
 _getHttpClient
---------------
+++++++++++++++
 
 .. function:: _getHttpClient()
 
@@ -462,7 +465,7 @@ _getHttpClient
 
 
 _getRequestParameters
----------------------
++++++++++++++++++++++
 
 .. function:: _getRequestParameters()
 
@@ -480,7 +483,7 @@ _getRequestParameters
 
 
 _generateVerifyToken
---------------------
+++++++++++++++++++++
 
 .. function:: _generateVerifyToken()
 
@@ -494,7 +497,7 @@ _generateVerifyToken
 
 
 _generateSubscriptionKey
-------------------------
+++++++++++++++++++++++++
 
 .. function:: _generateSubscriptionKey()
 
@@ -510,7 +513,7 @@ _generateSubscriptionKey
 
 
 _urlEncode
-----------
+++++++++++
 
 .. function:: _urlEncode()
 
@@ -524,7 +527,7 @@ _urlEncode
 
 
 _toByteValueOrderedString
--------------------------
++++++++++++++++++++++++++
 
 .. function:: _toByteValueOrderedString()
 
@@ -538,7 +541,7 @@ _toByteValueOrderedString
 
 
 setTestStaticToken
-------------------
+++++++++++++++++++
 
 .. function:: setTestStaticToken()
 

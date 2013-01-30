@@ -1,14 +1,17 @@
-.. Code/Generator/DocBlockGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/DocBlockGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\DocBlockGenerator
 ========================================
 
 Methods
-+++++++
+-------
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -22,7 +25,7 @@ fromReflection
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -37,7 +40,7 @@ fromArray
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -50,7 +53,7 @@ __construct
 
 
 setShortDescription
--------------------
++++++++++++++++++++
 
 .. function:: setShortDescription()
 
@@ -62,7 +65,7 @@ setShortDescription
 
 
 getShortDescription
--------------------
++++++++++++++++++++
 
 .. function:: getShortDescription()
 
@@ -72,7 +75,7 @@ getShortDescription
 
 
 setLongDescription
-------------------
+++++++++++++++++++
 
 .. function:: setLongDescription()
 
@@ -84,7 +87,7 @@ setLongDescription
 
 
 getLongDescription
-------------------
+++++++++++++++++++
 
 .. function:: getLongDescription()
 
@@ -94,7 +97,7 @@ getLongDescription
 
 
 setTags
--------
++++++++
 
 .. function:: setTags()
 
@@ -106,7 +109,7 @@ setTags
 
 
 setTag
-------
+++++++
 
 .. function:: setTag()
 
@@ -119,7 +122,7 @@ setTag
 
 
 getTags
--------
++++++++
 
 .. function:: getTags()
 
@@ -129,7 +132,7 @@ getTags
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -139,7 +142,7 @@ generate
 
 
 docCommentize
--------------
++++++++++++++
 
 .. function:: docCommentize()
 

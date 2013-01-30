@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/AbstractFeed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/AbstractFeed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\AbstractFeed
 ===========================================
 
 Methods
-+++++++
+-------
 
 setDomDocument
---------------
+++++++++++++++
 
 .. function:: setDomDocument()
 
@@ -22,7 +25,7 @@ setDomDocument
 
 
 getDomDocument
---------------
+++++++++++++++
 
 .. function:: getDomDocument()
 
@@ -34,7 +37,7 @@ getDomDocument
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -46,7 +49,7 @@ getEncoding
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -60,7 +63,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -74,7 +77,7 @@ getType
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -86,7 +89,7 @@ toArray
 
 
 setXpath
---------
+++++++++
 
 .. function:: setXpath()
 
@@ -100,7 +103,7 @@ setXpath
 
 
 getXpath
---------
+++++++++
 
 .. function:: getXpath()
 
@@ -112,7 +115,7 @@ getXpath
 
 
 getXpathPrefix
---------------
+++++++++++++++
 
 .. function:: getXpathPrefix()
 
@@ -124,7 +127,7 @@ getXpathPrefix
 
 
 setXpathPrefix
---------------
+++++++++++++++
 
 .. function:: setXpathPrefix()
 
@@ -138,7 +141,7 @@ setXpathPrefix
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

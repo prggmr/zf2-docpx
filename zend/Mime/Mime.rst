@@ -1,5 +1,8 @@
-.. Mime/Mime.php generated using docpx on 01/30/13 03:32am
+.. Mime/Mime.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mime\\Mime
 ================
@@ -7,10 +10,10 @@ Zend\\Mime\\Mime
 Support class for MultiPart Mime Messages
 
 Methods
-+++++++
+-------
 
 isPrintable
------------
++++++++++++
 
 .. function:: isPrintable()
 
@@ -27,7 +30,7 @@ isPrintable
 
 
 encodeQuotedPrintable
----------------------
++++++++++++++++++++++
 
 .. function:: encodeQuotedPrintable()
 
@@ -43,7 +46,7 @@ encodeQuotedPrintable
 
 
 _encodeQuotedPrintable
-----------------------
+++++++++++++++++++++++
 
 .. function:: _encodeQuotedPrintable()
 
@@ -57,7 +60,7 @@ _encodeQuotedPrintable
 
 
 encodeQuotedPrintableHeader
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: encodeQuotedPrintableHeader()
 
@@ -77,7 +80,7 @@ encodeQuotedPrintableHeader
 
 
 getNextQuotedPrintableToken
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: getNextQuotedPrintableToken()
 
@@ -91,7 +94,7 @@ getNextQuotedPrintableToken
 
 
 encodeBase64Header
-------------------
+++++++++++++++++++
 
 .. function:: encodeBase64Header()
 
@@ -108,7 +111,7 @@ encodeBase64Header
 
 
 encodeBase64
-------------
+++++++++++++
 
 .. function:: encodeBase64()
 
@@ -125,7 +128,7 @@ encodeBase64
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -139,7 +142,7 @@ __construct
 
 
 encode
-------
+++++++
 
 .. function:: encode()
 
@@ -155,7 +158,7 @@ encode
 
 
 boundary
---------
+++++++++
 
 .. function:: boundary()
 
@@ -168,7 +171,7 @@ boundary
 
 
 boundaryLine
-------------
+++++++++++++
 
 .. function:: boundaryLine()
 
@@ -184,7 +187,7 @@ boundaryLine
 
 
 mimeEnd
--------
++++++++
 
 .. function:: mimeEnd()
 
@@ -202,47 +205,47 @@ mimeEnd
 
 
 Constants
-+++++++++
+---------
 
 TYPE_OCTETSTREAM
-================
+++++++++++++++++
 
 TYPE_TEXT
-=========
++++++++++
 
 TYPE_HTML
-=========
++++++++++
 
 ENCODING_7BIT
-=============
++++++++++++++
 
 ENCODING_8BIT
-=============
++++++++++++++
 
 ENCODING_QUOTEDPRINTABLE
-========================
+++++++++++++++++++++++++
 
 ENCODING_BASE64
-===============
++++++++++++++++
 
 DISPOSITION_ATTACHMENT
-======================
+++++++++++++++++++++++
 
 DISPOSITION_INLINE
-==================
+++++++++++++++++++
 
 LINELENGTH
-==========
+++++++++++
 
 LINEEND
-=======
++++++++
 
 MULTIPART_ALTERNATIVE
-=====================
++++++++++++++++++++++
 
 MULTIPART_MIXED
-===============
++++++++++++++++
 
 MULTIPART_RELATED
-=================
++++++++++++++++++
 

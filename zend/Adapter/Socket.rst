@@ -1,5 +1,8 @@
-.. Http/Client/Adapter/Socket.php generated using docpx on 01/30/13 03:32am
+.. Http/Client/Adapter/Socket.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Client\\Adapter\\Socket
 ===================================
@@ -8,10 +11,10 @@ A sockets based (stream\socket\client) adapter class for Zend\Http\Client. Can b
 on almost every PHP environment, and does not require any special extensions.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -35,7 +38,7 @@ setOptions
 
 
 getConfig
----------
++++++++++
 
 .. function:: getConfig()
 
@@ -47,7 +50,7 @@ getConfig
 
 
 setStreamContext
-----------------
+++++++++++++++++
 
 .. function:: setStreamContext()
 
@@ -69,7 +72,7 @@ setStreamContext
 
 
 getStreamContext
-----------------
+++++++++++++++++
 
 .. function:: getStreamContext()
 
@@ -83,7 +86,7 @@ getStreamContext
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -99,7 +102,7 @@ connect
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -119,7 +122,7 @@ write
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -132,7 +135,7 @@ read
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -142,7 +145,7 @@ close
 
 
 _checkSocketReadTimeout
------------------------
++++++++++++++++++++++++
 
 .. function:: _checkSocketReadTimeout()
 
@@ -154,7 +157,7 @@ _checkSocketReadTimeout
 
 
 setOutputStream
----------------
++++++++++++++++
 
 .. function:: setOutputStream()
 
@@ -168,7 +171,7 @@ setOutputStream
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 

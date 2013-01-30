@@ -1,5 +1,8 @@
-.. Authentication/Adapter/Http/ResolverInterface.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Adapter/Http/ResolverInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Authentication\\Adapter\\Http\\resolve
 ============================================

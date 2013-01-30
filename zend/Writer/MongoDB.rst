@@ -1,5 +1,8 @@
-.. Log/Writer/MongoDB.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/MongoDB.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\MongoDB
 ==========================
@@ -7,10 +10,10 @@ Zend\\Log\\Writer\\MongoDB
 MongoDB log writer.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 setFormatter
-------------
+++++++++++++
 
 .. function:: setFormatter()
 
@@ -41,7 +44,7 @@ setFormatter
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 

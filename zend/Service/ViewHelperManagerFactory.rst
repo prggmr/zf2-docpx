@@ -1,14 +1,17 @@
-.. Mvc/Service/ViewHelperManagerFactory.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Service/ViewHelperManagerFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Service\\ViewHelperManagerFactory
 ============================================
 
 Methods
-+++++++
+-------
 
 createService
--------------
++++++++++++++
 
 .. function:: createService()
 
@@ -26,8 +29,8 @@ createService
 
 
 Constants
-+++++++++
+---------
 
 PLUGIN_MANAGER_CLASS
-====================
+++++++++++++++++++++
 

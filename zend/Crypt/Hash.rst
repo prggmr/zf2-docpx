@@ -1,14 +1,17 @@
-.. Crypt/Hash.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Hash.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Hash
 =================
 
 Methods
-+++++++
+-------
 
 compute
--------
++++++++
 
 .. function:: compute()
 
@@ -25,7 +28,7 @@ compute
 
 
 getOutputSize
--------------
++++++++++++++
 
 .. function:: getOutputSize()
 
@@ -40,7 +43,7 @@ getOutputSize
 
 
 getSupportedAlgorithms
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSupportedAlgorithms()
 
@@ -52,7 +55,7 @@ getSupportedAlgorithms
 
 
 isSupported
------------
++++++++++++
 
 .. function:: isSupported()
 
@@ -66,7 +69,7 @@ isSupported
 
 
 clearLastAlgorithmCache
------------------------
++++++++++++++++++++++++
 
 .. function:: clearLastAlgorithmCache()
 
@@ -78,11 +81,11 @@ clearLastAlgorithmCache
 
 
 Constants
-+++++++++
+---------
 
 OUTPUT_STRING
-=============
++++++++++++++
 
 OUTPUT_BINARY
-=============
++++++++++++++
 

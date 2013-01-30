@@ -1,5 +1,8 @@
-.. Validator/File/Hash.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Hash.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Hash
 ===========================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Hash
 Validator for the hash of given files
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getHash
--------
++++++++
 
 .. function:: getHash()
 
@@ -34,7 +37,7 @@ getHash
 
 
 setHash
--------
++++++++
 
 .. function:: setHash()
 
@@ -48,7 +51,7 @@ setHash
 
 
 addHash
--------
++++++++
 
 .. function:: addHash()
 
@@ -64,7 +67,7 @@ addHash
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -80,16 +83,16 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_NOT_MATCH
-==============
+++++++++++++++
 
 @const string Error constants
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_FOUND
-=========
++++++++++
 

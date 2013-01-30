@@ -1,5 +1,8 @@
-.. Form/Annotation/InputFilter.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/InputFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\InputFilter
 ===================================
@@ -11,10 +14,10 @@ form. The value should be a string indicating the fully qualified class name
 of the input filter to use.
 
 Methods
-+++++++
+-------
 
 getInputFilter
---------------
+++++++++++++++
 
 .. function:: getInputFilter()
 

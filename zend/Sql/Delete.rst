@@ -1,5 +1,8 @@
-.. Db/Sql/Delete.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Delete.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Delete
 =====================
@@ -7,10 +10,10 @@ Zend\\Db\\Sql\\Delete
 @property Where $where
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 from
-----
+++++
 
 .. function:: from()
 
@@ -36,14 +39,14 @@ from
 
 
 getRawState
------------
++++++++++++
 
 .. function:: getRawState()
 
 
 
 where
------
++++++
 
 .. function:: where()
 
@@ -58,7 +61,7 @@ where
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -73,7 +76,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 
@@ -89,7 +92,7 @@ getSqlString
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -107,11 +110,11 @@ __get
 
 
 Constants
-+++++++++
+---------
 
 SPECIFICATION_DELETE
-====================
+++++++++++++++++++++
 
 SPECIFICATION_WHERE
-===================
++++++++++++++++++++
 

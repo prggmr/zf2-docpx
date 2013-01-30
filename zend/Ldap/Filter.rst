@@ -1,5 +1,8 @@
-.. Ldap/Filter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter
 ==================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter
 Zend\Ldap\Filter.
 
 Methods
-+++++++
+-------
 
 equals
-------
+++++++
 
 .. function:: equals()
 
@@ -26,7 +29,7 @@ equals
 
 
 begins
-------
+++++++
 
 .. function:: begins()
 
@@ -42,7 +45,7 @@ begins
 
 
 ends
-----
+++++
 
 .. function:: ends()
 
@@ -58,7 +61,7 @@ ends
 
 
 contains
---------
+++++++++
 
 .. function:: contains()
 
@@ -74,7 +77,7 @@ contains
 
 
 greater
--------
++++++++
 
 .. function:: greater()
 
@@ -90,7 +93,7 @@ greater
 
 
 greaterOrEqual
---------------
+++++++++++++++
 
 .. function:: greaterOrEqual()
 
@@ -106,7 +109,7 @@ greaterOrEqual
 
 
 less
-----
+++++
 
 .. function:: less()
 
@@ -122,7 +125,7 @@ less
 
 
 lessOrEqual
------------
++++++++++++
 
 .. function:: lessOrEqual()
 
@@ -138,7 +141,7 @@ lessOrEqual
 
 
 approx
-------
+++++++
 
 .. function:: approx()
 
@@ -154,7 +157,7 @@ approx
 
 
 any
----
++++
 
 .. function:: any()
 
@@ -169,7 +172,7 @@ any
 
 
 string
-------
+++++++
 
 .. function:: string()
 
@@ -183,7 +186,7 @@ string
 
 
 mask
-----
+++++
 
 .. function:: mask()
 
@@ -198,7 +201,7 @@ mask
 
 
 andFilter
----------
++++++++++
 
 .. function:: andFilter()
 
@@ -212,7 +215,7 @@ andFilter
 
 
 orFilter
---------
+++++++++
 
 .. function:: orFilter()
 
@@ -226,7 +229,7 @@ orFilter
 
 
 createFilterString
-------------------
+++++++++++++++++++
 
 .. function:: createFilterString()
 
@@ -244,7 +247,7 @@ createFilterString
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -262,23 +265,23 @@ __construct
 
 
 Constants
-+++++++++
+---------
 
 TYPE_EQUALS
-===========
++++++++++++
 
 TYPE_GREATER
-============
+++++++++++++
 
 TYPE_GREATEROREQUAL
-===================
++++++++++++++++++++
 
 TYPE_LESS
-=========
++++++++++
 
 TYPE_LESSOREQUAL
-================
+++++++++++++++++
 
 TYPE_APPROX
-===========
++++++++++++
 

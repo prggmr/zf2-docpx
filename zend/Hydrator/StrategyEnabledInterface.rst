@@ -1,5 +1,8 @@
-.. Stdlib/Hydrator/StrategyEnabledInterface.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/Hydrator/StrategyEnabledInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Stdlib\\Hydrator\\addStrategy
 ===================================
@@ -16,6 +19,9 @@ Zend\\Stdlib\\Hydrator\\addStrategy
 
 
 
+Function
+********
+
 Zend\\Stdlib\\Hydrator\\getStrategy
 ===================================
 
@@ -30,6 +36,9 @@ Zend\\Stdlib\\Hydrator\\getStrategy
 
 
 
+Function
+********
+
 Zend\\Stdlib\\Hydrator\\hasStrategy
 ===================================
 
@@ -43,6 +52,9 @@ Zend\\Stdlib\\Hydrator\\hasStrategy
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\Hydrator\\removeStrategy
 ======================================

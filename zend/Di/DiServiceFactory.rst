@@ -1,14 +1,17 @@
-.. ServiceManager/Di/DiServiceFactory.php generated using docpx on 01/30/13 03:32am
+.. ServiceManager/Di/DiServiceFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ServiceManager\\Di\\DiServiceFactory
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 createService
--------------
++++++++++++++
 
 .. function:: createService()
 
@@ -37,7 +40,7 @@ createService
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -56,14 +59,14 @@ get
 
 
 Constants
-+++++++++
+---------
 
 USE_SL_BEFORE_DI
-================
+++++++++++++++++
 
 USE_SL_AFTER_DI
-===============
++++++++++++++++
 
 USE_SL_NONE
-===========
++++++++++++
 

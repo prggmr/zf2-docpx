@@ -1,5 +1,8 @@
-.. Soap/AutoDiscover/DiscoveryStrategy/DiscoveryStrategyInterface.php generated using docpx on 01/30/13 03:32am
+.. Soap/AutoDiscover/DiscoveryStrategy/DiscoveryStrategyInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\getFunctionParameterType
 =====================================================================
@@ -16,6 +19,9 @@ Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\getFunctionParameterType
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\getFunctionReturnType
 ==================================================================
@@ -34,6 +40,9 @@ Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\getFunctionReturnType
 
 
 
+Function
+********
+
 Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\isFunctionOneWay
 =============================================================
 
@@ -50,6 +59,9 @@ Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\isFunctionOneWay
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Soap\\AutoDiscover\\DiscoveryStrategy\\getFunctionDocumentation
 =====================================================================

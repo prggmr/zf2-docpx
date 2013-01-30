@@ -1,5 +1,8 @@
-.. Captcha/AbstractAdapter.php generated using docpx on 01/30/13 03:32am
+.. Captcha/AbstractAdapter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Captcha\\AbstractAdapter
 ==============================
@@ -9,10 +12,10 @@ Base class for Captcha adapters
 Provides some utility functionality to build on
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -24,7 +27,7 @@ getName
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -38,7 +41,7 @@ setName
 
 
 setOption
----------
++++++++++
 
 .. function:: setOption()
 
@@ -53,7 +56,7 @@ setOption
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -69,7 +72,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -81,7 +84,7 @@ getOptions
 
 
 getHelperName
--------------
++++++++++++++
 
 .. function:: getHelperName()
 

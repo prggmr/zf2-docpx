@@ -1,5 +1,8 @@
-.. InputFilter/InputFilterAwareInterface.php generated using docpx on 01/30/13 03:32am
+.. InputFilter/InputFilterAwareInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\InputFilter\\setInputFilter
 =================================
@@ -14,6 +17,9 @@ Zend\\InputFilter\\setInputFilter
     :rtype: InputFilterAwareInterface 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\getInputFilter
 =================================

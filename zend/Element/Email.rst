@@ -1,14 +1,17 @@
-.. Form/Element/Email.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Email.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Email
 ==========================
 
 Methods
-+++++++
+-------
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -20,7 +23,7 @@ getValidator
 
 
 setValidator
-------------
+++++++++++++
 
 .. function:: setValidator()
 
@@ -34,7 +37,7 @@ setValidator
 
 
 getEmailValidator
------------------
++++++++++++++++++
 
 .. function:: getEmailValidator()
 
@@ -61,7 +64,7 @@ getEmailValidator
 
 
 setEmailValidator
------------------
++++++++++++++++++
 
 .. function:: setEmailValidator()
 
@@ -76,7 +79,7 @@ setEmailValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 

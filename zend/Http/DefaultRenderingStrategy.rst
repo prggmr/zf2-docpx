@@ -1,14 +1,17 @@
-.. Mvc/View/Http/DefaultRenderingStrategy.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/DefaultRenderingStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\DefaultRenderingStrategy
 ===============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -36,7 +39,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -50,7 +53,7 @@ detach
 
 
 setLayoutTemplate
------------------
++++++++++++++++++
 
 .. function:: setLayoutTemplate()
 
@@ -64,7 +67,7 @@ setLayoutTemplate
 
 
 getLayoutTemplate
------------------
++++++++++++++++++
 
 .. function:: getLayoutTemplate()
 
@@ -76,7 +79,7 @@ getLayoutTemplate
 
 
 render
-------
+++++++
 
 .. function:: render()
 

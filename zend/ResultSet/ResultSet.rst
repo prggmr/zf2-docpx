@@ -1,14 +1,17 @@
-.. Db/ResultSet/ResultSet.php generated using docpx on 01/30/13 03:32am
+.. Db/ResultSet/ResultSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\ResultSet\\ResultSet
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setArrayObjectPrototype
------------------------
++++++++++++++++++++++++
 
 .. function:: setArrayObjectPrototype()
 
@@ -37,7 +40,7 @@ setArrayObjectPrototype
 
 
 getArrayObjectPrototype
------------------------
++++++++++++++++++++++++
 
 .. function:: getArrayObjectPrototype()
 
@@ -49,7 +52,7 @@ getArrayObjectPrototype
 
 
 getReturnType
--------------
++++++++++++++
 
 .. function:: getReturnType()
 
@@ -61,7 +64,7 @@ getReturnType
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -73,11 +76,11 @@ current
 
 
 Constants
-+++++++++
+---------
 
 TYPE_ARRAYOBJECT
-================
+++++++++++++++++
 
 TYPE_ARRAY
-==========
+++++++++++
 

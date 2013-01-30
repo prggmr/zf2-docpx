@@ -1,5 +1,8 @@
-.. Authentication/Adapter/ValidatableAdapterInterface.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Adapter/ValidatableAdapterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Authentication\\Adapter\\getIdentity
 ==========================================
@@ -13,6 +16,9 @@ Zend\\Authentication\\Adapter\\getIdentity
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Authentication\\Adapter\\setIdentity
 ==========================================
@@ -28,6 +34,9 @@ Zend\\Authentication\\Adapter\\setIdentity
 
 
 
+Function
+********
+
 Zend\\Authentication\\Adapter\\getCredential
 ============================================
 
@@ -40,6 +49,9 @@ Zend\\Authentication\\Adapter\\getCredential
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Authentication\\Adapter\\setCredential
 ============================================

@@ -1,5 +1,8 @@
-.. View/Model/ConsoleModel.php generated using docpx on 01/30/13 03:32am
+.. View/Model/ConsoleModel.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Model\\ConsoleModel
 ===============================
@@ -7,10 +10,10 @@ Zend\\View\\Model\\ConsoleModel
 @copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-+++++++
+-------
 
 setErrorLevel
--------------
++++++++++++++
 
 .. function:: setErrorLevel()
 
@@ -22,7 +25,7 @@ setErrorLevel
 
 
 getErrorLevel
--------------
++++++++++++++
 
 .. function:: getErrorLevel()
 
@@ -32,7 +35,7 @@ getErrorLevel
 
 
 setResult
----------
++++++++++
 
 .. function:: setResult()
 
@@ -46,7 +49,7 @@ setResult
 
 
 getResult
----------
++++++++++
 
 .. function:: getResult()
 
@@ -60,8 +63,8 @@ getResult
 
 
 Constants
-+++++++++
+---------
 
 RESULT
-======
+++++++
 

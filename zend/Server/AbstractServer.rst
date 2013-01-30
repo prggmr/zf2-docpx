@@ -1,5 +1,8 @@
-.. Server/AbstractServer.php generated using docpx on 01/30/13 03:32am
+.. Server/AbstractServer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\AbstractServer
 ============================
@@ -7,10 +10,10 @@ Zend\\Server\\AbstractServer
 Abstract Server implementation
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -36,7 +39,7 @@ getFunctions
 
 
 _buildCallback
---------------
+++++++++++++++
 
 .. function:: _buildCallback()
 
@@ -50,7 +53,7 @@ _buildCallback
 
 
 _buildSignature
----------------
++++++++++++++++
 
 .. function:: _buildSignature()
 
@@ -67,7 +70,7 @@ _buildSignature
 
 
 _dispatch
----------
++++++++++
 
 .. function:: _dispatch()
 
@@ -82,7 +85,7 @@ _dispatch
 
 
 _fixType
---------
+++++++++
 
 .. function:: _fixType()
 

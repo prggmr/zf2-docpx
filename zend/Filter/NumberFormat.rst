@@ -1,14 +1,17 @@
-.. I18n/Filter/NumberFormat.php generated using docpx on 01/30/13 03:32am
+.. I18n/Filter/NumberFormat.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Filter\\NumberFormat
 ================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -33,7 +36,7 @@ setLocale
 
 
 setStyle
---------
+++++++++
 
 .. function:: setStyle()
 
@@ -45,7 +48,7 @@ setStyle
 
 
 getStyle
---------
+++++++++
 
 .. function:: getStyle()
 
@@ -55,7 +58,7 @@ getStyle
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -67,7 +70,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -77,7 +80,7 @@ getType
 
 
 setFormatter
-------------
+++++++++++++
 
 .. function:: setFormatter()
 
@@ -89,7 +92,7 @@ setFormatter
 
 
 getFormatter
-------------
+++++++++++++
 
 .. function:: getFormatter()
 
@@ -100,7 +103,7 @@ getFormatter
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

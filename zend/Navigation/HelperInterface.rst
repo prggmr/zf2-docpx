@@ -1,5 +1,8 @@
-.. View/Helper/Navigation/HelperInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Navigation/HelperInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\setContainer
 ============================================
@@ -18,6 +21,9 @@ Zend\\View\\Helper\\Navigation\\setContainer
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\getContainer
 ============================================
 
@@ -29,6 +35,9 @@ Zend\\View\\Helper\\Navigation\\getContainer
     :rtype: Navigation\AbstractContainer navigation container
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\setAcl
 ======================================
@@ -44,6 +53,9 @@ Zend\\View\\Helper\\Navigation\\setAcl
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\getAcl
 ======================================
 
@@ -56,6 +68,9 @@ Zend\\View\\Helper\\Navigation\\getAcl
     :rtype: Acl\AclInterface|null ACL object or null
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\setRole
 =======================================
@@ -76,6 +91,9 @@ Zend\\View\\Helper\\Navigation\\setRole
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\getRole
 =======================================
 
@@ -87,6 +105,9 @@ Zend\\View\\Helper\\Navigation\\getRole
     :rtype: string|Acl\Role\RoleInterface|null role or null
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\setUseAcl
 =========================================
@@ -102,6 +123,9 @@ Zend\\View\\Helper\\Navigation\\setUseAcl
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\getUseAcl
 =========================================
 
@@ -114,6 +138,9 @@ Zend\\View\\Helper\\Navigation\\getUseAcl
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\getRenderInvisible
 ==================================================
 
@@ -125,6 +152,9 @@ Zend\\View\\Helper\\Navigation\\getRenderInvisible
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\setRenderInvisible
 ==================================================
@@ -140,6 +170,9 @@ Zend\\View\\Helper\\Navigation\\setRenderInvisible
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\hasContainer
 ============================================
 
@@ -151,6 +184,9 @@ Zend\\View\\Helper\\Navigation\\hasContainer
     :rtype: bool whether the helper has a container or not
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\hasAcl
 ======================================
@@ -164,6 +200,9 @@ Zend\\View\\Helper\\Navigation\\hasAcl
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\hasRole
 =======================================
 
@@ -176,6 +215,9 @@ Zend\\View\\Helper\\Navigation\\hasRole
 
 
 
+Function
+********
+
 Zend\\View\\Helper\\Navigation\\__toString
 ==========================================
 
@@ -187,6 +229,9 @@ Zend\\View\\Helper\\Navigation\\__toString
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\Navigation\\render
 ======================================

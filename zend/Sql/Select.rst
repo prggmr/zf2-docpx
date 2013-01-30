@@ -1,5 +1,8 @@
-.. Db/Sql/Select.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Select.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Select
 =====================
@@ -7,10 +10,10 @@ Zend\\Db\\Sql\\Select
 @property Where $where
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 from
-----
+++++
 
 .. function:: from()
 
@@ -38,7 +41,7 @@ from
 
 
 columns
--------
++++++++
 
 .. function:: columns()
 
@@ -64,7 +67,7 @@ columns
 
 
 join
-----
+++++
 
 .. function:: join()
 
@@ -83,7 +86,7 @@ join
 
 
 where
------
++++++
 
 .. function:: where()
 
@@ -98,14 +101,14 @@ where
 
 
 group
------
++++++
 
 .. function:: group()
 
 
 
 having
-------
+++++++
 
 .. function:: having()
 
@@ -120,7 +123,7 @@ having
 
 
 order
------
++++++
 
 .. function:: order()
 
@@ -132,7 +135,7 @@ order
 
 
 limit
------
++++++
 
 .. function:: limit()
 
@@ -144,7 +147,7 @@ limit
 
 
 offset
-------
+++++++
 
 .. function:: offset()
 
@@ -156,7 +159,7 @@ offset
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -170,21 +173,21 @@ reset
 
 
 setSpecification
-----------------
+++++++++++++++++
 
 .. function:: setSpecification()
 
 
 
 getRawState
------------
++++++++++++
 
 .. function:: getRawState()
 
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -199,7 +202,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 
@@ -213,7 +216,7 @@ getSqlString
 
 
 isTableReadOnly
----------------
++++++++++++++++
 
 .. function:: isTableReadOnly()
 
@@ -225,49 +228,49 @@ isTableReadOnly
 
 
 processSelect
--------------
++++++++++++++
 
 .. function:: processSelect()
 
 
 
 processJoins
-------------
+++++++++++++
 
 .. function:: processJoins()
 
 
 
 processWhere
-------------
+++++++++++++
 
 .. function:: processWhere()
 
 
 
 processGroup
-------------
+++++++++++++
 
 .. function:: processGroup()
 
 
 
 processHaving
--------------
++++++++++++++
 
 .. function:: processHaving()
 
 
 
 processOrder
-------------
+++++++++++++
 
 .. function:: processOrder()
 
 
 
 processLimit
-------------
+++++++++++++
 
 .. function:: processLimit()
 
@@ -277,14 +280,14 @@ processLimit
 
 
 processOffset
--------------
++++++++++++++
 
 .. function:: processOffset()
 
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -300,7 +303,7 @@ __get
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -316,56 +319,56 @@ __clone
 
 
 Constants
-+++++++++
+---------
 
 SELECT
-======
+++++++
 
 COLUMNS
-=======
++++++++
 
 TABLE
-=====
++++++
 
 JOINS
-=====
++++++
 
 WHERE
-=====
++++++
 
 GROUP
-=====
++++++
 
 HAVING
-======
+++++++
 
 ORDER
-=====
++++++
 
 LIMIT
-=====
++++++
 
 OFFSET
-======
+++++++
 
 JOIN_INNER
-==========
+++++++++++
 
 JOIN_OUTER
-==========
+++++++++++
 
 JOIN_LEFT
-=========
++++++++++
 
 JOIN_RIGHT
-==========
+++++++++++
 
 SQL_STAR
-========
+++++++++
 
 ORDER_ASCENDING
-===============
++++++++++++++++
 
 ORDER_DESCENDING
-================
+++++++++++++++++
 

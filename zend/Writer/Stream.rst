@@ -1,14 +1,17 @@
-.. Log/Writer/Stream.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/Stream.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\Stream
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 
@@ -43,7 +46,7 @@ doWrite
 
 
 setLogSeparator
----------------
++++++++++++++++
 
 .. function:: setLogSeparator()
 
@@ -57,7 +60,7 @@ setLogSeparator
 
 
 getLogSeparator
----------------
++++++++++++++++
 
 .. function:: getLogSeparator()
 
@@ -69,7 +72,7 @@ getLogSeparator
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 

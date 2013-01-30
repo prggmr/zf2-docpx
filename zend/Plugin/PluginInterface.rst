@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/PluginInterface.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/PluginInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mvc\\Controller\\Plugin\\setController
 ============================================
@@ -14,6 +17,9 @@ Zend\\Mvc\\Controller\\Plugin\\setController
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Mvc\\Controller\\Plugin\\getController
 ============================================

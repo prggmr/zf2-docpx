@@ -1,14 +1,17 @@
-.. View/View.php generated using docpx on 01/30/13 03:32am
+.. View/View.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\View
 ================
 
 Methods
-+++++++
+-------
 
 setRequest
-----------
+++++++++++
 
 .. function:: setRequest()
 
@@ -22,7 +25,7 @@ setRequest
 
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -36,7 +39,7 @@ setResponse
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -48,7 +51,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -60,7 +63,7 @@ getResponse
 
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -74,7 +77,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -88,7 +91,7 @@ getEventManager
 
 
 addRenderingStrategy
---------------------
+++++++++++++++++++++
 
 .. function:: addRenderingStrategy()
 
@@ -109,7 +112,7 @@ addRenderingStrategy
 
 
 addResponseStrategy
--------------------
++++++++++++++++++++
 
 .. function:: addResponseStrategy()
 
@@ -132,7 +135,7 @@ addResponseStrategy
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -154,7 +157,7 @@ render
 
 
 renderChildren
---------------
+++++++++++++++
 
 .. function:: renderChildren()
 
@@ -170,7 +173,7 @@ renderChildren
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 

@@ -1,5 +1,8 @@
-.. EventManager/EventManager.php generated using docpx on 01/30/13 03:32am
+.. EventManager/EventManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\EventManager
 ================================
@@ -10,10 +13,10 @@ Use the EventManager when you want to create a per-instance notification
 system for your objects.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 setEventClass
--------------
++++++++++++++
 
 .. function:: setEventClass()
 
@@ -42,7 +45,7 @@ setEventClass
 
 
 setSharedManager
-----------------
+++++++++++++++++
 
 .. function:: setSharedManager()
 
@@ -56,7 +59,7 @@ setSharedManager
 
 
 unsetSharedManager
-------------------
+++++++++++++++++++
 
 .. function:: unsetSharedManager()
 
@@ -68,7 +71,7 @@ unsetSharedManager
 
 
 getSharedManager
-----------------
+++++++++++++++++
 
 .. function:: getSharedManager()
 
@@ -86,7 +89,7 @@ getSharedManager
 
 
 getIdentifiers
---------------
+++++++++++++++
 
 .. function:: getIdentifiers()
 
@@ -98,7 +101,7 @@ getIdentifiers
 
 
 setIdentifiers
---------------
+++++++++++++++
 
 .. function:: setIdentifiers()
 
@@ -112,7 +115,7 @@ setIdentifiers
 
 
 addIdentifiers
---------------
+++++++++++++++
 
 .. function:: addIdentifiers()
 
@@ -126,7 +129,7 @@ addIdentifiers
 
 
 trigger
--------
++++++++
 
 .. function:: trigger()
 
@@ -147,7 +150,7 @@ trigger
 
 
 triggerUntil
-------------
+++++++++++++
 
 .. function:: triggerUntil()
 
@@ -170,7 +173,7 @@ triggerUntil
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -199,7 +202,7 @@ attach
 
 
 attachAggregate
----------------
++++++++++++++++
 
 .. function:: attachAggregate()
 
@@ -218,7 +221,7 @@ attachAggregate
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -234,7 +237,7 @@ detach
 
 
 detachAggregate
----------------
++++++++++++++++
 
 .. function:: detachAggregate()
 
@@ -251,7 +254,7 @@ detachAggregate
 
 
 getEvents
----------
++++++++++
 
 .. function:: getEvents()
 
@@ -263,7 +266,7 @@ getEvents
 
 
 getListeners
-------------
+++++++++++++
 
 .. function:: getListeners()
 
@@ -277,7 +280,7 @@ getListeners
 
 
 clearListeners
---------------
+++++++++++++++
 
 .. function:: clearListeners()
 
@@ -291,7 +294,7 @@ clearListeners
 
 
 prepareArgs
------------
++++++++++++
 
 .. function:: prepareArgs()
 
@@ -309,7 +312,7 @@ prepareArgs
 
 
 triggerListeners
-----------------
+++++++++++++++++
 
 .. function:: triggerListeners()
 
@@ -328,7 +331,7 @@ triggerListeners
 
 
 getSharedListeners
-------------------
+++++++++++++++++++
 
 .. function:: getSharedListeners()
 
@@ -343,7 +346,7 @@ getSharedListeners
 
 
 insertListeners
----------------
++++++++++++++++
 
 .. function:: insertListeners()
 

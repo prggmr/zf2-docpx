@@ -1,5 +1,8 @@
-.. View/Helper/Placeholder/Container/AbstractStandalone.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Placeholder/Container/AbstractStandalone.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Placeholder\\Container\\AbstractStandalone
 ==============================================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Placeholder\\Container\\AbstractStandalone
 Base class for targeted placeholder helpers
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getRegistry
------------
++++++++++++
 
 .. function:: getRegistry()
 
@@ -32,7 +35,7 @@ getRegistry
 
 
 setRegistry
------------
++++++++++++
 
 .. function:: setRegistry()
 
@@ -46,7 +49,7 @@ setRegistry
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -60,7 +63,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -74,7 +77,7 @@ getEscaper
 
 
 setAutoEscape
--------------
++++++++++++++
 
 .. function:: setAutoEscape()
 
@@ -88,7 +91,7 @@ setAutoEscape
 
 
 getAutoEscape
--------------
++++++++++++++
 
 .. function:: getAutoEscape()
 
@@ -100,7 +103,7 @@ getAutoEscape
 
 
 escape
-------
+++++++
 
 .. function:: escape()
 
@@ -114,7 +117,7 @@ escape
 
 
 setContainer
-------------
+++++++++++++
 
 .. function:: setContainer()
 
@@ -128,7 +131,7 @@ setContainer
 
 
 getContainer
-------------
+++++++++++++
 
 .. function:: getContainer()
 
@@ -140,7 +143,7 @@ getContainer
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -155,7 +158,7 @@ __set
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -169,7 +172,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -183,7 +186,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -197,7 +200,7 @@ __unset
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -216,7 +219,7 @@ __call
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -228,7 +231,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -240,7 +243,7 @@ __toString
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -252,7 +255,7 @@ count
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -266,7 +269,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -280,7 +283,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -295,7 +298,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -309,7 +312,7 @@ offsetUnset
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 

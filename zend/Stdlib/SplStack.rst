@@ -1,5 +1,8 @@
-.. Stdlib/SplStack.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/SplStack.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\SplStack
 ======================
@@ -7,10 +10,10 @@ Zend\\Stdlib\\SplStack
 Serializable version of SplStack
 
 Methods
-+++++++
+-------
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -22,7 +25,7 @@ toArray
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -34,7 +37,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

@@ -1,5 +1,8 @@
-.. Crypt/Password/Bcrypt.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Password/Bcrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Password\\Bcrypt
 =============================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Password\\Bcrypt
 Bcrypt algorithm using crypt() function of PHP
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -40,7 +43,7 @@ create
 
 
 verify
-------
+++++++
 
 .. function:: verify()
 
@@ -55,7 +58,7 @@ verify
 
 
 setCost
--------
++++++++
 
 .. function:: setCost()
 
@@ -71,7 +74,7 @@ setCost
 
 
 getCost
--------
++++++++
 
 .. function:: getCost()
 
@@ -83,7 +86,7 @@ getCost
 
 
 setSalt
--------
++++++++
 
 .. function:: setSalt()
 
@@ -99,7 +102,7 @@ setSalt
 
 
 getSalt
--------
++++++++
 
 .. function:: getSalt()
 
@@ -111,7 +114,7 @@ getSalt
 
 
 setBackwardCompatibility
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setBackwardCompatibility()
 
@@ -123,7 +126,7 @@ setBackwardCompatibility
 
 
 getBackwardCompatibility
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getBackwardCompatibility()
 
@@ -137,8 +140,8 @@ getBackwardCompatibility
 
 
 Constants
-+++++++++
+---------
 
 MIN_SALT_SIZE
-=============
++++++++++++++
 

@@ -1,5 +1,8 @@
-.. Db/Adapter/Driver/Feature/DriverFeatureInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Feature/DriverFeatureInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\Feature\\setupDefaultFeatures
 ========================================================
@@ -12,6 +15,9 @@ Zend\\Db\\Adapter\\Driver\\Feature\\setupDefaultFeatures
     :rtype: DriverFeatureInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\Feature\\addFeature
 ==============================================
@@ -27,6 +33,9 @@ Zend\\Db\\Adapter\\Driver\\Feature\\addFeature
     :rtype: DriverFeatureInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\Feature\\getFeature
 ==============================================

@@ -1,5 +1,8 @@
-.. Uri/UriFactory.php generated using docpx on 01/30/13 03:32am
+.. Uri/UriFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Uri\\UriFactory
 =====================
@@ -14,10 +17,10 @@ Note that this class contains only static methods and should not be
 instantiated
 
 Methods
-+++++++
+-------
 
 registerScheme
---------------
+++++++++++++++
 
 .. function:: registerScheme()
 
@@ -30,7 +33,7 @@ registerScheme
 
 
 unregisterScheme
-----------------
+++++++++++++++++
 
 .. function:: unregisterScheme()
 
@@ -42,7 +45,7 @@ unregisterScheme
 
 
 getRegisteredSchemeClass
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getRegisteredSchemeClass()
 
@@ -58,7 +61,7 @@ getRegisteredSchemeClass
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 

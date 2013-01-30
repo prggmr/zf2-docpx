@@ -1,5 +1,8 @@
-.. Permissions/Acl/AclInterface.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Acl/AclInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Permissions\\Acl\\hasResource
 ===================================
@@ -16,6 +19,9 @@ Zend\\Permissions\\Acl\\hasResource
     :rtype: boolean 
 
 
+
+Function
+********
 
 Zend\\Permissions\\Acl\\isAllowed
 =================================

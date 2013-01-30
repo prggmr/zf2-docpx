@@ -1,5 +1,8 @@
-.. Validator/Db/AbstractDb.php generated using docpx on 01/30/13 03:32am
+.. Validator/Db/AbstractDb.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Db\\AbstractDb
 ===============================
@@ -7,10 +10,10 @@ Zend\\Validator\\Db\\AbstractDb
 Class for Database record validation
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -35,7 +38,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -48,7 +51,7 @@ getAdapter
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -62,7 +65,7 @@ setAdapter
 
 
 getExclude
-----------
+++++++++++
 
 .. function:: getExclude()
 
@@ -74,7 +77,7 @@ getExclude
 
 
 setExclude
-----------
+++++++++++
 
 .. function:: setExclude()
 
@@ -88,7 +91,7 @@ setExclude
 
 
 getField
---------
+++++++++
 
 .. function:: getField()
 
@@ -100,7 +103,7 @@ getField
 
 
 setField
---------
+++++++++
 
 .. function:: setField()
 
@@ -114,7 +117,7 @@ setField
 
 
 getTable
---------
+++++++++
 
 .. function:: getTable()
 
@@ -126,7 +129,7 @@ getTable
 
 
 setTable
---------
+++++++++
 
 .. function:: setTable()
 
@@ -140,7 +143,7 @@ setTable
 
 
 getSchema
----------
++++++++++
 
 .. function:: getSchema()
 
@@ -152,7 +155,7 @@ getSchema
 
 
 setSchema
----------
++++++++++
 
 .. function:: setSchema()
 
@@ -166,7 +169,7 @@ setSchema
 
 
 setSelect
----------
++++++++++
 
 .. function:: setSelect()
 
@@ -180,7 +183,7 @@ setSelect
 
 
 getSelect
----------
++++++++++
 
 .. function:: getSelect()
 
@@ -195,7 +198,7 @@ getSelect
 
 
 query
------
++++++
 
 .. function:: query()
 
@@ -211,13 +214,13 @@ query
 
 
 Constants
-+++++++++
+---------
 
 ERROR_NO_RECORD_FOUND
-=====================
++++++++++++++++++++++
 
 Error constants
 
 ERROR_RECORD_FOUND
-==================
+++++++++++++++++++
 

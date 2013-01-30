@@ -1,5 +1,8 @@
-.. Mail/Header/AbstractAddressList.php generated using docpx on 01/30/13 03:32am
+.. Mail/Header/AbstractAddressList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Header\\AbstractAddressList
 =======================================
@@ -7,10 +10,10 @@ Zend\\Mail\\Header\\AbstractAddressList
 Base class for headers composing address lists (to, from, cc, bcc, reply-to)
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -20,35 +23,35 @@ fromString
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
 
 
 setAddressList
---------------
+++++++++++++++
 
 .. function:: setAddressList()
 
@@ -60,7 +63,7 @@ setAddressList
 
 
 getAddressList
---------------
+++++++++++++++
 
 .. function:: getAddressList()
 
@@ -72,7 +75,7 @@ getAddressList
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

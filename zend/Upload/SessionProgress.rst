@@ -1,5 +1,8 @@
-.. ProgressBar/Upload/SessionProgress.php generated using docpx on 01/30/13 03:32am
+.. ProgressBar/Upload/SessionProgress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ProgressBar\\Upload\\SessionProgress
 ==========================================
@@ -7,10 +10,10 @@ Zend\\ProgressBar\\Upload\\SessionProgress
 Progress Bar Upload Handler for PHP 5.4+ Session Upload Progress handling
 
 Methods
-+++++++
+-------
 
 getUploadProgress
------------------
++++++++++++++++++
 
 .. function:: getUploadProgress()
 
@@ -24,7 +27,7 @@ getUploadProgress
 
 
 isSessionUploadProgressAvailable
---------------------------------
+++++++++++++++++++++++++++++++++
 
 .. function:: isSessionUploadProgressAvailable()
 

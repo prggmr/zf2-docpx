@@ -1,14 +1,17 @@
-.. View/ViewEvent.php generated using docpx on 01/30/13 03:32am
+.. View/ViewEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\ViewEvent
 =====================
 
 Methods
-+++++++
+-------
 
 setModel
---------
+++++++++
 
 .. function:: setModel()
 
@@ -22,7 +25,7 @@ setModel
 
 
 setRequest
-----------
+++++++++++
 
 .. function:: setRequest()
 
@@ -36,7 +39,7 @@ setRequest
 
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -50,7 +53,7 @@ setResponse
 
 
 setResult
----------
++++++++++
 
 .. function:: setResult()
 
@@ -64,7 +67,7 @@ setResult
 
 
 getModel
---------
+++++++++
 
 .. function:: getModel()
 
@@ -76,7 +79,7 @@ getModel
 
 
 setRenderer
------------
++++++++++++
 
 .. function:: setRenderer()
 
@@ -90,7 +93,7 @@ setRenderer
 
 
 getRenderer
------------
++++++++++++
 
 .. function:: getRenderer()
 
@@ -102,7 +105,7 @@ getRenderer
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -114,7 +117,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -126,7 +129,7 @@ getResponse
 
 
 getResult
----------
++++++++++
 
 .. function:: getResult()
 
@@ -138,7 +141,7 @@ getResult
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 
@@ -153,7 +156,7 @@ getParam
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -165,7 +168,7 @@ getParams
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -179,7 +182,7 @@ setParams
 
 
 setParam
---------
+++++++++
 
 .. function:: setParam()
 
@@ -196,14 +199,14 @@ setParam
 
 
 Constants
-+++++++++
+---------
 
 EVENT_RENDERER
-==============
+++++++++++++++
 
 EVENT_RENDERER_POST
-===================
++++++++++++++++++++
 
 EVENT_RESPONSE
-==============
+++++++++++++++
 

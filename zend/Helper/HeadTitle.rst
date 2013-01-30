@@ -1,5 +1,8 @@
-.. View/Helper/HeadTitle.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HeadTitle.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HeadTitle
 =============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HeadTitle
 Helper for setting and retrieving title element for HTML head
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -25,7 +28,7 @@ __invoke
 
 
 setDefaultAttachOrder
----------------------
++++++++++++++++++++++
 
 .. function:: setDefaultAttachOrder()
 
@@ -41,7 +44,7 @@ setDefaultAttachOrder
 
 
 getDefaultAttachOrder
----------------------
++++++++++++++++++++++
 
 .. function:: getDefaultAttachOrder()
 
@@ -53,7 +56,7 @@ getDefaultAttachOrder
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -67,7 +70,7 @@ toString
 
 
 setTranslator
--------------
++++++++++++++
 
 .. function:: setTranslator()
 
@@ -84,7 +87,7 @@ setTranslator
 
 
 getTranslator
--------------
++++++++++++++
 
 .. function:: getTranslator()
 
@@ -96,7 +99,7 @@ getTranslator
 
 
 hasTranslator
--------------
++++++++++++++
 
 .. function:: hasTranslator()
 
@@ -108,7 +111,7 @@ hasTranslator
 
 
 setTranslatorEnabled
---------------------
+++++++++++++++++++++
 
 .. function:: setTranslatorEnabled()
 
@@ -123,7 +126,7 @@ setTranslatorEnabled
 
 
 isTranslatorEnabled
--------------------
++++++++++++++++++++
 
 .. function:: isTranslatorEnabled()
 
@@ -135,7 +138,7 @@ isTranslatorEnabled
 
 
 setTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: setTranslatorTextDomain()
 
@@ -149,7 +152,7 @@ setTranslatorTextDomain
 
 
 getTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: getTranslatorTextDomain()
 

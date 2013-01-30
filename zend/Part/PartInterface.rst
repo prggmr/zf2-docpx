@@ -1,5 +1,8 @@
-.. Mail/Storage/Part/PartInterface.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Part/PartInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\isMultipart
 ======================================
@@ -12,6 +15,9 @@ Zend\\Mail\\Storage\\Part\\isMultipart
     :rtype: bool if part is multipart
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\getContent
 =====================================
@@ -29,6 +35,9 @@ Zend\\Mail\\Storage\\Part\\getContent
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Part\\getSize
 ==================================
 
@@ -40,6 +49,9 @@ Zend\\Mail\\Storage\\Part\\getSize
     :rtype: int size
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\getPart
 ==================================
@@ -57,6 +69,9 @@ Zend\\Mail\\Storage\\Part\\getPart
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Part\\countParts
 =====================================
 
@@ -68,6 +83,9 @@ Zend\\Mail\\Storage\\Part\\countParts
     :rtype: int number of sub-parts
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\getHeaders
 =====================================
@@ -83,6 +101,9 @@ Zend\\Mail\\Storage\\Part\\getHeaders
     :rtype: \Zend\Mail\Headers 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\getHeader
 ====================================
@@ -103,6 +124,9 @@ Zend\\Mail\\Storage\\Part\\getHeader
     :throws: Exception\ExceptionInterface 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\getHeaderField
 =========================================
@@ -128,6 +152,9 @@ Zend\\Mail\\Storage\\Part\\getHeaderField
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Part\\__get
 ================================
 
@@ -146,6 +173,9 @@ Zend\\Mail\\Storage\\Part\\__get
     :throws: Exception\ExceptionInterface 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Part\\__toString
 =====================================

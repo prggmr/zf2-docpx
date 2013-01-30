@@ -1,5 +1,8 @@
-.. Ldap/Node/ChildrenIterator.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/ChildrenIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\ChildrenIterator
 ==================================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node\\ChildrenIterator
 Zend\Ldap\Node\ChildrenIterator provides an iterator to a collection of children nodes.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -37,7 +40,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -50,7 +53,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -63,7 +66,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -74,7 +77,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -85,7 +88,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -99,7 +102,7 @@ valid
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -112,7 +115,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -124,7 +127,7 @@ getChildren
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -139,7 +142,7 @@ offsetGet
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -154,7 +157,7 @@ offsetExists
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -167,7 +170,7 @@ offsetUnset
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -181,7 +184,7 @@ offsetSet
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

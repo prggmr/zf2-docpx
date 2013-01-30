@@ -1,5 +1,8 @@
-.. Crypt/PublicKey/Rsa.php generated using docpx on 01/30/13 03:32am
+.. Crypt/PublicKey/Rsa.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\PublicKey\\Rsa
 ===========================
@@ -7,10 +10,10 @@ Zend\\Crypt\\PublicKey\\Rsa
 Implementation of the RSA public key encryption algorithm.
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -27,7 +30,7 @@ factory
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -41,7 +44,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -55,7 +58,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -67,7 +70,7 @@ getOptions
 
 
 sign
-----
+++++
 
 .. function:: sign()
 
@@ -84,7 +87,7 @@ sign
 
 
 verify
-------
+++++++
 
 .. function:: verify()
 
@@ -112,7 +115,7 @@ verify
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -129,7 +132,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -156,7 +159,7 @@ decrypt
 
 
 generateKeys
-------------
+++++++++++++
 
 .. function:: generateKeys()
 
@@ -175,14 +178,14 @@ generateKeys
 
 
 Constants
-+++++++++
+---------
 
 MODE_AUTO
-=========
++++++++++
 
 MODE_BASE64
-===========
++++++++++++
 
 MODE_RAW
-========
+++++++++
 

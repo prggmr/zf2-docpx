@@ -1,5 +1,8 @@
-.. Validator/Iban.php generated using docpx on 01/30/13 03:32am
+.. Validator/Iban.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Iban
 =====================
@@ -7,10 +10,10 @@ Zend\\Validator\\Iban
 Validates IBAN Numbers (International Bank Account Numbers)
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getCountryCode
---------------
+++++++++++++++
 
 .. function:: getCountryCode()
 
@@ -34,7 +37,7 @@ getCountryCode
 
 
 setCountryCode
---------------
+++++++++++++++
 
 .. function:: setCountryCode()
 
@@ -50,7 +53,7 @@ setCountryCode
 
 
 allowNonSepa
-------------
+++++++++++++
 
 .. function:: allowNonSepa()
 
@@ -62,7 +65,7 @@ allowNonSepa
 
 
 setAllowNonSepa
----------------
++++++++++++++++
 
 .. function:: setAllowNonSepa()
 
@@ -76,7 +79,7 @@ setAllowNonSepa
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -92,17 +95,17 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOTSUPPORTED
-============
+++++++++++++
 
 SEPANOTSUPPORTED
-================
+++++++++++++++++
 
 FALSEFORMAT
-===========
++++++++++++
 
 CHECKFAILED
-===========
++++++++++++
 

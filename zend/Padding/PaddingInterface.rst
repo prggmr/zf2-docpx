@@ -1,5 +1,8 @@
-.. Crypt/Symmetric/Padding/PaddingInterface.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Symmetric/Padding/PaddingInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Crypt\\Symmetric\\Padding\\pad
 ====================================
@@ -15,6 +18,9 @@ Zend\\Crypt\\Symmetric\\Padding\\pad
     :rtype: string The padded string
 
 
+
+Function
+********
 
 Zend\\Crypt\\Symmetric\\Padding\\strip
 ======================================

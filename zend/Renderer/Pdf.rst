@@ -1,5 +1,8 @@
-.. Barcode/Renderer/Pdf.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Renderer/Pdf.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Renderer\\Pdf
 ============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Renderer\\Pdf
 Class for rendering the barcode in PDF resource
 
 Methods
-+++++++
+-------
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -25,7 +28,7 @@ setResource
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -37,7 +40,7 @@ checkSpecificParams
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -49,7 +52,7 @@ render
 
 
 initRenderer
-------------
+++++++++++++
 
 .. function:: initRenderer()
 
@@ -61,7 +64,7 @@ initRenderer
 
 
 drawPolygon
------------
++++++++++++
 
 .. function:: drawPolygon()
 
@@ -75,7 +78,7 @@ drawPolygon
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 
@@ -93,7 +96,7 @@ drawText
 
 
 widthForStringUsingFontSize
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: widthForStringUsingFontSize()
 

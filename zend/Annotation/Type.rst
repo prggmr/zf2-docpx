@@ -1,5 +1,8 @@
-.. Form/Annotation/Type.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/Type.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\Type
 ============================
@@ -11,10 +14,10 @@ building the form, fieldset, or element. The value should be a string
 representing a fully qualified classname.
 
 Methods
-+++++++
+-------
 
 getType
--------
++++++++
 
 .. function:: getType()
 

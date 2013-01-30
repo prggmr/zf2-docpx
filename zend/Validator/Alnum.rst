@@ -1,14 +1,17 @@
-.. I18n/Validator/Alnum.php generated using docpx on 01/30/13 03:32am
+.. I18n/Validator/Alnum.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Validator\\Alnum
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getAllowWhiteSpace
-------------------
+++++++++++++++++++
 
 .. function:: getAllowWhiteSpace()
 
@@ -32,7 +35,7 @@ getAllowWhiteSpace
 
 
 setAllowWhiteSpace
-------------------
+++++++++++++++++++
 
 .. function:: setAllowWhiteSpace()
 
@@ -46,7 +49,7 @@ setAllowWhiteSpace
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -62,14 +65,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 NOT_ALNUM
-=========
++++++++++
 
 STRING_EMPTY
-============
+++++++++++++
 

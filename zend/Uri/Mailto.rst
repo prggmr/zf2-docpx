@@ -1,5 +1,8 @@
-.. Uri/Mailto.php generated using docpx on 01/30/13 03:32am
+.. Uri/Mailto.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Uri\\Mailto
 =================
@@ -9,10 +12,10 @@ Zend\\Uri\\Mailto
 The 'mailto:...' scheme is loosely defined in RFC-1738
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -29,7 +32,7 @@ isValid
 
 
 setEmail
---------
+++++++++
 
 .. function:: setEmail()
 
@@ -45,7 +48,7 @@ setEmail
 
 
 getEmail
---------
+++++++++
 
 .. function:: getEmail()
 
@@ -59,7 +62,7 @@ getEmail
 
 
 setValidator
-------------
+++++++++++++
 
 .. function:: setValidator()
 
@@ -73,7 +76,7 @@ setValidator
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 

@@ -1,5 +1,8 @@
-.. Barcode/Object/Code25interleaved.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Code25interleaved.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Code25interleaved
 ========================================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Code25interleaved
 Class for generate Interleaved 2 of 5 barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 setWithBearerBars
------------------
++++++++++++++++++
 
 .. function:: setWithBearerBars()
 
@@ -36,7 +39,7 @@ setWithBearerBars
 
 
 getWithBearerBars
------------------
++++++++++++++++++
 
 .. function:: getWithBearerBars()
 
@@ -48,7 +51,7 @@ getWithBearerBars
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -60,7 +63,7 @@ calculateBarcodeWidth
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -72,7 +75,7 @@ prepareBarcode
 
 
 postDrawBarcode
----------------
++++++++++++++++
 
 .. function:: postDrawBarcode()
 

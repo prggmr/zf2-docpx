@@ -1,14 +1,17 @@
-.. View/Helper/HtmlQuicktime.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HtmlQuicktime.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HtmlQuicktime
 =================================
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -27,20 +30,20 @@ __invoke
 
 
 Constants
-+++++++++
+---------
 
 TYPE
-====
+++++
 
 Default file type for a movie applet
 
 ATTRIB_CLASSID
-==============
+++++++++++++++
 
 Object classid
 
 ATTRIB_CODEBASE
-===============
++++++++++++++++
 
 Object Codebase
 

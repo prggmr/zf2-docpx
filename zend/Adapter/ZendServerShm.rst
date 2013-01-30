@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/ZendServerShm.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/ZendServerShm.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\ZendServerShm
 ============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -34,7 +37,7 @@ flush
 
 
 clearByNamespace
-----------------
+++++++++++++++++
 
 .. function:: clearByNamespace()
 
@@ -48,7 +51,7 @@ clearByNamespace
 
 
 getTotalSpace
--------------
++++++++++++++
 
 .. function:: getTotalSpace()
 
@@ -60,7 +63,7 @@ getTotalSpace
 
 
 zdcStore
---------
+++++++++
 
 .. function:: zdcStore()
 
@@ -78,7 +81,7 @@ zdcStore
 
 
 zdcFetch
---------
+++++++++
 
 .. function:: zdcFetch()
 
@@ -94,7 +97,7 @@ zdcFetch
 
 
 zdcFetchMulti
--------------
++++++++++++++
 
 .. function:: zdcFetchMulti()
 
@@ -110,7 +113,7 @@ zdcFetchMulti
 
 
 zdcDelete
----------
++++++++++
 
 .. function:: zdcDelete()
 

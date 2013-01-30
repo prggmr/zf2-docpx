@@ -1,14 +1,17 @@
-.. Authentication/Result.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Result.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Result
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -34,7 +37,7 @@ isValid
 
 
 getCode
--------
++++++++
 
 .. function:: getCode()
 
@@ -46,7 +49,7 @@ getCode
 
 
 getIdentity
------------
++++++++++++
 
 .. function:: getIdentity()
 
@@ -58,7 +61,7 @@ getIdentity
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -74,35 +77,35 @@ getMessages
 
 
 Constants
-+++++++++
+---------
 
 FAILURE
-=======
++++++++
 
 General Failure
 
 FAILURE_IDENTITY_NOT_FOUND
-==========================
+++++++++++++++++++++++++++
 
 Failure due to identity not being found.
 
 FAILURE_IDENTITY_AMBIGUOUS
-==========================
+++++++++++++++++++++++++++
 
 Failure due to identity being ambiguous.
 
 FAILURE_CREDENTIAL_INVALID
-==========================
+++++++++++++++++++++++++++
 
 Failure due to invalid credential being supplied.
 
 FAILURE_UNCATEGORIZED
-=====================
++++++++++++++++++++++
 
 Failure due to uncategorized reasons.
 
 SUCCESS
-=======
++++++++
 
 Authentication success.
 

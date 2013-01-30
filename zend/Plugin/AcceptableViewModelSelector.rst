@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/AcceptableViewModelSelector.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/AcceptableViewModelSelector.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\AcceptableViewModelSelector
 ==========================================================
@@ -8,10 +11,10 @@ Controller Plugin to assist in selecting an appropriate View Model type based on
 User Agent's accept header.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -29,7 +32,7 @@ __invoke
 
 
 getViewModel
-------------
+++++++++++++
 
 .. function:: getViewModel()
 
@@ -47,7 +50,7 @@ getViewModel
 
 
 getViewModelName
-----------------
+++++++++++++++++
 
 .. function:: getViewModelName()
 
@@ -63,7 +66,7 @@ getViewModelName
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -77,7 +80,7 @@ match
 
 
 setDefaultViewModelName
------------------------
++++++++++++++++++++++++
 
 .. function:: setDefaultViewModelName()
 
@@ -91,7 +94,7 @@ setDefaultViewModelName
 
 
 getDefaultViewModelName
------------------------
++++++++++++++++++++++++
 
 .. function:: getDefaultViewModelName()
 
@@ -103,7 +106,7 @@ getDefaultViewModelName
 
 
 setDefaultMatchAgainst
-----------------------
+++++++++++++++++++++++
 
 .. function:: setDefaultMatchAgainst()
 
@@ -117,7 +120,7 @@ setDefaultMatchAgainst
 
 
 getDefaultMatchAgainst
-----------------------
+++++++++++++++++++++++
 
 .. function:: getDefaultMatchAgainst()
 
@@ -129,7 +132,7 @@ getDefaultMatchAgainst
 
 
 injectViewModelName
--------------------
++++++++++++++++++++
 
 .. function:: injectViewModelName()
 
@@ -144,7 +147,7 @@ injectViewModelName
 
 
 extractViewModelName
---------------------
+++++++++++++++++++++
 
 .. function:: extractViewModelName()
 
@@ -158,7 +161,7 @@ extractViewModelName
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -172,7 +175,7 @@ getRequest
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 
@@ -188,10 +191,10 @@ getEvent
 
 
 Constants
-+++++++++
+---------
 
 INJECT_VIEWMODEL_NAME
-=====================
++++++++++++++++++++++
 
 @var string the Key to inject the name of a viewmodel with in an Accept Header
 

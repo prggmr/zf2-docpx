@@ -1,5 +1,8 @@
-.. EventManager/FilterChain.php generated using docpx on 01/30/13 03:32am
+.. EventManager/FilterChain.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\FilterChain
 ===============================
@@ -7,10 +10,10 @@ Zend\\EventManager\\FilterChain
 FilterChain: intercepting filter manager
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 run
----
++++
 
 .. function:: run()
 
@@ -39,7 +42,7 @@ run
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -56,7 +59,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -70,7 +73,7 @@ detach
 
 
 getFilters
-----------
+++++++++++
 
 .. function:: getFilters()
 
@@ -82,7 +85,7 @@ getFilters
 
 
 clearFilters
-------------
+++++++++++++
 
 .. function:: clearFilters()
 
@@ -94,7 +97,7 @@ clearFilters
 
 
 getResponses
-------------
+++++++++++++
 
 .. function:: getResponses()
 

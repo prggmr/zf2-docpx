@@ -1,5 +1,8 @@
-.. Mail/Storage/Folder/FolderInterface.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Folder/FolderInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Folder\\getFolders
 =======================================
@@ -14,6 +17,9 @@ Zend\\Mail\\Storage\\Folder\\getFolders
     :rtype: FolderInterface root or wanted folder
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Folder\\selectFolder
 =========================================
@@ -30,6 +36,9 @@ Zend\\Mail\\Storage\\Folder\\selectFolder
     :throws \Zend\Mail\Storage\Exception\ExceptionInterface: 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Folder\\getCurrentFolder
 =============================================

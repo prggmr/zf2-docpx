@@ -1,5 +1,8 @@
-.. Paginator/ScrollingStyle/Elastic.php generated using docpx on 01/30/13 03:32am
+.. Paginator/ScrollingStyle/Elastic.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\ScrollingStyle\\Elastic
 ========================================
@@ -9,10 +12,10 @@ twice the given page range, then behaves like a slider.  See the example
 link.
 
 Methods
-+++++++
+-------
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 

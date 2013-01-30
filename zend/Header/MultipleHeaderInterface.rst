@@ -1,5 +1,8 @@
-.. Http/Header/MultipleHeaderInterface.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/MultipleHeaderInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Http\\Header\\toStringMultipleHeaders
 ===========================================

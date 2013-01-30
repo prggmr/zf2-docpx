@@ -1,5 +1,8 @@
-.. View/Helper/Placeholder.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Placeholder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Placeholder
 ===============================
@@ -10,10 +13,10 @@ for non-Placeholder things. That said, the support for this is only
 guaranteed to effect subsequently rendered templates, and of course Layouts.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -41,7 +44,7 @@ __invoke
 
 
 getRegistry
------------
++++++++++++
 
 .. function:: getRegistry()
 

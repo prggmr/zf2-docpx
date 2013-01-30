@@ -1,5 +1,8 @@
-.. I18n/View/Helper/Plural.php generated using docpx on 01/30/13 03:32am
+.. I18n/View/Helper/Plural.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\View\\Helper\\Plural
 ================================
@@ -16,10 +19,10 @@ However, you can find most of the up-to-date plural rules for most languages in 
      - https://developer.mozilla.org/en-US/docs/Localization_and_Plurals
 
 Methods
-+++++++
+-------
 
 setPluralRule
--------------
++++++++++++++
 
 .. function:: setPluralRule()
 
@@ -33,7 +36,7 @@ setPluralRule
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

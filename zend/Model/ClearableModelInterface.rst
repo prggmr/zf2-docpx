@@ -1,5 +1,8 @@
-.. View/Model/ClearableModelInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Model/ClearableModelInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Model\\clearChildren
 ================================
@@ -14,12 +17,18 @@ Zend\\View\\Model\\clearChildren
 
 
 
+Function
+********
+
 Zend\\View\\Model\\clearOptions
 ===============================
 
 .. function:: Zend\View\Model\clearOptions()
 
 
+
+Function
+********
 
 Zend\\View\\Model\\clearVariables
 =================================

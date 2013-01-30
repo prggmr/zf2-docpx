@@ -1,5 +1,8 @@
-.. Stdlib/SplPriorityQueue.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/SplPriorityQueue.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\SplPriorityQueue
 ==============================
@@ -10,10 +13,10 @@ Also, provides predictable heap order for datums added with the same priority
 (i.e., they will be emitted in the same order they are enqueued).
 
 Methods
-+++++++
+-------
 
 insert
-------
+++++++
 
 .. function:: insert()
 
@@ -31,7 +34,7 @@ insert
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -45,7 +48,7 @@ toArray
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -57,7 +60,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

@@ -1,14 +1,17 @@
-.. View/Model/ViewModel.php generated using docpx on 01/30/13 03:32am
+.. View/Model/ViewModel.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Model\\ViewModel
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -36,7 +39,7 @@ __set
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -50,7 +53,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -64,7 +67,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -78,7 +81,7 @@ __unset
 
 
 setOption
----------
++++++++++
 
 .. function:: setOption()
 
@@ -93,7 +96,7 @@ setOption
 
 
 getOption
----------
++++++++++
 
 .. function:: getOption()
 
@@ -108,7 +111,7 @@ getOption
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -124,7 +127,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -136,7 +139,7 @@ getOptions
 
 
 clearOptions
-------------
+++++++++++++
 
 .. function:: clearOptions()
 
@@ -148,7 +151,7 @@ clearOptions
 
 
 getVariable
------------
++++++++++++
 
 .. function:: getVariable()
 
@@ -163,7 +166,7 @@ getVariable
 
 
 setVariable
------------
++++++++++++
 
 .. function:: setVariable()
 
@@ -178,7 +181,7 @@ setVariable
 
 
 setVariables
-------------
+++++++++++++
 
 .. function:: setVariables()
 
@@ -197,7 +200,7 @@ setVariables
 
 
 getVariables
-------------
+++++++++++++
 
 .. function:: getVariables()
 
@@ -209,7 +212,7 @@ getVariables
 
 
 clearVariables
---------------
+++++++++++++++
 
 .. function:: clearVariables()
 
@@ -223,7 +226,7 @@ clearVariables
 
 
 setTemplate
------------
++++++++++++
 
 .. function:: setTemplate()
 
@@ -237,7 +240,7 @@ setTemplate
 
 
 getTemplate
------------
++++++++++++
 
 .. function:: getTemplate()
 
@@ -249,7 +252,7 @@ getTemplate
 
 
 addChild
---------
+++++++++
 
 .. function:: addChild()
 
@@ -265,7 +268,7 @@ addChild
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -279,7 +282,7 @@ getChildren
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -291,7 +294,7 @@ hasChildren
 
 
 clearChildren
--------------
++++++++++++++
 
 .. function:: clearChildren()
 
@@ -303,7 +306,7 @@ clearChildren
 
 
 setCaptureTo
-------------
+++++++++++++
 
 .. function:: setCaptureTo()
 
@@ -317,7 +320,7 @@ setCaptureTo
 
 
 captureTo
----------
++++++++++
 
 .. function:: captureTo()
 
@@ -329,7 +332,7 @@ captureTo
 
 
 setTerminal
------------
++++++++++++
 
 .. function:: setTerminal()
 
@@ -343,7 +346,7 @@ setTerminal
 
 
 terminate
----------
++++++++++
 
 .. function:: terminate()
 
@@ -355,7 +358,7 @@ terminate
 
 
 setAppend
----------
++++++++++
 
 .. function:: setAppend()
 
@@ -369,7 +372,7 @@ setAppend
 
 
 isAppend
---------
+++++++++
 
 .. function:: isAppend()
 
@@ -381,7 +384,7 @@ isAppend
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -393,7 +396,7 @@ count
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 

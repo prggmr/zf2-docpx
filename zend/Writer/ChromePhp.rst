@@ -1,14 +1,17 @@
-.. Log/Writer/ChromePhp.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/ChromePhp.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\ChromePhp
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 
@@ -35,7 +38,7 @@ doWrite
 
 
 getChromePhp
-------------
+++++++++++++
 
 .. function:: getChromePhp()
 
@@ -47,7 +50,7 @@ getChromePhp
 
 
 setChromePhp
-------------
+++++++++++++
 
 .. function:: setChromePhp()
 

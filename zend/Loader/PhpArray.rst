@@ -1,5 +1,8 @@
-.. I18n/Translator/Loader/PhpArray.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Loader/PhpArray.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Loader\\PhpArray
 ========================================
@@ -7,10 +10,10 @@ Zend\\I18n\\Translator\\Loader\\PhpArray
 PHP array loader.
 
 Methods
-+++++++
+-------
 
 load
-----
+++++
 
 .. function:: load()
 

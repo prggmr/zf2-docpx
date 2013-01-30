@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/ConfigListener.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/ConfigListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\ConfigListener
 =============================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\ConfigListener
 Config listener
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -36,7 +39,7 @@ attach
 
 
 onloadModulesPre
-----------------
+++++++++++++++++
 
 .. function:: onloadModulesPre()
 
@@ -50,7 +53,7 @@ onloadModulesPre
 
 
 onLoadModule
-------------
+++++++++++++
 
 .. function:: onLoadModule()
 
@@ -64,7 +67,7 @@ onLoadModule
 
 
 onLoadModulesPost
------------------
++++++++++++++++++
 
 .. function:: onLoadModulesPost()
 
@@ -80,7 +83,7 @@ onLoadModulesPost
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -94,7 +97,7 @@ detach
 
 
 getMergedConfig
----------------
++++++++++++++++
 
 .. function:: getMergedConfig()
 
@@ -108,7 +111,7 @@ getMergedConfig
 
 
 setMergedConfig
----------------
++++++++++++++++
 
 .. function:: setMergedConfig()
 
@@ -122,7 +125,7 @@ setMergedConfig
 
 
 addConfigGlobPaths
-------------------
+++++++++++++++++++
 
 .. function:: addConfigGlobPaths()
 
@@ -136,7 +139,7 @@ addConfigGlobPaths
 
 
 addConfigGlobPath
------------------
++++++++++++++++++
 
 .. function:: addConfigGlobPath()
 
@@ -150,7 +153,7 @@ addConfigGlobPath
 
 
 addConfigStaticPaths
---------------------
+++++++++++++++++++++
 
 .. function:: addConfigStaticPaths()
 
@@ -164,7 +167,7 @@ addConfigStaticPaths
 
 
 addConfigStaticPath
--------------------
++++++++++++++++++++
 
 .. function:: addConfigStaticPath()
 
@@ -178,7 +181,7 @@ addConfigStaticPath
 
 
 addConfigPaths
---------------
+++++++++++++++
 
 .. function:: addConfigPaths()
 
@@ -195,7 +198,7 @@ addConfigPaths
 
 
 addConfigPath
--------------
++++++++++++++
 
 .. function:: addConfigPath()
 
@@ -212,7 +215,7 @@ addConfigPath
 
 
 addConfig
----------
++++++++++
 
 .. function:: addConfig()
 
@@ -228,7 +231,7 @@ addConfig
 
 
 addConfigByPath
----------------
++++++++++++++++
 
 .. function:: addConfigByPath()
 
@@ -244,7 +247,7 @@ addConfigByPath
 
 
 hasCachedConfig
----------------
++++++++++++++++
 
 .. function:: hasCachedConfig()
 
@@ -254,7 +257,7 @@ hasCachedConfig
 
 
 getCachedConfig
----------------
++++++++++++++++
 
 .. function:: getCachedConfig()
 
@@ -266,11 +269,11 @@ getCachedConfig
 
 
 Constants
-+++++++++
+---------
 
 STATIC_PATH
-===========
++++++++++++
 
 GLOB_PATH
-=========
++++++++++
 

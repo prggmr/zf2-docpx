@@ -1,14 +1,17 @@
-.. Feed/Writer/FeedFactory.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/FeedFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\FeedFactory
 ===============================
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -24,7 +27,7 @@ factory
 
 
 convertKey
-----------
+++++++++++
 
 .. function:: convertKey()
 
@@ -38,7 +41,7 @@ convertKey
 
 
 createEntries
--------------
++++++++++++++
 
 .. function:: createEntries()
 

@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/Redirect.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/Redirect.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\Redirect
 =======================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Controller\\Plugin\\Redirect
 @todo       allow specifying status code as a default, or as an option to methods
 
 Methods
-+++++++
+-------
 
 toRoute
--------
++++++++
 
 .. function:: toRoute()
 
@@ -30,7 +33,7 @@ toRoute
 
 
 toUrl
------
++++++
 
 .. function:: toUrl()
 
@@ -44,7 +47,7 @@ toUrl
 
 
 refresh
--------
++++++++
 
 .. function:: refresh()
 
@@ -56,7 +59,7 @@ refresh
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -70,7 +73,7 @@ getResponse
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 

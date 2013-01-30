@@ -1,5 +1,8 @@
-.. View/Renderer/RendererInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Renderer/RendererInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Renderer\\getEngine
 ===============================
@@ -17,6 +20,9 @@ Zend\\View\\Renderer\\getEngine
 
 
 
+Function
+********
+
 Zend\\View\\Renderer\\setResolver
 =================================
 
@@ -30,6 +36,9 @@ Zend\\View\\Renderer\\setResolver
     :rtype: RendererInterface 
 
 
+
+Function
+********
 
 Zend\\View\\Renderer\\render
 ============================

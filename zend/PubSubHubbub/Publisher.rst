@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/Publisher.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/Publisher.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\Publisher
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 addHubUrl
----------
++++++++++
 
 .. function:: addHubUrl()
 
@@ -54,7 +57,7 @@ addHubUrl
 
 
 addHubUrls
-----------
+++++++++++
 
 .. function:: addHubUrls()
 
@@ -68,7 +71,7 @@ addHubUrls
 
 
 removeHubUrl
-------------
+++++++++++++
 
 .. function:: removeHubUrl()
 
@@ -82,7 +85,7 @@ removeHubUrl
 
 
 getHubUrls
-----------
+++++++++++
 
 .. function:: getHubUrls()
 
@@ -94,7 +97,7 @@ getHubUrls
 
 
 addUpdatedTopicUrl
-------------------
+++++++++++++++++++
 
 .. function:: addUpdatedTopicUrl()
 
@@ -110,7 +113,7 @@ addUpdatedTopicUrl
 
 
 addUpdatedTopicUrls
--------------------
++++++++++++++++++++
 
 .. function:: addUpdatedTopicUrls()
 
@@ -124,7 +127,7 @@ addUpdatedTopicUrls
 
 
 removeUpdatedTopicUrl
----------------------
++++++++++++++++++++++
 
 .. function:: removeUpdatedTopicUrl()
 
@@ -138,7 +141,7 @@ removeUpdatedTopicUrl
 
 
 getUpdatedTopicUrls
--------------------
++++++++++++++++++++
 
 .. function:: getUpdatedTopicUrls()
 
@@ -150,7 +153,7 @@ getUpdatedTopicUrls
 
 
 notifyHub
----------
++++++++++
 
 .. function:: notifyHub()
 
@@ -167,7 +170,7 @@ notifyHub
 
 
 notifyAll
----------
++++++++++
 
 .. function:: notifyAll()
 
@@ -186,7 +189,7 @@ notifyAll
 
 
 setParameter
-------------
+++++++++++++
 
 .. function:: setParameter()
 
@@ -203,7 +206,7 @@ setParameter
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -217,7 +220,7 @@ setParameters
 
 
 removeParameter
----------------
++++++++++++++++
 
 .. function:: removeParameter()
 
@@ -233,7 +236,7 @@ removeParameter
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -245,7 +248,7 @@ getParameters
 
 
 isSuccess
----------
++++++++++
 
 .. function:: isSuccess()
 
@@ -258,7 +261,7 @@ isSuccess
 
 
 getErrors
----------
++++++++++
 
 .. function:: getErrors()
 
@@ -272,7 +275,7 @@ getErrors
 
 
 _getHttpClient
---------------
+++++++++++++++
 
 .. function:: _getHttpClient()
 

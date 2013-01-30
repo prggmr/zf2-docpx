@@ -1,5 +1,8 @@
-.. Db/Adapter/Platform/PlatformInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Platform/PlatformInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Platform\\getName
 ====================================
@@ -13,6 +16,9 @@ Zend\\Db\\Adapter\\Platform\\getName
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Platform\\getQuoteIdentifierSymbol
 =====================================================
 
@@ -24,6 +30,9 @@ Zend\\Db\\Adapter\\Platform\\getQuoteIdentifierSymbol
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Platform\\quoteIdentifier
 ============================================
@@ -39,6 +48,9 @@ Zend\\Db\\Adapter\\Platform\\quoteIdentifier
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Platform\\quoteIdentifierChain
 =================================================
 
@@ -53,6 +65,9 @@ Zend\\Db\\Adapter\\Platform\\quoteIdentifierChain
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Platform\\getQuoteValueSymbol
 ================================================
 
@@ -64,6 +79,9 @@ Zend\\Db\\Adapter\\Platform\\getQuoteValueSymbol
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Platform\\quoteValue
 =======================================
@@ -79,6 +97,9 @@ Zend\\Db\\Adapter\\Platform\\quoteValue
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Platform\\quoteValueList
 ===========================================
 
@@ -93,6 +114,9 @@ Zend\\Db\\Adapter\\Platform\\quoteValueList
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Platform\\getIdentifierSeparator
 ===================================================
 
@@ -104,6 +128,9 @@ Zend\\Db\\Adapter\\Platform\\getIdentifierSeparator
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Platform\\quoteIdentifierInFragment
 ======================================================

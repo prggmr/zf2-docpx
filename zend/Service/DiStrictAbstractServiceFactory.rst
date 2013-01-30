@@ -1,14 +1,17 @@
-.. Mvc/Service/DiStrictAbstractServiceFactory.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Service/DiStrictAbstractServiceFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Service\\DiStrictAbstractServiceFactory
 ==================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setAllowedServiceNames
-----------------------
+++++++++++++++++++++++
 
 .. function:: setAllowedServiceNames()
 
@@ -30,7 +33,7 @@ setAllowedServiceNames
 
 
 getAllowedServiceNames
-----------------------
+++++++++++++++++++++++
 
 .. function:: getAllowedServiceNames()
 
@@ -40,7 +43,7 @@ getAllowedServiceNames
 
 
 createServiceWithName
----------------------
++++++++++++++++++++++
 
 .. function:: createServiceWithName()
 
@@ -52,7 +55,7 @@ createServiceWithName
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -65,7 +68,7 @@ get
 
 
 canCreateServiceWithName
-------------------------
+++++++++++++++++++++++++
 
 .. function:: canCreateServiceWithName()
 
@@ -79,14 +82,14 @@ canCreateServiceWithName
 
 
 Constants
-+++++++++
+---------
 
 USE_SL_BEFORE_DI
-================
+++++++++++++++++
 
 USE_SL_AFTER_DI
-===============
++++++++++++++++
 
 USE_SL_NONE
-===========
++++++++++++
 

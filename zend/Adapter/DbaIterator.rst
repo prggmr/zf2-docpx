@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/DbaIterator.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/DbaIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\DbaIterator
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -34,7 +37,7 @@ getStorage
 
 
 getMode
--------
++++++++
 
 .. function:: getMode()
 
@@ -46,7 +49,7 @@ getMode
 
 
 setMode
--------
++++++++
 
 .. function:: setMode()
 
@@ -60,7 +63,7 @@ setMode
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -74,7 +77,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -88,7 +91,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -102,7 +105,7 @@ next
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -114,7 +117,7 @@ valid
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 

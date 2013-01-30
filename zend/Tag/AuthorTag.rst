@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/Tag/AuthorTag.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/Tag/AuthorTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\AuthorTag
 ================================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -18,7 +21,7 @@ getName
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -30,7 +33,7 @@ initialize
 
 
 getAuthorName
--------------
++++++++++++++
 
 .. function:: getAuthorName()
 
@@ -40,7 +43,7 @@ getAuthorName
 
 
 getAuthorEmail
---------------
+++++++++++++++
 
 .. function:: getAuthorEmail()
 
@@ -50,7 +53,7 @@ getAuthorEmail
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

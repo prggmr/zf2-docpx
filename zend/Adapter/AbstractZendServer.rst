@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/AbstractZendServer.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/AbstractZendServer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\AbstractZendServer
 =================================================
 
 Methods
-+++++++
+-------
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -26,7 +29,7 @@ internalGetItem
 
 
 internalGetItems
-----------------
+++++++++++++++++
 
 .. function:: internalGetItems()
 
@@ -42,7 +45,7 @@ internalGetItems
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -58,7 +61,7 @@ internalHasItem
 
 
 internalHasItems
-----------------
+++++++++++++++++
 
 .. function:: internalHasItems()
 
@@ -74,7 +77,7 @@ internalHasItems
 
 
 internalGetMetadatas
---------------------
+++++++++++++++++++++
 
 .. function:: internalGetMetadatas()
 
@@ -92,7 +95,7 @@ internalGetMetadatas
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -109,7 +112,7 @@ internalSetItem
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -125,7 +128,7 @@ internalRemoveItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 
@@ -137,7 +140,7 @@ internalGetCapabilities
 
 
 zdcStore
---------
+++++++++
 
 .. function:: zdcStore()
 
@@ -155,7 +158,7 @@ zdcStore
 
 
 zdcFetch
---------
+++++++++
 
 .. function:: zdcFetch()
 
@@ -171,7 +174,7 @@ zdcFetch
 
 
 zdcFetchMulti
--------------
++++++++++++++
 
 .. function:: zdcFetchMulti()
 
@@ -187,7 +190,7 @@ zdcFetchMulti
 
 
 zdcDelete
----------
++++++++++
 
 .. function:: zdcDelete()
 
@@ -205,10 +208,10 @@ zdcDelete
 
 
 Constants
-+++++++++
+---------
 
 NAMESPACE_SEPARATOR
-===================
++++++++++++++++++++
 
 The namespace separator used on Zend Data Cache functions
 

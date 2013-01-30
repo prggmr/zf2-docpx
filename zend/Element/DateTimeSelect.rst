@@ -1,14 +1,17 @@
-.. Form/Element/DateTimeSelect.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/DateTimeSelect.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\DateTimeSelect
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -39,7 +42,7 @@ setOptions
 
 
 getHourElement
---------------
+++++++++++++++
 
 .. function:: getHourElement()
 
@@ -49,7 +52,7 @@ getHourElement
 
 
 getMinuteElement
-----------------
+++++++++++++++++
 
 .. function:: getMinuteElement()
 
@@ -59,7 +62,7 @@ getMinuteElement
 
 
 getSecondElement
-----------------
+++++++++++++++++
 
 .. function:: getSecondElement()
 
@@ -69,7 +72,7 @@ getSecondElement
 
 
 setHourAttributes
------------------
++++++++++++++++++
 
 .. function:: setHourAttributes()
 
@@ -83,7 +86,7 @@ setHourAttributes
 
 
 getHourAttributes
------------------
++++++++++++++++++
 
 .. function:: getHourAttributes()
 
@@ -95,7 +98,7 @@ getHourAttributes
 
 
 setMinuteAttributes
--------------------
++++++++++++++++++++
 
 .. function:: setMinuteAttributes()
 
@@ -109,7 +112,7 @@ setMinuteAttributes
 
 
 getMinuteAttributes
--------------------
++++++++++++++++++++
 
 .. function:: getMinuteAttributes()
 
@@ -121,7 +124,7 @@ getMinuteAttributes
 
 
 setSecondAttributes
--------------------
++++++++++++++++++++
 
 .. function:: setSecondAttributes()
 
@@ -135,7 +138,7 @@ setSecondAttributes
 
 
 getSecondAttributes
--------------------
++++++++++++++++++++
 
 .. function:: getSecondAttributes()
 
@@ -147,7 +150,7 @@ getSecondAttributes
 
 
 setShouldShowSeconds
---------------------
+++++++++++++++++++++
 
 .. function:: setShouldShowSeconds()
 
@@ -162,7 +165,7 @@ setShouldShowSeconds
 
 
 shouldShowSeconds
------------------
++++++++++++++++++
 
 .. function:: shouldShowSeconds()
 
@@ -172,7 +175,7 @@ shouldShowSeconds
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -185,7 +188,7 @@ setValue
 
 
 prepareElement
---------------
+++++++++++++++
 
 .. function:: prepareElement()
 
@@ -199,7 +202,7 @@ prepareElement
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -211,7 +214,7 @@ getValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 
@@ -224,7 +227,7 @@ getInputSpecification
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

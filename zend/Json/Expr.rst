@@ -1,5 +1,8 @@
-.. Json/Expr.php generated using docpx on 01/30/13 03:32am
+.. Json/Expr.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Expr
 ================
@@ -26,10 +29,10 @@ Zend_Json::encode($foo, false, array('enableJsonExprFinder' => true));
 </code>
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -41,7 +44,7 @@ __construct
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

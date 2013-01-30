@@ -1,14 +1,17 @@
-.. Mail/AddressList.php generated using docpx on 01/30/13 03:32am
+.. Mail/AddressList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\AddressList
 =======================
 
 Methods
-+++++++
+-------
 
 add
----
++++
 
 .. function:: add()
 
@@ -25,7 +28,7 @@ add
 
 
 addMany
--------
++++++++
 
 .. function:: addMany()
 
@@ -45,7 +48,7 @@ addMany
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -59,7 +62,7 @@ merge
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -73,7 +76,7 @@ has
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -87,7 +90,7 @@ get
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -101,7 +104,7 @@ delete
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -113,7 +116,7 @@ count
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -128,7 +131,7 @@ empty.
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -140,7 +143,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -152,7 +155,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -167,7 +170,7 @@ internal array pointer, or false if there are no more elements.
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -179,7 +182,7 @@ valid
 
 
 createAddress
--------------
++++++++++++++
 
 .. function:: createAddress()
 

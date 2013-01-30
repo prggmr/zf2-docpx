@@ -1,14 +1,17 @@
-.. Form/Fieldset.php generated using docpx on 01/30/13 03:32am
+.. Form/Fieldset.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Fieldset
 ====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -37,7 +40,7 @@ setOptions
 
 
 setFormFactory
---------------
+++++++++++++++
 
 .. function:: setFormFactory()
 
@@ -51,7 +54,7 @@ setFormFactory
 
 
 getFormFactory
---------------
+++++++++++++++
 
 .. function:: getFormFactory()
 
@@ -65,7 +68,7 @@ getFormFactory
 
 
 add
----
++++
 
 .. function:: add()
 
@@ -86,7 +89,7 @@ add
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -100,7 +103,7 @@ has
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -115,7 +118,7 @@ get
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -129,7 +132,7 @@ remove
 
 
 setPriority
------------
++++++++++++
 
 .. function:: setPriority()
 
@@ -144,7 +147,7 @@ setPriority
 
 
 getElements
------------
++++++++++++
 
 .. function:: getElements()
 
@@ -158,7 +161,7 @@ getElements
 
 
 getFieldsets
-------------
+++++++++++++
 
 .. function:: getFieldsets()
 
@@ -172,7 +175,7 @@ getFieldsets
 
 
 setMessages
------------
++++++++++++
 
 .. function:: setMessages()
 
@@ -188,7 +191,7 @@ setMessages
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -208,7 +211,7 @@ getMessages
 
 
 prepareElement
---------------
+++++++++++++++
 
 .. function:: prepareElement()
 
@@ -223,7 +226,7 @@ prepareElement
 
 
 populateValues
---------------
+++++++++++++++
 
 .. function:: populateValues()
 
@@ -239,7 +242,7 @@ populateValues
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -251,7 +254,7 @@ count
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -263,7 +266,7 @@ getIterator
 
 
 setObject
----------
++++++++++
 
 .. function:: setObject()
 
@@ -279,7 +282,7 @@ setObject
 
 
 getObject
----------
++++++++++
 
 .. function:: getObject()
 
@@ -291,7 +294,7 @@ getObject
 
 
 allowObjectBinding
-------------------
+++++++++++++++++++
 
 .. function:: allowObjectBinding()
 
@@ -305,7 +308,7 @@ allowObjectBinding
 
 
 setHydrator
------------
++++++++++++
 
 .. function:: setHydrator()
 
@@ -319,7 +322,7 @@ setHydrator
 
 
 getHydrator
------------
++++++++++++
 
 .. function:: getHydrator()
 
@@ -333,7 +336,7 @@ getHydrator
 
 
 allowValueBinding
------------------
++++++++++++++++++
 
 .. function:: allowValueBinding()
 
@@ -345,7 +348,7 @@ allowValueBinding
 
 
 bindValues
-----------
+++++++++++
 
 .. function:: bindValues()
 
@@ -359,7 +362,7 @@ bindValues
 
 
 setUseAsBaseFieldset
---------------------
+++++++++++++++++++++
 
 .. function:: setUseAsBaseFieldset()
 
@@ -373,7 +376,7 @@ setUseAsBaseFieldset
 
 
 useAsBaseFieldset
------------------
++++++++++++++++++
 
 .. function:: useAsBaseFieldset()
 
@@ -385,7 +388,7 @@ useAsBaseFieldset
 
 
 extract
--------
++++++++
 
 .. function:: extract()
 
@@ -397,7 +400,7 @@ extract
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

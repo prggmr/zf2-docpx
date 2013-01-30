@@ -1,5 +1,8 @@
-.. Form/Annotation/ComposedObject.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/ComposedObject.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\ComposedObject
 ======================================
@@ -12,10 +15,10 @@ string indicating the fully qualified class name of the composed object
 to use.
 
 Methods
-+++++++
+-------
 
 getComposedObject
------------------
++++++++++++++++++
 
 .. function:: getComposedObject()
 

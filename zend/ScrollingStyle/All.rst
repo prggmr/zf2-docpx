@@ -1,5 +1,8 @@
-.. Paginator/ScrollingStyle/All.php generated using docpx on 01/30/13 03:32am
+.. Paginator/ScrollingStyle/All.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\ScrollingStyle\\All
 ====================================
@@ -9,10 +12,10 @@ Useful when it is necessary to make every page available at
 once--for example, when using a drop-down menu pagination control.
 
 Methods
-+++++++
+-------
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 

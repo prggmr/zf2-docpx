@@ -1,5 +1,8 @@
-.. Di/ServiceLocator/Generator.php generated using docpx on 01/30/13 03:32am
+.. Di/ServiceLocator/Generator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\ServiceLocator\\Generator
 ===================================
@@ -8,10 +11,10 @@ Generator that creates the body of a service locator that can emulate the logic 
 without class definitions
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setContainerClass
------------------
++++++++++++++++++
 
 .. function:: setContainerClass()
 
@@ -39,7 +42,7 @@ setContainerClass
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -53,7 +56,7 @@ setNamespace
 
 
 getCodeGenerator
-----------------
+++++++++++++++++
 
 .. function:: getCodeGenerator()
 
@@ -72,7 +75,7 @@ getCodeGenerator
 
 
 reduceAliases
--------------
++++++++++++++
 
 .. function:: reduceAliases()
 
@@ -90,7 +93,7 @@ reduceAliases
 
 
 getCodeGenMethodFromAlias
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getCodeGenMethodFromAlias()
 
@@ -105,7 +108,7 @@ getCodeGenMethodFromAlias
 
 
 normalizeAlias
---------------
+++++++++++++++
 
 .. function:: normalizeAlias()
 

@@ -1,5 +1,8 @@
-.. EventManager/SharedEventManager.php generated using docpx on 01/30/13 03:32am
+.. EventManager/SharedEventManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\SharedEventManager
 ======================================
@@ -11,10 +14,10 @@ The assumption is that the SharedEventManager will be injected into EventManager
 instances, and then queried for additional listeners when triggering an event.
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -52,7 +55,7 @@ attach
 
 
 attachAggregate
----------------
++++++++++++++++
 
 .. function:: attachAggregate()
 
@@ -71,7 +74,7 @@ attachAggregate
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -86,7 +89,7 @@ detach
 
 
 detachAggregate
----------------
++++++++++++++++
 
 .. function:: detachAggregate()
 
@@ -103,7 +106,7 @@ detachAggregate
 
 
 getEvents
----------
++++++++++
 
 .. function:: getEvents()
 
@@ -117,7 +120,7 @@ getEvents
 
 
 getListeners
-------------
+++++++++++++
 
 .. function:: getListeners()
 
@@ -132,7 +135,7 @@ getListeners
 
 
 clearListeners
---------------
+++++++++++++++
 
 .. function:: clearListeners()
 

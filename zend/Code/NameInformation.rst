@@ -1,14 +1,17 @@
-.. Code/NameInformation.php generated using docpx on 01/30/13 03:32am
+.. Code/NameInformation.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\NameInformation
 ===========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -32,7 +35,7 @@ setNamespace
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -42,7 +45,7 @@ getNamespace
 
 
 hasNamespace
-------------
+++++++++++++
 
 .. function:: hasNamespace()
 
@@ -52,7 +55,7 @@ hasNamespace
 
 
 setUses
--------
++++++++
 
 .. function:: setUses()
 
@@ -62,7 +65,7 @@ setUses
 
 
 addUses
--------
++++++++
 
 .. function:: addUses()
 
@@ -72,7 +75,7 @@ addUses
 
 
 addUse
-------
+++++++
 
 .. function:: addUse()
 
@@ -84,7 +87,7 @@ addUse
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -94,7 +97,7 @@ getUses
 
 
 resolveName
------------
++++++++++++
 
 .. function:: resolveName()
 

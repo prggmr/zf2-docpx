@@ -1,5 +1,8 @@
-.. Validator/File/Extension.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Extension.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Extension
 ================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Extension
 Validator for the file extension of a file
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getCase
--------
++++++++
 
 .. function:: getCase()
 
@@ -34,7 +37,7 @@ getCase
 
 
 setCase
--------
++++++++
 
 .. function:: setCase()
 
@@ -48,7 +51,7 @@ setCase
 
 
 getExtension
-------------
+++++++++++++
 
 .. function:: getExtension()
 
@@ -60,7 +63,7 @@ getExtension
 
 
 setExtension
-------------
+++++++++++++
 
 .. function:: setExtension()
 
@@ -74,7 +77,7 @@ setExtension
 
 
 addExtension
-------------
+++++++++++++
 
 .. function:: addExtension()
 
@@ -88,7 +91,7 @@ addExtension
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -105,13 +108,13 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 FALSE_EXTENSION
-===============
++++++++++++++++
 
 @const string Error constants
 
 NOT_FOUND
-=========
++++++++++
 

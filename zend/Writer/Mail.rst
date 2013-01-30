@@ -1,5 +1,8 @@
-.. Log/Writer/Mail.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/Mail.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\Mail
 =======================
@@ -13,10 +16,10 @@ The email is sent using a Zend\Mail\Transport\TransportInterface object
 (Sendmail is default).
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 setTransport
-------------
+++++++++++++
 
 .. function:: setTransport()
 
@@ -45,7 +48,7 @@ setTransport
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 
@@ -57,7 +60,7 @@ doWrite
 
 
 setSubjectPrependText
----------------------
++++++++++++++++++++++
 
 .. function:: setSubjectPrependText()
 
@@ -77,7 +80,7 @@ setSubjectPrependText
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 
@@ -88,7 +91,7 @@ shutdown
 
 
 getFormattedNumEntriesPerPriority
----------------------------------
++++++++++++++++++++++++++++++++++
 
 .. function:: getFormattedNumEntriesPerPriority()
 

@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/PubSubHubbub.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/PubSubHubbub.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\PubSubHubbub
 ======================================
 
 Methods
-+++++++
+-------
 
 detectHubs
-----------
+++++++++++
 
 .. function:: detectHubs()
 
@@ -27,7 +30,7 @@ detectHubs
 
 
 setHttpClient
--------------
++++++++++++++
 
 .. function:: setHttpClient()
 
@@ -42,7 +45,7 @@ setHttpClient
 
 
 getHttpClient
--------------
++++++++++++++
 
 .. function:: getHttpClient()
 
@@ -56,7 +59,7 @@ getHttpClient
 
 
 clearHttpClient
----------------
++++++++++++++++
 
 .. function:: clearHttpClient()
 
@@ -69,7 +72,7 @@ clearHttpClient
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -83,7 +86,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -97,7 +100,7 @@ getEscaper
 
 
 urlencode
----------
++++++++++
 
 .. function:: urlencode()
 
@@ -113,24 +116,24 @@ urlencode
 
 
 Constants
-+++++++++
+---------
 
 VERIFICATION_MODE_SYNC
-======================
+++++++++++++++++++++++
 
 Verification Modes
 
 VERIFICATION_MODE_ASYNC
-=======================
++++++++++++++++++++++++
 
 SUBSCRIPTION_VERIFIED
-=====================
++++++++++++++++++++++
 
 Subscription States
 
 SUBSCRIPTION_NOTVERIFIED
-========================
+++++++++++++++++++++++++
 
 SUBSCRIPTION_TODELETE
-=====================
++++++++++++++++++++++
 

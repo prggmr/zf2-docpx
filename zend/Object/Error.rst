@@ -1,5 +1,8 @@
-.. Barcode/Object/Error.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Error.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Error
 ============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Error
 Class for generate Barcode
 
 Methods
-+++++++
+-------
 
 validateText
-------------
+++++++++++++
 
 .. function:: validateText()
 
@@ -24,7 +27,7 @@ validateText
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -38,7 +41,7 @@ getHeight
 
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -52,7 +55,7 @@ getWidth
 
 
 draw
-----
+++++
 
 .. function:: draw()
 
@@ -65,7 +68,7 @@ draw
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -77,7 +80,7 @@ prepareBarcode
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -89,7 +92,7 @@ checkSpecificParams
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 

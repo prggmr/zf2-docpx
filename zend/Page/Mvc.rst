@@ -1,5 +1,8 @@
-.. Navigation/Page/Mvc.php generated using docpx on 01/30/13 03:32am
+.. Navigation/Page/Mvc.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\Page\\Mvc
 ===========================
@@ -8,10 +11,10 @@ Represents a page that is defined using controller, action, route
 name and route params to assemble the href
 
 Methods
-+++++++
+-------
 
 isActive
---------
+++++++++
 
 .. function:: isActive()
 
@@ -30,7 +33,7 @@ isActive
 
 
 getHref
--------
++++++++
 
 .. function:: getHref()
 
@@ -48,7 +51,7 @@ getHref
 
 
 setAction
----------
++++++++++
 
 .. function:: setAction()
 
@@ -65,7 +68,7 @@ setAction
 
 
 getAction
----------
++++++++++
 
 .. function:: getAction()
 
@@ -78,7 +81,7 @@ getAction
 
 
 setController
--------------
++++++++++++++
 
 .. function:: setController()
 
@@ -95,7 +98,7 @@ setController
 
 
 getController
--------------
++++++++++++++
 
 .. function:: getController()
 
@@ -108,7 +111,7 @@ getController
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -124,7 +127,7 @@ setParams
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -137,7 +140,7 @@ getParams
 
 
 setRoute
---------
+++++++++
 
 .. function:: setRoute()
 
@@ -154,7 +157,7 @@ setRoute
 
 
 getRoute
---------
+++++++++
 
 .. function:: getRoute()
 
@@ -167,7 +170,7 @@ getRoute
 
 
 getRouteMatch
--------------
++++++++++++++
 
 .. function:: getRouteMatch()
 
@@ -179,7 +182,7 @@ getRouteMatch
 
 
 setRouteMatch
--------------
++++++++++++++
 
 .. function:: setRouteMatch()
 
@@ -193,7 +196,7 @@ setRouteMatch
 
 
 getRouter
----------
++++++++++
 
 .. function:: getRouter()
 
@@ -205,7 +208,7 @@ getRouter
 
 
 setRouter
----------
++++++++++
 
 .. function:: setRouter()
 
@@ -220,7 +223,7 @@ setRouter
 
 
 setDefaultRouter
-----------------
+++++++++++++++++
 
 .. function:: setDefaultRouter()
 
@@ -235,7 +238,7 @@ setDefaultRouter
 
 
 getDefaultRouter
-----------------
+++++++++++++++++
 
 .. function:: getDefaultRouter()
 
@@ -247,7 +250,7 @@ getDefaultRouter
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

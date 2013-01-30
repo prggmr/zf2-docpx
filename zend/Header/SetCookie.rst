@@ -1,5 +1,8 @@
-.. Http/Header/SetCookie.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/SetCookie.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\SetCookie
 =============================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\SetCookie
 @throws Exception\InvalidArgumentException
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -49,7 +52,7 @@ __construct
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -59,7 +62,7 @@ getFieldName
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -71,7 +74,7 @@ getFieldValue
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -84,7 +87,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -94,7 +97,7 @@ getName
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -104,7 +107,7 @@ setValue
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -114,7 +117,7 @@ getValue
 
 
 setVersion
-----------
+++++++++++
 
 .. function:: setVersion()
 
@@ -128,7 +131,7 @@ setVersion
 
 
 getVersion
-----------
+++++++++++
 
 .. function:: getVersion()
 
@@ -140,7 +143,7 @@ getVersion
 
 
 setMaxAge
----------
++++++++++
 
 .. function:: setMaxAge()
 
@@ -154,7 +157,7 @@ setMaxAge
 
 
 getMaxAge
----------
++++++++++
 
 .. function:: getMaxAge()
 
@@ -166,7 +169,7 @@ getMaxAge
 
 
 setExpires
-----------
+++++++++++
 
 .. function:: setExpires()
 
@@ -179,7 +182,7 @@ setExpires
 
 
 getExpires
-----------
+++++++++++
 
 .. function:: getExpires()
 
@@ -191,7 +194,7 @@ getExpires
 
 
 setDomain
----------
++++++++++
 
 .. function:: setDomain()
 
@@ -201,7 +204,7 @@ setDomain
 
 
 getDomain
----------
++++++++++
 
 .. function:: getDomain()
 
@@ -211,7 +214,7 @@ getDomain
 
 
 setPath
--------
++++++++
 
 .. function:: setPath()
 
@@ -221,7 +224,7 @@ setPath
 
 
 getPath
--------
++++++++
 
 .. function:: getPath()
 
@@ -231,7 +234,7 @@ getPath
 
 
 setSecure
----------
++++++++++
 
 .. function:: setSecure()
 
@@ -241,7 +244,7 @@ setSecure
 
 
 isSecure
---------
+++++++++
 
 .. function:: isSecure()
 
@@ -251,7 +254,7 @@ isSecure
 
 
 setHttponly
------------
++++++++++++
 
 .. function:: setHttponly()
 
@@ -261,7 +264,7 @@ setHttponly
 
 
 isHttponly
-----------
+++++++++++
 
 .. function:: isHttponly()
 
@@ -271,7 +274,7 @@ isHttponly
 
 
 isExpired
----------
++++++++++
 
 .. function:: isExpired()
 
@@ -287,7 +290,7 @@ isExpired
 
 
 isSessionCookie
----------------
++++++++++++++++
 
 .. function:: isSessionCookie()
 
@@ -299,14 +302,14 @@ isSessionCookie
 
 
 isValidForRequest
------------------
++++++++++++++++++
 
 .. function:: isValidForRequest()
 
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -322,7 +325,7 @@ match
 
 
 matchCookieDomain
------------------
++++++++++++++++++
 
 .. function:: matchCookieDomain()
 
@@ -339,7 +342,7 @@ matchCookieDomain
 
 
 matchCookiePath
----------------
++++++++++++++++
 
 .. function:: matchCookiePath()
 
@@ -356,14 +359,14 @@ matchCookiePath
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 toStringMultipleHeaders
------------------------
++++++++++++++++++++++++
 
 .. function:: toStringMultipleHeaders()
 

@@ -1,14 +1,17 @@
-.. Filter/Boolean.php generated using docpx on 01/30/13 03:32am
+.. Filter/Boolean.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Boolean
 =====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -38,7 +41,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -50,7 +53,7 @@ getType
 
 
 setCasting
-----------
+++++++++++
 
 .. function:: setCasting()
 
@@ -66,7 +69,7 @@ setCasting
 
 
 getCasting
-----------
+++++++++++
 
 .. function:: getCasting()
 
@@ -78,7 +81,7 @@ getCasting
 
 
 setTranslations
----------------
++++++++++++++++
 
 .. function:: setTranslations()
 
@@ -91,7 +94,7 @@ setTranslations
 
 
 getTranslations
----------------
++++++++++++++++
 
 .. function:: getTranslations()
 
@@ -101,7 +104,7 @@ getTranslations
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -119,38 +122,38 @@ filter
 
 
 Constants
-+++++++++
+---------
 
 TYPE_BOOLEAN
-============
+++++++++++++
 
 TYPE_INTEGER
-============
+++++++++++++
 
 TYPE_FLOAT
-==========
+++++++++++
 
 TYPE_STRING
-===========
++++++++++++
 
 TYPE_ZERO_STRING
-================
+++++++++++++++++
 
 TYPE_EMPTY_ARRAY
-================
+++++++++++++++++
 
 TYPE_NULL
-=========
++++++++++
 
 TYPE_PHP
-========
+++++++++
 
 TYPE_FALSE_STRING
-=================
++++++++++++++++++
 
 TYPE_LOCALIZED
-==============
+++++++++++++++
 
 TYPE_ALL
-========
+++++++++
 

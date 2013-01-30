@@ -1,14 +1,17 @@
-.. Mail/Storage/Imap.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Imap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Imap
 =========================
 
 Methods
-+++++++
+-------
 
 countMessages
--------------
++++++++++++++
 
 .. function:: countMessages()
 
@@ -25,7 +28,7 @@ countMessages
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -41,7 +44,7 @@ getSize
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -57,21 +60,21 @@ getMessage
 
 
 getRawHeader
-------------
+++++++++++++
 
 .. function:: getRawHeader()
 
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -94,7 +97,7 @@ __construct
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -105,7 +108,7 @@ close
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -116,7 +119,7 @@ noop
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -132,7 +135,7 @@ removeMessage
 
 
 getUniqueId
------------
++++++++++++
 
 .. function:: getUniqueId()
 
@@ -150,7 +153,7 @@ getUniqueId
 
 
 getNumberByUniqueId
--------------------
++++++++++++++++++++
 
 .. function:: getNumberByUniqueId()
 
@@ -169,7 +172,7 @@ getNumberByUniqueId
 
 
 getFolders
-----------
+++++++++++
 
 .. function:: getFolders()
 
@@ -187,7 +190,7 @@ getFolders
 
 
 selectFolder
-------------
+++++++++++++
 
 .. function:: selectFolder()
 
@@ -204,7 +207,7 @@ selectFolder
 
 
 getCurrentFolder
-----------------
+++++++++++++++++
 
 .. function:: getCurrentFolder()
 
@@ -216,7 +219,7 @@ getCurrentFolder
 
 
 createFolder
-------------
+++++++++++++
 
 .. function:: createFolder()
 
@@ -234,7 +237,7 @@ createFolder
 
 
 removeFolder
-------------
+++++++++++++
 
 .. function:: removeFolder()
 
@@ -248,7 +251,7 @@ removeFolder
 
 
 renameFolder
-------------
+++++++++++++
 
 .. function:: renameFolder()
 
@@ -265,7 +268,7 @@ renameFolder
 
 
 appendMessage
--------------
++++++++++++++
 
 .. function:: appendMessage()
 
@@ -281,7 +284,7 @@ appendMessage
 
 
 copyMessage
------------
++++++++++++
 
 .. function:: copyMessage()
 
@@ -296,7 +299,7 @@ copyMessage
 
 
 moveMessage
------------
++++++++++++
 
 .. function:: moveMessage()
 
@@ -313,7 +316,7 @@ moveMessage
 
 
 setFlags
---------
+++++++++
 
 .. function:: setFlags()
 

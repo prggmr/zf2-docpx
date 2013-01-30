@@ -1,14 +1,17 @@
-.. Filter/UriNormalize.php generated using docpx on 01/30/13 03:32am
+.. Filter/UriNormalize.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\UriNormalize
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setDefaultScheme
-----------------
+++++++++++++++++
 
 .. function:: setDefaultScheme()
 
@@ -39,7 +42,7 @@ setDefaultScheme
 
 
 setEnforcedScheme
------------------
++++++++++++++++++
 
 .. function:: setEnforcedScheme()
 
@@ -61,7 +64,7 @@ setEnforcedScheme
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -75,7 +78,7 @@ filter
 
 
 enforceScheme
--------------
++++++++++++++
 
 .. function:: enforceScheme()
 

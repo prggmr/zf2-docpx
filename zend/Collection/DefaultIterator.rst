@@ -1,5 +1,8 @@
-.. Ldap/Collection/DefaultIterator.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Collection/DefaultIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Collection\\DefaultIterator
 =======================================
@@ -8,10 +11,10 @@ Zend\Ldap\Collection\DefaultIterator is the default collection iterator implemen
 using ext/ldap
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,14 +31,14 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -47,7 +50,7 @@ close
 
 
 getLDAP
--------
++++++++
 
 .. function:: getLDAP()
 
@@ -59,7 +62,7 @@ getLDAP
 
 
 setAttributeNameTreatment
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setAttributeNameTreatment()
 
@@ -80,7 +83,7 @@ setAttributeNameTreatment
 
 
 getAttributeNameTreatment
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getAttributeNameTreatment()
 
@@ -92,7 +95,7 @@ getAttributeNameTreatment
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -105,7 +108,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -120,7 +123,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -134,7 +137,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -146,7 +149,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -158,7 +161,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -174,14 +177,14 @@ valid
 
 
 Constants
-+++++++++
+---------
 
 ATTRIBUTE_TO_LOWER
-==================
+++++++++++++++++++
 
 ATTRIBUTE_TO_UPPER
-==================
+++++++++++++++++++
 
 ATTRIBUTE_NATIVE
-================
+++++++++++++++++
 

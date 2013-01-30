@@ -1,5 +1,8 @@
-.. EventManager/SharedEventAggregateAwareInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/SharedEventAggregateAwareInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\attachAggregate
 ===================================
@@ -15,6 +18,9 @@ Zend\\EventManager\\attachAggregate
     :rtype: mixed return value of {@link SharedListenerAggregateInterface::attachShared()}
 
 
+
+Function
+********
 
 Zend\\EventManager\\detachAggregate
 ===================================

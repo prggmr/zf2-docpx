@@ -1,5 +1,8 @@
-.. Http/Header/AcceptLanguage.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/AcceptLanguage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\AcceptLanguage
 ==================================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\AcceptLanguage
 Accept Language Header
 
 Methods
-+++++++
+-------
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -22,7 +25,7 @@ getFieldName
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -34,7 +37,7 @@ toString
 
 
 addLanguage
------------
++++++++++++
 
 .. function:: addLanguage()
 
@@ -49,7 +52,7 @@ addLanguage
 
 
 hasLanguage
------------
++++++++++++
 
 .. function:: hasLanguage()
 
@@ -63,7 +66,7 @@ hasLanguage
 
 
 parseFieldValuePart
--------------------
++++++++++++++++++++
 
 .. function:: parseFieldValuePart()
 

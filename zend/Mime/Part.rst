@@ -1,5 +1,8 @@
-.. Mime/Part.php generated using docpx on 01/30/13 03:32am
+.. Mime/Part.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mime\\Part
 ================
@@ -7,10 +10,10 @@ Zend\\Mime\\Part
 Class representing a MIME part.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 isStream
---------
+++++++++
 
 .. function:: isStream()
 
@@ -39,7 +42,7 @@ isStream
 
 
 getEncodedStream
-----------------
+++++++++++++++++
 
 .. function:: getEncodedStream()
 
@@ -56,7 +59,7 @@ getEncodedStream
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -70,7 +73,7 @@ getContent
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
@@ -82,7 +85,7 @@ getRawContent
 
 
 getHeadersArray
----------------
++++++++++++++++
 
 .. function:: getHeadersArray()
 
@@ -97,7 +100,7 @@ getHeadersArray
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 

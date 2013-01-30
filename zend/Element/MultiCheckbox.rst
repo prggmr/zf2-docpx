@@ -1,14 +1,17 @@
-.. Form/Element/MultiCheckbox.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/MultiCheckbox.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\MultiCheckbox
 ==================================
 
 Methods
-+++++++
+-------
 
 getValueOptions
----------------
++++++++++++++++
 
 .. function:: getValueOptions()
 
@@ -18,7 +21,7 @@ getValueOptions
 
 
 setValueOptions
----------------
++++++++++++++++
 
 .. function:: setValueOptions()
 
@@ -30,7 +33,7 @@ setValueOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -49,7 +52,7 @@ setOptions
 
 
 setAttribute
-------------
+++++++++++++
 
 .. function:: setAttribute()
 
@@ -64,7 +67,7 @@ setAttribute
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -76,7 +79,7 @@ getValidator
 
 
 getValueOptionsValues
----------------------
++++++++++++++++++++++
 
 .. function:: getValueOptionsValues()
 
@@ -88,7 +91,7 @@ getValueOptionsValues
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 

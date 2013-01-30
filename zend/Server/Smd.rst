@@ -1,14 +1,17 @@
-.. Json/Server/Smd.php generated using docpx on 01/30/13 03:32am
+.. Json/Server/Smd.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Server\\Smd
 =======================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -22,7 +25,7 @@ setOptions
 
 
 setTransport
-------------
+++++++++++++
 
 .. function:: setTransport()
 
@@ -38,7 +41,7 @@ setTransport
 
 
 getTransport
-------------
+++++++++++++
 
 .. function:: getTransport()
 
@@ -50,7 +53,7 @@ getTransport
 
 
 setEnvelope
------------
++++++++++++
 
 .. function:: setEnvelope()
 
@@ -66,7 +69,7 @@ setEnvelope
 
 
 getEnvelope
------------
++++++++++++
 
 .. function:: getEnvelope()
 
@@ -78,7 +81,7 @@ getEnvelope
 
 
 setContentType
---------------
+++++++++++++++
 
 .. function:: setContentType()
 
@@ -94,7 +97,7 @@ setContentType
 
 
 getContentType
---------------
+++++++++++++++
 
 .. function:: getContentType()
 
@@ -106,7 +109,7 @@ getContentType
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -120,7 +123,7 @@ setTarget
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -132,7 +135,7 @@ getTarget
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -146,7 +149,7 @@ setId
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -158,7 +161,7 @@ getId
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -172,7 +175,7 @@ setDescription
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -184,7 +187,7 @@ getDescription
 
 
 setDojoCompatible
------------------
++++++++++++++++++
 
 .. function:: setDojoCompatible()
 
@@ -198,7 +201,7 @@ setDojoCompatible
 
 
 isDojoCompatible
-----------------
+++++++++++++++++
 
 .. function:: isDojoCompatible()
 
@@ -210,7 +213,7 @@ isDojoCompatible
 
 
 addService
-----------
+++++++++++
 
 .. function:: addService()
 
@@ -227,7 +230,7 @@ addService
 
 
 addServices
------------
++++++++++++
 
 .. function:: addServices()
 
@@ -241,7 +244,7 @@ addServices
 
 
 setServices
------------
++++++++++++
 
 .. function:: setServices()
 
@@ -255,7 +258,7 @@ setServices
 
 
 getService
-----------
+++++++++++
 
 .. function:: getService()
 
@@ -269,7 +272,7 @@ getService
 
 
 getServices
------------
++++++++++++
 
 .. function:: getServices()
 
@@ -281,7 +284,7 @@ getServices
 
 
 removeService
--------------
++++++++++++++
 
 .. function:: removeService()
 
@@ -295,7 +298,7 @@ removeService
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -307,7 +310,7 @@ toArray
 
 
 toDojoArray
------------
++++++++++++
 
 .. function:: toDojoArray()
 
@@ -319,7 +322,7 @@ toDojoArray
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -331,7 +334,7 @@ toJson
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -345,14 +348,14 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 ENV_JSONRPC_1
-=============
++++++++++++++
 
 ENV_JSONRPC_2
-=============
++++++++++++++
 
 SMD_VERSION
-===========
++++++++++++
 

@@ -1,14 +1,17 @@
-.. Serializer/Adapter/PhpCode.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/PhpCode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Adapter\\PhpCode
 ==================================
 
 Methods
-+++++++
+-------
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -22,7 +25,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

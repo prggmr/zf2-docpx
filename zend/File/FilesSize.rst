@@ -1,5 +1,8 @@
-.. Validator/File/FilesSize.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/FilesSize.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\FilesSize
 ================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\FilesSize
 Validator for the size of all files which will be validated in sum
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -43,7 +46,7 @@ isValid
 
 
 throwError
-----------
+++++++++++
 
 .. function:: throwError()
 
@@ -60,16 +63,16 @@ throwError
 
 
 Constants
-+++++++++
+---------
 
 TOO_BIG
-=======
++++++++
 
 @const string Error constants
 
 TOO_SMALL
-=========
++++++++++
 
 NOT_READABLE
-============
+++++++++++++
 

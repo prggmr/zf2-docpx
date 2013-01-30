@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/Identity.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/Identity.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\Identity
 =======================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Controller\\Plugin\\Identity
 Controller plugin to fetch the authenticated identity.
 
 Methods
-+++++++
+-------
 
 getAuthenticationService
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getAuthenticationService()
 
@@ -20,7 +23,7 @@ getAuthenticationService
 
 
 setAuthenticationService
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setAuthenticationService()
 
@@ -30,7 +33,7 @@ setAuthenticationService
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

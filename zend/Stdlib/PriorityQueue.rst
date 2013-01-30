@@ -1,5 +1,8 @@
-.. Stdlib/PriorityQueue.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/PriorityQueue.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\PriorityQueue
 ===========================
@@ -16,10 +19,10 @@ This class aggregates items for the queue itself, but also composes an
 the actual iteration.
 
 Methods
-+++++++
+-------
 
 insert
-------
+++++++
 
 .. function:: insert()
 
@@ -36,7 +39,7 @@ insert
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -60,7 +63,7 @@ remove
 
 
 isEmpty
--------
++++++++
 
 .. function:: isEmpty()
 
@@ -72,7 +75,7 @@ isEmpty
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -84,7 +87,7 @@ count
 
 
 top
----
++++
 
 .. function:: top()
 
@@ -96,7 +99,7 @@ top
 
 
 extract
--------
++++++++
 
 .. function:: extract()
 
@@ -108,7 +111,7 @@ extract
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -127,7 +130,7 @@ getIterator
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -139,7 +142,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 
@@ -155,7 +158,7 @@ unserialize
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -173,7 +176,7 @@ toArray
 
 
 setInternalQueueClass
----------------------
++++++++++++++++++++++
 
 .. function:: setInternalQueueClass()
 
@@ -190,7 +193,7 @@ setInternalQueueClass
 
 
 contains
---------
+++++++++
 
 .. function:: contains()
 
@@ -204,7 +207,7 @@ contains
 
 
 hasPriority
------------
++++++++++++
 
 .. function:: hasPriority()
 
@@ -218,7 +221,7 @@ hasPriority
 
 
 getQueue
---------
+++++++++
 
 .. function:: getQueue()
 
@@ -231,7 +234,7 @@ getQueue
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -245,14 +248,14 @@ __clone
 
 
 Constants
-+++++++++
+---------
 
 EXTR_DATA
-=========
++++++++++
 
 EXTR_PRIORITY
-=============
++++++++++++++
 
 EXTR_BOTH
-=========
++++++++++
 

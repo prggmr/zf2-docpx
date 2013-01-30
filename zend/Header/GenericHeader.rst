@@ -1,14 +1,17 @@
-.. Mail/Header/GenericHeader.php generated using docpx on 01/30/13 03:32am
+.. Mail/Header/GenericHeader.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Header\\GenericHeader
 =================================
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -19,7 +22,7 @@ fromString
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -32,7 +35,7 @@ __construct
 
 
 setFieldName
-------------
+++++++++++++
 
 .. function:: setFieldName()
 
@@ -48,14 +51,14 @@ setFieldName
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
 
 
 setFieldValue
--------------
++++++++++++++
 
 .. function:: setFieldValue()
 
@@ -69,28 +72,28 @@ setFieldValue
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

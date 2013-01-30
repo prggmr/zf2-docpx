@@ -1,14 +1,17 @@
-.. View/Helper/PaginationControl.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/PaginationControl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\PaginationControl
 =====================================
 
 Methods
-+++++++
+-------
 
 setDefaultViewPartial
----------------------
++++++++++++++++++++++
 
 .. function:: setDefaultViewPartial()
 
@@ -20,7 +23,7 @@ setDefaultViewPartial
 
 
 getDefaultViewPartial
----------------------
++++++++++++++++++++++
 
 .. function:: getDefaultViewPartial()
 
@@ -32,7 +35,7 @@ getDefaultViewPartial
 
 
 getDefaultScrollingStyle
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getDefaultScrollingStyle()
 
@@ -44,7 +47,7 @@ getDefaultScrollingStyle
 
 
 setDefaultScrollingStyle
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDefaultScrollingStyle()
 
@@ -56,7 +59,7 @@ setDefaultScrollingStyle
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

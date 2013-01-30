@@ -1,14 +1,17 @@
-.. Filter/FilterChain.php generated using docpx on 01/30/13 03:32am
+.. Filter/FilterChain.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\FilterChain
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,14 +21,14 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -37,7 +40,7 @@ count
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -49,7 +52,7 @@ getPluginManager
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -63,7 +66,7 @@ setPluginManager
 
 
 plugin
-------
+++++++
 
 .. function:: plugin()
 
@@ -78,7 +81,7 @@ plugin
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -95,7 +98,7 @@ attach
 
 
 attachByName
-------------
+++++++++++++
 
 .. function:: attachByName()
 
@@ -114,7 +117,7 @@ attachByName
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -128,7 +131,7 @@ merge
 
 
 getFilters
-----------
+++++++++++
 
 .. function:: getFilters()
 
@@ -140,7 +143,7 @@ getFilters
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -156,7 +159,7 @@ filter
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -166,7 +169,7 @@ __clone
 
 
 __sleep
--------
++++++++
 
 .. function:: __sleep()
 
@@ -183,10 +186,10 @@ __sleep
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_PRIORITY
-================
+++++++++++++++++
 
 Default priority at which filters are added
 

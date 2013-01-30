@@ -1,5 +1,8 @@
-.. EventManager/SharedEventManagerAwareInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/SharedEventManagerAwareInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\setSharedManager
 ====================================
@@ -15,6 +18,9 @@ Zend\\EventManager\\setSharedManager
 
 
 
+Function
+********
+
 Zend\\EventManager\\getSharedManager
 ====================================
 
@@ -26,6 +32,9 @@ Zend\\EventManager\\getSharedManager
     :rtype: SharedEventManagerInterface 
 
 
+
+Function
+********
 
 Zend\\EventManager\\unsetSharedManager
 ======================================

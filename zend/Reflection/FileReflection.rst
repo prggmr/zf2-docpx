@@ -1,14 +1,17 @@
-.. Code/Reflection/FileReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/FileReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\FileReflection
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -19,7 +22,7 @@ __construct
 
 
 export
-------
+++++++
 
 .. function:: export()
 
@@ -32,7 +35,7 @@ export
 
 
 getFileName
------------
++++++++++++
 
 .. function:: getFileName()
 
@@ -44,7 +47,7 @@ getFileName
 
 
 getStartLine
-------------
+++++++++++++
 
 .. function:: getStartLine()
 
@@ -56,7 +59,7 @@ getStartLine
 
 
 getEndLine
-----------
+++++++++++
 
 .. function:: getEndLine()
 
@@ -68,7 +71,7 @@ getEndLine
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -78,7 +81,7 @@ getDocComment
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -88,7 +91,7 @@ getDocBlock
 
 
 getNamespaces
--------------
++++++++++++++
 
 .. function:: getNamespaces()
 
@@ -98,7 +101,7 @@ getNamespaces
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -108,7 +111,7 @@ getNamespace
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -118,7 +121,7 @@ getUses
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -130,7 +133,7 @@ getClasses
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -142,7 +145,7 @@ getFunctions
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -158,7 +161,7 @@ getClass
 
 
 getContents
------------
++++++++++++
 
 .. function:: getContents()
 
@@ -170,14 +173,14 @@ getContents
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -192,7 +195,7 @@ __toString
 
 
 reflect
--------
++++++++
 
 .. function:: reflect()
 
@@ -206,7 +209,7 @@ reflect
 
 
 checkFileDocBlock
------------------
++++++++++++++++++
 
 .. function:: checkFileDocBlock()
 

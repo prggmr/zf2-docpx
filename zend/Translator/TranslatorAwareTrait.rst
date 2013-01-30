@@ -1,5 +1,8 @@
-.. I18n/Translator/TranslatorAwareTrait.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/TranslatorAwareTrait.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\I18n\\Translator\\setTranslator
 =====================================
@@ -16,6 +19,9 @@ Zend\\I18n\\Translator\\setTranslator
 
 
 
+Function
+********
+
 Zend\\I18n\\Translator\\getTranslator
 =====================================
 
@@ -28,6 +34,9 @@ Zend\\I18n\\Translator\\getTranslator
 
 
 
+Function
+********
+
 Zend\\I18n\\Translator\\hasTranslator
 =====================================
 
@@ -39,6 +48,9 @@ Zend\\I18n\\Translator\\hasTranslator
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\I18n\\Translator\\setTranslatorEnabled
 ============================================
@@ -54,6 +66,9 @@ Zend\\I18n\\Translator\\setTranslatorEnabled
 
 
 
+Function
+********
+
 Zend\\I18n\\Translator\\isTranslatorEnabled
 ===========================================
 
@@ -65,6 +80,9 @@ Zend\\I18n\\Translator\\isTranslatorEnabled
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\I18n\\Translator\\setTranslatorTextDomain
 ===============================================
@@ -79,6 +97,9 @@ Zend\\I18n\\Translator\\setTranslatorTextDomain
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\I18n\\Translator\\getTranslatorTextDomain
 ===============================================

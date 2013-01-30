@@ -1,14 +1,17 @@
-.. Cache/Storage/ExceptionEvent.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/ExceptionEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\ExceptionEvent
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setException
-------------
+++++++++++++
 
 .. function:: setException()
 
@@ -40,7 +43,7 @@ setException
 
 
 getException
-------------
+++++++++++++
 
 .. function:: getException()
 
@@ -52,7 +55,7 @@ getException
 
 
 setThrowException
------------------
++++++++++++++++++
 
 .. function:: setThrowException()
 
@@ -66,7 +69,7 @@ setThrowException
 
 
 getThrowException
------------------
++++++++++++++++++
 
 .. function:: getThrowException()
 

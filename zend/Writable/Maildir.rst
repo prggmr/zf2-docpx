@@ -1,14 +1,17 @@
-.. Mail/Storage/Writable/Maildir.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Writable/Maildir.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Writable\\Maildir
 ======================================
 
 Methods
-+++++++
+-------
 
 initMaildir
------------
++++++++++++
 
 .. function:: initMaildir()
 
@@ -25,7 +28,7 @@ initMaildir
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -41,7 +44,7 @@ __construct
 
 
 createFolder
-------------
+++++++++++++
 
 .. function:: createFolder()
 
@@ -61,7 +64,7 @@ createFolder
 
 
 removeFolder
-------------
+++++++++++++
 
 .. function:: removeFolder()
 
@@ -75,7 +78,7 @@ removeFolder
 
 
 renameFolder
-------------
+++++++++++++
 
 .. function:: renameFolder()
 
@@ -92,7 +95,7 @@ renameFolder
 
 
 _createUniqueId
----------------
++++++++++++++++
 
 .. function:: _createUniqueId()
 
@@ -112,7 +115,7 @@ _createUniqueId
 
 
 _createTmpFile
---------------
+++++++++++++++
 
 .. function:: _createTmpFile()
 
@@ -132,7 +135,7 @@ _createTmpFile
 
 
 _getInfoString
---------------
+++++++++++++++
 
 .. function:: _getInfoString()
 
@@ -148,7 +151,7 @@ _getInfoString
 
 
 appendMessage
--------------
++++++++++++++
 
 .. function:: appendMessage()
 
@@ -166,7 +169,7 @@ appendMessage
 
 
 copyMessage
------------
++++++++++++
 
 .. function:: copyMessage()
 
@@ -181,7 +184,7 @@ copyMessage
 
 
 moveMessage
------------
++++++++++++
 
 .. function:: moveMessage()
 
@@ -196,7 +199,7 @@ moveMessage
 
 
 setFlags
---------
+++++++++
 
 .. function:: setFlags()
 
@@ -213,7 +216,7 @@ setFlags
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -227,7 +230,7 @@ removeMessage
 
 
 setQuota
---------
+++++++++
 
 .. function:: setQuota()
 
@@ -244,7 +247,7 @@ setQuota
 
 
 getQuota
---------
+++++++++
 
 .. function:: getQuota()
 
@@ -261,7 +264,7 @@ getQuota
 
 
 _calculateMaildirsize
----------------------
++++++++++++++++++++++
 
 .. function:: _calculateMaildirsize()
 
@@ -274,7 +277,7 @@ _calculateMaildirsize
 
 
 _calculateQuota
----------------
++++++++++++++++
 
 .. function:: _calculateQuota()
 
@@ -288,14 +291,14 @@ _calculateQuota
 
 
 _addQuotaEntry
---------------
+++++++++++++++
 
 .. function:: _addQuotaEntry()
 
 
 
 checkQuota
-----------
+++++++++++
 
 .. function:: checkQuota()
 

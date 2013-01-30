@@ -1,5 +1,8 @@
-.. Validator/File/ExcludeMimeType.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/ExcludeMimeType.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\ExcludeMimeType
 ======================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\ExcludeMimeType
 Validator for the mime type of a file
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -28,14 +31,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 FALSE_TYPE
-==========
+++++++++++
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_READABLE
-============
+++++++++++++
 

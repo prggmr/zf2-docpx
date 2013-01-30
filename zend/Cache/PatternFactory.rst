@@ -1,14 +1,17 @@
-.. Cache/PatternFactory.php generated using docpx on 01/30/13 03:32am
+.. Cache/PatternFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\PatternFactory
 ===========================
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -25,7 +28,7 @@ factory
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -37,7 +40,7 @@ getPluginManager
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -51,7 +54,7 @@ setPluginManager
 
 
 resetPluginManager
-------------------
+++++++++++++++++++
 
 .. function:: resetPluginManager()
 

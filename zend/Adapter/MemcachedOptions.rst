@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/MemcachedOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/MemcachedOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\MemcachedOptions
 ===============================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\MemcachedOptions
 These are options specific to the APC adapter
 
 Methods
-+++++++
+-------
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -24,7 +27,7 @@ setNamespace
 
 
 setNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: setNamespaceSeparator()
 
@@ -38,7 +41,7 @@ setNamespaceSeparator
 
 
 getNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: getNamespaceSeparator()
 
@@ -50,7 +53,7 @@ getNamespaceSeparator
 
 
 setMemcachedResource
---------------------
+++++++++++++++++++++
 
 .. function:: setMemcachedResource()
 
@@ -66,7 +69,7 @@ setMemcachedResource
 
 
 getMemcachedResource
---------------------
+++++++++++++++++++++
 
 .. function:: getMemcachedResource()
 
@@ -80,7 +83,7 @@ getMemcachedResource
 
 
 setResourceManager
-------------------
+++++++++++++++++++
 
 .. function:: setResourceManager()
 
@@ -94,7 +97,7 @@ setResourceManager
 
 
 getResourceManager
-------------------
+++++++++++++++++++
 
 .. function:: getResourceManager()
 
@@ -106,7 +109,7 @@ getResourceManager
 
 
 getResourceId
--------------
++++++++++++++
 
 .. function:: getResourceId()
 
@@ -118,7 +121,7 @@ getResourceId
 
 
 setResourceId
--------------
++++++++++++++
 
 .. function:: setResourceId()
 
@@ -132,7 +135,7 @@ setResourceId
 
 
 getPersistentId
----------------
++++++++++++++++
 
 .. function:: getPersistentId()
 
@@ -144,7 +147,7 @@ getPersistentId
 
 
 setPersistentId
----------------
++++++++++++++++
 
 .. function:: setPersistentId()
 
@@ -158,7 +161,7 @@ setPersistentId
 
 
 addServer
----------
++++++++++
 
 .. function:: addServer()
 
@@ -176,7 +179,7 @@ addServer
 
 
 setServers
-----------
+++++++++++
 
 .. function:: setServers()
 
@@ -192,7 +195,7 @@ setServers
 
 
 getServers
-----------
+++++++++++
 
 .. function:: getServers()
 
@@ -204,7 +207,7 @@ getServers
 
 
 setLibOptions
--------------
++++++++++++++
 
 .. function:: setLibOptions()
 
@@ -220,7 +223,7 @@ setLibOptions
 
 
 setLibOption
-------------
+++++++++++++
 
 .. function:: setLibOption()
 
@@ -239,7 +242,7 @@ setLibOption
 
 
 getLibOptions
--------------
++++++++++++++
 
 .. function:: getLibOptions()
 
@@ -253,7 +256,7 @@ getLibOptions
 
 
 getLibOption
-------------
+++++++++++++
 
 .. function:: getLibOption()
 

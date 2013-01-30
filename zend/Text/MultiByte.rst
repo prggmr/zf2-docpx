@@ -1,5 +1,8 @@
-.. Text/MultiByte.php generated using docpx on 01/30/13 03:32am
+.. Text/MultiByte.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\MultiByte
 =====================
@@ -7,10 +10,10 @@ Zend\\Text\\MultiByte
 Contains multibyte safe string methods
 
 Methods
-+++++++
+-------
 
 wordWrap
---------
+++++++++
 
 .. function:: wordWrap()
 
@@ -32,7 +35,7 @@ wordWrap
 
 
 strPad
-------
+++++++
 
 .. function:: strPad()
 

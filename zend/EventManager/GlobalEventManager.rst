@@ -1,5 +1,8 @@
-.. EventManager/GlobalEventManager.php generated using docpx on 01/30/13 03:32am
+.. EventManager/GlobalEventManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\GlobalEventManager
 ======================================
@@ -10,10 +13,10 @@ Use the EventManager when you want to create a per-instance notification
 system for your objects.
 
 Methods
-+++++++
+-------
 
 setEventCollection
-------------------
+++++++++++++++++++
 
 .. function:: setEventCollection()
 
@@ -27,7 +30,7 @@ setEventCollection
 
 
 getEventCollection
-------------------
+++++++++++++++++++
 
 .. function:: getEventCollection()
 
@@ -39,7 +42,7 @@ getEventCollection
 
 
 trigger
--------
++++++++
 
 .. function:: trigger()
 
@@ -55,7 +58,7 @@ trigger
 
 
 triggerUntil
-------------
+++++++++++++
 
 .. function:: triggerUntil()
 
@@ -73,7 +76,7 @@ triggerUntil
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -89,7 +92,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -103,7 +106,7 @@ detach
 
 
 getEvents
----------
++++++++++
 
 .. function:: getEvents()
 
@@ -115,7 +118,7 @@ getEvents
 
 
 getListeners
-------------
+++++++++++++
 
 .. function:: getListeners()
 
@@ -129,7 +132,7 @@ getListeners
 
 
 clearListeners
---------------
+++++++++++++++
 
 .. function:: clearListeners()
 

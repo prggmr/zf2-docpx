@@ -1,14 +1,17 @@
-.. Validator/Explode.php generated using docpx on 01/30/13 03:32am
+.. Validator/Explode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Explode
 ========================
 
 Methods
-+++++++
+-------
 
 setValueDelimiter
------------------
++++++++++++++++++
 
 .. function:: setValueDelimiter()
 
@@ -22,7 +25,7 @@ setValueDelimiter
 
 
 getValueDelimiter
------------------
++++++++++++++++++
 
 .. function:: getValueDelimiter()
 
@@ -34,7 +37,7 @@ getValueDelimiter
 
 
 setValidator
-------------
+++++++++++++
 
 .. function:: setValidator()
 
@@ -48,7 +51,7 @@ setValidator
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -60,7 +63,7 @@ getValidator
 
 
 setBreakOnFirstFailure
-----------------------
+++++++++++++++++++++++
 
 .. function:: setBreakOnFirstFailure()
 
@@ -74,7 +77,7 @@ setBreakOnFirstFailure
 
 
 isBreakOnFirstFailure
----------------------
++++++++++++++++++++++
 
 .. function:: isBreakOnFirstFailure()
 
@@ -86,7 +89,7 @@ isBreakOnFirstFailure
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -106,8 +109,8 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 

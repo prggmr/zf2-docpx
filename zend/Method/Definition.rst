@@ -1,5 +1,8 @@
-.. Server/Method/Definition.php generated using docpx on 01/30/13 03:32am
+.. Server/Method/Definition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Method\\Definition
 ================================
@@ -7,10 +10,10 @@ Zend\\Server\\Method\\Definition
 Method definition metadata
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -50,7 +53,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -62,7 +65,7 @@ getName
 
 
 setCallback
------------
++++++++++++
 
 .. function:: setCallback()
 
@@ -78,7 +81,7 @@ setCallback
 
 
 getCallback
------------
++++++++++++
 
 .. function:: getCallback()
 
@@ -90,7 +93,7 @@ getCallback
 
 
 addPrototype
-------------
+++++++++++++
 
 .. function:: addPrototype()
 
@@ -106,7 +109,7 @@ addPrototype
 
 
 addPrototypes
--------------
++++++++++++++
 
 .. function:: addPrototypes()
 
@@ -120,7 +123,7 @@ addPrototypes
 
 
 setPrototypes
--------------
++++++++++++++
 
 .. function:: setPrototypes()
 
@@ -134,7 +137,7 @@ setPrototypes
 
 
 getPrototypes
--------------
++++++++++++++
 
 .. function:: getPrototypes()
 
@@ -146,7 +149,7 @@ getPrototypes
 
 
 setMethodHelp
--------------
++++++++++++++
 
 .. function:: setMethodHelp()
 
@@ -160,7 +163,7 @@ setMethodHelp
 
 
 getMethodHelp
--------------
++++++++++++++
 
 .. function:: getMethodHelp()
 
@@ -172,7 +175,7 @@ getMethodHelp
 
 
 setObject
----------
++++++++++
 
 .. function:: setObject()
 
@@ -188,7 +191,7 @@ setObject
 
 
 getObject
----------
++++++++++
 
 .. function:: getObject()
 
@@ -200,7 +203,7 @@ getObject
 
 
 setInvokeArguments
-------------------
+++++++++++++++++++
 
 .. function:: setInvokeArguments()
 
@@ -214,7 +217,7 @@ setInvokeArguments
 
 
 getInvokeArguments
-------------------
+++++++++++++++++++
 
 .. function:: getInvokeArguments()
 
@@ -226,7 +229,7 @@ getInvokeArguments
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

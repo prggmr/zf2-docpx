@@ -1,14 +1,17 @@
-.. Authentication/Adapter/Ldap.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Adapter/Ldap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Adapter\\Ldap
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -34,7 +37,7 @@ getOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -49,7 +52,7 @@ setOptions
 
 
 getUsername
------------
++++++++++++
 
 .. function:: getUsername()
 
@@ -62,7 +65,7 @@ getUsername
 
 
 setUsername
------------
++++++++++++
 
 .. function:: setUsername()
 
@@ -76,7 +79,7 @@ setUsername
 
 
 getPassword
------------
++++++++++++
 
 .. function:: getPassword()
 
@@ -89,7 +92,7 @@ getPassword
 
 
 setPassword
------------
++++++++++++
 
 .. function:: setPassword()
 
@@ -103,7 +106,7 @@ setPassword
 
 
 getLdap
--------
++++++++
 
 .. function:: getLdap()
 
@@ -115,7 +118,7 @@ getLdap
 
 
 setLdap
--------
++++++++
 
 .. function:: setLdap()
 
@@ -129,7 +132,7 @@ setLdap
 
 
 getAuthorityName
-----------------
+++++++++++++++++
 
 .. function:: getAuthorityName()
 
@@ -142,7 +145,7 @@ getAuthorityName
 
 
 authenticate
-------------
+++++++++++++
 
 .. function:: authenticate()
 
@@ -156,7 +159,7 @@ authenticate
 
 
 prepareOptions
---------------
+++++++++++++++
 
 .. function:: prepareOptions()
 
@@ -171,7 +174,7 @@ prepareOptions
 
 
 checkGroupMembership
---------------------
+++++++++++++++++++++
 
 .. function:: checkGroupMembership()
 
@@ -188,7 +191,7 @@ checkGroupMembership
 
 
 getAccountObject
-----------------
+++++++++++++++++
 
 .. function:: getAccountObject()
 
@@ -206,7 +209,7 @@ getAccountObject
 
 
 optionsToString
----------------
++++++++++++++++
 
 .. function:: optionsToString()
 

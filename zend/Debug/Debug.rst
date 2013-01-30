@@ -1,5 +1,8 @@
-.. Debug/Debug.php generated using docpx on 01/30/13 03:32am
+.. Debug/Debug.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Debug\\Debug
 ==================
@@ -7,10 +10,10 @@ Zend\\Debug\\Debug
 Concrete class for generating debug dumps related to the output source.
 
 Methods
-+++++++
+-------
 
 getSapi
--------
++++++++
 
 .. function:: getSapi()
 
@@ -23,7 +26,7 @@ getSapi
 
 
 setSapi
--------
++++++++
 
 .. function:: setSapi()
 
@@ -38,7 +41,7 @@ setSapi
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -50,7 +53,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -64,7 +67,7 @@ getEscaper
 
 
 dump
-----
+++++
 
 .. function:: dump()
 

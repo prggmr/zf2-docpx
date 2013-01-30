@@ -1,5 +1,8 @@
-.. Http/Header/Age.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Age.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Age
 =======================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Age
 Age HTTP Header
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -38,7 +41,7 @@ getFieldName
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -50,7 +53,7 @@ getFieldValue
 
 
 setDeltaSeconds
----------------
++++++++++++++++
 
 .. function:: setDeltaSeconds()
 
@@ -64,7 +67,7 @@ setDeltaSeconds
 
 
 getDeltaSeconds
----------------
++++++++++++++++
 
 .. function:: getDeltaSeconds()
 
@@ -76,7 +79,7 @@ getDeltaSeconds
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

@@ -1,5 +1,8 @@
-.. Di/Definition/Builder/InjectionMethod.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/Builder/InjectionMethod.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\Builder\\InjectionMethod
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\Builder\\InjectionMethod
 Definitions for an injection endpoint method
 
 Methods
-+++++++
+-------
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -22,7 +25,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -32,7 +35,7 @@ getName
 
 
 addParameter
-------------
+++++++++++++
 
 .. function:: addParameter()
 
@@ -48,7 +51,7 @@ addParameter
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 

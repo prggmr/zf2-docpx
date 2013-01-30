@@ -1,14 +1,17 @@
-.. Code/Generator/FileGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/FileGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\FileGenerator
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 fromReflectedFileName
----------------------
++++++++++++++++++++++
 
 .. function:: fromReflectedFileName()
 
@@ -38,7 +41,7 @@ fromReflectedFileName
 
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -50,7 +53,7 @@ fromReflection
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -62,7 +65,7 @@ fromArray
 
 
 setDocBlock
------------
++++++++++++
 
 .. function:: setDocBlock()
 
@@ -75,7 +78,7 @@ setDocBlock
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -85,7 +88,7 @@ getDocBlock
 
 
 setRequiredFiles
-----------------
+++++++++++++++++
 
 .. function:: setRequiredFiles()
 
@@ -97,7 +100,7 @@ setRequiredFiles
 
 
 getRequiredFiles
-----------------
+++++++++++++++++
 
 .. function:: getRequiredFiles()
 
@@ -107,7 +110,7 @@ getRequiredFiles
 
 
 setClasses
-----------
+++++++++++
 
 .. function:: setClasses()
 
@@ -119,7 +122,7 @@ setClasses
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -129,7 +132,7 @@ getNamespace
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -141,7 +144,7 @@ setNamespace
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -157,7 +160,7 @@ getUses
 
 
 setUses
--------
++++++++
 
 .. function:: setUses()
 
@@ -169,7 +172,7 @@ setUses
 
 
 setUse
-------
+++++++
 
 .. function:: setUse()
 
@@ -183,7 +186,7 @@ setUse
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -195,7 +198,7 @@ getClass
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -208,7 +211,7 @@ setClass
 
 
 setFilename
------------
++++++++++++
 
 .. function:: setFilename()
 
@@ -220,7 +223,7 @@ setFilename
 
 
 getFilename
------------
++++++++++++
 
 .. function:: getFilename()
 
@@ -230,7 +233,7 @@ getFilename
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -240,7 +243,7 @@ getClasses
 
 
 setBody
--------
++++++++
 
 .. function:: setBody()
 
@@ -252,7 +255,7 @@ setBody
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -262,7 +265,7 @@ getBody
 
 
 isSourceDirty
--------------
++++++++++++++
 
 .. function:: isSourceDirty()
 
@@ -272,7 +275,7 @@ isSourceDirty
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -282,7 +285,7 @@ generate
 
 
 write
------
++++++
 
 .. function:: write()
 

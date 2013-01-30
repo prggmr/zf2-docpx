@@ -1,14 +1,17 @@
-.. Stdlib/Hydrator/Filter/FilterComposite.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/Hydrator/Filter/FilterComposite.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\Hydrator\\Filter\\FilterComposite
 ===============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -19,7 +22,7 @@ __construct
 
 
 addFilter
----------
++++++++++
 
 .. function:: addFilter()
 
@@ -50,7 +53,7 @@ addFilter
 
 
 removeFilter
-------------
+++++++++++++
 
 .. function:: removeFilter()
 
@@ -64,7 +67,7 @@ removeFilter
 
 
 hasFilter
----------
++++++++++
 
 .. function:: hasFilter()
 
@@ -78,7 +81,7 @@ hasFilter
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -96,15 +99,15 @@ filter
 
 
 Constants
-+++++++++
+---------
 
 CONDITION_OR
-============
+++++++++++++
 
 Constant to add with "or" conditition
 
 CONDITION_AND
-=============
++++++++++++++
 
 Constant to add with "and" conditition
 

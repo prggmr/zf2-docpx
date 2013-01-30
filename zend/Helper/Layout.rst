@@ -1,5 +1,8 @@
-.. View/Helper/Layout.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Layout.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Layout
 ==========================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Layout
 View helper for retrieving layout object
 
 Methods
-+++++++
+-------
 
 getLayout
----------
++++++++++
 
 .. function:: getLayout()
 
@@ -22,7 +25,7 @@ getLayout
 
 
 setTemplate
------------
++++++++++++
 
 .. function:: setTemplate()
 
@@ -36,7 +39,7 @@ setTemplate
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -53,7 +56,7 @@ __invoke
 
 
 getRoot
--------
++++++++
 
 .. function:: getRoot()
 
@@ -66,7 +69,7 @@ getRoot
 
 
 getViewModelHelper
-------------------
+++++++++++++++++++
 
 .. function:: getViewModelHelper()
 

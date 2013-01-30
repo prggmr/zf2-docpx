@@ -1,5 +1,8 @@
-.. Stdlib/DateTime.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/DateTime.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\DateTime
 ======================
@@ -9,10 +12,10 @@ DateTime
 An extension of the \DateTime object.
 
 Methods
-+++++++
+-------
 
 createFromISO8601
------------------
++++++++++++++++++
 
 .. function:: createFromISO8601()
 

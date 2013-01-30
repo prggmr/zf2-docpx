@@ -1,5 +1,8 @@
-.. View/Helper/HeadStyle.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HeadStyle.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HeadStyle
 =============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HeadStyle
 Helper for setting and retrieving stylesheets
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -40,7 +43,7 @@ __invoke
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -63,7 +66,7 @@ __call
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -77,7 +80,7 @@ isValid
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -93,7 +96,7 @@ append
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -110,7 +113,7 @@ offsetSet
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -126,7 +129,7 @@ prepend
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -142,7 +145,7 @@ set
 
 
 captureStart
-------------
+++++++++++++
 
 .. function:: captureStart()
 
@@ -159,7 +162,7 @@ captureStart
 
 
 captureEnd
-----------
+++++++++++
 
 .. function:: captureEnd()
 
@@ -171,7 +174,7 @@ captureEnd
 
 
 itemToString
-------------
+++++++++++++
 
 .. function:: itemToString()
 
@@ -186,7 +189,7 @@ itemToString
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -200,7 +203,7 @@ toString
 
 
 createData
-----------
+++++++++++
 
 .. function:: createData()
 

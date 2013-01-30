@@ -1,5 +1,8 @@
-.. Mvc/Router/SimpleRouteStack.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/SimpleRouteStack.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\SimpleRouteStack
 ===================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\SimpleRouteStack
 Simple route stack implementation.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -39,7 +42,7 @@ factory
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -51,7 +54,7 @@ init
 
 
 setRoutePluginManager
----------------------
++++++++++++++++++++++
 
 .. function:: setRoutePluginManager()
 
@@ -65,7 +68,7 @@ setRoutePluginManager
 
 
 getRoutePluginManager
----------------------
++++++++++++++++++++++
 
 .. function:: getRoutePluginManager()
 
@@ -77,7 +80,7 @@ getRoutePluginManager
 
 
 addRoutes
----------
++++++++++
 
 .. function:: addRoutes()
 
@@ -94,7 +97,7 @@ addRoutes
 
 
 addRoute
---------
+++++++++
 
 .. function:: addRoute()
 
@@ -111,7 +114,7 @@ addRoute
 
 
 removeRoute
------------
++++++++++++
 
 .. function:: removeRoute()
 
@@ -126,7 +129,7 @@ removeRoute
 
 
 setRoutes
----------
++++++++++
 
 .. function:: setRoutes()
 
@@ -140,7 +143,7 @@ setRoutes
 
 
 getRoutes
----------
++++++++++
 
 .. function:: getRoutes()
 
@@ -152,7 +155,7 @@ getRoutes
 
 
 hasRoute
---------
+++++++++
 
 .. function:: hasRoute()
 
@@ -166,7 +169,7 @@ hasRoute
 
 
 getRoute
---------
+++++++++
 
 .. function:: getRoute()
 
@@ -180,7 +183,7 @@ getRoute
 
 
 setDefaultParams
-----------------
+++++++++++++++++
 
 .. function:: setDefaultParams()
 
@@ -194,7 +197,7 @@ setDefaultParams
 
 
 setDefaultParam
----------------
++++++++++++++++
 
 .. function:: setDefaultParam()
 
@@ -209,7 +212,7 @@ setDefaultParam
 
 
 routeFromArray
---------------
+++++++++++++++
 
 .. function:: routeFromArray()
 
@@ -225,7 +228,7 @@ routeFromArray
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -240,7 +243,7 @@ match
 
 
 assemble
---------
+++++++++
 
 .. function:: assemble()
 

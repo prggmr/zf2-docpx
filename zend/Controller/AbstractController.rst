@@ -1,5 +1,8 @@
-.. Mvc/Controller/AbstractController.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/AbstractController.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\AbstractController
 =========================================
@@ -9,10 +12,10 @@ Abstract controller
 Convenience methods for pre-built plugins (@see __call):
 
 Methods
-+++++++
+-------
 
 onDispatch
-----------
+++++++++++
 
 .. function:: onDispatch()
 
@@ -26,7 +29,7 @@ onDispatch
 
 
 dispatch
---------
+++++++++
 
 .. function:: dispatch()
 
@@ -41,7 +44,7 @@ dispatch
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -53,7 +56,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -65,7 +68,7 @@ getResponse
 
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -79,7 +82,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -93,7 +96,7 @@ getEventManager
 
 
 setEvent
---------
+++++++++
 
 .. function:: setEvent()
 
@@ -109,7 +112,7 @@ setEvent
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 
@@ -123,7 +126,7 @@ getEvent
 
 
 setServiceLocator
------------------
++++++++++++++++++
 
 .. function:: setServiceLocator()
 
@@ -137,7 +140,7 @@ setServiceLocator
 
 
 getServiceLocator
------------------
++++++++++++++++++
 
 .. function:: getServiceLocator()
 
@@ -149,7 +152,7 @@ getServiceLocator
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -161,7 +164,7 @@ getPluginManager
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -175,7 +178,7 @@ setPluginManager
 
 
 plugin
-------
+++++++
 
 .. function:: plugin()
 
@@ -190,7 +193,7 @@ plugin
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -208,7 +211,7 @@ __call
 
 
 attachDefaultListeners
-----------------------
+++++++++++++++++++++++
 
 .. function:: attachDefaultListeners()
 
@@ -220,7 +223,7 @@ attachDefaultListeners
 
 
 getMethodFromAction
--------------------
++++++++++++++++++++
 
 .. function:: getMethodFromAction()
 

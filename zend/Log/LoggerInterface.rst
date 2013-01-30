@@ -1,5 +1,8 @@
-.. Log/LoggerInterface.php generated using docpx on 01/30/13 03:32am
+.. Log/LoggerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Log\\emerg
 ================
@@ -15,6 +18,9 @@ Zend\\Log\\emerg
 
 
 
+Function
+********
+
 Zend\\Log\\alert
 ================
 
@@ -28,6 +34,9 @@ Zend\\Log\\alert
     :rtype: LoggerInterface 
 
 
+
+Function
+********
 
 Zend\\Log\\crit
 ===============
@@ -43,6 +52,9 @@ Zend\\Log\\crit
 
 
 
+Function
+********
+
 Zend\\Log\\err
 ==============
 
@@ -56,6 +68,9 @@ Zend\\Log\\err
     :rtype: LoggerInterface 
 
 
+
+Function
+********
 
 Zend\\Log\\warn
 ===============
@@ -71,6 +86,9 @@ Zend\\Log\\warn
 
 
 
+Function
+********
+
 Zend\\Log\\notice
 =================
 
@@ -85,6 +103,9 @@ Zend\\Log\\notice
 
 
 
+Function
+********
+
 Zend\\Log\\info
 ===============
 
@@ -98,6 +119,9 @@ Zend\\Log\\info
     :rtype: LoggerInterface 
 
 
+
+Function
+********
 
 Zend\\Log\\debug
 ================

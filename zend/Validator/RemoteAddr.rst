@@ -1,14 +1,17 @@
-.. Session/Validator/RemoteAddr.php generated using docpx on 01/30/13 03:32am
+.. Session/Validator/RemoteAddr.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Validator\\RemoteAddr
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -19,7 +22,7 @@ __construct
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -32,7 +35,7 @@ isValid
 
 
 setUseProxy
------------
++++++++++++
 
 .. function:: setUseProxy()
 
@@ -49,7 +52,7 @@ setUseProxy
 
 
 getUseProxy
------------
++++++++++++
 
 .. function:: getUseProxy()
 
@@ -61,7 +64,7 @@ getUseProxy
 
 
 setTrustedProxies
------------------
++++++++++++++++++
 
 .. function:: setTrustedProxies()
 
@@ -75,7 +78,7 @@ setTrustedProxies
 
 
 setProxyHeader
---------------
+++++++++++++++
 
 .. function:: setProxyHeader()
 
@@ -89,7 +92,7 @@ setProxyHeader
 
 
 getIpAddress
-------------
+++++++++++++
 
 .. function:: getIpAddress()
 
@@ -101,7 +104,7 @@ getIpAddress
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -113,7 +116,7 @@ getData
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 

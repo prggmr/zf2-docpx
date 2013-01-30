@@ -1,5 +1,8 @@
-.. Di/Config.php generated using docpx on 01/30/13 03:32am
+.. Di/Config.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Config
 ================
@@ -7,10 +10,10 @@ Zend\\Di\\Config
 Configures Di instances
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 configure
----------
++++++++++
 
 .. function:: configure()
 
@@ -38,7 +41,7 @@ configure
 
 
 configureDefinition
--------------------
++++++++++++++++++++
 
 .. function:: configureDefinition()
 
@@ -50,7 +53,7 @@ configureDefinition
 
 
 configureInstance
------------------
++++++++++++++++++
 
 .. function:: configureInstance()
 

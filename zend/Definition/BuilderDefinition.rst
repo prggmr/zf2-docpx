@@ -1,5 +1,8 @@
-.. Di/Definition/BuilderDefinition.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/BuilderDefinition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\BuilderDefinition
 =======================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\BuilderDefinition
 Class definitions based on a configuration array
 
 Methods
-+++++++
+-------
 
 createClassesFromArray
-----------------------
+++++++++++++++++++++++
 
 .. function:: createClassesFromArray()
 
@@ -24,7 +27,7 @@ createClassesFromArray
 
 
 addClass
---------
+++++++++
 
 .. function:: addClass()
 
@@ -38,7 +41,7 @@ addClass
 
 
 createClass
------------
++++++++++++
 
 .. function:: createClass()
 
@@ -54,7 +57,7 @@ createClass
 
 
 setClassBuilder
----------------
++++++++++++++++
 
 .. function:: setClassBuilder()
 
@@ -68,7 +71,7 @@ setClassBuilder
 
 
 getClassBuilder
----------------
++++++++++++++++
 
 .. function:: getClassBuilder()
 
@@ -83,7 +86,7 @@ getClassBuilder
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -93,7 +96,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -103,7 +106,7 @@ hasClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -115,7 +118,7 @@ getClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -126,7 +129,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -137,7 +140,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -148,7 +151,7 @@ hasMethods
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -159,7 +162,7 @@ getMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -170,7 +173,7 @@ hasMethod
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -180,7 +183,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 

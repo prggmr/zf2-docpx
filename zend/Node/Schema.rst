@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema
 ========================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node\\Schema
 Zend\Ldap\Node\Schema provides a simple data-container for the Schema node.
 
 Methods
-+++++++
+-------
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -24,7 +27,7 @@ create
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -40,7 +43,7 @@ __construct
 
 
 parseSchema
------------
++++++++++++
 
 .. function:: parseSchema()
 
@@ -55,7 +58,7 @@ parseSchema
 
 
 getAttributeTypes
------------------
++++++++++++++++++
 
 .. function:: getAttributeTypes()
 
@@ -67,7 +70,7 @@ getAttributeTypes
 
 
 getObjectClasses
-----------------
+++++++++++++++++
 
 .. function:: getObjectClasses()
 
@@ -81,17 +84,17 @@ getObjectClasses
 
 
 Constants
-+++++++++
+---------
 
 OBJECTCLASS_TYPE_UNKNOWN
-========================
+++++++++++++++++++++++++
 
 OBJECTCLASS_TYPE_STRUCTURAL
-===========================
++++++++++++++++++++++++++++
 
 OBJECTCLASS_TYPE_ABSTRACT
-=========================
++++++++++++++++++++++++++
 
 OBJECTCLASS_TYPE_AUXILIARY
-==========================
+++++++++++++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. Form/FieldsetInterface.php generated using docpx on 01/30/13 03:32am
+.. Form/FieldsetInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Form\\add
 ===============
@@ -21,6 +24,9 @@ Zend\\Form\\add
 
 
 
+Function
+********
+
 Zend\\Form\\has
 ===============
 
@@ -34,6 +40,9 @@ Zend\\Form\\has
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Form\\get
 ===============
@@ -49,6 +58,9 @@ Zend\\Form\\get
 
 
 
+Function
+********
+
 Zend\\Form\\remove
 ==================
 
@@ -62,6 +74,9 @@ Zend\\Form\\remove
     :rtype: FieldsetInterface 
 
 
+
+Function
+********
 
 Zend\\Form\\setPriority
 =======================
@@ -78,6 +93,9 @@ Zend\\Form\\setPriority
 
 
 
+Function
+********
+
 Zend\\Form\\getElements
 =======================
 
@@ -91,6 +109,9 @@ Zend\\Form\\getElements
     :rtype: array|\Traversable 
 
 
+
+Function
+********
 
 Zend\\Form\\getFieldsets
 ========================
@@ -106,6 +127,9 @@ Zend\\Form\\getFieldsets
 
 
 
+Function
+********
+
 Zend\\Form\\populateValues
 ==========================
 
@@ -119,6 +143,9 @@ Zend\\Form\\populateValues
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Form\\setObject
 =====================
@@ -134,6 +161,9 @@ Zend\\Form\\setObject
 
 
 
+Function
+********
+
 Zend\\Form\\getObject
 =====================
 
@@ -145,6 +175,9 @@ Zend\\Form\\getObject
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Form\\allowObjectBinding
 ==============================
@@ -160,6 +193,9 @@ Zend\\Form\\allowObjectBinding
 
 
 
+Function
+********
+
 Zend\\Form\\setHydrator
 =======================
 
@@ -174,6 +210,9 @@ Zend\\Form\\setHydrator
 
 
 
+Function
+********
+
 Zend\\Form\\getHydrator
 =======================
 
@@ -185,6 +224,9 @@ Zend\\Form\\getHydrator
     :rtype: null|HydratorInterface 
 
 
+
+Function
+********
 
 Zend\\Form\\bindValues
 ======================
@@ -199,6 +241,9 @@ Zend\\Form\\bindValues
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Form\\allowValueBinding
 =============================

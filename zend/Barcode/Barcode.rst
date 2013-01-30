@@ -1,5 +1,8 @@
-.. Barcode/Barcode.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Barcode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Barcode
 ======================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Barcode
 Class for generate Barcode
 
 Methods
-+++++++
+-------
 
 getObjectPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getObjectPluginManager()
 
@@ -22,7 +25,7 @@ getObjectPluginManager
 
 
 getRendererPluginManager
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getRendererPluginManager()
 
@@ -34,7 +37,7 @@ getRendererPluginManager
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -68,7 +71,7 @@ factory
 
 
 makeBarcode
------------
++++++++++++
 
 .. function:: makeBarcode()
 
@@ -85,7 +88,7 @@ makeBarcode
 
 
 makeRenderer
-------------
+++++++++++++
 
 .. function:: makeRenderer()
 
@@ -102,7 +105,7 @@ makeRenderer
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -117,7 +120,7 @@ render
 
 
 draw
-----
+++++
 
 .. function:: draw()
 
@@ -134,7 +137,7 @@ draw
 
 
 setBarcodeFont
---------------
+++++++++++++++
 
 .. function:: setBarcodeFont()
 
@@ -148,7 +151,7 @@ setBarcodeFont
 
 
 getBarcodeFont
---------------
+++++++++++++++
 
 .. function:: getBarcodeFont()
 

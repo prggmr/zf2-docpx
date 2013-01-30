@@ -1,5 +1,8 @@
-.. View/Helper/Identity.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Identity.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Identity
 ============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Identity
 View helper plugin to fetch the authenticated identity.
 
 Methods
-+++++++
+-------
 
 getAuthenticationService
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getAuthenticationService()
 
@@ -20,7 +23,7 @@ getAuthenticationService
 
 
 setAuthenticationService
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setAuthenticationService()
 
@@ -30,7 +33,7 @@ setAuthenticationService
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

@@ -1,5 +1,8 @@
-.. Db/Sql/TableIdentifier.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/TableIdentifier.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\TableIdentifier
 ==============================
@@ -7,10 +10,10 @@ Zend\\Db\\Sql\\TableIdentifier
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setTable
---------
+++++++++
 
 .. function:: setTable()
 
@@ -32,7 +35,7 @@ setTable
 
 
 getTable
---------
+++++++++
 
 .. function:: getTable()
 
@@ -42,7 +45,7 @@ getTable
 
 
 hasSchema
----------
++++++++++
 
 .. function:: hasSchema()
 
@@ -52,7 +55,7 @@ hasSchema
 
 
 setSchema
----------
++++++++++
 
 .. function:: setSchema()
 
@@ -62,7 +65,7 @@ setSchema
 
 
 getSchema
----------
++++++++++
 
 .. function:: getSchema()
 
@@ -72,7 +75,7 @@ getSchema
 
 
 getTableAndSchema
------------------
++++++++++++++++++
 
 .. function:: getTableAndSchema()
 

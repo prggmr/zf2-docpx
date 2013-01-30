@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/Atom/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Atom/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Atom\\Entry
 ==========================================
 
 Methods
-+++++++
+-------
 
 getAuthor
----------
++++++++++
 
 .. function:: getAuthor()
 
@@ -22,7 +25,7 @@ getAuthor
 
 
 getAuthors
-----------
+++++++++++
 
 .. function:: getAuthors()
 
@@ -34,7 +37,7 @@ getAuthors
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -46,7 +49,7 @@ getContent
 
 
 collectXhtml
-------------
+++++++++++++
 
 .. function:: collectXhtml()
 
@@ -61,7 +64,7 @@ collectXhtml
 
 
 getDateCreated
---------------
+++++++++++++++
 
 .. function:: getDateCreated()
 
@@ -73,7 +76,7 @@ getDateCreated
 
 
 getDateModified
----------------
++++++++++++++++
 
 .. function:: getDateModified()
 
@@ -85,7 +88,7 @@ getDateModified
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -97,7 +100,7 @@ getDescription
 
 
 getEnclosure
-------------
+++++++++++++
 
 .. function:: getEnclosure()
 
@@ -109,7 +112,7 @@ getEnclosure
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -121,7 +124,7 @@ getId
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -133,7 +136,7 @@ getBaseUrl
 
 
 getLink
--------
++++++++
 
 .. function:: getLink()
 
@@ -147,7 +150,7 @@ getLink
 
 
 getLinks
---------
+++++++++
 
 .. function:: getLinks()
 
@@ -159,7 +162,7 @@ getLinks
 
 
 getPermalink
-------------
+++++++++++++
 
 .. function:: getPermalink()
 
@@ -171,7 +174,7 @@ getPermalink
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -183,7 +186,7 @@ getTitle
 
 
 getCommentCount
----------------
++++++++++++++++
 
 .. function:: getCommentCount()
 
@@ -195,7 +198,7 @@ getCommentCount
 
 
 getCommentLink
---------------
+++++++++++++++
 
 .. function:: getCommentLink()
 
@@ -207,7 +210,7 @@ getCommentLink
 
 
 getCommentFeedLink
-------------------
+++++++++++++++++++
 
 .. function:: getCommentFeedLink()
 
@@ -221,7 +224,7 @@ getCommentFeedLink
 
 
 getCategories
--------------
++++++++++++++
 
 .. function:: getCategories()
 
@@ -233,7 +236,7 @@ getCategories
 
 
 getSource
----------
++++++++++
 
 .. function:: getSource()
 
@@ -245,7 +248,7 @@ getSource
 
 
 absolutiseUri
--------------
++++++++++++++
 
 .. function:: absolutiseUri()
 
@@ -260,7 +263,7 @@ absolutiseUri
 
 
 getAuthorFromElement
---------------------
+++++++++++++++++++++
 
 .. function:: getAuthorFromElement()
 
@@ -274,7 +277,7 @@ getAuthorFromElement
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 
@@ -284,7 +287,7 @@ registerNamespaces
 
 
 getAtomType
------------
++++++++++++
 
 .. function:: getAtomType()
 

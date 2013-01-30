@@ -1,5 +1,8 @@
-.. Http/Client/Adapter/Test.php generated using docpx on 01/30/13 03:32am
+.. Http/Client/Adapter/Test.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Client\\Adapter\\Test
 =================================
@@ -12,10 +15,10 @@ object manually, and then set it as the client's adapter. Then, you can
 set the expected response using the setResponse() method.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setNextRequestWillFail
-----------------------
+++++++++++++++++++++++
 
 .. function:: setNextRequestWillFail()
 
@@ -39,7 +42,7 @@ setNextRequestWillFail
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -53,7 +56,7 @@ setOptions
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -70,7 +73,7 @@ connect
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -88,7 +91,7 @@ write
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -100,7 +103,7 @@ read
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -110,7 +113,7 @@ close
 
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -122,7 +125,7 @@ setResponse
 
 
 addResponse
------------
++++++++++++
 
 .. function:: addResponse()
 
@@ -134,7 +137,7 @@ addResponse
 
 
 setResponseIndex
-----------------
+++++++++++++++++
 
 .. function:: setResponseIndex()
 

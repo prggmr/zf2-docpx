@@ -1,14 +1,17 @@
-.. Form/Element/Number.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Number.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Number
 ===========================
 
 Methods
-+++++++
+-------
 
 getValidators
--------------
++++++++++++++
 
 .. function:: getValidators()
 
@@ -20,7 +23,7 @@ getValidators
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 

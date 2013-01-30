@@ -1,5 +1,8 @@
-.. Feed/Writer/Extension/RendererInterface.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Extension/RendererInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Feed\\Writer\\Extension\\setDataContainer
 ===============================================
@@ -15,6 +18,9 @@ Zend\\Feed\\Writer\\Extension\\setDataContainer
 
 
 
+Function
+********
+
 Zend\\Feed\\Writer\\Extension\\getDataContainer
 ===============================================
 
@@ -26,6 +32,9 @@ Zend\\Feed\\Writer\\Extension\\getDataContainer
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Feed\\Writer\\Extension\\setDomDocument
 =============================================
@@ -41,6 +50,9 @@ Zend\\Feed\\Writer\\Extension\\setDomDocument
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Feed\\Writer\\Extension\\render
 =====================================

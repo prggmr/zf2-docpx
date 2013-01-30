@@ -1,5 +1,8 @@
-.. Soap/Client.php generated using docpx on 01/30/13 03:32am
+.. Soap/Client.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Client
 ==================
@@ -7,10 +10,10 @@ Zend\\Soap\\Client
 \Zend\Soap\Client
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setWSDL
--------
++++++++
 
 .. function:: setWSDL()
 
@@ -39,7 +42,7 @@ setWSDL
 
 
 getWSDL
--------
++++++++
 
 .. function:: getWSDL()
 
@@ -51,7 +54,7 @@ getWSDL
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -69,7 +72,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -81,7 +84,7 @@ getOptions
 
 
 setSoapVersion
---------------
+++++++++++++++
 
 .. function:: setSoapVersion()
 
@@ -97,7 +100,7 @@ setSoapVersion
 
 
 getSoapVersion
---------------
+++++++++++++++
 
 .. function:: getSoapVersion()
 
@@ -109,7 +112,7 @@ getSoapVersion
 
 
 setClassmap
------------
++++++++++++
 
 .. function:: setClassmap()
 
@@ -125,7 +128,7 @@ setClassmap
 
 
 getClassmap
------------
++++++++++++
 
 .. function:: getClassmap()
 
@@ -137,7 +140,7 @@ getClassmap
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -153,7 +156,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -165,7 +168,7 @@ getEncoding
 
 
 validateUrn
------------
++++++++++++
 
 .. function:: validateUrn()
 
@@ -181,7 +184,7 @@ validateUrn
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -199,7 +202,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -211,7 +214,7 @@ getUri
 
 
 setLocation
------------
++++++++++++
 
 .. function:: setLocation()
 
@@ -229,7 +232,7 @@ setLocation
 
 
 getLocation
------------
++++++++++++
 
 .. function:: getLocation()
 
@@ -241,7 +244,7 @@ getLocation
 
 
 setStyle
---------
+++++++++
 
 .. function:: setStyle()
 
@@ -257,7 +260,7 @@ setStyle
 
 
 getStyle
---------
+++++++++
 
 .. function:: getStyle()
 
@@ -269,7 +272,7 @@ getStyle
 
 
 setEncodingMethod
------------------
++++++++++++++++++
 
 .. function:: setEncodingMethod()
 
@@ -285,7 +288,7 @@ setEncodingMethod
 
 
 getEncodingMethod
------------------
++++++++++++++++++
 
 .. function:: getEncodingMethod()
 
@@ -297,7 +300,7 @@ getEncodingMethod
 
 
 setHttpLogin
-------------
+++++++++++++
 
 .. function:: setHttpLogin()
 
@@ -311,7 +314,7 @@ setHttpLogin
 
 
 getHttpLogin
-------------
+++++++++++++
 
 .. function:: getHttpLogin()
 
@@ -323,7 +326,7 @@ getHttpLogin
 
 
 setHttpPassword
----------------
++++++++++++++++
 
 .. function:: setHttpPassword()
 
@@ -337,7 +340,7 @@ setHttpPassword
 
 
 getHttpPassword
----------------
++++++++++++++++
 
 .. function:: getHttpPassword()
 
@@ -349,7 +352,7 @@ getHttpPassword
 
 
 setProxyHost
-------------
+++++++++++++
 
 .. function:: setProxyHost()
 
@@ -363,7 +366,7 @@ setProxyHost
 
 
 getProxyHost
-------------
+++++++++++++
 
 .. function:: getProxyHost()
 
@@ -375,7 +378,7 @@ getProxyHost
 
 
 setProxyPort
-------------
+++++++++++++
 
 .. function:: setProxyPort()
 
@@ -389,7 +392,7 @@ setProxyPort
 
 
 getProxyPort
-------------
+++++++++++++
 
 .. function:: getProxyPort()
 
@@ -401,7 +404,7 @@ getProxyPort
 
 
 setProxyLogin
--------------
++++++++++++++
 
 .. function:: setProxyLogin()
 
@@ -415,7 +418,7 @@ setProxyLogin
 
 
 getProxyLogin
--------------
++++++++++++++
 
 .. function:: getProxyLogin()
 
@@ -427,7 +430,7 @@ getProxyLogin
 
 
 setProxyPassword
-----------------
+++++++++++++++++
 
 .. function:: setProxyPassword()
 
@@ -441,7 +444,7 @@ setProxyPassword
 
 
 setHttpsCertificate
--------------------
++++++++++++++++++++
 
 .. function:: setHttpsCertificate()
 
@@ -457,7 +460,7 @@ setHttpsCertificate
 
 
 getHttpsCertificate
--------------------
++++++++++++++++++++
 
 .. function:: getHttpsCertificate()
 
@@ -469,7 +472,7 @@ getHttpsCertificate
 
 
 setHttpsCertPassphrase
-----------------------
+++++++++++++++++++++++
 
 .. function:: setHttpsCertPassphrase()
 
@@ -483,7 +486,7 @@ setHttpsCertPassphrase
 
 
 getHttpsCertPassphrase
-----------------------
+++++++++++++++++++++++
 
 .. function:: getHttpsCertPassphrase()
 
@@ -495,7 +498,7 @@ getHttpsCertPassphrase
 
 
 setCompressionOptions
----------------------
++++++++++++++++++++++
 
 .. function:: setCompressionOptions()
 
@@ -509,7 +512,7 @@ setCompressionOptions
 
 
 getCompressionOptions
----------------------
++++++++++++++++++++++
 
 .. function:: getCompressionOptions()
 
@@ -521,7 +524,7 @@ getCompressionOptions
 
 
 getProxyPassword
-----------------
+++++++++++++++++
 
 .. function:: getProxyPassword()
 
@@ -533,7 +536,7 @@ getProxyPassword
 
 
 setStreamContext
-----------------
+++++++++++++++++
 
 .. function:: setStreamContext()
 
@@ -549,7 +552,7 @@ setStreamContext
 
 
 getStreamContext
-----------------
+++++++++++++++++
 
 .. function:: getStreamContext()
 
@@ -561,7 +564,7 @@ getStreamContext
 
 
 setSoapFeatures
----------------
++++++++++++++++
 
 .. function:: setSoapFeatures()
 
@@ -575,7 +578,7 @@ setSoapFeatures
 
 
 getSoapFeatures
----------------
++++++++++++++++
 
 .. function:: getSoapFeatures()
 
@@ -587,7 +590,7 @@ getSoapFeatures
 
 
 setWSDLCache
-------------
+++++++++++++
 
 .. function:: setWSDLCache()
 
@@ -601,7 +604,7 @@ setWSDLCache
 
 
 getWSDLCache
-------------
+++++++++++++
 
 .. function:: getWSDLCache()
 
@@ -613,7 +616,7 @@ getWSDLCache
 
 
 setUserAgent
-------------
+++++++++++++
 
 .. function:: setUserAgent()
 
@@ -627,7 +630,7 @@ setUserAgent
 
 
 getUserAgent
-------------
+++++++++++++
 
 .. function:: getUserAgent()
 
@@ -639,7 +642,7 @@ getUserAgent
 
 
 getLastRequest
---------------
+++++++++++++++
 
 .. function:: getLastRequest()
 
@@ -651,7 +654,7 @@ getLastRequest
 
 
 getLastResponse
----------------
++++++++++++++++
 
 .. function:: getLastResponse()
 
@@ -663,7 +666,7 @@ getLastResponse
 
 
 getLastRequestHeaders
----------------------
++++++++++++++++++++++
 
 .. function:: getLastRequestHeaders()
 
@@ -675,7 +678,7 @@ getLastRequestHeaders
 
 
 getLastResponseHeaders
-----------------------
+++++++++++++++++++++++
 
 .. function:: getLastResponseHeaders()
 
@@ -687,7 +690,7 @@ getLastResponseHeaders
 
 
 getLastMethod
--------------
++++++++++++++
 
 .. function:: getLastMethod()
 
@@ -699,7 +702,7 @@ getLastMethod
 
 
 _doRequest
-----------
+++++++++++
 
 .. function:: _doRequest()
 
@@ -721,7 +724,7 @@ _doRequest
 
 
 _initSoapClientObject
----------------------
++++++++++++++++++++++
 
 .. function:: _initSoapClientObject()
 
@@ -732,7 +735,7 @@ _initSoapClientObject
 
 
 _preProcessArguments
---------------------
+++++++++++++++++++++
 
 .. function:: _preProcessArguments()
 
@@ -748,7 +751,7 @@ _preProcessArguments
 
 
 _preProcessResult
------------------
++++++++++++++++++
 
 .. function:: _preProcessResult()
 
@@ -764,7 +767,7 @@ _preProcessResult
 
 
 addSoapInputHeader
-------------------
+++++++++++++++++++
 
 .. function:: addSoapInputHeader()
 
@@ -779,7 +782,7 @@ addSoapInputHeader
 
 
 resetSoapInputHeaders
----------------------
++++++++++++++++++++++
 
 .. function:: resetSoapInputHeaders()
 
@@ -791,7 +794,7 @@ resetSoapInputHeaders
 
 
 getLastSoapOutputHeaderObjects
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getLastSoapOutputHeaderObjects()
 
@@ -803,7 +806,7 @@ getLastSoapOutputHeaderObjects
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -818,7 +821,7 @@ __call
 
 
 call
-----
+++++
 
 .. function:: call()
 
@@ -833,7 +836,7 @@ call
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -847,7 +850,7 @@ getFunctions
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
@@ -861,7 +864,7 @@ getTypes
 
 
 setSoapClient
--------------
++++++++++++++
 
 .. function:: setSoapClient()
 
@@ -873,7 +876,7 @@ setSoapClient
 
 
 getSoapClient
--------------
++++++++++++++
 
 .. function:: getSoapClient()
 
@@ -883,7 +886,7 @@ getSoapClient
 
 
 setCookie
----------
++++++++++
 
 .. function:: setCookie()
 

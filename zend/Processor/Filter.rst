@@ -1,14 +1,17 @@
-.. Config/Processor/Filter.php generated using docpx on 01/30/13 03:32am
+.. Config/Processor/Filter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Processor\\Filter
 ===============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setFilter
----------
++++++++++
 
 .. function:: setFilter()
 
@@ -32,7 +35,7 @@ setFilter
 
 
 getFilter
----------
++++++++++
 
 .. function:: getFilter()
 
@@ -42,7 +45,7 @@ getFilter
 
 
 process
--------
++++++++
 
 .. function:: process()
 
@@ -58,7 +61,7 @@ process
 
 
 processValue
-------------
+++++++++++++
 
 .. function:: processValue()
 

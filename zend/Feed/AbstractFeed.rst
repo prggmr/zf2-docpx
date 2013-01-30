@@ -1,5 +1,8 @@
-.. Feed/Reader/Feed/AbstractFeed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Feed/AbstractFeed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Feed\\AbstractFeed
 ======================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\Feed\\AbstractFeed
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setOriginalSourceUri
---------------------
+++++++++++++++++++++
 
 .. function:: setOriginalSourceUri()
 
@@ -37,7 +40,7 @@ setOriginalSourceUri
 
 
 getOriginalSourceUri
---------------------
+++++++++++++++++++++
 
 .. function:: getOriginalSourceUri()
 
@@ -50,7 +53,7 @@ getOriginalSourceUri
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -63,7 +66,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -75,7 +78,7 @@ current
 
 
 getDomDocument
---------------
+++++++++++++++
 
 .. function:: getDomDocument()
 
@@ -87,7 +90,7 @@ getDomDocument
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -99,7 +102,7 @@ getEncoding
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -111,7 +114,7 @@ saveXml
 
 
 getElement
-----------
+++++++++++
 
 .. function:: getElement()
 
@@ -123,7 +126,7 @@ getElement
 
 
 getXpath
---------
+++++++++
 
 .. function:: getXpath()
 
@@ -135,7 +138,7 @@ getXpath
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -147,7 +150,7 @@ getType
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -159,7 +162,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -169,7 +172,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -179,7 +182,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -191,21 +194,21 @@ valid
 
 
 getExtensions
--------------
++++++++++++++
 
 .. function:: getExtensions()
 
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
 
 
 getExtension
-------------
+++++++++++++
 
 .. function:: getExtension()
 
@@ -219,14 +222,14 @@ getExtension
 
 
 loadExtensions
---------------
+++++++++++++++
 
 .. function:: loadExtensions()
 
 
 
 indexEntries
-------------
+++++++++++++
 
 .. function:: indexEntries()
 
@@ -236,7 +239,7 @@ indexEntries
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

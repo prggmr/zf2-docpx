@@ -1,14 +1,17 @@
-.. Mvc/SendResponseListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/SendResponseListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\SendResponseListener
 ===============================
 
 Methods
-+++++++
+-------
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -22,7 +25,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -36,7 +39,7 @@ getEventManager
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -50,7 +53,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -64,7 +67,7 @@ detach
 
 
 sendResponse
-------------
+++++++++++++
 
 .. function:: sendResponse()
 
@@ -78,7 +81,7 @@ sendResponse
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 
@@ -90,7 +93,7 @@ getEvent
 
 
 setEvent
---------
+++++++++
 
 .. function:: setEvent()
 
@@ -104,7 +107,7 @@ setEvent
 
 
 attachDefaultListeners
-----------------------
+++++++++++++++++++++++
 
 .. function:: attachDefaultListeners()
 

@@ -1,5 +1,8 @@
-.. Ldap/Filter/StringFilter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter/StringFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter\\StringFilter
 ================================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter\\StringFilter
 Zend\Ldap\Filter\StringFilter provides a simple custom string filter.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

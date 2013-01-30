@@ -1,5 +1,8 @@
-.. Barcode/Object/Code39.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Code39.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Code39
 =============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Code39
 Class for generate Code39 barcode
 
 Methods
-+++++++
+-------
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -22,7 +25,7 @@ checkSpecificParams
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -34,7 +37,7 @@ calculateBarcodeWidth
 
 
 setText
--------
++++++++
 
 .. function:: setText()
 
@@ -48,7 +51,7 @@ setText
 
 
 getText
--------
++++++++
 
 .. function:: getText()
 
@@ -60,7 +63,7 @@ getText
 
 
 getTextToDisplay
-----------------
+++++++++++++++++
 
 .. function:: getTextToDisplay()
 
@@ -72,7 +75,7 @@ getTextToDisplay
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -84,7 +87,7 @@ prepareBarcode
 
 
 getChecksum
------------
++++++++++++
 
 .. function:: getChecksum()
 

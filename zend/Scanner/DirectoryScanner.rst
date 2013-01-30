@@ -1,14 +1,17 @@
-.. Code/Scanner/DirectoryScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/DirectoryScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\DirectoryScanner
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 addDirectory
-------------
+++++++++++++
 
 .. function:: addDirectory()
 
@@ -32,7 +35,7 @@ addDirectory
 
 
 addDirectoryScanner
--------------------
++++++++++++++++++++
 
 .. function:: addDirectoryScanner()
 
@@ -44,7 +47,7 @@ addDirectoryScanner
 
 
 addFileScanner
---------------
+++++++++++++++
 
 .. function:: addFileScanner()
 
@@ -56,7 +59,7 @@ addFileScanner
 
 
 scan
-----
+++++
 
 .. function:: scan()
 
@@ -66,7 +69,7 @@ scan
 
 
 getNamespaces
--------------
++++++++++++++
 
 .. function:: getNamespaces()
 
@@ -76,7 +79,7 @@ getNamespaces
 
 
 getFiles
---------
+++++++++
 
 .. function:: getFiles()
 
@@ -88,7 +91,7 @@ getFiles
 
 
 getClassNames
--------------
++++++++++++++
 
 .. function:: getClassNames()
 
@@ -98,7 +101,7 @@ getClassNames
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -110,7 +113,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -122,7 +125,7 @@ hasClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -138,7 +141,7 @@ getClass
 
 
 createClassToFileScannerCache
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: createClassToFileScannerCache()
 
@@ -150,7 +153,7 @@ createClassToFileScannerCache
 
 
 export
-------
+++++++
 
 .. function:: export()
 
@@ -161,7 +164,7 @@ export
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

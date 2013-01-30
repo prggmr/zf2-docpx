@@ -1,5 +1,8 @@
-.. XmlRpc/AbstractValue.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/AbstractValue.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\AbstractValue
 ===========================
@@ -14,10 +17,10 @@ Using this function, users/Zend\XmlRpc\Client object can create the Zend\XmlRpc\
 from PHP variables, XML string or by specifying the exact XML-RPC natvie type
 
 Methods
-+++++++
+-------
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -29,7 +32,7 @@ getType
 
 
 getGenerator
-------------
+++++++++++++
 
 .. function:: getGenerator()
 
@@ -41,7 +44,7 @@ getGenerator
 
 
 setGenerator
-------------
+++++++++++++
 
 .. function:: setGenerator()
 
@@ -55,7 +58,7 @@ setGenerator
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -69,7 +72,7 @@ setEncoding
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -81,7 +84,7 @@ getValue
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -93,7 +96,7 @@ saveXml
 
 
 generateXml
------------
++++++++++++
 
 .. function:: generateXml()
 
@@ -105,7 +108,7 @@ generateXml
 
 
 getXmlRpcValue
---------------
+++++++++++++++
 
 .. function:: getXmlRpcValue()
 
@@ -129,7 +132,7 @@ getXmlRpcValue
 
 
 getXmlRpcTypeByValue
---------------------
+++++++++++++++++++++
 
 .. function:: getXmlRpcTypeByValue()
 
@@ -146,7 +149,7 @@ getXmlRpcTypeByValue
 
 
 _phpVarToNativeXmlRpc
----------------------
++++++++++++++++++++++
 
 .. function:: _phpVarToNativeXmlRpc()
 
@@ -164,7 +167,7 @@ _phpVarToNativeXmlRpc
 
 
 _xmlStringToNativeXmlRpc
-------------------------
+++++++++++++++++++++++++
 
 .. function:: _xmlStringToNativeXmlRpc()
 
@@ -183,14 +186,14 @@ It can be also a valid XML string for conversion
 
 
 _createSimpleXMLElement
------------------------
++++++++++++++++++++++++
 
 .. function:: _createSimpleXMLElement()
 
 
 
 _extractTypeAndValue
---------------------
+++++++++++++++++++++
 
 .. function:: _extractTypeAndValue()
 
@@ -206,7 +209,7 @@ _extractTypeAndValue
 
 
 _setXML
--------
++++++++
 
 .. function:: _setXML()
 
@@ -220,56 +223,56 @@ _setXML
 
 
 Constants
-+++++++++
+---------
 
 AUTO_DETECT_TYPE
-================
+++++++++++++++++
 
 Specify that the XML-RPC native type will be auto detected from a PHP variable type
 
 XML_STRING
-==========
+++++++++++
 
 Specify that the XML-RPC value will be parsed out from a given XML code
 
 XMLRPC_TYPE_I4
-==============
+++++++++++++++
 
 All the XML-RPC native types
 
 XMLRPC_TYPE_INTEGER
-===================
++++++++++++++++++++
 
 XMLRPC_TYPE_I8
-==============
+++++++++++++++
 
 XMLRPC_TYPE_APACHEI8
-====================
+++++++++++++++++++++
 
 XMLRPC_TYPE_DOUBLE
-==================
+++++++++++++++++++
 
 XMLRPC_TYPE_BOOLEAN
-===================
++++++++++++++++++++
 
 XMLRPC_TYPE_STRING
-==================
+++++++++++++++++++
 
 XMLRPC_TYPE_DATETIME
-====================
+++++++++++++++++++++
 
 XMLRPC_TYPE_BASE64
-==================
+++++++++++++++++++
 
 XMLRPC_TYPE_ARRAY
-=================
++++++++++++++++++
 
 XMLRPC_TYPE_STRUCT
-==================
+++++++++++++++++++
 
 XMLRPC_TYPE_NIL
-===============
++++++++++++++++
 
 XMLRPC_TYPE_APACHENIL
-=====================
++++++++++++++++++++++
 

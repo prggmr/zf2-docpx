@@ -1,5 +1,8 @@
-.. Uri/UriInterface.php generated using docpx on 01/30/13 03:32am
+.. Uri/UriInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Uri\\__construct
 ======================
@@ -15,6 +18,9 @@ Zend\\Uri\\__construct
 
 
 
+Function
+********
+
 Zend\\Uri\\isValid
 ==================
 
@@ -29,6 +35,9 @@ Zend\\Uri\\isValid
 
 
 
+Function
+********
+
 Zend\\Uri\\isValidRelative
 ==========================
 
@@ -41,6 +50,9 @@ Zend\\Uri\\isValidRelative
 
 
 
+Function
+********
+
 Zend\\Uri\\isAbsolute
 =====================
 
@@ -52,6 +64,9 @@ Zend\\Uri\\isAbsolute
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Uri\\parse
 ================
@@ -67,6 +82,9 @@ Zend\\Uri\\parse
 
 
 
+Function
+********
+
 Zend\\Uri\\toString
 ===================
 
@@ -80,6 +98,9 @@ Zend\\Uri\\toString
     :throws: Exception\InvalidUriException 
 
 
+
+Function
+********
 
 Zend\\Uri\\normalize
 ====================
@@ -101,6 +122,9 @@ Zend\\Uri\\normalize
 
 
 
+Function
+********
+
 Zend\\Uri\\makeRelative
 =======================
 
@@ -121,6 +145,9 @@ Zend\\Uri\\makeRelative
 
 
 
+Function
+********
+
 Zend\\Uri\\getScheme
 ====================
 
@@ -132,6 +159,9 @@ Zend\\Uri\\getScheme
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Uri\\getUserInfo
 ======================
@@ -145,6 +175,9 @@ Zend\\Uri\\getUserInfo
 
 
 
+Function
+********
+
 Zend\\Uri\\getHost
 ==================
 
@@ -156,6 +189,9 @@ Zend\\Uri\\getHost
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Uri\\getPort
 ==================
@@ -169,6 +205,9 @@ Zend\\Uri\\getPort
 
 
 
+Function
+********
+
 Zend\\Uri\\getPath
 ==================
 
@@ -181,6 +220,9 @@ Zend\\Uri\\getPath
 
 
 
+Function
+********
+
 Zend\\Uri\\getQuery
 ===================
 
@@ -192,6 +234,9 @@ Zend\\Uri\\getQuery
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Uri\\getQueryAsArray
 ==========================
@@ -208,6 +253,9 @@ Zend\\Uri\\getQueryAsArray
 
 
 
+Function
+********
+
 Zend\\Uri\\getFragment
 ======================
 
@@ -219,6 +267,9 @@ Zend\\Uri\\getFragment
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Uri\\setScheme
 ====================
@@ -244,6 +295,9 @@ Zend\\Uri\\setScheme
 
 
 
+Function
+********
+
 Zend\\Uri\\setUserInfo
 ======================
 
@@ -260,6 +314,9 @@ Zend\\Uri\\setUserInfo
 does not have this part
 
 
+
+Function
+********
 
 Zend\\Uri\\setHost
 ==================
@@ -288,6 +345,9 @@ Zend\\Uri\\setHost
 
 
 
+Function
+********
+
 Zend\\Uri\\setPort
 ==================
 
@@ -302,6 +362,9 @@ Zend\\Uri\\setPort
 
 
 
+Function
+********
+
 Zend\\Uri\\setPath
 ==================
 
@@ -315,6 +378,9 @@ Zend\\Uri\\setPath
     :rtype: Uri 
 
 
+
+Function
+********
 
 Zend\\Uri\\setQuery
 ===================
@@ -334,6 +400,9 @@ Zend\\Uri\\setQuery
 
 
 
+Function
+********
+
 Zend\\Uri\\setFragment
 ======================
 
@@ -350,6 +419,9 @@ Zend\\Uri\\setFragment
 does not have this part
 
 
+
+Function
+********
 
 Zend\\Uri\\__toString
 =====================

@@ -1,14 +1,17 @@
-.. Db/Adapter/Profiler/Profiler.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Profiler/Profiler.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Profiler\\Profiler
 =====================================
 
 Methods
-+++++++
+-------
 
 profilerStart
--------------
++++++++++++++
 
 .. function:: profilerStart()
 
@@ -21,7 +24,7 @@ profilerStart
 
 
 profilerFinish
---------------
+++++++++++++++
 
 .. function:: profilerFinish()
 
@@ -31,7 +34,7 @@ profilerFinish
 
 
 getLastProfile
---------------
+++++++++++++++
 
 .. function:: getLastProfile()
 
@@ -41,7 +44,7 @@ getLastProfile
 
 
 getProfiles
------------
++++++++++++
 
 .. function:: getProfiles()
 

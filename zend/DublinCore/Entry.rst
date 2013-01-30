@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/DublinCore/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/DublinCore/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\DublinCore\\Entry
 ================================================
 
 Methods
-+++++++
+-------
 
 getAuthor
----------
++++++++++
 
 .. function:: getAuthor()
 
@@ -22,7 +25,7 @@ getAuthor
 
 
 getAuthors
-----------
+++++++++++
 
 .. function:: getAuthors()
 
@@ -34,7 +37,7 @@ getAuthors
 
 
 getCategories
--------------
++++++++++++++
 
 .. function:: getCategories()
 
@@ -46,7 +49,7 @@ getCategories
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -58,7 +61,7 @@ getContent
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -70,7 +73,7 @@ getDescription
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -82,7 +85,7 @@ getId
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -94,7 +97,7 @@ getTitle
 
 
 getDate
--------
++++++++
 
 .. function:: getDate()
 
@@ -104,7 +107,7 @@ getDate
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

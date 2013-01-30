@@ -1,14 +1,17 @@
-.. Mvc/MvcEvent.php generated using docpx on 01/30/13 03:32am
+.. Mvc/MvcEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\MvcEvent
 ===================
 
 Methods
-+++++++
+-------
 
 setApplication
---------------
+++++++++++++++
 
 .. function:: setApplication()
 
@@ -22,7 +25,7 @@ setApplication
 
 
 getApplication
---------------
+++++++++++++++
 
 .. function:: getApplication()
 
@@ -34,7 +37,7 @@ getApplication
 
 
 getRouter
----------
++++++++++
 
 .. function:: getRouter()
 
@@ -46,7 +49,7 @@ getRouter
 
 
 setRouter
----------
++++++++++
 
 .. function:: setRouter()
 
@@ -60,7 +63,7 @@ setRouter
 
 
 getRouteMatch
--------------
++++++++++++++
 
 .. function:: getRouteMatch()
 
@@ -72,7 +75,7 @@ getRouteMatch
 
 
 setRouteMatch
--------------
++++++++++++++
 
 .. function:: setRouteMatch()
 
@@ -86,7 +89,7 @@ setRouteMatch
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -98,7 +101,7 @@ getRequest
 
 
 setRequest
-----------
+++++++++++
 
 .. function:: setRequest()
 
@@ -112,7 +115,7 @@ setRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -124,7 +127,7 @@ getResponse
 
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -138,7 +141,7 @@ setResponse
 
 
 setViewModel
-------------
+++++++++++++
 
 .. function:: setViewModel()
 
@@ -152,7 +155,7 @@ setViewModel
 
 
 getViewModel
-------------
+++++++++++++
 
 .. function:: getViewModel()
 
@@ -164,7 +167,7 @@ getViewModel
 
 
 getResult
----------
++++++++++
 
 .. function:: getResult()
 
@@ -176,7 +179,7 @@ getResult
 
 
 setResult
----------
++++++++++
 
 .. function:: setResult()
 
@@ -190,7 +193,7 @@ setResult
 
 
 isError
--------
++++++++
 
 .. function:: isError()
 
@@ -202,7 +205,7 @@ isError
 
 
 setError
---------
+++++++++
 
 .. function:: setError()
 
@@ -216,7 +219,7 @@ setError
 
 
 getError
---------
+++++++++
 
 .. function:: getError()
 
@@ -228,7 +231,7 @@ getError
 
 
 getController
--------------
++++++++++++++
 
 .. function:: getController()
 
@@ -240,7 +243,7 @@ getController
 
 
 setController
--------------
++++++++++++++
 
 .. function:: setController()
 
@@ -254,7 +257,7 @@ setController
 
 
 getControllerClass
-------------------
+++++++++++++++++++
 
 .. function:: getControllerClass()
 
@@ -266,7 +269,7 @@ getControllerClass
 
 
 setControllerClass
-------------------
+++++++++++++++++++
 
 .. function:: setControllerClass()
 
@@ -282,26 +285,26 @@ setControllerClass
 
 
 Constants
-+++++++++
+---------
 
 EVENT_BOOTSTRAP
-===============
++++++++++++++++
 
 EVENT_DISPATCH
-==============
+++++++++++++++
 
 EVENT_DISPATCH_ERROR
-====================
+++++++++++++++++++++
 
 EVENT_FINISH
-============
+++++++++++++
 
 EVENT_RENDER
-============
+++++++++++++
 
 EVENT_RENDER_ERROR
-==================
+++++++++++++++++++
 
 EVENT_ROUTE
-===========
++++++++++++
 

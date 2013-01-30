@@ -1,14 +1,17 @@
-.. Validator/Regex.php generated using docpx on 01/30/13 03:32am
+.. Validator/Regex.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Regex
 ======================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getPattern
-----------
+++++++++++
 
 .. function:: getPattern()
 
@@ -34,7 +37,7 @@ getPattern
 
 
 setPattern
-----------
+++++++++++
 
 .. function:: setPattern()
 
@@ -50,7 +53,7 @@ setPattern
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -66,14 +69,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 NOT_MATCH
-=========
++++++++++
 
 ERROROUS
-========
+++++++++
 

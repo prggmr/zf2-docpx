@@ -1,5 +1,8 @@
-.. Dom/Css2Xpath.php generated using docpx on 01/30/13 03:32am
+.. Dom/Css2Xpath.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Dom\\Css2Xpath
 ====================
@@ -7,10 +10,10 @@ Zend\\Dom\\Css2Xpath
 Transform CSS selectors to XPath
 
 Methods
-+++++++
+-------
 
 transform
----------
++++++++++
 
 .. function:: transform()
 
@@ -24,7 +27,7 @@ transform
 
 
 _tokenize
----------
++++++++++
 
 .. function:: _tokenize()
 

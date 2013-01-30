@@ -1,5 +1,8 @@
-.. Session/Storage/SessionArrayStorage.php generated using docpx on 01/30/13 03:32am
+.. Session/Storage/SessionArrayStorage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Storage\\SessionArrayStorage
 ===========================================
@@ -10,10 +13,10 @@ Replaces the $_SESSION superglobal with an ArrayObject that allows for
 property access, metadata storage, locking, and immutability.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -41,7 +44,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -56,7 +59,7 @@ __set
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -70,7 +73,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -84,7 +87,7 @@ __unset
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -96,7 +99,7 @@ __destruct
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -110,7 +113,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -124,7 +127,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -139,7 +142,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -153,7 +156,7 @@ offsetUnset
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -165,7 +168,7 @@ count
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -177,7 +180,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 
@@ -189,7 +192,7 @@ unserialize
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -201,7 +204,7 @@ getIterator
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -217,7 +220,7 @@ fromArray
 
 
 markImmutable
--------------
++++++++++++++
 
 .. function:: markImmutable()
 
@@ -229,7 +232,7 @@ markImmutable
 
 
 isImmutable
------------
++++++++++++
 
 .. function:: isImmutable()
 
@@ -241,7 +244,7 @@ isImmutable
 
 
 lock
-----
+++++
 
 .. function:: lock()
 
@@ -255,7 +258,7 @@ lock
 
 
 isLocked
---------
+++++++++
 
 .. function:: isLocked()
 
@@ -269,7 +272,7 @@ isLocked
 
 
 unlock
-------
+++++++
 
 .. function:: unlock()
 
@@ -283,7 +286,7 @@ unlock
 
 
 setMetadata
------------
++++++++++++
 
 .. function:: setMetadata()
 
@@ -308,7 +311,7 @@ setMetadata
 
 
 getMetadata
------------
++++++++++++
 
 .. function:: getMetadata()
 
@@ -325,7 +328,7 @@ getMetadata
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -341,7 +344,7 @@ clear
 
 
 getRequestAccessTime
---------------------
+++++++++++++++++++++
 
 .. function:: getRequestAccessTime()
 
@@ -353,7 +356,7 @@ getRequestAccessTime
 
 
 setRequestAccessTime
---------------------
+++++++++++++++++++++
 
 .. function:: setRequestAccessTime()
 
@@ -367,7 +370,7 @@ setRequestAccessTime
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

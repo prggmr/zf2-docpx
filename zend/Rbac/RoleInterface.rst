@@ -1,5 +1,8 @@
-.. Permissions/Rbac/RoleInterface.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Rbac/RoleInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Permissions\\Rbac\\getName
 ================================
@@ -12,6 +15,9 @@ Zend\\Permissions\\Rbac\\getName
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Permissions\\Rbac\\addPermission
 ======================================
@@ -27,6 +33,9 @@ Zend\\Permissions\\Rbac\\addPermission
 
 
 
+Function
+********
+
 Zend\\Permissions\\Rbac\\hasPermission
 ======================================
 
@@ -40,6 +49,9 @@ Zend\\Permissions\\Rbac\\hasPermission
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Permissions\\Rbac\\addChild
 =================================
@@ -55,6 +67,9 @@ Zend\\Permissions\\Rbac\\addChild
 
 
 
+Function
+********
+
 Zend\\Permissions\\Rbac\\setParent
 ==================================
 
@@ -66,6 +81,9 @@ Zend\\Permissions\\Rbac\\setParent
     :rtype: RoleInterface 
 
 
+
+Function
+********
 
 Zend\\Permissions\\Rbac\\getParent
 ==================================

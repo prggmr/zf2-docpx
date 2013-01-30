@@ -1,14 +1,17 @@
-.. Mail/Storage/Pop3.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Pop3.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Pop3
 =========================
 
 Methods
-+++++++
+-------
 
 countMessages
--------------
++++++++++++++
 
 .. function:: countMessages()
 
@@ -23,7 +26,7 @@ countMessages
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -39,7 +42,7 @@ getSize
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -55,21 +58,21 @@ getMessage
 
 
 getRawHeader
-------------
+++++++++++++
 
 .. function:: getRawHeader()
 
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -90,7 +93,7 @@ __construct
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -101,7 +104,7 @@ close
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -112,7 +115,7 @@ noop
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -128,7 +131,7 @@ removeMessage
 
 
 getUniqueId
------------
++++++++++++
 
 .. function:: getUniqueId()
 
@@ -146,7 +149,7 @@ getUniqueId
 
 
 getNumberByUniqueId
--------------------
++++++++++++++++++++
 
 .. function:: getNumberByUniqueId()
 
@@ -165,7 +168,7 @@ getNumberByUniqueId
 
 
 __get
------
++++++
 
 .. function:: __get()
 

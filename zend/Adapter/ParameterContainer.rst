@@ -1,14 +1,17 @@
-.. Db/Adapter/ParameterContainer.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/ParameterContainer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\ParameterContainer
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -34,7 +37,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -48,7 +51,7 @@ offsetGet
 
 
 offsetSetReference
-------------------
+++++++++++++++++++
 
 .. function:: offsetSetReference()
 
@@ -60,7 +63,7 @@ offsetSetReference
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -74,7 +77,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -88,7 +91,7 @@ offsetUnset
 
 
 setFromArray
-------------
+++++++++++++
 
 .. function:: setFromArray()
 
@@ -102,7 +105,7 @@ setFromArray
 
 
 offsetSetErrata
----------------
++++++++++++++++
 
 .. function:: offsetSetErrata()
 
@@ -115,7 +118,7 @@ offsetSetErrata
 
 
 offsetGetErrata
----------------
++++++++++++++++
 
 .. function:: offsetGetErrata()
 
@@ -131,7 +134,7 @@ offsetGetErrata
 
 
 offsetHasErrata
----------------
++++++++++++++++
 
 .. function:: offsetHasErrata()
 
@@ -145,7 +148,7 @@ offsetHasErrata
 
 
 offsetUnsetErrata
------------------
++++++++++++++++++
 
 .. function:: offsetUnsetErrata()
 
@@ -159,7 +162,7 @@ offsetUnsetErrata
 
 
 getErrataIterator
------------------
++++++++++++++++++
 
 .. function:: getErrataIterator()
 
@@ -171,7 +174,7 @@ getErrataIterator
 
 
 getNamedArray
--------------
++++++++++++++
 
 .. function:: getNamedArray()
 
@@ -183,7 +186,7 @@ getNamedArray
 
 
 getPositionalArray
-------------------
+++++++++++++++++++
 
 .. function:: getPositionalArray()
 
@@ -195,7 +198,7 @@ getPositionalArray
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -207,7 +210,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -219,7 +222,7 @@ current
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -231,7 +234,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -243,7 +246,7 @@ key
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -255,7 +258,7 @@ valid
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -265,7 +268,7 @@ rewind
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -280,23 +283,23 @@ merge
 
 
 Constants
-+++++++++
+---------
 
 TYPE_AUTO
-=========
++++++++++
 
 TYPE_NULL
-=========
++++++++++
 
 TYPE_DOUBLE
-===========
++++++++++++
 
 TYPE_INTEGER
-============
+++++++++++++
 
 TYPE_STRING
-===========
++++++++++++
 
 TYPE_LOB
-========
+++++++++
 

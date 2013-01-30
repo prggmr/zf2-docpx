@@ -1,14 +1,17 @@
-.. Code/Generator/ClassGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/ClassGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\ClassGenerator
 =====================================
 
 Methods
-+++++++
+-------
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -22,7 +25,7 @@ fromReflection
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -37,7 +40,7 @@ fromArray
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -55,7 +58,7 @@ __construct
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -67,7 +70,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -77,7 +80,7 @@ getName
 
 
 setNamespaceName
-----------------
+++++++++++++++++
 
 .. function:: setNamespaceName()
 
@@ -89,7 +92,7 @@ setNamespaceName
 
 
 getNamespaceName
-----------------
+++++++++++++++++
 
 .. function:: getNamespaceName()
 
@@ -99,7 +102,7 @@ getNamespaceName
 
 
 setContainingFileGenerator
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: setContainingFileGenerator()
 
@@ -111,7 +114,7 @@ setContainingFileGenerator
 
 
 getContainingFileGenerator
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getContainingFileGenerator()
 
@@ -121,7 +124,7 @@ getContainingFileGenerator
 
 
 setDocBlock
------------
++++++++++++
 
 .. function:: setDocBlock()
 
@@ -133,7 +136,7 @@ setDocBlock
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -143,7 +146,7 @@ getDocBlock
 
 
 setFlags
---------
+++++++++
 
 .. function:: setFlags()
 
@@ -155,7 +158,7 @@ setFlags
 
 
 addFlag
--------
++++++++
 
 .. function:: addFlag()
 
@@ -167,7 +170,7 @@ addFlag
 
 
 removeFlag
-----------
+++++++++++
 
 .. function:: removeFlag()
 
@@ -179,7 +182,7 @@ removeFlag
 
 
 setAbstract
------------
++++++++++++
 
 .. function:: setAbstract()
 
@@ -191,7 +194,7 @@ setAbstract
 
 
 isAbstract
-----------
+++++++++++
 
 .. function:: isAbstract()
 
@@ -201,7 +204,7 @@ isAbstract
 
 
 setFinal
---------
+++++++++
 
 .. function:: setFinal()
 
@@ -213,7 +216,7 @@ setFinal
 
 
 isFinal
--------
++++++++
 
 .. function:: isFinal()
 
@@ -223,7 +226,7 @@ isFinal
 
 
 setExtendedClass
-----------------
+++++++++++++++++
 
 .. function:: setExtendedClass()
 
@@ -235,7 +238,7 @@ setExtendedClass
 
 
 getExtendedClass
-----------------
+++++++++++++++++
 
 .. function:: getExtendedClass()
 
@@ -245,7 +248,7 @@ getExtendedClass
 
 
 setImplementedInterfaces
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setImplementedInterfaces()
 
@@ -257,7 +260,7 @@ setImplementedInterfaces
 
 
 getImplementedInterfaces
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getImplementedInterfaces()
 
@@ -267,7 +270,7 @@ getImplementedInterfaces
 
 
 addProperties
--------------
++++++++++++++
 
 .. function:: addProperties()
 
@@ -279,7 +282,7 @@ addProperties
 
 
 addProperty
------------
++++++++++++
 
 .. function:: addProperty()
 
@@ -297,7 +300,7 @@ addProperty
 
 
 addPropertyFromGenerator
-------------------------
+++++++++++++++++++++++++
 
 .. function:: addPropertyFromGenerator()
 
@@ -313,7 +316,7 @@ addPropertyFromGenerator
 
 
 addUse
-------
+++++++
 
 .. function:: addUse()
 
@@ -325,7 +328,7 @@ addUse
 
 
 getProperties
--------------
++++++++++++++
 
 .. function:: getProperties()
 
@@ -335,7 +338,7 @@ getProperties
 
 
 getProperty
------------
++++++++++++
 
 .. function:: getProperty()
 
@@ -347,7 +350,7 @@ getProperty
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -359,7 +362,7 @@ getUses
 
 
 hasProperty
------------
++++++++++++
 
 .. function:: hasProperty()
 
@@ -371,7 +374,7 @@ hasProperty
 
 
 addMethods
-----------
+++++++++++
 
 .. function:: addMethods()
 
@@ -383,7 +386,7 @@ addMethods
 
 
 addMethod
----------
++++++++++
 
 .. function:: addMethod()
 
@@ -403,7 +406,7 @@ addMethod
 
 
 addMethodFromGenerator
-----------------------
+++++++++++++++++++++++
 
 .. function:: addMethodFromGenerator()
 
@@ -419,7 +422,7 @@ addMethodFromGenerator
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -429,7 +432,7 @@ getMethods
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -441,7 +444,7 @@ getMethod
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -453,7 +456,7 @@ hasMethod
 
 
 isSourceDirty
--------------
++++++++++++++
 
 .. function:: isSourceDirty()
 
@@ -463,7 +466,7 @@ isSourceDirty
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -475,11 +478,11 @@ generate
 
 
 Constants
-+++++++++
+---------
 
 FLAG_ABSTRACT
-=============
++++++++++++++
 
 FLAG_FINAL
-==========
+++++++++++
 

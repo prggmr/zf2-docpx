@@ -1,14 +1,17 @@
-.. Code/Scanner/ClassScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/ClassScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\ClassScanner
 =================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -36,7 +39,7 @@ getAnnotations
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -46,7 +49,7 @@ getDocComment
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -56,7 +59,7 @@ getDocBlock
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -66,7 +69,7 @@ getName
 
 
 getShortName
-------------
+++++++++++++
 
 .. function:: getShortName()
 
@@ -76,7 +79,7 @@ getShortName
 
 
 getLineStart
-------------
+++++++++++++
 
 .. function:: getLineStart()
 
@@ -86,7 +89,7 @@ getLineStart
 
 
 getLineEnd
-----------
+++++++++++
 
 .. function:: getLineEnd()
 
@@ -96,7 +99,7 @@ getLineEnd
 
 
 isFinal
--------
++++++++
 
 .. function:: isFinal()
 
@@ -106,7 +109,7 @@ isFinal
 
 
 isInstantiable
---------------
+++++++++++++++
 
 .. function:: isInstantiable()
 
@@ -116,7 +119,7 @@ isInstantiable
 
 
 isAbstract
-----------
+++++++++++
 
 .. function:: isAbstract()
 
@@ -126,7 +129,7 @@ isAbstract
 
 
 isInterface
------------
++++++++++++
 
 .. function:: isInterface()
 
@@ -136,7 +139,7 @@ isInterface
 
 
 hasParentClass
---------------
+++++++++++++++
 
 .. function:: hasParentClass()
 
@@ -146,7 +149,7 @@ hasParentClass
 
 
 getParentClass
---------------
+++++++++++++++
 
 .. function:: getParentClass()
 
@@ -156,7 +159,7 @@ getParentClass
 
 
 getInterfaces
--------------
++++++++++++++
 
 .. function:: getInterfaces()
 
@@ -166,7 +169,7 @@ getInterfaces
 
 
 getConstants
-------------
+++++++++++++
 
 .. function:: getConstants()
 
@@ -176,7 +179,7 @@ getConstants
 
 
 getPropertyNames
-----------------
+++++++++++++++++
 
 .. function:: getPropertyNames()
 
@@ -188,7 +191,7 @@ getPropertyNames
 
 
 getProperties
--------------
++++++++++++++
 
 .. function:: getProperties()
 
@@ -200,14 +203,14 @@ getProperties
 
 
 getProperty
------------
++++++++++++
 
 .. function:: getProperty()
 
 
 
 getMethodNames
---------------
+++++++++++++++
 
 .. function:: getMethodNames()
 
@@ -217,7 +220,7 @@ getMethodNames
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -227,7 +230,7 @@ getMethods
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -240,7 +243,7 @@ getMethod
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -252,21 +255,21 @@ hasMethod
 
 
 export
-------
+++++++
 
 .. function:: export()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
 
 
 scan
-----
+++++
 
 .. function:: scan()
 

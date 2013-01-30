@@ -1,14 +1,17 @@
-.. Config/Processor/Translator.php generated using docpx on 01/30/13 03:32am
+.. Config/Processor/Translator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Processor\\Translator
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setTranslator
--------------
++++++++++++++
 
 .. function:: setTranslator()
 
@@ -35,7 +38,7 @@ setTranslator
 
 
 getTranslator
--------------
++++++++++++++
 
 .. function:: getTranslator()
 
@@ -45,7 +48,7 @@ getTranslator
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -57,7 +60,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -67,7 +70,7 @@ getLocale
 
 
 setTextDomain
--------------
++++++++++++++
 
 .. function:: setTextDomain()
 
@@ -79,7 +82,7 @@ setTextDomain
 
 
 getTextDomain
--------------
++++++++++++++
 
 .. function:: getTextDomain()
 
@@ -89,7 +92,7 @@ getTextDomain
 
 
 process
--------
++++++++
 
 .. function:: process()
 
@@ -105,7 +108,7 @@ process
 
 
 processValue
-------------
+++++++++++++
 
 .. function:: processValue()
 

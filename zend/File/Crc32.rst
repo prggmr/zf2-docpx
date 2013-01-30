@@ -1,5 +1,8 @@
-.. Validator/File/Crc32.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Crc32.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Crc32
 ============================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Crc32
 Validator for the crc32 hash of given files
 
 Methods
-+++++++
+-------
 
 getCrc32
---------
+++++++++
 
 .. function:: getCrc32()
 
@@ -22,7 +25,7 @@ getCrc32
 
 
 setCrc32
---------
+++++++++
 
 .. function:: setCrc32()
 
@@ -36,7 +39,7 @@ setCrc32
 
 
 addCrc32
---------
+++++++++
 
 .. function:: addCrc32()
 
@@ -50,7 +53,7 @@ addCrc32
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -66,16 +69,16 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_NOT_MATCH
-==============
+++++++++++++++
 
 @const string Error constants
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_FOUND
-=========
++++++++++
 

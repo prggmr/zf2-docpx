@@ -1,5 +1,8 @@
-.. Http/Header/Accept/FieldValuePart/AcceptFieldValuePart.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Accept/FieldValuePart/AcceptFieldValuePart.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Accept\\FieldValuePart\\AcceptFieldValuePart
 ================================================================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Accept\\FieldValuePart\\AcceptFieldValuePart
 Field Value Part
 
 Methods
-+++++++
+-------
 
 getSubtype
-----------
+++++++++++
 
 .. function:: getSubtype()
 
@@ -20,7 +23,7 @@ getSubtype
 
 
 getSubtypeRaw
--------------
++++++++++++++
 
 .. function:: getSubtypeRaw()
 
@@ -30,7 +33,7 @@ getSubtypeRaw
 
 
 getFormat
----------
++++++++++
 
 .. function:: getFormat()
 

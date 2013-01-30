@@ -1,14 +1,17 @@
-.. Stdlib/StringWrapper/MbString.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/StringWrapper/MbString.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\StringWrapper\\MbString
 =====================================
 
 Methods
-+++++++
+-------
 
 getSupportedEncodings
----------------------
++++++++++++++++++++++
 
 .. function:: getSupportedEncodings()
 
@@ -20,7 +23,7 @@ getSupportedEncodings
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 strlen
-------
+++++++
 
 .. function:: strlen()
 
@@ -46,7 +49,7 @@ strlen
 
 
 substr
-------
+++++++
 
 .. function:: substr()
 
@@ -63,7 +66,7 @@ substr
 
 
 strpos
-------
+++++++
 
 .. function:: strpos()
 
@@ -80,7 +83,7 @@ strpos
 
 
 convert
--------
++++++++
 
 .. function:: convert()
 

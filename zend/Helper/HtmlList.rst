@@ -1,5 +1,8 @@
-.. View/Helper/HtmlList.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HtmlList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HtmlList
 ============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HtmlList
 Helper for ordered and unordered lists
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

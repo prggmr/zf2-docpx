@@ -1,5 +1,8 @@
-.. Log/Writer/FingersCrossed.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/FingersCrossed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\FingersCrossed
 =================================
@@ -7,10 +10,10 @@ Zend\\Log\\Writer\\FingersCrossed
 Buffers all events until the strategy determines to flush them.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setWriter
----------
++++++++++
 
 .. function:: setWriter()
 
@@ -40,7 +43,7 @@ setWriter
 
 
 getWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getWriterPluginManager()
 
@@ -52,7 +55,7 @@ getWriterPluginManager
 
 
 setWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setWriterPluginManager()
 
@@ -68,7 +71,7 @@ setWriterPluginManager
 
 
 writerPlugin
-------------
+++++++++++++
 
 .. function:: writerPlugin()
 
@@ -83,7 +86,7 @@ writerPlugin
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -97,7 +100,7 @@ write
 
 
 isActivated
------------
++++++++++++
 
 .. function:: isActivated()
 
@@ -111,7 +114,7 @@ isActivated
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 
@@ -125,7 +128,7 @@ doWrite
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -136,7 +139,7 @@ reset
 
 
 setFormatter
-------------
+++++++++++++
 
 .. function:: setFormatter()
 
@@ -151,7 +154,7 @@ setFormatter
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 

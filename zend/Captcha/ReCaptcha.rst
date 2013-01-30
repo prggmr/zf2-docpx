@@ -1,14 +1,17 @@
-.. Form/View/Helper/Captcha/ReCaptcha.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/Captcha/ReCaptcha.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\Captcha\\ReCaptcha
 ============================================
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -24,7 +27,7 @@ render
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -40,7 +43,7 @@ __invoke
 
 
 renderHiddenInput
------------------
++++++++++++++++++
 
 .. function:: renderHiddenInput()
 
@@ -57,7 +60,7 @@ renderHiddenInput
 
 
 renderJsEvents
---------------
+++++++++++++++
 
 .. function:: renderJsEvents()
 

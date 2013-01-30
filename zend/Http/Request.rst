@@ -1,5 +1,8 @@
-.. Http/Request.php generated using docpx on 01/30/13 03:32am
+.. Http/Request.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Request
 ===================
@@ -7,10 +10,10 @@ Zend\\Http\\Request
 HTTP Request
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 setMethod
----------
++++++++++
 
 .. function:: setMethod()
 
@@ -42,7 +45,7 @@ setMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -54,7 +57,7 @@ getMethod
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -69,7 +72,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -81,7 +84,7 @@ getUri
 
 
 getUriString
-------------
+++++++++++++
 
 .. function:: getUriString()
 
@@ -93,7 +96,7 @@ getUriString
 
 
 setQuery
---------
+++++++++
 
 .. function:: setQuery()
 
@@ -108,7 +111,7 @@ setQuery
 
 
 getQuery
---------
+++++++++
 
 .. function:: getQuery()
 
@@ -123,7 +126,7 @@ getQuery
 
 
 setPost
--------
++++++++
 
 .. function:: setPost()
 
@@ -138,7 +141,7 @@ setPost
 
 
 getPost
--------
++++++++
 
 .. function:: getPost()
 
@@ -153,7 +156,7 @@ getPost
 
 
 getCookie
----------
++++++++++
 
 .. function:: getCookie()
 
@@ -165,7 +168,7 @@ getCookie
 
 
 setFiles
---------
+++++++++
 
 .. function:: setFiles()
 
@@ -180,7 +183,7 @@ setFiles
 
 
 getFiles
---------
+++++++++
 
 .. function:: getFiles()
 
@@ -195,7 +198,7 @@ getFiles
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 
@@ -211,7 +214,7 @@ getHeaders
 
 
 getHeader
----------
++++++++++
 
 .. function:: getHeader()
 
@@ -227,7 +230,7 @@ getHeader
 
 
 isOptions
----------
++++++++++
 
 .. function:: isOptions()
 
@@ -239,7 +242,7 @@ isOptions
 
 
 isPropFind
-----------
+++++++++++
 
 .. function:: isPropFind()
 
@@ -251,7 +254,7 @@ isPropFind
 
 
 isGet
------
++++++
 
 .. function:: isGet()
 
@@ -263,7 +266,7 @@ isGet
 
 
 isHead
-------
+++++++
 
 .. function:: isHead()
 
@@ -275,7 +278,7 @@ isHead
 
 
 isPost
-------
+++++++
 
 .. function:: isPost()
 
@@ -287,7 +290,7 @@ isPost
 
 
 isPut
------
++++++
 
 .. function:: isPut()
 
@@ -299,7 +302,7 @@ isPut
 
 
 isDelete
---------
+++++++++
 
 .. function:: isDelete()
 
@@ -311,7 +314,7 @@ isDelete
 
 
 isTrace
--------
++++++++
 
 .. function:: isTrace()
 
@@ -323,7 +326,7 @@ isTrace
 
 
 isConnect
----------
++++++++++
 
 .. function:: isConnect()
 
@@ -335,7 +338,7 @@ isConnect
 
 
 isPatch
--------
++++++++
 
 .. function:: isPatch()
 
@@ -347,7 +350,7 @@ isPatch
 
 
 isXmlHttpRequest
-----------------
+++++++++++++++++
 
 .. function:: isXmlHttpRequest()
 
@@ -361,7 +364,7 @@ isXmlHttpRequest
 
 
 isFlashRequest
---------------
+++++++++++++++
 
 .. function:: isFlashRequest()
 
@@ -373,7 +376,7 @@ isFlashRequest
 
 
 renderRequestLine
------------------
++++++++++++++++++
 
 .. function:: renderRequestLine()
 
@@ -385,7 +388,7 @@ renderRequestLine
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -397,35 +400,35 @@ toString
 
 
 Constants
-+++++++++
+---------
 
 METHOD_OPTIONS
-==============
+++++++++++++++
 
 METHOD_GET
-==========
+++++++++++
 
 METHOD_HEAD
-===========
++++++++++++
 
 METHOD_POST
-===========
++++++++++++
 
 METHOD_PUT
-==========
+++++++++++
 
 METHOD_DELETE
-=============
++++++++++++++
 
 METHOD_TRACE
-============
+++++++++++++
 
 METHOD_CONNECT
-==============
+++++++++++++++
 
 METHOD_PATCH
-============
+++++++++++++
 
 METHOD_PROPFIND
-===============
++++++++++++++++
 

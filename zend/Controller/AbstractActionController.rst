@@ -1,5 +1,8 @@
-.. Mvc/Controller/AbstractActionController.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/AbstractActionController.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\AbstractActionController
 ===============================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Controller\\AbstractActionController
 Basic action controller
 
 Methods
-+++++++
+-------
 
 indexAction
------------
++++++++++++
 
 .. function:: indexAction()
 
@@ -22,7 +25,7 @@ indexAction
 
 
 notFoundAction
---------------
+++++++++++++++
 
 .. function:: notFoundAction()
 
@@ -34,7 +37,7 @@ notFoundAction
 
 
 onDispatch
-----------
+++++++++++
 
 .. function:: onDispatch()
 
@@ -50,7 +53,7 @@ onDispatch
 
 
 createHttpNotFoundModel
------------------------
++++++++++++++++++++++++
 
 .. function:: createHttpNotFoundModel()
 
@@ -64,7 +67,7 @@ createHttpNotFoundModel
 
 
 createConsoleNotFoundModel
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: createConsoleNotFoundModel()
 

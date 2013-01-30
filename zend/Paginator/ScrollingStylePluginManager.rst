@@ -1,5 +1,8 @@
-.. Paginator/ScrollingStylePluginManager.php generated using docpx on 01/30/13 03:32am
+.. Paginator/ScrollingStylePluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\ScrollingStylePluginManager
 ============================================
@@ -11,10 +14,10 @@ ScrollingStyle\ScrollingStyleInterface. Additionally, it registers a number
 of default adapters available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

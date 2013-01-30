@@ -1,14 +1,17 @@
-.. Mail/Transport/SmtpOptions.php generated using docpx on 01/30/13 03:32am
+.. Mail/Transport/SmtpOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Transport\\SmtpOptions
 ==================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -20,7 +23,7 @@ getName
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -37,7 +40,7 @@ setName
 
 
 getConnectionClass
-------------------
+++++++++++++++++++
 
 .. function:: getConnectionClass()
 
@@ -53,7 +56,7 @@ getConnectionClass
 
 
 setConnectionClass
-------------------
+++++++++++++++++++
 
 .. function:: setConnectionClass()
 
@@ -69,7 +72,7 @@ setConnectionClass
 
 
 getConnectionConfig
--------------------
++++++++++++++++++++
 
 .. function:: getConnectionConfig()
 
@@ -81,7 +84,7 @@ getConnectionConfig
 
 
 setConnectionConfig
--------------------
++++++++++++++++++++
 
 .. function:: setConnectionConfig()
 
@@ -95,7 +98,7 @@ setConnectionConfig
 
 
 getHost
--------
++++++++
 
 .. function:: getHost()
 
@@ -107,7 +110,7 @@ getHost
 
 
 setHost
--------
++++++++
 
 .. function:: setHost()
 
@@ -122,7 +125,7 @@ setHost
 
 
 getPort
--------
++++++++
 
 .. function:: getPort()
 
@@ -134,7 +137,7 @@ getPort
 
 
 setPort
--------
++++++++
 
 .. function:: setPort()
 

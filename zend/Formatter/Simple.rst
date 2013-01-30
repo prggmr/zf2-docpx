@@ -1,14 +1,17 @@
-.. Log/Formatter/Simple.php generated using docpx on 01/30/13 03:32am
+.. Log/Formatter/Simple.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Formatter\\Simple
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 format
-------
+++++++
 
 .. function:: format()
 
@@ -40,8 +43,8 @@ format
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_FORMAT
-==============
+++++++++++++++
 

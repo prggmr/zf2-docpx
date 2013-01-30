@@ -1,5 +1,8 @@
-.. XmlRpc/Response/Http.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Response/Http.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Response\\Http
 ============================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Response\\Http
 HTTP response
 
 Methods
-+++++++
+-------
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

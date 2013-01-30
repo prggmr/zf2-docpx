@@ -1,5 +1,8 @@
-.. Version/Version.php generated using docpx on 01/30/13 03:32am
+.. Version/Version.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Version\\Version
 ======================
@@ -7,10 +10,10 @@ Zend\\Version\\Version
 Class to store and retrieve the version of Zend Framework.
 
 Methods
-+++++++
+-------
 
 compareVersion
---------------
+++++++++++++++
 
 .. function:: compareVersion()
 
@@ -27,7 +30,7 @@ compareVersion
 
 
 getLatest
----------
++++++++++
 
 .. function:: getLatest()
 
@@ -51,7 +54,7 @@ getLatest
 
 
 isLatest
---------
+++++++++
 
 .. function:: isLatest()
 
@@ -67,20 +70,20 @@ isLatest
 
 
 Constants
-+++++++++
+---------
 
 VERSION
-=======
++++++++
 
 Zend Framework version identification - see compareVersion()
 
 VERSION_SERVICE_GITHUB
-======================
+++++++++++++++++++++++
 
 Github Service Identifier for version information is retreived from
 
 VERSION_SERVICE_ZEND
-====================
+++++++++++++++++++++
 
 Zend (framework.zend.com) Service Identifier for version information is retreived from
 

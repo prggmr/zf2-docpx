@@ -1,14 +1,17 @@
-.. Db/Metadata/Object/ConstraintObject.php generated using docpx on 01/30/13 03:32am
+.. Db/Metadata/Object/ConstraintObject.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Metadata\\Object\\ConstraintObject
 ============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -34,7 +37,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -46,7 +49,7 @@ getName
 
 
 setSchemaName
--------------
++++++++++++++
 
 .. function:: setSchemaName()
 
@@ -58,7 +61,7 @@ setSchemaName
 
 
 getSchemaName
--------------
++++++++++++++
 
 .. function:: getSchemaName()
 
@@ -70,7 +73,7 @@ getSchemaName
 
 
 getTableName
-------------
+++++++++++++
 
 .. function:: getTableName()
 
@@ -82,7 +85,7 @@ getTableName
 
 
 setTableName
-------------
+++++++++++++
 
 .. function:: setTableName()
 
@@ -96,7 +99,7 @@ setTableName
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -108,7 +111,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -120,14 +123,14 @@ getType
 
 
 hasColumns
-----------
+++++++++++
 
 .. function:: hasColumns()
 
 
 
 getColumns
-----------
+++++++++++
 
 .. function:: getColumns()
 
@@ -139,7 +142,7 @@ getColumns
 
 
 setColumns
-----------
+++++++++++
 
 .. function:: setColumns()
 
@@ -153,7 +156,7 @@ setColumns
 
 
 getReferencedTableSchema
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getReferencedTableSchema()
 
@@ -165,7 +168,7 @@ getReferencedTableSchema
 
 
 setReferencedTableSchema
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setReferencedTableSchema()
 
@@ -179,7 +182,7 @@ setReferencedTableSchema
 
 
 getReferencedTableName
-----------------------
+++++++++++++++++++++++
 
 .. function:: getReferencedTableName()
 
@@ -191,7 +194,7 @@ getReferencedTableName
 
 
 setReferencedTableName
-----------------------
+++++++++++++++++++++++
 
 .. function:: setReferencedTableName()
 
@@ -205,7 +208,7 @@ setReferencedTableName
 
 
 getReferencedColumns
---------------------
+++++++++++++++++++++
 
 .. function:: getReferencedColumns()
 
@@ -217,7 +220,7 @@ getReferencedColumns
 
 
 setReferencedColumns
---------------------
+++++++++++++++++++++
 
 .. function:: setReferencedColumns()
 
@@ -231,7 +234,7 @@ setReferencedColumns
 
 
 getMatchOption
---------------
+++++++++++++++
 
 .. function:: getMatchOption()
 
@@ -243,7 +246,7 @@ getMatchOption
 
 
 setMatchOption
---------------
+++++++++++++++
 
 .. function:: setMatchOption()
 
@@ -257,7 +260,7 @@ setMatchOption
 
 
 getUpdateRule
--------------
++++++++++++++
 
 .. function:: getUpdateRule()
 
@@ -269,7 +272,7 @@ getUpdateRule
 
 
 setUpdateRule
--------------
++++++++++++++
 
 .. function:: setUpdateRule()
 
@@ -283,7 +286,7 @@ setUpdateRule
 
 
 getDeleteRule
--------------
++++++++++++++
 
 .. function:: getDeleteRule()
 
@@ -295,7 +298,7 @@ getDeleteRule
 
 
 setDeleteRule
--------------
++++++++++++++
 
 .. function:: setDeleteRule()
 
@@ -309,7 +312,7 @@ setDeleteRule
 
 
 getCheckClause
---------------
+++++++++++++++
 
 .. function:: getCheckClause()
 
@@ -321,7 +324,7 @@ getCheckClause
 
 
 setCheckClause
---------------
+++++++++++++++
 
 .. function:: setCheckClause()
 
@@ -335,7 +338,7 @@ setCheckClause
 
 
 isPrimaryKey
-------------
+++++++++++++
 
 .. function:: isPrimaryKey()
 
@@ -347,7 +350,7 @@ isPrimaryKey
 
 
 isUnique
---------
+++++++++
 
 .. function:: isUnique()
 
@@ -359,7 +362,7 @@ isUnique
 
 
 isForeignKey
-------------
+++++++++++++
 
 .. function:: isForeignKey()
 
@@ -371,7 +374,7 @@ isForeignKey
 
 
 isCheck
--------
++++++++
 
 .. function:: isCheck()
 

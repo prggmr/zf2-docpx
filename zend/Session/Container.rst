@@ -1,5 +1,8 @@
-.. Session/Container.php generated using docpx on 01/30/13 03:32am
+.. Session/Container.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Container
 ========================
@@ -12,10 +15,10 @@ Additionally, expiries may be absolute TTLs or measured in "hops", which
 are based on how many times the key or container were accessed.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -32,7 +35,7 @@ __construct
 
 
 setDefaultManager
------------------
++++++++++++++++++
 
 .. function:: setDefaultManager()
 
@@ -46,7 +49,7 @@ setDefaultManager
 
 
 getDefaultManager
------------------
++++++++++++++++++
 
 .. function:: getDefaultManager()
 
@@ -62,7 +65,7 @@ getDefaultManager
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -74,7 +77,7 @@ getName
 
 
 setManager
-----------
+++++++++++
 
 .. function:: setManager()
 
@@ -90,7 +93,7 @@ setManager
 
 
 getManager
-----------
+++++++++++
 
 .. function:: getManager()
 
@@ -102,7 +105,7 @@ getManager
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -116,7 +119,7 @@ getStorage
 
 
 createContainer
----------------
++++++++++++++++
 
 .. function:: createContainer()
 
@@ -128,7 +131,7 @@ createContainer
 
 
 verifyNamespace
----------------
++++++++++++++++
 
 .. function:: verifyNamespace()
 
@@ -149,7 +152,7 @@ verifyNamespace
 
 
 expireKeys
-----------
+++++++++++
 
 .. function:: expireKeys()
 
@@ -165,7 +168,7 @@ expireKeys
 
 
 expireByExpiryTime
-------------------
+++++++++++++++++++
 
 .. function:: expireByExpiryTime()
 
@@ -184,7 +187,7 @@ expireByExpiryTime
 
 
 expireByHops
-------------
+++++++++++++
 
 .. function:: expireByHops()
 
@@ -203,7 +206,7 @@ expireByHops
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -218,7 +221,7 @@ offsetSet
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -232,7 +235,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -246,7 +249,7 @@ offsetGet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -260,7 +263,7 @@ offsetUnset
 
 
 exchangeArray
--------------
++++++++++++++
 
 .. function:: exchangeArray()
 
@@ -276,7 +279,7 @@ exchangeArray
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -288,7 +291,7 @@ getIterator
 
 
 setExpirationSeconds
---------------------
+++++++++++++++++++++
 
 .. function:: setExpirationSeconds()
 
@@ -307,7 +310,7 @@ setExpirationSeconds
 
 
 setExpirationHops
------------------
++++++++++++++++++
 
 .. function:: setExpirationHops()
 

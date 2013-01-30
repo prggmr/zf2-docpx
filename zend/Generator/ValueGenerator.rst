@@ -1,14 +1,17 @@
-.. Code/Generator/ValueGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/ValueGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\ValueGenerator
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 isValidConstantType
--------------------
++++++++++++++++++++
 
 .. function:: isValidConstantType()
 
@@ -31,7 +34,7 @@ isValidConstantType
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -43,7 +46,7 @@ setValue
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -53,7 +56,7 @@ getValue
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -65,7 +68,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -75,7 +78,7 @@ getType
 
 
 setArrayDepth
--------------
++++++++++++++
 
 .. function:: setArrayDepth()
 
@@ -87,7 +90,7 @@ setArrayDepth
 
 
 getArrayDepth
--------------
++++++++++++++
 
 .. function:: getArrayDepth()
 
@@ -97,7 +100,7 @@ getArrayDepth
 
 
 getValidatedType
-----------------
+++++++++++++++++
 
 .. function:: getValidatedType()
 
@@ -109,7 +112,7 @@ getValidatedType
 
 
 getAutoDeterminedType
----------------------
++++++++++++++++++++++
 
 .. function:: getAutoDeterminedType()
 
@@ -121,7 +124,7 @@ getAutoDeterminedType
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -133,7 +136,7 @@ generate
 
 
 escape
-------
+++++++
 
 .. function:: escape()
 
@@ -148,7 +151,7 @@ escape
 
 
 setOutputMode
--------------
++++++++++++++
 
 .. function:: setOutputMode()
 
@@ -160,7 +163,7 @@ setOutputMode
 
 
 getOutputMode
--------------
++++++++++++++
 
 .. function:: getOutputMode()
 
@@ -170,7 +173,7 @@ getOutputMode
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -179,53 +182,53 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 TYPE_AUTO
-=========
++++++++++
 
 TYPE_BOOLEAN
-============
+++++++++++++
 
 TYPE_BOOL
-=========
++++++++++
 
 TYPE_NUMBER
-===========
++++++++++++
 
 TYPE_INTEGER
-============
+++++++++++++
 
 TYPE_INT
-========
+++++++++
 
 TYPE_FLOAT
-==========
+++++++++++
 
 TYPE_DOUBLE
-===========
++++++++++++
 
 TYPE_STRING
-===========
++++++++++++
 
 TYPE_ARRAY
-==========
+++++++++++
 
 TYPE_CONSTANT
-=============
++++++++++++++
 
 TYPE_NULL
-=========
++++++++++
 
 TYPE_OBJECT
-===========
++++++++++++
 
 TYPE_OTHER
-==========
+++++++++++
 
 OUTPUT_MULTIPLE_LINE
-====================
+++++++++++++++++++++
 
 OUTPUT_SINGLE_LINE
-==================
+++++++++++++++++++
 

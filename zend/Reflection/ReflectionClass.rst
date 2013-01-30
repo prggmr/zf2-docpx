@@ -1,5 +1,8 @@
-.. Server/Reflection/ReflectionClass.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/ReflectionClass.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\ReflectionClass
 =========================================
@@ -10,10 +13,10 @@ Proxies calls to a ReflectionClass object, and decorates getMethods() by
 creating its own list of {@link Zend_Server_Reflection_Method}s.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -30,7 +33,7 @@ __construct
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -47,7 +50,7 @@ __call
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -64,7 +67,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -81,7 +84,7 @@ __set
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -94,7 +97,7 @@ getMethods
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -106,7 +109,7 @@ getNamespace
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -122,7 +125,7 @@ setNamespace
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 

@@ -1,5 +1,8 @@
-.. Server/Reflection.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection
 ========================
@@ -7,10 +10,10 @@ Zend\\Server\\Reflection
 Reflection for determining method signatures to use with server classes
 
 Methods
-+++++++
+-------
 
 reflectClass
-------------
+++++++++++++
 
 .. function:: reflectClass()
 
@@ -36,7 +39,7 @@ also for XmlRpc namespacing
 
 
 reflectFunction
----------------
++++++++++++++++
 
 .. function:: reflectFunction()
 

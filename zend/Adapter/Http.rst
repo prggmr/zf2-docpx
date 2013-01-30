@@ -1,5 +1,8 @@
-.. File/Transfer/Adapter/Http.php generated using docpx on 01/30/13 03:32am
+.. File/Transfer/Adapter/Http.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\File\\Transfer\\Adapter\\Http
 ===================================
@@ -7,10 +10,10 @@ Zend\\File\\Transfer\\Adapter\\Http
 File transfer adapter class for the HTTP protocol
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setValidators
--------------
++++++++++++++
 
 .. function:: setValidators()
 
@@ -39,7 +42,7 @@ setValidators
 
 
 removeValidator
----------------
++++++++++++++++
 
 .. function:: removeValidator()
 
@@ -53,7 +56,7 @@ removeValidator
 
 
 clearValidators
----------------
++++++++++++++++
 
 .. function:: clearValidators()
 
@@ -65,7 +68,7 @@ clearValidators
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -81,7 +84,7 @@ send
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -95,7 +98,7 @@ isValid
 
 
 receive
--------
++++++++
 
 .. function:: receive()
 
@@ -109,7 +112,7 @@ receive
 
 
 isSent
-------
+++++++
 
 .. function:: isSent()
 
@@ -125,7 +128,7 @@ isSent
 
 
 isReceived
-----------
+++++++++++
 
 .. function:: isReceived()
 
@@ -139,7 +142,7 @@ isReceived
 
 
 isFiltered
-----------
+++++++++++
 
 .. function:: isFiltered()
 
@@ -153,7 +156,7 @@ isFiltered
 
 
 isUploaded
-----------
+++++++++++
 
 .. function:: isUploaded()
 
@@ -167,7 +170,7 @@ isUploaded
 
 
 getProgress
------------
++++++++++++
 
 .. function:: getProgress()
 
@@ -184,7 +187,7 @@ getProgress
 
 
 isApcAvailable
---------------
+++++++++++++++
 
 .. function:: isApcAvailable()
 
@@ -196,7 +199,7 @@ isApcAvailable
 
 
 isUploadProgressAvailable
--------------------------
++++++++++++++++++++++++++
 
 .. function:: isUploadProgressAvailable()
 
@@ -208,7 +211,7 @@ isUploadProgressAvailable
 
 
 prepareFiles
-------------
+++++++++++++
 
 .. function:: prepareFiles()
 

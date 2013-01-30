@@ -1,14 +1,17 @@
-.. Validator/Csrf.php generated using docpx on 01/30/13 03:32am
+.. Validator/Csrf.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Csrf
 =====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -35,7 +38,7 @@ isValid
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -49,7 +52,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -61,7 +64,7 @@ getName
 
 
 setSession
-----------
+++++++++++
 
 .. function:: setSession()
 
@@ -75,7 +78,7 @@ setSession
 
 
 getSession
-----------
+++++++++++
 
 .. function:: getSession()
 
@@ -89,7 +92,7 @@ getSession
 
 
 setSalt
--------
++++++++
 
 .. function:: setSalt()
 
@@ -103,7 +106,7 @@ setSalt
 
 
 getSalt
--------
++++++++
 
 .. function:: getSalt()
 
@@ -115,7 +118,7 @@ getSalt
 
 
 getHash
--------
++++++++
 
 .. function:: getHash()
 
@@ -132,7 +135,7 @@ getHash
 
 
 getSessionName
---------------
+++++++++++++++
 
 .. function:: getSessionName()
 
@@ -146,7 +149,7 @@ getSessionName
 
 
 setTimeout
-----------
+++++++++++
 
 .. function:: setTimeout()
 
@@ -160,7 +163,7 @@ setTimeout
 
 
 getTimeout
-----------
+++++++++++
 
 .. function:: getTimeout()
 
@@ -172,7 +175,7 @@ getTimeout
 
 
 initCsrfToken
--------------
++++++++++++++
 
 .. function:: initCsrfToken()
 
@@ -184,7 +187,7 @@ initCsrfToken
 
 
 generateHash
-------------
+++++++++++++
 
 .. function:: generateHash()
 
@@ -199,7 +202,7 @@ generateHash
 
 
 getValidationToken
-------------------
+++++++++++++++++++
 
 .. function:: getValidationToken()
 
@@ -215,10 +218,10 @@ getValidationToken
 
 
 Constants
-+++++++++
+---------
 
 NOT_SAME
-========
+++++++++
 
 Error codes
 

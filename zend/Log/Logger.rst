@@ -1,5 +1,8 @@
-.. Log/Logger.php generated using docpx on 01/30/13 03:32am
+.. Log/Logger.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Logger
 =================
@@ -7,10 +10,10 @@ Zend\\Log\\Logger
 Logging messages with a stack of backends
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -43,7 +46,7 @@ __destruct
 
 
 getWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getWriterPluginManager()
 
@@ -55,7 +58,7 @@ getWriterPluginManager
 
 
 setWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setWriterPluginManager()
 
@@ -71,7 +74,7 @@ setWriterPluginManager
 
 
 writerPlugin
-------------
+++++++++++++
 
 .. function:: writerPlugin()
 
@@ -86,7 +89,7 @@ writerPlugin
 
 
 addWriter
----------
++++++++++
 
 .. function:: addWriter()
 
@@ -104,7 +107,7 @@ addWriter
 
 
 getWriters
-----------
+++++++++++
 
 .. function:: getWriters()
 
@@ -116,7 +119,7 @@ getWriters
 
 
 setWriters
-----------
+++++++++++
 
 .. function:: setWriters()
 
@@ -132,7 +135,7 @@ setWriters
 
 
 getProcessorPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getProcessorPluginManager()
 
@@ -144,7 +147,7 @@ getProcessorPluginManager
 
 
 setProcessorPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setProcessorPluginManager()
 
@@ -160,7 +163,7 @@ setProcessorPluginManager
 
 
 processorPlugin
----------------
++++++++++++++++
 
 .. function:: processorPlugin()
 
@@ -175,7 +178,7 @@ processorPlugin
 
 
 addProcessor
-------------
+++++++++++++
 
 .. function:: addProcessor()
 
@@ -193,7 +196,7 @@ addProcessor
 
 
 getProcessors
--------------
++++++++++++++
 
 .. function:: getProcessors()
 
@@ -205,7 +208,7 @@ getProcessors
 
 
 log
----
++++
 
 .. function:: log()
 
@@ -225,7 +228,7 @@ log
 
 
 emerg
------
++++++
 
 .. function:: emerg()
 
@@ -239,7 +242,7 @@ emerg
 
 
 alert
------
++++++
 
 .. function:: alert()
 
@@ -253,7 +256,7 @@ alert
 
 
 crit
-----
+++++
 
 .. function:: crit()
 
@@ -267,7 +270,7 @@ crit
 
 
 err
----
++++
 
 .. function:: err()
 
@@ -281,7 +284,7 @@ err
 
 
 warn
-----
+++++
 
 .. function:: warn()
 
@@ -295,7 +298,7 @@ warn
 
 
 notice
-------
+++++++
 
 .. function:: notice()
 
@@ -309,7 +312,7 @@ notice
 
 
 info
-----
+++++
 
 .. function:: info()
 
@@ -323,7 +326,7 @@ info
 
 
 debug
------
++++++
 
 .. function:: debug()
 
@@ -337,7 +340,7 @@ debug
 
 
 registerErrorHandler
---------------------
+++++++++++++++++++++
 
 .. function:: registerErrorHandler()
 
@@ -355,7 +358,7 @@ registerErrorHandler
 
 
 unregisterErrorHandler
-----------------------
+++++++++++++++++++++++
 
 .. function:: unregisterErrorHandler()
 
@@ -365,7 +368,7 @@ unregisterErrorHandler
 
 
 registerExceptionHandler
-------------------------
+++++++++++++++++++++++++
 
 .. function:: registerExceptionHandler()
 
@@ -382,7 +385,7 @@ registerExceptionHandler
 
 
 unregisterExceptionHandler
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: unregisterExceptionHandler()
 
@@ -394,31 +397,31 @@ unregisterExceptionHandler
 
 
 Constants
-+++++++++
+---------
 
 EMERG
-=====
++++++
 
 @const int defined from the BSD Syslog message severities
 
 ALERT
-=====
++++++
 
 CRIT
-====
+++++
 
 ERR
-===
++++
 
 WARN
-====
+++++
 
 NOTICE
-======
+++++++
 
 INFO
-====
+++++
 
 DEBUG
-=====
++++++
 

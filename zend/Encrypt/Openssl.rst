@@ -1,5 +1,8 @@
-.. Filter/Encrypt/Openssl.php generated using docpx on 01/30/13 03:32am
+.. Filter/Encrypt/Openssl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Encrypt\\Openssl
 ==============================
@@ -7,10 +10,10 @@ Zend\\Filter\\Encrypt\\Openssl
 Encryption adapter for openssl
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 _setKeys
---------
+++++++++
 
 .. function:: _setKeys()
 
@@ -47,7 +50,7 @@ _setKeys
 
 
 getPublicKey
-------------
+++++++++++++
 
 .. function:: getPublicKey()
 
@@ -59,7 +62,7 @@ getPublicKey
 
 
 setPublicKey
-------------
+++++++++++++
 
 .. function:: setPublicKey()
 
@@ -73,7 +76,7 @@ setPublicKey
 
 
 getPrivateKey
--------------
++++++++++++++
 
 .. function:: getPrivateKey()
 
@@ -85,7 +88,7 @@ getPrivateKey
 
 
 setPrivateKey
--------------
++++++++++++++
 
 .. function:: setPrivateKey()
 
@@ -100,7 +103,7 @@ setPrivateKey
 
 
 getEnvelopeKey
---------------
+++++++++++++++
 
 .. function:: getEnvelopeKey()
 
@@ -112,7 +115,7 @@ getEnvelopeKey
 
 
 setEnvelopeKey
---------------
+++++++++++++++
 
 .. function:: setEnvelopeKey()
 
@@ -126,7 +129,7 @@ setEnvelopeKey
 
 
 getPassphrase
--------------
++++++++++++++
 
 .. function:: getPassphrase()
 
@@ -138,7 +141,7 @@ getPassphrase
 
 
 setPassphrase
--------------
++++++++++++++
 
 .. function:: setPassphrase()
 
@@ -152,7 +155,7 @@ setPassphrase
 
 
 getCompression
---------------
+++++++++++++++
 
 .. function:: getCompression()
 
@@ -164,7 +167,7 @@ getCompression
 
 
 setCompression
---------------
+++++++++++++++
 
 .. function:: setCompression()
 
@@ -178,7 +181,7 @@ setCompression
 
 
 getPackage
-----------
+++++++++++
 
 .. function:: getPackage()
 
@@ -190,7 +193,7 @@ getPackage
 
 
 setPackage
-----------
+++++++++++
 
 .. function:: setPackage()
 
@@ -204,7 +207,7 @@ setPackage
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -221,7 +224,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -239,7 +242,7 @@ decrypt
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

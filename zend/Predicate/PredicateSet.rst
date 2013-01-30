@@ -1,14 +1,17 @@
-.. Db/Sql/Predicate/PredicateSet.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/PredicateSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\PredicateSet
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 addPredicate
-------------
+++++++++++++
 
 .. function:: addPredicate()
 
@@ -36,7 +39,7 @@ addPredicate
 
 
 getPredicates
--------------
++++++++++++++
 
 .. function:: getPredicates()
 
@@ -48,7 +51,7 @@ getPredicates
 
 
 orPredicate
------------
++++++++++++
 
 .. function:: orPredicate()
 
@@ -62,7 +65,7 @@ orPredicate
 
 
 andPredicate
-------------
+++++++++++++
 
 .. function:: andPredicate()
 
@@ -76,7 +79,7 @@ andPredicate
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 
@@ -88,7 +91,7 @@ getExpressionData
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -102,17 +105,17 @@ count
 
 
 Constants
-+++++++++
+---------
 
 COMBINED_BY_AND
-===============
++++++++++++++++
 
 OP_AND
-======
+++++++
 
 COMBINED_BY_OR
-==============
+++++++++++++++
 
 OP_OR
-=====
++++++
 

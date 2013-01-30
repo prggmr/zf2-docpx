@@ -1,5 +1,8 @@
-.. Http/Response/Stream.php generated using docpx on 01/30/13 03:32am
+.. Http/Response/Stream.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Response\\Stream
 ============================
@@ -7,10 +10,10 @@ Zend\\Http\\Response\\Stream
 Represents an HTTP response message as PHP stream resource
 
 Methods
-+++++++
+-------
 
 setContentLength
-----------------
+++++++++++++++++
 
 .. function:: setContentLength()
 
@@ -22,7 +25,7 @@ setContentLength
 
 
 getContentLength
-----------------
+++++++++++++++++
 
 .. function:: getContentLength()
 
@@ -34,7 +37,7 @@ getContentLength
 
 
 getStream
----------
++++++++++
 
 .. function:: getStream()
 
@@ -46,7 +49,7 @@ getStream
 
 
 setStream
----------
++++++++++
 
 .. function:: setStream()
 
@@ -60,7 +63,7 @@ setStream
 
 
 getCleanup
-----------
+++++++++++
 
 .. function:: getCleanup()
 
@@ -72,7 +75,7 @@ getCleanup
 
 
 setCleanup
-----------
+++++++++++
 
 .. function:: setCleanup()
 
@@ -84,7 +87,7 @@ setCleanup
 
 
 getStreamName
--------------
++++++++++++++
 
 .. function:: getStreamName()
 
@@ -96,7 +99,7 @@ getStreamName
 
 
 setStreamName
--------------
++++++++++++++
 
 .. function:: setStreamName()
 
@@ -110,7 +113,7 @@ setStreamName
 
 
 fromStream
-----------
+++++++++++
 
 .. function:: fromStream()
 
@@ -128,7 +131,7 @@ fromStream
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -147,7 +150,7 @@ getBody
 
 
 getRawBody
-----------
+++++++++++
 
 .. function:: getRawBody()
 
@@ -162,7 +165,7 @@ getRawBody
 
 
 readStream
-----------
+++++++++++
 
 .. function:: readStream()
 
@@ -176,7 +179,7 @@ readStream
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 

@@ -1,5 +1,8 @@
-.. Http/Header/Accept/FieldValuePart/AbstractFieldValuePart.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Accept/FieldValuePart/AbstractFieldValuePart.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Accept\\FieldValuePart\\AbstractFieldValuePart
 ==================================================================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Accept\\FieldValuePart\\AbstractFieldValuePart
 Field Value Part
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setMatchedAgainst
------------------
++++++++++++++++++
 
 .. function:: setMatchedAgainst()
 
@@ -34,7 +37,7 @@ setMatchedAgainst
 
 
 getMatchedAgainst
------------------
++++++++++++++++++
 
 .. function:: getMatchedAgainst()
 
@@ -46,7 +49,7 @@ getMatchedAgainst
 
 
 getInternalValues
------------------
++++++++++++++++++
 
 .. function:: getInternalValues()
 
@@ -56,7 +59,7 @@ getInternalValues
 
 
 getTypeString
--------------
++++++++++++++
 
 .. function:: getTypeString()
 
@@ -66,7 +69,7 @@ getTypeString
 
 
 getPriority
------------
++++++++++++
 
 .. function:: getPriority()
 
@@ -76,7 +79,7 @@ getPriority
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -86,7 +89,7 @@ getParams
 
 
 getRaw
-------
+++++++
 
 .. function:: getRaw()
 
@@ -96,7 +99,7 @@ getRaw
 
 
 __get
------
++++++
 
 .. function:: __get()
 

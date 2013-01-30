@@ -1,5 +1,8 @@
-.. Feed/PubSubHubbub/Model/SubscriptionPersistenceInterface.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/Model/SubscriptionPersistenceInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Feed\\PubSubHubbub\\Model\\setSubscription
 ================================================
@@ -15,6 +18,9 @@ Zend\\Feed\\PubSubHubbub\\Model\\setSubscription
 
 
 
+Function
+********
+
 Zend\\Feed\\PubSubHubbub\\Model\\getSubscription
 ================================================
 
@@ -29,6 +35,9 @@ Zend\\Feed\\PubSubHubbub\\Model\\getSubscription
 
 
 
+Function
+********
+
 Zend\\Feed\\PubSubHubbub\\Model\\hasSubscription
 ================================================
 
@@ -42,6 +51,9 @@ Zend\\Feed\\PubSubHubbub\\Model\\hasSubscription
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Feed\\PubSubHubbub\\Model\\deleteSubscription
 ===================================================

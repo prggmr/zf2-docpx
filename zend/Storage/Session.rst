@@ -1,14 +1,17 @@
-.. Authentication/Storage/Session.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Storage/Session.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Storage\\Session
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -34,7 +37,7 @@ getNamespace
 
 
 getMember
----------
++++++++++
 
 .. function:: getMember()
 
@@ -46,7 +49,7 @@ getMember
 
 
 isEmpty
--------
++++++++
 
 .. function:: isEmpty()
 
@@ -58,7 +61,7 @@ isEmpty
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -70,7 +73,7 @@ read
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -84,7 +87,7 @@ write
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -98,15 +101,15 @@ clear
 
 
 Constants
-+++++++++
+---------
 
 NAMESPACE_DEFAULT
-=================
++++++++++++++++++
 
 Default session namespace
 
 MEMBER_DEFAULT
-==============
+++++++++++++++
 
 Default session object member name
 

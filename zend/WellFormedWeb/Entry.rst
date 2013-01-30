@@ -1,5 +1,8 @@
-.. Feed/Reader/Extension/WellFormedWeb/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/WellFormedWeb/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\WellFormedWeb\\Entry
 ===================================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\Extension\\WellFormedWeb\\Entry
 
 
 Methods
-+++++++
+-------
 
 getCommentFeedLink
-------------------
+++++++++++++++++++
 
 .. function:: getCommentFeedLink()
 
@@ -22,7 +25,7 @@ getCommentFeedLink
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

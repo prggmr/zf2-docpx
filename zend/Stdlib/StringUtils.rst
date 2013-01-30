@@ -1,5 +1,8 @@
-.. Stdlib/StringUtils.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/StringUtils.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\StringUtils
 =========================
@@ -10,10 +13,10 @@ using available PHP extensions.
 Declared abstract, as we have no need for instantiation.
 
 Methods
-+++++++
+-------
 
 getRegisteredWrappers
----------------------
++++++++++++++++++++++
 
 .. function:: getRegisteredWrappers()
 
@@ -25,7 +28,7 @@ getRegisteredWrappers
 
 
 registerWrapper
----------------
++++++++++++++++
 
 .. function:: registerWrapper()
 
@@ -39,7 +42,7 @@ registerWrapper
 
 
 unregisterWrapper
------------------
++++++++++++++++++
 
 .. function:: unregisterWrapper()
 
@@ -53,7 +56,7 @@ unregisterWrapper
 
 
 resetRegisteredWrappers
------------------------
++++++++++++++++++++++++
 
 .. function:: resetRegisteredWrappers()
 
@@ -65,7 +68,7 @@ resetRegisteredWrappers
 
 
 getWrapper
-----------
+++++++++++
 
 .. function:: getWrapper()
 
@@ -83,7 +86,7 @@ getWrapper
 
 
 getSingleByteEncodings
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSingleByteEncodings()
 
@@ -95,7 +98,7 @@ getSingleByteEncodings
 
 
 isSingleByteEncoding
---------------------
+++++++++++++++++++++
 
 .. function:: isSingleByteEncoding()
 
@@ -109,7 +112,7 @@ isSingleByteEncoding
 
 
 isValidUtf8
------------
++++++++++++
 
 .. function:: isValidUtf8()
 
@@ -123,7 +126,7 @@ isValidUtf8
 
 
 hasPcreUnicodeSupport
----------------------
++++++++++++++++++++++
 
 .. function:: hasPcreUnicodeSupport()
 

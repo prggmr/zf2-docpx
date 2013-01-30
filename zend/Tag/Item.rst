@@ -1,14 +1,17 @@
-.. Tag/Item.php generated using docpx on 01/30/13 03:32am
+.. Tag/Item.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Item
 ===============
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -50,7 +53,7 @@ getTitle
 
 
 setTitle
---------
+++++++++
 
 .. function:: setTitle()
 
@@ -66,7 +69,7 @@ setTitle
 
 
 getWeight
----------
++++++++++
 
 .. function:: getWeight()
 
@@ -78,7 +81,7 @@ getWeight
 
 
 setWeight
----------
++++++++++
 
 .. function:: setWeight()
 
@@ -94,7 +97,7 @@ setWeight
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -108,7 +111,7 @@ setParams
 
 
 setParam
---------
+++++++++
 
 .. function:: setParam()
 
@@ -123,7 +126,7 @@ setParam
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 

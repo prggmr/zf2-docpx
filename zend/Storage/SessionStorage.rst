@@ -1,5 +1,8 @@
-.. Session/Storage/SessionStorage.php generated using docpx on 01/30/13 03:32am
+.. Session/Storage/SessionStorage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Storage\\SessionStorage
 ======================================
@@ -10,10 +13,10 @@ Replaces the $_SESSION superglobal with an ArrayObject that allows for
 property access, metadata storage, locking, and immutability.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -30,7 +33,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -45,7 +48,7 @@ __destruct
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -61,7 +64,7 @@ fromArray
 
 
 markImmutable
--------------
++++++++++++++
 
 .. function:: markImmutable()
 
@@ -73,7 +76,7 @@ markImmutable
 
 
 isImmutable
------------
++++++++++++
 
 .. function:: isImmutable()
 

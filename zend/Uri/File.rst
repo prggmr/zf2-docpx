@@ -1,5 +1,8 @@
-.. Uri/File.php generated using docpx on 01/30/13 03:32am
+.. Uri/File.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Uri\\File
 ===============
@@ -9,10 +12,10 @@ File URI handler
 The 'file:...' scheme is loosely defined in RFC-1738
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -29,7 +32,7 @@ isValid
 
 
 setUserInfo
------------
++++++++++++
 
 .. function:: setUserInfo()
 
@@ -44,7 +47,7 @@ setUserInfo
 
 
 setFragment
------------
++++++++++++
 
 .. function:: setFragment()
 
@@ -59,7 +62,7 @@ setFragment
 
 
 fromUnixPath
-------------
+++++++++++++
 
 .. function:: fromUnixPath()
 
@@ -73,7 +76,7 @@ fromUnixPath
 
 
 fromWindowsPath
----------------
++++++++++++++++
 
 .. function:: fromWindowsPath()
 

@@ -1,14 +1,17 @@
-.. Validator/Barcode/AbstractAdapter.php generated using docpx on 01/30/13 03:32am
+.. Validator/Barcode/AbstractAdapter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Barcode\\AbstractAdapter
 =========================================
 
 Methods
-+++++++
+-------
 
 hasValidLength
---------------
+++++++++++++++
 
 .. function:: hasValidLength()
 
@@ -22,7 +25,7 @@ hasValidLength
 
 
 hasValidCharacters
-------------------
+++++++++++++++++++
 
 .. function:: hasValidCharacters()
 
@@ -36,7 +39,7 @@ hasValidCharacters
 
 
 hasValidChecksum
-----------------
+++++++++++++++++
 
 .. function:: hasValidChecksum()
 
@@ -50,7 +53,7 @@ hasValidChecksum
 
 
 getLength
----------
++++++++++
 
 .. function:: getLength()
 
@@ -62,7 +65,7 @@ getLength
 
 
 getCharacters
--------------
++++++++++++++
 
 .. function:: getCharacters()
 
@@ -74,7 +77,7 @@ getCharacters
 
 
 getChecksum
------------
++++++++++++
 
 .. function:: getChecksum()
 
@@ -84,7 +87,7 @@ getChecksum
 
 
 setChecksum
------------
++++++++++++
 
 .. function:: setChecksum()
 
@@ -98,7 +101,7 @@ setChecksum
 
 
 useChecksum
------------
++++++++++++
 
 .. function:: useChecksum()
 
@@ -112,7 +115,7 @@ useChecksum
 
 
 setLength
----------
++++++++++
 
 .. function:: setLength()
 
@@ -126,7 +129,7 @@ setLength
 
 
 setCharacters
--------------
++++++++++++++
 
 .. function:: setCharacters()
 
@@ -140,7 +143,7 @@ setCharacters
 
 
 gtin
-----
+++++
 
 .. function:: gtin()
 
@@ -155,7 +158,7 @@ gtin
 
 
 identcode
----------
++++++++++
 
 .. function:: identcode()
 
@@ -170,7 +173,7 @@ identcode
 
 
 code25
-------
+++++++
 
 .. function:: code25()
 
@@ -185,7 +188,7 @@ code25
 
 
 postnet
--------
++++++++
 
 .. function:: postnet()
 

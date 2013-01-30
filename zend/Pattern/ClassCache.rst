@@ -1,14 +1,17 @@
-.. Cache/Pattern/ClassCache.php generated using docpx on 01/30/13 03:32am
+.. Cache/Pattern/ClassCache.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Pattern\\ClassCache
 ================================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 call
-----
+++++
 
 .. function:: call()
 
@@ -42,7 +45,7 @@ call
 
 
 generateKey
------------
++++++++++++
 
 .. function:: generateKey()
 
@@ -60,7 +63,7 @@ generateKey
 
 
 generateCallbackKey
--------------------
++++++++++++++++++++
 
 .. function:: generateCallbackKey()
 
@@ -78,7 +81,7 @@ generateCallbackKey
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -96,7 +99,7 @@ __call
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -113,7 +116,7 @@ __set
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -129,7 +132,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -143,7 +146,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 

@@ -1,5 +1,8 @@
-.. Barcode/Object/AbstractObject.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/AbstractObject.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\AbstractObject
 =====================================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\AbstractObject
 Class for generate Barcode
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -34,7 +37,7 @@ getDefaultOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -48,7 +51,7 @@ setOptions
 
 
 setBarcodeNamespace
--------------------
++++++++++++++++++++
 
 .. function:: setBarcodeNamespace()
 
@@ -62,7 +65,7 @@ setBarcodeNamespace
 
 
 getBarcodeNamespace
--------------------
++++++++++++++++++++
 
 .. function:: getBarcodeNamespace()
 
@@ -74,7 +77,7 @@ getBarcodeNamespace
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -86,7 +89,7 @@ getType
 
 
 setBarHeight
-------------
+++++++++++++
 
 .. function:: setBarHeight()
 
@@ -100,7 +103,7 @@ setBarHeight
 
 
 getBarHeight
-------------
+++++++++++++
 
 .. function:: getBarHeight()
 
@@ -112,7 +115,7 @@ getBarHeight
 
 
 setBarThinWidth
----------------
++++++++++++++++
 
 .. function:: setBarThinWidth()
 
@@ -126,7 +129,7 @@ setBarThinWidth
 
 
 getBarThinWidth
----------------
++++++++++++++++
 
 .. function:: getBarThinWidth()
 
@@ -138,7 +141,7 @@ getBarThinWidth
 
 
 setBarThickWidth
-----------------
+++++++++++++++++
 
 .. function:: setBarThickWidth()
 
@@ -152,7 +155,7 @@ setBarThickWidth
 
 
 getBarThickWidth
-----------------
+++++++++++++++++
 
 .. function:: getBarThickWidth()
 
@@ -164,7 +167,7 @@ getBarThickWidth
 
 
 setFactor
----------
++++++++++
 
 .. function:: setFactor()
 
@@ -179,7 +182,7 @@ setFactor
 
 
 getFactor
----------
++++++++++
 
 .. function:: getFactor()
 
@@ -192,7 +195,7 @@ getFactor
 
 
 setForeColor
-------------
+++++++++++++
 
 .. function:: setForeColor()
 
@@ -206,7 +209,7 @@ setForeColor
 
 
 getForeColor
-------------
+++++++++++++
 
 .. function:: getForeColor()
 
@@ -218,7 +221,7 @@ getForeColor
 
 
 setBackgroundColor
-------------------
+++++++++++++++++++
 
 .. function:: setBackgroundColor()
 
@@ -232,7 +235,7 @@ setBackgroundColor
 
 
 getBackgroundColor
-------------------
+++++++++++++++++++
 
 .. function:: getBackgroundColor()
 
@@ -244,7 +247,7 @@ getBackgroundColor
 
 
 setWithBorder
--------------
++++++++++++++
 
 .. function:: setWithBorder()
 
@@ -258,7 +261,7 @@ setWithBorder
 
 
 getWithBorder
--------------
++++++++++++++
 
 .. function:: getWithBorder()
 
@@ -270,7 +273,7 @@ getWithBorder
 
 
 setWithQuietZones
------------------
++++++++++++++++++
 
 .. function:: setWithQuietZones()
 
@@ -284,7 +287,7 @@ setWithQuietZones
 
 
 getWithQuietZones
------------------
++++++++++++++++++
 
 .. function:: getWithQuietZones()
 
@@ -296,7 +299,7 @@ getWithQuietZones
 
 
 setReverseColor
----------------
++++++++++++++++
 
 .. function:: setReverseColor()
 
@@ -308,7 +311,7 @@ setReverseColor
 
 
 setOrientation
---------------
+++++++++++++++
 
 .. function:: setOrientation()
 
@@ -322,7 +325,7 @@ setOrientation
 
 
 getOrientation
---------------
+++++++++++++++
 
 .. function:: getOrientation()
 
@@ -334,7 +337,7 @@ getOrientation
 
 
 setText
--------
++++++++
 
 .. function:: setText()
 
@@ -348,7 +351,7 @@ setText
 
 
 getText
--------
++++++++
 
 .. function:: getText()
 
@@ -360,7 +363,7 @@ getText
 
 
 addLeadingZeros
----------------
++++++++++++++++
 
 .. function:: addLeadingZeros()
 
@@ -375,7 +378,7 @@ addLeadingZeros
 
 
 getRawText
-----------
+++++++++++
 
 .. function:: getRawText()
 
@@ -387,7 +390,7 @@ getRawText
 
 
 getTextToDisplay
-----------------
+++++++++++++++++
 
 .. function:: getTextToDisplay()
 
@@ -399,7 +402,7 @@ getTextToDisplay
 
 
 setDrawText
------------
++++++++++++
 
 .. function:: setDrawText()
 
@@ -413,7 +416,7 @@ setDrawText
 
 
 getDrawText
------------
++++++++++++
 
 .. function:: getDrawText()
 
@@ -425,7 +428,7 @@ getDrawText
 
 
 setStretchText
---------------
+++++++++++++++
 
 .. function:: setStretchText()
 
@@ -440,7 +443,7 @@ setStretchText
 
 
 getStretchText
---------------
+++++++++++++++
 
 .. function:: getStretchText()
 
@@ -453,7 +456,7 @@ getStretchText
 
 
 setWithChecksum
----------------
++++++++++++++++
 
 .. function:: setWithChecksum()
 
@@ -469,7 +472,7 @@ setWithChecksum
 
 
 getWithChecksum
----------------
++++++++++++++++
 
 .. function:: getWithChecksum()
 
@@ -482,7 +485,7 @@ getWithChecksum
 
 
 setWithChecksumInText
----------------------
++++++++++++++++++++++
 
 .. function:: setWithChecksumInText()
 
@@ -498,7 +501,7 @@ setWithChecksumInText
 
 
 getWithChecksumInText
----------------------
++++++++++++++++++++++
 
 .. function:: getWithChecksumInText()
 
@@ -511,7 +514,7 @@ getWithChecksumInText
 
 
 setFont
--------
++++++++
 
 .. function:: setFont()
 
@@ -527,7 +530,7 @@ setFont
 
 
 getFont
--------
++++++++
 
 .. function:: getFont()
 
@@ -539,7 +542,7 @@ getFont
 
 
 setFontSize
------------
++++++++++++
 
 .. function:: setFontSize()
 
@@ -553,7 +556,7 @@ setFontSize
 
 
 getFontSize
------------
++++++++++++
 
 .. function:: getFontSize()
 
@@ -565,7 +568,7 @@ getFontSize
 
 
 getQuietZone
-------------
+++++++++++++
 
 .. function:: getQuietZone()
 
@@ -578,7 +581,7 @@ getQuietZone
 
 
 addInstruction
---------------
+++++++++++++++
 
 .. function:: addInstruction()
 
@@ -590,7 +593,7 @@ addInstruction
 
 
 getInstructions
----------------
++++++++++++++++
 
 .. function:: getInstructions()
 
@@ -602,7 +605,7 @@ getInstructions
 
 
 addPolygon
-----------
+++++++++++
 
 .. function:: addPolygon()
 
@@ -616,7 +619,7 @@ addPolygon
 
 
 addText
--------
++++++++
 
 .. function:: addText()
 
@@ -634,7 +637,7 @@ addText
 
 
 checkParams
------------
++++++++++++
 
 .. function:: checkParams()
 
@@ -646,7 +649,7 @@ checkParams
 
 
 checkText
----------
++++++++++
 
 .. function:: checkText()
 
@@ -658,7 +661,7 @@ checkText
 
 
 checkRatio
-----------
+++++++++++
 
 .. function:: checkRatio()
 
@@ -673,7 +676,7 @@ checkRatio
 
 
 checkFontAndOrientation
------------------------
++++++++++++++++++++++++
 
 .. function:: checkFontAndOrientation()
 
@@ -685,7 +688,7 @@ checkFontAndOrientation
 
 
 calculateWidth
---------------
+++++++++++++++
 
 .. function:: calculateWidth()
 
@@ -698,7 +701,7 @@ calculateWidth
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -710,7 +713,7 @@ calculateBarcodeWidth
 
 
 calculateHeight
----------------
++++++++++++++++
 
 .. function:: calculateHeight()
 
@@ -722,7 +725,7 @@ calculateHeight
 
 
 calculateBarcodeHeight
-----------------------
+++++++++++++++++++++++
 
 .. function:: calculateBarcodeHeight()
 
@@ -734,7 +737,7 @@ calculateBarcodeHeight
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -748,7 +751,7 @@ getHeight
 
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -762,7 +765,7 @@ getWidth
 
 
 getOffsetLeft
--------------
++++++++++++++
 
 .. function:: getOffsetLeft()
 
@@ -777,7 +780,7 @@ getOffsetLeft
 
 
 getOffsetTop
-------------
+++++++++++++
 
 .. function:: getOffsetTop()
 
@@ -792,7 +795,7 @@ getOffsetTop
 
 
 rotate
-------
+++++++
 
 .. function:: rotate()
 
@@ -807,7 +810,7 @@ rotate
 
 
 draw
-----
+++++
 
 .. function:: draw()
 
@@ -819,7 +822,7 @@ draw
 
 
 drawBarcode
------------
++++++++++++
 
 .. function:: drawBarcode()
 
@@ -831,7 +834,7 @@ drawBarcode
 
 
 drawBorder
-----------
+++++++++++
 
 .. function:: drawBorder()
 
@@ -843,7 +846,7 @@ drawBorder
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 
@@ -855,7 +858,7 @@ drawText
 
 
 validateText
-------------
+++++++++++++
 
 .. function:: validateText()
 
@@ -869,7 +872,7 @@ validateText
 
 
 validateSpecificText
---------------------
+++++++++++++++++++++
 
 .. function:: validateSpecificText()
 
@@ -882,7 +885,7 @@ validateSpecificText
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -903,7 +906,7 @@ prepareBarcode
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -915,7 +918,7 @@ checkSpecificParams
 
 
 preDrawBarcode
---------------
+++++++++++++++
 
 .. function:: preDrawBarcode()
 
@@ -927,7 +930,7 @@ preDrawBarcode
 
 
 postDrawBarcode
----------------
++++++++++++++++
 
 .. function:: postDrawBarcode()
 

@@ -1,5 +1,8 @@
-.. Http/Header/RetryAfter.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/RetryAfter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\RetryAfter
 ==============================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\RetryAfter
 Retry-After HTTP Header
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 setDeltaSeconds
----------------
++++++++++++++++
 
 .. function:: setDeltaSeconds()
 
@@ -40,7 +43,7 @@ setDeltaSeconds
 
 
 getDeltaSeconds
----------------
++++++++++++++++
 
 .. function:: getDeltaSeconds()
 
@@ -52,7 +55,7 @@ getDeltaSeconds
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -64,7 +67,7 @@ getFieldName
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -76,7 +79,7 @@ getFieldValue
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

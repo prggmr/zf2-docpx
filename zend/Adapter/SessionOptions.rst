@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/SessionOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/SessionOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\SessionOptions
 =============================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\SessionOptions
 These are options specific to the APC adapter
 
 Methods
-+++++++
+-------
 
 setSessionContainer
--------------------
++++++++++++++++++++
 
 .. function:: setSessionContainer()
 
@@ -24,7 +27,7 @@ setSessionContainer
 
 
 getSessionContainer
--------------------
++++++++++++++++++++
 
 .. function:: getSessionContainer()
 

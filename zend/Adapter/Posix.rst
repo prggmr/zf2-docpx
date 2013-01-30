@@ -1,5 +1,8 @@
-.. Console/Adapter/Posix.php generated using docpx on 01/30/13 03:32am
+.. Console/Adapter/Posix.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Adapter\\Posix
 =============================
@@ -7,10 +10,10 @@ Zend\\Console\\Adapter\\Posix
 @todo Add GNU readline support
 
 Methods
-+++++++
+-------
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -22,7 +25,7 @@ getWidth
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -34,7 +37,7 @@ getHeight
 
 
 runModeCommand
---------------
+++++++++++++++
 
 .. function:: runModeCommand()
 
@@ -46,7 +49,7 @@ runModeCommand
 
 
 isUtf8
-------
+++++++
 
 .. function:: isUtf8()
 
@@ -58,7 +61,7 @@ isUtf8
 
 
 showCursor
-----------
+++++++++++
 
 .. function:: showCursor()
 
@@ -68,7 +71,7 @@ showCursor
 
 
 hideCursor
-----------
+++++++++++
 
 .. function:: hideCursor()
 
@@ -78,7 +81,7 @@ hideCursor
 
 
 setPos
-------
+++++++
 
 .. function:: setPos()
 
@@ -91,7 +94,7 @@ setPos
 
 
 colorize
---------
+++++++++
 
 .. function:: colorize()
 
@@ -109,7 +112,7 @@ colorize
 
 
 setColor
---------
+++++++++
 
 .. function:: setColor()
 
@@ -123,7 +126,7 @@ setColor
 
 
 setBgColor
-----------
+++++++++++
 
 .. function:: setBgColor()
 
@@ -137,7 +140,7 @@ setBgColor
 
 
 resetColor
-----------
+++++++++++
 
 .. function:: resetColor()
 
@@ -147,7 +150,7 @@ resetColor
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -159,7 +162,7 @@ getTitle
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -171,7 +174,7 @@ setCharset
 
 
 getCharset
-----------
+++++++++++
 
 .. function:: getCharset()
 
@@ -183,7 +186,7 @@ getCharset
 
 
 getDefaultCharset
------------------
++++++++++++++++++
 
 .. function:: getDefaultCharset()
 
@@ -193,7 +196,7 @@ getDefaultCharset
 
 
 readChar
---------
+++++++++
 
 .. function:: readChar()
 
@@ -207,7 +210,7 @@ readChar
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -217,7 +220,7 @@ clear
 
 
 restoreTTYMode
---------------
+++++++++++++++
 
 .. function:: restoreTTYMode()
 
@@ -229,7 +232,7 @@ restoreTTYMode
 
 
 setTTYMode
-----------
+++++++++++
 
 .. function:: setTTYMode()
 
@@ -242,7 +245,7 @@ setTTYMode
 
 
 getColorCode
-------------
+++++++++++++
 
 .. function:: getColorCode()
 

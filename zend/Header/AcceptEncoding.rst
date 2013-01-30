@@ -1,5 +1,8 @@
-.. Http/Header/AcceptEncoding.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/AcceptEncoding.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\AcceptEncoding
 ==================================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\AcceptEncoding
 Accept Encoding Header
 
 Methods
-+++++++
+-------
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -22,7 +25,7 @@ getFieldName
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -34,7 +37,7 @@ toString
 
 
 addEncoding
------------
++++++++++++
 
 .. function:: addEncoding()
 
@@ -49,7 +52,7 @@ addEncoding
 
 
 hasEncoding
------------
++++++++++++
 
 .. function:: hasEncoding()
 
@@ -63,7 +66,7 @@ hasEncoding
 
 
 parseFieldValuePart
--------------------
++++++++++++++++++++
 
 .. function:: parseFieldValuePart()
 

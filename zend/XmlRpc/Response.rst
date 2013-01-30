@@ -1,5 +1,8 @@
-.. XmlRpc/Response.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Response.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Response
 ======================
@@ -9,10 +12,10 @@ XmlRpc Response
 Container for accessing an XMLRPC return value and creating the XML response.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -42,7 +45,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -54,7 +57,7 @@ getEncoding
 
 
 setReturnValue
---------------
+++++++++++++++
 
 .. function:: setReturnValue()
 
@@ -71,7 +74,7 @@ setReturnValue
 
 
 getReturnValue
---------------
+++++++++++++++
 
 .. function:: getReturnValue()
 
@@ -83,7 +86,7 @@ getReturnValue
 
 
 _getXmlRpcReturn
-----------------
+++++++++++++++++
 
 .. function:: _getXmlRpcReturn()
 
@@ -95,7 +98,7 @@ _getXmlRpcReturn
 
 
 isFault
--------
++++++++
 
 .. function:: isFault()
 
@@ -107,7 +110,7 @@ isFault
 
 
 getFault
---------
+++++++++
 
 .. function:: getFault()
 
@@ -119,7 +122,7 @@ getFault
 
 
 loadXml
--------
++++++++
 
 .. function:: loadXml()
 
@@ -139,7 +142,7 @@ response or invalid input
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -151,7 +154,7 @@ saveXml
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

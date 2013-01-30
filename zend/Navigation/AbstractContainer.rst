@@ -1,5 +1,8 @@
-.. Navigation/AbstractContainer.php generated using docpx on 01/30/13 03:32am
+.. Navigation/AbstractContainer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\AbstractContainer
 ===================================
@@ -9,10 +12,10 @@ Zend_Navigation_Container
 AbstractContainer class for Zend\Navigation\Page classes.
 
 Methods
-+++++++
+-------
 
 sort
-----
+++++
 
 .. function:: sort()
 
@@ -24,7 +27,7 @@ sort
 
 
 notifyOrderUpdated
-------------------
+++++++++++++++++++
 
 .. function:: notifyOrderUpdated()
 
@@ -36,7 +39,7 @@ notifyOrderUpdated
 
 
 addPage
--------
++++++++
 
 .. function:: addPage()
 
@@ -55,7 +58,7 @@ addPage
 
 
 addPages
---------
+++++++++
 
 .. function:: addPages()
 
@@ -72,7 +75,7 @@ addPages
 
 
 setPages
---------
+++++++++
 
 .. function:: setPages()
 
@@ -86,7 +89,7 @@ setPages
 
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 
@@ -98,7 +101,7 @@ getPages
 
 
 removePage
-----------
+++++++++++
 
 .. function:: removePage()
 
@@ -113,7 +116,7 @@ removePage
 
 
 removePages
------------
++++++++++++
 
 .. function:: removePages()
 
@@ -125,7 +128,7 @@ removePages
 
 
 hasPage
--------
++++++++
 
 .. function:: hasPage()
 
@@ -141,7 +144,7 @@ hasPage
 
 
 hasPages
---------
+++++++++
 
 .. function:: hasPages()
 
@@ -153,7 +156,7 @@ hasPages
 
 
 findOneBy
----------
++++++++++
 
 .. function:: findOneBy()
 
@@ -168,7 +171,7 @@ findOneBy
 
 
 findAllBy
----------
++++++++++
 
 .. function:: findAllBy()
 
@@ -184,7 +187,7 @@ findAllBy
 
 
 findBy
-------
+++++++
 
 .. function:: findBy()
 
@@ -205,7 +208,7 @@ findBy
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -228,7 +231,7 @@ __call
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -240,7 +243,7 @@ toArray
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -256,7 +259,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -270,7 +273,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -284,7 +287,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -298,7 +301,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -312,7 +315,7 @@ valid
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -326,7 +329,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -340,7 +343,7 @@ getChildren
 
 
 count
------
++++++
 
 .. function:: count()
 

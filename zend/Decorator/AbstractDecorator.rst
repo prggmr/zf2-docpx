@@ -1,5 +1,8 @@
-.. Tag/Cloud/Decorator/AbstractDecorator.php generated using docpx on 01/30/13 03:32am
+.. Tag/Cloud/Decorator/AbstractDecorator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Cloud\\Decorator\\AbstractDecorator
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Tag\\Cloud\\Decorator\\AbstractDecorator
 Abstract class for decorators
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -48,7 +51,7 @@ getEncoding
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -62,7 +65,7 @@ setEncoding
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -76,7 +79,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -90,7 +93,7 @@ getEscaper
 
 
 validateElementName
--------------------
++++++++++++++++++++
 
 .. function:: validateElementName()
 
@@ -104,7 +107,7 @@ validateElementName
 
 
 validateAttributeName
----------------------
++++++++++++++++++++++
 
 .. function:: validateAttributeName()
 
@@ -118,7 +121,7 @@ validateAttributeName
 
 
 wrapTag
--------
++++++++
 
 .. function:: wrapTag()
 

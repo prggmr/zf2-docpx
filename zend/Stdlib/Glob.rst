@@ -1,5 +1,8 @@
-.. Stdlib/Glob.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/Glob.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\Glob
 ==================
@@ -7,10 +10,10 @@ Zend\\Stdlib\\Glob
 Wrapper for glob with fallback if GLOB_BRACE is not available.
 
 Methods
-+++++++
+-------
 
 glob
-----
+++++
 
 .. function:: glob()
 
@@ -27,7 +30,7 @@ glob
 
 
 systemGlob
-----------
+++++++++++
 
 .. function:: systemGlob()
 
@@ -42,7 +45,7 @@ systemGlob
 
 
 fallbackGlob
-------------
+++++++++++++
 
 .. function:: fallbackGlob()
 
@@ -57,7 +60,7 @@ fallbackGlob
 
 
 nextBraceSub
-------------
+++++++++++++
 
 .. function:: nextBraceSub()
 
@@ -75,26 +78,26 @@ nextBraceSub
 
 
 Constants
-+++++++++
+---------
 
 GLOB_MARK
-=========
++++++++++
 
 GLOB_NOSORT
-===========
++++++++++++
 
 GLOB_NOCHECK
-============
+++++++++++++
 
 GLOB_NOESCAPE
-=============
++++++++++++++
 
 GLOB_BRACE
-==========
+++++++++++
 
 GLOB_ONLYDIR
-============
+++++++++++++
 
 GLOB_ERR
-========
+++++++++
 

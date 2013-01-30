@@ -1,5 +1,8 @@
-.. View/Renderer/ConsoleRenderer.php generated using docpx on 01/30/13 03:32am
+.. View/Renderer/ConsoleRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Renderer\\ConsoleRenderer
 =====================================
@@ -11,10 +14,10 @@ mark them as part of the internal implementation, and thus prevent conflict
 with variables injected into the renderer.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,14 +30,14 @@ __construct
 
 
 setResolver
------------
++++++++++++
 
 .. function:: setResolver()
 
 
 
 getEngine
----------
++++++++++
 
 .. function:: getEngine()
 
@@ -48,7 +51,7 @@ getEngine
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -63,7 +66,7 @@ init
 
 
 setFilterChain
---------------
+++++++++++++++
 
 .. function:: setFilterChain()
 
@@ -77,7 +80,7 @@ setFilterChain
 
 
 getFilterChain
---------------
+++++++++++++++
 
 .. function:: getFilterChain()
 
@@ -89,7 +92,7 @@ getFilterChain
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -106,7 +109,7 @@ render
 
 
 canRenderTrees
---------------
+++++++++++++++
 
 .. function:: canRenderTrees()
 

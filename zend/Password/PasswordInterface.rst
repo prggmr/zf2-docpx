@@ -1,5 +1,8 @@
-.. Crypt/Password/PasswordInterface.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Password/PasswordInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Crypt\\Password\\create
 =============================
@@ -14,6 +17,9 @@ Zend\\Crypt\\Password\\create
     :rtype: string The formatted password hash
 
 
+
+Function
+********
 
 Zend\\Crypt\\Password\\verify
 =============================

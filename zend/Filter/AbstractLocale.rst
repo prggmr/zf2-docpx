@@ -1,14 +1,17 @@
-.. I18n/Filter/AbstractLocale.php generated using docpx on 01/30/13 03:32am
+.. I18n/Filter/AbstractLocale.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Filter\\AbstractLocale
 ==================================
 
 Methods
-+++++++
+-------
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -22,7 +25,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 

@@ -1,5 +1,8 @@
-.. Stdlib/MessageInterface.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/MessageInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Stdlib\\setMetadata
 =========================
@@ -13,6 +16,9 @@ Zend\\Stdlib\\setMetadata
     :param mixed: 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\getMetadata
 =========================
@@ -28,6 +34,9 @@ Zend\\Stdlib\\getMetadata
 
 
 
+Function
+********
+
 Zend\\Stdlib\\setContent
 ========================
 
@@ -41,6 +50,9 @@ Zend\\Stdlib\\setContent
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\getContent
 ========================

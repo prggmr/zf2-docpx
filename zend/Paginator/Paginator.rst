@@ -1,14 +1,17 @@
-.. Paginator/Paginator.php generated using docpx on 01/30/13 03:32am
+.. Paginator/Paginator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\Paginator
 ==========================
 
 Methods
-+++++++
+-------
 
 setGlobalConfig
----------------
++++++++++++++++
 
 .. function:: setGlobalConfig()
 
@@ -22,7 +25,7 @@ setGlobalConfig
 
 
 getDefaultScrollingStyle
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getDefaultScrollingStyle()
 
@@ -34,7 +37,7 @@ getDefaultScrollingStyle
 
 
 getDefaultItemCountPerPage
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getDefaultItemCountPerPage()
 
@@ -46,7 +49,7 @@ getDefaultItemCountPerPage
 
 
 setDefaultItemCountPerPage
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: setDefaultItemCountPerPage()
 
@@ -58,7 +61,7 @@ setDefaultItemCountPerPage
 
 
 setCache
---------
+++++++++
 
 .. function:: setCache()
 
@@ -70,7 +73,7 @@ setCache
 
 
 setDefaultScrollingStyle
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDefaultScrollingStyle()
 
@@ -82,14 +85,14 @@ setDefaultScrollingStyle
 
 
 setScrollingStylePluginManager
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: setScrollingStylePluginManager()
 
 
 
 getScrollingStylePluginManager
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getScrollingStylePluginManager()
 
@@ -102,7 +105,7 @@ getScrollingStylePluginManager
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -116,7 +119,7 @@ __construct
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -128,7 +131,7 @@ __toString
 
 
 setCacheEnabled
----------------
++++++++++++++++
 
 .. function:: setCacheEnabled()
 
@@ -142,7 +145,7 @@ setCacheEnabled
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -154,7 +157,7 @@ count
 
 
 getTotalItemCount
------------------
++++++++++++++++++
 
 .. function:: getTotalItemCount()
 
@@ -166,7 +169,7 @@ getTotalItemCount
 
 
 clearPageItemCache
-------------------
+++++++++++++++++++
 
 .. function:: clearPageItemCache()
 
@@ -180,7 +183,7 @@ clearPageItemCache
 
 
 getAbsoluteItemNumber
----------------------
++++++++++++++++++++++
 
 .. function:: getAbsoluteItemNumber()
 
@@ -195,7 +198,7 @@ getAbsoluteItemNumber
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -207,7 +210,7 @@ getAdapter
 
 
 getCurrentItemCount
--------------------
++++++++++++++++++++
 
 .. function:: getCurrentItemCount()
 
@@ -219,7 +222,7 @@ getCurrentItemCount
 
 
 getCurrentItems
----------------
++++++++++++++++
 
 .. function:: getCurrentItems()
 
@@ -231,7 +234,7 @@ getCurrentItems
 
 
 getCurrentPageNumber
---------------------
+++++++++++++++++++++
 
 .. function:: getCurrentPageNumber()
 
@@ -243,7 +246,7 @@ getCurrentPageNumber
 
 
 setCurrentPageNumber
---------------------
+++++++++++++++++++++
 
 .. function:: setCurrentPageNumber()
 
@@ -257,7 +260,7 @@ setCurrentPageNumber
 
 
 getFilter
----------
++++++++++
 
 .. function:: getFilter()
 
@@ -269,7 +272,7 @@ getFilter
 
 
 setFilter
----------
++++++++++
 
 .. function:: setFilter()
 
@@ -283,7 +286,7 @@ setFilter
 
 
 getItem
--------
++++++++
 
 .. function:: getItem()
 
@@ -301,7 +304,7 @@ getItem
 
 
 getItemCountPerPage
--------------------
++++++++++++++++++++
 
 .. function:: getItemCountPerPage()
 
@@ -313,7 +316,7 @@ getItemCountPerPage
 
 
 setItemCountPerPage
--------------------
++++++++++++++++++++
 
 .. function:: setItemCountPerPage()
 
@@ -327,7 +330,7 @@ setItemCountPerPage
 
 
 getItemCount
-------------
+++++++++++++
 
 .. function:: getItemCount()
 
@@ -341,7 +344,7 @@ getItemCount
 
 
 getItemsByPage
---------------
+++++++++++++++
 
 .. function:: getItemsByPage()
 
@@ -355,7 +358,7 @@ getItemsByPage
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -368,7 +371,7 @@ getIterator
 
 
 getPageRange
-------------
+++++++++++++
 
 .. function:: getPageRange()
 
@@ -380,7 +383,7 @@ getPageRange
 
 
 setPageRange
-------------
+++++++++++++
 
 .. function:: setPageRange()
 
@@ -394,7 +397,7 @@ setPageRange
 
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 
@@ -408,7 +411,7 @@ getPages
 
 
 getPagesInRange
----------------
++++++++++++++++
 
 .. function:: getPagesInRange()
 
@@ -423,7 +426,7 @@ getPagesInRange
 
 
 getPageItemCache
-----------------
+++++++++++++++++
 
 .. function:: getPageItemCache()
 
@@ -435,7 +438,7 @@ getPageItemCache
 
 
 getView
--------
++++++++
 
 .. function:: getView()
 
@@ -449,7 +452,7 @@ getView
 
 
 setView
--------
++++++++
 
 .. function:: setView()
 
@@ -463,7 +466,7 @@ setView
 
 
 normalizeItemNumber
--------------------
++++++++++++++++++++
 
 .. function:: normalizeItemNumber()
 
@@ -477,7 +480,7 @@ normalizeItemNumber
 
 
 normalizePageNumber
--------------------
++++++++++++++++++++
 
 .. function:: normalizePageNumber()
 
@@ -491,7 +494,7 @@ normalizePageNumber
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -505,7 +508,7 @@ render
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -517,7 +520,7 @@ toJson
 
 
 cacheEnabled
-------------
+++++++++++++
 
 .. function:: cacheEnabled()
 
@@ -530,7 +533,7 @@ cacheEnabled
 
 
 _getCacheId
------------
++++++++++++
 
 .. function:: _getCacheId()
 
@@ -548,7 +551,7 @@ _getCacheId
 
 
 _getCacheInternalId
--------------------
++++++++++++++++++++
 
 .. function:: _getCacheInternalId()
 
@@ -563,7 +566,7 @@ _getCacheInternalId
 
 
 _calculatePageCount
--------------------
++++++++++++++++++++
 
 .. function:: _calculatePageCount()
 
@@ -575,7 +578,7 @@ _calculatePageCount
 
 
 _createPages
-------------
+++++++++++++
 
 .. function:: _createPages()
 
@@ -589,7 +592,7 @@ _createPages
 
 
 _loadScrollingStyle
--------------------
++++++++++++++++++++
 
 .. function:: _loadScrollingStyle()
 
@@ -607,10 +610,10 @@ _loadScrollingStyle
 
 
 Constants
-+++++++++
+---------
 
 CACHE_TAG_PREFIX
-================
+++++++++++++++++
 
 The cache tag prefix used to namespace Paginator results in the cache
 

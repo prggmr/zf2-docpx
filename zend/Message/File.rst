@@ -1,14 +1,17 @@
-.. Mail/Storage/Message/File.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Message/File.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Message\\File
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getTopLines
------------
++++++++++++
 
 .. function:: getTopLines()
 
@@ -37,7 +40,7 @@ getTopLines
 
 
 hasFlag
--------
++++++++
 
 .. function:: hasFlag()
 
@@ -51,7 +54,7 @@ hasFlag
 
 
 getFlags
---------
+++++++++
 
 .. function:: getFlags()
 

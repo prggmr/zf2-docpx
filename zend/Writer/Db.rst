@@ -1,14 +1,17 @@
-.. Log/Writer/Db.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/Db.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\Db
 =====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 
@@ -39,7 +42,7 @@ shutdown
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 
@@ -55,7 +58,7 @@ doWrite
 
 
 prepareInsert
--------------
++++++++++++++
 
 .. function:: prepareInsert()
 
@@ -71,7 +74,7 @@ prepareInsert
 
 
 mapEventIntoColumn
-------------------
+++++++++++++++++++
 
 .. function:: mapEventIntoColumn()
 
@@ -86,7 +89,7 @@ mapEventIntoColumn
 
 
 eventIntoColumn
----------------
++++++++++++++++
 
 .. function:: eventIntoColumn()
 

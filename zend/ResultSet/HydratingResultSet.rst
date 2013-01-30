@@ -1,14 +1,17 @@
-.. Db/ResultSet/HydratingResultSet.php generated using docpx on 01/30/13 03:32am
+.. Db/ResultSet/HydratingResultSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\ResultSet\\HydratingResultSet
 =======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setObjectPrototype
-------------------
+++++++++++++++++++
 
 .. function:: setObjectPrototype()
 
@@ -37,7 +40,7 @@ setObjectPrototype
 
 
 setHydrator
------------
++++++++++++
 
 .. function:: setHydrator()
 
@@ -51,7 +54,7 @@ setHydrator
 
 
 getHydrator
------------
++++++++++++
 
 .. function:: getHydrator()
 
@@ -63,7 +66,7 @@ getHydrator
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -75,7 +78,7 @@ current
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

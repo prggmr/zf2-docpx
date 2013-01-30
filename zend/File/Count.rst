@@ -1,5 +1,8 @@
-.. Validator/File/Count.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Count.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Count
 ============================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Count
 Validator for counting all given files
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -30,7 +33,7 @@ __construct
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -42,7 +45,7 @@ getMin
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -58,7 +61,7 @@ setMin
 
 
 getMax
-------
+++++++
 
 .. function:: getMax()
 
@@ -70,7 +73,7 @@ getMax
 
 
 setMax
-------
+++++++
 
 .. function:: setMax()
 
@@ -86,7 +89,7 @@ setMax
 
 
 addFile
--------
++++++++
 
 .. function:: addFile()
 
@@ -100,7 +103,7 @@ addFile
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -117,7 +120,7 @@ isValid
 
 
 throwError
-----------
+++++++++++
 
 .. function:: throwError()
 
@@ -134,11 +137,11 @@ throwError
 
 
 Constants
-+++++++++
+---------
 
 TOO_MANY
-========
+++++++++
 
 TOO_FEW
-=======
++++++++
 

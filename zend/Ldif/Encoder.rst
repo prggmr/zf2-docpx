@@ -1,5 +1,8 @@
-.. Ldap/Ldif/Encoder.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Ldif/Encoder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Ldif\\Encoder
 =========================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Ldif\\Encoder
 Zend\Ldap\Ldif\Encoder provides methods to encode and decode LDAP data into/from Ldif.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 decode
-------
+++++++
 
 .. function:: decode()
 
@@ -36,7 +39,7 @@ decode
 
 
 _decode
--------
++++++++
 
 .. function:: _decode()
 
@@ -50,7 +53,7 @@ _decode
 
 
 pushAttribute
--------------
++++++++++++++
 
 .. function:: pushAttribute()
 
@@ -63,7 +66,7 @@ pushAttribute
 
 
 encode
-------
+++++++
 
 .. function:: encode()
 
@@ -78,7 +81,7 @@ encode
 
 
 _encode
--------
++++++++
 
 .. function:: _encode()
 
@@ -93,7 +96,7 @@ _encode
 
 
 encodeString
-------------
+++++++++++++
 
 .. function:: encodeString()
 
@@ -109,7 +112,7 @@ encodeString
 
 
 encodeAttribute
----------------
++++++++++++++++
 
 .. function:: encodeAttribute()
 
@@ -125,7 +128,7 @@ encodeAttribute
 
 
 encodeAttributes
-----------------
+++++++++++++++++
 
 .. function:: encodeAttributes()
 

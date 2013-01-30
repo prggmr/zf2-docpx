@@ -1,5 +1,8 @@
-.. Crypt/Symmetric/PaddingPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Symmetric/PaddingPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Symmetric\\PaddingPluginManager
 ============================================
@@ -11,10 +14,10 @@ Padding\PaddingInterface. Additionally, it registers a number of default
 padding adapters available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

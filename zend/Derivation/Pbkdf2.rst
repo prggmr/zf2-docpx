@@ -1,5 +1,8 @@
-.. Crypt/Key/Derivation/Pbkdf2.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Key/Derivation/Pbkdf2.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Key\\Derivation\\Pbkdf2
 ====================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Key\\Derivation\\Pbkdf2
 PKCS #5 v2.0 standard RFC 2898
 
 Methods
-+++++++
+-------
 
 calc
-----
+++++
 
 .. function:: calc()
 

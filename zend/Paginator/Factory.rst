@@ -1,14 +1,17 @@
-.. Paginator/Factory.php generated using docpx on 01/30/13 03:32am
+.. Paginator/Factory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\Factory
 ========================
 
 Methods
-+++++++
+-------
 
 createAdapterFromItems
-----------------------
+++++++++++++++++++++++
 
 .. function:: createAdapterFromItems()
 
@@ -22,7 +25,7 @@ createAdapterFromItems
 
 
 getAdapterFromManager
----------------------
++++++++++++++++++++++
 
 .. function:: getAdapterFromManager()
 
@@ -37,7 +40,7 @@ getAdapterFromManager
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -52,7 +55,7 @@ factory
 
 
 setAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: setAdapterPluginManager()
 
@@ -66,7 +69,7 @@ setAdapterPluginManager
 
 
 getAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: getAdapterPluginManager()
 

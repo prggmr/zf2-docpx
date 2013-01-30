@@ -1,5 +1,8 @@
-.. Navigation/View/HelperConfig.php generated using docpx on 01/30/13 03:32am
+.. Navigation/View/HelperConfig.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\View\\HelperConfig
 ====================================
@@ -7,10 +10,10 @@ Zend\\Navigation\\View\\HelperConfig
 Service manager configuration for navigation view helpers
 
 Methods
-+++++++
+-------
 
 configureServiceManager
------------------------
++++++++++++++++++++++++
 
 .. function:: configureServiceManager()
 
@@ -28,7 +31,7 @@ configureServiceManager
 
 
 HelperPluginManager
--------------------
++++++++++++++++++++
 
 .. function:: HelperPluginManager()
 

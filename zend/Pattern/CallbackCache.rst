@@ -1,14 +1,17 @@
-.. Cache/Pattern/CallbackCache.php generated using docpx on 01/30/13 03:32am
+.. Cache/Pattern/CallbackCache.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Pattern\\CallbackCache
 ===================================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 call
-----
+++++
 
 .. function:: call()
 
@@ -42,7 +45,7 @@ call
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -60,7 +63,7 @@ __call
 
 
 generateKey
------------
++++++++++++
 
 .. function:: generateKey()
 
@@ -79,7 +82,7 @@ generateKey
 
 
 generateCallbackKey
--------------------
++++++++++++++++++++
 
 .. function:: generateCallbackKey()
 
@@ -98,7 +101,7 @@ generateCallbackKey
 
 
 generateArgumentsKey
---------------------
+++++++++++++++++++++
 
 .. function:: generateArgumentsKey()
 

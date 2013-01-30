@@ -1,5 +1,8 @@
-.. Validator/File/WordCount.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/WordCount.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\WordCount
 ================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\WordCount
 Validator for counting all words in a file
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -30,7 +33,7 @@ __construct
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -42,7 +45,7 @@ getMin
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -58,7 +61,7 @@ setMin
 
 
 getMax
-------
+++++++
 
 .. function:: getMax()
 
@@ -70,7 +73,7 @@ getMax
 
 
 setMax
-------
+++++++
 
 .. function:: setMax()
 
@@ -86,7 +89,7 @@ setMax
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -103,16 +106,16 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 TOO_MUCH
-========
+++++++++
 
 @const string Error constants
 
 TOO_LESS
-========
+++++++++
 
 NOT_FOUND
-=========
++++++++++
 

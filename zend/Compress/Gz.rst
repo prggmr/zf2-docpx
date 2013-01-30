@@ -1,5 +1,8 @@
-.. Filter/Compress/Gz.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress/Gz.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Compress\\Gz
 ==========================
@@ -7,10 +10,10 @@ Zend\\Filter\\Compress\\Gz
 Compression adapter for Gzip (ZLib)
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 getLevel
---------
+++++++++
 
 .. function:: getLevel()
 
@@ -36,7 +39,7 @@ getLevel
 
 
 setLevel
---------
+++++++++
 
 .. function:: setLevel()
 
@@ -52,7 +55,7 @@ setLevel
 
 
 getMode
--------
++++++++
 
 .. function:: getMode()
 
@@ -64,7 +67,7 @@ getMode
 
 
 setMode
--------
++++++++
 
 .. function:: setMode()
 
@@ -80,7 +83,7 @@ setMode
 
 
 getArchive
-----------
+++++++++++
 
 .. function:: getArchive()
 
@@ -92,7 +95,7 @@ getArchive
 
 
 setArchive
-----------
+++++++++++
 
 .. function:: setArchive()
 
@@ -106,7 +109,7 @@ setArchive
 
 
 compress
---------
+++++++++
 
 .. function:: compress()
 
@@ -122,7 +125,7 @@ compress
 
 
 decompress
-----------
+++++++++++
 
 .. function:: decompress()
 
@@ -138,7 +141,7 @@ decompress
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

@@ -1,14 +1,17 @@
-.. Db/Adapter/Platform/Oracle.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Platform/Oracle.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Platform\\Oracle
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -30,7 +33,7 @@ getName
 
 
 getQuoteIdentifierSymbol
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getQuoteIdentifierSymbol()
 
@@ -42,7 +45,7 @@ getQuoteIdentifierSymbol
 
 
 quoteIdentifier
----------------
++++++++++++++++
 
 .. function:: quoteIdentifier()
 
@@ -56,7 +59,7 @@ quoteIdentifier
 
 
 quoteIdentifierChain
---------------------
+++++++++++++++++++++
 
 .. function:: quoteIdentifierChain()
 
@@ -70,7 +73,7 @@ quoteIdentifierChain
 
 
 getQuoteValueSymbol
--------------------
++++++++++++++++++++
 
 .. function:: getQuoteValueSymbol()
 
@@ -82,7 +85,7 @@ getQuoteValueSymbol
 
 
 quoteValue
-----------
+++++++++++
 
 .. function:: quoteValue()
 
@@ -96,7 +99,7 @@ quoteValue
 
 
 quoteValueList
---------------
+++++++++++++++
 
 .. function:: quoteValueList()
 
@@ -110,7 +113,7 @@ quoteValueList
 
 
 getIdentifierSeparator
-----------------------
+++++++++++++++++++++++
 
 .. function:: getIdentifierSeparator()
 
@@ -122,7 +125,7 @@ getIdentifierSeparator
 
 
 quoteIdentifierInFragment
--------------------------
++++++++++++++++++++++++++
 
 .. function:: quoteIdentifierInFragment()
 

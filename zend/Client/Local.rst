@@ -1,5 +1,8 @@
-.. Soap/Client/Local.php generated using docpx on 01/30/13 03:32am
+.. Soap/Client/Local.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Client\\Local
 =========================
@@ -12,10 +15,10 @@ with a provided Server object.
 Could be used for development or testing purposes.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 _doRequest
-----------
+++++++++++
 
 .. function:: _doRequest()
 

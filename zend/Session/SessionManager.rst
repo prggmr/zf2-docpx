@@ -1,5 +1,8 @@
-.. Session/SessionManager.php generated using docpx on 01/30/13 03:32am
+.. Session/SessionManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\SessionManager
 =============================
@@ -7,10 +10,10 @@ Zend\\Session\\SessionManager
 Session ManagerInterface implementation utilizing ext/session
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 sessionExists
--------------
++++++++++++++
 
 .. function:: sessionExists()
 
@@ -38,7 +41,7 @@ sessionExists
 
 
 start
------
++++++
 
 .. function:: start()
 
@@ -59,7 +62,7 @@ start
 
 
 destroy
--------
++++++++
 
 .. function:: destroy()
 
@@ -73,7 +76,7 @@ destroy
 
 
 writeClose
-----------
+++++++++++
 
 .. function:: writeClose()
 
@@ -87,7 +90,7 @@ writeClose
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -106,7 +109,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -120,7 +123,7 @@ getName
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -136,7 +139,7 @@ setId
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -150,7 +153,7 @@ getId
 
 
 regenerateId
-------------
+++++++++++++
 
 .. function:: regenerateId()
 
@@ -167,7 +170,7 @@ regenerateId
 
 
 rememberMe
-----------
+++++++++++
 
 .. function:: rememberMe()
 
@@ -183,7 +186,7 @@ rememberMe
 
 
 forgetMe
---------
+++++++++
 
 .. function:: forgetMe()
 
@@ -197,7 +200,7 @@ forgetMe
 
 
 setValidatorChain
------------------
++++++++++++++++++
 
 .. function:: setValidatorChain()
 
@@ -213,7 +216,7 @@ setValidatorChain
 
 
 getValidatorChain
------------------
++++++++++++++++++
 
 .. function:: getValidatorChain()
 
@@ -227,7 +230,7 @@ getValidatorChain
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -242,7 +245,7 @@ isValid
 
 
 expireSessionCookie
--------------------
++++++++++++++++++++
 
 .. function:: expireSessionCookie()
 
@@ -256,7 +259,7 @@ expireSessionCookie
 
 
 setSessionCookieLifetime
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setSessionCookieLifetime()
 
@@ -273,7 +276,7 @@ setSessionCookieLifetime
 
 
 registerSaveHandler
--------------------
++++++++++++++++++++
 
 .. function:: registerSaveHandler()
 

@@ -1,14 +1,17 @@
-.. Config/Writer/Yaml.php generated using docpx on 01/30/13 03:32am
+.. Config/Writer/Yaml.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Writer\\Yaml
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getYamlEncoder
---------------
+++++++++++++++
 
 .. function:: getYamlEncoder()
 
@@ -32,7 +35,7 @@ getYamlEncoder
 
 
 setYamlEncoder
---------------
+++++++++++++++
 
 .. function:: setYamlEncoder()
 
@@ -48,7 +51,7 @@ setYamlEncoder
 
 
 processConfig
--------------
++++++++++++++
 
 .. function:: processConfig()
 

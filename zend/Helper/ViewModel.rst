@@ -1,5 +1,8 @@
-.. View/Helper/ViewModel.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/ViewModel.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\ViewModel
 =============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\ViewModel
 Helper for storing and retrieving the root and current view model
 
 Methods
-+++++++
+-------
 
 getRoot
--------
++++++++
 
 .. function:: getRoot()
 
@@ -22,7 +25,7 @@ getRoot
 
 
 hasRoot
--------
++++++++
 
 .. function:: hasRoot()
 
@@ -34,7 +37,7 @@ hasRoot
 
 
 getCurrent
-----------
+++++++++++
 
 .. function:: getCurrent()
 
@@ -46,7 +49,7 @@ getCurrent
 
 
 hasCurrent
-----------
+++++++++++
 
 .. function:: hasCurrent()
 
@@ -58,7 +61,7 @@ hasCurrent
 
 
 setRoot
--------
++++++++
 
 .. function:: setRoot()
 
@@ -72,7 +75,7 @@ setRoot
 
 
 setCurrent
-----------
+++++++++++
 
 .. function:: setCurrent()
 

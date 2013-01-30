@@ -1,14 +1,17 @@
-.. I18n/Filter/Alnum.php generated using docpx on 01/30/13 03:32am
+.. I18n/Filter/Alnum.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Filter\\Alnum
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setAllowWhiteSpace
-------------------
+++++++++++++++++++
 
 .. function:: setAllowWhiteSpace()
 
@@ -35,7 +38,7 @@ setAllowWhiteSpace
 
 
 getAllowWhiteSpace
-------------------
+++++++++++++++++++
 
 .. function:: getAllowWhiteSpace()
 
@@ -47,7 +50,7 @@ getAllowWhiteSpace
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

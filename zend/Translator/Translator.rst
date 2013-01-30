@@ -1,5 +1,8 @@
-.. I18n/Translator/Translator.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Translator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Translator
 ==================================
@@ -7,10 +10,10 @@ Zend\\I18n\\Translator\\Translator
 Translator.
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -26,7 +29,7 @@ factory
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -40,7 +43,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -52,7 +55,7 @@ getLocale
 
 
 setFallbackLocale
------------------
++++++++++++++++++
 
 .. function:: setFallbackLocale()
 
@@ -66,7 +69,7 @@ setFallbackLocale
 
 
 getFallbackLocale
------------------
++++++++++++++++++
 
 .. function:: getFallbackLocale()
 
@@ -78,7 +81,7 @@ getFallbackLocale
 
 
 setCache
---------
+++++++++
 
 .. function:: setCache()
 
@@ -92,7 +95,7 @@ setCache
 
 
 getCache
---------
+++++++++
 
 .. function:: getCache()
 
@@ -104,7 +107,7 @@ getCache
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -118,7 +121,7 @@ setPluginManager
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -132,7 +135,7 @@ getPluginManager
 
 
 translate
----------
++++++++++
 
 .. function:: translate()
 
@@ -148,7 +151,7 @@ translate
 
 
 translatePlural
----------------
++++++++++++++++
 
 .. function:: translatePlural()
 
@@ -168,7 +171,7 @@ translatePlural
 
 
 getTranslatedMessage
---------------------
+++++++++++++++++++++
 
 .. function:: getTranslatedMessage()
 
@@ -184,7 +187,7 @@ getTranslatedMessage
 
 
 addTranslationFile
-------------------
+++++++++++++++++++
 
 .. function:: addTranslationFile()
 
@@ -201,7 +204,7 @@ addTranslationFile
 
 
 addTranslationFilePattern
--------------------------
++++++++++++++++++++++++++
 
 .. function:: addTranslationFilePattern()
 
@@ -218,7 +221,7 @@ addTranslationFilePattern
 
 
 addRemoteTranslations
----------------------
++++++++++++++++++++++
 
 .. function:: addRemoteTranslations()
 
@@ -233,7 +236,7 @@ addRemoteTranslations
 
 
 loadMessages
-------------
+++++++++++++
 
 .. function:: loadMessages()
 

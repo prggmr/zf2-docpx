@@ -1,14 +1,17 @@
-.. Log/Formatter/ChromePhp.php generated using docpx on 01/30/13 03:32am
+.. Log/Formatter/ChromePhp.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Formatter\\ChromePhp
 ===============================
 
 Methods
-+++++++
+-------
 
 format
-------
+++++++
 
 .. function:: format()
 
@@ -22,7 +25,7 @@ format
 
 
 getDateTimeFormat
------------------
++++++++++++++++++
 
 .. function:: getDateTimeFormat()
 
@@ -34,7 +37,7 @@ getDateTimeFormat
 
 
 setDateTimeFormat
------------------
++++++++++++++++++
 
 .. function:: setDateTimeFormat()
 

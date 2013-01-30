@@ -1,5 +1,8 @@
-.. Di/DefinitionList.php generated using docpx on 01/30/13 03:32am
+.. Di/DefinitionList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\DefinitionList
 ========================
@@ -7,10 +10,10 @@ Zend\\Di\\DefinitionList
 Class definition based on multiple definitions
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 addDefinition
--------------
++++++++++++++
 
 .. function:: addDefinition()
 
@@ -35,7 +38,7 @@ addDefinition
 
 
 getDefinitionsByType
---------------------
+++++++++++++++++++++
 
 .. function:: getDefinitionsByType()
 
@@ -47,7 +50,7 @@ getDefinitionsByType
 
 
 getDefinitionByType
--------------------
++++++++++++++++++++
 
 .. function:: getDefinitionByType()
 
@@ -61,7 +64,7 @@ getDefinitionByType
 
 
 getDefinitionForClass
----------------------
++++++++++++++++++++++
 
 .. function:: getDefinitionForClass()
 
@@ -73,7 +76,7 @@ getDefinitionForClass
 
 
 forClass
---------
+++++++++
 
 .. function:: forClass()
 
@@ -85,7 +88,7 @@ forClass
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -95,7 +98,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -105,7 +108,7 @@ hasClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -115,7 +118,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -125,7 +128,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -135,7 +138,7 @@ hasMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -145,7 +148,7 @@ hasMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -155,7 +158,7 @@ getMethods
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -165,7 +168,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 

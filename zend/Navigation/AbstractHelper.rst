@@ -1,5 +1,8 @@
-.. View/Helper/Navigation/AbstractHelper.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Navigation/AbstractHelper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Navigation\\AbstractHelper
 ==============================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Navigation\\AbstractHelper
 Base class for navigational helpers
 
 Methods
-+++++++
+-------
 
 setServiceLocator
------------------
++++++++++++++++++
 
 .. function:: setServiceLocator()
 
@@ -24,7 +27,7 @@ setServiceLocator
 
 
 getServiceLocator
------------------
++++++++++++++++++
 
 .. function:: getServiceLocator()
 
@@ -36,7 +39,7 @@ getServiceLocator
 
 
 setContainer
-------------
+++++++++++++
 
 .. function:: setContainer()
 
@@ -53,7 +56,7 @@ setContainer
 
 
 getContainer
-------------
+++++++++++++
 
 .. function:: getContainer()
 
@@ -70,7 +73,7 @@ getContainer
 
 
 parseContainer
---------------
+++++++++++++++
 
 .. function:: parseContainer()
 
@@ -84,7 +87,7 @@ parseContainer
 
 
 setMinDepth
------------
++++++++++++
 
 .. function:: setMinDepth()
 
@@ -99,7 +102,7 @@ setMinDepth
 
 
 getMinDepth
------------
++++++++++++
 
 .. function:: getMinDepth()
 
@@ -111,7 +114,7 @@ getMinDepth
 
 
 setMaxDepth
------------
++++++++++++
 
 .. function:: setMaxDepth()
 
@@ -126,7 +129,7 @@ setMaxDepth
 
 
 getMaxDepth
------------
++++++++++++
 
 .. function:: getMaxDepth()
 
@@ -138,7 +141,7 @@ getMaxDepth
 
 
 setIndent
----------
++++++++++
 
 .. function:: setIndent()
 
@@ -153,7 +156,7 @@ setIndent
 
 
 getIndent
----------
++++++++++
 
 .. function:: getIndent()
 
@@ -165,7 +168,7 @@ getIndent
 
 
 setAcl
-------
+++++++
 
 .. function:: setAcl()
 
@@ -181,7 +184,7 @@ setAcl
 
 
 getAcl
-------
+++++++
 
 .. function:: getAcl()
 
@@ -196,7 +199,7 @@ getAcl
 
 
 setRole
--------
++++++++
 
 .. function:: setRole()
 
@@ -216,7 +219,7 @@ setRole
 
 
 getRole
--------
++++++++
 
 .. function:: getRole()
 
@@ -231,7 +234,7 @@ getRole
 
 
 setUseAcl
----------
++++++++++
 
 .. function:: setUseAcl()
 
@@ -247,7 +250,7 @@ setUseAcl
 
 
 getUseAcl
----------
++++++++++
 
 .. function:: getUseAcl()
 
@@ -261,7 +264,7 @@ getUseAcl
 
 
 getRenderInvisible
-------------------
+++++++++++++++++++
 
 .. function:: getRenderInvisible()
 
@@ -273,7 +276,7 @@ getRenderInvisible
 
 
 setRenderInvisible
-------------------
+++++++++++++++++++
 
 .. function:: setRenderInvisible()
 
@@ -287,7 +290,7 @@ setRenderInvisible
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -304,7 +307,7 @@ __call
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -321,7 +324,7 @@ __toString
 
 
 findActive
-----------
+++++++++++
 
 .. function:: findActive()
 
@@ -350,7 +353,7 @@ findActive
 
 
 hasContainer
-------------
+++++++++++++
 
 .. function:: hasContainer()
 
@@ -364,7 +367,7 @@ hasContainer
 
 
 hasAcl
-------
+++++++
 
 .. function:: hasAcl()
 
@@ -378,7 +381,7 @@ hasAcl
 
 
 hasRole
--------
++++++++
 
 .. function:: hasRole()
 
@@ -392,7 +395,7 @@ hasRole
 
 
 htmlify
--------
++++++++
 
 .. function:: htmlify()
 
@@ -406,7 +409,7 @@ htmlify
 
 
 setTranslator
--------------
++++++++++++++
 
 .. function:: setTranslator()
 
@@ -423,7 +426,7 @@ setTranslator
 
 
 getTranslator
--------------
++++++++++++++
 
 .. function:: getTranslator()
 
@@ -435,7 +438,7 @@ getTranslator
 
 
 hasTranslator
--------------
++++++++++++++
 
 .. function:: hasTranslator()
 
@@ -447,7 +450,7 @@ hasTranslator
 
 
 setTranslatorEnabled
---------------------
+++++++++++++++++++++
 
 .. function:: setTranslatorEnabled()
 
@@ -462,7 +465,7 @@ setTranslatorEnabled
 
 
 isTranslatorEnabled
--------------------
++++++++++++++++++++
 
 .. function:: isTranslatorEnabled()
 
@@ -474,7 +477,7 @@ isTranslatorEnabled
 
 
 setTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: setTranslatorTextDomain()
 
@@ -488,7 +491,7 @@ setTranslatorTextDomain
 
 
 getTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: getTranslatorTextDomain()
 
@@ -500,7 +503,7 @@ getTranslatorTextDomain
 
 
 accept
-------
+++++++
 
 .. function:: accept()
 
@@ -528,7 +531,7 @@ accept
 
 
 acceptAcl
----------
++++++++++
 
 .. function:: acceptAcl()
 
@@ -548,7 +551,7 @@ acceptAcl
 
 
 getWhitespace
--------------
++++++++++++++
 
 .. function:: getWhitespace()
 
@@ -562,7 +565,7 @@ getWhitespace
 
 
 htmlAttribs
------------
++++++++++++
 
 .. function:: htmlAttribs()
 
@@ -579,7 +582,7 @@ htmlAttribs
 
 
 normalizeId
------------
++++++++++++
 
 .. function:: normalizeId()
 
@@ -595,7 +598,7 @@ normalizeId
 
 
 setDefaultAcl
--------------
++++++++++++++
 
 .. function:: setDefaultAcl()
 
@@ -610,7 +613,7 @@ setDefaultAcl
 
 
 setDefaultRole
---------------
+++++++++++++++
 
 .. function:: setDefaultRole()
 

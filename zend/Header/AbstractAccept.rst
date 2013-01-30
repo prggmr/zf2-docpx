@@ -1,5 +1,8 @@
-.. Http/Header/AbstractAccept.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/AbstractAccept.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\AbstractAccept
 ==================================
@@ -25,10 +28,10 @@ Naming conventions:
                        |---|                                priority
 
 Methods
-+++++++
+-------
 
 parseHeaderLine
----------------
++++++++++++++++
 
 .. function:: parseHeaderLine()
 
@@ -38,7 +41,7 @@ parseHeaderLine
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -52,7 +55,7 @@ fromString
 
 
 getFieldValuePartsFromHeaderLine
---------------------------------
+++++++++++++++++++++++++++++++++
 
 .. function:: getFieldValuePartsFromHeaderLine()
 
@@ -68,7 +71,7 @@ getFieldValuePartsFromHeaderLine
 
 
 parseFieldValuePart
--------------------
++++++++++++++++++++
 
 .. function:: parseFieldValuePart()
 
@@ -82,7 +85,7 @@ parseFieldValuePart
 
 
 getParametersFromFieldValuePart
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: getParametersFromFieldValuePart()
 
@@ -96,7 +99,7 @@ getParametersFromFieldValuePart
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -110,7 +113,7 @@ getFieldValue
 
 
 assembleAcceptParam
--------------------
++++++++++++++++++++
 
 .. function:: assembleAcceptParam()
 
@@ -126,7 +129,7 @@ assembleAcceptParam
 
 
 addType
--------
++++++++
 
 .. function:: addType()
 
@@ -144,7 +147,7 @@ addType
 
 
 hasType
--------
++++++++
 
 .. function:: hasType()
 
@@ -158,7 +161,7 @@ hasType
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -172,7 +175,7 @@ match
 
 
 matchAcceptParams
------------------
++++++++++++++++++
 
 .. function:: matchAcceptParams()
 
@@ -187,7 +190,7 @@ matchAcceptParams
 
 
 addFieldValuePartToQueue
-------------------------
+++++++++++++++++++++++++
 
 .. function:: addFieldValuePartToQueue()
 
@@ -201,7 +204,7 @@ addFieldValuePartToQueue
 
 
 sortFieldValueParts
--------------------
++++++++++++++++++++
 
 .. function:: sortFieldValueParts()
 
@@ -214,7 +217,7 @@ sortFieldValueParts
 
 
 getPrioritized
---------------
+++++++++++++++
 
 .. function:: getPrioritized()
 

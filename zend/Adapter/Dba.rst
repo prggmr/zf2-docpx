@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/Dba.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/Dba.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\Dba
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -37,7 +40,7 @@ __destruct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -53,7 +56,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -67,7 +70,7 @@ getOptions
 
 
 getTotalSpace
--------------
++++++++++++++
 
 .. function:: getTotalSpace()
 
@@ -79,7 +82,7 @@ getTotalSpace
 
 
 getAvailableSpace
------------------
++++++++++++++++++
 
 .. function:: getAvailableSpace()
 
@@ -91,7 +94,7 @@ getAvailableSpace
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -103,7 +106,7 @@ flush
 
 
 clearByNamespace
-----------------
+++++++++++++++++
 
 .. function:: clearByNamespace()
 
@@ -117,7 +120,7 @@ clearByNamespace
 
 
 clearByPrefix
--------------
++++++++++++++
 
 .. function:: clearByPrefix()
 
@@ -131,7 +134,7 @@ clearByPrefix
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -143,7 +146,7 @@ getIterator
 
 
 optimize
---------
+++++++++
 
 .. function:: optimize()
 
@@ -156,7 +159,7 @@ optimize
 
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -174,7 +177,7 @@ internalGetItem
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -190,7 +193,7 @@ internalHasItem
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -207,7 +210,7 @@ internalSetItem
 
 
 internalAddItem
----------------
++++++++++++++++
 
 .. function:: internalAddItem()
 
@@ -224,7 +227,7 @@ internalAddItem
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -240,7 +243,7 @@ internalRemoveItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 
@@ -252,7 +255,7 @@ internalGetCapabilities
 
 
 _open
------
++++++
 
 .. function:: _open()
 
@@ -267,7 +270,7 @@ _open
 
 
 _close
-------
+++++++
 
 .. function:: _close()
 

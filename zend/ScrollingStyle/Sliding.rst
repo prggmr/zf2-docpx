@@ -1,5 +1,8 @@
-.. Paginator/ScrollingStyle/Sliding.php generated using docpx on 01/30/13 03:32am
+.. Paginator/ScrollingStyle/Sliding.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\ScrollingStyle\\Sliding
 ========================================
@@ -10,10 +13,10 @@ the end of the page set, at which point it will continue on to
 the end of the range and the last page in the set.
 
 Methods
-+++++++
+-------
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 

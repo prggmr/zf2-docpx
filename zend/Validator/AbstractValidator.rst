@@ -1,14 +1,17 @@
-.. Validator/AbstractValidator.php generated using docpx on 01/30/13 03:32am
+.. Validator/AbstractValidator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\AbstractValidator
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getOption
----------
++++++++++
 
 .. function:: getOption()
 
@@ -41,7 +44,7 @@ getOption
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -53,7 +56,7 @@ getOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -69,7 +72,7 @@ setOptions
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -81,7 +84,7 @@ getMessages
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -95,7 +98,7 @@ __invoke
 
 
 getMessageVariables
--------------------
++++++++++++++++++++
 
 .. function:: getMessageVariables()
 
@@ -107,7 +110,7 @@ getMessageVariables
 
 
 getMessageTemplates
--------------------
++++++++++++++++++++
 
 .. function:: getMessageTemplates()
 
@@ -119,7 +122,7 @@ getMessageTemplates
 
 
 setMessage
-----------
+++++++++++
 
 .. function:: setMessage()
 
@@ -136,7 +139,7 @@ setMessage
 
 
 setMessages
------------
++++++++++++
 
 .. function:: setMessages()
 
@@ -151,7 +154,7 @@ setMessages
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -168,7 +171,7 @@ __get
 
 
 createMessage
--------------
++++++++++++++
 
 .. function:: createMessage()
 
@@ -188,7 +191,7 @@ createMessage
 
 
 error
------
++++++
 
 .. function:: error()
 
@@ -202,7 +205,7 @@ error
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -214,7 +217,7 @@ getValue
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -228,7 +231,7 @@ setValue
 
 
 setValueObscured
-----------------
+++++++++++++++++
 
 .. function:: setValueObscured()
 
@@ -242,7 +245,7 @@ setValueObscured
 
 
 isValueObscured
----------------
++++++++++++++++
 
 .. function:: isValueObscured()
 
@@ -255,7 +258,7 @@ isValueObscured
 
 
 setTranslator
--------------
++++++++++++++
 
 .. function:: setTranslator()
 
@@ -272,7 +275,7 @@ setTranslator
 
 
 getTranslator
--------------
++++++++++++++
 
 .. function:: getTranslator()
 
@@ -284,7 +287,7 @@ getTranslator
 
 
 hasTranslator
--------------
++++++++++++++
 
 .. function:: hasTranslator()
 
@@ -296,7 +299,7 @@ hasTranslator
 
 
 setTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: setTranslatorTextDomain()
 
@@ -310,7 +313,7 @@ setTranslatorTextDomain
 
 
 getTranslatorTextDomain
------------------------
++++++++++++++++++++++++
 
 .. function:: getTranslatorTextDomain()
 
@@ -322,7 +325,7 @@ getTranslatorTextDomain
 
 
 setDefaultTranslator
---------------------
+++++++++++++++++++++
 
 .. function:: setDefaultTranslator()
 
@@ -339,7 +342,7 @@ setDefaultTranslator
 
 
 getDefaultTranslator
---------------------
+++++++++++++++++++++
 
 .. function:: getDefaultTranslator()
 
@@ -351,7 +354,7 @@ getDefaultTranslator
 
 
 hasDefaultTranslator
---------------------
+++++++++++++++++++++
 
 .. function:: hasDefaultTranslator()
 
@@ -363,7 +366,7 @@ hasDefaultTranslator
 
 
 setDefaultTranslatorTextDomain
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: setDefaultTranslatorTextDomain()
 
@@ -377,7 +380,7 @@ setDefaultTranslatorTextDomain
 
 
 getDefaultTranslatorTextDomain
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getDefaultTranslatorTextDomain()
 
@@ -389,7 +392,7 @@ getDefaultTranslatorTextDomain
 
 
 setTranslatorEnabled
---------------------
+++++++++++++++++++++
 
 .. function:: setTranslatorEnabled()
 
@@ -403,7 +406,7 @@ setTranslatorEnabled
 
 
 isTranslatorEnabled
--------------------
++++++++++++++++++++
 
 .. function:: isTranslatorEnabled()
 
@@ -415,7 +418,7 @@ isTranslatorEnabled
 
 
 getMessageLength
-----------------
+++++++++++++++++
 
 .. function:: getMessageLength()
 
@@ -427,7 +430,7 @@ getMessageLength
 
 
 setMessageLength
-----------------
+++++++++++++++++
 
 .. function:: setMessageLength()
 
@@ -439,7 +442,7 @@ setMessageLength
 
 
 translateMessage
-----------------
+++++++++++++++++
 
 .. function:: translateMessage()
 

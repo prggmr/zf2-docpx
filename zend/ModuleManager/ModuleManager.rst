@@ -1,5 +1,8 @@
-.. ModuleManager/ModuleManager.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/ModuleManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\ModuleManager
 ==================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\ModuleManager
 Module manager
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 onLoadModules
--------------
++++++++++++++
 
 .. function:: onLoadModules()
 
@@ -35,7 +38,7 @@ onLoadModules
 
 
 loadModules
------------
++++++++++++
 
 .. function:: loadModules()
 
@@ -47,7 +50,7 @@ loadModules
 
 
 loadModule
-----------
+++++++++++
 
 .. function:: loadModule()
 
@@ -64,7 +67,7 @@ loadModule
 
 
 getLoadedModules
-----------------
+++++++++++++++++
 
 .. function:: getLoadedModules()
 
@@ -78,7 +81,7 @@ getLoadedModules
 
 
 getModule
----------
++++++++++
 
 .. function:: getModule()
 
@@ -92,7 +95,7 @@ getModule
 
 
 getModules
-----------
+++++++++++
 
 .. function:: getModules()
 
@@ -104,7 +107,7 @@ getModules
 
 
 setModules
-----------
+++++++++++
 
 .. function:: setModules()
 
@@ -120,7 +123,7 @@ setModules
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 
@@ -132,7 +135,7 @@ getEvent
 
 
 setEvent
---------
+++++++++
 
 .. function:: setEvent()
 
@@ -146,7 +149,7 @@ setEvent
 
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -160,7 +163,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -174,7 +177,7 @@ getEventManager
 
 
 attachDefaultListeners
-----------------------
+++++++++++++++++++++++
 
 .. function:: attachDefaultListeners()
 

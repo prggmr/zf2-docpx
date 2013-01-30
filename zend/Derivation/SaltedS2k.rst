@@ -1,5 +1,8 @@
-.. Crypt/Key/Derivation/SaltedS2k.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Key/Derivation/SaltedS2k.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Key\\Derivation\\SaltedS2k
 =======================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Key\\Derivation\\SaltedS2k
 Salted S2K key generation (OpenPGP document, RFC 2440)
 
 Methods
-+++++++
+-------
 
 calc
-----
+++++
 
 .. function:: calc()
 

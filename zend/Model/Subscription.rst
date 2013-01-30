@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/Model/Subscription.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/Model/Subscription.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\Model\\Subscription
 =============================================
 
 Methods
-+++++++
+-------
 
 setSubscription
----------------
++++++++++++++++
 
 .. function:: setSubscription()
 
@@ -24,7 +27,7 @@ setSubscription
 
 
 getSubscription
----------------
++++++++++++++++
 
 .. function:: getSubscription()
 
@@ -40,7 +43,7 @@ getSubscription
 
 
 hasSubscription
----------------
++++++++++++++++
 
 .. function:: hasSubscription()
 
@@ -56,7 +59,7 @@ hasSubscription
 
 
 deleteSubscription
-------------------
+++++++++++++++++++
 
 .. function:: deleteSubscription()
 
@@ -70,7 +73,7 @@ deleteSubscription
 
 
 getNow
-------
+++++++
 
 .. function:: getNow()
 
@@ -82,7 +85,7 @@ getNow
 
 
 setNow
-------
+++++++
 
 .. function:: setNow()
 

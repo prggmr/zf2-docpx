@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/PostRedirectGet.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/PostRedirectGet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\PostRedirectGet
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Controller\\Plugin\\PostRedirectGet
 Plugin to help facilitate Post/Redirect/Get (http://en.wikipedia.org/wiki/Post/Redirect/Get)
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -36,7 +39,7 @@ __invoke
 
 
 getSessionContainer
--------------------
++++++++++++++++++++
 
 .. function:: getSessionContainer()
 
@@ -46,7 +49,7 @@ getSessionContainer
 
 
 setSessionContainer
--------------------
++++++++++++++++++++
 
 .. function:: setSessionContainer()
 
@@ -58,7 +61,7 @@ setSessionContainer
 
 
 redirect
---------
+++++++++
 
 .. function:: redirect()
 

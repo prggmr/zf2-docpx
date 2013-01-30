@@ -1,14 +1,17 @@
-.. Form/Element/Color.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Color.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Color
 ==========================
 
 Methods
-+++++++
+-------
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -20,7 +23,7 @@ getValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 

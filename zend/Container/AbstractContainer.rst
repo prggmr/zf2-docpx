@@ -1,5 +1,8 @@
-.. View/Helper/Placeholder/Container/AbstractContainer.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Placeholder/Container/AbstractContainer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Placeholder\\Container\\AbstractContainer
 =============================================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Placeholder\\Container\\AbstractContainer
 Abstract class representing container for placeholder values
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -34,7 +37,7 @@ set
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -48,7 +51,7 @@ prepend
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -63,7 +66,7 @@ getValue
 
 
 setPrefix
----------
++++++++++
 
 .. function:: setPrefix()
 
@@ -77,7 +80,7 @@ setPrefix
 
 
 getPrefix
----------
++++++++++
 
 .. function:: getPrefix()
 
@@ -89,7 +92,7 @@ getPrefix
 
 
 setPostfix
-----------
+++++++++++
 
 .. function:: setPostfix()
 
@@ -103,7 +106,7 @@ setPostfix
 
 
 getPostfix
-----------
+++++++++++
 
 .. function:: getPostfix()
 
@@ -115,7 +118,7 @@ getPostfix
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -131,7 +134,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -143,7 +146,7 @@ getSeparator
 
 
 setIndent
----------
++++++++++
 
 .. function:: setIndent()
 
@@ -158,7 +161,7 @@ setIndent
 
 
 getIndent
----------
++++++++++
 
 .. function:: getIndent()
 
@@ -170,7 +173,7 @@ getIndent
 
 
 getWhitespace
--------------
++++++++++++++
 
 .. function:: getWhitespace()
 
@@ -184,7 +187,7 @@ getWhitespace
 
 
 captureStart
-------------
+++++++++++++
 
 .. function:: captureStart()
 
@@ -201,7 +204,7 @@ captureStart
 
 
 captureEnd
-----------
+++++++++++
 
 .. function:: captureEnd()
 
@@ -213,7 +216,7 @@ captureEnd
 
 
 getKeys
--------
++++++++
 
 .. function:: getKeys()
 
@@ -225,7 +228,7 @@ getKeys
 
 
 nextIndex
----------
++++++++++
 
 .. function:: nextIndex()
 
@@ -239,7 +242,7 @@ nextIndex
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -253,7 +256,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -267,20 +270,20 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 SET
-===
++++
 
 Whether or not to override all contents of placeholder
 
 APPEND
-======
+++++++
 
 Whether or not to append contents to placeholder
 
 PREPEND
-=======
++++++++
 
 Whether or not to prepend contents to placeholder
 

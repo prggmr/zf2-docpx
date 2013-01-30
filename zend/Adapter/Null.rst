@@ -1,14 +1,17 @@
-.. Paginator/Adapter/Null.php generated using docpx on 01/30/13 03:32am
+.. Paginator/Adapter/Null.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\Adapter\\Null
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getItems
---------
+++++++++
 
 .. function:: getItems()
 
@@ -35,7 +38,7 @@ getItems
 
 
 count
------
++++++
 
 .. function:: count()
 

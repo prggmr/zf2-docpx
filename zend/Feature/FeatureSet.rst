@@ -1,14 +1,17 @@
-.. Db/TableGateway/Feature/FeatureSet.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/Feature/FeatureSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\Feature\\FeatureSet
 ===========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,42 +21,42 @@ __construct
 
 
 setTableGateway
----------------
++++++++++++++++
 
 .. function:: setTableGateway()
 
 
 
 getFeatureByClassName
----------------------
++++++++++++++++++++++
 
 .. function:: getFeatureByClassName()
 
 
 
 addFeatures
------------
++++++++++++
 
 .. function:: addFeatures()
 
 
 
 addFeature
-----------
+++++++++++
 
 .. function:: addFeature()
 
 
 
 apply
------
++++++
 
 .. function:: apply()
 
 
 
 canCallMagicGet
----------------
++++++++++++++++
 
 .. function:: canCallMagicGet()
 
@@ -65,7 +68,7 @@ canCallMagicGet
 
 
 callMagicGet
-------------
+++++++++++++
 
 .. function:: callMagicGet()
 
@@ -77,7 +80,7 @@ callMagicGet
 
 
 canCallMagicSet
----------------
++++++++++++++++
 
 .. function:: canCallMagicSet()
 
@@ -89,7 +92,7 @@ canCallMagicSet
 
 
 callMagicSet
-------------
+++++++++++++
 
 .. function:: callMagicSet()
 
@@ -103,7 +106,7 @@ callMagicSet
 
 
 canCallMagicCall
-----------------
+++++++++++++++++
 
 .. function:: canCallMagicCall()
 
@@ -115,7 +118,7 @@ canCallMagicCall
 
 
 callMagicCall
--------------
++++++++++++++
 
 .. function:: callMagicCall()
 
@@ -131,8 +134,8 @@ callMagicCall
 
 
 Constants
-+++++++++
+---------
 
 APPLY_HALT
-==========
+++++++++++
 

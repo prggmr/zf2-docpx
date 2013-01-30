@@ -1,14 +1,17 @@
-.. Filter/Null.php generated using docpx on 01/30/13 03:32am
+.. Filter/Null.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Null
 ==================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -36,7 +39,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -48,7 +51,7 @@ getType
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -67,26 +70,26 @@ filter
 
 
 Constants
-+++++++++
+---------
 
 TYPE_BOOLEAN
-============
+++++++++++++
 
 TYPE_INTEGER
-============
+++++++++++++
 
 TYPE_EMPTY_ARRAY
-================
+++++++++++++++++
 
 TYPE_STRING
-===========
++++++++++++
 
 TYPE_ZERO_STRING
-================
+++++++++++++++++
 
 TYPE_FLOAT
-==========
+++++++++++
 
 TYPE_ALL
-========
+++++++++
 

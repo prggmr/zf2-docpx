@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pdo/Connection.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pdo/Connection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Connection
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setDriver
----------
++++++++++
 
 .. function:: setDriver()
 
@@ -36,7 +39,7 @@ setDriver
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -48,7 +51,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -58,7 +61,7 @@ getProfiler
 
 
 getDriverName
--------------
++++++++++++++
 
 .. function:: getDriverName()
 
@@ -70,7 +73,7 @@ getDriverName
 
 
 setConnectionParameters
------------------------
++++++++++++++++++++++++
 
 .. function:: setConnectionParameters()
 
@@ -84,7 +87,7 @@ setConnectionParameters
 
 
 getConnectionParameters
------------------------
++++++++++++++++++++++++
 
 .. function:: getConnectionParameters()
 
@@ -96,7 +99,7 @@ getConnectionParameters
 
 
 getCurrentSchema
-----------------
+++++++++++++++++
 
 .. function:: getCurrentSchema()
 
@@ -108,7 +111,7 @@ getCurrentSchema
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -122,7 +125,7 @@ setResource
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -134,7 +137,7 @@ getResource
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -149,7 +152,7 @@ connect
 
 
 isConnected
------------
++++++++++++
 
 .. function:: isConnected()
 
@@ -161,7 +164,7 @@ isConnected
 
 
 disconnect
-----------
+++++++++++
 
 .. function:: disconnect()
 
@@ -173,7 +176,7 @@ disconnect
 
 
 beginTransaction
-----------------
+++++++++++++++++
 
 .. function:: beginTransaction()
 
@@ -185,7 +188,7 @@ beginTransaction
 
 
 commit
-------
+++++++
 
 .. function:: commit()
 
@@ -197,7 +200,7 @@ commit
 
 
 rollback
---------
+++++++++
 
 .. function:: rollback()
 
@@ -211,7 +214,7 @@ rollback
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 
@@ -227,7 +230,7 @@ execute
 
 
 prepare
--------
++++++++
 
 .. function:: prepare()
 
@@ -241,7 +244,7 @@ prepare
 
 
 getLastGeneratedValue
----------------------
++++++++++++++++++++++
 
 .. function:: getLastGeneratedValue()
 

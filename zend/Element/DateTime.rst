@@ -1,14 +1,17 @@
-.. Form/Element/DateTime.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/DateTime.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\DateTime
 =============================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -23,7 +26,7 @@ setOptions
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -44,7 +47,7 @@ getValue
 
 
 setFormat
----------
++++++++++
 
 .. function:: setFormat()
 
@@ -58,7 +61,7 @@ setFormat
 
 
 getFormat
----------
++++++++++
 
 .. function:: getFormat()
 
@@ -70,7 +73,7 @@ getFormat
 
 
 getValidators
--------------
++++++++++++++
 
 .. function:: getValidators()
 
@@ -82,7 +85,7 @@ getValidators
 
 
 getDateValidator
-----------------
+++++++++++++++++
 
 .. function:: getDateValidator()
 
@@ -94,7 +97,7 @@ getDateValidator
 
 
 getStepValidator
-----------------
+++++++++++++++++
 
 .. function:: getStepValidator()
 
@@ -106,7 +109,7 @@ getStepValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 
@@ -122,8 +125,8 @@ getInputSpecification
 
 
 Constants
-+++++++++
+---------
 
 DATETIME_FORMAT
-===============
++++++++++++++++
 

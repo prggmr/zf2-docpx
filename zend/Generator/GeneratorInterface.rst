@@ -1,5 +1,8 @@
-.. XmlRpc/Generator/GeneratorInterface.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Generator/GeneratorInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\XmlRpc\\Generator\\getEncoding
 ====================================
@@ -11,12 +14,18 @@ Zend\\XmlRpc\\Generator\\getEncoding
 
 
 
+Function
+********
+
 Zend\\XmlRpc\\Generator\\setEncoding
 ====================================
 
 .. function:: Zend\XmlRpc\Generator\setEncoding()
 
 
+
+Function
+********
 
 Zend\\XmlRpc\\Generator\\openElement
 ====================================
@@ -25,12 +34,18 @@ Zend\\XmlRpc\\Generator\\openElement
 
 
 
+Function
+********
+
 Zend\\XmlRpc\\Generator\\closeElement
 =====================================
 
 .. function:: Zend\XmlRpc\Generator\closeElement()
 
 
+
+Function
+********
 
 Zend\\XmlRpc\\Generator\\saveXml
 ================================
@@ -44,6 +59,9 @@ Zend\\XmlRpc\\Generator\\saveXml
 
 
 
+Function
+********
+
 Zend\\XmlRpc\\Generator\\stripDeclaration
 =========================================
 
@@ -51,12 +69,18 @@ Zend\\XmlRpc\\Generator\\stripDeclaration
 
 
 
+Function
+********
+
 Zend\\XmlRpc\\Generator\\flush
 ==============================
 
 .. function:: Zend\XmlRpc\Generator\flush()
 
 
+
+Function
+********
 
 Zend\\XmlRpc\\Generator\\__toString
 ===================================

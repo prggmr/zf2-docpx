@@ -1,5 +1,8 @@
-.. Barcode/Object/Upca.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Upca.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Upca
 ===========================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Upca
 Class for generate UpcA barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -34,7 +37,7 @@ calculateBarcodeWidth
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -46,7 +49,7 @@ prepareBarcode
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 

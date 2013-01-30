@@ -1,14 +1,17 @@
-.. ServiceManager/ServiceManager.php generated using docpx on 01/30/13 03:32am
+.. ServiceManager/ServiceManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ServiceManager\\ServiceManager
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setAllowOverride
-----------------
+++++++++++++++++
 
 .. function:: setAllowOverride()
 
@@ -34,7 +37,7 @@ setAllowOverride
 
 
 getAllowOverride
-----------------
+++++++++++++++++
 
 .. function:: getAllowOverride()
 
@@ -46,7 +49,7 @@ getAllowOverride
 
 
 setShareByDefault
------------------
++++++++++++++++++
 
 .. function:: setShareByDefault()
 
@@ -62,7 +65,7 @@ setShareByDefault
 
 
 shareByDefault
---------------
+++++++++++++++
 
 .. function:: shareByDefault()
 
@@ -74,7 +77,7 @@ shareByDefault
 
 
 setThrowExceptionInCreate
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setThrowExceptionInCreate()
 
@@ -88,7 +91,7 @@ setThrowExceptionInCreate
 
 
 getThrowExceptionInCreate
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getThrowExceptionInCreate()
 
@@ -100,7 +103,7 @@ getThrowExceptionInCreate
 
 
 setRetrieveFromPeeringManagerFirst
-----------------------------------
+++++++++++++++++++++++++++++++++++
 
 .. function:: setRetrieveFromPeeringManagerFirst()
 
@@ -114,7 +117,7 @@ setRetrieveFromPeeringManagerFirst
 
 
 retrieveFromPeeringManagerFirst
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: retrieveFromPeeringManagerFirst()
 
@@ -126,7 +129,7 @@ retrieveFromPeeringManagerFirst
 
 
 setInvokableClass
------------------
++++++++++++++++++
 
 .. function:: setInvokableClass()
 
@@ -144,7 +147,7 @@ setInvokableClass
 
 
 setFactory
-----------
+++++++++++
 
 .. function:: setFactory()
 
@@ -163,7 +166,7 @@ setFactory
 
 
 addAbstractFactory
-------------------
+++++++++++++++++++
 
 .. function:: addAbstractFactory()
 
@@ -180,7 +183,7 @@ addAbstractFactory
 
 
 addInitializer
---------------
+++++++++++++++
 
 .. function:: addInitializer()
 
@@ -197,7 +200,7 @@ addInitializer
 
 
 setService
-----------
+++++++++++
 
 .. function:: setService()
 
@@ -215,7 +218,7 @@ setService
 
 
 setShared
----------
++++++++++
 
 .. function:: setShared()
 
@@ -231,7 +234,7 @@ setShared
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -248,7 +251,7 @@ get
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -265,7 +268,7 @@ create
 
 
 canCreate
----------
++++++++++
 
 .. function:: canCreate()
 
@@ -280,7 +283,7 @@ canCreate
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -295,7 +298,7 @@ has
 
 
 canCreateFromAbstractFactory
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: canCreateFromAbstractFactory()
 
@@ -310,7 +313,7 @@ canCreateFromAbstractFactory
 
 
 setAlias
---------
+++++++++
 
 .. function:: setAlias()
 
@@ -327,7 +330,7 @@ setAlias
 
 
 hasAlias
---------
+++++++++
 
 .. function:: hasAlias()
 
@@ -341,7 +344,7 @@ hasAlias
 
 
 createScopedServiceManager
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: createScopedServiceManager()
 
@@ -355,7 +358,7 @@ createScopedServiceManager
 
 
 addPeeringServiceManager
-------------------------
+++++++++++++++++++++++++
 
 .. function:: addPeeringServiceManager()
 
@@ -370,7 +373,7 @@ addPeeringServiceManager
 
 
 canonicalizeName
-----------------
+++++++++++++++++
 
 .. function:: canonicalizeName()
 
@@ -384,7 +387,7 @@ canonicalizeName
 
 
 createServiceViaCallback
-------------------------
+++++++++++++++++++++++++
 
 .. function:: createServiceViaCallback()
 
@@ -404,7 +407,7 @@ createServiceViaCallback
 
 
 getRegisteredServices
----------------------
++++++++++++++++++++++
 
 .. function:: getRegisteredServices()
 
@@ -416,7 +419,7 @@ getRegisteredServices
 
 
 getCanonicalNames
------------------
++++++++++++++++++
 
 .. function:: getCanonicalNames()
 
@@ -428,7 +431,7 @@ getCanonicalNames
 
 
 setCanonicalNames
------------------
++++++++++++++++++
 
 .. function:: setCanonicalNames()
 
@@ -443,7 +446,7 @@ setCanonicalNames
 
 
 retrieveFromPeeringManager
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: retrieveFromPeeringManager()
 
@@ -457,7 +460,7 @@ retrieveFromPeeringManager
 
 
 createFromInvokable
--------------------
++++++++++++++++++++
 
 .. function:: createFromInvokable()
 
@@ -474,7 +477,7 @@ createFromInvokable
 
 
 createFromFactory
------------------
++++++++++++++++++
 
 .. function:: createFromFactory()
 
@@ -491,7 +494,7 @@ createFromFactory
 
 
 createFromAbstractFactory
--------------------------
++++++++++++++++++++++++++
 
 .. function:: createFromAbstractFactory()
 
@@ -508,7 +511,7 @@ createFromAbstractFactory
 
 
 isSubclassOf
-------------
+++++++++++++
 
 .. function:: isSubclassOf()
 
@@ -524,7 +527,7 @@ isSubclassOf
 
 
 unregisterService
------------------
++++++++++++++++++
 
 .. function:: unregisterService()
 
@@ -544,11 +547,11 @@ unregisterService
 
 
 Constants
-+++++++++
+---------
 
 SCOPE_PARENT
-============
+++++++++++++
 
 SCOPE_CHILD
-===========
++++++++++++
 

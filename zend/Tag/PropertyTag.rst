@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/Tag/PropertyTag.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/Tag/PropertyTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\PropertyTag
 ==================================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -18,7 +21,7 @@ getName
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -30,7 +33,7 @@ initialize
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -41,14 +44,14 @@ getType
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
 
 
 getPropertyName
----------------
++++++++++++++++
 
 .. function:: getPropertyName()
 
@@ -58,7 +61,7 @@ getPropertyName
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -68,7 +71,7 @@ getDescription
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

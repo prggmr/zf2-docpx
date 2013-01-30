@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/Tag/MethodTag.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/Tag/MethodTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\MethodTag
 ================================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -18,7 +21,7 @@ getName
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -30,7 +33,7 @@ initialize
 
 
 getReturnType
--------------
++++++++++++++
 
 .. function:: getReturnType()
 
@@ -44,14 +47,14 @@ getReturnType
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
 
 
 getMethodName
--------------
++++++++++++++
 
 .. function:: getMethodName()
 
@@ -61,7 +64,7 @@ getMethodName
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -71,7 +74,7 @@ getDescription
 
 
 isStatic
---------
+++++++++
 
 .. function:: isStatic()
 
@@ -83,7 +86,7 @@ isStatic
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

@@ -1,14 +1,17 @@
-.. Code/Generator/AbstractMemberGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/AbstractMemberGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\AbstractMemberGenerator
 ==============================================
 
 Methods
-+++++++
+-------
 
 setFlags
---------
+++++++++
 
 .. function:: setFlags()
 
@@ -20,7 +23,7 @@ setFlags
 
 
 addFlag
--------
++++++++
 
 .. function:: addFlag()
 
@@ -32,7 +35,7 @@ addFlag
 
 
 removeFlag
-----------
+++++++++++
 
 .. function:: removeFlag()
 
@@ -44,7 +47,7 @@ removeFlag
 
 
 setAbstract
------------
++++++++++++
 
 .. function:: setAbstract()
 
@@ -56,7 +59,7 @@ setAbstract
 
 
 isAbstract
-----------
+++++++++++
 
 .. function:: isAbstract()
 
@@ -66,7 +69,7 @@ isAbstract
 
 
 setFinal
---------
+++++++++
 
 .. function:: setFinal()
 
@@ -78,7 +81,7 @@ setFinal
 
 
 isFinal
--------
++++++++
 
 .. function:: isFinal()
 
@@ -88,7 +91,7 @@ isFinal
 
 
 setStatic
----------
++++++++++
 
 .. function:: setStatic()
 
@@ -100,7 +103,7 @@ setStatic
 
 
 isStatic
---------
+++++++++
 
 .. function:: isStatic()
 
@@ -110,7 +113,7 @@ isStatic
 
 
 setVisibility
--------------
++++++++++++++
 
 .. function:: setVisibility()
 
@@ -122,7 +125,7 @@ setVisibility
 
 
 getVisibility
--------------
++++++++++++++
 
 .. function:: getVisibility()
 
@@ -132,7 +135,7 @@ getVisibility
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -144,7 +147,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -154,7 +157,7 @@ getName
 
 
 setDocBlock
------------
++++++++++++
 
 .. function:: setDocBlock()
 
@@ -167,7 +170,7 @@ setDocBlock
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -179,32 +182,32 @@ getDocBlock
 
 
 Constants
-+++++++++
+---------
 
 FLAG_ABSTRACT
-=============
++++++++++++++
 
 FLAG_FINAL
-==========
+++++++++++
 
 FLAG_STATIC
-===========
++++++++++++
 
 FLAG_PUBLIC
-===========
++++++++++++
 
 FLAG_PROTECTED
-==============
+++++++++++++++
 
 FLAG_PRIVATE
-============
+++++++++++++
 
 VISIBILITY_PUBLIC
-=================
++++++++++++++++++
 
 VISIBILITY_PROTECTED
-====================
+++++++++++++++++++++
 
 VISIBILITY_PRIVATE
-==================
+++++++++++++++++++
 

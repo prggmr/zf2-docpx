@@ -1,14 +1,17 @@
-.. Code/Generator/FileGeneratorRegistry.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/FileGeneratorRegistry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\FileGeneratorRegistry
 ============================================
 
 Methods
-+++++++
+-------
 
 registerFileCodeGenerator
--------------------------
++++++++++++++++++++++++++
 
 .. function:: registerFileCodeGenerator()
 

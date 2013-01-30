@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/LocatorRegistrationListener.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/LocatorRegistrationListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\LocatorRegistrationListener
 ==========================================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\LocatorRegistrationListener
 Locator registration listener
 
 Methods
-+++++++
+-------
 
 onLoadModule
-------------
+++++++++++++
 
 .. function:: onLoadModule()
 
@@ -27,7 +30,7 @@ onLoadModule
 
 
 onLoadModules
--------------
++++++++++++++
 
 .. function:: onLoadModules()
 
@@ -43,7 +46,7 @@ onLoadModules
 
 
 onBootstrap
------------
++++++++++++
 
 .. function:: onBootstrap()
 
@@ -61,7 +64,7 @@ onBootstrap
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -75,7 +78,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 

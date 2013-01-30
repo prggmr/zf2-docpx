@@ -1,5 +1,8 @@
-.. Mvc/Router/Http/Query.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/Http/Query.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\Http\\Query
 ==============================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\Http\\Query
 Query route.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -39,7 +42,7 @@ factory
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -55,7 +58,7 @@ match
 
 
 recursiveUrldecode
-------------------
+++++++++++++++++++
 
 .. function:: recursiveUrldecode()
 
@@ -69,7 +72,7 @@ recursiveUrldecode
 
 
 assemble
---------
+++++++++
 
 .. function:: assemble()
 
@@ -85,7 +88,7 @@ assemble
 
 
 getAssembledParams
-------------------
+++++++++++++++++++
 
 .. function:: getAssembledParams()
 

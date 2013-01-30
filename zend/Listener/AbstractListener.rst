@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/AbstractListener.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/AbstractListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\AbstractListener
 ===============================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\AbstractListener
 Abstract listener
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -34,7 +37,7 @@ getOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -48,7 +51,7 @@ setOptions
 
 
 writeArrayToFile
-----------------
+++++++++++++++++
 
 .. function:: writeArrayToFile()
 

@@ -1,14 +1,17 @@
-.. XmlRpc/Value/Nil.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Value/Nil.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Value\\Nil
 ========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 

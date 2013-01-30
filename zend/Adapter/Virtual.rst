@@ -1,5 +1,8 @@
-.. Console/Adapter/Virtual.php generated using docpx on 01/30/13 03:32am
+.. Console/Adapter/Virtual.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Adapter\\Virtual
 ===============================
@@ -7,10 +10,10 @@ Zend\\Console\\Adapter\\Virtual
 Virtual buffer adapter
 
 Methods
-+++++++
+-------
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -22,7 +25,7 @@ getWidth
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -34,7 +37,7 @@ getHeight
 
 
 runProbeCommand
----------------
++++++++++++++++
 
 .. function:: runProbeCommand()
 
@@ -46,7 +49,7 @@ runProbeCommand
 
 
 isUtf8
-------
+++++++
 
 .. function:: isUtf8()
 
@@ -58,7 +61,7 @@ isUtf8
 
 
 setPos
-------
+++++++
 
 .. function:: setPos()
 
@@ -71,7 +74,7 @@ setPos
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -83,7 +86,7 @@ getTitle
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -95,7 +98,7 @@ setCharset
 
 
 getCharset
-----------
+++++++++++
 
 .. function:: getCharset()
 
@@ -107,7 +110,7 @@ getCharset
 
 
 getDefaultCharset
------------------
++++++++++++++++++
 
 .. function:: getDefaultCharset()
 
@@ -117,7 +120,7 @@ getDefaultCharset
 
 
 switchToUtf8
-------------
+++++++++++++
 
 .. function:: switchToUtf8()
 

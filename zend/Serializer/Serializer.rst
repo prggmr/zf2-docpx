@@ -1,14 +1,17 @@
-.. Serializer/Serializer.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Serializer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Serializer
 ============================
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -23,7 +26,7 @@ factory
 
 
 setAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: setAdapterPluginManager()
 
@@ -37,7 +40,7 @@ setAdapterPluginManager
 
 
 getAdapterPluginManager
------------------------
++++++++++++++++++++++++
 
 .. function:: getAdapterPluginManager()
 
@@ -49,7 +52,7 @@ getAdapterPluginManager
 
 
 resetAdapterPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: resetAdapterPluginManager()
 
@@ -61,7 +64,7 @@ resetAdapterPluginManager
 
 
 setDefaultAdapter
------------------
++++++++++++++++++
 
 .. function:: setDefaultAdapter()
 
@@ -74,7 +77,7 @@ setDefaultAdapter
 
 
 getDefaultAdapter
------------------
++++++++++++++++++
 
 .. function:: getDefaultAdapter()
 
@@ -86,7 +89,7 @@ getDefaultAdapter
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -104,7 +107,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

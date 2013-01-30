@@ -1,5 +1,8 @@
-.. Mvc/Application.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Application.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Application
 ======================
@@ -33,10 +36,10 @@ if you wish to setup your own listeners and/or workflow; alternately, you
 can simply extend the class to override such behavior.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -49,7 +52,7 @@ __construct
 
 
 getConfig
----------
++++++++++
 
 .. function:: getConfig()
 
@@ -61,7 +64,7 @@ getConfig
 
 
 bootstrap
----------
++++++++++
 
 .. function:: bootstrap()
 
@@ -77,7 +80,7 @@ bootstrap
 
 
 getServiceManager
------------------
++++++++++++++++++
 
 .. function:: getServiceManager()
 
@@ -89,7 +92,7 @@ getServiceManager
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -101,7 +104,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -113,7 +116,7 @@ getResponse
 
 
 getMvcEvent
------------
++++++++++++
 
 .. function:: getMvcEvent()
 
@@ -125,7 +128,7 @@ getMvcEvent
 
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -139,7 +142,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -153,7 +156,7 @@ getEventManager
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -180,7 +183,7 @@ init
 
 
 run
----
++++
 
 .. function:: run()
 
@@ -192,7 +195,7 @@ run
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -202,7 +205,7 @@ send
 
 
 completeRequest
----------------
++++++++++++++++
 
 .. function:: completeRequest()
 
@@ -221,20 +224,20 @@ completeRequest
 
 
 Constants
-+++++++++
+---------
 
 ERROR_CONTROLLER_CANNOT_DISPATCH
-================================
+++++++++++++++++++++++++++++++++
 
 ERROR_CONTROLLER_NOT_FOUND
-==========================
+++++++++++++++++++++++++++
 
 ERROR_CONTROLLER_INVALID
-========================
+++++++++++++++++++++++++
 
 ERROR_EXCEPTION
-===============
++++++++++++++++
 
 ERROR_ROUTER_NO_MATCH
-=====================
++++++++++++++++++++++
 

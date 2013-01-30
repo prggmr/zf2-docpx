@@ -1,5 +1,8 @@
-.. Authentication/Validator/Authentication.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Validator/Authentication.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Validator\\Authentication
 ===============================================
@@ -7,10 +10,10 @@ Zend\\Authentication\\Validator\\Authentication
 Authentication Validator
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -34,7 +37,7 @@ getAdapter
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -48,7 +51,7 @@ setAdapter
 
 
 getIdentity
------------
++++++++++++
 
 .. function:: getIdentity()
 
@@ -60,7 +63,7 @@ getIdentity
 
 
 setIdentity
------------
++++++++++++
 
 .. function:: setIdentity()
 
@@ -74,7 +77,7 @@ setIdentity
 
 
 getCredential
--------------
++++++++++++++
 
 .. function:: getCredential()
 
@@ -86,7 +89,7 @@ getCredential
 
 
 setCredential
--------------
++++++++++++++
 
 .. function:: setCredential()
 
@@ -100,7 +103,7 @@ setCredential
 
 
 getService
-----------
+++++++++++
 
 .. function:: getService()
 
@@ -112,7 +115,7 @@ getService
 
 
 setService
-----------
+++++++++++
 
 .. function:: setService()
 
@@ -126,7 +129,7 @@ setService
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -143,22 +146,22 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 IDENTITY_NOT_FOUND
-==================
+++++++++++++++++++
 
 Error codes
 
 IDENTITY_AMBIGUOUS
-==================
+++++++++++++++++++
 
 CREDENTIAL_INVALID
-==================
+++++++++++++++++++
 
 UNCATEGORIZED
-=============
++++++++++++++
 
 GENERAL
-=======
++++++++
 

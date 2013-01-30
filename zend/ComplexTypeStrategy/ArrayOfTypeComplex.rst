@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeComplex.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeComplex.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\ArrayOfTypeComplex
 =========================================================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\ArrayOfTypeComplex
 ArrayOfTypeComplex strategy
 
 Methods
-+++++++
+-------
 
 addComplexType
---------------
+++++++++++++++
 
 .. function:: addComplexType()
 
@@ -26,7 +29,7 @@ addComplexType
 
 
 _addArrayOfComplexType
-----------------------
+++++++++++++++++++++++
 
 .. function:: _addArrayOfComplexType()
 
@@ -41,7 +44,7 @@ _addArrayOfComplexType
 
 
 _getSingularPhpType
--------------------
++++++++++++++++++++
 
 .. function:: _getSingularPhpType()
 
@@ -55,7 +58,7 @@ _getSingularPhpType
 
 
 _getNestedCount
----------------
++++++++++++++++
 
 .. function:: _getNestedCount()
 

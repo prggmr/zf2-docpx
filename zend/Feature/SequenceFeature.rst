@@ -1,14 +1,17 @@
-.. Db/TableGateway/Feature/SequenceFeature.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/Feature/SequenceFeature.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\Feature\\SequenceFeature
 ================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,21 +21,21 @@ __construct
 
 
 preInsert
----------
++++++++++
 
 .. function:: preInsert()
 
 
 
 postInsert
-----------
+++++++++++
 
 .. function:: postInsert()
 
 
 
 nextSequenceId
---------------
+++++++++++++++
 
 .. function:: nextSequenceId()
 
@@ -44,7 +47,7 @@ nextSequenceId
 
 
 lastSequenceId
---------------
+++++++++++++++
 
 .. function:: lastSequenceId()
 

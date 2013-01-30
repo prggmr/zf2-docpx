@@ -1,5 +1,8 @@
-.. Json/Server/Smd/Service.php generated using docpx on 01/30/13 03:32am
+.. Json/Server/Smd/Service.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Server\\Smd\\Service
 ================================
@@ -7,10 +10,10 @@ Zend\\Json\\Server\\Smd\\Service
 Create Service Mapping Description for a method
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -54,7 +57,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -66,7 +69,7 @@ getName
 
 
 setTransport
-------------
+++++++++++++
 
 .. function:: setTransport()
 
@@ -84,7 +87,7 @@ setTransport
 
 
 getTransport
-------------
+++++++++++++
 
 .. function:: getTransport()
 
@@ -96,7 +99,7 @@ getTransport
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -110,7 +113,7 @@ setTarget
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -122,7 +125,7 @@ getTarget
 
 
 setEnvelope
------------
++++++++++++
 
 .. function:: setEnvelope()
 
@@ -138,7 +141,7 @@ setEnvelope
 
 
 getEnvelope
------------
++++++++++++
 
 .. function:: getEnvelope()
 
@@ -150,7 +153,7 @@ getEnvelope
 
 
 addParam
---------
+++++++++
 
 .. function:: addParam()
 
@@ -168,7 +171,7 @@ addParam
 
 
 addParams
----------
++++++++++
 
 .. function:: addParams()
 
@@ -184,7 +187,7 @@ addParams
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -198,7 +201,7 @@ setParams
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -212,7 +215,7 @@ getParams
 
 
 setReturn
----------
++++++++++
 
 .. function:: setReturn()
 
@@ -228,7 +231,7 @@ setReturn
 
 
 getReturn
----------
++++++++++
 
 .. function:: getReturn()
 
@@ -240,7 +243,7 @@ getReturn
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -252,7 +255,7 @@ toArray
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -264,7 +267,7 @@ toJson
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -276,7 +279,7 @@ __toString
 
 
 _validateParamType
-------------------
+++++++++++++++++++
 
 .. function:: _validateParamType()
 

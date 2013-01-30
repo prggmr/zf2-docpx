@@ -1,5 +1,8 @@
-.. XmlRpc/Generator/AbstractGenerator.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Generator/AbstractGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Generator\\AbstractGenerator
 ==========================================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Generator\\AbstractGenerator
 Abstract XML generator adapter
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 _init
------
++++++
 
 .. function:: _init()
 
@@ -34,7 +37,7 @@ _init
 
 
 openElement
------------
++++++++++++
 
 .. function:: openElement()
 
@@ -51,7 +54,7 @@ openElement
 
 
 closeElement
-------------
+++++++++++++
 
 .. function:: closeElement()
 
@@ -67,7 +70,7 @@ closeElement
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -79,7 +82,7 @@ getEncoding
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -93,7 +96,7 @@ setEncoding
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -105,7 +108,7 @@ flush
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -117,7 +120,7 @@ __toString
 
 
 stripDeclaration
-----------------
+++++++++++++++++
 
 .. function:: stripDeclaration()
 
@@ -131,7 +134,7 @@ stripDeclaration
 
 
 _openElement
-------------
+++++++++++++
 
 .. function:: _openElement()
 
@@ -143,7 +146,7 @@ _openElement
 
 
 _writeTextData
---------------
+++++++++++++++
 
 .. function:: _writeTextData()
 
@@ -155,7 +158,7 @@ _writeTextData
 
 
 _closeElement
--------------
++++++++++++++
 
 .. function:: _closeElement()
 

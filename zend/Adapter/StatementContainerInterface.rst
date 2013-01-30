@@ -1,5 +1,8 @@
-.. Db/Adapter/StatementContainerInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/StatementContainerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\setSql
 =========================
@@ -15,6 +18,9 @@ Zend\\Db\\Adapter\\setSql
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\getSql
 =========================
 
@@ -26,6 +32,9 @@ Zend\\Db\\Adapter\\getSql
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\setParameterContainer
 ========================================
@@ -40,6 +49,9 @@ Zend\\Db\\Adapter\\setParameterContainer
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\getParameterContainer
 ========================================

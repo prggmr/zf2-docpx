@@ -1,14 +1,17 @@
-.. Validator/EmailAddress.php generated using docpx on 01/30/13 03:32am
+.. Validator/EmailAddress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\EmailAddress
 =============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setMessage
-----------
+++++++++++
 
 .. function:: setMessage()
 
@@ -42,7 +45,7 @@ setMessage
 
 
 getHostnameValidator
---------------------
+++++++++++++++++++++
 
 .. function:: getHostnameValidator()
 
@@ -56,7 +59,7 @@ getHostnameValidator
 
 
 setHostnameValidator
---------------------
+++++++++++++++++++++
 
 .. function:: setHostnameValidator()
 
@@ -68,7 +71,7 @@ setHostnameValidator
 
 
 getAllow
---------
+++++++++
 
 .. function:: getAllow()
 
@@ -80,7 +83,7 @@ getAllow
 
 
 setAllow
---------
+++++++++
 
 .. function:: setAllow()
 
@@ -94,7 +97,7 @@ setAllow
 
 
 isMxSupported
--------------
++++++++++++++
 
 .. function:: isMxSupported()
 
@@ -106,7 +109,7 @@ isMxSupported
 
 
 getMxCheck
-----------
+++++++++++
 
 .. function:: getMxCheck()
 
@@ -118,7 +121,7 @@ getMxCheck
 
 
 useMxCheck
-----------
+++++++++++
 
 .. function:: useMxCheck()
 
@@ -134,7 +137,7 @@ useMxCheck
 
 
 getDeepMxCheck
---------------
+++++++++++++++
 
 .. function:: getDeepMxCheck()
 
@@ -146,7 +149,7 @@ getDeepMxCheck
 
 
 useDeepMxCheck
---------------
+++++++++++++++
 
 .. function:: useDeepMxCheck()
 
@@ -160,7 +163,7 @@ useDeepMxCheck
 
 
 getDomainCheck
---------------
+++++++++++++++
 
 .. function:: getDomainCheck()
 
@@ -172,7 +175,7 @@ getDomainCheck
 
 
 useDomainCheck
---------------
+++++++++++++++
 
 .. function:: useDomainCheck()
 
@@ -187,7 +190,7 @@ useDomainCheck
 
 
 isReserved
-----------
+++++++++++
 
 .. function:: isReserved()
 
@@ -211,7 +214,7 @@ isReserved
 
 
 validateLocalPart
------------------
++++++++++++++++++
 
 .. function:: validateLocalPart()
 
@@ -223,7 +226,7 @@ validateLocalPart
 
 
 getMXRecord
------------
++++++++++++
 
 .. function:: getMXRecord()
 
@@ -235,7 +238,7 @@ getMXRecord
 
 
 validateMXRecords
------------------
++++++++++++++++++
 
 .. function:: validateMXRecords()
 
@@ -247,7 +250,7 @@ validateMXRecords
 
 
 validateHostnamePart
---------------------
+++++++++++++++++++++
 
 .. function:: validateHostnamePart()
 
@@ -259,7 +262,7 @@ validateHostnamePart
 
 
 splitEmailParts
----------------
++++++++++++++++
 
 .. function:: splitEmailParts()
 
@@ -273,7 +276,7 @@ splitEmailParts
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -293,32 +296,32 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 INVALID_FORMAT
-==============
+++++++++++++++
 
 INVALID_HOSTNAME
-================
+++++++++++++++++
 
 INVALID_MX_RECORD
-=================
++++++++++++++++++
 
 INVALID_SEGMENT
-===============
++++++++++++++++
 
 DOT_ATOM
-========
+++++++++
 
 QUOTED_STRING
-=============
++++++++++++++
 
 INVALID_LOCAL_PART
-==================
+++++++++++++++++++
 
 LENGTH_EXCEEDED
-===============
++++++++++++++++
 

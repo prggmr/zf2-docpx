@@ -1,14 +1,17 @@
-.. Code/Annotation/AnnotationCollection.php generated using docpx on 01/30/13 03:32am
+.. Code/Annotation/AnnotationCollection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Annotation\\AnnotationCollection
 ============================================
 
 Methods
-+++++++
+-------
 
 hasAnnotation
--------------
++++++++++++++
 
 .. function:: hasAnnotation()
 

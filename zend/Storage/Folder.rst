@@ -1,14 +1,17 @@
-.. Mail/Storage/Folder.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Folder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Folder
 ===========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -35,7 +38,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -47,7 +50,7 @@ getChildren
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -59,7 +62,7 @@ valid
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -69,7 +72,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -81,7 +84,7 @@ key
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -93,7 +96,7 @@ current
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -103,7 +106,7 @@ rewind
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -119,7 +122,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -132,7 +135,7 @@ __set
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -144,7 +147,7 @@ __unset
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -156,7 +159,7 @@ __toString
 
 
 getLocalName
-------------
+++++++++++++
 
 .. function:: getLocalName()
 
@@ -168,7 +171,7 @@ getLocalName
 
 
 getGlobalName
--------------
++++++++++++++
 
 .. function:: getGlobalName()
 
@@ -180,7 +183,7 @@ getGlobalName
 
 
 isSelectable
-------------
+++++++++++++
 
 .. function:: isSelectable()
 
@@ -192,7 +195,7 @@ isSelectable
 
 
 isLeaf
-------
+++++++
 
 .. function:: isLeaf()
 

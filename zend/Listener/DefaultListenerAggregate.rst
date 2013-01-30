@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/DefaultListenerAggregate.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/DefaultListenerAggregate.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\DefaultListenerAggregate
 =======================================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\DefaultListenerAggregate
 Default listener aggregate
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -24,7 +27,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -38,7 +41,7 @@ detach
 
 
 getConfigListener
------------------
++++++++++++++++++
 
 .. function:: getConfigListener()
 
@@ -50,7 +53,7 @@ getConfigListener
 
 
 setConfigListener
------------------
++++++++++++++++++
 
 .. function:: setConfigListener()
 

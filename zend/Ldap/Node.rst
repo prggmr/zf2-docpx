@@ -1,5 +1,8 @@
-.. Ldap/Node.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node
 ================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node
 Zend\Ldap\Node provides an object oriented view into a LDAP node.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 __sleep
--------
++++++++
 
 .. function:: __sleep()
 
@@ -43,7 +46,7 @@ __sleep
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 
@@ -55,7 +58,7 @@ __wakeup
 
 
 getLdap
--------
++++++++
 
 .. function:: getLdap()
 
@@ -69,7 +72,7 @@ getLdap
 
 
 attachLdap
-----------
+++++++++++
 
 .. function:: attachLdap()
 
@@ -87,7 +90,7 @@ attachLdap
 
 
 detachLdap
-----------
+++++++++++
 
 .. function:: detachLdap()
 
@@ -101,7 +104,7 @@ detachLdap
 
 
 isAttached
-----------
+++++++++++
 
 .. function:: isAttached()
 
@@ -115,7 +118,7 @@ isAttached
 
 
 triggerEvent
-------------
+++++++++++++
 
 .. function:: triggerEvent()
 
@@ -128,7 +131,7 @@ triggerEvent
 
 
 loadData
---------
+++++++++
 
 .. function:: loadData()
 
@@ -142,7 +145,7 @@ loadData
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -159,7 +162,7 @@ create
 
 
 fromLdap
---------
+++++++++
 
 .. function:: fromLdap()
 
@@ -176,7 +179,7 @@ fromLdap
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -193,7 +196,7 @@ fromArray
 
 
 ensureRdnAttributeValues
-------------------------
+++++++++++++++++++++++++
 
 .. function:: ensureRdnAttributeValues()
 
@@ -207,7 +210,7 @@ ensureRdnAttributeValues
 
 
 markAsNew
----------
++++++++++
 
 .. function:: markAsNew()
 
@@ -221,7 +224,7 @@ markAsNew
 
 
 isNew
------
++++++
 
 .. function:: isNew()
 
@@ -236,7 +239,7 @@ isNew
 
 
 markAsToBeDeleted
------------------
++++++++++++++++++
 
 .. function:: markAsToBeDeleted()
 
@@ -250,7 +253,7 @@ markAsToBeDeleted
 
 
 willBeDeleted
--------------
++++++++++++++
 
 .. function:: willBeDeleted()
 
@@ -262,7 +265,7 @@ willBeDeleted
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -276,7 +279,7 @@ delete
 
 
 willBeMoved
------------
++++++++++++
 
 .. function:: willBeMoved()
 
@@ -288,7 +291,7 @@ willBeMoved
 
 
 update
-------
+++++++
 
 .. function:: update()
 
@@ -311,7 +314,7 @@ update
 
 
 _getDn
-------
+++++++
 
 .. function:: _getDn()
 
@@ -325,7 +328,7 @@ _getDn
 
 
 getCurrentDn
-------------
+++++++++++++
 
 .. function:: getCurrentDn()
 
@@ -340,7 +343,7 @@ getCurrentDn
 
 
 setDn
------
++++++
 
 .. function:: setDn()
 
@@ -358,7 +361,7 @@ setDn
 
 
 move
-----
+++++
 
 .. function:: move()
 
@@ -376,7 +379,7 @@ move
 
 
 rename
-------
+++++++
 
 .. function:: rename()
 
@@ -394,7 +397,7 @@ rename
 
 
 setObjectClass
---------------
+++++++++++++++
 
 .. function:: setObjectClass()
 
@@ -412,7 +415,7 @@ setObjectClass
 
 
 appendObjectClass
------------------
++++++++++++++++++
 
 .. function:: appendObjectClass()
 
@@ -430,7 +433,7 @@ appendObjectClass
 
 
 toLdif
-------
+++++++
 
 .. function:: toLdif()
 
@@ -444,7 +447,7 @@ toLdif
 
 
 getChangedData
---------------
+++++++++++++++
 
 .. function:: getChangedData()
 
@@ -461,7 +464,7 @@ getChangedData
 
 
 getChanges
-----------
+++++++++++
 
 .. function:: getChanges()
 
@@ -475,7 +478,7 @@ getChanges
 
 
 setAttribute
-------------
+++++++++++++
 
 .. function:: setAttribute()
 
@@ -494,7 +497,7 @@ setAttribute
 
 
 appendToAttribute
------------------
++++++++++++++++++
 
 .. function:: appendToAttribute()
 
@@ -513,7 +516,7 @@ appendToAttribute
 
 
 _setAttribute
--------------
++++++++++++++
 
 .. function:: _setAttribute()
 
@@ -529,7 +532,7 @@ _setAttribute
 
 
 setDateTimeAttribute
---------------------
+++++++++++++++++++++
 
 .. function:: setDateTimeAttribute()
 
@@ -549,7 +552,7 @@ setDateTimeAttribute
 
 
 appendToDateTimeAttribute
--------------------------
++++++++++++++++++++++++++
 
 .. function:: appendToDateTimeAttribute()
 
@@ -569,7 +572,7 @@ appendToDateTimeAttribute
 
 
 _setDateTimeAttribute
----------------------
++++++++++++++++++++++
 
 .. function:: _setDateTimeAttribute()
 
@@ -586,7 +589,7 @@ _setDateTimeAttribute
 
 
 setPasswordAttribute
---------------------
+++++++++++++++++++++
 
 .. function:: setPasswordAttribute()
 
@@ -604,7 +607,7 @@ setPasswordAttribute
 
 
 deleteAttribute
----------------
++++++++++++++++
 
 .. function:: deleteAttribute()
 
@@ -624,7 +627,7 @@ deleteAttribute
 
 
 removeDuplicatesFromAttribute
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: removeDuplicatesFromAttribute()
 
@@ -638,7 +641,7 @@ removeDuplicatesFromAttribute
 
 
 removeFromAttribute
--------------------
++++++++++++++++++++
 
 .. function:: removeFromAttribute()
 
@@ -653,7 +656,7 @@ removeFromAttribute
 
 
 assertChangeableAttribute
--------------------------
++++++++++++++++++++++++++
 
 .. function:: assertChangeableAttribute()
 
@@ -667,7 +670,7 @@ assertChangeableAttribute
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -682,7 +685,7 @@ __set
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -700,7 +703,7 @@ __unset
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -718,7 +721,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -737,7 +740,7 @@ offsetUnset
 
 
 exists
-------
+++++++
 
 .. function:: exists()
 
@@ -755,7 +758,7 @@ exists
 
 
 reload
-------
+++++++
 
 .. function:: reload()
 
@@ -773,7 +776,7 @@ reload
 
 
 searchSubtree
--------------
++++++++++++++
 
 .. function:: searchSubtree()
 
@@ -793,7 +796,7 @@ searchSubtree
 
 
 countSubtree
-------------
+++++++++++++
 
 .. function:: countSubtree()
 
@@ -812,7 +815,7 @@ countSubtree
 
 
 countChildren
--------------
++++++++++++++
 
 .. function:: countChildren()
 
@@ -828,7 +831,7 @@ countChildren
 
 
 searchChildren
---------------
+++++++++++++++
 
 .. function:: searchChildren()
 
@@ -847,7 +850,7 @@ searchChildren
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -864,7 +867,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -880,7 +883,7 @@ getChildren
 
 
 getParent
----------
++++++++++
 
 .. function:: getParent()
 
@@ -896,7 +899,7 @@ getParent
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -909,7 +912,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -922,7 +925,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -933,7 +936,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -944,7 +947,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 

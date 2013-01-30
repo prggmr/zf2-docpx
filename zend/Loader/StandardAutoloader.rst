@@ -1,5 +1,8 @@
-.. Loader/StandardAutoloader.php generated using docpx on 01/30/13 03:32am
+.. Loader/StandardAutoloader.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Loader\\StandardAutoloader
 ================================
@@ -11,10 +14,10 @@ lookups are performed on the filesystem. If a class file for the referenced
 class is not found, a PHP warning will be raised by include().
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -57,7 +60,7 @@ setOptions
 
 
 setFallbackAutoloader
----------------------
++++++++++++++++++++++
 
 .. function:: setFallbackAutoloader()
 
@@ -71,7 +74,7 @@ setFallbackAutoloader
 
 
 isFallbackAutoloader
---------------------
+++++++++++++++++++++
 
 .. function:: isFallbackAutoloader()
 
@@ -83,7 +86,7 @@ isFallbackAutoloader
 
 
 registerNamespace
------------------
++++++++++++++++++
 
 .. function:: registerNamespace()
 
@@ -98,7 +101,7 @@ registerNamespace
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 
@@ -114,7 +117,7 @@ registerNamespaces
 
 
 registerPrefix
---------------
+++++++++++++++
 
 .. function:: registerPrefix()
 
@@ -129,7 +132,7 @@ registerPrefix
 
 
 registerPrefixes
-----------------
+++++++++++++++++
 
 .. function:: registerPrefixes()
 
@@ -145,7 +148,7 @@ registerPrefixes
 
 
 autoload
---------
+++++++++
 
 .. function:: autoload()
 
@@ -159,7 +162,7 @@ autoload
 
 
 register
---------
+++++++++
 
 .. function:: register()
 
@@ -171,7 +174,7 @@ register
 
 
 transformClassNameToFilename
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: transformClassNameToFilename()
 
@@ -186,7 +189,7 @@ transformClassNameToFilename
 
 
 loadClass
----------
++++++++++
 
 .. function:: loadClass()
 
@@ -203,7 +206,7 @@ loadClass
 
 
 normalizeDirectory
-------------------
+++++++++++++++++++
 
 .. function:: normalizeDirectory()
 
@@ -219,23 +222,23 @@ normalizeDirectory
 
 
 Constants
-+++++++++
+---------
 
 NS_SEPARATOR
-============
+++++++++++++
 
 PREFIX_SEPARATOR
-================
+++++++++++++++++
 
 LOAD_NS
-=======
++++++++
 
 LOAD_PREFIX
-===========
++++++++++++
 
 ACT_AS_FALLBACK
-===============
++++++++++++++++
 
 AUTOREGISTER_ZF
-===============
++++++++++++++++
 

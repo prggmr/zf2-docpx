@@ -1,5 +1,8 @@
-.. Form/Annotation/Filter.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/Filter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\Filter
 ==============================
@@ -15,10 +18,10 @@ This annotation may be specified multiple times; filters will be added
 to the filter chain in the order specified.
 
 Methods
-+++++++
+-------
 
 getFilter
----------
++++++++++
 
 .. function:: getFilter()
 

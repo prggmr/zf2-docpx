@@ -1,14 +1,17 @@
-.. Form/Element/Collection.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Collection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Collection
 ===============================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -28,7 +31,7 @@ setOptions
 
 
 allowObjectBinding
-------------------
+++++++++++++++++++
 
 .. function:: allowObjectBinding()
 
@@ -42,7 +45,7 @@ allowObjectBinding
 
 
 setObject
----------
++++++++++
 
 .. function:: setObject()
 
@@ -59,7 +62,7 @@ setObject
 
 
 populateValues
---------------
+++++++++++++++
 
 .. function:: populateValues()
 
@@ -76,7 +79,7 @@ populateValues
 
 
 allowValueBinding
------------------
++++++++++++++++++
 
 .. function:: allowValueBinding()
 
@@ -88,7 +91,7 @@ allowValueBinding
 
 
 bindValues
-----------
+++++++++++
 
 .. function:: bindValues()
 
@@ -102,7 +105,7 @@ bindValues
 
 
 setCount
---------
+++++++++
 
 .. function:: setCount()
 
@@ -116,7 +119,7 @@ setCount
 
 
 getCount
---------
+++++++++
 
 .. function:: getCount()
 
@@ -128,7 +131,7 @@ getCount
 
 
 setTargetElement
-----------------
+++++++++++++++++
 
 .. function:: setTargetElement()
 
@@ -144,7 +147,7 @@ setTargetElement
 
 
 getTargetElement
-----------------
+++++++++++++++++
 
 .. function:: getTargetElement()
 
@@ -156,7 +159,7 @@ getTargetElement
 
 
 setAllowAdd
------------
++++++++++++
 
 .. function:: setAllowAdd()
 
@@ -170,7 +173,7 @@ setAllowAdd
 
 
 allowAdd
---------
+++++++++
 
 .. function:: allowAdd()
 
@@ -182,7 +185,7 @@ allowAdd
 
 
 setAllowRemove
---------------
+++++++++++++++
 
 .. function:: setAllowRemove()
 
@@ -194,7 +197,7 @@ setAllowRemove
 
 
 allowRemove
------------
++++++++++++
 
 .. function:: allowRemove()
 
@@ -204,7 +207,7 @@ allowRemove
 
 
 setShouldCreateTemplate
------------------------
++++++++++++++++++++++++
 
 .. function:: setShouldCreateTemplate()
 
@@ -218,7 +221,7 @@ setShouldCreateTemplate
 
 
 shouldCreateTemplate
---------------------
+++++++++++++++++++++
 
 .. function:: shouldCreateTemplate()
 
@@ -230,7 +233,7 @@ shouldCreateTemplate
 
 
 setTemplatePlaceholder
-----------------------
+++++++++++++++++++++++
 
 .. function:: setTemplatePlaceholder()
 
@@ -244,7 +247,7 @@ setTemplatePlaceholder
 
 
 getTemplatePlaceholder
-----------------------
+++++++++++++++++++++++
 
 .. function:: getTemplatePlaceholder()
 
@@ -256,7 +259,7 @@ getTemplatePlaceholder
 
 
 getTemplateElement
-------------------
+++++++++++++++++++
 
 .. function:: getTemplateElement()
 
@@ -268,7 +271,7 @@ getTemplateElement
 
 
 prepareElement
---------------
+++++++++++++++
 
 .. function:: prepareElement()
 
@@ -282,7 +285,7 @@ prepareElement
 
 
 extract
--------
++++++++
 
 .. function:: extract()
 
@@ -292,7 +295,7 @@ extract
 
 
 prepareFieldset
----------------
++++++++++++++++
 
 .. function:: prepareFieldset()
 
@@ -304,7 +307,7 @@ prepareFieldset
 
 
 createNewTargetElementInstance
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: createNewTargetElementInstance()
 
@@ -316,7 +319,7 @@ createNewTargetElementInstance
 
 
 createTemplateElement
----------------------
++++++++++++++++++++++
 
 .. function:: createTemplateElement()
 
@@ -330,10 +333,10 @@ createTemplateElement
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_TEMPLATE_PLACEHOLDER
-============================
+++++++++++++++++++++++++++++
 
 Default template placeholder
 

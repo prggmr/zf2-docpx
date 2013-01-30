@@ -1,5 +1,8 @@
-.. Validator/File/ImageSize.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/ImageSize.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\ImageSize
 ================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\ImageSize
 Validator for the image size of a image file
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 getMinWidth
------------
++++++++++++
 
 .. function:: getMinWidth()
 
@@ -40,7 +43,7 @@ getMinWidth
 
 
 setMinWidth
------------
++++++++++++
 
 .. function:: setMinWidth()
 
@@ -56,7 +59,7 @@ setMinWidth
 
 
 getMaxWidth
------------
++++++++++++
 
 .. function:: getMaxWidth()
 
@@ -68,7 +71,7 @@ getMaxWidth
 
 
 setMaxWidth
------------
++++++++++++
 
 .. function:: setMaxWidth()
 
@@ -84,7 +87,7 @@ setMaxWidth
 
 
 getMinHeight
-------------
+++++++++++++
 
 .. function:: getMinHeight()
 
@@ -96,7 +99,7 @@ getMinHeight
 
 
 setMinHeight
-------------
+++++++++++++
 
 .. function:: setMinHeight()
 
@@ -112,7 +115,7 @@ setMinHeight
 
 
 getMaxHeight
-------------
+++++++++++++
 
 .. function:: getMaxHeight()
 
@@ -124,7 +127,7 @@ getMaxHeight
 
 
 setMaxHeight
-------------
+++++++++++++
 
 .. function:: setMaxHeight()
 
@@ -140,7 +143,7 @@ setMaxHeight
 
 
 getImageMin
------------
++++++++++++
 
 .. function:: getImageMin()
 
@@ -152,7 +155,7 @@ getImageMin
 
 
 getImageMax
------------
++++++++++++
 
 .. function:: getImageMax()
 
@@ -164,7 +167,7 @@ getImageMax
 
 
 getImageWidth
--------------
++++++++++++++
 
 .. function:: getImageWidth()
 
@@ -176,7 +179,7 @@ getImageWidth
 
 
 getImageHeight
---------------
+++++++++++++++
 
 .. function:: getImageHeight()
 
@@ -188,7 +191,7 @@ getImageHeight
 
 
 setImageMin
------------
++++++++++++
 
 .. function:: setImageMin()
 
@@ -202,7 +205,7 @@ setImageMin
 
 
 setImageMax
------------
++++++++++++
 
 .. function:: setImageMax()
 
@@ -216,7 +219,7 @@ setImageMax
 
 
 setImageWidth
--------------
++++++++++++++
 
 .. function:: setImageWidth()
 
@@ -230,7 +233,7 @@ setImageWidth
 
 
 setImageHeight
---------------
+++++++++++++++
 
 .. function:: setImageHeight()
 
@@ -244,7 +247,7 @@ setImageHeight
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -261,25 +264,25 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 WIDTH_TOO_BIG
-=============
++++++++++++++
 
 @const string Error constants
 
 WIDTH_TOO_SMALL
-===============
++++++++++++++++
 
 HEIGHT_TOO_BIG
-==============
+++++++++++++++
 
 HEIGHT_TOO_SMALL
-================
+++++++++++++++++
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_READABLE
-============
+++++++++++++
 

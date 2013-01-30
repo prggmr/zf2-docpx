@@ -1,5 +1,8 @@
-.. View/Helper/HeadLink.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HeadLink.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HeadLink
 ============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HeadLink
 Zend_Layout_View_Helper_HeadLink
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -40,7 +43,7 @@ __invoke
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -85,7 +88,7 @@ __call
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -99,7 +102,7 @@ isValid
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -115,7 +118,7 @@ append
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -132,7 +135,7 @@ offsetSet
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -148,7 +151,7 @@ prepend
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -164,7 +167,7 @@ set
 
 
 itemToString
-------------
+++++++++++++
 
 .. function:: itemToString()
 
@@ -178,7 +181,7 @@ itemToString
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -192,7 +195,7 @@ toString
 
 
 createData
-----------
+++++++++++
 
 .. function:: createData()
 
@@ -206,7 +209,7 @@ createData
 
 
 createDataStylesheet
---------------------
+++++++++++++++++++++
 
 .. function:: createDataStylesheet()
 
@@ -220,7 +223,7 @@ createDataStylesheet
 
 
 isDuplicateStylesheet
----------------------
++++++++++++++++++++++
 
 .. function:: isDuplicateStylesheet()
 
@@ -234,7 +237,7 @@ isDuplicateStylesheet
 
 
 createDataAlternate
--------------------
++++++++++++++++++++
 
 .. function:: createDataAlternate()
 
@@ -250,7 +253,7 @@ createDataAlternate
 
 
 createDataPrev
---------------
+++++++++++++++
 
 .. function:: createDataPrev()
 
@@ -264,7 +267,7 @@ createDataPrev
 
 
 createDataNext
---------------
+++++++++++++++
 
 .. function:: createDataNext()
 

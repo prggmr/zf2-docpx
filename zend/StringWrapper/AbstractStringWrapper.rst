@@ -1,14 +1,17 @@
-.. Stdlib/StringWrapper/AbstractStringWrapper.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/StringWrapper/AbstractStringWrapper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\StringWrapper\\AbstractStringWrapper
 ==================================================
 
 Methods
-+++++++
+-------
 
 isSupported
------------
++++++++++++
 
 .. function:: isSupported()
 
@@ -22,7 +25,7 @@ isSupported
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -37,7 +40,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -51,7 +54,7 @@ getEncoding
 
 
 getConvertEncoding
-------------------
+++++++++++++++++++
 
 .. function:: getConvertEncoding()
 
@@ -63,7 +66,7 @@ getConvertEncoding
 
 
 convert
--------
++++++++
 
 .. function:: convert()
 
@@ -78,7 +81,7 @@ convert
 
 
 wordWrap
---------
+++++++++
 
 .. function:: wordWrap()
 
@@ -95,7 +98,7 @@ wordWrap
 
 
 strPad
-------
+++++++
 
 .. function:: strPad()
 

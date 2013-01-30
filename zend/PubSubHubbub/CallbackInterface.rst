@@ -1,5 +1,8 @@
-.. Feed/PubSubHubbub/CallbackInterface.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/CallbackInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Feed\\PubSubHubbub\\handle
 ================================
@@ -16,6 +19,9 @@ Zend\\Feed\\PubSubHubbub\\handle
 
 
 
+Function
+********
+
 Zend\\Feed\\PubSubHubbub\\sendResponse
 ======================================
 
@@ -31,6 +37,9 @@ Zend\\Feed\\PubSubHubbub\\sendResponse
 
 
 
+Function
+********
+
 Zend\\Feed\\PubSubHubbub\\setHttpResponse
 =========================================
 
@@ -44,6 +53,9 @@ Zend\\Feed\\PubSubHubbub\\setHttpResponse
     :param HttpResponse|\Zend\Http\PhpEnvironment\Response: 
 
 
+
+Function
+********
 
 Zend\\Feed\\PubSubHubbub\\getHttpResponse
 =========================================

@@ -1,14 +1,17 @@
-.. Validator/Identical.php generated using docpx on 01/30/13 03:32am
+.. Validator/Identical.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Identical
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getToken
---------
+++++++++
 
 .. function:: getToken()
 
@@ -32,7 +35,7 @@ getToken
 
 
 setToken
---------
+++++++++
 
 .. function:: setToken()
 
@@ -46,7 +49,7 @@ setToken
 
 
 getStrict
----------
++++++++++
 
 .. function:: getStrict()
 
@@ -58,7 +61,7 @@ getStrict
 
 
 setStrict
----------
++++++++++
 
 .. function:: setStrict()
 
@@ -72,7 +75,7 @@ setStrict
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -90,13 +93,13 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOT_SAME
-========
+++++++++
 
 Error codes
 
 MISSING_TOKEN
-=============
++++++++++++++
 

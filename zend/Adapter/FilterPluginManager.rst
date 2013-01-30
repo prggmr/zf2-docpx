@@ -1,5 +1,8 @@
-.. File/Transfer/Adapter/FilterPluginManager.php generated using docpx on 01/30/13 03:32am
+.. File/Transfer/Adapter/FilterPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\File\\Transfer\\Adapter\\FilterPluginManager
 ==================================================

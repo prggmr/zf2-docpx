@@ -1,14 +1,17 @@
-.. Feed/Writer/Renderer/Feed/Atom/AbstractAtom.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Renderer/Feed/Atom/AbstractAtom.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\Atom\\AbstractAtom
 ======================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 _setLanguage
-------------
+++++++++++++
 
 .. function:: _setLanguage()
 
@@ -35,7 +38,7 @@ _setLanguage
 
 
 _setTitle
----------
++++++++++
 
 .. function:: _setTitle()
 
@@ -52,7 +55,7 @@ _setTitle
 
 
 _setDescription
----------------
++++++++++++++++
 
 .. function:: _setDescription()
 
@@ -67,7 +70,7 @@ _setDescription
 
 
 _setDateModified
-----------------
+++++++++++++++++
 
 .. function:: _setDateModified()
 
@@ -84,7 +87,7 @@ _setDateModified
 
 
 _setGenerator
--------------
++++++++++++++
 
 .. function:: _setGenerator()
 
@@ -99,7 +102,7 @@ _setGenerator
 
 
 _setLink
---------
+++++++++
 
 .. function:: _setLink()
 
@@ -114,7 +117,7 @@ _setLink
 
 
 _setFeedLinks
--------------
++++++++++++++
 
 .. function:: _setFeedLinks()
 
@@ -131,7 +134,7 @@ _setFeedLinks
 
 
 _setAuthors
------------
++++++++++++
 
 .. function:: _setAuthors()
 
@@ -146,7 +149,7 @@ _setAuthors
 
 
 _setId
-------
+++++++
 
 .. function:: _setId()
 
@@ -163,7 +166,7 @@ _setId
 
 
 _setCopyright
--------------
++++++++++++++
 
 .. function:: _setCopyright()
 
@@ -178,7 +181,7 @@ _setCopyright
 
 
 _setImage
----------
++++++++++
 
 .. function:: _setImage()
 
@@ -193,7 +196,7 @@ _setImage
 
 
 _setDateCreated
----------------
++++++++++++++++
 
 .. function:: _setDateCreated()
 
@@ -208,7 +211,7 @@ _setDateCreated
 
 
 _setBaseUrl
------------
++++++++++++
 
 .. function:: _setBaseUrl()
 
@@ -223,7 +226,7 @@ _setBaseUrl
 
 
 _setHubs
---------
+++++++++
 
 .. function:: _setHubs()
 
@@ -238,7 +241,7 @@ _setHubs
 
 
 _setCategories
---------------
+++++++++++++++
 
 .. function:: _setCategories()
 

@@ -1,5 +1,8 @@
-.. Math/BigInteger/Adapter/Gmp.php generated using docpx on 01/30/13 03:32am
+.. Math/BigInteger/Adapter/Gmp.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Math\\BigInteger\\Adapter\\Gmp
 ====================================
@@ -7,10 +10,10 @@ Zend\\Math\\BigInteger\\Adapter\\Gmp
 GMP extension adapter
 
 Methods
-+++++++
+-------
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -25,7 +28,7 @@ init
 
 
 add
----
++++
 
 .. function:: add()
 
@@ -40,7 +43,7 @@ add
 
 
 sub
----
++++
 
 .. function:: sub()
 
@@ -55,7 +58,7 @@ sub
 
 
 mul
----
++++
 
 .. function:: mul()
 
@@ -70,7 +73,7 @@ mul
 
 
 div
----
++++
 
 .. function:: div()
 
@@ -88,7 +91,7 @@ div
 
 
 pow
----
++++
 
 .. function:: pow()
 
@@ -103,7 +106,7 @@ pow
 
 
 sqrt
-----
+++++
 
 .. function:: sqrt()
 
@@ -117,7 +120,7 @@ sqrt
 
 
 abs
----
++++
 
 .. function:: abs()
 
@@ -131,7 +134,7 @@ abs
 
 
 mod
----
++++
 
 .. function:: mod()
 
@@ -146,7 +149,7 @@ mod
 
 
 powmod
-------
+++++++
 
 .. function:: powmod()
 
@@ -162,7 +165,7 @@ powmod
 
 
 comp
-----
+++++
 
 .. function:: comp()
 
@@ -179,7 +182,7 @@ comp
 
 
 intToBin
---------
+++++++++
 
 .. function:: intToBin()
 
@@ -194,7 +197,7 @@ intToBin
 
 
 binToInt
---------
+++++++++
 
 .. function:: binToInt()
 
@@ -209,7 +212,7 @@ binToInt
 
 
 baseConvert
------------
++++++++++++
 
 .. function:: baseConvert()
 

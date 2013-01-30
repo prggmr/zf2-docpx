@@ -1,5 +1,8 @@
-.. Log/Writer/WriterInterface.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/WriterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Log\\Writer\\addFilter
 ============================
@@ -15,6 +18,9 @@ Zend\\Log\\Writer\\addFilter
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\setFormatter
 ===============================
 
@@ -29,6 +35,9 @@ Zend\\Log\\Writer\\setFormatter
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\write
 ========================
 
@@ -42,6 +51,9 @@ Zend\\Log\\Writer\\write
     :rtype: WriterInterface 
 
 
+
+Function
+********
 
 Zend\\Log\\Writer\\shutdown
 ===========================

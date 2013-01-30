@@ -1,5 +1,8 @@
-.. Soap/Client/DotNet.php generated using docpx on 01/30/13 03:32am
+.. Soap/Client/DotNet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Client\\DotNet
 ==========================
@@ -9,10 +12,10 @@ Zend\\Soap\\Client\\DotNet
 Class is intended to be used with .Net Web Services.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 _doRequest
-----------
+++++++++++
 
 .. function:: _doRequest()
 
@@ -44,7 +47,7 @@ _doRequest
 
 
 getCurlClient
--------------
++++++++++++++
 
 .. function:: getCurlClient()
 
@@ -56,7 +59,7 @@ getCurlClient
 
 
 getLastRequestHeaders
----------------------
++++++++++++++++++++++
 
 .. function:: getLastRequestHeaders()
 
@@ -68,7 +71,7 @@ getLastRequestHeaders
 
 
 getLastResponseHeaders
-----------------------
+++++++++++++++++++++++
 
 .. function:: getLastResponseHeaders()
 
@@ -80,7 +83,7 @@ getLastResponseHeaders
 
 
 setCurlClient
--------------
++++++++++++++
 
 .. function:: setCurlClient()
 
@@ -94,7 +97,7 @@ setCurlClient
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -112,7 +115,7 @@ setOptions
 
 
 _preProcessArguments
---------------------
+++++++++++++++++++++
 
 .. function:: _preProcessArguments()
 
@@ -130,7 +133,7 @@ _preProcessArguments
 
 
 _preProcessResult
------------------
++++++++++++++++++
 
 .. function:: _preProcessResult()
 
@@ -146,7 +149,7 @@ _preProcessResult
 
 
 flattenHeaders
---------------
+++++++++++++++
 
 .. function:: flattenHeaders()
 

@@ -1,5 +1,8 @@
-.. Escaper/Escaper.php generated using docpx on 01/30/13 03:32am
+.. Escaper/Escaper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Escaper\\Escaper
 ======================
@@ -7,10 +10,10 @@ Zend\\Escaper\\Escaper
 Context specific methods for use in secure output escaping
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -38,7 +41,7 @@ getEncoding
 
 
 escapeHtml
-----------
+++++++++++
 
 .. function:: escapeHtml()
 
@@ -53,7 +56,7 @@ escapeHtml
 
 
 escapeHtmlAttr
---------------
+++++++++++++++
 
 .. function:: escapeHtmlAttr()
 
@@ -69,7 +72,7 @@ escapeHtmlAttr
 
 
 escapeJs
---------
+++++++++
 
 .. function:: escapeJs()
 
@@ -89,7 +92,7 @@ escapeJs
 
 
 escapeUrl
----------
++++++++++
 
 .. function:: escapeUrl()
 
@@ -105,7 +108,7 @@ escapeUrl
 
 
 escapeCss
----------
++++++++++
 
 .. function:: escapeCss()
 
@@ -120,7 +123,7 @@ escapeCss
 
 
 htmlAttrMatcher
----------------
++++++++++++++++
 
 .. function:: htmlAttrMatcher()
 
@@ -135,7 +138,7 @@ htmlAttrMatcher
 
 
 jsMatcher
----------
++++++++++
 
 .. function:: jsMatcher()
 
@@ -150,7 +153,7 @@ jsMatcher
 
 
 cssMatcher
-----------
+++++++++++
 
 .. function:: cssMatcher()
 
@@ -165,7 +168,7 @@ cssMatcher
 
 
 toUtf8
-------
+++++++
 
 .. function:: toUtf8()
 
@@ -182,7 +185,7 @@ toUtf8
 
 
 fromUtf8
---------
+++++++++
 
 .. function:: fromUtf8()
 
@@ -197,7 +200,7 @@ fromUtf8
 
 
 isUtf8
-------
+++++++
 
 .. function:: isUtf8()
 
@@ -211,7 +214,7 @@ isUtf8
 
 
 convertEncoding
----------------
++++++++++++++++
 
 .. function:: convertEncoding()
 

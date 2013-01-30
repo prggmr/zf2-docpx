@@ -1,14 +1,17 @@
-.. Cache/Storage/Plugin/PluginOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Plugin/PluginOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Plugin\\PluginOptions
 ===========================================
 
 Methods
-+++++++
+-------
 
 setClearingFactor
------------------
++++++++++++++++++
 
 .. function:: setClearingFactor()
 
@@ -25,7 +28,7 @@ setClearingFactor
 
 
 getClearingFactor
------------------
++++++++++++++++++
 
 .. function:: getClearingFactor()
 
@@ -40,7 +43,7 @@ getClearingFactor
 
 
 setExceptionCallback
---------------------
+++++++++++++++++++++
 
 .. function:: setExceptionCallback()
 
@@ -59,7 +62,7 @@ setExceptionCallback
 
 
 getExceptionCallback
---------------------
+++++++++++++++++++++
 
 .. function:: getExceptionCallback()
 
@@ -74,7 +77,7 @@ getExceptionCallback
 
 
 setExitOnAbort
---------------
+++++++++++++++
 
 .. function:: setExitOnAbort()
 
@@ -88,7 +91,7 @@ setExitOnAbort
 
 
 getExitOnAbort
---------------
+++++++++++++++
 
 .. function:: getExitOnAbort()
 
@@ -100,7 +103,7 @@ getExitOnAbort
 
 
 setOptimizingFactor
--------------------
++++++++++++++++++++
 
 .. function:: setOptimizingFactor()
 
@@ -117,7 +120,7 @@ setOptimizingFactor
 
 
 getOptimizingFactor
--------------------
++++++++++++++++++++
 
 .. function:: getOptimizingFactor()
 
@@ -132,7 +135,7 @@ getOptimizingFactor
 
 
 setSerializer
--------------
++++++++++++++
 
 .. function:: setSerializer()
 
@@ -151,7 +154,7 @@ setSerializer
 
 
 getSerializer
--------------
++++++++++++++
 
 .. function:: getSerializer()
 
@@ -166,7 +169,7 @@ getSerializer
 
 
 setSerializerOptions
---------------------
+++++++++++++++++++++
 
 .. function:: setSerializerOptions()
 
@@ -183,7 +186,7 @@ setSerializerOptions
 
 
 getSerializerOptions
---------------------
+++++++++++++++++++++
 
 .. function:: getSerializerOptions()
 
@@ -198,7 +201,7 @@ getSerializerOptions
 
 
 setThrowExceptions
-------------------
+++++++++++++++++++
 
 .. function:: setThrowExceptions()
 
@@ -215,7 +218,7 @@ setThrowExceptions
 
 
 getThrowExceptions
-------------------
+++++++++++++++++++
 
 .. function:: getThrowExceptions()
 
@@ -230,7 +233,7 @@ getThrowExceptions
 
 
 normalizeFactor
----------------
++++++++++++++++
 
 .. function:: normalizeFactor()
 

@@ -1,14 +1,17 @@
-.. Test/PHPUnit/Controller/AbstractControllerTestCase.php generated using docpx on 01/30/13 03:32am
+.. Test/PHPUnit/Controller/AbstractControllerTestCase.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Test\\PHPUnit\\Controller\\AbstractControllerTestCase
 ===========================================================
 
 Methods
-+++++++
+-------
 
 setUp
------
++++++
 
 .. function:: setUp()
 
@@ -18,7 +21,7 @@ setUp
 
 
 getTraceError
--------------
++++++++++++++
 
 .. function:: getTraceError()
 
@@ -30,7 +33,7 @@ getTraceError
 
 
 setTraceError
--------------
++++++++++++++
 
 .. function:: setTraceError()
 
@@ -44,7 +47,7 @@ setTraceError
 
 
 getUseConsoleRequest
---------------------
+++++++++++++++++++++
 
 .. function:: getUseConsoleRequest()
 
@@ -56,7 +59,7 @@ getUseConsoleRequest
 
 
 setUseConsoleRequest
---------------------
+++++++++++++++++++++
 
 .. function:: setUseConsoleRequest()
 
@@ -70,7 +73,7 @@ setUseConsoleRequest
 
 
 getApplicationConfig
---------------------
+++++++++++++++++++++
 
 .. function:: getApplicationConfig()
 
@@ -82,7 +85,7 @@ getApplicationConfig
 
 
 setApplicationConfig
---------------------
+++++++++++++++++++++
 
 .. function:: setApplicationConfig()
 
@@ -96,7 +99,7 @@ setApplicationConfig
 
 
 getApplication
---------------
+++++++++++++++
 
 .. function:: getApplication()
 
@@ -108,7 +111,7 @@ getApplication
 
 
 getApplicationServiceLocator
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: getApplicationServiceLocator()
 
@@ -120,7 +123,7 @@ getApplicationServiceLocator
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -132,7 +135,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -144,7 +147,7 @@ getResponse
 
 
 url
----
++++
 
 .. function:: url()
 
@@ -158,7 +161,7 @@ url
 
 
 dispatch
---------
+++++++++
 
 .. function:: dispatch()
 
@@ -175,7 +178,7 @@ dispatch
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -187,7 +190,7 @@ reset
 
 
 triggerApplicationEvent
------------------------
++++++++++++++++++++++++
 
 .. function:: triggerApplicationEvent()
 
@@ -201,7 +204,7 @@ triggerApplicationEvent
 
 
 assertModulesLoaded
--------------------
++++++++++++++++++++
 
 .. function:: assertModulesLoaded()
 
@@ -213,7 +216,7 @@ assertModulesLoaded
 
 
 assertNotModulesLoaded
-----------------------
+++++++++++++++++++++++
 
 .. function:: assertNotModulesLoaded()
 
@@ -225,7 +228,7 @@ assertNotModulesLoaded
 
 
 getResponseStatusCode
----------------------
++++++++++++++++++++++
 
 .. function:: getResponseStatusCode()
 
@@ -237,7 +240,7 @@ getResponseStatusCode
 
 
 assertResponseStatusCode
-------------------------
+++++++++++++++++++++++++
 
 .. function:: assertResponseStatusCode()
 
@@ -249,7 +252,7 @@ assertResponseStatusCode
 
 
 assertNotResponseStatusCode
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: assertNotResponseStatusCode()
 
@@ -261,7 +264,7 @@ assertNotResponseStatusCode
 
 
 assertApplicationException
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: assertApplicationException()
 
@@ -274,7 +277,7 @@ assertApplicationException
 
 
 getControllerFullClassName
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getControllerFullClassName()
 
@@ -286,7 +289,7 @@ getControllerFullClassName
 
 
 assertModuleName
-----------------
+++++++++++++++++
 
 .. function:: assertModuleName()
 
@@ -298,7 +301,7 @@ assertModuleName
 
 
 assertNotModuleName
--------------------
++++++++++++++++++++
 
 .. function:: assertNotModuleName()
 
@@ -310,7 +313,7 @@ assertNotModuleName
 
 
 assertControllerClass
----------------------
++++++++++++++++++++++
 
 .. function:: assertControllerClass()
 
@@ -322,7 +325,7 @@ assertControllerClass
 
 
 assertNotControllerClass
-------------------------
+++++++++++++++++++++++++
 
 .. function:: assertNotControllerClass()
 
@@ -334,7 +337,7 @@ assertNotControllerClass
 
 
 assertControllerName
---------------------
+++++++++++++++++++++
 
 .. function:: assertControllerName()
 
@@ -346,7 +349,7 @@ assertControllerName
 
 
 assertNotControllerName
------------------------
++++++++++++++++++++++++
 
 .. function:: assertNotControllerName()
 
@@ -358,7 +361,7 @@ assertNotControllerName
 
 
 assertActionName
-----------------
+++++++++++++++++
 
 .. function:: assertActionName()
 
@@ -370,7 +373,7 @@ assertActionName
 
 
 assertNotActionName
--------------------
++++++++++++++++++++
 
 .. function:: assertNotActionName()
 
@@ -382,7 +385,7 @@ assertNotActionName
 
 
 assertMatchedRouteName
-----------------------
+++++++++++++++++++++++
 
 .. function:: assertMatchedRouteName()
 
@@ -394,7 +397,7 @@ assertMatchedRouteName
 
 
 assertNotMatchedRouteName
--------------------------
++++++++++++++++++++++++++
 
 .. function:: assertNotMatchedRouteName()
 

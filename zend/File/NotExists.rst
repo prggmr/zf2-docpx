@@ -1,5 +1,8 @@
-.. Validator/File/NotExists.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/NotExists.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\NotExists
 ================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\NotExists
 Validator which checks if the destination file does not exist
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -26,10 +29,10 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_EXIST
-==========
+++++++++++
 
 @const string Error constants
 

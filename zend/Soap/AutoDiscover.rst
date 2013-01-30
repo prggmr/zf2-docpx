@@ -1,5 +1,8 @@
-.. Soap/AutoDiscover.php generated using docpx on 01/30/13 03:32am
+.. Soap/AutoDiscover.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\AutoDiscover
 ========================
@@ -7,10 +10,10 @@ Zend\\Soap\\AutoDiscover
 \Zend\Soap\AutoDiscover
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setDiscoveryStrategy
---------------------
+++++++++++++++++++++
 
 .. function:: setDiscoveryStrategy()
 
@@ -39,7 +42,7 @@ setDiscoveryStrategy
 
 
 getDiscoveryStrategy
---------------------
+++++++++++++++++++++
 
 .. function:: getDiscoveryStrategy()
 
@@ -49,7 +52,7 @@ getDiscoveryStrategy
 
 
 getClassMap
------------
++++++++++++
 
 .. function:: getClassMap()
 
@@ -61,7 +64,7 @@ getClassMap
 
 
 setClassMap
------------
++++++++++++
 
 .. function:: setClassMap()
 
@@ -71,7 +74,7 @@ setClassMap
 
 
 setServiceName
---------------
+++++++++++++++
 
 .. function:: setServiceName()
 
@@ -85,7 +88,7 @@ setServiceName
 
 
 getServiceName
---------------
+++++++++++++++
 
 .. function:: getServiceName()
 
@@ -99,7 +102,7 @@ getServiceName
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -115,7 +118,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -129,7 +132,7 @@ getUri
 
 
 setWsdlClass
-------------
+++++++++++++
 
 .. function:: setWsdlClass()
 
@@ -145,7 +148,7 @@ setWsdlClass
 
 
 getWsdlClass
-------------
+++++++++++++
 
 .. function:: getWsdlClass()
 
@@ -157,7 +160,7 @@ getWsdlClass
 
 
 setOperationBodyStyle
----------------------
++++++++++++++++++++++
 
 .. function:: setOperationBodyStyle()
 
@@ -176,7 +179,7 @@ setOperationBodyStyle
 
 
 setBindingStyle
----------------
++++++++++++++++
 
 .. function:: setBindingStyle()
 
@@ -192,7 +195,7 @@ setBindingStyle
 
 
 setComplexTypeStrategy
-----------------------
+++++++++++++++++++++++
 
 .. function:: setComplexTypeStrategy()
 
@@ -206,7 +209,7 @@ setComplexTypeStrategy
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -220,7 +223,7 @@ setClass
 
 
 addFunction
------------
++++++++++++
 
 .. function:: addFunction()
 
@@ -234,7 +237,7 @@ addFunction
 
 
 _generateClass
---------------
+++++++++++++++
 
 .. function:: _generateClass()
 
@@ -246,7 +249,7 @@ _generateClass
 
 
 _generateFunctions
-------------------
+++++++++++++++++++
 
 .. function:: _generateFunctions()
 
@@ -258,7 +261,7 @@ _generateFunctions
 
 
 _generateWsdl
--------------
++++++++++++++
 
 .. function:: _generateWsdl()
 
@@ -272,7 +275,7 @@ _generateWsdl
 
 
 _addFunctionToWsdl
-------------------
+++++++++++++++++++
 
 .. function:: _addFunctionToWsdl()
 
@@ -291,7 +294,7 @@ _addFunctionToWsdl
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -304,7 +307,7 @@ generate
 
 
 dump
-----
+++++
 
 .. function:: dump()
 
@@ -320,7 +323,7 @@ dump
 
 
 toXml
------
++++++
 
 .. function:: toXml()
 
@@ -334,7 +337,7 @@ toXml
 
 
 handle
-------
+++++++
 
 .. function:: handle()
 

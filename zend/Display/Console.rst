@@ -1,5 +1,8 @@
-.. Di/Display/Console.php generated using docpx on 01/30/13 03:32am
+.. Di/Display/Console.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Display\\Console
 ==========================
@@ -7,10 +10,10 @@ Zend\\Di\\Display\\Console
 Exporter for class definitions
 
 Methods
-+++++++
+-------
 
 export
-------
+++++++
 
 .. function:: export()
 
@@ -25,7 +28,7 @@ export
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -37,7 +40,7 @@ __construct
 
 
 addRuntimeClasses
------------------
++++++++++++++++++
 
 .. function:: addRuntimeClasses()
 
@@ -47,7 +50,7 @@ addRuntimeClasses
 
 
 addRuntimeClass
----------------
++++++++++++++++
 
 .. function:: addRuntimeClass()
 
@@ -57,14 +60,14 @@ addRuntimeClass
 
 
 render
-------
+++++++
 
 .. function:: render()
 
 
 
 renderDefinition
-----------------
+++++++++++++++++
 
 .. function:: renderDefinition()
 
@@ -74,7 +77,7 @@ renderDefinition
 
 
 renderClassDefinition
----------------------
++++++++++++++++++++++
 
 .. function:: renderClassDefinition()
 

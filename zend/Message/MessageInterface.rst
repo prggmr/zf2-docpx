@@ -1,5 +1,8 @@
-.. Mail/Storage/Message/MessageInterface.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Message/MessageInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Message\\getTopLines
 =========================================
@@ -12,6 +15,9 @@ Zend\\Mail\\Storage\\Message\\getTopLines
     :rtype: string toplines
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Message\\hasFlag
 =====================================
@@ -26,6 +32,9 @@ Zend\\Mail\\Storage\\Message\\hasFlag
     :rtype: bool true if set, otherwise false
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Message\\getFlags
 ======================================

@@ -1,5 +1,8 @@
-.. View/Helper/Navigation/Breadcrumbs.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Navigation/Breadcrumbs.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Navigation\\Breadcrumbs
 ===========================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Navigation\\Breadcrumbs
 Helper for printing breadcrumbs
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -24,7 +27,7 @@ __invoke
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -38,7 +41,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -50,7 +53,7 @@ getSeparator
 
 
 setLinkLast
------------
++++++++++++
 
 .. function:: setLinkLast()
 
@@ -64,7 +67,7 @@ setLinkLast
 
 
 getLinkLast
------------
++++++++++++
 
 .. function:: getLinkLast()
 
@@ -76,7 +79,7 @@ getLinkLast
 
 
 setPartial
-----------
+++++++++++
 
 .. function:: setPartial()
 
@@ -94,7 +97,7 @@ setPartial
 
 
 getPartial
-----------
+++++++++++
 
 .. function:: getPartial()
 
@@ -106,7 +109,7 @@ getPartial
 
 
 renderStraight
---------------
+++++++++++++++
 
 .. function:: renderStraight()
 
@@ -122,7 +125,7 @@ renderStraight
 
 
 renderPartial
--------------
++++++++++++++
 
 .. function:: renderPartial()
 
@@ -150,7 +153,7 @@ renderPartial
 
 
 render
-------
+++++++
 
 .. function:: render()
 

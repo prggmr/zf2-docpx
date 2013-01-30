@@ -1,5 +1,8 @@
-.. Form/Annotation/ElementAnnotationsListener.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/ElementAnnotationsListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\ElementAnnotationsListener
 ==================================================
@@ -26,10 +29,10 @@ work with the annotation values, as well as the element and input specification
 passed in the event object.
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -43,7 +46,7 @@ attach
 
 
 handleAllowEmptyAnnotation
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: handleAllowEmptyAnnotation()
 
@@ -59,7 +62,7 @@ handleAllowEmptyAnnotation
 
 
 handleAttributesAnnotation
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: handleAttributesAnnotation()
 
@@ -75,7 +78,7 @@ handleAttributesAnnotation
 
 
 handleComposedObjectAnnotation
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: handleComposedObjectAnnotation()
 
@@ -89,7 +92,7 @@ handleComposedObjectAnnotation
 
 
 handleErrorMessageAnnotation
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: handleErrorMessageAnnotation()
 
@@ -105,7 +108,7 @@ handleErrorMessageAnnotation
 
 
 handleExcludeAnnotation
------------------------
++++++++++++++++++++++++
 
 .. function:: handleExcludeAnnotation()
 
@@ -119,7 +122,7 @@ handleExcludeAnnotation
 
 
 handleFilterAnnotation
-----------------------
+++++++++++++++++++++++
 
 .. function:: handleFilterAnnotation()
 
@@ -135,7 +138,7 @@ handleFilterAnnotation
 
 
 handleFlagsAnnotation
----------------------
++++++++++++++++++++++
 
 .. function:: handleFlagsAnnotation()
 
@@ -152,7 +155,7 @@ handleFlagsAnnotation
 
 
 handleHydratorAnnotation
-------------------------
+++++++++++++++++++++++++
 
 .. function:: handleHydratorAnnotation()
 
@@ -168,7 +171,7 @@ handleHydratorAnnotation
 
 
 handleInputAnnotation
----------------------
++++++++++++++++++++++
 
 .. function:: handleInputAnnotation()
 
@@ -185,7 +188,7 @@ handleInputAnnotation
 
 
 handleObjectAnnotation
-----------------------
+++++++++++++++++++++++
 
 .. function:: handleObjectAnnotation()
 
@@ -201,7 +204,7 @@ handleObjectAnnotation
 
 
 handleOptionsAnnotation
------------------------
++++++++++++++++++++++++
 
 .. function:: handleOptionsAnnotation()
 
@@ -217,7 +220,7 @@ handleOptionsAnnotation
 
 
 handleRequiredAnnotation
-------------------------
+++++++++++++++++++++++++
 
 .. function:: handleRequiredAnnotation()
 
@@ -233,7 +236,7 @@ handleRequiredAnnotation
 
 
 handleTypeAnnotation
---------------------
+++++++++++++++++++++
 
 .. function:: handleTypeAnnotation()
 
@@ -249,7 +252,7 @@ handleTypeAnnotation
 
 
 handleValidatorAnnotation
--------------------------
++++++++++++++++++++++++++
 
 .. function:: handleValidatorAnnotation()
 

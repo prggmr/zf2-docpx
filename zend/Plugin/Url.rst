@@ -1,14 +1,17 @@
-.. Mvc/Controller/Plugin/Url.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/Url.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\Url
 ==================================
 
 Methods
-+++++++
+-------
 
 fromRoute
----------
++++++++++
 
 .. function:: fromRoute()
 

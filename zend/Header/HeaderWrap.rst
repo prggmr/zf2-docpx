@@ -1,5 +1,8 @@
-.. Mail/Header/HeaderWrap.php generated using docpx on 01/30/13 03:32am
+.. Mail/Header/HeaderWrap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Header\\HeaderWrap
 ==============================
@@ -8,10 +11,10 @@ Utility class used for creating wrapped or MIME-encoded versions of header
 values.
 
 Methods
-+++++++
+-------
 
 wrap
-----
+++++
 
 .. function:: wrap()
 
@@ -26,7 +29,7 @@ wrap
 
 
 wrapUnstructuredHeader
-----------------------
+++++++++++++++++++++++
 
 .. function:: wrapUnstructuredHeader()
 
@@ -43,7 +46,7 @@ wrapUnstructuredHeader
 
 
 wrapStructuredHeader
---------------------
+++++++++++++++++++++
 
 .. function:: wrapStructuredHeader()
 
@@ -58,7 +61,7 @@ wrapStructuredHeader
 
 
 mimeEncodeValue
----------------
++++++++++++++++
 
 .. function:: mimeEncodeValue()
 

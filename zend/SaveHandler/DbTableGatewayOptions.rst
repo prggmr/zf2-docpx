@@ -1,5 +1,8 @@
-.. Session/SaveHandler/DbTableGatewayOptions.php generated using docpx on 01/30/13 03:32am
+.. Session/SaveHandler/DbTableGatewayOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\SaveHandler\\DbTableGatewayOptions
 =================================================
@@ -7,10 +10,10 @@ Zend\\Session\\SaveHandler\\DbTableGatewayOptions
 DbTableGateway Save Handler Options
 
 Methods
-+++++++
+-------
 
 setIdColumn
------------
++++++++++++
 
 .. function:: setIdColumn()
 
@@ -26,7 +29,7 @@ setIdColumn
 
 
 getIdColumn
------------
++++++++++++
 
 .. function:: getIdColumn()
 
@@ -38,7 +41,7 @@ getIdColumn
 
 
 setNameColumn
--------------
++++++++++++++
 
 .. function:: setNameColumn()
 
@@ -54,7 +57,7 @@ setNameColumn
 
 
 getNameColumn
--------------
++++++++++++++
 
 .. function:: getNameColumn()
 
@@ -66,7 +69,7 @@ getNameColumn
 
 
 setDataColumn
--------------
++++++++++++++
 
 .. function:: setDataColumn()
 
@@ -82,7 +85,7 @@ setDataColumn
 
 
 getDataColumn
--------------
++++++++++++++
 
 .. function:: getDataColumn()
 
@@ -94,7 +97,7 @@ getDataColumn
 
 
 setLifetimeColumn
------------------
++++++++++++++++++
 
 .. function:: setLifetimeColumn()
 
@@ -110,7 +113,7 @@ setLifetimeColumn
 
 
 getLifetimeColumn
------------------
++++++++++++++++++
 
 .. function:: getLifetimeColumn()
 
@@ -122,7 +125,7 @@ getLifetimeColumn
 
 
 setModifiedColumn
------------------
++++++++++++++++++
 
 .. function:: setModifiedColumn()
 
@@ -138,7 +141,7 @@ setModifiedColumn
 
 
 getModifiedColumn
------------------
++++++++++++++++++
 
 .. function:: getModifiedColumn()
 

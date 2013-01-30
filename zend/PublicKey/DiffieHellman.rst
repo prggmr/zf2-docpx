@@ -1,5 +1,8 @@
-.. Crypt/PublicKey/DiffieHellman.php generated using docpx on 01/30/13 03:32am
+.. Crypt/PublicKey/DiffieHellman.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\PublicKey\\DiffieHellman
 =====================================
@@ -9,10 +12,10 @@ Allows two unassociated parties to establish a joint shared secret key
 to be used in encrypting subsequent communications.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 useOpensslExtension
--------------------
++++++++++++++++++++
 
 .. function:: useOpensslExtension()
 
@@ -42,7 +45,7 @@ useOpensslExtension
 
 
 generateKeys
-------------
+++++++++++++
 
 .. function:: generateKeys()
 
@@ -57,7 +60,7 @@ generateKeys
 
 
 setPublicKey
-------------
+++++++++++++
 
 .. function:: setPublicKey()
 
@@ -74,7 +77,7 @@ setPublicKey
 
 
 getPublicKey
-------------
+++++++++++++
 
 .. function:: getPublicKey()
 
@@ -90,7 +93,7 @@ getPublicKey
 
 
 computeSecretKey
-----------------
+++++++++++++++++
 
 .. function:: computeSecretKey()
 
@@ -117,7 +120,7 @@ computeSecretKey
 
 
 getSharedSecretKey
-------------------
+++++++++++++++++++
 
 .. function:: getSharedSecretKey()
 
@@ -133,7 +136,7 @@ getSharedSecretKey
 
 
 setPrime
---------
+++++++++
 
 .. function:: setPrime()
 
@@ -149,7 +152,7 @@ setPrime
 
 
 getPrime
---------
+++++++++
 
 .. function:: getPrime()
 
@@ -165,7 +168,7 @@ getPrime
 
 
 setGenerator
-------------
+++++++++++++
 
 .. function:: setGenerator()
 
@@ -181,7 +184,7 @@ setGenerator
 
 
 getGenerator
-------------
+++++++++++++
 
 .. function:: getGenerator()
 
@@ -197,7 +200,7 @@ getGenerator
 
 
 setPrivateKey
--------------
++++++++++++++
 
 .. function:: setPrivateKey()
 
@@ -214,7 +217,7 @@ setPrivateKey
 
 
 getPrivateKey
--------------
++++++++++++++
 
 .. function:: getPrivateKey()
 
@@ -228,7 +231,7 @@ getPrivateKey
 
 
 hasPrivateKey
--------------
++++++++++++++
 
 .. function:: hasPrivateKey()
 
@@ -240,7 +243,7 @@ hasPrivateKey
 
 
 convert
--------
++++++++
 
 .. function:: convert()
 
@@ -256,7 +259,7 @@ convert
 
 
 generatePrivateKey
-------------------
+++++++++++++++++++
 
 .. function:: generatePrivateKey()
 
@@ -274,19 +277,19 @@ generatePrivateKey
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_KEY_SIZE
-================
+++++++++++++++++
 
 FORMAT_BINARY
-=============
++++++++++++++
 
 Key formats
 
 FORMAT_NUMBER
-=============
++++++++++++++
 
 FORMAT_BTWOC
-============
+++++++++++++
 

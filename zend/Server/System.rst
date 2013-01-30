@@ -1,5 +1,8 @@
-.. XmlRpc/Server/System.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Server/System.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Server\\System
 ============================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Server\\System
 XML-RPC system.* methods
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 listMethods
------------
++++++++++++
 
 .. function:: listMethods()
 
@@ -36,7 +39,7 @@ listMethods
 
 
 methodHelp
-----------
+++++++++++
 
 .. function:: methodHelp()
 
@@ -52,7 +55,7 @@ methodHelp
 
 
 methodSignature
----------------
++++++++++++++++
 
 .. function:: methodSignature()
 
@@ -68,7 +71,7 @@ methodSignature
 
 
 multicall
----------
++++++++++
 
 .. function:: multicall()
 

@@ -1,14 +1,17 @@
-.. Log/Writer/ChromePhp/ChromePhpBridge.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/ChromePhp/ChromePhpBridge.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\ChromePhp\\ChromePhpBridge
 =============================================
 
 Methods
-+++++++
+-------
 
 error
------
++++++
 
 .. function:: error()
 
@@ -20,7 +23,7 @@ error
 
 
 warn
-----
+++++
 
 .. function:: warn()
 
@@ -32,7 +35,7 @@ warn
 
 
 info
-----
+++++
 
 .. function:: info()
 
@@ -44,7 +47,7 @@ info
 
 
 trace
------
++++++
 
 .. function:: trace()
 
@@ -56,7 +59,7 @@ trace
 
 
 log
----
++++
 
 .. function:: log()
 

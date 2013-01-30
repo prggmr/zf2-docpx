@@ -1,5 +1,8 @@
-.. View/Helper/Cycle.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Cycle.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Cycle
 =========================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Cycle
 Helper for alternating between set of values
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -25,7 +28,7 @@ __invoke
 
 
 assign
-------
+++++++
 
 .. function:: assign()
 
@@ -40,7 +43,7 @@ assign
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -54,7 +57,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -66,7 +69,7 @@ getName
 
 
 getAll
-------
+++++++
 
 .. function:: getAll()
 
@@ -78,7 +81,7 @@ getAll
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -90,7 +93,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -102,7 +105,7 @@ __toString
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -114,7 +117,7 @@ next
 
 
 prev
-----
+++++
 
 .. function:: prev()
 
@@ -126,7 +129,7 @@ prev
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -138,7 +141,7 @@ key
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -150,7 +153,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -162,7 +165,7 @@ valid
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -176,10 +179,10 @@ current
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_NAME
-============
+++++++++++++
 
 Default name
 

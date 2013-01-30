@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/OpenLdap.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/OpenLdap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema\\OpenLdap
 ==================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\Schema\OpenLDAP provides a simple data-container for the Schema n
 an OpenLDAP server.
 
 Methods
-+++++++
+-------
 
 parseSchema
------------
++++++++++++
 
 .. function:: parseSchema()
 
@@ -26,7 +29,7 @@ parseSchema
 
 
 getAttributeTypes
------------------
++++++++++++++++++
 
 .. function:: getAttributeTypes()
 
@@ -38,7 +41,7 @@ getAttributeTypes
 
 
 getObjectClasses
-----------------
+++++++++++++++++
 
 .. function:: getObjectClasses()
 
@@ -50,7 +53,7 @@ getObjectClasses
 
 
 getLdapSyntaxes
----------------
++++++++++++++++
 
 .. function:: getLdapSyntaxes()
 
@@ -62,7 +65,7 @@ getLdapSyntaxes
 
 
 getMatchingRules
-----------------
+++++++++++++++++
 
 .. function:: getMatchingRules()
 
@@ -74,7 +77,7 @@ getMatchingRules
 
 
 getMatchingRuleUse
-------------------
+++++++++++++++++++
 
 .. function:: getMatchingRuleUse()
 
@@ -86,7 +89,7 @@ getMatchingRuleUse
 
 
 loadAttributeTypes
-------------------
+++++++++++++++++++
 
 .. function:: loadAttributeTypes()
 
@@ -98,7 +101,7 @@ loadAttributeTypes
 
 
 parseAttributeType
-------------------
+++++++++++++++++++
 
 .. function:: parseAttributeType()
 
@@ -112,7 +115,7 @@ parseAttributeType
 
 
 loadObjectClasses
------------------
++++++++++++++++++
 
 .. function:: loadObjectClasses()
 
@@ -124,7 +127,7 @@ loadObjectClasses
 
 
 parseObjectClass
-----------------
+++++++++++++++++
 
 .. function:: parseObjectClass()
 
@@ -138,7 +141,7 @@ parseObjectClass
 
 
 resolveInheritance
-------------------
+++++++++++++++++++
 
 .. function:: resolveInheritance()
 
@@ -151,7 +154,7 @@ resolveInheritance
 
 
 loadLdapSyntaxes
-----------------
+++++++++++++++++
 
 .. function:: loadLdapSyntaxes()
 
@@ -163,7 +166,7 @@ loadLdapSyntaxes
 
 
 parseLdapSyntax
----------------
++++++++++++++++
 
 .. function:: parseLdapSyntax()
 
@@ -177,7 +180,7 @@ parseLdapSyntax
 
 
 loadMatchingRules
------------------
++++++++++++++++++
 
 .. function:: loadMatchingRules()
 
@@ -189,7 +192,7 @@ loadMatchingRules
 
 
 parseMatchingRule
------------------
++++++++++++++++++
 
 .. function:: parseMatchingRule()
 
@@ -203,7 +206,7 @@ parseMatchingRule
 
 
 loadMatchingRuleUse
--------------------
++++++++++++++++++++
 
 .. function:: loadMatchingRuleUse()
 
@@ -215,7 +218,7 @@ loadMatchingRuleUse
 
 
 parseMatchingRuleUse
---------------------
+++++++++++++++++++++
 
 .. function:: parseMatchingRuleUse()
 
@@ -229,7 +232,7 @@ parseMatchingRuleUse
 
 
 ensureNameAttribute
--------------------
++++++++++++++++++++
 
 .. function:: ensureNameAttribute()
 
@@ -241,7 +244,7 @@ ensureNameAttribute
 
 
 parseLdapSchemaSyntax
----------------------
++++++++++++++++++++++
 
 .. function:: parseLdapSchemaSyntax()
 
@@ -256,7 +259,7 @@ parseLdapSchemaSyntax
 
 
 tokenizeString
---------------
+++++++++++++++
 
 .. function:: tokenizeString()
 

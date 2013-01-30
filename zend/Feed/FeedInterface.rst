@@ -1,5 +1,8 @@
-.. Feed/Reader/Feed/FeedInterface.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Feed/FeedInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getAuthor
 ===================================
@@ -15,6 +18,9 @@ Zend\\Feed\\Reader\\Feed\\getAuthor
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getAuthors
 ====================================
 
@@ -26,6 +32,9 @@ Zend\\Feed\\Reader\\Feed\\getAuthors
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getCopyright
 ======================================
@@ -39,6 +48,9 @@ Zend\\Feed\\Reader\\Feed\\getCopyright
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getDateCreated
 ========================================
 
@@ -50,6 +62,9 @@ Zend\\Feed\\Reader\\Feed\\getDateCreated
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getDateModified
 =========================================
@@ -63,6 +78,9 @@ Zend\\Feed\\Reader\\Feed\\getDateModified
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getDescription
 ========================================
 
@@ -74,6 +92,9 @@ Zend\\Feed\\Reader\\Feed\\getDescription
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getGenerator
 ======================================
@@ -87,6 +108,9 @@ Zend\\Feed\\Reader\\Feed\\getGenerator
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getId
 ===============================
 
@@ -98,6 +122,9 @@ Zend\\Feed\\Reader\\Feed\\getId
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getLanguage
 =====================================
@@ -111,6 +138,9 @@ Zend\\Feed\\Reader\\Feed\\getLanguage
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getLink
 =================================
 
@@ -122,6 +152,9 @@ Zend\\Feed\\Reader\\Feed\\getLink
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getFeedLink
 =====================================
@@ -135,6 +168,9 @@ Zend\\Feed\\Reader\\Feed\\getFeedLink
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Feed\\getTitle
 ==================================
 
@@ -146,6 +182,9 @@ Zend\\Feed\\Reader\\Feed\\getTitle
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Feed\\getCategories
 =======================================

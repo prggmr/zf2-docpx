@@ -1,5 +1,8 @@
-.. Crypt/SymmetricPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Crypt/SymmetricPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\SymmetricPluginManager
 ===================================
@@ -11,10 +14,10 @@ Symmetric\SymmetricInterface. Additionally, it registers a number of default
 symmetric adapters available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

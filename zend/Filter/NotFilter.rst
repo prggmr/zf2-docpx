@@ -1,5 +1,8 @@
-.. Ldap/Filter/NotFilter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter/NotFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter\\NotFilter
 =============================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter\\NotFilter
 Zend\Ldap\Filter\NotFilter provides a negation filter.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 negate
-------
+++++++
 
 .. function:: negate()
 
@@ -34,7 +37,7 @@ negate
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

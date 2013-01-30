@@ -1,5 +1,8 @@
-.. Server/Reflection/AbstractFunction.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/AbstractFunction.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\AbstractFunction
 ==========================================
@@ -14,10 +17,10 @@ method invocation arguments, and retrieving the
 method {@link \Zend\Server\Reflection\Prototype prototypes}.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -34,7 +37,7 @@ __construct
 
 
 addTree
--------
++++++++
 
 .. function:: addTree()
 
@@ -53,7 +56,7 @@ addTree
 
 
 buildTree
----------
++++++++++
 
 .. function:: buildTree()
 
@@ -69,7 +72,7 @@ buildTree
 
 
 buildSignatures
----------------
++++++++++++++++
 
 .. function:: buildSignatures()
 
@@ -89,7 +92,7 @@ buildSignatures
 
 
 reflect
--------
++++++++
 
 .. function:: reflect()
 
@@ -106,7 +109,7 @@ reflect
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -123,7 +126,7 @@ __call
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -140,7 +143,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -157,7 +160,7 @@ __set
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -173,7 +176,7 @@ setNamespace
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -185,7 +188,7 @@ getNamespace
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -201,7 +204,7 @@ setDescription
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -213,7 +216,7 @@ getDescription
 
 
 getPrototypes
--------------
++++++++++++++
 
 .. function:: getPrototypes()
 
@@ -226,7 +229,7 @@ getPrototypes
 
 
 getInvokeArguments
-------------------
+++++++++++++++++++
 
 .. function:: getInvokeArguments()
 
@@ -238,7 +241,7 @@ getInvokeArguments
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 

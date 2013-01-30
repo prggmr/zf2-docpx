@@ -1,14 +1,17 @@
-.. Validator/Isbn.php generated using docpx on 01/30/13 03:32am
+.. Validator/Isbn.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Isbn
 =====================
 
 Methods
-+++++++
+-------
 
 detectFormat
-------------
+++++++++++++
 
 .. function:: detectFormat()
 
@@ -20,7 +23,7 @@ detectFormat
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -34,7 +37,7 @@ isValid
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -52,7 +55,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -64,7 +67,7 @@ getSeparator
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -80,7 +83,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -94,20 +97,20 @@ getType
 
 
 Constants
-+++++++++
+---------
 
 AUTO
-====
+++++
 
 ISBN10
-======
+++++++
 
 ISBN13
-======
+++++++
 
 INVALID
-=======
++++++++
 
 NO_ISBN
-=======
++++++++
 

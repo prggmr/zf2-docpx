@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/AnyType.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/AnyType.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\AnyType
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\AnyType
 Zend_Soap_Wsdl_Strategy_AnyType
 
 Methods
-+++++++
+-------
 
 setContext
-----------
+++++++++++
 
 .. function:: setContext()
 
@@ -22,7 +25,7 @@ setContext
 
 
 addComplexType
---------------
+++++++++++++++
 
 .. function:: addComplexType()
 

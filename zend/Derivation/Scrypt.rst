@@ -1,5 +1,8 @@
-.. Crypt/Key/Derivation/Scrypt.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Key/Derivation/Scrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Key\\Derivation\\Scrypt
 ====================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Key\\Derivation\\Scrypt
 Scrypt key derivation function
 
 Methods
-+++++++
+-------
 
 calc
-----
+++++
 
 .. function:: calc()
 
@@ -29,7 +32,7 @@ calc
 
 
 scryptROMix
------------
++++++++++++
 
 .. function:: scryptROMix()
 
@@ -47,7 +50,7 @@ scryptROMix
 
 
 scryptBlockMix
---------------
+++++++++++++++
 
 .. function:: scryptBlockMix()
 
@@ -64,7 +67,7 @@ scryptBlockMix
 
 
 salsa208Core32
---------------
+++++++++++++++
 
 .. function:: salsa208Core32()
 
@@ -81,7 +84,7 @@ salsa208Core32
 
 
 salsa208Core64
---------------
+++++++++++++++
 
 .. function:: salsa208Core64()
 
@@ -98,7 +101,7 @@ salsa208Core64
 
 
 integerify
-----------
+++++++++++
 
 .. function:: integerify()
 
@@ -118,7 +121,7 @@ integerify
 
 
 hex2bin
--------
++++++++
 
 .. function:: hex2bin()
 

@@ -1,5 +1,8 @@
-.. Db/Adapter/Adapter.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Adapter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Adapter
 ==========================
@@ -7,10 +10,10 @@ Zend\\Db\\Adapter\\Adapter
 @property Driver\DriverInterface $driver
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -38,7 +41,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -48,7 +51,7 @@ getProfiler
 
 
 getDriver
----------
++++++++++
 
 .. function:: getDriver()
 
@@ -61,7 +64,7 @@ getDriver
 
 
 getPlatform
------------
++++++++++++
 
 .. function:: getPlatform()
 
@@ -71,7 +74,7 @@ getPlatform
 
 
 getQueryResultSetPrototype
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getQueryResultSetPrototype()
 
@@ -81,14 +84,14 @@ getQueryResultSetPrototype
 
 
 getCurrentSchema
-----------------
+++++++++++++++++
 
 .. function:: getCurrentSchema()
 
 
 
 query
------
++++++
 
 .. function:: query()
 
@@ -105,7 +108,7 @@ query
 
 
 createStatement
----------------
++++++++++++++++
 
 .. function:: createStatement()
 
@@ -120,14 +123,14 @@ createStatement
 
 
 getHelpers
-----------
+++++++++++
 
 .. function:: getHelpers()
 
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -140,7 +143,7 @@ __get
 
 
 createDriver
-------------
+++++++++++++
 
 .. function:: createDriver()
 
@@ -155,7 +158,7 @@ createDriver
 
 
 createPlatform
---------------
+++++++++++++++
 
 .. function:: createPlatform()
 
@@ -167,14 +170,14 @@ createPlatform
 
 
 createProfiler
---------------
+++++++++++++++
 
 .. function:: createProfiler()
 
 
 
 createDriverFromParameters
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: createDriverFromParameters()
 
@@ -191,7 +194,7 @@ createDriverFromParameters
 
 
 createPlatformFromDriver
-------------------------
+++++++++++++++++++++++++
 
 .. function:: createPlatformFromDriver()
 
@@ -207,33 +210,33 @@ createPlatformFromDriver
 
 
 Constants
-+++++++++
+---------
 
 QUERY_MODE_EXECUTE
-==================
+++++++++++++++++++
 
 Query Mode Constants
 
 QUERY_MODE_PREPARE
-==================
+++++++++++++++++++
 
 PREPARE_TYPE_POSITIONAL
-=======================
++++++++++++++++++++++++
 
 Prepare Type Constants
 
 PREPARE_TYPE_NAMED
-==================
+++++++++++++++++++
 
 FUNCTION_FORMAT_PARAMETER_NAME
-==============================
+++++++++++++++++++++++++++++++
 
 FUNCTION_QUOTE_IDENTIFIER
-=========================
++++++++++++++++++++++++++
 
 FUNCTION_QUOTE_VALUE
-====================
+++++++++++++++++++++
 
 VALUE_QUOTE_SEPARATOR
-=====================
++++++++++++++++++++++
 

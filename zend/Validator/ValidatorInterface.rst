@@ -1,5 +1,8 @@
-.. Validator/ValidatorInterface.php generated using docpx on 01/30/13 03:32am
+.. Validator/ValidatorInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Validator\\isValid
 ========================
@@ -20,6 +23,9 @@ Zend\\Validator\\isValid
     :throws: Exception\RuntimeException If validation of $value is impossible
 
 
+
+Function
+********
 
 Zend\\Validator\\getMessages
 ============================

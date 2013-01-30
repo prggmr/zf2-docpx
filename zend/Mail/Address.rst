@@ -1,14 +1,17 @@
-.. Mail/Address.php generated using docpx on 01/30/13 03:32am
+.. Mail/Address.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Address
 ===================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getEmail
---------
+++++++++
 
 .. function:: getEmail()
 
@@ -37,7 +40,7 @@ getEmail
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -49,7 +52,7 @@ getName
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

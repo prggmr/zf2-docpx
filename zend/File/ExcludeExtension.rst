@@ -1,5 +1,8 @@
-.. Validator/File/ExcludeExtension.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/ExcludeExtension.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\ExcludeExtension
 =======================================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\ExcludeExtension
 Validator for the excluding file extensions
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -27,13 +30,13 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 FALSE_EXTENSION
-===============
++++++++++++++++
 
 @const string Error constants
 
 NOT_FOUND
-=========
++++++++++
 

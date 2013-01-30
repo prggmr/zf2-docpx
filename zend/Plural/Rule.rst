@@ -1,5 +1,8 @@
-.. I18n/Translator/Plural/Rule.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Plural/Rule.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Plural\\Rule
 ====================================
@@ -7,10 +10,10 @@ Zend\\I18n\\Translator\\Plural\\Rule
 Plural rule evaluator.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 evaluate
---------
+++++++++
 
 .. function:: evaluate()
 
@@ -41,7 +44,7 @@ evaluate
 
 
 evaluateAstPart
----------------
++++++++++++++++
 
 .. function:: evaluateAstPart()
 
@@ -58,7 +61,7 @@ evaluateAstPart
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -74,7 +77,7 @@ fromString
 
 
 createAst
----------
++++++++++
 
 .. function:: createAst()
 

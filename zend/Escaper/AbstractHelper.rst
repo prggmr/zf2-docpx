@@ -1,5 +1,8 @@
-.. View/Helper/Escaper/AbstractHelper.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Escaper/AbstractHelper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Escaper\\AbstractHelper
 ===========================================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Escaper\\AbstractHelper
 Helper for escaping values
 
 Methods
-+++++++
+-------
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -20,14 +23,14 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -43,7 +46,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -55,7 +58,7 @@ getEncoding
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -72,7 +75,7 @@ __invoke
 
 
 escape
-------
+++++++
 
 .. function:: escape()
 
@@ -88,14 +91,14 @@ escape
 
 
 Constants
-+++++++++
+---------
 
 RECURSE_NONE
-============
+++++++++++++
 
 RECURSE_ARRAY
-=============
++++++++++++++
 
 RECURSE_OBJECT
-==============
+++++++++++++++
 

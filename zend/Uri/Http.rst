@@ -1,5 +1,8 @@
-.. Uri/Http.php generated using docpx on 01/30/13 03:32am
+.. Uri/Http.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Uri\\Http
 ===============
@@ -7,10 +10,10 @@ Zend\\Uri\\Http
 HTTP URI handler
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -27,7 +30,7 @@ isValid
 
 
 getUser
--------
++++++++
 
 .. function:: getUser()
 
@@ -39,7 +42,7 @@ getUser
 
 
 getPassword
------------
++++++++++++
 
 .. function:: getPassword()
 
@@ -51,7 +54,7 @@ getPassword
 
 
 setUser
--------
++++++++
 
 .. function:: setUser()
 
@@ -65,7 +68,7 @@ setUser
 
 
 setPassword
------------
++++++++++++
 
 .. function:: setPassword()
 
@@ -79,7 +82,7 @@ setPassword
 
 
 validateHost
-------------
+++++++++++++
 
 .. function:: validateHost()
 
@@ -97,7 +100,7 @@ validateHost
 
 
 parseUserInfo
--------------
++++++++++++++
 
 .. function:: parseUserInfo()
 
@@ -112,7 +115,7 @@ parseUserInfo
 
 
 getPort
--------
++++++++
 
 .. function:: getPort()
 
@@ -128,7 +131,7 @@ getPort
 
 
 parse
------
++++++
 
 .. function:: parse()
 

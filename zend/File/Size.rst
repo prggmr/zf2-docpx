@@ -1,5 +1,8 @@
-.. Validator/File/Size.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Size.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Size
 ===========================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Size
 Validator for the maximum size of a file up to a max of 2GB
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 useByteString
--------------
++++++++++++++
 
 .. function:: useByteString()
 
@@ -42,7 +45,7 @@ useByteString
 
 
 getByteString
--------------
++++++++++++++
 
 .. function:: getByteString()
 
@@ -54,7 +57,7 @@ getByteString
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -68,7 +71,7 @@ getMin
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -88,7 +91,7 @@ setMin
 
 
 getMax
-------
+++++++
 
 .. function:: getMax()
 
@@ -102,7 +105,7 @@ getMax
 
 
 setMax
-------
+++++++
 
 .. function:: setMax()
 
@@ -122,7 +125,7 @@ setMax
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -134,7 +137,7 @@ getSize
 
 
 setSize
--------
++++++++
 
 .. function:: setSize()
 
@@ -148,7 +151,7 @@ setSize
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -163,7 +166,7 @@ isValid
 
 
 toByteString
-------------
+++++++++++++
 
 .. function:: toByteString()
 
@@ -177,7 +180,7 @@ toByteString
 
 
 fromByteString
---------------
+++++++++++++++
 
 .. function:: fromByteString()
 
@@ -193,16 +196,16 @@ fromByteString
 
 
 Constants
-+++++++++
+---------
 
 TOO_BIG
-=======
++++++++
 
 @const string Error constants
 
 TOO_SMALL
-=========
++++++++++
 
 NOT_FOUND
-=========
++++++++++
 

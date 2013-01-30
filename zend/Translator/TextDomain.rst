@@ -1,5 +1,8 @@
-.. I18n/Translator/TextDomain.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/TextDomain.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\TextDomain
 ==================================
@@ -7,10 +10,10 @@ Zend\\I18n\\Translator\\TextDomain
 Text domain.
 
 Methods
-+++++++
+-------
 
 setPluralRule
--------------
++++++++++++++
 
 .. function:: setPluralRule()
 
@@ -24,7 +27,7 @@ setPluralRule
 
 
 getPluralRule
--------------
++++++++++++++
 
 .. function:: getPluralRule()
 

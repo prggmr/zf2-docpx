@@ -1,14 +1,17 @@
-.. Serializer/Adapter/Json.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/Json.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Adapter\\Json
 ===============================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -22,7 +25,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -34,7 +37,7 @@ getOptions
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -51,7 +54,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 

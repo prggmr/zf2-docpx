@@ -1,5 +1,8 @@
-.. Di/Definition/CompilerDefinition.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/CompilerDefinition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\CompilerDefinition
 ========================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\CompilerDefinition
 Class definitions based on a set of directories to be scanned
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setIntrospectionStrategy
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setIntrospectionStrategy()
 
@@ -34,7 +37,7 @@ setIntrospectionStrategy
 
 
 setAllowReflectionExceptions
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: setAllowReflectionExceptions()
 
@@ -44,7 +47,7 @@ setAllowReflectionExceptions
 
 
 getIntrospectionStrategy
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getIntrospectionStrategy()
 
@@ -56,7 +59,7 @@ getIntrospectionStrategy
 
 
 addDirectory
-------------
+++++++++++++
 
 .. function:: addDirectory()
 
@@ -68,7 +71,7 @@ addDirectory
 
 
 addDirectoryScanner
--------------------
++++++++++++++++++++
 
 .. function:: addDirectoryScanner()
 
@@ -80,7 +83,7 @@ addDirectoryScanner
 
 
 addCodeScannerFile
-------------------
+++++++++++++++++++
 
 .. function:: addCodeScannerFile()
 
@@ -92,7 +95,7 @@ addCodeScannerFile
 
 
 compile
--------
++++++++
 
 .. function:: compile()
 
@@ -104,7 +107,7 @@ compile
 
 
 toArrayDefinition
------------------
++++++++++++++++++
 
 .. function:: toArrayDefinition()
 
@@ -114,7 +117,7 @@ toArrayDefinition
 
 
 processClass
-------------
+++++++++++++
 
 .. function:: processClass()
 
@@ -125,7 +128,7 @@ processClass
 
 
 processParams
--------------
++++++++++++++
 
 .. function:: processParams()
 
@@ -138,7 +141,7 @@ processParams
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -148,7 +151,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -158,7 +161,7 @@ hasClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -168,7 +171,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -178,7 +181,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -188,7 +191,7 @@ hasMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -198,7 +201,7 @@ hasMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -208,7 +211,7 @@ getMethods
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -218,7 +221,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 

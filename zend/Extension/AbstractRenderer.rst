@@ -1,5 +1,8 @@
-.. Feed/Writer/Extension/AbstractRenderer.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Extension/AbstractRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Extension\\AbstractRenderer
 ===============================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Extension\\AbstractRenderer
 
 
 Methods
-+++++++
+-------
 
 setDataContainer
-----------------
+++++++++++++++++
 
 .. function:: setDataContainer()
 
@@ -24,7 +27,7 @@ setDataContainer
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -38,7 +41,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -50,7 +53,7 @@ getEncoding
 
 
 setDomDocument
---------------
+++++++++++++++
 
 .. function:: setDomDocument()
 
@@ -65,7 +68,7 @@ setDomDocument
 
 
 getDataContainer
-----------------
+++++++++++++++++
 
 .. function:: getDataContainer()
 
@@ -77,7 +80,7 @@ getDataContainer
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -91,7 +94,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -103,7 +106,7 @@ getType
 
 
 setRootElement
---------------
+++++++++++++++
 
 .. function:: setRootElement()
 
@@ -117,7 +120,7 @@ setRootElement
 
 
 getRootElement
---------------
+++++++++++++++
 
 .. function:: getRootElement()
 
@@ -129,7 +132,7 @@ getRootElement
 
 
 _appendNamespaces
------------------
++++++++++++++++++
 
 .. function:: _appendNamespaces()
 

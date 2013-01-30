@@ -1,5 +1,8 @@
-.. Http/ClientStatic.php generated using docpx on 01/30/13 03:32am
+.. Http/ClientStatic.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\ClientStatic
 ========================
@@ -7,10 +10,10 @@ Zend\\Http\\ClientStatic
 Http static client
 
 Methods
-+++++++
+-------
 
 getStaticClient
----------------
++++++++++++++++
 
 .. function:: getStaticClient()
 
@@ -22,7 +25,7 @@ getStaticClient
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -39,7 +42,7 @@ get
 
 
 post
-----
+++++
 
 .. function:: post()
 

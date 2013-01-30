@@ -1,5 +1,8 @@
-.. Mvc/DispatchListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/DispatchListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\DispatchListener
 ===========================
@@ -26,10 +29,10 @@ The return value of dispatching the controller is placed into the result
 property of the MvcEvent, and returned.
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -43,7 +46,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -57,7 +60,7 @@ detach
 
 
 onDispatch
-----------
+++++++++++
 
 .. function:: onDispatch()
 
@@ -71,7 +74,7 @@ onDispatch
 
 
 reportMonitorEvent
-------------------
+++++++++++++++++++
 
 .. function:: reportMonitorEvent()
 
@@ -81,7 +84,7 @@ reportMonitorEvent
 
 
 complete
---------
+++++++++
 
 .. function:: complete()
 
@@ -96,7 +99,7 @@ complete
 
 
 marshallControllerNotFoundEvent
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: marshallControllerNotFoundEvent()
 
@@ -114,7 +117,7 @@ marshallControllerNotFoundEvent
 
 
 marshallBadControllerEvent
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: marshallBadControllerEvent()
 

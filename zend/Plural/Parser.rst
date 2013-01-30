@@ -1,5 +1,8 @@
-.. I18n/Translator/Plural/Parser.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Plural/Parser.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Plural\\Parser
 ======================================
@@ -10,10 +13,10 @@ This plural rule parser is implemented after the article "Top Down Operator
 Precedence" described in <http://javascript.crockford.com/tdop/tdop.html>.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 populateSymbolTable
--------------------
++++++++++++++++++++
 
 .. function:: populateSymbolTable()
 
@@ -35,35 +38,35 @@ populateSymbolTable
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 registerLeftInfixSymbol
------------------------
++++++++++++++++++++++++
 
 .. function:: registerLeftInfixSymbol()
 
@@ -78,14 +81,14 @@ registerLeftInfixSymbol
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 registerRightInfixSymbol
-------------------------
+++++++++++++++++++++++++
 
 .. function:: registerRightInfixSymbol()
 
@@ -100,14 +103,14 @@ registerRightInfixSymbol
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 registerPrefixSymbol
---------------------
+++++++++++++++++++++
 
 .. function:: registerPrefixSymbol()
 
@@ -122,14 +125,14 @@ registerPrefixSymbol
 
 
 Symbol
-------
+++++++
 
 .. function:: Symbol()
 
 
 
 registerSymbol
---------------
+++++++++++++++
 
 .. function:: registerSymbol()
 
@@ -144,7 +147,7 @@ registerSymbol
 
 
 getSymbol
----------
++++++++++
 
 .. function:: getSymbol()
 
@@ -156,7 +159,7 @@ getSymbol
 
 
 parse
------
++++++
 
 .. function:: parse()
 
@@ -170,7 +173,7 @@ parse
 
 
 expression
-----------
+++++++++++
 
 .. function:: expression()
 
@@ -184,7 +187,7 @@ expression
 
 
 advance
--------
++++++++
 
 .. function:: advance()
 
@@ -200,7 +203,7 @@ advance
 
 
 getNextToken
-------------
+++++++++++++
 
 .. function:: getNextToken()
 

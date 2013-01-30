@@ -1,5 +1,8 @@
-.. XmlRpc/Generator/DomDocument.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Generator/DomDocument.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Generator\\DomDocument
 ====================================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Generator\\DomDocument
 DOMDocument based implementation of a XML/RPC generator
 
 Methods
-+++++++
+-------
 
 _openElement
-------------
+++++++++++++
 
 .. function:: _openElement()
 
@@ -24,7 +27,7 @@ _openElement
 
 
 _writeTextData
---------------
+++++++++++++++
 
 .. function:: _writeTextData()
 
@@ -36,7 +39,7 @@ _writeTextData
 
 
 _closeElement
--------------
++++++++++++++
 
 .. function:: _closeElement()
 
@@ -52,7 +55,7 @@ _closeElement
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -64,7 +67,7 @@ saveXml
 
 
 _init
------
++++++
 
 .. function:: _init()
 

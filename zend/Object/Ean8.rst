@@ -1,5 +1,8 @@
-.. Barcode/Object/Ean8.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Ean8.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Ean8
 ===========================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Ean8
 Class for generate Ean8 barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -34,7 +37,7 @@ calculateBarcodeWidth
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -46,7 +49,7 @@ prepareBarcode
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 
@@ -58,7 +61,7 @@ drawText
 
 
 validateSpecificText
---------------------
+++++++++++++++++++++
 
 .. function:: validateSpecificText()
 

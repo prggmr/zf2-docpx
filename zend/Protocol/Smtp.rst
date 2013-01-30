@@ -1,5 +1,8 @@
-.. Mail/Protocol/Smtp.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/Smtp.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\Smtp
 ==========================
@@ -9,10 +12,10 @@ SMTP implementation of Zend\Mail\Protocol\AbstractProtocol
 Minimum implementation according to RFC2821: EHLO, MAIL FROM, RCPT TO, DATA, RSET, NOOP, QUIT
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -32,7 +35,7 @@ __construct
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -44,7 +47,7 @@ connect
 
 
 helo
-----
+++++
 
 .. function:: helo()
 
@@ -58,7 +61,7 @@ helo
 
 
 hasSession
-----------
+++++++++++
 
 .. function:: hasSession()
 
@@ -70,7 +73,7 @@ hasSession
 
 
 _ehlo
------
++++++
 
 .. function:: _ehlo()
 
@@ -84,7 +87,7 @@ _ehlo
 
 
 mail
-----
+++++
 
 .. function:: mail()
 
@@ -98,7 +101,7 @@ mail
 
 
 rcpt
-----
+++++
 
 .. function:: rcpt()
 
@@ -112,7 +115,7 @@ rcpt
 
 
 data
-----
+++++
 
 .. function:: data()
 
@@ -126,7 +129,7 @@ data
 
 
 rset
-----
+++++
 
 .. function:: rset()
 
@@ -138,7 +141,7 @@ rset
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -150,7 +153,7 @@ noop
 
 
 vrfy
-----
+++++
 
 .. function:: vrfy()
 
@@ -164,7 +167,7 @@ vrfy
 
 
 quit
-----
+++++
 
 .. function:: quit()
 
@@ -174,7 +177,7 @@ quit
 
 
 auth
-----
+++++
 
 .. function:: auth()
 
@@ -187,7 +190,7 @@ auth
 
 
 disconnect
-----------
+++++++++++
 
 .. function:: disconnect()
 
@@ -197,7 +200,7 @@ disconnect
 
 
 _startSession
--------------
++++++++++++++
 
 .. function:: _startSession()
 
@@ -207,7 +210,7 @@ _startSession
 
 
 _stopSession
-------------
+++++++++++++
 
 .. function:: _stopSession()
 

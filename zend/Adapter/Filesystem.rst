@@ -1,14 +1,17 @@
-.. Cache/Storage/Adapter/Filesystem.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/Filesystem.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\Filesystem
 =========================================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -38,7 +41,7 @@ getOptions
 
 
 flush
------
++++++
 
 .. function:: flush()
 
@@ -51,7 +54,7 @@ flush
 
 
 clearExpired
-------------
+++++++++++++
 
 .. function:: clearExpired()
 
@@ -63,7 +66,7 @@ clearExpired
 
 
 clearByNamespace
-----------------
+++++++++++++++++
 
 .. function:: clearByNamespace()
 
@@ -79,7 +82,7 @@ clearByNamespace
 
 
 clearByPrefix
--------------
++++++++++++++
 
 .. function:: clearByPrefix()
 
@@ -95,7 +98,7 @@ clearByPrefix
 
 
 setTags
--------
++++++++
 
 .. function:: setTags()
 
@@ -111,7 +114,7 @@ setTags
 
 
 getTags
--------
++++++++
 
 .. function:: getTags()
 
@@ -125,7 +128,7 @@ getTags
 
 
 clearByTags
------------
++++++++++++
 
 .. function:: clearByTags()
 
@@ -143,7 +146,7 @@ clearByTags
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -155,7 +158,7 @@ getIterator
 
 
 optimize
---------
+++++++++
 
 .. function:: optimize()
 
@@ -168,7 +171,7 @@ optimize
 
 
 getTotalSpace
--------------
++++++++++++++
 
 .. function:: getTotalSpace()
 
@@ -181,7 +184,7 @@ getTotalSpace
 
 
 getAvailableSpace
------------------
++++++++++++++++++
 
 .. function:: getAvailableSpace()
 
@@ -194,7 +197,7 @@ getAvailableSpace
 
 
 getItem
--------
++++++++
 
 .. function:: getItem()
 
@@ -214,7 +217,7 @@ getItem
 
 
 getItems
---------
+++++++++
 
 .. function:: getItems()
 
@@ -232,7 +235,7 @@ getItems
 
 
 internalGetItem
----------------
++++++++++++++++
 
 .. function:: internalGetItem()
 
@@ -250,7 +253,7 @@ internalGetItem
 
 
 internalGetItems
-----------------
+++++++++++++++++
 
 .. function:: internalGetItems()
 
@@ -266,7 +269,7 @@ internalGetItems
 
 
 hasItem
--------
++++++++
 
 .. function:: hasItem()
 
@@ -284,7 +287,7 @@ hasItem
 
 
 hasItems
---------
+++++++++
 
 .. function:: hasItems()
 
@@ -302,7 +305,7 @@ hasItems
 
 
 internalHasItem
----------------
++++++++++++++++
 
 .. function:: internalHasItem()
 
@@ -318,7 +321,7 @@ internalHasItem
 
 
 getMetadata
------------
++++++++++++
 
 .. function:: getMetadata()
 
@@ -332,7 +335,7 @@ getMetadata
 
 
 getMetadatas
-------------
+++++++++++++
 
 .. function:: getMetadatas()
 
@@ -347,7 +350,7 @@ getMetadatas
 
 
 internalGetMetadata
--------------------
++++++++++++++++++++
 
 .. function:: internalGetMetadata()
 
@@ -361,7 +364,7 @@ internalGetMetadata
 
 
 internalGetMetadatas
---------------------
+++++++++++++++++++++
 
 .. function:: internalGetMetadatas()
 
@@ -377,7 +380,7 @@ internalGetMetadatas
 
 
 setItem
--------
++++++++
 
 .. function:: setItem()
 
@@ -396,7 +399,7 @@ setItem
 
 
 setItems
---------
+++++++++
 
 .. function:: setItems()
 
@@ -414,7 +417,7 @@ setItems
 
 
 addItem
--------
++++++++
 
 .. function:: addItem()
 
@@ -433,7 +436,7 @@ addItem
 
 
 addItems
---------
+++++++++
 
 .. function:: addItems()
 
@@ -451,7 +454,7 @@ addItems
 
 
 replaceItem
------------
++++++++++++
 
 .. function:: replaceItem()
 
@@ -470,7 +473,7 @@ replaceItem
 
 
 replaceItems
-------------
+++++++++++++
 
 .. function:: replaceItems()
 
@@ -488,7 +491,7 @@ replaceItems
 
 
 internalSetItem
----------------
++++++++++++++++
 
 .. function:: internalSetItem()
 
@@ -505,7 +508,7 @@ internalSetItem
 
 
 internalSetItems
-----------------
+++++++++++++++++
 
 .. function:: internalSetItems()
 
@@ -521,7 +524,7 @@ internalSetItems
 
 
 checkAndSetItem
----------------
++++++++++++++++
 
 .. function:: checkAndSetItem()
 
@@ -545,7 +548,7 @@ checkAndSetItem
 
 
 internalCheckAndSetItem
------------------------
++++++++++++++++++++++++
 
 .. function:: internalCheckAndSetItem()
 
@@ -566,7 +569,7 @@ internalCheckAndSetItem
 
 
 touchItem
----------
++++++++++
 
 .. function:: touchItem()
 
@@ -584,7 +587,7 @@ touchItem
 
 
 touchItems
-----------
+++++++++++
 
 .. function:: touchItems()
 
@@ -602,7 +605,7 @@ touchItems
 
 
 internalTouchItem
------------------
++++++++++++++++++
 
 .. function:: internalTouchItem()
 
@@ -618,7 +621,7 @@ internalTouchItem
 
 
 removeItem
-----------
+++++++++++
 
 .. function:: removeItem()
 
@@ -636,7 +639,7 @@ removeItem
 
 
 removeItems
------------
++++++++++++
 
 .. function:: removeItems()
 
@@ -654,7 +657,7 @@ removeItems
 
 
 internalRemoveItem
-------------------
+++++++++++++++++++
 
 .. function:: internalRemoveItem()
 
@@ -670,7 +673,7 @@ internalRemoveItem
 
 
 internalGetCapabilities
------------------------
++++++++++++++++++++++++
 
 .. function:: internalGetCapabilities()
 
@@ -682,7 +685,7 @@ internalGetCapabilities
 
 
 rmDir
------
++++++
 
 .. function:: rmDir()
 
@@ -697,7 +700,7 @@ rmDir
 
 
 getFileSpec
------------
++++++++++++
 
 .. function:: getFileSpec()
 
@@ -711,7 +714,7 @@ getFileSpec
 
 
 readInfoFile
-------------
+++++++++++++
 
 .. function:: readInfoFile()
 
@@ -729,7 +732,7 @@ readInfoFile
 
 
 getFileContent
---------------
+++++++++++++++
 
 .. function:: getFileContent()
 
@@ -747,7 +750,7 @@ getFileContent
 
 
 prepareDirectoryStructure
--------------------------
++++++++++++++++++++++++++
 
 .. function:: prepareDirectoryStructure()
 
@@ -764,7 +767,7 @@ prepareDirectoryStructure
 
 
 putFileContent
---------------
+++++++++++++++
 
 .. function:: putFileContent()
 
@@ -783,7 +786,7 @@ putFileContent
 
 
 unlink
-------
+++++++
 
 .. function:: unlink()
 

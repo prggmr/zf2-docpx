@@ -1,5 +1,8 @@
-.. Stdlib/StringWrapper/StringWrapperInterface.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/StringWrapper/StringWrapperInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\isSupported
 ========================================
@@ -15,6 +18,9 @@ Zend\\Stdlib\\StringWrapper\\isSupported
 
 
 
+Function
+********
+
 Zend\\Stdlib\\StringWrapper\\getSupportedEncodings
 ==================================================
 
@@ -26,6 +32,9 @@ Zend\\Stdlib\\StringWrapper\\getSupportedEncodings
     :rtype: string[] 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\setEncoding
 ========================================
@@ -42,6 +51,9 @@ Zend\\Stdlib\\StringWrapper\\setEncoding
 
 
 
+Function
+********
+
 Zend\\Stdlib\\StringWrapper\\getEncoding
 ========================================
 
@@ -54,6 +66,9 @@ Zend\\Stdlib\\StringWrapper\\getEncoding
 
 
 
+Function
+********
+
 Zend\\Stdlib\\StringWrapper\\getConvertEncoding
 ===============================================
 
@@ -65,6 +80,9 @@ Zend\\Stdlib\\StringWrapper\\getConvertEncoding
     :rtype: string|null 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\strlen
 ===================================
@@ -79,6 +97,9 @@ Zend\\Stdlib\\StringWrapper\\strlen
     :rtype: int|false 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\substr
 ===================================
@@ -97,6 +118,9 @@ Zend\\Stdlib\\StringWrapper\\substr
 
 
 
+Function
+********
+
 Zend\\Stdlib\\StringWrapper\\strpos
 ===================================
 
@@ -114,6 +138,9 @@ Zend\\Stdlib\\StringWrapper\\strpos
 
 
 
+Function
+********
+
 Zend\\Stdlib\\StringWrapper\\convert
 ====================================
 
@@ -128,6 +155,9 @@ Zend\\Stdlib\\StringWrapper\\convert
     :rtype: string|false 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\wordWrap
 =====================================
@@ -145,6 +175,9 @@ Zend\\Stdlib\\StringWrapper\\wordWrap
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Stdlib\\StringWrapper\\strPad
 ===================================

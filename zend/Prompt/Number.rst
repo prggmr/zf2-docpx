@@ -1,14 +1,17 @@
-.. Console/Prompt/Number.php generated using docpx on 01/30/13 03:32am
+.. Console/Prompt/Number.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Prompt\\Number
 =============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 show
-----
+++++
 
 .. function:: show()
 
@@ -36,7 +39,7 @@ show
 
 
 setAllowEmpty
--------------
++++++++++++++
 
 .. function:: setAllowEmpty()
 
@@ -46,7 +49,7 @@ setAllowEmpty
 
 
 getAllowEmpty
--------------
++++++++++++++
 
 .. function:: getAllowEmpty()
 
@@ -56,7 +59,7 @@ getAllowEmpty
 
 
 setMaxLength
-------------
+++++++++++++
 
 .. function:: setMaxLength()
 
@@ -66,7 +69,7 @@ setMaxLength
 
 
 getMaxLength
-------------
+++++++++++++
 
 .. function:: getMaxLength()
 
@@ -76,7 +79,7 @@ getMaxLength
 
 
 setPromptText
--------------
++++++++++++++
 
 .. function:: setPromptText()
 
@@ -86,7 +89,7 @@ setPromptText
 
 
 getPromptText
--------------
++++++++++++++
 
 .. function:: getPromptText()
 
@@ -96,7 +99,7 @@ getPromptText
 
 
 setMax
-------
+++++++
 
 .. function:: setMax()
 
@@ -106,7 +109,7 @@ setMax
 
 
 getMax
-------
+++++++
 
 .. function:: getMax()
 
@@ -116,7 +119,7 @@ getMax
 
 
 setMin
-------
+++++++
 
 .. function:: setMin()
 
@@ -126,7 +129,7 @@ setMin
 
 
 getMin
-------
+++++++
 
 .. function:: getMin()
 
@@ -136,7 +139,7 @@ getMin
 
 
 setAllowFloat
--------------
++++++++++++++
 
 .. function:: setAllowFloat()
 
@@ -146,7 +149,7 @@ setAllowFloat
 
 
 getAllowFloat
--------------
++++++++++++++
 
 .. function:: getAllowFloat()
 

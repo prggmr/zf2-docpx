@@ -1,5 +1,8 @@
-.. File/Transfer/Transfer.php generated using docpx on 01/30/13 03:32am
+.. File/Transfer/Transfer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\File\\Transfer\\Transfer
 ==============================
@@ -7,10 +10,10 @@ Zend\\File\\Transfer\\Transfer
 Base class for all protocols supporting file transfers
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -44,7 +47,7 @@ setAdapter
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -60,7 +63,7 @@ getAdapter
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 

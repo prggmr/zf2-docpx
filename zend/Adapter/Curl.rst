@@ -1,5 +1,8 @@
-.. Http/Client/Adapter/Curl.php generated using docpx on 01/30/13 03:32am
+.. Http/Client/Adapter/Curl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Client\\Adapter\\Curl
 =================================
@@ -8,10 +11,10 @@ An adapter class for Zend\Http\Client based on the curl extension.
 Curl requires libcurl. See for full requirements the PHP manual: http://php.net/curl
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -40,7 +43,7 @@ setOptions
 
 
 getConfig
----------
++++++++++
 
 .. function:: getConfig()
 
@@ -52,7 +55,7 @@ getConfig
 
 
 setCurlOption
--------------
++++++++++++++
 
 .. function:: setCurlOption()
 
@@ -67,7 +70,7 @@ setCurlOption
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -85,7 +88,7 @@ connect
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -106,7 +109,7 @@ write
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -118,7 +121,7 @@ read
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -128,7 +131,7 @@ close
 
 
 getHandle
----------
++++++++++
 
 .. function:: getHandle()
 
@@ -140,7 +143,7 @@ getHandle
 
 
 setOutputStream
----------------
++++++++++++++++
 
 .. function:: setOutputStream()
 
@@ -154,7 +157,7 @@ setOutputStream
 
 
 readHeader
-----------
+++++++++++
 
 .. function:: readHeader()
 

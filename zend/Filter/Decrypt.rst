@@ -1,5 +1,8 @@
-.. Filter/Decrypt.php generated using docpx on 01/30/13 03:32am
+.. Filter/Decrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Decrypt
 =====================
@@ -7,10 +10,10 @@ Zend\\Filter\\Decrypt
 Decrypts a given string
 
 Methods
-+++++++
+-------
 
 filter
-------
+++++++
 
 .. function:: filter()
 

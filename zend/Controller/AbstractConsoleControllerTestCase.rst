@@ -1,14 +1,17 @@
-.. Test/PHPUnit/Controller/AbstractConsoleControllerTestCase.php generated using docpx on 01/30/13 03:32am
+.. Test/PHPUnit/Controller/AbstractConsoleControllerTestCase.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Test\\PHPUnit\\Controller\\AbstractConsoleControllerTestCase
 ==================================================================
 
 Methods
-+++++++
+-------
 
 assertConsoleOutputContains
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: assertConsoleOutputContains()
 
@@ -22,7 +25,7 @@ assertConsoleOutputContains
 
 
 assertNotConsoleOutputContains
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: assertNotConsoleOutputContains()
 

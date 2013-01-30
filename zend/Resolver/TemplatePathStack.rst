@@ -1,5 +1,8 @@
-.. View/Resolver/TemplatePathStack.php generated using docpx on 01/30/13 03:32am
+.. View/Resolver/TemplatePathStack.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Resolver\\TemplatePathStack
 =======================================
@@ -7,10 +10,10 @@ Zend\\View\\Resolver\\TemplatePathStack
 Resolves view scripts based on a stack of paths
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 setDefaultSuffix
-----------------
+++++++++++++++++
 
 .. function:: setDefaultSuffix()
 
@@ -52,7 +55,7 @@ setDefaultSuffix
 
 
 getDefaultSuffix
-----------------
+++++++++++++++++
 
 .. function:: getDefaultSuffix()
 
@@ -64,7 +67,7 @@ getDefaultSuffix
 
 
 addPaths
---------
+++++++++
 
 .. function:: addPaths()
 
@@ -78,7 +81,7 @@ addPaths
 
 
 setPaths
---------
+++++++++
 
 .. function:: setPaths()
 
@@ -94,7 +97,7 @@ setPaths
 
 
 normalizePath
--------------
++++++++++++++
 
 .. function:: normalizePath()
 
@@ -108,7 +111,7 @@ normalizePath
 
 
 addPath
--------
++++++++
 
 .. function:: addPath()
 
@@ -124,7 +127,7 @@ addPath
 
 
 clearPaths
-----------
+++++++++++
 
 .. function:: clearPaths()
 
@@ -136,7 +139,7 @@ clearPaths
 
 
 getPaths
---------
+++++++++
 
 .. function:: getPaths()
 
@@ -148,7 +151,7 @@ getPaths
 
 
 setLfiProtection
-----------------
+++++++++++++++++
 
 .. function:: setLfiProtection()
 
@@ -162,7 +165,7 @@ setLfiProtection
 
 
 isLfiProtectionOn
------------------
++++++++++++++++++
 
 .. function:: isLfiProtectionOn()
 
@@ -174,7 +177,7 @@ isLfiProtectionOn
 
 
 setUseStreamWrapper
--------------------
++++++++++++++++++++
 
 .. function:: setUseStreamWrapper()
 
@@ -188,7 +191,7 @@ setUseStreamWrapper
 
 
 useStreamWrapper
-----------------
+++++++++++++++++
 
 .. function:: useStreamWrapper()
 
@@ -203,7 +206,7 @@ useStreamWrapper
 
 
 resolve
--------
++++++++
 
 .. function:: resolve()
 
@@ -220,7 +223,7 @@ resolve
 
 
 getLastLookupFailure
---------------------
+++++++++++++++++++++
 
 .. function:: getLastLookupFailure()
 
@@ -234,11 +237,11 @@ getLastLookupFailure
 
 
 Constants
-+++++++++
+---------
 
 FAILURE_NO_PATHS
-================
+++++++++++++++++
 
 FAILURE_NOT_FOUND
-=================
++++++++++++++++++
 

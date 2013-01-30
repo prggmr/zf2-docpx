@@ -1,5 +1,8 @@
-.. Ldap/Converter/Converter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Converter/Converter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Converter\\Converter
 ================================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Converter\\Converter
 Zend\Ldap\Converter is a collection of useful LDAP related conversion functions.
 
 Methods
-+++++++
+-------
 
 ascToHex32
-----------
+++++++++++
 
 .. function:: ascToHex32()
 
@@ -27,7 +30,7 @@ ascToHex32
 
 
 hex32ToAsc
-----------
+++++++++++
 
 .. function:: hex32ToAsc()
 
@@ -44,7 +47,7 @@ hex32ToAsc
 
 
 toLdap
-------
+++++++
 
 .. function:: toLdap()
 
@@ -65,7 +68,7 @@ toLdap
 
 
 toLdapDateTime
---------------
+++++++++++++++
 
 .. function:: toLdapDateTime()
 
@@ -85,7 +88,7 @@ toLdapDateTime
 
 
 toLdapBoolean
--------------
++++++++++++++
 
 .. function:: toLdapBoolean()
 
@@ -103,7 +106,7 @@ toLdapBoolean
 
 
 toLdapSerialize
----------------
++++++++++++++++
 
 .. function:: toLdapSerialize()
 
@@ -117,7 +120,7 @@ toLdapSerialize
 
 
 fromLdap
---------
+++++++++
 
 .. function:: fromLdap()
 
@@ -137,7 +140,7 @@ fromLdap
 
 
 fromLdapDateTime
-----------------
+++++++++++++++++
 
 .. function:: fromLdapDateTime()
 
@@ -156,7 +159,7 @@ fromLdapDateTime
 
 
 fromLdapBoolean
----------------
++++++++++++++++
 
 .. function:: fromLdapBoolean()
 
@@ -172,7 +175,7 @@ fromLdapBoolean
 
 
 fromLdapUnserialize
--------------------
++++++++++++++++++++
 
 .. function:: fromLdapUnserialize()
 
@@ -190,14 +193,14 @@ fromLdapUnserialize
 
 
 Constants
-+++++++++
+---------
 
 STANDARD
-========
+++++++++
 
 BOOLEAN
-=======
++++++++
 
 GENERALIZED_TIME
-================
+++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. EventManager/EventInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/EventInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\getName
 ===========================
@@ -13,6 +16,9 @@ Zend\\EventManager\\getName
 
 
 
+Function
+********
+
 Zend\\EventManager\\getTarget
 =============================
 
@@ -25,6 +31,9 @@ Zend\\EventManager\\getTarget
 
 
 
+Function
+********
+
 Zend\\EventManager\\getParams
 =============================
 
@@ -36,6 +45,9 @@ Zend\\EventManager\\getParams
     :rtype: array|ArrayAccess 
 
 
+
+Function
+********
 
 Zend\\EventManager\\getParam
 ============================
@@ -52,6 +64,9 @@ Zend\\EventManager\\getParam
 
 
 
+Function
+********
+
 Zend\\EventManager\\setName
 ===========================
 
@@ -65,6 +80,9 @@ Zend\\EventManager\\setName
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\EventManager\\setTarget
 =============================
@@ -80,6 +98,9 @@ Zend\\EventManager\\setTarget
 
 
 
+Function
+********
+
 Zend\\EventManager\\setParams
 =============================
 
@@ -93,6 +114,9 @@ Zend\\EventManager\\setParams
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\EventManager\\setParam
 ============================
@@ -109,6 +133,9 @@ Zend\\EventManager\\setParam
 
 
 
+Function
+********
+
 Zend\\EventManager\\stopPropagation
 ===================================
 
@@ -122,6 +149,9 @@ Zend\\EventManager\\stopPropagation
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\EventManager\\propagationIsStopped
 ========================================

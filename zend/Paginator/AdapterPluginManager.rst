@@ -1,5 +1,8 @@
-.. Paginator/AdapterPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Paginator/AdapterPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\AdapterPluginManager
 =====================================
@@ -11,10 +14,10 @@ Adapter\AdapterInterface. Additionally, it registers a number of default
 adapters available.
 
 Methods
-+++++++
+-------
 
 createFromFactory
------------------
++++++++++++++++++
 
 .. function:: createFromFactory()
 
@@ -31,7 +34,7 @@ createFromFactory
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

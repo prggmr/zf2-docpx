@@ -1,5 +1,8 @@
-.. Http/Header/Referer.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Referer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Referer
 ===========================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Referer
 Content-Location Header
 
 Methods
-+++++++
+-------
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -25,7 +28,7 @@ setUri
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 

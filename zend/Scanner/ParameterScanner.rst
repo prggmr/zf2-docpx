@@ -1,14 +1,17 @@
-.. Code/Scanner/ParameterScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/ParameterScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\ParameterScanner
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setDeclaringClass
------------------
++++++++++++++++++
 
 .. function:: setDeclaringClass()
 
@@ -34,7 +37,7 @@ setDeclaringClass
 
 
 setDeclaringScannerClass
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDeclaringScannerClass()
 
@@ -48,7 +51,7 @@ setDeclaringScannerClass
 
 
 setDeclaringFunction
---------------------
+++++++++++++++++++++
 
 .. function:: setDeclaringFunction()
 
@@ -62,7 +65,7 @@ setDeclaringFunction
 
 
 setDeclaringScannerFunction
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: setDeclaringScannerFunction()
 
@@ -76,7 +79,7 @@ setDeclaringScannerFunction
 
 
 setPosition
------------
++++++++++++
 
 .. function:: setPosition()
 
@@ -90,7 +93,7 @@ setPosition
 
 
 scan
-----
+++++
 
 .. function:: scan()
 
@@ -102,7 +105,7 @@ scan
 
 
 getDeclaringScannerClass
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getDeclaringScannerClass()
 
@@ -114,7 +117,7 @@ getDeclaringScannerClass
 
 
 getDeclaringClass
------------------
++++++++++++++++++
 
 .. function:: getDeclaringClass()
 
@@ -126,7 +129,7 @@ getDeclaringClass
 
 
 getDeclaringScannerFunction
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: getDeclaringScannerFunction()
 
@@ -138,7 +141,7 @@ getDeclaringScannerFunction
 
 
 getDeclaringFunction
---------------------
+++++++++++++++++++++
 
 .. function:: getDeclaringFunction()
 
@@ -150,7 +153,7 @@ getDeclaringFunction
 
 
 getDefaultValue
----------------
++++++++++++++++
 
 .. function:: getDefaultValue()
 
@@ -162,7 +165,7 @@ getDefaultValue
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -174,7 +177,7 @@ getClass
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -186,7 +189,7 @@ getName
 
 
 getPosition
------------
++++++++++++
 
 .. function:: getPosition()
 
@@ -198,7 +201,7 @@ getPosition
 
 
 isArray
--------
++++++++
 
 .. function:: isArray()
 
@@ -210,7 +213,7 @@ isArray
 
 
 isDefaultValueAvailable
------------------------
++++++++++++++++++++++++
 
 .. function:: isDefaultValueAvailable()
 
@@ -222,7 +225,7 @@ isDefaultValueAvailable
 
 
 isOptional
-----------
+++++++++++
 
 .. function:: isOptional()
 
@@ -234,7 +237,7 @@ isOptional
 
 
 isPassedByReference
--------------------
++++++++++++++++++++
 
 .. function:: isPassedByReference()
 

@@ -1,5 +1,8 @@
-.. Mvc/Router/RouteStackInterface.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/RouteStackInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mvc\\Router\\addRoute
 ===========================
@@ -17,6 +20,9 @@ Zend\\Mvc\\Router\\addRoute
 
 
 
+Function
+********
+
 Zend\\Mvc\\Router\\addRoutes
 ============================
 
@@ -31,6 +37,9 @@ Zend\\Mvc\\Router\\addRoutes
 
 
 
+Function
+********
+
 Zend\\Mvc\\Router\\removeRoute
 ==============================
 
@@ -44,6 +53,9 @@ Zend\\Mvc\\Router\\removeRoute
     :rtype: RouteStackInterface 
 
 
+
+Function
+********
 
 Zend\\Mvc\\Router\\setRoutes
 ============================

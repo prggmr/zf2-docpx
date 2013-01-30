@@ -1,5 +1,8 @@
-.. Ldap/Filter/MaskFilter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter/MaskFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter\\MaskFilter
 ==============================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter\\MaskFilter
 Zend\Ldap\Filter\MaskFilter provides a simple string filter to be used with a mask.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

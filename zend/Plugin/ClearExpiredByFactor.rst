@@ -1,14 +1,17 @@
-.. Cache/Storage/Plugin/ClearExpiredByFactor.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Plugin/ClearExpiredByFactor.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Plugin\\ClearExpiredByFactor
 ==================================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -25,7 +28,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -41,7 +44,7 @@ detach
 
 
 clearExpiredByFactor
---------------------
+++++++++++++++++++++
 
 .. function:: clearExpiredByFactor()
 

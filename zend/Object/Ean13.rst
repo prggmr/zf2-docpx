@@ -1,5 +1,8 @@
-.. Barcode/Object/Ean13.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Ean13.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Ean13
 ============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Ean13
 Class for generate Ean13 barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -34,7 +37,7 @@ calculateBarcodeWidth
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -46,7 +49,7 @@ checkSpecificParams
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -58,7 +61,7 @@ prepareBarcode
 
 
 getChecksum
------------
++++++++++++
 
 .. function:: getChecksum()
 
@@ -72,7 +75,7 @@ getChecksum
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 
@@ -84,7 +87,7 @@ drawText
 
 
 drawEan13Text
--------------
++++++++++++++
 
 .. function:: drawEan13Text()
 

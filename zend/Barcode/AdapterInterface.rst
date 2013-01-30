@@ -1,5 +1,8 @@
-.. Validator/Barcode/AdapterInterface.php generated using docpx on 01/30/13 03:32am
+.. Validator/Barcode/AdapterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Validator\\Barcode\\hasValidLength
 ========================================
@@ -15,6 +18,9 @@ Zend\\Validator\\Barcode\\hasValidLength
 
 
 
+Function
+********
+
 Zend\\Validator\\Barcode\\hasValidCharacters
 ============================================
 
@@ -28,6 +34,9 @@ Zend\\Validator\\Barcode\\hasValidCharacters
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Validator\\Barcode\\hasValidChecksum
 ==========================================
@@ -43,6 +52,9 @@ Zend\\Validator\\Barcode\\hasValidChecksum
 
 
 
+Function
+********
+
 Zend\\Validator\\Barcode\\getLength
 ===================================
 
@@ -54,6 +66,9 @@ Zend\\Validator\\Barcode\\getLength
     :rtype: int|array 
 
 
+
+Function
+********
 
 Zend\\Validator\\Barcode\\getCharacters
 =======================================
@@ -67,6 +82,9 @@ Zend\\Validator\\Barcode\\getCharacters
 
 
 
+Function
+********
+
 Zend\\Validator\\Barcode\\getChecksum
 =====================================
 
@@ -78,6 +96,9 @@ Zend\\Validator\\Barcode\\getChecksum
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Validator\\Barcode\\useChecksum
 =====================================

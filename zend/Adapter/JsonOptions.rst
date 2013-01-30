@@ -1,14 +1,17 @@
-.. Serializer/Adapter/JsonOptions.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/JsonOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Adapter\\JsonOptions
 ======================================
 
 Methods
-+++++++
+-------
 
 setCycleCheck
--------------
++++++++++++++
 
 .. function:: setCycleCheck()
 
@@ -20,7 +23,7 @@ setCycleCheck
 
 
 getCycleCheck
--------------
++++++++++++++
 
 .. function:: getCycleCheck()
 
@@ -30,7 +33,7 @@ getCycleCheck
 
 
 setEnableJsonExprFinder
------------------------
++++++++++++++++++++++++
 
 .. function:: setEnableJsonExprFinder()
 
@@ -42,7 +45,7 @@ setEnableJsonExprFinder
 
 
 getEnableJsonExprFinder
------------------------
++++++++++++++++++++++++
 
 .. function:: getEnableJsonExprFinder()
 
@@ -52,7 +55,7 @@ getEnableJsonExprFinder
 
 
 setObjectDecodeType
--------------------
++++++++++++++++++++
 
 .. function:: setObjectDecodeType()
 
@@ -66,7 +69,7 @@ setObjectDecodeType
 
 
 getObjectDecodeType
--------------------
++++++++++++++++++++
 
 .. function:: getObjectDecodeType()
 

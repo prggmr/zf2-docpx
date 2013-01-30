@@ -1,5 +1,8 @@
-.. Mvc/Router/Http/Method.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/Http/Method.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\Http\\Method
 ===============================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\Http\\Method
 Method route.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -40,7 +43,7 @@ factory
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -55,7 +58,7 @@ match
 
 
 assemble
---------
+++++++++
 
 .. function:: assemble()
 
@@ -71,7 +74,7 @@ assemble
 
 
 getAssembledParams
-------------------
+++++++++++++++++++
 
 .. function:: getAssembledParams()
 

@@ -1,5 +1,8 @@
-.. Feed/Reader/Collection.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Collection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Collection
 ==============================

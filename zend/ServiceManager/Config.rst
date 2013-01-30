@@ -1,14 +1,17 @@
-.. ServiceManager/Config.php generated using docpx on 01/30/13 03:32am
+.. ServiceManager/Config.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ServiceManager\\Config
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getAllowOverride
-----------------
+++++++++++++++++
 
 .. function:: getAllowOverride()
 
@@ -32,7 +35,7 @@ getAllowOverride
 
 
 getFactories
-------------
+++++++++++++
 
 .. function:: getFactories()
 
@@ -44,7 +47,7 @@ getFactories
 
 
 getAbstractFactories
---------------------
+++++++++++++++++++++
 
 .. function:: getAbstractFactories()
 
@@ -56,7 +59,7 @@ getAbstractFactories
 
 
 getInvokables
--------------
++++++++++++++
 
 .. function:: getInvokables()
 
@@ -68,7 +71,7 @@ getInvokables
 
 
 getServices
------------
++++++++++++
 
 .. function:: getServices()
 
@@ -80,7 +83,7 @@ getServices
 
 
 getAliases
-----------
+++++++++++
 
 .. function:: getAliases()
 
@@ -92,7 +95,7 @@ getAliases
 
 
 getInitializers
----------------
++++++++++++++++
 
 .. function:: getInitializers()
 
@@ -104,7 +107,7 @@ getInitializers
 
 
 getShared
----------
++++++++++
 
 .. function:: getShared()
 
@@ -116,7 +119,7 @@ getShared
 
 
 configureServiceManager
------------------------
++++++++++++++++++++++++
 
 .. function:: configureServiceManager()
 

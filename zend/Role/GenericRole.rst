@@ -1,14 +1,17 @@
-.. Permissions/Acl/Role/GenericRole.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Acl/Role/GenericRole.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Acl\\Role\\GenericRole
 =========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getRoleId
----------
++++++++++
 
 .. function:: getRoleId()
 
@@ -32,7 +35,7 @@ getRoleId
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

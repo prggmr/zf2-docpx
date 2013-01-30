@@ -1,5 +1,8 @@
-.. Code/Annotation/AnnotationManager.php generated using docpx on 01/30/13 03:32am
+.. Code/Annotation/AnnotationManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Annotation\\AnnotationManager
 =========================================
@@ -13,10 +16,10 @@ return an object will halt execution of the event, and that object will be
 returned as the annotation.
 
 Methods
-+++++++
+-------
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -30,7 +33,7 @@ setEventManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -44,7 +47,7 @@ getEventManager
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -58,7 +61,7 @@ attach
 
 
 createAnnotation
-----------------
+++++++++++++++++
 
 .. function:: createAnnotation()
 
@@ -74,8 +77,8 @@ createAnnotation
 
 
 Constants
-+++++++++
+---------
 
 EVENT_CREATE_ANNOTATION
-=======================
++++++++++++++++++++++++
 

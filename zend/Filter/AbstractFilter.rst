@@ -1,5 +1,8 @@
-.. Ldap/Filter/AbstractFilter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter/AbstractFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter\\AbstractFilter
 ==================================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter\\AbstractFilter
 Zend\Ldap\Filter\AbstractFilter provides a base implementation for filters.
 
 Methods
-+++++++
+-------
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -22,7 +25,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -35,7 +38,7 @@ __toString
 
 
 negate
-------
+++++++
 
 .. function:: negate()
 
@@ -47,7 +50,7 @@ negate
 
 
 addAnd
-------
+++++++
 
 .. function:: addAnd()
 
@@ -61,7 +64,7 @@ addAnd
 
 
 addOr
------
++++++
 
 .. function:: addOr()
 
@@ -75,7 +78,7 @@ addOr
 
 
 escapeValue
------------
++++++++++++
 
 .. function:: escapeValue()
 
@@ -96,7 +99,7 @@ escapeValue
 
 
 unescapeValue
--------------
++++++++++++++
 
 .. function:: unescapeValue()
 

@@ -1,5 +1,8 @@
-.. ModuleManager/ModuleEvent.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/ModuleEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\ModuleEvent
 ================================
@@ -8,10 +11,10 @@ Custom event for use with module manager
 Composes Module objects
 
 Methods
-+++++++
+-------
 
 getModuleName
--------------
++++++++++++++
 
 .. function:: getModuleName()
 
@@ -23,7 +26,7 @@ getModuleName
 
 
 setModuleName
--------------
++++++++++++++
 
 .. function:: setModuleName()
 
@@ -39,7 +42,7 @@ setModuleName
 
 
 getModule
----------
++++++++++
 
 .. function:: getModule()
 
@@ -51,7 +54,7 @@ getModule
 
 
 setModule
----------
++++++++++
 
 .. function:: setModule()
 
@@ -67,7 +70,7 @@ setModule
 
 
 getConfigListener
------------------
++++++++++++++++++
 
 .. function:: getConfigListener()
 
@@ -79,7 +82,7 @@ getConfigListener
 
 
 setConfigListener
------------------
++++++++++++++++++
 
 .. function:: setConfigListener()
 
@@ -95,19 +98,19 @@ setConfigListener
 
 
 Constants
-+++++++++
+---------
 
 EVENT_LOAD_MODULES
-==================
+++++++++++++++++++
 
 Module events triggered by eventmanager
 
 EVENT_LOAD_MODULE_RESOLVE
-=========================
++++++++++++++++++++++++++
 
 EVENT_LOAD_MODULE
-=================
++++++++++++++++++
 
 EVENT_LOAD_MODULES_POST
-=======================
++++++++++++++++++++++++
 

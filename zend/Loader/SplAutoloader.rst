@@ -1,5 +1,8 @@
-.. Loader/SplAutoloader.php generated using docpx on 01/30/13 03:32am
+.. Loader/SplAutoloader.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Loader\\__construct
 =========================
@@ -14,6 +17,9 @@ Zend\\Loader\\__construct
     :param null|array|Traversable: 
 
 
+
+Function
+********
 
 Zend\\Loader\\setOptions
 ========================
@@ -32,6 +38,9 @@ Zend\\Loader\\setOptions
 
 
 
+Function
+********
+
 Zend\\Loader\\autoload
 ======================
 
@@ -46,6 +55,9 @@ Zend\\Loader\\autoload
          get_class($class) [if $class is successfully loaded]
 
 
+
+Function
+********
 
 Zend\\Loader\\register
 ======================

@@ -1,5 +1,8 @@
-.. Barcode/RendererPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Barcode/RendererPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\RendererPluginManager
 ====================================
@@ -11,10 +14,10 @@ Renderer\AbstractRenderer. Additionally, it registers a number of default
 barcode renderers.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormMonthSelect.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormMonthSelect.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormMonthSelect
 =========================================
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -25,7 +28,7 @@ render
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -43,7 +46,7 @@ __invoke
 
 
 getPattern
-----------
+++++++++++
 
 .. function:: getPattern()
 
@@ -53,7 +56,7 @@ getPattern
 
 
 parsePattern
-------------
+++++++++++++
 
 .. function:: parsePattern()
 
@@ -65,7 +68,7 @@ parsePattern
 
 
 setDateType
------------
++++++++++++
 
 .. function:: setDateType()
 
@@ -77,7 +80,7 @@ setDateType
 
 
 getDateType
------------
++++++++++++
 
 .. function:: getDateType()
 
@@ -87,7 +90,7 @@ getDateType
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -99,7 +102,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -109,7 +112,7 @@ getLocale
 
 
 getMonthsOptions
-----------------
+++++++++++++++++
 
 .. function:: getMonthsOptions()
 
@@ -123,7 +126,7 @@ getMonthsOptions
 
 
 getYearsOptions
----------------
++++++++++++++++
 
 .. function:: getYearsOptions()
 
@@ -140,7 +143,7 @@ getYearsOptions
 
 
 getSelectElementHelper
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSelectElementHelper()
 

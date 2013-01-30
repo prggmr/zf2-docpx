@@ -1,14 +1,17 @@
-.. Db/TableGateway/Feature/GlobalAdapterFeature.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/Feature/GlobalAdapterFeature.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\Feature\\GlobalAdapterFeature
 =====================================================
 
 Methods
-+++++++
+-------
 
 setStaticAdapter
-----------------
+++++++++++++++++
 
 .. function:: setStaticAdapter()
 
@@ -20,7 +23,7 @@ setStaticAdapter
 
 
 getStaticAdapter
-----------------
+++++++++++++++++
 
 .. function:: getStaticAdapter()
 
@@ -33,7 +36,7 @@ getStaticAdapter
 
 
 preInitialize
--------------
++++++++++++++
 
 .. function:: preInitialize()
 

@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/ListenerOptions.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/ListenerOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\ListenerOptions
 ==============================================
@@ -7,10 +10,10 @@ Zend\\ModuleManager\\Listener\\ListenerOptions
 Listener options
 
 Methods
-+++++++
+-------
 
 getModulePaths
---------------
+++++++++++++++
 
 .. function:: getModulePaths()
 
@@ -22,7 +25,7 @@ getModulePaths
 
 
 setModulePaths
---------------
+++++++++++++++
 
 .. function:: setModulePaths()
 
@@ -38,7 +41,7 @@ setModulePaths
 
 
 getConfigGlobPaths
-------------------
+++++++++++++++++++
 
 .. function:: getConfigGlobPaths()
 
@@ -50,7 +53,7 @@ getConfigGlobPaths
 
 
 getConfigStaticPaths
---------------------
+++++++++++++++++++++
 
 .. function:: getConfigStaticPaths()
 
@@ -62,7 +65,7 @@ getConfigStaticPaths
 
 
 setConfigGlobPaths
-------------------
+++++++++++++++++++
 
 .. function:: setConfigGlobPaths()
 
@@ -78,7 +81,7 @@ setConfigGlobPaths
 
 
 setConfigStaticPaths
---------------------
+++++++++++++++++++++
 
 .. function:: setConfigStaticPaths()
 
@@ -94,7 +97,7 @@ setConfigStaticPaths
 
 
 getExtraConfig
---------------
+++++++++++++++
 
 .. function:: getExtraConfig()
 
@@ -106,7 +109,7 @@ getExtraConfig
 
 
 setExtraConfig
---------------
+++++++++++++++
 
 .. function:: setExtraConfig()
 
@@ -123,7 +126,7 @@ setExtraConfig
 
 
 getConfigCacheEnabled
----------------------
++++++++++++++++++++++
 
 .. function:: getConfigCacheEnabled()
 
@@ -135,7 +138,7 @@ getConfigCacheEnabled
 
 
 setConfigCacheEnabled
----------------------
++++++++++++++++++++++
 
 .. function:: setConfigCacheEnabled()
 
@@ -149,7 +152,7 @@ setConfigCacheEnabled
 
 
 getConfigCacheKey
------------------
++++++++++++++++++
 
 .. function:: getConfigCacheKey()
 
@@ -161,7 +164,7 @@ getConfigCacheKey
 
 
 setConfigCacheKey
------------------
++++++++++++++++++
 
 .. function:: setConfigCacheKey()
 
@@ -175,7 +178,7 @@ setConfigCacheKey
 
 
 getConfigCacheFile
-------------------
+++++++++++++++++++
 
 .. function:: getConfigCacheFile()
 
@@ -190,7 +193,7 @@ getConfigCacheFile
 
 
 getCacheDir
------------
++++++++++++
 
 .. function:: getCacheDir()
 
@@ -202,7 +205,7 @@ getCacheDir
 
 
 setCacheDir
------------
++++++++++++
 
 .. function:: setCacheDir()
 
@@ -216,7 +219,7 @@ setCacheDir
 
 
 getModuleMapCacheEnabled
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getModuleMapCacheEnabled()
 
@@ -228,7 +231,7 @@ getModuleMapCacheEnabled
 
 
 setModuleMapCacheEnabled
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setModuleMapCacheEnabled()
 
@@ -242,7 +245,7 @@ setModuleMapCacheEnabled
 
 
 getModuleMapCacheKey
---------------------
+++++++++++++++++++++
 
 .. function:: getModuleMapCacheKey()
 
@@ -254,7 +257,7 @@ getModuleMapCacheKey
 
 
 setModuleMapCacheKey
---------------------
+++++++++++++++++++++
 
 .. function:: setModuleMapCacheKey()
 
@@ -268,7 +271,7 @@ setModuleMapCacheKey
 
 
 getModuleMapCacheFile
----------------------
++++++++++++++++++++++
 
 .. function:: getModuleMapCacheFile()
 
@@ -280,7 +283,7 @@ getModuleMapCacheFile
 
 
 getCheckDependencies
---------------------
+++++++++++++++++++++
 
 .. function:: getCheckDependencies()
 
@@ -292,7 +295,7 @@ getCheckDependencies
 
 
 setCheckDependencies
---------------------
+++++++++++++++++++++
 
 .. function:: setCheckDependencies()
 
@@ -306,7 +309,7 @@ setCheckDependencies
 
 
 normalizePath
--------------
++++++++++++++
 
 .. function:: normalizePath()
 

@@ -1,5 +1,8 @@
-.. Json/Server/Request.php generated using docpx on 01/30/13 03:32am
+.. Json/Server/Request.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Server\\Request
 ===========================
@@ -7,10 +10,10 @@ Zend\\Json\\Server\\Request
 @todo       Revised method regex to allow NS; however, should SMD be revised to strip PHP NS instead when attaching functions?
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 addParam
---------
+++++++++
 
 .. function:: addParam()
 
@@ -39,7 +42,7 @@ addParam
 
 
 addParams
----------
++++++++++
 
 .. function:: addParams()
 
@@ -53,7 +56,7 @@ addParams
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -67,7 +70,7 @@ setParams
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 
@@ -81,7 +84,7 @@ getParam
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -93,7 +96,7 @@ getParams
 
 
 setMethod
----------
++++++++++
 
 .. function:: setMethod()
 
@@ -107,7 +110,7 @@ setMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -119,7 +122,7 @@ getMethod
 
 
 isMethodError
--------------
++++++++++++++
 
 .. function:: isMethodError()
 
@@ -131,7 +134,7 @@ isMethodError
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -145,7 +148,7 @@ setId
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -157,7 +160,7 @@ getId
 
 
 setVersion
-----------
+++++++++++
 
 .. function:: setVersion()
 
@@ -171,7 +174,7 @@ setVersion
 
 
 getVersion
-----------
+++++++++++
 
 .. function:: getVersion()
 
@@ -183,7 +186,7 @@ getVersion
 
 
 loadJson
---------
+++++++++
 
 .. function:: loadJson()
 
@@ -197,7 +200,7 @@ loadJson
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -209,7 +212,7 @@ toJson
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

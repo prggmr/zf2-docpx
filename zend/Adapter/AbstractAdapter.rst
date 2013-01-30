@@ -1,14 +1,17 @@
-.. Serializer/Adapter/AbstractAdapter.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/AbstractAdapter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\Adapter\\AbstractAdapter
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -34,7 +37,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 

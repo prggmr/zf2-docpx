@@ -1,5 +1,8 @@
-.. Mail/Transport/Smtp.php generated using docpx on 01/30/13 03:32am
+.. Mail/Transport/Smtp.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Transport\\Smtp
 ===========================
@@ -9,10 +12,10 @@ SMTP connection object
 Loads an instance of Zend\Mail\Protocol\Smtp and forwards smtp transactions
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -50,7 +53,7 @@ getOptions
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -66,7 +69,7 @@ setPluginManager
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -78,7 +81,7 @@ getPluginManager
 
 
 setAutoDisconnect
------------------
++++++++++++++++++
 
 .. function:: setAutoDisconnect()
 
@@ -92,7 +95,7 @@ setAutoDisconnect
 
 
 getAutoDisconnect
------------------
++++++++++++++++++
 
 .. function:: getAutoDisconnect()
 
@@ -104,7 +107,7 @@ getAutoDisconnect
 
 
 plugin
-------
+++++++
 
 .. function:: plugin()
 
@@ -119,7 +122,7 @@ plugin
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -129,7 +132,7 @@ __destruct
 
 
 setConnection
--------------
++++++++++++++
 
 .. function:: setConnection()
 
@@ -141,7 +144,7 @@ setConnection
 
 
 getConnection
--------------
++++++++++++++
 
 .. function:: getConnection()
 
@@ -153,7 +156,7 @@ getConnection
 
 
 disconnect
-----------
+++++++++++
 
 .. function:: disconnect()
 
@@ -165,7 +168,7 @@ disconnect
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -182,7 +185,7 @@ send
 
 
 prepareFromAddress
-------------------
+++++++++++++++++++
 
 .. function:: prepareFromAddress()
 
@@ -198,7 +201,7 @@ prepareFromAddress
 
 
 prepareRecipients
------------------
++++++++++++++++++
 
 .. function:: prepareRecipients()
 
@@ -212,7 +215,7 @@ prepareRecipients
 
 
 prepareHeaders
---------------
+++++++++++++++
 
 .. function:: prepareHeaders()
 
@@ -226,7 +229,7 @@ prepareHeaders
 
 
 prepareBody
------------
++++++++++++
 
 .. function:: prepareBody()
 
@@ -240,7 +243,7 @@ prepareBody
 
 
 lazyLoadConnection
-------------------
+++++++++++++++++++
 
 .. function:: lazyLoadConnection()
 
@@ -252,7 +255,7 @@ lazyLoadConnection
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 

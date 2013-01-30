@@ -1,14 +1,17 @@
-.. Mail/Storage/Part.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Part.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Part
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 isMultipart
------------
++++++++++++
 
 .. function:: isMultipart()
 
@@ -43,7 +46,7 @@ isMultipart
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -58,7 +61,7 @@ getContent
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -72,7 +75,7 @@ getSize
 
 
 _cacheContent
--------------
++++++++++++++
 
 .. function:: _cacheContent()
 
@@ -85,7 +88,7 @@ _cacheContent
 
 
 getPart
--------
++++++++
 
 .. function:: getPart()
 
@@ -101,7 +104,7 @@ getPart
 
 
 countParts
-----------
+++++++++++
 
 .. function:: countParts()
 
@@ -113,7 +116,7 @@ countParts
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 
@@ -127,7 +130,7 @@ getHeaders
 
 
 getHeader
----------
++++++++++
 
 .. function:: getHeader()
 
@@ -147,7 +150,7 @@ getHeader
 
 
 getHeaderField
---------------
+++++++++++++++
 
 .. function:: getHeaderField()
 
@@ -171,7 +174,7 @@ getHeaderField
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -190,7 +193,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -207,7 +210,7 @@ __isset
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -219,7 +222,7 @@ __toString
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -231,7 +234,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -243,7 +246,7 @@ getChildren
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -255,7 +258,7 @@ valid
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -265,7 +268,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -277,7 +280,7 @@ key
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -289,7 +292,7 @@ current
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 

@@ -1,14 +1,17 @@
-.. Cache/Storage/Capabilities.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Capabilities.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Capabilities
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -35,7 +38,7 @@ getAdapter
 
 
 getSupportedDatatypes
----------------------
++++++++++++++++++++++
 
 .. function:: getSupportedDatatypes()
 
@@ -47,7 +50,7 @@ getSupportedDatatypes
 
 
 setSupportedDatatypes
----------------------
++++++++++++++++++++++
 
 .. function:: setSupportedDatatypes()
 
@@ -64,7 +67,7 @@ setSupportedDatatypes
 
 
 getSupportedMetadata
---------------------
+++++++++++++++++++++
 
 .. function:: getSupportedMetadata()
 
@@ -76,7 +79,7 @@ getSupportedMetadata
 
 
 setSupportedMetadata
---------------------
+++++++++++++++++++++
 
 .. function:: setSupportedMetadata()
 
@@ -93,7 +96,7 @@ setSupportedMetadata
 
 
 getMinTtl
----------
++++++++++
 
 .. function:: getMinTtl()
 
@@ -105,7 +108,7 @@ getMinTtl
 
 
 setMinTtl
----------
++++++++++
 
 .. function:: setMinTtl()
 
@@ -122,7 +125,7 @@ setMinTtl
 
 
 getMaxTtl
----------
++++++++++
 
 .. function:: getMaxTtl()
 
@@ -134,7 +137,7 @@ getMaxTtl
 
 
 setMaxTtl
----------
++++++++++
 
 .. function:: setMaxTtl()
 
@@ -151,7 +154,7 @@ setMaxTtl
 
 
 getStaticTtl
-------------
+++++++++++++
 
 .. function:: getStaticTtl()
 
@@ -164,7 +167,7 @@ getStaticTtl
 
 
 setStaticTtl
-------------
+++++++++++++
 
 .. function:: setStaticTtl()
 
@@ -179,7 +182,7 @@ setStaticTtl
 
 
 getTtlPrecision
----------------
++++++++++++++++
 
 .. function:: getTtlPrecision()
 
@@ -191,7 +194,7 @@ getTtlPrecision
 
 
 setTtlPrecision
----------------
++++++++++++++++
 
 .. function:: setTtlPrecision()
 
@@ -208,7 +211,7 @@ setTtlPrecision
 
 
 getUseRequestTime
------------------
++++++++++++++++++
 
 .. function:: getUseRequestTime()
 
@@ -220,7 +223,7 @@ getUseRequestTime
 
 
 setUseRequestTime
------------------
++++++++++++++++++
 
 .. function:: setUseRequestTime()
 
@@ -235,7 +238,7 @@ setUseRequestTime
 
 
 getExpiredRead
---------------
+++++++++++++++
 
 .. function:: getExpiredRead()
 
@@ -247,7 +250,7 @@ getExpiredRead
 
 
 setExpiredRead
---------------
+++++++++++++++
 
 .. function:: setExpiredRead()
 
@@ -262,7 +265,7 @@ setExpiredRead
 
 
 getMaxKeyLength
----------------
++++++++++++++++
 
 .. function:: getMaxKeyLength()
 
@@ -274,7 +277,7 @@ getMaxKeyLength
 
 
 setMaxKeyLength
----------------
++++++++++++++++
 
 .. function:: setMaxKeyLength()
 
@@ -291,7 +294,7 @@ setMaxKeyLength
 
 
 getNamespaceIsPrefix
---------------------
+++++++++++++++++++++
 
 .. function:: getNamespaceIsPrefix()
 
@@ -303,7 +306,7 @@ getNamespaceIsPrefix
 
 
 setNamespaceIsPrefix
---------------------
+++++++++++++++++++++
 
 .. function:: setNamespaceIsPrefix()
 
@@ -318,7 +321,7 @@ setNamespaceIsPrefix
 
 
 getNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: getNamespaceSeparator()
 
@@ -330,7 +333,7 @@ getNamespaceSeparator
 
 
 setNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: setNamespaceSeparator()
 
@@ -345,7 +348,7 @@ setNamespaceSeparator
 
 
 getCapability
--------------
++++++++++++++
 
 .. function:: getCapability()
 
@@ -360,7 +363,7 @@ getCapability
 
 
 setCapability
--------------
++++++++++++++
 
 .. function:: setCapability()
 

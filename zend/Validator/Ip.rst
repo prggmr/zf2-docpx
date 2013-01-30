@@ -1,14 +1,17 @@
-.. Validator/Ip.php generated using docpx on 01/30/13 03:32am
+.. Validator/Ip.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Ip
 ===================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -24,7 +27,7 @@ setOptions
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -38,7 +41,7 @@ isValid
 
 
 validateIPv4
-------------
+++++++++++++
 
 .. function:: validateIPv4()
 
@@ -52,7 +55,7 @@ validateIPv4
 
 
 validateIPv6
-------------
+++++++++++++
 
 .. function:: validateIPv6()
 
@@ -67,7 +70,7 @@ validateIPv6
 
 
 validateIPvFuture
------------------
++++++++++++++++++
 
 .. function:: validateIPvFuture()
 
@@ -86,11 +89,11 @@ validateIPvFuture
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 NOT_IP_ADDRESS
-==============
+++++++++++++++
 

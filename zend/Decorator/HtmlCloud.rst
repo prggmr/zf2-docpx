@@ -1,5 +1,8 @@
-.. Tag/Cloud/Decorator/HtmlCloud.php generated using docpx on 01/30/13 03:32am
+.. Tag/Cloud/Decorator/HtmlCloud.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Cloud\\Decorator\\HtmlCloud
 ======================================
@@ -7,10 +10,10 @@ Zend\\Tag\\Cloud\\Decorator\\HtmlCloud
 Simple HTML decorator for clouds
 
 Methods
-+++++++
+-------
 
 setHTMLTags
------------
++++++++++++
 
 .. function:: setHTMLTags()
 
@@ -24,7 +27,7 @@ setHTMLTags
 
 
 getHTMLTags
------------
++++++++++++
 
 .. function:: getHTMLTags()
 
@@ -36,7 +39,7 @@ getHTMLTags
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -50,7 +53,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -62,7 +65,7 @@ getSeparator
 
 
 render
-------
+++++++
 
 .. function:: render()
 

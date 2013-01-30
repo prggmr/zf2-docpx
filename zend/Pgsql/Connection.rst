@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pgsql/Connection.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pgsql/Connection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pgsql\\Connection
 ============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setConnectionParameters
------------------------
++++++++++++++++++++++++
 
 .. function:: setConnectionParameters()
 
@@ -34,7 +37,7 @@ setConnectionParameters
 
 
 setDriver
----------
++++++++++
 
 .. function:: setDriver()
 
@@ -48,7 +51,7 @@ setDriver
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -60,7 +63,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -70,7 +73,7 @@ getProfiler
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -84,7 +87,7 @@ setResource
 
 
 getCurrentSchema
-----------------
+++++++++++++++++
 
 .. function:: getCurrentSchema()
 
@@ -96,7 +99,7 @@ getCurrentSchema
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -108,7 +111,7 @@ getResource
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -122,14 +125,14 @@ connect
 
 
 array
------
++++++
 
 .. function:: array()
 
 
 
 isConnected
------------
++++++++++++
 
 .. function:: isConnected()
 
@@ -139,7 +142,7 @@ isConnected
 
 
 disconnect
-----------
+++++++++++
 
 .. function:: disconnect()
 
@@ -149,7 +152,7 @@ disconnect
 
 
 beginTransaction
-----------------
+++++++++++++++++
 
 .. function:: beginTransaction()
 
@@ -159,7 +162,7 @@ beginTransaction
 
 
 commit
-------
+++++++
 
 .. function:: commit()
 
@@ -169,7 +172,7 @@ commit
 
 
 rollback
---------
+++++++++
 
 .. function:: rollback()
 
@@ -179,7 +182,7 @@ rollback
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 
@@ -192,7 +195,7 @@ execute
 
 
 getLastGeneratedValue
----------------------
++++++++++++++++++++++
 
 .. function:: getLastGeneratedValue()
 

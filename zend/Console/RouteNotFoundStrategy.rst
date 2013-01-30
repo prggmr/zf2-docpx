@@ -1,14 +1,17 @@
-.. Mvc/View/Console/RouteNotFoundStrategy.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Console/RouteNotFoundStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Console\\RouteNotFoundStrategy
 ===============================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 setDisplayNotFoundReason
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDisplayNotFoundReason()
 
@@ -50,7 +53,7 @@ setDisplayNotFoundReason
 
 
 displayNotFoundReason
----------------------
++++++++++++++++++++++
 
 .. function:: displayNotFoundReason()
 
@@ -62,7 +65,7 @@ displayNotFoundReason
 
 
 handleRouteNotFoundError
-------------------------
+++++++++++++++++++++++++
 
 .. function:: handleRouteNotFoundError()
 
@@ -82,7 +85,7 @@ handleRouteNotFoundError
 
 
 getConsoleBanner
-----------------
+++++++++++++++++
 
 .. function:: getConsoleBanner()
 
@@ -98,7 +101,7 @@ getConsoleBanner
 
 
 getConsoleUsage
----------------
++++++++++++++++
 
 .. function:: getConsoleUsage()
 
@@ -116,7 +119,7 @@ getConsoleUsage
 
 
 renderTable
------------
++++++++++++
 
 .. function:: renderTable()
 
@@ -132,7 +135,7 @@ renderTable
 
 
 reportNotFoundReason
---------------------
+++++++++++++++++++++
 
 .. function:: reportNotFoundReason()
 

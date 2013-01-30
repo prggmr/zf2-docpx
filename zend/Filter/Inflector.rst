@@ -1,5 +1,8 @@
-.. Filter/Inflector.php generated using docpx on 01/30/13 03:32am
+.. Filter/Inflector.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Inflector
 =======================
@@ -7,10 +10,10 @@ Zend\\Filter\\Inflector
 Filter chain for string inflection
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -34,7 +37,7 @@ getPluginManager
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -48,7 +51,7 @@ setPluginManager
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -62,7 +65,7 @@ setOptions
 
 
 setThrowTargetExceptionsOn
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: setThrowTargetExceptionsOn()
 
@@ -77,7 +80,7 @@ setThrowTargetExceptionsOn
 
 
 isThrowTargetExceptionsOn
--------------------------
++++++++++++++++++++++++++
 
 .. function:: isThrowTargetExceptionsOn()
 
@@ -89,7 +92,7 @@ isThrowTargetExceptionsOn
 
 
 setTargetReplacementIdentifier
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: setTargetReplacementIdentifier()
 
@@ -103,7 +106,7 @@ setTargetReplacementIdentifier
 
 
 getTargetReplacementIdentifier
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getTargetReplacementIdentifier()
 
@@ -115,7 +118,7 @@ getTargetReplacementIdentifier
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -130,7 +133,7 @@ setTarget
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -142,7 +145,7 @@ getTarget
 
 
 setTargetReference
-------------------
+++++++++++++++++++
 
 .. function:: setTargetReference()
 
@@ -156,7 +159,7 @@ setTargetReference
 
 
 setRules
---------
+++++++++
 
 .. function:: setRules()
 
@@ -171,7 +174,7 @@ setRules
 
 
 addRules
---------
+++++++++
 
 .. function:: addRules()
 
@@ -195,7 +198,7 @@ addRules
 
 
 getRules
---------
+++++++++
 
 .. function:: getRules()
 
@@ -212,7 +215,7 @@ getRules
 
 
 getRule
--------
++++++++
 
 .. function:: getRule()
 
@@ -227,7 +230,7 @@ getRule
 
 
 clearRules
-----------
+++++++++++
 
 .. function:: clearRules()
 
@@ -239,7 +242,7 @@ clearRules
 
 
 setFilterRule
--------------
++++++++++++++
 
 .. function:: setFilterRule()
 
@@ -255,7 +258,7 @@ setFilterRule
 
 
 addFilterRule
--------------
++++++++++++++
 
 .. function:: addFilterRule()
 
@@ -270,7 +273,7 @@ addFilterRule
 
 
 setStaticRule
--------------
++++++++++++++
 
 .. function:: setStaticRule()
 
@@ -285,7 +288,7 @@ setStaticRule
 
 
 setStaticRuleReference
-----------------------
+++++++++++++++++++++++
 
 .. function:: setStaticRuleReference()
 
@@ -304,7 +307,7 @@ setStaticRuleReference
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -320,7 +323,7 @@ filter
 
 
 _normalizeSpec
---------------
+++++++++++++++
 
 .. function:: _normalizeSpec()
 
@@ -334,7 +337,7 @@ _normalizeSpec
 
 
 _getRule
---------
+++++++++
 
 .. function:: _getRule()
 

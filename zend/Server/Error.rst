@@ -1,14 +1,17 @@
-.. Json/Server/Error.php generated using docpx on 01/30/13 03:32am
+.. Json/Server/Error.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Server\\Error
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setCode
--------
++++++++
 
 .. function:: setCode()
 
@@ -36,7 +39,7 @@ setCode
 
 
 getCode
--------
++++++++
 
 .. function:: getCode()
 
@@ -48,7 +51,7 @@ getCode
 
 
 setMessage
-----------
+++++++++++
 
 .. function:: setMessage()
 
@@ -62,7 +65,7 @@ setMessage
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -74,7 +77,7 @@ getMessage
 
 
 setData
--------
++++++++
 
 .. function:: setData()
 
@@ -88,7 +91,7 @@ setData
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -100,7 +103,7 @@ getData
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -112,7 +115,7 @@ toArray
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -124,7 +127,7 @@ toJson
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -138,23 +141,23 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 ERROR_PARSE
-===========
++++++++++++
 
 ERROR_INVALID_REQUEST
-=====================
++++++++++++++++++++++
 
 ERROR_INVALID_METHOD
-====================
+++++++++++++++++++++
 
 ERROR_INVALID_PARAMS
-====================
+++++++++++++++++++++
 
 ERROR_INTERNAL
-==============
+++++++++++++++
 
 ERROR_OTHER
-===========
++++++++++++
 

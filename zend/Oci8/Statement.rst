@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Oci8/Statement.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Oci8/Statement.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Oci8\\Statement
 ==========================================
 
 Methods
-+++++++
+-------
 
 setDriver
----------
++++++++++
 
 .. function:: setDriver()
 
@@ -22,7 +25,7 @@ setDriver
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -34,7 +37,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -44,7 +47,7 @@ getProfiler
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -58,7 +61,7 @@ initialize
 
 
 setSql
-------
+++++++
 
 .. function:: setSql()
 
@@ -72,7 +75,7 @@ setSql
 
 
 setParameterContainer
----------------------
++++++++++++++++++++++
 
 .. function:: setParameterContainer()
 
@@ -84,7 +87,7 @@ setParameterContainer
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -96,7 +99,7 @@ getResource
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -110,7 +113,7 @@ setResource
 
 
 getSql
-------
+++++++
 
 .. function:: getSql()
 
@@ -122,7 +125,7 @@ getSql
 
 
 getParameterContainer
----------------------
++++++++++++++++++++++
 
 .. function:: getParameterContainer()
 
@@ -132,7 +135,7 @@ getParameterContainer
 
 
 isPrepared
-----------
+++++++++++
 
 .. function:: isPrepared()
 
@@ -142,7 +145,7 @@ isPrepared
 
 
 prepare
--------
++++++++
 
 .. function:: prepare()
 
@@ -152,7 +155,7 @@ prepare
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 
@@ -166,7 +169,7 @@ execute
 
 
 bindParametersFromContainer
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: bindParametersFromContainer()
 

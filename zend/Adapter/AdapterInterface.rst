@@ -1,5 +1,8 @@
-.. Serializer/Adapter/AdapterInterface.php generated using docpx on 01/30/13 03:32am
+.. Serializer/Adapter/AdapterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Serializer\\Adapter\\serialize
 ====================================
@@ -16,6 +19,9 @@ Zend\\Serializer\\Adapter\\serialize
     :throws: \Zend\Serializer\Exception\ExceptionInterface 
 
 
+
+Function
+********
 
 Zend\\Serializer\\Adapter\\unserialize
 ======================================

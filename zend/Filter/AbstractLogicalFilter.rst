@@ -1,5 +1,8 @@
-.. Ldap/Filter/AbstractLogicalFilter.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Filter/AbstractLogicalFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Filter\\AbstractLogicalFilter
 =========================================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Filter\\AbstractLogicalFilter
 Zend\Ldap\Filter\AbstractLogicalFilter provides a base implementation for a grouping filter.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 addFilter
----------
++++++++++
 
 .. function:: addFilter()
 
@@ -39,7 +42,7 @@ addFilter
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -53,11 +56,11 @@ toString
 
 
 Constants
-+++++++++
+---------
 
 TYPE_AND
-========
+++++++++
 
 TYPE_OR
-=======
++++++++
 

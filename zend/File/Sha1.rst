@@ -1,5 +1,8 @@
-.. Validator/File/Sha1.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Sha1.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Sha1
 ===========================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Sha1
 Validator for the sha1 hash of given files
 
 Methods
-+++++++
+-------
 
 getSha1
--------
++++++++
 
 .. function:: getSha1()
 
@@ -22,7 +25,7 @@ getSha1
 
 
 setSha1
--------
++++++++
 
 .. function:: setSha1()
 
@@ -36,7 +39,7 @@ setSha1
 
 
 addSha1
--------
++++++++
 
 .. function:: addSha1()
 
@@ -50,7 +53,7 @@ addSha1
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -66,16 +69,16 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_NOT_MATCH
-==============
+++++++++++++++
 
 @const string Error constants
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_FOUND
-=========
++++++++++
 

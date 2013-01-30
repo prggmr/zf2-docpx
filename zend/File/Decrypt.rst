@@ -1,5 +1,8 @@
-.. Filter/File/Decrypt.php generated using docpx on 01/30/13 03:32am
+.. Filter/File/Decrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\File\\Decrypt
 ===========================
@@ -7,10 +10,10 @@ Zend\\Filter\\File\\Decrypt
 Decrypts a given file and stores the decrypted file content
 
 Methods
-+++++++
+-------
 
 getFilename
------------
++++++++++++
 
 .. function:: getFilename()
 
@@ -22,7 +25,7 @@ getFilename
 
 
 setFilename
------------
++++++++++++
 
 .. function:: setFilename()
 
@@ -36,7 +39,7 @@ setFilename
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

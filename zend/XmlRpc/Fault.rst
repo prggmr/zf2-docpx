@@ -1,5 +1,8 @@
-.. XmlRpc/Fault.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Fault.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Fault
 ===================
@@ -14,10 +17,10 @@ To allow method chaining, you may only use the {@link getInstance()} factory
 to instantiate a Zend_XmlRpc_Server_Fault.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 setCode
--------
++++++++
 
 .. function:: setCode()
 
@@ -41,7 +44,7 @@ setCode
 
 
 getCode
--------
++++++++
 
 .. function:: getCode()
 
@@ -53,7 +56,7 @@ getCode
 
 
 setMessage
-----------
+++++++++++
 
 .. function:: setMessage()
 
@@ -67,7 +70,7 @@ setMessage
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -79,7 +82,7 @@ getMessage
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -93,7 +96,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -105,7 +108,7 @@ getEncoding
 
 
 loadXml
--------
++++++++
 
 .. function:: loadXml()
 
@@ -123,7 +126,7 @@ response does not contain either code or message
 
 
 isFault
--------
++++++++
 
 .. function:: isFault()
 
@@ -137,7 +140,7 @@ isFault
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -149,7 +152,7 @@ saveXml
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

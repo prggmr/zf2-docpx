@@ -1,5 +1,8 @@
-.. View/Helper/ServerUrl.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/ServerUrl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\ServerUrl
 =============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\ServerUrl
 Helper for returning the current server URL (optionally with request URI)
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -29,7 +32,7 @@ __invoke
 
 
 getHost
--------
++++++++
 
 .. function:: getHost()
 
@@ -41,7 +44,7 @@ getHost
 
 
 setHost
--------
++++++++
 
 .. function:: setHost()
 
@@ -55,7 +58,7 @@ setHost
 
 
 getScheme
----------
++++++++++
 
 .. function:: getScheme()
 
@@ -67,7 +70,7 @@ getScheme
 
 
 setScheme
----------
++++++++++
 
 .. function:: setScheme()
 
@@ -81,7 +84,7 @@ setScheme
 
 
 getPort
--------
++++++++
 
 .. function:: getPort()
 
@@ -93,7 +96,7 @@ getPort
 
 
 setPort
--------
++++++++
 
 .. function:: setPort()
 
@@ -107,7 +110,7 @@ setPort
 
 
 setUseProxy
------------
++++++++++++
 
 .. function:: setUseProxy()
 
@@ -121,7 +124,7 @@ setUseProxy
 
 
 detectHost
-----------
+++++++++++
 
 .. function:: detectHost()
 
@@ -133,7 +136,7 @@ detectHost
 
 
 setHostFromProxy
-----------------
+++++++++++++++++
 
 .. function:: setHostFromProxy()
 
@@ -145,7 +148,7 @@ setHostFromProxy
 
 
 detectScheme
-------------
+++++++++++++
 
 .. function:: detectScheme()
 
@@ -157,7 +160,7 @@ detectScheme
 
 
 detectPort
-----------
+++++++++++
 
 .. function:: detectPort()
 
@@ -169,7 +172,7 @@ detectPort
 
 
 setSchemeFromProxy
-------------------
+++++++++++++++++++
 
 .. function:: setSchemeFromProxy()
 
@@ -181,7 +184,7 @@ setSchemeFromProxy
 
 
 setPortFromProxy
-----------------
+++++++++++++++++
 
 .. function:: setPortFromProxy()
 

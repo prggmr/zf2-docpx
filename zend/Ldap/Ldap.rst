@@ -1,14 +1,17 @@
-.. Ldap/Ldap.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Ldap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Ldap
 ================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -34,7 +37,7 @@ __destruct
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -44,7 +47,7 @@ getResource
 
 
 getLastErrorCode
-----------------
+++++++++++++++++
 
 .. function:: getLastErrorCode()
 
@@ -56,7 +59,7 @@ getLastErrorCode
 
 
 getLastError
-------------
+++++++++++++
 
 .. function:: getLastError()
 
@@ -71,7 +74,7 @@ getLastError
 
 
 getBoundUser
-------------
+++++++++++++
 
 .. function:: getBoundUser()
 
@@ -87,7 +90,7 @@ getBoundUser
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -121,7 +124,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -131,7 +134,7 @@ getOptions
 
 
 getHost
--------
++++++++
 
 .. function:: getHost()
 
@@ -142,7 +145,7 @@ getHost
 
 
 getPort
--------
++++++++
 
 .. function:: getPort()
 
@@ -153,7 +156,7 @@ getPort
 
 
 getUseSsl
----------
++++++++++
 
 .. function:: getUseSsl()
 
@@ -163,7 +166,7 @@ getUseSsl
 
 
 getUsername
------------
++++++++++++
 
 .. function:: getUsername()
 
@@ -173,7 +176,7 @@ getUsername
 
 
 getPassword
------------
++++++++++++
 
 .. function:: getPassword()
 
@@ -183,7 +186,7 @@ getPassword
 
 
 getBindRequiresDn
------------------
++++++++++++++++++
 
 .. function:: getBindRequiresDn()
 
@@ -193,7 +196,7 @@ getBindRequiresDn
 
 
 getBaseDn
----------
++++++++++
 
 .. function:: getBaseDn()
 
@@ -205,7 +208,7 @@ getBaseDn
 
 
 getAccountCanonicalForm
------------------------
++++++++++++++++++++++++
 
 .. function:: getAccountCanonicalForm()
 
@@ -216,7 +219,7 @@ getAccountCanonicalForm
 
 
 getAccountDomainName
---------------------
+++++++++++++++++++++
 
 .. function:: getAccountDomainName()
 
@@ -226,7 +229,7 @@ getAccountDomainName
 
 
 getAccountDomainNameShort
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getAccountDomainNameShort()
 
@@ -236,7 +239,7 @@ getAccountDomainNameShort
 
 
 getAccountFilterFormat
-----------------------
+++++++++++++++++++++++
 
 .. function:: getAccountFilterFormat()
 
@@ -247,7 +250,7 @@ getAccountFilterFormat
 
 
 getAllowEmptyPassword
----------------------
++++++++++++++++++++++
 
 .. function:: getAllowEmptyPassword()
 
@@ -257,7 +260,7 @@ getAllowEmptyPassword
 
 
 getUseStartTls
---------------
+++++++++++++++
 
 .. function:: getUseStartTls()
 
@@ -267,7 +270,7 @@ getUseStartTls
 
 
 getOptReferrals
----------------
++++++++++++++++
 
 .. function:: getOptReferrals()
 
@@ -277,7 +280,7 @@ getOptReferrals
 
 
 getTryUsernameSplit
--------------------
++++++++++++++++++++
 
 .. function:: getTryUsernameSplit()
 
@@ -287,7 +290,7 @@ getTryUsernameSplit
 
 
 getNetworkTimeout
------------------
++++++++++++++++++
 
 .. function:: getNetworkTimeout()
 
@@ -297,7 +300,7 @@ getNetworkTimeout
 
 
 getAccountFilter
-----------------
+++++++++++++++++
 
 .. function:: getAccountFilter()
 
@@ -309,7 +312,7 @@ getAccountFilter
 
 
 splitName
----------
++++++++++
 
 .. function:: splitName()
 
@@ -324,7 +327,7 @@ splitName
 
 
 getAccountDn
-------------
+++++++++++++
 
 .. function:: getAccountDn()
 
@@ -338,7 +341,7 @@ getAccountDn
 
 
 isPossibleAuthority
--------------------
++++++++++++++++++++
 
 .. function:: isPossibleAuthority()
 
@@ -350,7 +353,7 @@ isPossibleAuthority
 
 
 getCanonicalAccountName
------------------------
++++++++++++++++++++++++
 
 .. function:: getCanonicalAccountName()
 
@@ -366,7 +369,7 @@ getCanonicalAccountName
 
 
 getAccount
-----------
+++++++++++
 
 .. function:: getAccount()
 
@@ -382,7 +385,7 @@ getAccount
 
 
 disconnect
-----------
+++++++++++
 
 .. function:: disconnect()
 
@@ -392,7 +395,7 @@ disconnect
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -416,7 +419,7 @@ connect
 
 
 bind
-----
+++++
 
 .. function:: bind()
 
@@ -432,7 +435,7 @@ bind
 
 
 search
-------
+++++++
 
 .. function:: search()
 
@@ -466,7 +469,7 @@ search
 
 
 createCollection
-----------------
+++++++++++++++++
 
 .. function:: createCollection()
 
@@ -483,7 +486,7 @@ createCollection
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -501,7 +504,7 @@ count
 
 
 countChildren
--------------
++++++++++++++
 
 .. function:: countChildren()
 
@@ -517,7 +520,7 @@ countChildren
 
 
 exists
-------
+++++++
 
 .. function:: exists()
 
@@ -533,7 +536,7 @@ exists
 
 
 searchEntries
--------------
++++++++++++++
 
 .. function:: searchEntries()
 
@@ -567,7 +570,7 @@ searchEntries
 
 
 getEntry
---------
+++++++++
 
 .. function:: getEntry()
 
@@ -585,7 +588,7 @@ getEntry
 
 
 prepareLdapEntryArray
----------------------
++++++++++++++++++++++
 
 .. function:: prepareLdapEntryArray()
 
@@ -601,7 +604,7 @@ prepareLdapEntryArray
 
 
 add
----
++++
 
 .. function:: add()
 
@@ -618,7 +621,7 @@ add
 
 
 update
-------
+++++++
 
 .. function:: update()
 
@@ -635,7 +638,7 @@ update
 
 
 save
-----
+++++
 
 .. function:: save()
 
@@ -655,7 +658,7 @@ save
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -672,7 +675,7 @@ delete
 
 
 getChildrenDns
---------------
+++++++++++++++
 
 .. function:: getChildrenDns()
 
@@ -691,7 +694,7 @@ getChildrenDns
 
 
 moveToSubtree
--------------
++++++++++++++
 
 .. function:: moveToSubtree()
 
@@ -710,7 +713,7 @@ moveToSubtree
 
 
 move
-----
+++++
 
 .. function:: move()
 
@@ -731,7 +734,7 @@ move
 
 
 rename
-------
+++++++
 
 .. function:: rename()
 
@@ -752,7 +755,7 @@ rename
 
 
 copyToSubtree
--------------
++++++++++++++
 
 .. function:: copyToSubtree()
 
@@ -770,7 +773,7 @@ copyToSubtree
 
 
 copy
-----
+++++
 
 .. function:: copy()
 
@@ -788,7 +791,7 @@ copy
 
 
 getNode
--------
++++++++
 
 .. function:: getNode()
 
@@ -804,7 +807,7 @@ getNode
 
 
 getBaseNode
------------
++++++++++++
 
 .. function:: getBaseNode()
 
@@ -818,7 +821,7 @@ getBaseNode
 
 
 getRootDse
-----------
+++++++++++
 
 .. function:: getRootDse()
 
@@ -832,7 +835,7 @@ getRootDse
 
 
 getSchema
----------
++++++++++
 
 .. function:: getSchema()
 
@@ -848,26 +851,26 @@ getSchema
 
 
 Constants
-+++++++++
+---------
 
 SEARCH_SCOPE_SUB
-================
+++++++++++++++++
 
 SEARCH_SCOPE_ONE
-================
+++++++++++++++++
 
 SEARCH_SCOPE_BASE
-=================
++++++++++++++++++
 
 ACCTNAME_FORM_DN
-================
+++++++++++++++++
 
 ACCTNAME_FORM_USERNAME
-======================
+++++++++++++++++++++++
 
 ACCTNAME_FORM_BACKSLASH
-=======================
++++++++++++++++++++++++
 
 ACCTNAME_FORM_PRINCIPAL
-=======================
++++++++++++++++++++++++
 

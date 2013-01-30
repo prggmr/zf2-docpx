@@ -1,5 +1,8 @@
-.. Feed/Writer/Renderer/Feed/AtomSource.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Renderer/Feed/AtomSource.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\AtomSource
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Renderer\\Feed\\AtomSource
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -34,7 +37,7 @@ render
 
 
 _setGenerator
--------------
++++++++++++++
 
 .. function:: _setGenerator()
 

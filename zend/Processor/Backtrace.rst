@@ -1,14 +1,17 @@
-.. Log/Processor/Backtrace.php generated using docpx on 01/30/13 03:32am
+.. Log/Processor/Backtrace.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Processor\\Backtrace
 ===============================
 
 Methods
-+++++++
+-------
 
 process
--------
++++++++
 
 .. function:: process()
 
@@ -22,7 +25,7 @@ process
 
 
 getBacktrace
-------------
+++++++++++++
 
 .. function:: getBacktrace()
 

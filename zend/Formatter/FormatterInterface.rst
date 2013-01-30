@@ -1,5 +1,8 @@
-.. Log/Formatter/FormatterInterface.php generated using docpx on 01/30/13 03:32am
+.. Log/Formatter/FormatterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Log\\Formatter\\format
 ============================
@@ -15,6 +18,9 @@ Zend\\Log\\Formatter\\format
 
 
 
+Function
+********
+
 Zend\\Log\\Formatter\\getDateTimeFormat
 =======================================
 
@@ -26,6 +32,9 @@ Zend\\Log\\Formatter\\getDateTimeFormat
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Log\\Formatter\\setDateTimeFormat
 =======================================
@@ -43,7 +52,7 @@ Zend\\Log\\Formatter\\setDateTimeFormat
 
 
 DEFAULT_DATETIME_FORMAT
-=======================
++++++++++++++++++++++++
 
 Default format specifier for DateTime objects is ISO 8601
 

@@ -1,5 +1,8 @@
-.. Barcode/Object/Leitcode.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Leitcode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Leitcode
 ===============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Leitcode
 Class for generate Identcode barcode
 
 Methods
-+++++++
+-------
 
 getDefaultOptions
------------------
++++++++++++++++++
 
 .. function:: getDefaultOptions()
 
@@ -22,7 +25,7 @@ getDefaultOptions
 
 
 getTextToDisplay
-----------------
+++++++++++++++++
 
 .. function:: getTextToDisplay()
 

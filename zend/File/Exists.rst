@@ -1,5 +1,8 @@
-.. Validator/File/Exists.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Exists.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Exists
 =============================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Exists
 Validator which checks if the file already exists in the directory
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getDirectory
-------------
+++++++++++++
 
 .. function:: getDirectory()
 
@@ -36,7 +39,7 @@ getDirectory
 
 
 setDirectory
-------------
+++++++++++++
 
 .. function:: setDirectory()
 
@@ -50,7 +53,7 @@ setDirectory
 
 
 addDirectory
-------------
+++++++++++++
 
 .. function:: addDirectory()
 
@@ -66,7 +69,7 @@ addDirectory
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -82,10 +85,10 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_NOT_EXIST
-==============
+++++++++++++++
 
 @const string Error constants
 

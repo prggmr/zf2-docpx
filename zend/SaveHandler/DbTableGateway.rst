@@ -1,5 +1,8 @@
-.. Session/SaveHandler/DbTableGateway.php generated using docpx on 01/30/13 03:32am
+.. Session/SaveHandler/DbTableGateway.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\SaveHandler\\DbTableGateway
 ==========================================
@@ -7,10 +10,10 @@ Zend\\Session\\SaveHandler\\DbTableGateway
 DB Table Gateway session save handler
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 open
-----
+++++
 
 .. function:: open()
 
@@ -38,7 +41,7 @@ open
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -50,7 +53,7 @@ close
 
 
 read
-----
+++++
 
 .. function:: read()
 
@@ -64,7 +67,7 @@ read
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -79,7 +82,7 @@ write
 
 
 destroy
--------
++++++++
 
 .. function:: destroy()
 
@@ -93,7 +96,7 @@ destroy
 
 
 gc
---
+++
 
 .. function:: gc()
 

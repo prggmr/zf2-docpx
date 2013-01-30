@@ -1,14 +1,17 @@
-.. Code/Scanner/TokenArrayScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/TokenArrayScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\TokenArrayScanner
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getAnnotationManager
---------------------
+++++++++++++++++++++
 
 .. function:: getAnnotationManager()
 
@@ -30,7 +33,7 @@ getAnnotationManager
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -43,7 +46,7 @@ getDocComment
 
 
 getNamespaces
--------------
++++++++++++++
 
 .. function:: getNamespaces()
 
@@ -53,7 +56,7 @@ getNamespaces
 
 
 getUses
--------
++++++++
 
 .. function:: getUses()
 
@@ -65,7 +68,7 @@ getUses
 
 
 getIncludes
------------
++++++++++++
 
 .. function:: getIncludes()
 
@@ -75,7 +78,7 @@ getIncludes
 
 
 getClassNames
--------------
++++++++++++++
 
 .. function:: getClassNames()
 
@@ -85,7 +88,7 @@ getClassNames
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -95,7 +98,7 @@ getClasses
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -111,7 +114,7 @@ getClass
 
 
 getClassNameInformation
------------------------
++++++++++++++++++++++++
 
 .. function:: getClassNameInformation()
 
@@ -123,7 +126,7 @@ getClassNameInformation
 
 
 getFunctionNames
-----------------
+++++++++++++++++
 
 .. function:: getFunctionNames()
 
@@ -133,7 +136,7 @@ getFunctionNames
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -143,7 +146,7 @@ getFunctions
 
 
 export
-------
+++++++
 
 .. function:: export()
 
@@ -155,14 +158,14 @@ export
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
 
 
 scan
-----
+++++
 
 .. function:: scan()
 
@@ -174,7 +177,7 @@ scan
 
 
 hasNamespace
-------------
+++++++++++++
 
 .. function:: hasNamespace()
 
@@ -188,7 +191,7 @@ hasNamespace
 
 
 getUsesNoScan
--------------
++++++++++++++
 
 .. function:: getUsesNoScan()
 

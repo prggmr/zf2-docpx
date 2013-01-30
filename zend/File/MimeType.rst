@@ -1,5 +1,8 @@
-.. Validator/File/MimeType.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/MimeType.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\MimeType
 ===============================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\MimeType
 Validator for the mime type of a file
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getMagicFile
-------------
+++++++++++++
 
 .. function:: getMagicFile()
 
@@ -39,7 +42,7 @@ getMagicFile
 
 
 setMagicFile
-------------
+++++++++++++
 
 .. function:: setMagicFile()
 
@@ -60,7 +63,7 @@ setMagicFile
 
 
 disableMagicFile
-----------------
+++++++++++++++++
 
 .. function:: disableMagicFile()
 
@@ -74,7 +77,7 @@ disableMagicFile
 
 
 isMagicFileDisabled
--------------------
++++++++++++++++++++
 
 .. function:: isMagicFileDisabled()
 
@@ -86,7 +89,7 @@ isMagicFileDisabled
 
 
 getHeaderCheck
---------------
+++++++++++++++
 
 .. function:: getHeaderCheck()
 
@@ -98,7 +101,7 @@ getHeaderCheck
 
 
 enableHeaderCheck
------------------
++++++++++++++++++
 
 .. function:: enableHeaderCheck()
 
@@ -113,7 +116,7 @@ enableHeaderCheck
 
 
 getMimeType
------------
++++++++++++
 
 .. function:: getMimeType()
 
@@ -127,7 +130,7 @@ getMimeType
 
 
 setMimeType
------------
++++++++++++
 
 .. function:: setMimeType()
 
@@ -141,7 +144,7 @@ setMimeType
 
 
 addMimeType
------------
++++++++++++
 
 .. function:: addMimeType()
 
@@ -157,7 +160,7 @@ addMimeType
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -177,14 +180,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 FALSE_TYPE
-==========
+++++++++++
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_READABLE
-============
+++++++++++++
 

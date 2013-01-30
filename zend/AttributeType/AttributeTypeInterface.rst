@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/AttributeType/AttributeTypeInterface.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/AttributeType/AttributeTypeInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\AttributeType\\getName
 ================================================
@@ -13,6 +16,9 @@ Zend\\Ldap\\Node\\Schema\\AttributeType\\getName
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\AttributeType\\getOid
 ===============================================
 
@@ -24,6 +30,9 @@ Zend\\Ldap\\Node\\Schema\\AttributeType\\getOid
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\AttributeType\\getSyntax
 ==================================================
@@ -37,6 +46,9 @@ Zend\\Ldap\\Node\\Schema\\AttributeType\\getSyntax
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\AttributeType\\getMaxLength
 =====================================================
 
@@ -49,6 +61,9 @@ Zend\\Ldap\\Node\\Schema\\AttributeType\\getMaxLength
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\AttributeType\\isSingleValued
 =======================================================
 
@@ -60,6 +75,9 @@ Zend\\Ldap\\Node\\Schema\\AttributeType\\isSingleValued
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\AttributeType\\getDescription
 =======================================================

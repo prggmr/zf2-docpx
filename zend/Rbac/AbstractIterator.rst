@@ -1,14 +1,17 @@
-.. Permissions/Rbac/AbstractIterator.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Rbac/AbstractIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Rbac\\AbstractIterator
 =========================================
 
 Methods
-+++++++
+-------
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -22,7 +25,7 @@ current
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -36,7 +39,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -50,7 +53,7 @@ key
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -65,7 +68,7 @@ Returns true on success or false on failure.
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -79,7 +82,7 @@ rewind
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -93,7 +96,7 @@ hasChildren
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 

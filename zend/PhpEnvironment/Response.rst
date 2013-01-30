@@ -1,5 +1,8 @@
-.. Http/PhpEnvironment/Response.php generated using docpx on 01/30/13 03:32am
+.. Http/PhpEnvironment/Response.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\PhpEnvironment\\Response
 ====================================
@@ -7,10 +10,10 @@ Zend\\Http\\PhpEnvironment\\Response
 HTTP Response for current PHP environment
 
 Methods
-+++++++
+-------
 
 getVersion
-----------
+++++++++++
 
 .. function:: getVersion()
 
@@ -24,7 +27,7 @@ getVersion
 
 
 detectVersion
--------------
++++++++++++++
 
 .. function:: detectVersion()
 
@@ -37,7 +40,7 @@ detectVersion
 
 
 headersSent
------------
++++++++++++
 
 .. function:: headersSent()
 
@@ -47,7 +50,7 @@ headersSent
 
 
 contentSent
------------
++++++++++++
 
 .. function:: contentSent()
 
@@ -57,7 +60,7 @@ contentSent
 
 
 sendHeaders
------------
++++++++++++
 
 .. function:: sendHeaders()
 
@@ -69,7 +72,7 @@ sendHeaders
 
 
 sendContent
------------
++++++++++++
 
 .. function:: sendContent()
 
@@ -81,7 +84,7 @@ sendContent
 
 
 send
-----
+++++
 
 .. function:: send()
 

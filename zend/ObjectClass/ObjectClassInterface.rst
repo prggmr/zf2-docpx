@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/ObjectClass/ObjectClassInterface.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/ObjectClass/ObjectClassInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getName
 ==============================================
@@ -13,6 +16,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getName
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getOid
 =============================================
 
@@ -24,6 +30,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getOid
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getMustContain
 =====================================================
@@ -37,6 +46,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getMustContain
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getMayContain
 ====================================================
 
@@ -48,6 +60,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getMayContain
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getDescription
 =====================================================
@@ -61,6 +76,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getDescription
 
 
 
+Function
+********
+
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getType
 ==============================================
 
@@ -72,6 +90,9 @@ Zend\\Ldap\\Node\\Schema\\ObjectClass\\getType
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Ldap\\Node\\Schema\\ObjectClass\\getParentClasses
 =======================================================

@@ -1,14 +1,17 @@
-.. XmlRpc/Value/AbstractScalar.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Value/AbstractScalar.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Value\\AbstractScalar
 ===================================
 
 Methods
-+++++++
+-------
 
 _generateXml
-------------
+++++++++++++
 
 .. function:: _generateXml()
 

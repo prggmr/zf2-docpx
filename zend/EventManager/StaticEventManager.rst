@@ -1,5 +1,8 @@
-.. EventManager/StaticEventManager.php generated using docpx on 01/30/13 03:32am
+.. EventManager/StaticEventManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\StaticEventManager
 ======================================
@@ -7,10 +10,10 @@ Zend\\EventManager\\StaticEventManager
 Static version of EventManager
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -34,7 +37,7 @@ __clone
 
 
 getInstance
------------
++++++++++++
 
 .. function:: getInstance()
 
@@ -46,7 +49,7 @@ getInstance
 
 
 setInstance
------------
++++++++++++
 
 .. function:: setInstance()
 
@@ -60,7 +63,7 @@ setInstance
 
 
 hasInstance
------------
++++++++++++
 
 .. function:: hasInstance()
 
@@ -72,7 +75,7 @@ hasInstance
 
 
 resetInstance
--------------
++++++++++++++
 
 .. function:: resetInstance()
 

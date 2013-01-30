@@ -1,5 +1,8 @@
-.. Db/Adapter/Driver/ResultInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/ResultInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\buffer
 =================================
@@ -13,6 +16,9 @@ Zend\\Db\\Adapter\\Driver\\buffer
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\isBuffered
 =====================================
 
@@ -24,6 +30,9 @@ Zend\\Db\\Adapter\\Driver\\isBuffered
     :rtype: bool|null 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\isQueryResult
 ========================================
@@ -37,6 +46,9 @@ Zend\\Db\\Adapter\\Driver\\isQueryResult
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getAffectedRows
 ==========================================
 
@@ -48,6 +60,9 @@ Zend\\Db\\Adapter\\Driver\\getAffectedRows
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\getGeneratedValue
 ============================================
@@ -61,6 +76,9 @@ Zend\\Db\\Adapter\\Driver\\getGeneratedValue
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getResource
 ======================================
 
@@ -72,6 +90,9 @@ Zend\\Db\\Adapter\\Driver\\getResource
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\getFieldCount
 ========================================

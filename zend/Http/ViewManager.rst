@@ -1,5 +1,8 @@
-.. Mvc/View/Http/ViewManager.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/ViewManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\ViewManager
 ==================================
@@ -26,10 +29,10 @@ Defines and manages the following services:
 - ViewModel
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -43,7 +46,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -57,7 +60,7 @@ detach
 
 
 onBootstrap
------------
++++++++++++
 
 .. function:: onBootstrap()
 
@@ -71,7 +74,7 @@ onBootstrap
 
 
 getHelperManager
-----------------
+++++++++++++++++
 
 .. function:: getHelperManager()
 
@@ -83,7 +86,7 @@ getHelperManager
 
 
 getResolver
------------
++++++++++++
 
 .. function:: getResolver()
 
@@ -95,7 +98,7 @@ getResolver
 
 
 getRenderer
------------
++++++++++++
 
 .. function:: getRenderer()
 
@@ -107,7 +110,7 @@ getRenderer
 
 
 getRendererStrategy
--------------------
++++++++++++++++++++
 
 .. function:: getRendererStrategy()
 
@@ -119,7 +122,7 @@ getRendererStrategy
 
 
 getView
--------
++++++++
 
 .. function:: getView()
 
@@ -131,7 +134,7 @@ getView
 
 
 getLayoutTemplate
------------------
++++++++++++++++++
 
 .. function:: getLayoutTemplate()
 
@@ -143,7 +146,7 @@ getLayoutTemplate
 
 
 getMvcRenderingStrategy
------------------------
++++++++++++++++++++++++
 
 .. function:: getMvcRenderingStrategy()
 
@@ -155,7 +158,7 @@ getMvcRenderingStrategy
 
 
 getExceptionStrategy
---------------------
+++++++++++++++++++++
 
 .. function:: getExceptionStrategy()
 
@@ -167,7 +170,7 @@ getExceptionStrategy
 
 
 getRouteNotFoundStrategy
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getRouteNotFoundStrategy()
 
@@ -179,7 +182,7 @@ getRouteNotFoundStrategy
 
 
 getViewModel
-------------
+++++++++++++
 
 .. function:: getViewModel()
 
@@ -191,7 +194,7 @@ getViewModel
 
 
 registerMvcRenderingStrategies
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: registerMvcRenderingStrategies()
 
@@ -207,7 +210,7 @@ registerMvcRenderingStrategies
 
 
 registerViewStrategies
-----------------------
+++++++++++++++++++++++
 
 .. function:: registerViewStrategies()
 

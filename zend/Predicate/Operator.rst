@@ -1,14 +1,17 @@
-.. Db/Sql/Predicate/Operator.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/Operator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\Operator
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setLeft
--------
++++++++
 
 .. function:: setLeft()
 
@@ -38,7 +41,7 @@ setLeft
 
 
 getLeft
--------
++++++++
 
 .. function:: getLeft()
 
@@ -50,7 +53,7 @@ getLeft
 
 
 setLeftType
------------
++++++++++++
 
 .. function:: setLeftType()
 
@@ -66,7 +69,7 @@ setLeftType
 
 
 getLeftType
------------
++++++++++++
 
 .. function:: getLeftType()
 
@@ -78,7 +81,7 @@ getLeftType
 
 
 setOperator
------------
++++++++++++
 
 .. function:: setOperator()
 
@@ -92,7 +95,7 @@ setOperator
 
 
 getOperator
------------
++++++++++++
 
 .. function:: getOperator()
 
@@ -104,7 +107,7 @@ getOperator
 
 
 setRight
---------
+++++++++
 
 .. function:: setRight()
 
@@ -118,7 +121,7 @@ setRight
 
 
 getRight
---------
+++++++++
 
 .. function:: getRight()
 
@@ -130,7 +133,7 @@ getRight
 
 
 setRightType
-------------
+++++++++++++
 
 .. function:: setRightType()
 
@@ -146,7 +149,7 @@ setRightType
 
 
 getRightType
-------------
+++++++++++++
 
 .. function:: getRightType()
 
@@ -158,7 +161,7 @@ getRightType
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 
@@ -172,41 +175,41 @@ getExpressionData
 
 
 Constants
-+++++++++
+---------
 
 OPERATOR_EQUAL_TO
-=================
++++++++++++++++++
 
 OP_EQ
-=====
++++++
 
 OPERATOR_NOT_EQUAL_TO
-=====================
++++++++++++++++++++++
 
 OP_NE
-=====
++++++
 
 OPERATOR_LESS_THAN
-==================
+++++++++++++++++++
 
 OP_LT
-=====
++++++
 
 OPERATOR_LESS_THAN_OR_EQUAL_TO
-==============================
+++++++++++++++++++++++++++++++
 
 OP_LTE
-======
+++++++
 
 OPERATOR_GREATER_THAN
-=====================
++++++++++++++++++++++
 
 OP_GT
-=====
++++++
 
 OPERATOR_GREATER_THAN_OR_EQUAL_TO
-=================================
++++++++++++++++++++++++++++++++++
 
 OP_GTE
-======
+++++++
 

@@ -1,14 +1,17 @@
-.. Db/Metadata/Object/TriggerObject.php generated using docpx on 01/30/13 03:32am
+.. Db/Metadata/Object/TriggerObject.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Metadata\\Object\\TriggerObject
 =========================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -20,7 +23,7 @@ getName
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -34,7 +37,7 @@ setName
 
 
 getEventManipulation
---------------------
+++++++++++++++++++++
 
 .. function:: getEventManipulation()
 
@@ -46,7 +49,7 @@ getEventManipulation
 
 
 setEventManipulation
---------------------
+++++++++++++++++++++
 
 .. function:: setEventManipulation()
 
@@ -60,7 +63,7 @@ setEventManipulation
 
 
 getEventObjectCatalog
----------------------
++++++++++++++++++++++
 
 .. function:: getEventObjectCatalog()
 
@@ -72,7 +75,7 @@ getEventObjectCatalog
 
 
 setEventObjectCatalog
----------------------
++++++++++++++++++++++
 
 .. function:: setEventObjectCatalog()
 
@@ -86,7 +89,7 @@ setEventObjectCatalog
 
 
 getEventObjectSchema
---------------------
+++++++++++++++++++++
 
 .. function:: getEventObjectSchema()
 
@@ -98,7 +101,7 @@ getEventObjectSchema
 
 
 setEventObjectSchema
---------------------
+++++++++++++++++++++
 
 .. function:: setEventObjectSchema()
 
@@ -112,7 +115,7 @@ setEventObjectSchema
 
 
 getEventObjectTable
--------------------
++++++++++++++++++++
 
 .. function:: getEventObjectTable()
 
@@ -124,7 +127,7 @@ getEventObjectTable
 
 
 setEventObjectTable
--------------------
++++++++++++++++++++
 
 .. function:: setEventObjectTable()
 
@@ -138,7 +141,7 @@ setEventObjectTable
 
 
 getActionOrder
---------------
+++++++++++++++
 
 .. function:: getActionOrder()
 
@@ -150,7 +153,7 @@ getActionOrder
 
 
 setActionOrder
---------------
+++++++++++++++
 
 .. function:: setActionOrder()
 
@@ -164,7 +167,7 @@ setActionOrder
 
 
 getActionCondition
-------------------
+++++++++++++++++++
 
 .. function:: getActionCondition()
 
@@ -176,7 +179,7 @@ getActionCondition
 
 
 setActionCondition
-------------------
+++++++++++++++++++
 
 .. function:: setActionCondition()
 
@@ -190,7 +193,7 @@ setActionCondition
 
 
 getActionStatement
-------------------
+++++++++++++++++++
 
 .. function:: getActionStatement()
 
@@ -202,7 +205,7 @@ getActionStatement
 
 
 setActionStatement
-------------------
+++++++++++++++++++
 
 .. function:: setActionStatement()
 
@@ -216,7 +219,7 @@ setActionStatement
 
 
 getActionOrientation
---------------------
+++++++++++++++++++++
 
 .. function:: getActionOrientation()
 
@@ -228,7 +231,7 @@ getActionOrientation
 
 
 setActionOrientation
---------------------
+++++++++++++++++++++
 
 .. function:: setActionOrientation()
 
@@ -242,7 +245,7 @@ setActionOrientation
 
 
 getActionTiming
----------------
++++++++++++++++
 
 .. function:: getActionTiming()
 
@@ -254,7 +257,7 @@ getActionTiming
 
 
 setActionTiming
----------------
++++++++++++++++
 
 .. function:: setActionTiming()
 
@@ -268,7 +271,7 @@ setActionTiming
 
 
 getActionReferenceOldTable
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getActionReferenceOldTable()
 
@@ -280,7 +283,7 @@ getActionReferenceOldTable
 
 
 setActionReferenceOldTable
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: setActionReferenceOldTable()
 
@@ -294,7 +297,7 @@ setActionReferenceOldTable
 
 
 getActionReferenceNewTable
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getActionReferenceNewTable()
 
@@ -306,7 +309,7 @@ getActionReferenceNewTable
 
 
 setActionReferenceNewTable
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: setActionReferenceNewTable()
 
@@ -320,7 +323,7 @@ setActionReferenceNewTable
 
 
 getActionReferenceOldRow
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getActionReferenceOldRow()
 
@@ -332,7 +335,7 @@ getActionReferenceOldRow
 
 
 setActionReferenceOldRow
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setActionReferenceOldRow()
 
@@ -346,7 +349,7 @@ setActionReferenceOldRow
 
 
 getActionReferenceNewRow
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getActionReferenceNewRow()
 
@@ -358,7 +361,7 @@ getActionReferenceNewRow
 
 
 setActionReferenceNewRow
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setActionReferenceNewRow()
 
@@ -372,7 +375,7 @@ setActionReferenceNewRow
 
 
 getCreated
-----------
+++++++++++
 
 .. function:: getCreated()
 
@@ -384,7 +387,7 @@ getCreated
 
 
 setCreated
-----------
+++++++++++
 
 .. function:: setCreated()
 

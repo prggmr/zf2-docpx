@@ -1,5 +1,8 @@
-.. Db/Adapter/Driver/DriverInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/DriverInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\getDatabasePlatformName
 ==================================================
@@ -15,6 +18,9 @@ Zend\\Db\\Adapter\\Driver\\getDatabasePlatformName
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\checkEnvironment
 ===========================================
 
@@ -27,6 +33,9 @@ Zend\\Db\\Adapter\\Driver\\checkEnvironment
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getConnection
 ========================================
 
@@ -38,6 +47,9 @@ Zend\\Db\\Adapter\\Driver\\getConnection
     :rtype: ConnectionInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\createStatement
 ==========================================
@@ -53,6 +65,9 @@ Zend\\Db\\Adapter\\Driver\\createStatement
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\createResult
 =======================================
 
@@ -67,6 +82,9 @@ Zend\\Db\\Adapter\\Driver\\createResult
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getPrepareType
 =========================================
 
@@ -78,6 +96,9 @@ Zend\\Db\\Adapter\\Driver\\getPrepareType
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\formatParameterName
 ==============================================
@@ -94,6 +115,9 @@ Zend\\Db\\Adapter\\Driver\\formatParameterName
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getLastGeneratedValue
 ================================================
 
@@ -107,14 +131,14 @@ Zend\\Db\\Adapter\\Driver\\getLastGeneratedValue
 
 
 PARAMETERIZATION_POSITIONAL
-===========================
++++++++++++++++++++++++++++
 
 PARAMETERIZATION_NAMED
-======================
+++++++++++++++++++++++
 
 NAME_FORMAT_CAMELCASE
-=====================
++++++++++++++++++++++
 
 NAME_FORMAT_NATURAL
-===================
++++++++++++++++++++
 

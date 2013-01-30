@@ -1,14 +1,17 @@
-.. Filter/HtmlEntities.php generated using docpx on 01/30/13 03:32am
+.. Filter/HtmlEntities.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\HtmlEntities
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getQuoteStyle
--------------
++++++++++++++
 
 .. function:: getQuoteStyle()
 
@@ -32,7 +35,7 @@ getQuoteStyle
 
 
 setQuoteStyle
--------------
++++++++++++++
 
 .. function:: setQuoteStyle()
 
@@ -46,7 +49,7 @@ setQuoteStyle
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -58,7 +61,7 @@ getEncoding
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -72,7 +75,7 @@ setEncoding
 
 
 getCharSet
-----------
+++++++++++
 
 .. function:: getCharSet()
 
@@ -86,7 +89,7 @@ getCharSet
 
 
 setCharSet
-----------
+++++++++++
 
 .. function:: setCharSet()
 
@@ -102,7 +105,7 @@ setCharSet
 
 
 getDoubleQuote
---------------
+++++++++++++++
 
 .. function:: getDoubleQuote()
 
@@ -114,7 +117,7 @@ getDoubleQuote
 
 
 setDoubleQuote
---------------
+++++++++++++++
 
 .. function:: setDoubleQuote()
 
@@ -128,7 +131,7 @@ setDoubleQuote
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

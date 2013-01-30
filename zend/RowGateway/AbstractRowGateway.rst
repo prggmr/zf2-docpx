@@ -1,14 +1,17 @@
-.. Db/RowGateway/AbstractRowGateway.php generated using docpx on 01/30/13 03:32am
+.. Db/RowGateway/AbstractRowGateway.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\RowGateway\\AbstractRowGateway
 ========================================
 
 Methods
-+++++++
+-------
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -18,7 +21,7 @@ initialize
 
 
 populate
---------
+++++++++
 
 .. function:: populate()
 
@@ -33,7 +36,7 @@ populate
 
 
 exchangeArray
--------------
++++++++++++++
 
 .. function:: exchangeArray()
 
@@ -45,7 +48,7 @@ exchangeArray
 
 
 save
-----
+++++
 
 .. function:: save()
 
@@ -57,7 +60,7 @@ save
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -69,7 +72,7 @@ delete
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -83,7 +86,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -97,7 +100,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -112,7 +115,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -126,7 +129,7 @@ offsetUnset
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -136,7 +139,7 @@ count
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -148,7 +151,7 @@ toArray
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -162,7 +165,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -177,7 +180,7 @@ __set
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -191,7 +194,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -205,7 +208,7 @@ __unset
 
 
 rowExistsInDatabase
--------------------
++++++++++++++++++++
 
 .. function:: rowExistsInDatabase()
 
@@ -215,7 +218,7 @@ rowExistsInDatabase
 
 
 processPrimaryKeyData
----------------------
++++++++++++++++++++++
 
 .. function:: processPrimaryKeyData()
 

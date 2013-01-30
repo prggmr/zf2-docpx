@@ -1,5 +1,8 @@
-.. XmlRpc/Client/ServerProxy.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Client/ServerProxy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Client\\ServerProxy
 =================================
@@ -9,10 +12,10 @@ calling XML-RPC namespaced functions like "foo.bar.baz()"
 as "$remote->foo->bar->baz()".
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -39,7 +42,7 @@ __get
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 

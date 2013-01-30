@@ -1,14 +1,17 @@
-.. Db/Sql/Predicate/Like.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/Like.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\Like
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setIdentifier
--------------
++++++++++++++
 
 .. function:: setIdentifier()
 
@@ -30,7 +33,7 @@ setIdentifier
 
 
 getIdentifier
--------------
++++++++++++++
 
 .. function:: getIdentifier()
 
@@ -40,7 +43,7 @@ getIdentifier
 
 
 setLike
--------
++++++++
 
 .. function:: setLike()
 
@@ -50,7 +53,7 @@ setLike
 
 
 getLike
--------
++++++++
 
 .. function:: getLike()
 
@@ -60,7 +63,7 @@ getLike
 
 
 setSpecification
-----------------
+++++++++++++++++
 
 .. function:: setSpecification()
 
@@ -70,7 +73,7 @@ setSpecification
 
 
 getSpecification
-----------------
+++++++++++++++++
 
 .. function:: getSpecification()
 
@@ -80,7 +83,7 @@ getSpecification
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 

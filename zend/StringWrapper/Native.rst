@@ -1,14 +1,17 @@
-.. Stdlib/StringWrapper/Native.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/StringWrapper/Native.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\StringWrapper\\Native
 ===================================
 
 Methods
-+++++++
+-------
 
 isSupported
------------
++++++++++++
 
 .. function:: isSupported()
 
@@ -22,7 +25,7 @@ isSupported
 
 
 getSupportedEncodings
----------------------
++++++++++++++++++++++
 
 .. function:: getSupportedEncodings()
 
@@ -34,7 +37,7 @@ getSupportedEncodings
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -49,7 +52,7 @@ setEncoding
 
 
 strlen
-------
+++++++
 
 .. function:: strlen()
 
@@ -63,7 +66,7 @@ strlen
 
 
 substr
-------
+++++++
 
 .. function:: substr()
 
@@ -79,7 +82,7 @@ substr
 
 
 strpos
-------
+++++++
 
 .. function:: strpos()
 

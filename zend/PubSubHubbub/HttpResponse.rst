@@ -1,14 +1,17 @@
-.. Feed/PubSubHubbub/HttpResponse.php generated using docpx on 01/30/13 03:32am
+.. Feed/PubSubHubbub/HttpResponse.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\PubSubHubbub\\HttpResponse
 ======================================
 
 Methods
-+++++++
+-------
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -20,7 +23,7 @@ send
 
 
 sendHeaders
------------
++++++++++++
 
 .. function:: sendHeaders()
 
@@ -35,7 +38,7 @@ sendHeaders
 
 
 setHeader
----------
++++++++++
 
 .. function:: setHeader()
 
@@ -54,7 +57,7 @@ setHeader
 
 
 getHeader
----------
++++++++++
 
 .. function:: getHeader()
 
@@ -68,7 +71,7 @@ getHeader
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 
@@ -80,7 +83,7 @@ getHeaders
 
 
 canSendHeaders
---------------
+++++++++++++++
 
 .. function:: canSendHeaders()
 
@@ -96,7 +99,7 @@ canSendHeaders
 
 
 setStatusCode
--------------
++++++++++++++
 
 .. function:: setStatusCode()
 
@@ -112,7 +115,7 @@ setStatusCode
 
 
 getStatusCode
--------------
++++++++++++++
 
 .. function:: getStatusCode()
 
@@ -124,7 +127,7 @@ getStatusCode
 
 
 setContent
-----------
+++++++++++
 
 .. function:: setContent()
 
@@ -138,7 +141,7 @@ setContent
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -150,7 +153,7 @@ getContent
 
 
 _normalizeHeader
-----------------
+++++++++++++++++
 
 .. function:: _normalizeHeader()
 

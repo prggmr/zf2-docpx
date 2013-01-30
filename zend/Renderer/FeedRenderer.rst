@@ -1,5 +1,8 @@
-.. View/Renderer/FeedRenderer.php generated using docpx on 01/30/13 03:32am
+.. View/Renderer/FeedRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Renderer\\FeedRenderer
 ==================================
@@ -7,10 +10,10 @@ Zend\\View\\Renderer\\FeedRenderer
 Interface class for Zend_View compatible template engine implementations
 
 Methods
-+++++++
+-------
 
 getEngine
----------
++++++++++
 
 .. function:: getEngine()
 
@@ -26,7 +29,7 @@ getEngine
 
 
 setResolver
------------
++++++++++++
 
 .. function:: setResolver()
 
@@ -41,7 +44,7 @@ setResolver
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -59,7 +62,7 @@ render
 
 
 setFeedType
------------
++++++++++++
 
 .. function:: setFeedType()
 
@@ -75,7 +78,7 @@ setFeedType
 
 
 getFeedType
------------
++++++++++++
 
 .. function:: getFeedType()
 

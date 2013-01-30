@@ -1,5 +1,8 @@
-.. Barcode/Object/Code128.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/Code128.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Object\\Code128
 ==============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Object\\Code128
 Class for generate Code128 barcode
 
 Methods
-+++++++
+-------
 
 calculateBarcodeWidth
----------------------
++++++++++++++++++++++
 
 .. function:: calculateBarcodeWidth()
 
@@ -22,7 +25,7 @@ calculateBarcodeWidth
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -34,7 +37,7 @@ checkSpecificParams
 
 
 prepareBarcode
---------------
+++++++++++++++
 
 .. function:: prepareBarcode()
 
@@ -46,7 +49,7 @@ prepareBarcode
 
 
 _isDigit
---------
+++++++++
 
 .. function:: _isDigit()
 
@@ -63,7 +66,7 @@ _isDigit
 
 
 convertToBarcodeChars
----------------------
++++++++++++++++++++++
 
 .. function:: convertToBarcodeChars()
 
@@ -77,7 +80,7 @@ convertToBarcodeChars
 
 
 setText
--------
++++++++
 
 .. function:: setText()
 
@@ -91,7 +94,7 @@ setText
 
 
 getText
--------
++++++++
 
 .. function:: getText()
 
@@ -103,7 +106,7 @@ getText
 
 
 getChecksum
------------
++++++++++++
 
 .. function:: getChecksum()
 

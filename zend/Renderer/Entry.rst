@@ -1,5 +1,8 @@
-.. Feed/Writer/Extension/WellFormedWeb/Renderer/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Extension/WellFormedWeb/Renderer/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Extension\\WellFormedWeb\\Renderer\\Entry
 =============================================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Extension\\WellFormedWeb\\Renderer\\Entry
 
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -22,7 +25,7 @@ render
 
 
 _appendNamespaces
------------------
++++++++++++++++++
 
 .. function:: _appendNamespaces()
 
@@ -34,7 +37,7 @@ _appendNamespaces
 
 
 _setCommentFeedLinks
---------------------
+++++++++++++++++++++
 
 .. function:: _setCommentFeedLinks()
 

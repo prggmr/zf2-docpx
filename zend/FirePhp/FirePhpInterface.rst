@@ -1,5 +1,8 @@
-.. Log/Writer/FirePhp/FirePhpInterface.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/FirePhp/FirePhpInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Log\\Writer\\FirePhp\\getEnabled
 ======================================
@@ -13,6 +16,9 @@ Zend\\Log\\Writer\\FirePhp\\getEnabled
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\FirePhp\\error
 =================================
 
@@ -24,6 +30,9 @@ Zend\\Log\\Writer\\FirePhp\\error
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Log\\Writer\\FirePhp\\warn
 ================================
@@ -37,6 +46,9 @@ Zend\\Log\\Writer\\FirePhp\\warn
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\FirePhp\\info
 ================================
 
@@ -49,6 +61,9 @@ Zend\\Log\\Writer\\FirePhp\\info
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\FirePhp\\trace
 =================================
 
@@ -60,6 +75,9 @@ Zend\\Log\\Writer\\FirePhp\\trace
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Log\\Writer\\FirePhp\\log
 ===============================

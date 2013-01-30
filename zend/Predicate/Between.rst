@@ -1,14 +1,17 @@
-.. Db/Sql/Predicate/Between.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/Between.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\Between
 =================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setIdentifier
--------------
++++++++++++++
 
 .. function:: setIdentifier()
 
@@ -36,7 +39,7 @@ setIdentifier
 
 
 getIdentifier
--------------
++++++++++++++
 
 .. function:: getIdentifier()
 
@@ -48,7 +51,7 @@ getIdentifier
 
 
 setMinValue
------------
++++++++++++
 
 .. function:: setMinValue()
 
@@ -62,7 +65,7 @@ setMinValue
 
 
 getMinValue
------------
++++++++++++
 
 .. function:: getMinValue()
 
@@ -74,7 +77,7 @@ getMinValue
 
 
 setMaxValue
------------
++++++++++++
 
 .. function:: setMaxValue()
 
@@ -88,7 +91,7 @@ setMaxValue
 
 
 getMaxValue
------------
++++++++++++
 
 .. function:: getMaxValue()
 
@@ -100,7 +103,7 @@ getMaxValue
 
 
 setSpecification
-----------------
+++++++++++++++++
 
 .. function:: setSpecification()
 
@@ -114,7 +117,7 @@ setSpecification
 
 
 getSpecification
-----------------
+++++++++++++++++
 
 .. function:: getSpecification()
 
@@ -126,7 +129,7 @@ getSpecification
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 

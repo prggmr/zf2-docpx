@@ -1,14 +1,17 @@
-.. Tag/Cloud.php generated using docpx on 01/30/13 03:32am
+.. Tag/Cloud.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Cloud
 ================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -34,7 +37,7 @@ setOptions
 
 
 setTags
--------
++++++++
 
 .. function:: setTags()
 
@@ -56,7 +59,7 @@ setTags
 
 
 appendTag
----------
++++++++++
 
 .. function:: appendTag()
 
@@ -72,7 +75,7 @@ appendTag
 
 
 setItemList
------------
++++++++++++
 
 .. function:: setItemList()
 
@@ -86,7 +89,7 @@ setItemList
 
 
 getItemList
------------
++++++++++++
 
 .. function:: getItemList()
 
@@ -100,7 +103,7 @@ getItemList
 
 
 setCloudDecorator
------------------
++++++++++++++++++
 
 .. function:: setCloudDecorator()
 
@@ -116,7 +119,7 @@ setCloudDecorator
 
 
 getCloudDecorator
------------------
++++++++++++++++++
 
 .. function:: getCloudDecorator()
 
@@ -128,7 +131,7 @@ getCloudDecorator
 
 
 setTagDecorator
----------------
++++++++++++++++
 
 .. function:: setTagDecorator()
 
@@ -144,7 +147,7 @@ setTagDecorator
 
 
 getTagDecorator
----------------
++++++++++++++++
 
 .. function:: getTagDecorator()
 
@@ -156,7 +159,7 @@ getTagDecorator
 
 
 setDecoratorPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setDecoratorPluginManager()
 
@@ -170,7 +173,7 @@ setDecoratorPluginManager
 
 
 getDecoratorPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getDecoratorPluginManager()
 
@@ -182,7 +185,7 @@ getDecoratorPluginManager
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -194,7 +197,7 @@ render
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

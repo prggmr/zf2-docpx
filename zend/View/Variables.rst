@@ -1,5 +1,8 @@
-.. View/Variables.php generated using docpx on 01/30/13 03:32am
+.. View/Variables.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Variables
 =====================
@@ -7,10 +10,10 @@ Zend\\View\\Variables
 Abstract class for Zend_View to help enforce private constructs.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -37,7 +40,7 @@ setOptions
 
 
 setStrictVars
--------------
++++++++++++++
 
 .. function:: setStrictVars()
 
@@ -51,7 +54,7 @@ setStrictVars
 
 
 isStrict
---------
+++++++++
 
 .. function:: isStrict()
 
@@ -63,7 +66,7 @@ isStrict
 
 
 assign
-------
+++++++
 
 .. function:: assign()
 
@@ -79,7 +82,7 @@ assign
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -98,7 +101,7 @@ offsetGet
 
 
 clear
------
++++++
 
 .. function:: clear()
 

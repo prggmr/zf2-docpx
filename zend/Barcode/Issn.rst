@@ -1,14 +1,17 @@
-.. Validator/Barcode/Issn.php generated using docpx on 01/30/13 03:32am
+.. Validator/Barcode/Issn.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Barcode\\Issn
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 hasValidCharacters
-------------------
+++++++++++++++++++
 
 .. function:: hasValidCharacters()
 
@@ -32,7 +35,7 @@ hasValidCharacters
 
 
 hasValidChecksum
-----------------
+++++++++++++++++
 
 .. function:: hasValidChecksum()
 
@@ -46,7 +49,7 @@ hasValidChecksum
 
 
 issn
-----
+++++
 
 .. function:: issn()
 

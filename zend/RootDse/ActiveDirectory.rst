@@ -1,5 +1,8 @@
-.. Ldap/Node/RootDse/ActiveDirectory.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/RootDse/ActiveDirectory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\RootDse\\ActiveDirectory
 ==========================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\RootDse\ActiveDirectory provides a simple data-container for
 the RootDse node of an Active Directory server.
 
 Methods
-+++++++
+-------
 
 getConfigurationNamingContext
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: getConfigurationNamingContext()
 
@@ -23,7 +26,7 @@ getConfigurationNamingContext
 
 
 getCurrentTime
---------------
+++++++++++++++
 
 .. function:: getCurrentTime()
 
@@ -35,7 +38,7 @@ getCurrentTime
 
 
 getDefaultNamingContext
------------------------
++++++++++++++++++++++++
 
 .. function:: getDefaultNamingContext()
 
@@ -47,7 +50,7 @@ getDefaultNamingContext
 
 
 getDnsHostName
---------------
+++++++++++++++
 
 .. function:: getDnsHostName()
 
@@ -59,7 +62,7 @@ getDnsHostName
 
 
 getDomainControllerFunctionality
---------------------------------
+++++++++++++++++++++++++++++++++
 
 .. function:: getDomainControllerFunctionality()
 
@@ -71,7 +74,7 @@ getDomainControllerFunctionality
 
 
 getDomainFunctionality
-----------------------
+++++++++++++++++++++++
 
 .. function:: getDomainFunctionality()
 
@@ -83,7 +86,7 @@ getDomainFunctionality
 
 
 getDsServiceName
-----------------
+++++++++++++++++
 
 .. function:: getDsServiceName()
 
@@ -95,7 +98,7 @@ getDsServiceName
 
 
 getForestFunctionality
-----------------------
+++++++++++++++++++++++
 
 .. function:: getForestFunctionality()
 
@@ -107,7 +110,7 @@ getForestFunctionality
 
 
 getHighestCommittedUSN
-----------------------
+++++++++++++++++++++++
 
 .. function:: getHighestCommittedUSN()
 
@@ -119,7 +122,7 @@ getHighestCommittedUSN
 
 
 getIsGlobalCatalogReady
------------------------
++++++++++++++++++++++++
 
 .. function:: getIsGlobalCatalogReady()
 
@@ -131,7 +134,7 @@ getIsGlobalCatalogReady
 
 
 getIsSynchronized
------------------
++++++++++++++++++
 
 .. function:: getIsSynchronized()
 
@@ -143,7 +146,7 @@ getIsSynchronized
 
 
 getLDAPServiceName
-------------------
+++++++++++++++++++
 
 .. function:: getLDAPServiceName()
 
@@ -155,7 +158,7 @@ getLDAPServiceName
 
 
 getRootDomainNamingContext
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: getRootDomainNamingContext()
 
@@ -167,7 +170,7 @@ getRootDomainNamingContext
 
 
 getSchemaNamingContext
-----------------------
+++++++++++++++++++++++
 
 .. function:: getSchemaNamingContext()
 
@@ -179,7 +182,7 @@ getSchemaNamingContext
 
 
 getServerName
--------------
++++++++++++++
 
 .. function:: getServerName()
 
@@ -191,7 +194,7 @@ getServerName
 
 
 supportsCapability
-------------------
+++++++++++++++++++
 
 .. function:: supportsCapability()
 
@@ -205,7 +208,7 @@ supportsCapability
 
 
 supportsControl
----------------
++++++++++++++++
 
 .. function:: supportsControl()
 
@@ -219,7 +222,7 @@ supportsControl
 
 
 supportsPolicy
---------------
+++++++++++++++
 
 .. function:: supportsPolicy()
 
@@ -233,7 +236,7 @@ supportsPolicy
 
 
 getServerType
--------------
++++++++++++++
 
 .. function:: getServerType()
 
@@ -245,7 +248,7 @@ getServerType
 
 
 getSchemaDn
------------
++++++++++++
 
 .. function:: getSchemaDn()
 

@@ -1,5 +1,8 @@
-.. Mvc/Router/PriorityList.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/PriorityList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\PriorityList
 ===============================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\PriorityList
 Priority list
 
 Methods
-+++++++
+-------
 
 insert
-------
+++++++
 
 .. function:: insert()
 
@@ -26,7 +29,7 @@ insert
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -40,7 +43,7 @@ remove
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -52,7 +55,7 @@ clear
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -66,7 +69,7 @@ get
 
 
 sort
-----
+++++
 
 .. function:: sort()
 
@@ -78,7 +81,7 @@ sort
 
 
 compare
--------
++++++++
 
 .. function:: compare()
 
@@ -93,7 +96,7 @@ compare
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -106,7 +109,7 @@ rewind
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -119,7 +122,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -132,7 +135,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -145,7 +148,7 @@ next
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -158,7 +161,7 @@ valid
 
 
 count
------
++++++
 
 .. function:: count()
 

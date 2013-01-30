@@ -1,14 +1,17 @@
-.. Db/Sql/Expression.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Expression.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Expression
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setExpression
--------------
++++++++++++++
 
 .. function:: setExpression()
 
@@ -35,7 +38,7 @@ setExpression
 
 
 getExpression
--------------
++++++++++++++
 
 .. function:: getExpression()
 
@@ -45,7 +48,7 @@ getExpression
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -59,7 +62,7 @@ setParameters
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -69,7 +72,7 @@ getParameters
 
 
 setTypes
---------
+++++++++
 
 .. function:: setTypes()
 
@@ -81,7 +84,7 @@ setTypes
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
@@ -91,7 +94,7 @@ getTypes
 
 
 getExpressionData
------------------
++++++++++++++++++
 
 .. function:: getExpressionData()
 
@@ -104,10 +107,10 @@ getExpressionData
 
 
 Constants
-+++++++++
+---------
 
 PLACEHOLDER
-===========
++++++++++++
 
 @const
 

@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormButton.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormButton.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormButton
 ====================================
 
 Methods
-+++++++
+-------
 
 openTag
--------
++++++++
 
 .. function:: openTag()
 
@@ -25,7 +28,7 @@ openTag
 
 
 closeTag
---------
+++++++++
 
 .. function:: closeTag()
 
@@ -37,7 +40,7 @@ closeTag
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -55,7 +58,7 @@ render
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -72,7 +75,7 @@ __invoke
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 

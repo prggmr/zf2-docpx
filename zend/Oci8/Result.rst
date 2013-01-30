@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Oci8/Result.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Oci8/Result.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Oci8\\Result
 =======================================
 
 Methods
-+++++++
+-------
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -23,7 +26,7 @@ initialize
 
 
 buffer
-------
+++++++
 
 .. function:: buffer()
 
@@ -36,7 +39,7 @@ buffer
 
 
 isBuffered
-----------
+++++++++++
 
 .. function:: isBuffered()
 
@@ -48,7 +51,7 @@ isBuffered
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -60,7 +63,7 @@ getResource
 
 
 isQueryResult
--------------
++++++++++++++
 
 .. function:: isQueryResult()
 
@@ -72,7 +75,7 @@ isQueryResult
 
 
 getAffectedRows
----------------
++++++++++++++++
 
 .. function:: getAffectedRows()
 
@@ -84,7 +87,7 @@ getAffectedRows
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -96,7 +99,7 @@ current
 
 
 loadData
---------
+++++++++
 
 .. function:: loadData()
 
@@ -108,7 +111,7 @@ loadData
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -118,7 +121,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -130,7 +133,7 @@ key
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -140,7 +143,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -152,7 +155,7 @@ valid
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -164,7 +167,7 @@ count
 
 
 getFieldCount
--------------
++++++++++++++
 
 .. function:: getFieldCount()
 
@@ -174,7 +177,7 @@ getFieldCount
 
 
 getGeneratedValue
------------------
++++++++++++++++++
 
 .. function:: getGeneratedValue()
 

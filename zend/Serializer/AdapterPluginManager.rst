@@ -1,5 +1,8 @@
-.. Serializer/AdapterPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Serializer/AdapterPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Serializer\\AdapterPluginManager
 ======================================
@@ -11,10 +14,10 @@ Adapter\AdapterInterface. Additionally, it registers a number of default
 adapters available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

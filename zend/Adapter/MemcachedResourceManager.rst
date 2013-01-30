@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/MemcachedResourceManager.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/MemcachedResourceManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\MemcachedResourceManager
 =======================================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\MemcachedResourceManager
 This is a resource manager for memcached
 
 Methods
-+++++++
+-------
 
 hasResource
------------
++++++++++++
 
 .. function:: hasResource()
 
@@ -24,7 +27,7 @@ hasResource
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -40,7 +43,7 @@ getResource
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -55,7 +58,7 @@ setResource
 
 
 removeResource
---------------
+++++++++++++++
 
 .. function:: removeResource()
 
@@ -69,7 +72,7 @@ removeResource
 
 
 setPersistentId
----------------
++++++++++++++++
 
 .. function:: setPersistentId()
 
@@ -86,7 +89,7 @@ setPersistentId
 
 
 getPersistentId
----------------
++++++++++++++++
 
 .. function:: getPersistentId()
 
@@ -102,7 +105,7 @@ getPersistentId
 
 
 normalizePersistentId
----------------------
++++++++++++++++++++++
 
 .. function:: normalizePersistentId()
 
@@ -114,7 +117,7 @@ normalizePersistentId
 
 
 setLibOptions
--------------
++++++++++++++
 
 .. function:: setLibOptions()
 
@@ -129,7 +132,7 @@ setLibOptions
 
 
 getLibOptions
--------------
++++++++++++++
 
 .. function:: getLibOptions()
 
@@ -145,7 +148,7 @@ getLibOptions
 
 
 setLibOption
-------------
+++++++++++++
 
 .. function:: setLibOption()
 
@@ -161,7 +164,7 @@ setLibOption
 
 
 getLibOption
-------------
+++++++++++++
 
 .. function:: getLibOption()
 
@@ -178,7 +181,7 @@ getLibOption
 
 
 normalizeLibOptions
--------------------
++++++++++++++++++++
 
 .. function:: normalizeLibOptions()
 
@@ -192,7 +195,7 @@ normalizeLibOptions
 
 
 normalizeLibOptionKey
----------------------
++++++++++++++++++++++
 
 .. function:: normalizeLibOptionKey()
 
@@ -206,7 +209,7 @@ normalizeLibOptionKey
 
 
 setServers
-----------
+++++++++++
 
 .. function:: setServers()
 
@@ -227,7 +230,7 @@ setServers
 
 
 getServers
-----------
+++++++++++
 
 .. function:: getServers()
 
@@ -243,7 +246,7 @@ getServers
 
 
 addServers
-----------
+++++++++++
 
 .. function:: addServers()
 
@@ -258,7 +261,7 @@ addServers
 
 
 addServer
----------
++++++++++
 
 .. function:: addServer()
 
@@ -273,7 +276,7 @@ addServer
 
 
 normalizeServers
-----------------
+++++++++++++++++
 
 .. function:: normalizeServers()
 
@@ -286,7 +289,7 @@ normalizeServers
 
 
 normalizeServer
----------------
++++++++++++++++
 
 .. function:: normalizeServer()
 
@@ -301,7 +304,7 @@ normalizeServer
 
 
 compareServers
---------------
+++++++++++++++
 
 .. function:: compareServers()
 

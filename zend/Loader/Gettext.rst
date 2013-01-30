@@ -1,5 +1,8 @@
-.. I18n/Translator/Loader/Gettext.php generated using docpx on 01/30/13 03:32am
+.. I18n/Translator/Loader/Gettext.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\Translator\\Loader\\Gettext
 =======================================
@@ -7,10 +10,10 @@ Zend\\I18n\\Translator\\Loader\\Gettext
 Gettext loader.
 
 Methods
-+++++++
+-------
 
 load
-----
+++++
 
 .. function:: load()
 
@@ -28,7 +31,7 @@ load
 
 
 readInteger
------------
++++++++++++
 
 .. function:: readInteger()
 
@@ -40,7 +43,7 @@ readInteger
 
 
 readIntegerList
----------------
++++++++++++++++
 
 .. function:: readIntegerList()
 

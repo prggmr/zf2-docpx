@@ -1,14 +1,17 @@
-.. Filter/Word/SeparatorToSeparator.php generated using docpx on 01/30/13 03:32am
+.. Filter/Word/SeparatorToSeparator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Word\\SeparatorToSeparator
 ========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setSearchSeparator
-------------------
+++++++++++++++++++
 
 .. function:: setSearchSeparator()
 
@@ -35,7 +38,7 @@ setSearchSeparator
 
 
 getSearchSeparator
-------------------
+++++++++++++++++++
 
 .. function:: getSearchSeparator()
 
@@ -47,7 +50,7 @@ getSearchSeparator
 
 
 setReplacementSeparator
------------------------
++++++++++++++++++++++++
 
 .. function:: setReplacementSeparator()
 
@@ -61,7 +64,7 @@ setReplacementSeparator
 
 
 getReplacementSeparator
------------------------
++++++++++++++++++++++++
 
 .. function:: getReplacementSeparator()
 
@@ -73,7 +76,7 @@ getReplacementSeparator
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

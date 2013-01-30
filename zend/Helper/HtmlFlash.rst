@@ -1,14 +1,17 @@
-.. View/Helper/HtmlFlash.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HtmlFlash.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HtmlFlash
 =============================
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -27,10 +30,10 @@ __invoke
 
 
 Constants
-+++++++++
+---------
 
 TYPE
-====
+++++
 
 Default file type for a flash applet
 

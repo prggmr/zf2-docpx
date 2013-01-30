@@ -1,14 +1,17 @@
-.. Validator/ValidatorChain.php generated using docpx on 01/30/13 03:32am
+.. Validator/ValidatorChain.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\ValidatorChain
 ===============================
 
 Methods
-+++++++
+-------
 
 count
------
++++++
 
 .. function:: count()
 
@@ -20,7 +23,7 @@ count
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -32,7 +35,7 @@ getPluginManager
 
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -46,7 +49,7 @@ setPluginManager
 
 
 plugin
-------
+++++++
 
 .. function:: plugin()
 
@@ -61,7 +64,7 @@ plugin
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -79,7 +82,7 @@ attach
 
 
 addValidator
-------------
+++++++++++++
 
 .. function:: addValidator()
 
@@ -95,7 +98,7 @@ addValidator
 
 
 prependValidator
-----------------
+++++++++++++++++
 
 .. function:: prependValidator()
 
@@ -113,7 +116,7 @@ prependValidator
 
 
 attachByName
-------------
+++++++++++++
 
 .. function:: attachByName()
 
@@ -129,7 +132,7 @@ attachByName
 
 
 addByName
----------
++++++++++
 
 .. function:: addByName()
 
@@ -146,7 +149,7 @@ addByName
 
 
 prependByName
--------------
++++++++++++++
 
 .. function:: prependByName()
 
@@ -162,7 +165,7 @@ prependByName
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -179,7 +182,7 @@ isValid
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -193,7 +196,7 @@ merge
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -205,7 +208,7 @@ getMessages
 
 
 getValidators
--------------
++++++++++++++
 
 .. function:: getValidators()
 
@@ -217,7 +220,7 @@ getValidators
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -231,7 +234,7 @@ __invoke
 
 
 __sleep
--------
++++++++
 
 .. function:: __sleep()
 

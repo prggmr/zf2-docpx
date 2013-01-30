@@ -1,5 +1,8 @@
-.. Barcode/Renderer/Image.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Renderer/Image.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Renderer\\Image
 ==============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Renderer\\Image
 Class for rendering the barcode as image
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setHeight
----------
++++++++++
 
 .. function:: setHeight()
 
@@ -40,7 +43,7 @@ setHeight
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -52,7 +55,7 @@ getHeight
 
 
 setWidth
---------
+++++++++
 
 .. function:: setWidth()
 
@@ -68,7 +71,7 @@ setWidth
 
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -80,7 +83,7 @@ getWidth
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -96,7 +99,7 @@ setResource
 
 
 setImageType
-------------
+++++++++++++
 
 .. function:: setImageType()
 
@@ -112,7 +115,7 @@ setImageType
 
 
 getImageType
-------------
+++++++++++++
 
 .. function:: getImageType()
 
@@ -124,7 +127,7 @@ getImageType
 
 
 initRenderer
-------------
+++++++++++++
 
 .. function:: initRenderer()
 
@@ -136,7 +139,7 @@ initRenderer
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -148,7 +151,7 @@ checkSpecificParams
 
 
 checkDimensions
----------------
++++++++++++++++
 
 .. function:: checkDimensions()
 
@@ -161,7 +164,7 @@ checkDimensions
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -173,7 +176,7 @@ render
 
 
 drawPolygon
------------
++++++++++++
 
 .. function:: drawPolygon()
 
@@ -187,7 +190,7 @@ drawPolygon
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 

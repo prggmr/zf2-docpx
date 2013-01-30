@@ -1,5 +1,8 @@
-.. Mvc/Router/Http/Segment.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/Http/Segment.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\Http\\Segment
 ================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\Http\\Segment
 Segment route.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -41,7 +44,7 @@ factory
 
 
 parseRouteDefinition
---------------------
+++++++++++++++++++++
 
 .. function:: parseRouteDefinition()
 
@@ -57,7 +60,7 @@ parseRouteDefinition
 
 
 buildRegex
-----------
+++++++++++
 
 .. function:: buildRegex()
 
@@ -75,7 +78,7 @@ buildRegex
 
 
 buildPath
----------
++++++++++
 
 .. function:: buildPath()
 
@@ -95,7 +98,7 @@ buildPath
 
 
 match
------
++++++
 
 .. function:: match()
 
@@ -111,7 +114,7 @@ match
 
 
 assemble
---------
+++++++++
 
 .. function:: assemble()
 
@@ -127,7 +130,7 @@ assemble
 
 
 getAssembledParams
-------------------
+++++++++++++++++++
 
 .. function:: getAssembledParams()
 
@@ -140,7 +143,7 @@ getAssembledParams
 
 
 encode
-------
+++++++
 
 .. function:: encode()
 
@@ -154,7 +157,7 @@ encode
 
 
 decode
-------
+++++++
 
 .. function:: decode()
 

@@ -1,14 +1,17 @@
-.. Mail/Storage/Folder/Maildir.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Folder/Maildir.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Folder\\Maildir
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 _buildFolderTree
-----------------
+++++++++++++++++
 
 .. function:: _buildFolderTree()
 
@@ -40,7 +43,7 @@ _buildFolderTree
 
 
 getFolders
-----------
+++++++++++
 
 .. function:: getFolders()
 
@@ -56,7 +59,7 @@ getFolders
 
 
 selectFolder
-------------
+++++++++++++
 
 .. function:: selectFolder()
 
@@ -72,7 +75,7 @@ selectFolder
 
 
 getCurrentFolder
-----------------
+++++++++++++++++
 
 .. function:: getCurrentFolder()
 

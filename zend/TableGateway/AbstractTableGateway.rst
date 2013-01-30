@@ -1,5 +1,8 @@
-.. Db/TableGateway/AbstractTableGateway.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/AbstractTableGateway.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\AbstractTableGateway
 ============================================
@@ -7,10 +10,10 @@ Zend\\Db\\TableGateway\\AbstractTableGateway
 @property AdapterInterface $adapter
 
 Methods
-+++++++
+-------
 
 isInitialized
--------------
++++++++++++++
 
 .. function:: isInitialized()
 
@@ -20,7 +23,7 @@ isInitialized
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -33,7 +36,7 @@ initialize
 
 
 getTable
---------
+++++++++
 
 .. function:: getTable()
 
@@ -45,7 +48,7 @@ getTable
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -57,7 +60,7 @@ getAdapter
 
 
 getColumns
-----------
+++++++++++
 
 .. function:: getColumns()
 
@@ -67,7 +70,7 @@ getColumns
 
 
 getFeatureSet
--------------
++++++++++++++
 
 .. function:: getFeatureSet()
 
@@ -77,7 +80,7 @@ getFeatureSet
 
 
 getResultSetPrototype
----------------------
++++++++++++++++++++++
 
 .. function:: getResultSetPrototype()
 
@@ -89,7 +92,7 @@ getResultSetPrototype
 
 
 getSql
-------
+++++++
 
 .. function:: getSql()
 
@@ -99,7 +102,7 @@ getSql
 
 
 select
-------
+++++++
 
 .. function:: select()
 
@@ -113,7 +116,7 @@ select
 
 
 selectWith
-----------
+++++++++++
 
 .. function:: selectWith()
 
@@ -127,7 +130,7 @@ selectWith
 
 
 executeSelect
--------------
++++++++++++++
 
 .. function:: executeSelect()
 
@@ -141,7 +144,7 @@ executeSelect
 
 
 insert
-------
+++++++
 
 .. function:: insert()
 
@@ -155,7 +158,7 @@ insert
 
 
 insertWith
-----------
+++++++++++
 
 .. function:: insertWith()
 
@@ -167,7 +170,7 @@ insertWith
 
 
 executeInsert
--------------
++++++++++++++
 
 .. function:: executeInsert()
 
@@ -183,7 +186,7 @@ executeInsert
 
 
 update
-------
+++++++
 
 .. function:: update()
 
@@ -198,7 +201,7 @@ update
 
 
 updateWith
-----------
+++++++++++
 
 .. function:: updateWith()
 
@@ -210,7 +213,7 @@ updateWith
 
 
 executeUpdate
--------------
++++++++++++++
 
 .. function:: executeUpdate()
 
@@ -226,7 +229,7 @@ executeUpdate
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -240,7 +243,7 @@ delete
 
 
 deleteWith
-----------
+++++++++++
 
 .. function:: deleteWith()
 
@@ -252,7 +255,7 @@ deleteWith
 
 
 executeDelete
--------------
++++++++++++++
 
 .. function:: executeDelete()
 
@@ -268,7 +271,7 @@ executeDelete
 
 
 getLastInsertValue
-------------------
+++++++++++++++++++
 
 .. function:: getLastInsertValue()
 
@@ -280,7 +283,7 @@ getLastInsertValue
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -296,7 +299,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -312,7 +315,7 @@ __set
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -328,7 +331,7 @@ __call
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

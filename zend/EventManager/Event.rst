@@ -1,5 +1,8 @@
-.. EventManager/Event.php generated using docpx on 01/30/13 03:32am
+.. EventManager/Event.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\Event
 =========================
@@ -10,10 +13,10 @@ Encapsulates the target context and parameters passed, and provides some
 behavior for interacting with the event manager.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ __construct
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -41,7 +44,7 @@ getName
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -55,7 +58,7 @@ getTarget
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -73,7 +76,7 @@ setParams
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -85,7 +88,7 @@ getParams
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 
@@ -102,7 +105,7 @@ getParam
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -116,7 +119,7 @@ setName
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -130,7 +133,7 @@ setTarget
 
 
 setParam
---------
+++++++++
 
 .. function:: setParam()
 
@@ -145,7 +148,7 @@ setParam
 
 
 stopPropagation
----------------
++++++++++++++++
 
 .. function:: stopPropagation()
 
@@ -159,7 +162,7 @@ stopPropagation
 
 
 propagationIsStopped
---------------------
+++++++++++++++++++++
 
 .. function:: propagationIsStopped()
 

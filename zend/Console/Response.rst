@@ -1,14 +1,17 @@
-.. Console/Response.php generated using docpx on 01/30/13 03:32am
+.. Console/Response.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Response
 =======================
 
 Methods
-+++++++
+-------
 
 contentSent
------------
++++++++++++
 
 .. function:: contentSent()
 
@@ -22,7 +25,7 @@ contentSent
 
 
 setErrorLevel
--------------
++++++++++++++
 
 .. function:: setErrorLevel()
 
@@ -36,7 +39,7 @@ setErrorLevel
 
 
 getErrorLevel
--------------
++++++++++++++
 
 .. function:: getErrorLevel()
 
@@ -48,7 +51,7 @@ getErrorLevel
 
 
 sendContent
------------
++++++++++++
 
 .. function:: sendContent()
 
@@ -62,7 +65,7 @@ sendContent
 
 
 send
-----
+++++
 
 .. function:: send()
 

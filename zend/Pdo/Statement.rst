@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pdo/Statement.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pdo/Statement.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Statement
 =========================================
 
 Methods
-+++++++
+-------
 
 setDriver
----------
++++++++++
 
 .. function:: setDriver()
 
@@ -22,7 +25,7 @@ setDriver
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -34,7 +37,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -44,7 +47,7 @@ getProfiler
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -58,7 +61,7 @@ initialize
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -72,7 +75,7 @@ setResource
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -84,7 +87,7 @@ getResource
 
 
 setSql
-------
+++++++
 
 .. function:: setSql()
 
@@ -98,7 +101,7 @@ setSql
 
 
 getSql
-------
+++++++
 
 .. function:: getSql()
 
@@ -110,7 +113,7 @@ getSql
 
 
 setParameterContainer
----------------------
++++++++++++++++++++++
 
 .. function:: setParameterContainer()
 
@@ -122,7 +125,7 @@ setParameterContainer
 
 
 getParameterContainer
----------------------
++++++++++++++++++++++
 
 .. function:: getParameterContainer()
 
@@ -132,7 +135,7 @@ getParameterContainer
 
 
 prepare
--------
++++++++
 
 .. function:: prepare()
 
@@ -143,7 +146,7 @@ prepare
 
 
 isPrepared
-----------
+++++++++++
 
 .. function:: isPrepared()
 
@@ -153,7 +156,7 @@ isPrepared
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 
@@ -166,7 +169,7 @@ execute
 
 
 bindParametersFromContainer
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: bindParametersFromContainer()
 
@@ -176,7 +179,7 @@ bindParametersFromContainer
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

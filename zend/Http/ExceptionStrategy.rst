@@ -1,14 +1,17 @@
-.. Mvc/View/Http/ExceptionStrategy.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/ExceptionStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\ExceptionStrategy
 ========================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 setDisplayExceptions
---------------------
+++++++++++++++++++++
 
 .. function:: setDisplayExceptions()
 
@@ -50,7 +53,7 @@ setDisplayExceptions
 
 
 displayExceptions
------------------
++++++++++++++++++
 
 .. function:: displayExceptions()
 
@@ -62,7 +65,7 @@ displayExceptions
 
 
 setExceptionTemplate
---------------------
+++++++++++++++++++++
 
 .. function:: setExceptionTemplate()
 
@@ -76,7 +79,7 @@ setExceptionTemplate
 
 
 getExceptionTemplate
---------------------
+++++++++++++++++++++
 
 .. function:: getExceptionTemplate()
 
@@ -88,7 +91,7 @@ getExceptionTemplate
 
 
 prepareExceptionViewModel
--------------------------
++++++++++++++++++++++++++
 
 .. function:: prepareExceptionViewModel()
 

@@ -1,5 +1,8 @@
-.. Crypt/Symmetric/Padding/Pkcs7.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Symmetric/Padding/Pkcs7.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Symmetric\\Padding\\Pkcs7
 ======================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Symmetric\\Padding\\Pkcs7
 PKCS#7 padding
 
 Methods
-+++++++
+-------
 
 pad
----
++++
 
 .. function:: pad()
 
@@ -25,7 +28,7 @@ pad
 
 
 strip
------
++++++
 
 .. function:: strip()
 

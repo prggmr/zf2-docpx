@@ -1,5 +1,8 @@
-.. Db/Sql/Predicate/Predicate.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Predicate/Predicate.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Predicate\\Predicate
 ===================================
@@ -7,10 +10,10 @@ Zend\\Db\\Sql\\Predicate\\Predicate
 @property Predicate $and
 
 Methods
-+++++++
+-------
 
 nest
-----
+++++
 
 .. function:: nest()
 
@@ -22,7 +25,7 @@ nest
 
 
 setUnnest
----------
++++++++++
 
 .. function:: setUnnest()
 
@@ -36,7 +39,7 @@ setUnnest
 
 
 unnest
-------
+++++++
 
 .. function:: unnest()
 
@@ -50,7 +53,7 @@ unnest
 
 
 equalTo
--------
++++++++
 
 .. function:: equalTo()
 
@@ -69,7 +72,7 @@ equalTo
 
 
 notEqualTo
-----------
+++++++++++
 
 .. function:: notEqualTo()
 
@@ -88,7 +91,7 @@ notEqualTo
 
 
 lessThan
---------
+++++++++
 
 .. function:: lessThan()
 
@@ -107,7 +110,7 @@ lessThan
 
 
 greaterThan
------------
++++++++++++
 
 .. function:: greaterThan()
 
@@ -126,7 +129,7 @@ greaterThan
 
 
 lessThanOrEqualTo
------------------
++++++++++++++++++
 
 .. function:: lessThanOrEqualTo()
 
@@ -145,7 +148,7 @@ lessThanOrEqualTo
 
 
 greaterThanOrEqualTo
---------------------
+++++++++++++++++++++
 
 .. function:: greaterThanOrEqualTo()
 
@@ -164,7 +167,7 @@ greaterThanOrEqualTo
 
 
 like
-----
+++++
 
 .. function:: like()
 
@@ -181,14 +184,14 @@ like
 
 
 expression
-----------
+++++++++++
 
 .. function:: expression()
 
 
 
 literal
--------
++++++++
 
 .. function:: literal()
 
@@ -205,7 +208,7 @@ literal
 
 
 isNull
-------
+++++++
 
 .. function:: isNull()
 
@@ -221,7 +224,7 @@ isNull
 
 
 isNotNull
----------
++++++++++
 
 .. function:: isNotNull()
 
@@ -237,7 +240,7 @@ isNotNull
 
 
 in
---
+++
 
 .. function:: in()
 
@@ -254,7 +257,7 @@ in
 
 
 between
--------
++++++++
 
 .. function:: between()
 
@@ -272,7 +275,7 @@ between
 
 
 __get
------
++++++
 
 .. function:: __get()
 

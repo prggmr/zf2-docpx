@@ -1,14 +1,17 @@
-.. Config/Processor/Token.php generated using docpx on 01/30/13 03:32am
+.. Config/Processor/Token.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Processor\\Token
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 setPrefix
----------
++++++++++
 
 .. function:: setPrefix()
 
@@ -40,7 +43,7 @@ setPrefix
 
 
 getPrefix
----------
++++++++++
 
 .. function:: getPrefix()
 
@@ -50,7 +53,7 @@ getPrefix
 
 
 setSuffix
----------
++++++++++
 
 .. function:: setSuffix()
 
@@ -62,7 +65,7 @@ setSuffix
 
 
 getSuffix
----------
++++++++++
 
 .. function:: getSuffix()
 
@@ -72,7 +75,7 @@ getSuffix
 
 
 setTokens
----------
++++++++++
 
 .. function:: setTokens()
 
@@ -89,7 +92,7 @@ setTokens
 
 
 getTokens
----------
++++++++++
 
 .. function:: getTokens()
 
@@ -101,7 +104,7 @@ getTokens
 
 
 addToken
---------
+++++++++
 
 .. function:: addToken()
 
@@ -118,7 +121,7 @@ addToken
 
 
 setToken
---------
+++++++++
 
 .. function:: setToken()
 
@@ -133,7 +136,7 @@ setToken
 
 
 buildMap
---------
+++++++++
 
 .. function:: buildMap()
 
@@ -143,7 +146,7 @@ buildMap
 
 
 process
--------
++++++++
 
 .. function:: process()
 
@@ -159,7 +162,7 @@ process
 
 
 processValue
-------------
+++++++++++++
 
 .. function:: processValue()
 

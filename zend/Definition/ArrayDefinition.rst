@@ -1,5 +1,8 @@
-.. Di/Definition/ArrayDefinition.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/ArrayDefinition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\ArrayDefinition
 =====================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\ArrayDefinition
 Class definitions based on a given array
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -30,7 +33,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -40,7 +43,7 @@ hasClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -50,7 +53,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -60,7 +63,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -70,7 +73,7 @@ hasMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -80,7 +83,7 @@ hasMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -90,7 +93,7 @@ getMethods
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -100,7 +103,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 
@@ -110,7 +113,7 @@ getMethodParameters
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

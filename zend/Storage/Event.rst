@@ -1,14 +1,17 @@
-.. Cache/Storage/Event.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Event.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Event
 ===========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -40,7 +43,7 @@ setTarget
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -56,7 +59,7 @@ setStorage
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 

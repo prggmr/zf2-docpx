@@ -1,5 +1,8 @@
-.. Text/Table/Column.php generated using docpx on 01/30/13 03:32am
+.. Text/Table/Column.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\Table\\Column
 =========================
@@ -7,10 +10,10 @@ Zend\\Text\\Table\\Column
 Column class for Zend\Text\Table\Row
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setContent
-----------
+++++++++++
 
 .. function:: setContent()
 
@@ -46,7 +49,7 @@ setContent
 
 
 setAlign
---------
+++++++++
 
 .. function:: setAlign()
 
@@ -62,7 +65,7 @@ setAlign
 
 
 setColSpan
-----------
+++++++++++
 
 .. function:: setColSpan()
 
@@ -78,7 +81,7 @@ setColSpan
 
 
 getColSpan
-----------
+++++++++++
 
 .. function:: getColSpan()
 
@@ -90,7 +93,7 @@ getColSpan
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -110,16 +113,16 @@ render
 
 
 Constants
-+++++++++
+---------
 
 ALIGN_LEFT
-==========
+++++++++++
 
 Aligns for columns
 
 ALIGN_CENTER
-============
+++++++++++++
 
 ALIGN_RIGHT
-===========
++++++++++++
 

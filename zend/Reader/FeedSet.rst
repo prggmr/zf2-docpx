@@ -1,5 +1,8 @@
-.. Feed/Reader/FeedSet.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/FeedSet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\FeedSet
 ===========================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\FeedSet
 
 
 Methods
-+++++++
+-------
 
 addLinks
---------
+++++++++
 
 .. function:: addLinks()
 
@@ -34,7 +37,7 @@ addLinks
 
 
 absolutiseUri
--------------
++++++++++++++
 
 .. function:: absolutiseUri()
 
@@ -44,7 +47,7 @@ absolutiseUri
 
 
 canonicalizePath
-----------------
+++++++++++++++++
 
 .. function:: canonicalizePath()
 
@@ -54,7 +57,7 @@ canonicalizePath
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 

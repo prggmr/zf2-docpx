@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/ActiveDirectory.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/ActiveDirectory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema\\ActiveDirectory
 =========================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\Schema\ActiveDirectory provides a simple data-container for the S
 an Active Directory server.
 
 Methods
-+++++++
+-------
 
 parseSchema
------------
++++++++++++
 
 .. function:: parseSchema()
 
@@ -26,7 +29,7 @@ parseSchema
 
 
 getAttributeTypes
------------------
++++++++++++++++++
 
 .. function:: getAttributeTypes()
 
@@ -38,7 +41,7 @@ getAttributeTypes
 
 
 getObjectClasses
-----------------
+++++++++++++++++
 
 .. function:: getObjectClasses()
 

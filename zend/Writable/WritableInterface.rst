@@ -1,5 +1,8 @@
-.. Mail/Storage/Writable/WritableInterface.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Writable/WritableInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Writable\\createFolder
 ===========================================
@@ -19,6 +22,9 @@ Zend\\Mail\\Storage\\Writable\\createFolder
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Writable\\removeFolder
 ===========================================
 
@@ -32,6 +38,9 @@ Zend\\Mail\\Storage\\Writable\\removeFolder
     :throws \Zend\Mail\Storage\Exception\ExceptionInterface: 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Writable\\renameFolder
 ===========================================
@@ -50,6 +59,9 @@ Zend\\Mail\\Storage\\Writable\\renameFolder
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Writable\\appendMessage
 ============================================
 
@@ -66,6 +78,9 @@ Zend\\Mail\\Storage\\Writable\\appendMessage
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Writable\\copyMessage
 ==========================================
 
@@ -81,6 +96,9 @@ Zend\\Mail\\Storage\\Writable\\copyMessage
 
 
 
+Function
+********
+
 Zend\\Mail\\Storage\\Writable\\moveMessage
 ==========================================
 
@@ -95,6 +113,9 @@ Zend\\Mail\\Storage\\Writable\\moveMessage
     :throws \Zend\Mail\Storage\Exception\ExceptionInterface: 
 
 
+
+Function
+********
 
 Zend\\Mail\\Storage\\Writable\\setFlags
 =======================================

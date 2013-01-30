@@ -1,5 +1,8 @@
-.. Console/Getopt.php generated using docpx on 01/30/13 03:32am
+.. Console/Getopt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Getopt
 =====================
@@ -62,10 +65,10 @@ Example:  'abc:' means options '-a', '-b', and '-c'
 are legal, and the latter requires a string parameter.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -90,7 +93,7 @@ __construct
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -110,7 +113,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -124,7 +127,7 @@ __isset
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -139,7 +142,7 @@ __set
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -151,7 +154,7 @@ __toString
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -165,7 +168,7 @@ __unset
 
 
 addArguments
-------------
+++++++++++++
 
 .. function:: addArguments()
 
@@ -182,7 +185,7 @@ addArguments
 
 
 setArguments
-------------
+++++++++++++
 
 .. function:: setArguments()
 
@@ -199,7 +202,7 @@ setArguments
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -215,7 +218,7 @@ setOptions
 
 
 setOption
----------
++++++++++
 
 .. function:: setOption()
 
@@ -232,7 +235,7 @@ setOption
 
 
 addRules
---------
+++++++++
 
 .. function:: addRules()
 
@@ -247,7 +250,7 @@ addRules
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -259,7 +262,7 @@ toString
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -275,7 +278,7 @@ toArray
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -287,7 +290,7 @@ toJson
 
 
 toXml
------
++++++
 
 .. function:: toXml()
 
@@ -299,7 +302,7 @@ toXml
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -311,7 +314,7 @@ getOptions
 
 
 getOption
----------
++++++++++
 
 .. function:: getOption()
 
@@ -329,7 +332,7 @@ getOption
 
 
 getRemainingArgs
-----------------
+++++++++++++++++
 
 .. function:: getRemainingArgs()
 
@@ -341,14 +344,14 @@ getRemainingArgs
 
 
 getArguments
-------------
+++++++++++++
 
 .. function:: getArguments()
 
 
 
 getUsageMessage
----------------
++++++++++++++++
 
 .. function:: getUsageMessage()
 
@@ -364,7 +367,7 @@ getUsageMessage
 
 
 setAliases
-----------
+++++++++++
 
 .. function:: setAliases()
 
@@ -383,7 +386,7 @@ setAliases
 
 
 setHelp
--------
++++++++
 
 .. function:: setHelp()
 
@@ -400,7 +403,7 @@ setHelp
 
 
 parse
------
++++++
 
 .. function:: parse()
 
@@ -416,7 +419,7 @@ parse
 
 
 _parseLongOption
-----------------
+++++++++++++++++
 
 .. function:: _parseLongOption()
 
@@ -432,7 +435,7 @@ _parseLongOption
 
 
 _parseShortOptionCluster
-------------------------
+++++++++++++++++++++++++
 
 .. function:: _parseShortOptionCluster()
 
@@ -448,7 +451,7 @@ _parseShortOptionCluster
 
 
 _parseSingleOption
-------------------
+++++++++++++++++++
 
 .. function:: _parseSingleOption()
 
@@ -465,7 +468,7 @@ _parseSingleOption
 
 
 _setNumericOptionValue
-----------------------
+++++++++++++++++++++++
 
 .. function:: _setNumericOptionValue()
 
@@ -484,7 +487,7 @@ _setNumericOptionValue
 
 
 _setSingleOptionValue
----------------------
++++++++++++++++++++++
 
 .. function:: _setSingleOptionValue()
 
@@ -503,7 +506,7 @@ _setSingleOptionValue
 
 
 _setBooleanFlagValue
---------------------
+++++++++++++++++++++
 
 .. function:: _setBooleanFlagValue()
 
@@ -518,7 +521,7 @@ _setBooleanFlagValue
 
 
 _checkParameterType
--------------------
++++++++++++++++++++
 
 .. function:: _checkParameterType()
 
@@ -537,7 +540,7 @@ _checkParameterType
 
 
 _addRulesModeGnu
-----------------
+++++++++++++++++
 
 .. function:: _addRulesModeGnu()
 
@@ -551,7 +554,7 @@ _addRulesModeGnu
 
 
 _addRulesModeZend
------------------
++++++++++++++++++
 
 .. function:: _addRulesModeZend()
 
@@ -569,41 +572,41 @@ _addRulesModeZend
 
 
 Constants
-+++++++++
+---------
 
 MODE_ZEND
-=========
++++++++++
 
 The options for a given application can be in multiple formats.
 modeGnu is for traditional 'ab:c:' style getopt format.
 modeZend is for a more structured format.
 
 MODE_GNU
-========
+++++++++
 
 PARAM_REQUIRED
-==============
+++++++++++++++
 
 Constant tokens for various symbols used in the mode_zend
 rule format.
 
 PARAM_OPTIONAL
-==============
+++++++++++++++
 
 TYPE_STRING
-===========
++++++++++++
 
 TYPE_WORD
-=========
++++++++++
 
 TYPE_INTEGER
-============
+++++++++++++
 
 TYPE_NUMERIC_FLAG
-=================
++++++++++++++++++
 
 CONFIG_RULEMODE
-===============
++++++++++++++++
 
 These are constants for optional behavior of this class.
 ruleMode is either 'zend' or 'gnu' or a user-defined mode.
@@ -613,26 +616,26 @@ parseAll is true if all options on the command line should be parsed, regardless
 whether an argument appears before them.
 
 CONFIG_DASHDASH
-===============
++++++++++++++++
 
 CONFIG_IGNORECASE
-=================
++++++++++++++++++
 
 CONFIG_PARSEALL
-===============
++++++++++++++++
 
 CONFIG_CUMULATIVE_PARAMETERS
-============================
+++++++++++++++++++++++++++++
 
 CONFIG_CUMULATIVE_FLAGS
-=======================
++++++++++++++++++++++++
 
 CONFIG_PARAMETER_SEPARATOR
-==========================
+++++++++++++++++++++++++++
 
 CONFIG_FREEFORM_FLAGS
-=====================
++++++++++++++++++++++
 
 CONFIG_NUMERIC_FLAGS
-====================
+++++++++++++++++++++
 

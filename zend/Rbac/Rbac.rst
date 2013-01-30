@@ -1,14 +1,17 @@
-.. Permissions/Rbac/Rbac.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Rbac/Rbac.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Rbac\\Rbac
 =============================
 
 Methods
-+++++++
+-------
 
 setCreateMissingRoles
----------------------
++++++++++++++++++++++
 
 .. function:: setCreateMissingRoles()
 
@@ -20,7 +23,7 @@ setCreateMissingRoles
 
 
 getCreateMissingRoles
----------------------
++++++++++++++++++++++
 
 .. function:: getCreateMissingRoles()
 
@@ -30,7 +33,7 @@ getCreateMissingRoles
 
 
 addRole
--------
++++++++
 
 .. function:: addRole()
 
@@ -46,7 +49,7 @@ addRole
 
 
 hasRole
--------
++++++++
 
 .. function:: hasRole()
 
@@ -60,7 +63,7 @@ hasRole
 
 
 getRole
--------
++++++++
 
 .. function:: getRole()
 
@@ -76,7 +79,7 @@ getRole
 
 
 isGranted
----------
++++++++++
 
 .. function:: isGranted()
 

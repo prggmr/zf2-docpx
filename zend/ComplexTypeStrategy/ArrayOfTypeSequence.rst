@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeSequence.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/ArrayOfTypeSequence.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\ArrayOfTypeSequence
 ==========================================================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\ArrayOfTypeSequence
 Zend_Soap_Wsdl_Strategy_ArrayOfTypeSequence
 
 Methods
-+++++++
+-------
 
 addComplexType
---------------
+++++++++++++++
 
 .. function:: addComplexType()
 
@@ -24,7 +27,7 @@ addComplexType
 
 
 _getTypeBasedOnNestingLevel
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: _getTypeBasedOnNestingLevel()
 
@@ -39,7 +42,7 @@ _getTypeBasedOnNestingLevel
 
 
 _getSingularType
-----------------
+++++++++++++++++
 
 .. function:: _getSingularType()
 
@@ -53,7 +56,7 @@ _getSingularType
 
 
 _getNestedCount
----------------
++++++++++++++++
 
 .. function:: _getNestedCount()
 
@@ -67,7 +70,7 @@ _getNestedCount
 
 
 _addSequenceType
-----------------
+++++++++++++++++
 
 .. function:: _addSequenceType()
 

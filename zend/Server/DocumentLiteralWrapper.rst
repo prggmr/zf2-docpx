@@ -1,5 +1,8 @@
-.. Soap/Server/DocumentLiteralWrapper.php generated using docpx on 01/30/13 03:32am
+.. Soap/Server/DocumentLiteralWrapper.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Server\\DocumentLiteralWrapper
 ==========================================
@@ -50,10 +53,10 @@ To keep your service object code free from this implementation detail
 of SOAP this wrapper service handles the parsing between the formats.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -65,7 +68,7 @@ __construct
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -80,7 +83,7 @@ __call
 
 
 _parseArguments
----------------
++++++++++++++++
 
 .. function:: _parseArguments()
 
@@ -98,21 +101,21 @@ _parseArguments
 
 
 _getResultMessage
------------------
++++++++++++++++++
 
 .. function:: _getResultMessage()
 
 
 
 _assertServiceDelegateHasMethod
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: _assertServiceDelegateHasMethod()
 
 
 
 _assertOnlyOneArgument
-----------------------
+++++++++++++++++++++++
 
 .. function:: _assertOnlyOneArgument()
 

@@ -1,14 +1,17 @@
-.. Log/Formatter/ErrorHandler.php generated using docpx on 01/30/13 03:32am
+.. Log/Formatter/ErrorHandler.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Formatter\\ErrorHandler
 ==================================
 
 Methods
-+++++++
+-------
 
 format
-------
+++++++
 
 .. function:: format()
 
@@ -22,7 +25,7 @@ format
 
 
 buildReplacementsFromArray
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: buildReplacementsFromArray()
 
@@ -40,8 +43,8 @@ buildReplacementsFromArray
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_FORMAT
-==============
+++++++++++++++
 

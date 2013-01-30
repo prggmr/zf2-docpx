@@ -1,14 +1,17 @@
-.. Stdlib/Hydrator/Filter/NumberOfParameterFilter.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/Hydrator/Filter/NumberOfParameterFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\Hydrator\\Filter\\NumberOfParameterFilter
 =======================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

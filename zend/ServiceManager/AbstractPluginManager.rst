@@ -1,5 +1,8 @@
-.. ServiceManager/AbstractPluginManager.php generated using docpx on 01/30/13 03:32am
+.. ServiceManager/AbstractPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ServiceManager\\AbstractPluginManager
 ===========================================
@@ -14,10 +17,10 @@ default to allow registering factories, aliases, and invokables to take
 the place of those provided by the implementing class.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -32,7 +35,7 @@ __construct
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 
@@ -51,7 +54,7 @@ validatePlugin
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -71,7 +74,7 @@ get
 
 
 setService
-----------
+++++++++++
 
 .. function:: setService()
 
@@ -92,7 +95,7 @@ setService
 
 
 setServiceLocator
------------------
++++++++++++++++++
 
 .. function:: setServiceLocator()
 
@@ -106,7 +109,7 @@ setServiceLocator
 
 
 getServiceLocator
------------------
++++++++++++++++++
 
 .. function:: getServiceLocator()
 
@@ -118,7 +121,7 @@ getServiceLocator
 
 
 createFromInvokable
--------------------
++++++++++++++++++++
 
 .. function:: createFromInvokable()
 
@@ -138,7 +141,7 @@ createFromInvokable
 
 
 createFromFactory
------------------
++++++++++++++++++
 
 .. function:: createFromFactory()
 

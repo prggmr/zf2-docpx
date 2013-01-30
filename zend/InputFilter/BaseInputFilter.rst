@@ -1,5 +1,8 @@
-.. InputFilter/BaseInputFilter.php generated using docpx on 01/30/13 03:32am
+.. InputFilter/BaseInputFilter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\InputFilter\\BaseInputFilter
 ==================================
@@ -8,10 +11,10 @@ Zend\\InputFilter\\BaseInputFilter
             should a message be returned? if so, what message?
 
 Methods
-+++++++
+-------
 
 count
------
++++++
 
 .. function:: count()
 
@@ -25,7 +28,7 @@ count
 
 
 add
----
++++
 
 .. function:: add()
 
@@ -42,7 +45,7 @@ add
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -58,7 +61,7 @@ get
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -72,7 +75,7 @@ has
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -86,7 +89,7 @@ remove
 
 
 setData
--------
++++++++
 
 .. function:: setData()
 
@@ -102,7 +105,7 @@ setData
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -115,7 +118,7 @@ isValid
 
 
 setValidationGroup
-------------------
+++++++++++++++++++
 
 .. function:: setValidationGroup()
 
@@ -137,7 +140,7 @@ setValidationGroup
 
 
 getInvalidInput
----------------
++++++++++++++++
 
 .. function:: getInvalidInput()
 
@@ -152,7 +155,7 @@ getInvalidInput
 
 
 getValidInput
--------------
++++++++++++++
 
 .. function:: getValidInput()
 
@@ -167,7 +170,7 @@ getValidInput
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -183,7 +186,7 @@ getValue
 
 
 getValues
----------
++++++++++
 
 .. function:: getValues()
 
@@ -198,7 +201,7 @@ getValues
 
 
 getRawValue
------------
++++++++++++
 
 .. function:: getRawValue()
 
@@ -214,7 +217,7 @@ getRawValue
 
 
 getRawValues
-------------
+++++++++++++
 
 .. function:: getRawValues()
 
@@ -229,7 +232,7 @@ getRawValues
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -244,7 +247,7 @@ getMessages
 
 
 validateValidationGroup
------------------------
++++++++++++++++++++++++
 
 .. function:: validateValidationGroup()
 
@@ -260,7 +263,7 @@ validateValidationGroup
 
 
 populate
---------
+++++++++
 
 .. function:: populate()
 
@@ -272,7 +275,7 @@ populate
 
 
 hasUnknown
-----------
+++++++++++
 
 .. function:: hasUnknown()
 
@@ -285,7 +288,7 @@ hasUnknown
 
 
 getUnknown
-----------
+++++++++++
 
 .. function:: getUnknown()
 

@@ -1,5 +1,8 @@
-.. Validator/File/Upload.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Upload.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Upload
 =============================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Upload
 Validator for the maximum size of a file up to a max of 2GB
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 getFiles
---------
+++++++++
 
 .. function:: getFiles()
 
@@ -42,7 +45,7 @@ getFiles
 
 
 setFiles
---------
+++++++++
 
 .. function:: setFiles()
 
@@ -56,7 +59,7 @@ setFiles
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -72,7 +75,7 @@ isValid
 
 
 throwError
-----------
+++++++++++
 
 .. function:: throwError()
 
@@ -89,37 +92,37 @@ throwError
 
 
 Constants
-+++++++++
+---------
 
 INI_SIZE
-========
+++++++++
 
 @const string Error constants
 
 FORM_SIZE
-=========
++++++++++
 
 PARTIAL
-=======
++++++++
 
 NO_FILE
-=======
++++++++
 
 NO_TMP_DIR
-==========
+++++++++++
 
 CANT_WRITE
-==========
+++++++++++
 
 EXTENSION
-=========
++++++++++
 
 ATTACK
-======
+++++++
 
 FILE_NOT_FOUND
-==============
+++++++++++++++
 
 UNKNOWN
-=======
++++++++
 

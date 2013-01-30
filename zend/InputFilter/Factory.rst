@@ -1,14 +1,17 @@
-.. InputFilter/Factory.php generated using docpx on 01/30/13 03:32am
+.. InputFilter/Factory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\InputFilter\\Factory
 ==========================
 
 Methods
-+++++++
+-------
 
 setDefaultFilterChain
----------------------
++++++++++++++++++++++
 
 .. function:: setDefaultFilterChain()
 
@@ -22,7 +25,7 @@ setDefaultFilterChain
 
 
 getDefaultFilterChain
----------------------
++++++++++++++++++++++
 
 .. function:: getDefaultFilterChain()
 
@@ -34,7 +37,7 @@ getDefaultFilterChain
 
 
 clearDefaultFilterChain
------------------------
++++++++++++++++++++++++
 
 .. function:: clearDefaultFilterChain()
 
@@ -46,7 +49,7 @@ clearDefaultFilterChain
 
 
 setDefaultValidatorChain
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setDefaultValidatorChain()
 
@@ -60,7 +63,7 @@ setDefaultValidatorChain
 
 
 getDefaultValidatorChain
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getDefaultValidatorChain()
 
@@ -72,7 +75,7 @@ getDefaultValidatorChain
 
 
 clearDefaultValidatorChain
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: clearDefaultValidatorChain()
 
@@ -84,7 +87,7 @@ clearDefaultValidatorChain
 
 
 createInput
------------
++++++++++++
 
 .. function:: createInput()
 
@@ -101,7 +104,7 @@ createInput
 
 
 createInputFilter
------------------
++++++++++++++++++
 
 .. function:: createInputFilter()
 
@@ -118,14 +121,14 @@ createInputFilter
 
 
 populateFilters
----------------
++++++++++++++++
 
 .. function:: populateFilters()
 
 
 
 populateValidators
-------------------
+++++++++++++++++++
 
 .. function:: populateValidators()
 

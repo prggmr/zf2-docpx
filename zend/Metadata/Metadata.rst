@@ -1,14 +1,17 @@
-.. Db/Metadata/Metadata.php generated using docpx on 01/30/13 03:32am
+.. Db/Metadata/Metadata.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Metadata\\Metadata
 ============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 createSourceFromAdapter
------------------------
++++++++++++++++++++++++
 
 .. function:: createSourceFromAdapter()
 
@@ -34,7 +37,7 @@ createSourceFromAdapter
 
 
 getTables
----------
++++++++++
 
 .. function:: getTables()
 
@@ -49,7 +52,7 @@ getTables
 
 
 getViews
---------
+++++++++
 
 .. function:: getViews()
 
@@ -63,7 +66,7 @@ getViews
 
 
 getTriggers
------------
++++++++++++
 
 .. function:: getTriggers()
 
@@ -77,7 +80,7 @@ getTriggers
 
 
 getConstraints
---------------
+++++++++++++++
 
 .. function:: getConstraints()
 
@@ -92,7 +95,7 @@ getConstraints
 
 
 getColumns
-----------
+++++++++++
 
 .. function:: getColumns()
 
@@ -107,7 +110,7 @@ getColumns
 
 
 getConstraintKeys
------------------
++++++++++++++++++
 
 .. function:: getConstraintKeys()
 
@@ -123,7 +126,7 @@ getConstraintKeys
 
 
 getConstraint
--------------
++++++++++++++
 
 .. function:: getConstraint()
 
@@ -139,7 +142,7 @@ getConstraint
 
 
 getSchemas
-----------
+++++++++++
 
 .. function:: getSchemas()
 
@@ -149,7 +152,7 @@ getSchemas
 
 
 getTableNames
--------------
++++++++++++++
 
 .. function:: getTableNames()
 
@@ -164,7 +167,7 @@ getTableNames
 
 
 getTable
---------
+++++++++
 
 .. function:: getTable()
 
@@ -179,7 +182,7 @@ getTable
 
 
 getViewNames
-------------
+++++++++++++
 
 .. function:: getViewNames()
 
@@ -193,7 +196,7 @@ getViewNames
 
 
 getView
--------
++++++++
 
 .. function:: getView()
 
@@ -208,7 +211,7 @@ getView
 
 
 getTriggerNames
----------------
++++++++++++++++
 
 .. function:: getTriggerNames()
 
@@ -222,7 +225,7 @@ getTriggerNames
 
 
 getTrigger
-----------
+++++++++++
 
 .. function:: getTrigger()
 
@@ -237,7 +240,7 @@ getTrigger
 
 
 getColumnNames
---------------
+++++++++++++++
 
 .. function:: getColumnNames()
 
@@ -252,7 +255,7 @@ getColumnNames
 
 
 getColumn
----------
++++++++++
 
 .. function:: getColumn()
 

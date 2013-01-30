@@ -1,14 +1,17 @@
-.. Loader/AutoloaderFactory.php generated using docpx on 01/30/13 03:32am
+.. Loader/AutoloaderFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Loader\\AutoloaderFactory
 ===============================
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -43,7 +46,7 @@ factory
 
 
 getRegisteredAutoloaders
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getRegisteredAutoloaders()
 
@@ -57,7 +60,7 @@ getRegisteredAutoloaders
 
 
 getRegisteredAutoloader
------------------------
++++++++++++++++++++++++
 
 .. function:: getRegisteredAutoloader()
 
@@ -73,7 +76,7 @@ getRegisteredAutoloader
 
 
 unregisterAutoloaders
----------------------
++++++++++++++++++++++
 
 .. function:: unregisterAutoloaders()
 
@@ -86,7 +89,7 @@ unregisterAutoloaders
 
 
 unregisterAutoloader
---------------------
+++++++++++++++++++++
 
 .. function:: unregisterAutoloader()
 
@@ -100,7 +103,7 @@ unregisterAutoloader
 
 
 getStandardAutoloader
----------------------
++++++++++++++++++++++
 
 .. function:: getStandardAutoloader()
 
@@ -116,7 +119,7 @@ getStandardAutoloader
 
 
 isSubclassOf
-------------
+++++++++++++
 
 .. function:: isSubclassOf()
 
@@ -134,8 +137,8 @@ isSubclassOf
 
 
 Constants
-+++++++++
+---------
 
 STANDARD_AUTOLOADER
-===================
++++++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. Form/Annotation/AbstractAnnotationsListener.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/AbstractAnnotationsListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\AbstractAnnotationsListener
 ===================================================
@@ -14,10 +17,10 @@ discovered via reflection, if no other annotation has provided the name
 already.
 
 Methods
-+++++++
+-------
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -31,7 +34,7 @@ detach
 
 
 handleNameAnnotation
---------------------
+++++++++++++++++++++
 
 .. function:: handleNameAnnotation()
 
@@ -45,7 +48,7 @@ handleNameAnnotation
 
 
 discoverFallbackName
---------------------
+++++++++++++++++++++
 
 .. function:: discoverFallbackName()
 

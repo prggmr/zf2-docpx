@@ -1,5 +1,8 @@
-.. Code/Annotation/Parser/ParserInterface.php generated using docpx on 01/30/13 03:32am
+.. Code/Annotation/Parser/ParserInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Code\\Annotation\\Parser\\onCreateAnnotation
 ==================================================
@@ -15,6 +18,9 @@ Zend\\Code\\Annotation\\Parser\\onCreateAnnotation
 
 
 
+Function
+********
+
 Zend\\Code\\Annotation\\Parser\\registerAnnotation
 ==================================================
 
@@ -28,6 +34,9 @@ Zend\\Code\\Annotation\\Parser\\registerAnnotation
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Code\\Annotation\\Parser\\registerAnnotations
 ===================================================

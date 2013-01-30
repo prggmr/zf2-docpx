@@ -1,14 +1,17 @@
-.. Validator/Callback.php generated using docpx on 01/30/13 03:32am
+.. Validator/Callback.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Callback
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getCallback
------------
++++++++++++
 
 .. function:: getCallback()
 
@@ -32,7 +35,7 @@ getCallback
 
 
 setCallback
------------
++++++++++++
 
 .. function:: setCallback()
 
@@ -48,7 +51,7 @@ setCallback
 
 
 getCallbackOptions
-------------------
+++++++++++++++++++
 
 .. function:: getCallbackOptions()
 
@@ -60,7 +63,7 @@ getCallbackOptions
 
 
 setCallbackOptions
-------------------
+++++++++++++++++++
 
 .. function:: setCallbackOptions()
 
@@ -74,7 +77,7 @@ setCallbackOptions
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -94,15 +97,15 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID_CALLBACK
-================
+++++++++++++++++
 
 Invalid callback
 
 INVALID_VALUE
-=============
++++++++++++++
 
 Invalid value
 

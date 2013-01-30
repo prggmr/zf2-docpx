@@ -1,5 +1,8 @@
-.. Feed/Writer/Renderer/Feed/Rss.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Renderer/Feed/Rss.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\Rss
 =======================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Renderer\\Feed\\Rss
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -34,7 +37,7 @@ render
 
 
 _setLanguage
-------------
+++++++++++++
 
 .. function:: _setLanguage()
 
@@ -49,7 +52,7 @@ _setLanguage
 
 
 _setTitle
----------
++++++++++
 
 .. function:: _setTitle()
 
@@ -66,7 +69,7 @@ _setTitle
 
 
 _setDescription
----------------
++++++++++++++++
 
 .. function:: _setDescription()
 
@@ -83,7 +86,7 @@ _setDescription
 
 
 _setDateModified
-----------------
+++++++++++++++++
 
 .. function:: _setDateModified()
 
@@ -98,7 +101,7 @@ _setDateModified
 
 
 _setGenerator
--------------
++++++++++++++
 
 .. function:: _setGenerator()
 
@@ -113,7 +116,7 @@ _setGenerator
 
 
 _setLink
---------
+++++++++
 
 .. function:: _setLink()
 
@@ -130,7 +133,7 @@ _setLink
 
 
 _setAuthors
------------
++++++++++++
 
 .. function:: _setAuthors()
 
@@ -145,7 +148,7 @@ _setAuthors
 
 
 _setCopyright
--------------
++++++++++++++
 
 .. function:: _setCopyright()
 
@@ -160,7 +163,7 @@ _setCopyright
 
 
 _setImage
----------
++++++++++
 
 .. function:: _setImage()
 
@@ -177,7 +180,7 @@ _setImage
 
 
 _setDateCreated
----------------
++++++++++++++++
 
 .. function:: _setDateCreated()
 
@@ -192,7 +195,7 @@ _setDateCreated
 
 
 _setLastBuildDate
------------------
++++++++++++++++++
 
 .. function:: _setLastBuildDate()
 
@@ -207,7 +210,7 @@ _setLastBuildDate
 
 
 _setBaseUrl
------------
++++++++++++
 
 .. function:: _setBaseUrl()
 
@@ -222,7 +225,7 @@ _setBaseUrl
 
 
 _setCategories
---------------
+++++++++++++++
 
 .. function:: _setCategories()
 

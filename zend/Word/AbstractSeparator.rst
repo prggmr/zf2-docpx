@@ -1,14 +1,17 @@
-.. Filter/Word/AbstractSeparator.php generated using docpx on 01/30/13 03:32am
+.. Filter/Word/AbstractSeparator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Word\\AbstractSeparator
 =====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -36,7 +39,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 

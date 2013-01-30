@@ -1,14 +1,17 @@
-.. Feed/Reader/Entry/AbstractEntry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Entry/AbstractEntry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Entry\\AbstractEntry
 ========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getDomDocument
---------------
+++++++++++++++
 
 .. function:: getDomDocument()
 
@@ -34,7 +37,7 @@ getDomDocument
 
 
 getElement
-----------
+++++++++++
 
 .. function:: getElement()
 
@@ -46,7 +49,7 @@ getElement
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -58,7 +61,7 @@ getEncoding
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -70,7 +73,7 @@ saveXml
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -82,7 +85,7 @@ getType
 
 
 getXpath
---------
+++++++++
 
 .. function:: getXpath()
 
@@ -94,7 +97,7 @@ getXpath
 
 
 setXpath
---------
+++++++++
 
 .. function:: setXpath()
 
@@ -108,7 +111,7 @@ setXpath
 
 
 getExtensions
--------------
++++++++++++++
 
 .. function:: getExtensions()
 
@@ -120,7 +123,7 @@ getExtensions
 
 
 getExtension
-------------
+++++++++++++
 
 .. function:: getExtension()
 
@@ -134,7 +137,7 @@ getExtension
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -151,7 +154,7 @@ __call
 
 
 loadExtensions
---------------
+++++++++++++++
 
 .. function:: loadExtensions()
 

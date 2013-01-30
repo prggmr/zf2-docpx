@@ -1,5 +1,8 @@
-.. Memory/Value.php generated using docpx on 01/30/13 03:32am
+.. Memory/Value.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Memory\\Value
 ===================
@@ -10,10 +13,10 @@ It's an OO string wrapper.
 Used to intercept string updates.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -38,7 +41,7 @@ count
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -53,7 +56,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -68,7 +71,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -82,7 +85,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -95,7 +98,7 @@ offsetUnset
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -107,7 +110,7 @@ __toString
 
 
 getRef
-------
+++++++
 
 .. function:: getRef()
 
@@ -123,7 +126,7 @@ getRef
 
 
 startTrace
-----------
+++++++++++
 
 .. function:: startTrace()
 

@@ -1,5 +1,8 @@
-.. Barcode/Renderer/Svg.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Renderer/Svg.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Barcode\\Renderer\\Svg
 ============================
@@ -7,10 +10,10 @@ Zend\\Barcode\\Renderer\\Svg
 Class for rendering the barcode as svg
 
 Methods
-+++++++
+-------
 
 setHeight
----------
++++++++++
 
 .. function:: setHeight()
 
@@ -26,7 +29,7 @@ setHeight
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -38,7 +41,7 @@ getHeight
 
 
 setWidth
---------
+++++++++
 
 .. function:: setWidth()
 
@@ -54,7 +57,7 @@ setWidth
 
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -66,7 +69,7 @@ getWidth
 
 
 setResource
------------
++++++++++++
 
 .. function:: setResource()
 
@@ -80,7 +83,7 @@ setResource
 
 
 initRenderer
-------------
+++++++++++++
 
 .. function:: initRenderer()
 
@@ -92,14 +95,14 @@ initRenderer
 
 
 readRootElement
----------------
++++++++++++++++
 
 .. function:: readRootElement()
 
 
 
 appendRootElement
------------------
++++++++++++++++++
 
 .. function:: appendRootElement()
 
@@ -113,7 +116,7 @@ appendRootElement
 
 
 createElement
--------------
++++++++++++++
 
 .. function:: createElement()
 
@@ -129,7 +132,7 @@ createElement
 
 
 checkSpecificParams
--------------------
++++++++++++++++++++
 
 .. function:: checkSpecificParams()
 
@@ -141,7 +144,7 @@ checkSpecificParams
 
 
 checkDimensions
----------------
++++++++++++++++
 
 .. function:: checkDimensions()
 
@@ -154,7 +157,7 @@ checkDimensions
 
 
 draw
-----
+++++
 
 .. function:: draw()
 
@@ -166,7 +169,7 @@ draw
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -178,7 +181,7 @@ render
 
 
 drawPolygon
------------
++++++++++++
 
 .. function:: drawPolygon()
 
@@ -192,7 +195,7 @@ drawPolygon
 
 
 drawText
---------
+++++++++
 
 .. function:: drawText()
 

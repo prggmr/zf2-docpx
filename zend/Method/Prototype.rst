@@ -1,5 +1,8 @@
-.. Server/Method/Prototype.php generated using docpx on 01/30/13 03:32am
+.. Server/Method/Prototype.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Method\\Prototype
 ===============================
@@ -7,10 +10,10 @@ Zend\\Server\\Method\\Prototype
 Method prototype metadata
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setReturnType
--------------
++++++++++++++
 
 .. function:: setReturnType()
 
@@ -36,7 +39,7 @@ setReturnType
 
 
 getReturnType
--------------
++++++++++++++
 
 .. function:: getReturnType()
 
@@ -48,7 +51,7 @@ getReturnType
 
 
 addParameter
-------------
+++++++++++++
 
 .. function:: addParameter()
 
@@ -62,7 +65,7 @@ addParameter
 
 
 addParameters
--------------
++++++++++++++
 
 .. function:: addParameters()
 
@@ -76,7 +79,7 @@ addParameters
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -90,7 +93,7 @@ setParameters
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -102,7 +105,7 @@ getParameters
 
 
 getParameterObjects
--------------------
++++++++++++++++++++
 
 .. function:: getParameterObjects()
 
@@ -114,7 +117,7 @@ getParameterObjects
 
 
 getParameter
-------------
+++++++++++++
 
 .. function:: getParameter()
 
@@ -128,7 +131,7 @@ getParameter
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -142,7 +145,7 @@ setOptions
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

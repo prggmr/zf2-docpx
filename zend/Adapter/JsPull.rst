@@ -1,5 +1,8 @@
-.. ProgressBar/Adapter/JsPull.php generated using docpx on 01/30/13 03:32am
+.. ProgressBar/Adapter/JsPull.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ProgressBar\\Adapter\\JsPull
 ==================================
@@ -8,10 +11,10 @@ Zend_ProgressBar_Adapter_JsPull offers a simple method for updating a
 progressbar in a browser.
 
 Methods
-+++++++
+-------
 
 setExitAfterSend
-----------------
+++++++++++++++++
 
 .. function:: setExitAfterSend()
 
@@ -25,7 +28,7 @@ setExitAfterSend
 
 
 notify
-------
+++++++
 
 .. function:: notify()
 
@@ -44,7 +47,7 @@ notify
 
 
 finish
-------
+++++++
 
 .. function:: finish()
 
@@ -56,7 +59,7 @@ finish
 
 
 _outputData
------------
++++++++++++
 
 .. function:: _outputData()
 

@@ -1,5 +1,8 @@
-.. EventManager/ListenerAggregateInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/ListenerAggregateInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\attach
 ==========================
@@ -15,6 +18,9 @@ Zend\\EventManager\\attach
     :param EventManagerInterface: 
 
 
+
+Function
+********
 
 Zend\\EventManager\\detach
 ==========================

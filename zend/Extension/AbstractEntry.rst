@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/AbstractEntry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/AbstractEntry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\AbstractEntry
 ============================================
 
 Methods
-+++++++
+-------
 
 setEntryElement
----------------
++++++++++++++++
 
 .. function:: setEntryElement()
 
@@ -24,7 +27,7 @@ setEntryElement
 
 
 getEntryElement
----------------
++++++++++++++++
 
 .. function:: getEntryElement()
 
@@ -36,7 +39,7 @@ getEntryElement
 
 
 setEntryKey
------------
++++++++++++
 
 .. function:: setEntryKey()
 
@@ -50,7 +53,7 @@ setEntryKey
 
 
 getDomDocument
---------------
+++++++++++++++
 
 .. function:: getDomDocument()
 
@@ -62,7 +65,7 @@ getDomDocument
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -74,7 +77,7 @@ getEncoding
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -90,7 +93,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -102,7 +105,7 @@ getType
 
 
 setXpath
---------
+++++++++
 
 .. function:: setXpath()
 
@@ -116,7 +119,7 @@ setXpath
 
 
 getXpath
---------
+++++++++
 
 .. function:: getXpath()
 
@@ -128,7 +131,7 @@ getXpath
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -140,7 +143,7 @@ toArray
 
 
 getXpathPrefix
---------------
+++++++++++++++
 
 .. function:: getXpathPrefix()
 
@@ -152,7 +155,7 @@ getXpathPrefix
 
 
 setXpathPrefix
---------------
+++++++++++++++
 
 .. function:: setXpathPrefix()
 
@@ -166,7 +169,7 @@ setXpathPrefix
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

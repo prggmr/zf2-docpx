@@ -1,5 +1,8 @@
-.. View/Stream.php generated using docpx on 01/30/13 03:32am
+.. View/Stream.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Stream
 ==================
@@ -17,10 +20,10 @@ written by
     Paul M. Jones  (@link http://paul-m-jones.com)
 
 Methods
-+++++++
+-------
 
 stream_open
------------
++++++++++++
 
 .. function:: stream_open()
 
@@ -30,7 +33,7 @@ stream_open
 
 
 url_stat
---------
+++++++++
 
 .. function:: url_stat()
 
@@ -42,7 +45,7 @@ url_stat
 
 
 stream_read
------------
++++++++++++
 
 .. function:: stream_read()
 
@@ -52,7 +55,7 @@ stream_read
 
 
 stream_tell
------------
++++++++++++
 
 .. function:: stream_tell()
 
@@ -62,7 +65,7 @@ stream_tell
 
 
 stream_eof
-----------
+++++++++++
 
 .. function:: stream_eof()
 
@@ -72,7 +75,7 @@ stream_eof
 
 
 stream_stat
------------
++++++++++++
 
 .. function:: stream_stat()
 
@@ -82,7 +85,7 @@ stream_stat
 
 
 stream_seek
------------
++++++++++++
 
 .. function:: stream_seek()
 

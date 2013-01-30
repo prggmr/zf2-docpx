@@ -1,5 +1,8 @@
-.. Text/Table/Row.php generated using docpx on 01/30/13 03:32am
+.. Text/Table/Row.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\Table\\Row
 ======================
@@ -7,10 +10,10 @@ Zend\\Text\\Table\\Row
 Row class for Zend\Text\Table
 
 Methods
-+++++++
+-------
 
 createColumn
-------------
+++++++++++++
 
 .. function:: createColumn()
 
@@ -25,7 +28,7 @@ createColumn
 
 
 appendColumn
-------------
+++++++++++++
 
 .. function:: appendColumn()
 
@@ -39,7 +42,7 @@ appendColumn
 
 
 getColumn
----------
++++++++++
 
 .. function:: getColumn()
 
@@ -55,7 +58,7 @@ getColumn
 
 
 getColumns
-----------
+++++++++++
 
 .. function:: getColumns()
 
@@ -67,7 +70,7 @@ getColumns
 
 
 getColumnWidths
----------------
++++++++++++++++
 
 .. function:: getColumnWidths()
 
@@ -80,7 +83,7 @@ getColumnWidths
 
 
 render
-------
+++++++
 
 .. function:: render()
 

@@ -1,14 +1,17 @@
-.. Feed/Writer/AbstractFeed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/AbstractFeed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\AbstractFeed
 ================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -19,7 +22,7 @@ __construct
 
 
 addAuthor
----------
++++++++++
 
 .. function:: addAuthor()
 
@@ -40,7 +43,7 @@ addAuthor
 
 
 addAuthors
-----------
+++++++++++
 
 .. function:: addAuthors()
 
@@ -55,7 +58,7 @@ addAuthors
 
 
 setCopyright
-------------
+++++++++++++
 
 .. function:: setCopyright()
 
@@ -71,7 +74,7 @@ setCopyright
 
 
 setDateCreated
---------------
+++++++++++++++
 
 .. function:: setDateCreated()
 
@@ -87,7 +90,7 @@ setDateCreated
 
 
 setDateModified
----------------
++++++++++++++++
 
 .. function:: setDateModified()
 
@@ -103,7 +106,7 @@ setDateModified
 
 
 setLastBuildDate
-----------------
+++++++++++++++++
 
 .. function:: setLastBuildDate()
 
@@ -119,7 +122,7 @@ setLastBuildDate
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -135,7 +138,7 @@ setDescription
 
 
 setGenerator
-------------
+++++++++++++
 
 .. function:: setGenerator()
 
@@ -153,7 +156,7 @@ setGenerator
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -169,7 +172,7 @@ setId
 
 
 _validateTagUri
----------------
++++++++++++++++
 
 .. function:: _validateTagUri()
 
@@ -183,7 +186,7 @@ _validateTagUri
 
 
 setImage
---------
+++++++++
 
 .. function:: setImage()
 
@@ -202,7 +205,7 @@ setImage
 
 
 setLanguage
------------
++++++++++++
 
 .. function:: setLanguage()
 
@@ -218,7 +221,7 @@ setLanguage
 
 
 setLink
--------
++++++++
 
 .. function:: setLink()
 
@@ -234,7 +237,7 @@ setLink
 
 
 setFeedLink
------------
++++++++++++
 
 .. function:: setFeedLink()
 
@@ -251,7 +254,7 @@ setFeedLink
 
 
 setTitle
---------
+++++++++
 
 .. function:: setTitle()
 
@@ -267,7 +270,7 @@ setTitle
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -283,7 +286,7 @@ setEncoding
 
 
 setBaseUrl
-----------
+++++++++++
 
 .. function:: setBaseUrl()
 
@@ -299,7 +302,7 @@ setBaseUrl
 
 
 addHub
-------
+++++++
 
 .. function:: addHub()
 
@@ -315,7 +318,7 @@ addHub
 
 
 addHubs
--------
++++++++
 
 .. function:: addHubs()
 
@@ -329,7 +332,7 @@ addHubs
 
 
 addCategory
------------
++++++++++++
 
 .. function:: addCategory()
 
@@ -345,7 +348,7 @@ addCategory
 
 
 addCategories
--------------
++++++++++++++
 
 .. function:: addCategories()
 
@@ -359,7 +362,7 @@ addCategories
 
 
 getAuthor
----------
++++++++++
 
 .. function:: getAuthor()
 
@@ -373,7 +376,7 @@ getAuthor
 
 
 getAuthors
-----------
+++++++++++
 
 .. function:: getAuthors()
 
@@ -385,7 +388,7 @@ getAuthors
 
 
 getCopyright
-------------
+++++++++++++
 
 .. function:: getCopyright()
 
@@ -397,7 +400,7 @@ getCopyright
 
 
 getDateCreated
---------------
+++++++++++++++
 
 .. function:: getDateCreated()
 
@@ -409,7 +412,7 @@ getDateCreated
 
 
 getDateModified
----------------
++++++++++++++++
 
 .. function:: getDateModified()
 
@@ -421,7 +424,7 @@ getDateModified
 
 
 getLastBuildDate
-----------------
+++++++++++++++++
 
 .. function:: getLastBuildDate()
 
@@ -433,7 +436,7 @@ getLastBuildDate
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -445,7 +448,7 @@ getDescription
 
 
 getGenerator
-------------
+++++++++++++
 
 .. function:: getGenerator()
 
@@ -457,7 +460,7 @@ getGenerator
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -469,7 +472,7 @@ getId
 
 
 getImage
---------
+++++++++
 
 .. function:: getImage()
 
@@ -481,7 +484,7 @@ getImage
 
 
 getLanguage
------------
++++++++++++
 
 .. function:: getLanguage()
 
@@ -493,7 +496,7 @@ getLanguage
 
 
 getLink
--------
++++++++
 
 .. function:: getLink()
 
@@ -505,7 +508,7 @@ getLink
 
 
 getFeedLinks
-------------
+++++++++++++
 
 .. function:: getFeedLinks()
 
@@ -517,7 +520,7 @@ getFeedLinks
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -529,7 +532,7 @@ getTitle
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -541,7 +544,7 @@ getEncoding
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -553,7 +556,7 @@ getBaseUrl
 
 
 getHubs
--------
++++++++
 
 .. function:: getHubs()
 
@@ -565,7 +568,7 @@ getHubs
 
 
 getCategories
--------------
++++++++++++++
 
 .. function:: getCategories()
 
@@ -577,7 +580,7 @@ getCategories
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -589,7 +592,7 @@ reset
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -605,7 +608,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -617,7 +620,7 @@ getType
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -631,7 +634,7 @@ remove
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -648,7 +651,7 @@ __call
 
 
 _loadExtensions
----------------
++++++++++++++++
 
 .. function:: _loadExtensions()
 

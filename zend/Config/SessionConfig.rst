@@ -1,5 +1,8 @@
-.. Session/Config/SessionConfig.php generated using docpx on 01/30/13 03:32am
+.. Session/Config/SessionConfig.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Config\\SessionConfig
 ====================================
@@ -7,10 +10,10 @@ Zend\\Session\\Config\\SessionConfig
 Session configuration proxying to session INI options
 
 Methods
-+++++++
+-------
 
 setStorageOption
-----------------
+++++++++++++++++
 
 .. function:: setStorageOption()
 
@@ -27,7 +30,7 @@ setStorageOption
 
 
 getStorageOption
-----------------
+++++++++++++++++
 
 .. function:: getStorageOption()
 
@@ -43,7 +46,7 @@ getStorageOption
 
 
 setPhpSaveHandler
------------------
++++++++++++++++++
 
 .. function:: setPhpSaveHandler()
 
@@ -59,7 +62,7 @@ setPhpSaveHandler
 
 
 setSavePath
------------
++++++++++++
 
 .. function:: setSavePath()
 
@@ -75,7 +78,7 @@ setSavePath
 
 
 setSerializeHandler
--------------------
++++++++++++++++++++
 
 .. function:: setSerializeHandler()
 
@@ -91,7 +94,7 @@ setSerializeHandler
 
 
 setCacheLimiter
----------------
++++++++++++++++
 
 .. function:: setCacheLimiter()
 
@@ -107,7 +110,7 @@ setCacheLimiter
 
 
 setHashFunction
----------------
++++++++++++++++
 
 .. function:: setHashFunction()
 
@@ -123,7 +126,7 @@ setHashFunction
 
 
 setHashBitsPerCharacter
------------------------
++++++++++++++++++++++++
 
 .. function:: setHashBitsPerCharacter()
 
@@ -139,7 +142,7 @@ setHashBitsPerCharacter
 
 
 getHashFunctions
-----------------
+++++++++++++++++
 
 .. function:: getHashFunctions()
 
@@ -151,7 +154,7 @@ getHashFunctions
 
 
 handleError
------------
++++++++++++
 
 .. function:: handleError()
 

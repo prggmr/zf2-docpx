@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlockReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlockReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlockReflection
 ==========================================
 
 Methods
-+++++++
+-------
 
 export
-------
+++++++
 
 .. function:: export()
 
@@ -23,7 +26,7 @@ export
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -39,7 +42,7 @@ __construct
 
 
 getContents
------------
++++++++++++
 
 .. function:: getContents()
 
@@ -51,7 +54,7 @@ getContents
 
 
 getStartLine
-------------
+++++++++++++
 
 .. function:: getStartLine()
 
@@ -63,7 +66,7 @@ getStartLine
 
 
 getEndLine
-----------
+++++++++++
 
 .. function:: getEndLine()
 
@@ -75,7 +78,7 @@ getEndLine
 
 
 getShortDescription
--------------------
++++++++++++++++++++
 
 .. function:: getShortDescription()
 
@@ -87,7 +90,7 @@ getShortDescription
 
 
 getLongDescription
-------------------
+++++++++++++++++++
 
 .. function:: getLongDescription()
 
@@ -99,7 +102,7 @@ getLongDescription
 
 
 hasTag
-------
+++++++
 
 .. function:: hasTag()
 
@@ -113,7 +116,7 @@ hasTag
 
 
 getTag
-------
+++++++
 
 .. function:: getTag()
 
@@ -127,7 +130,7 @@ getTag
 
 
 getTags
--------
++++++++
 
 .. function:: getTags()
 
@@ -141,7 +144,7 @@ getTags
 
 
 reflect
--------
++++++++
 
 .. function:: reflect()
 
@@ -153,14 +156,14 @@ reflect
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

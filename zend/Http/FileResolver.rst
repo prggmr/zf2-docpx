@@ -1,5 +1,8 @@
-.. Authentication/Adapter/Http/FileResolver.php generated using docpx on 01/30/13 03:32am
+.. Authentication/Adapter/Http/FileResolver.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\Adapter\\Http\\FileResolver
 =================================================
@@ -7,10 +10,10 @@ Zend\\Authentication\\Adapter\\Http\\FileResolver
 HTTP Authentication File Resolver
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setFile
--------
++++++++
 
 .. function:: setFile()
 
@@ -38,7 +41,7 @@ setFile
 
 
 getFile
--------
++++++++
 
 .. function:: getFile()
 
@@ -50,7 +53,7 @@ getFile
 
 
 resolve
--------
++++++++
 
 .. function:: resolve()
 

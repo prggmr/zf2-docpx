@@ -1,14 +1,17 @@
-.. Db/TableGateway/Feature/EventFeature/TableGatewayEvent.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/Feature/EventFeature/TableGatewayEvent.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\Feature\\EventFeature\\TableGatewayEvent
 ================================================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -20,7 +23,7 @@ getName
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -32,7 +35,7 @@ getTarget
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -44,7 +47,7 @@ getParams
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 
@@ -59,7 +62,7 @@ getParam
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -73,7 +76,7 @@ setName
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -87,7 +90,7 @@ setTarget
 
 
 setParams
----------
++++++++++
 
 .. function:: setParams()
 
@@ -101,7 +104,7 @@ setParams
 
 
 setParam
---------
+++++++++
 
 .. function:: setParam()
 
@@ -116,7 +119,7 @@ setParam
 
 
 stopPropagation
----------------
++++++++++++++++
 
 .. function:: stopPropagation()
 
@@ -130,7 +133,7 @@ stopPropagation
 
 
 propagationIsStopped
---------------------
+++++++++++++++++++++
 
 .. function:: propagationIsStopped()
 

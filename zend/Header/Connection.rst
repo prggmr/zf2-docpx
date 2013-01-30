@@ -1,5 +1,8 @@
-.. Http/Header/Connection.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/Connection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\Connection
 ==============================
@@ -7,10 +10,10 @@ Zend\\Http\\Header\\Connection
 Connection Header
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -24,7 +27,7 @@ fromString
 
 
 setPersistent
--------------
++++++++++++++
 
 .. function:: setPersistent()
 
@@ -38,7 +41,7 @@ setPersistent
 
 
 isPersistent
-------------
+++++++++++++
 
 .. function:: isPersistent()
 
@@ -50,7 +53,7 @@ isPersistent
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -65,7 +68,7 @@ setValue
 
 
 getFieldName
-------------
+++++++++++++
 
 .. function:: getFieldName()
 
@@ -77,7 +80,7 @@ getFieldName
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -89,7 +92,7 @@ getFieldValue
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -103,11 +106,11 @@ toString
 
 
 Constants
-+++++++++
+---------
 
 CONNECTION_CLOSE
-================
+++++++++++++++++
 
 CONNECTION_KEEP_ALIVE
-=====================
++++++++++++++++++++++
 

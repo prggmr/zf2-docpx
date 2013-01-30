@@ -1,14 +1,17 @@
-.. Code/Generator/PropertyGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/PropertyGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\PropertyGenerator
 ========================================
 
 Methods
-+++++++
+-------
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -20,7 +23,7 @@ fromReflection
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -35,7 +38,7 @@ fromArray
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -48,7 +51,7 @@ __construct
 
 
 setConst
---------
+++++++++
 
 .. function:: setConst()
 
@@ -60,7 +63,7 @@ setConst
 
 
 isConst
--------
++++++++
 
 .. function:: isConst()
 
@@ -70,7 +73,7 @@ isConst
 
 
 setDefaultValue
----------------
++++++++++++++++
 
 .. function:: setDefaultValue()
 
@@ -82,7 +85,7 @@ setDefaultValue
 
 
 getDefaultValue
----------------
++++++++++++++++
 
 .. function:: getDefaultValue()
 
@@ -92,7 +95,7 @@ getDefaultValue
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -106,8 +109,8 @@ generate
 
 
 Constants
-+++++++++
+---------
 
 FLAG_CONSTANT
-=============
++++++++++++++
 

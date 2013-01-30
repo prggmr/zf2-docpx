@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormCollection.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormCollection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormCollection
 ========================================
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -22,7 +25,7 @@ render
 
 
 renderTemplate
---------------
+++++++++++++++
 
 .. function:: renderTemplate()
 
@@ -36,7 +39,7 @@ renderTemplate
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -53,7 +56,7 @@ __invoke
 
 
 setShouldWrap
--------------
++++++++++++++
 
 .. function:: setShouldWrap()
 
@@ -67,7 +70,7 @@ setShouldWrap
 
 
 shouldWrap
-----------
+++++++++++
 
 .. function:: shouldWrap()
 
@@ -79,7 +82,7 @@ shouldWrap
 
 
 getDefaultElementHelper
------------------------
++++++++++++++++++++++++
 
 .. function:: getDefaultElementHelper()
 
@@ -91,7 +94,7 @@ getDefaultElementHelper
 
 
 setDefaultElementHelper
------------------------
++++++++++++++++++++++++
 
 .. function:: setDefaultElementHelper()
 
@@ -105,7 +108,7 @@ setDefaultElementHelper
 
 
 getElementHelper
-----------------
+++++++++++++++++
 
 .. function:: getElementHelper()
 
@@ -118,7 +121,7 @@ getElementHelper
 
 
 setElementHelper
-----------------
+++++++++++++++++
 
 .. function:: setElementHelper()
 
@@ -132,7 +135,7 @@ setElementHelper
 
 
 getFieldsetHelper
------------------
++++++++++++++++++
 
 .. function:: getFieldsetHelper()
 
@@ -144,7 +147,7 @@ getFieldsetHelper
 
 
 setFieldsetHelper
------------------
++++++++++++++++++
 
 .. function:: setFieldsetHelper()
 

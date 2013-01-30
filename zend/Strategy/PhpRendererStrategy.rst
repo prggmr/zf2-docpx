@@ -1,14 +1,17 @@
-.. View/Strategy/PhpRendererStrategy.php generated using docpx on 01/30/13 03:32am
+.. View/Strategy/PhpRendererStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Strategy\\PhpRendererStrategy
 =========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getRenderer
------------
++++++++++++
 
 .. function:: getRenderer()
 
@@ -32,7 +35,7 @@ getRenderer
 
 
 setContentPlaceholders
-----------------------
+++++++++++++++++++++++
 
 .. function:: setContentPlaceholders()
 
@@ -46,7 +49,7 @@ setContentPlaceholders
 
 
 getContentPlaceholders
-----------------------
+++++++++++++++++++++++
 
 .. function:: getContentPlaceholders()
 
@@ -58,7 +61,7 @@ getContentPlaceholders
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -73,7 +76,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -87,7 +90,7 @@ detach
 
 
 selectRenderer
---------------
+++++++++++++++
 
 .. function:: selectRenderer()
 
@@ -102,7 +105,7 @@ selectRenderer
 
 
 injectResponse
---------------
+++++++++++++++
 
 .. function:: injectResponse()
 

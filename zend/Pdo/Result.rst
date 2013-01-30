@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pdo/Result.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pdo/Result.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Result
 ======================================
 
 Methods
-+++++++
+-------
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -24,7 +27,7 @@ initialize
 
 
 buffer
-------
+++++++
 
 .. function:: buffer()
 
@@ -34,7 +37,7 @@ buffer
 
 
 isBuffered
-----------
+++++++++++
 
 .. function:: isBuffered()
 
@@ -44,7 +47,7 @@ isBuffered
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -56,7 +59,7 @@ getResource
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -68,7 +71,7 @@ current
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -80,7 +83,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -92,7 +95,7 @@ key
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -104,7 +107,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -116,7 +119,7 @@ valid
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -128,7 +131,7 @@ count
 
 
 getFieldCount
--------------
++++++++++++++
 
 .. function:: getFieldCount()
 
@@ -138,7 +141,7 @@ getFieldCount
 
 
 isQueryResult
--------------
++++++++++++++
 
 .. function:: isQueryResult()
 
@@ -150,7 +153,7 @@ isQueryResult
 
 
 getAffectedRows
----------------
++++++++++++++++
 
 .. function:: getAffectedRows()
 
@@ -162,7 +165,7 @@ getAffectedRows
 
 
 getGeneratedValue
------------------
++++++++++++++++++
 
 .. function:: getGeneratedValue()
 
@@ -174,11 +177,11 @@ getGeneratedValue
 
 
 Constants
-+++++++++
+---------
 
 STATEMENT_MODE_SCROLLABLE
-=========================
++++++++++++++++++++++++++
 
 STATEMENT_MODE_FORWARD
-======================
+++++++++++++++++++++++
 

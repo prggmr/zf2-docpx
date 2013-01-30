@@ -1,5 +1,8 @@
-.. Form/ElementInterface.php generated using docpx on 01/30/13 03:32am
+.. Form/ElementInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Form\\setName
 ===================
@@ -18,6 +21,9 @@ Zend\\Form\\setName
 
 
 
+Function
+********
+
 Zend\\Form\\getName
 ===================
 
@@ -29,6 +35,9 @@ Zend\\Form\\getName
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Form\\setOptions
 ======================
@@ -44,6 +53,9 @@ Zend\\Form\\setOptions
 
 
 
+Function
+********
+
 Zend\\Form\\getOptions
 ======================
 
@@ -55,6 +67,9 @@ Zend\\Form\\getOptions
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Form\\getOption
 =====================
@@ -69,6 +84,9 @@ Zend\\Form\\getOption
     :rtype: null|mixed 
 
 
+
+Function
+********
 
 Zend\\Form\\setAttribute
 ========================
@@ -85,6 +103,9 @@ Zend\\Form\\setAttribute
 
 
 
+Function
+********
+
 Zend\\Form\\getAttribute
 ========================
 
@@ -99,6 +120,9 @@ Zend\\Form\\getAttribute
 
 
 
+Function
+********
+
 Zend\\Form\\hasAttribute
 ========================
 
@@ -112,6 +136,9 @@ Zend\\Form\\hasAttribute
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Form\\setAttributes
 =========================
@@ -129,6 +156,9 @@ Zend\\Form\\setAttributes
 
 
 
+Function
+********
+
 Zend\\Form\\getAttributes
 =========================
 
@@ -140,6 +170,9 @@ Zend\\Form\\getAttributes
     :rtype: array|\Traversable 
 
 
+
+Function
+********
 
 Zend\\Form\\setValue
 ====================
@@ -155,6 +188,9 @@ Zend\\Form\\setValue
 
 
 
+Function
+********
+
 Zend\\Form\\getValue
 ====================
 
@@ -166,6 +202,9 @@ Zend\\Form\\getValue
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Form\\setLabel
 ====================
@@ -181,6 +220,9 @@ Zend\\Form\\setLabel
 
 
 
+Function
+********
+
 Zend\\Form\\getLabel
 ====================
 
@@ -192,6 +234,9 @@ Zend\\Form\\getLabel
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Form\\setMessages
 =======================
@@ -206,6 +251,9 @@ Zend\\Form\\setMessages
     :rtype: ElementInterface 
 
 
+
+Function
+********
 
 Zend\\Form\\getMessages
 =======================

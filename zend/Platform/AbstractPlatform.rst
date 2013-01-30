@@ -1,14 +1,17 @@
-.. Db/Sql/Platform/AbstractPlatform.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Platform/AbstractPlatform.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Platform\\AbstractPlatform
 =========================================
 
 Methods
-+++++++
+-------
 
 setSubject
-----------
+++++++++++
 
 .. function:: setSubject()
 
@@ -18,7 +21,7 @@ setSubject
 
 
 setTypeDecorator
-----------------
+++++++++++++++++
 
 .. function:: setTypeDecorator()
 
@@ -30,7 +33,7 @@ setTypeDecorator
 
 
 getDecorators
--------------
++++++++++++++
 
 .. function:: getDecorators()
 
@@ -40,7 +43,7 @@ getDecorators
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -56,7 +59,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 

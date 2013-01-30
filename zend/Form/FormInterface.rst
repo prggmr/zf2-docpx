@@ -1,5 +1,8 @@
-.. Form/FormInterface.php generated using docpx on 01/30/13 03:32am
+.. Form/FormInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Form\\setData
 ===================
@@ -16,6 +19,9 @@ Zend\\Form\\setData
     :rtype: FormInterface 
 
 
+
+Function
+********
 
 Zend\\Form\\bind
 ================
@@ -34,6 +40,9 @@ Zend\\Form\\bind
 
 
 
+Function
+********
+
 Zend\\Form\\setBindOnValidate
 =============================
 
@@ -47,6 +56,9 @@ Zend\\Form\\setBindOnValidate
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Form\\setInputFilter
 ==========================
@@ -62,6 +74,9 @@ Zend\\Form\\setInputFilter
 
 
 
+Function
+********
+
 Zend\\Form\\getInputFilter
 ==========================
 
@@ -73,6 +88,9 @@ Zend\\Form\\getInputFilter
     :rtype: InputFilterInterface 
 
 
+
+Function
+********
 
 Zend\\Form\\isValid
 ===================
@@ -87,6 +105,9 @@ Zend\\Form\\isValid
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Form\\getData
 ===================
@@ -105,6 +126,9 @@ Zend\\Form\\getData
 
 
 
+Function
+********
+
 Zend\\Form\\setValidationGroup
 ==============================
 
@@ -120,20 +144,20 @@ Zend\\Form\\setValidationGroup
 
 
 BIND_ON_VALIDATE
-================
+++++++++++++++++
 
 BIND_MANUAL
-===========
++++++++++++
 
 VALIDATE_ALL
-============
+++++++++++++
 
 VALUES_NORMALIZED
-=================
++++++++++++++++++
 
 VALUES_RAW
-==========
+++++++++++
 
 VALUES_AS_ARRAY
-===============
++++++++++++++++
 

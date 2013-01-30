@@ -1,5 +1,8 @@
-.. Feed/Writer/Extension/ITunes/Renderer/Feed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Extension/ITunes/Renderer/Feed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Extension\\ITunes\\Renderer\\Feed
 =====================================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Extension\\ITunes\\Renderer\\Feed
 
 
 Methods
-+++++++
+-------
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -22,7 +25,7 @@ render
 
 
 _appendNamespaces
------------------
++++++++++++++++++
 
 .. function:: _appendNamespaces()
 
@@ -34,7 +37,7 @@ _appendNamespaces
 
 
 _setAuthors
------------
++++++++++++
 
 .. function:: _setAuthors()
 
@@ -49,7 +52,7 @@ _setAuthors
 
 
 _setBlock
----------
++++++++++
 
 .. function:: _setBlock()
 
@@ -64,7 +67,7 @@ _setBlock
 
 
 _setCategories
---------------
+++++++++++++++
 
 .. function:: _setCategories()
 
@@ -79,7 +82,7 @@ _setCategories
 
 
 _setImage
----------
++++++++++
 
 .. function:: _setImage()
 
@@ -94,7 +97,7 @@ _setImage
 
 
 _setDuration
-------------
+++++++++++++
 
 .. function:: _setDuration()
 
@@ -109,7 +112,7 @@ _setDuration
 
 
 _setExplicit
-------------
+++++++++++++
 
 .. function:: _setExplicit()
 
@@ -124,7 +127,7 @@ _setExplicit
 
 
 _setKeywords
-------------
+++++++++++++
 
 .. function:: _setKeywords()
 
@@ -139,7 +142,7 @@ _setKeywords
 
 
 _setNewFeedUrl
---------------
+++++++++++++++
 
 .. function:: _setNewFeedUrl()
 
@@ -154,7 +157,7 @@ _setNewFeedUrl
 
 
 _setOwners
-----------
+++++++++++
 
 .. function:: _setOwners()
 
@@ -169,7 +172,7 @@ _setOwners
 
 
 _setSubtitle
-------------
+++++++++++++
 
 .. function:: _setSubtitle()
 
@@ -184,7 +187,7 @@ _setSubtitle
 
 
 _setSummary
------------
++++++++++++
 
 .. function:: _setSummary()
 

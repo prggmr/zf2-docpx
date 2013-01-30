@@ -1,5 +1,8 @@
-.. Ldap/Dn.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Dn.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Dn
 ==============
@@ -7,10 +10,10 @@ Zend\\Ldap\\Dn
 Zend\Ldap\Dn provides an API for DN manipulation
 
 Methods
-+++++++
+-------
 
 factory
--------
++++++++
 
 .. function:: factory()
 
@@ -27,7 +30,7 @@ factory
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -44,7 +47,7 @@ fromString
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -61,7 +64,7 @@ fromArray
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -74,7 +77,7 @@ __construct
 
 
 getRdn
-------
+++++++
 
 .. function:: getRdn()
 
@@ -90,7 +93,7 @@ getRdn
 
 
 getRdnString
-------------
+++++++++++++
 
 .. function:: getRdnString()
 
@@ -106,7 +109,7 @@ getRdnString
 
 
 getParentDn
------------
++++++++++++
 
 .. function:: getParentDn()
 
@@ -122,7 +125,7 @@ getParentDn
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -140,7 +143,7 @@ get
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -157,7 +160,7 @@ set
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -174,7 +177,7 @@ remove
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -188,7 +191,7 @@ append
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -202,7 +205,7 @@ prepend
 
 
 insert
-------
+++++++
 
 .. function:: insert()
 
@@ -219,7 +222,7 @@ insert
 
 
 assertIndex
------------
++++++++++++
 
 .. function:: assertIndex()
 
@@ -235,7 +238,7 @@ assertIndex
 
 
 assertRdn
----------
++++++++++
 
 .. function:: assertRdn()
 
@@ -251,7 +254,7 @@ assertRdn
 
 
 setCaseFold
------------
++++++++++++
 
 .. function:: setCaseFold()
 
@@ -263,7 +266,7 @@ setCaseFold
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -279,7 +282,7 @@ toString
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -293,7 +296,7 @@ toArray
 
 
 caseFoldRdn
------------
++++++++++++
 
 .. function:: caseFoldRdn()
 
@@ -308,7 +311,7 @@ caseFoldRdn
 
 
 caseFoldDn
-----------
+++++++++++
 
 .. function:: caseFoldDn()
 
@@ -323,7 +326,7 @@ caseFoldDn
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -335,7 +338,7 @@ __toString
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -349,7 +352,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -364,7 +367,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -378,7 +381,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -391,7 +394,7 @@ offsetUnset
 
 
 setDefaultCaseFold
-------------------
+++++++++++++++++++
 
 .. function:: setDefaultCaseFold()
 
@@ -403,7 +406,7 @@ setDefaultCaseFold
 
 
 sanitizeCaseFold
-----------------
+++++++++++++++++
 
 .. function:: sanitizeCaseFold()
 
@@ -418,7 +421,7 @@ sanitizeCaseFold
 
 
 escapeValue
------------
++++++++++++
 
 .. function:: escapeValue()
 
@@ -440,7 +443,7 @@ escapeValue
 
 
 unescapeValue
--------------
++++++++++++++
 
 .. function:: unescapeValue()
 
@@ -460,7 +463,7 @@ unescapeValue
 
 
 explodeDn
----------
++++++++++
 
 .. function:: explodeDn()
 
@@ -488,7 +491,7 @@ explodeDn
 
 
 checkDn
--------
++++++++
 
 .. function:: checkDn()
 
@@ -504,7 +507,7 @@ checkDn
 
 
 implodeRdn
-----------
+++++++++++
 
 .. function:: implodeRdn()
 
@@ -524,7 +527,7 @@ implodeRdn
 
 
 implodeDn
----------
++++++++++
 
 .. function:: implodeDn()
 
@@ -551,7 +554,7 @@ implodeDn
 
 
 isChildOf
----------
++++++++++
 
 .. function:: isChildOf()
 
@@ -568,14 +571,14 @@ isChildOf
 
 
 Constants
-+++++++++
+---------
 
 ATTR_CASEFOLD_NONE
-==================
+++++++++++++++++++
 
 ATTR_CASEFOLD_UPPER
-===================
++++++++++++++++++++
 
 ATTR_CASEFOLD_LOWER
-===================
++++++++++++++++++++
 

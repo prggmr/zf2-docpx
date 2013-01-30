@@ -1,14 +1,17 @@
-.. Db/Metadata/Object/ColumnObject.php generated using docpx on 01/30/13 03:32am
+.. Db/Metadata/Object/ColumnObject.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Metadata\\Object\\ColumnObject
 ========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -34,7 +37,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -46,7 +49,7 @@ getName
 
 
 getTableName
-------------
+++++++++++++
 
 .. function:: getTableName()
 
@@ -58,7 +61,7 @@ getTableName
 
 
 setTableName
-------------
+++++++++++++
 
 .. function:: setTableName()
 
@@ -72,7 +75,7 @@ setTableName
 
 
 setSchemaName
--------------
++++++++++++++
 
 .. function:: setSchemaName()
 
@@ -84,7 +87,7 @@ setSchemaName
 
 
 getSchemaName
--------------
++++++++++++++
 
 .. function:: getSchemaName()
 
@@ -96,7 +99,7 @@ getSchemaName
 
 
 getOrdinalPosition
-------------------
+++++++++++++++++++
 
 .. function:: getOrdinalPosition()
 
@@ -106,7 +109,7 @@ getOrdinalPosition
 
 
 setOrdinalPosition
-------------------
+++++++++++++++++++
 
 .. function:: setOrdinalPosition()
 
@@ -118,7 +121,7 @@ setOrdinalPosition
 
 
 getColumnDefault
-----------------
+++++++++++++++++
 
 .. function:: getColumnDefault()
 
@@ -128,7 +131,7 @@ getColumnDefault
 
 
 setColumnDefault
-----------------
+++++++++++++++++
 
 .. function:: setColumnDefault()
 
@@ -140,7 +143,7 @@ setColumnDefault
 
 
 getIsNullable
--------------
++++++++++++++
 
 .. function:: getIsNullable()
 
@@ -150,7 +153,7 @@ getIsNullable
 
 
 setIsNullable
--------------
++++++++++++++
 
 .. function:: setIsNullable()
 
@@ -162,7 +165,7 @@ setIsNullable
 
 
 isNullable
-----------
+++++++++++
 
 .. function:: isNullable()
 
@@ -172,7 +175,7 @@ isNullable
 
 
 getDataType
------------
++++++++++++
 
 .. function:: getDataType()
 
@@ -182,7 +185,7 @@ getDataType
 
 
 setDataType
------------
++++++++++++
 
 .. function:: setDataType()
 
@@ -194,7 +197,7 @@ setDataType
 
 
 getCharacterMaximumLength
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getCharacterMaximumLength()
 
@@ -204,7 +207,7 @@ getCharacterMaximumLength
 
 
 setCharacterMaximumLength
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setCharacterMaximumLength()
 
@@ -216,7 +219,7 @@ setCharacterMaximumLength
 
 
 getCharacterOctetLength
------------------------
++++++++++++++++++++++++
 
 .. function:: getCharacterOctetLength()
 
@@ -226,7 +229,7 @@ getCharacterOctetLength
 
 
 setCharacterOctetLength
------------------------
++++++++++++++++++++++++
 
 .. function:: setCharacterOctetLength()
 
@@ -238,7 +241,7 @@ setCharacterOctetLength
 
 
 getNumericPrecision
--------------------
++++++++++++++++++++
 
 .. function:: getNumericPrecision()
 
@@ -248,7 +251,7 @@ getNumericPrecision
 
 
 setNumericPrecision
--------------------
++++++++++++++++++++
 
 .. function:: setNumericPrecision()
 
@@ -260,7 +263,7 @@ setNumericPrecision
 
 
 getNumericScale
----------------
++++++++++++++++
 
 .. function:: getNumericScale()
 
@@ -270,7 +273,7 @@ getNumericScale
 
 
 setNumericScale
----------------
++++++++++++++++
 
 .. function:: setNumericScale()
 
@@ -282,7 +285,7 @@ setNumericScale
 
 
 getNumericUnsigned
-------------------
+++++++++++++++++++
 
 .. function:: getNumericUnsigned()
 
@@ -292,7 +295,7 @@ getNumericUnsigned
 
 
 setNumericUnsigned
-------------------
+++++++++++++++++++
 
 .. function:: setNumericUnsigned()
 
@@ -304,7 +307,7 @@ setNumericUnsigned
 
 
 isNumericUnsigned
------------------
++++++++++++++++++
 
 .. function:: isNumericUnsigned()
 
@@ -314,7 +317,7 @@ isNumericUnsigned
 
 
 getErratas
-----------
+++++++++++
 
 .. function:: getErratas()
 
@@ -324,7 +327,7 @@ getErratas
 
 
 setErratas
-----------
+++++++++++
 
 .. function:: setErratas()
 
@@ -336,7 +339,7 @@ setErratas
 
 
 getErrata
----------
++++++++++
 
 .. function:: getErrata()
 
@@ -348,7 +351,7 @@ getErrata
 
 
 setErrata
----------
++++++++++
 
 .. function:: setErrata()
 

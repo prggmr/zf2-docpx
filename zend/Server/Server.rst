@@ -1,5 +1,8 @@
-.. Server/Server.php generated using docpx on 01/30/13 03:32am
+.. Server/Server.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Server\\addFunction
 =========================
@@ -20,6 +23,9 @@ Zend\\Server\\addFunction
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Server\\setClass
 ======================
@@ -48,6 +54,9 @@ Zend\\Server\\setClass
 
 
 
+Function
+********
+
 Zend\\Server\\fault
 ===================
 
@@ -62,6 +71,9 @@ Zend\\Server\\fault
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Server\\handle
 ====================
@@ -81,6 +93,9 @@ Zend\\Server\\handle
 
 
 
+Function
+********
+
 Zend\\Server\\getFunctions
 ==========================
 
@@ -96,6 +111,9 @@ Zend\\Server\\getFunctions
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Server\\loadFunctions
 ===========================
@@ -113,6 +131,9 @@ Zend\\Server\\loadFunctions
 
 
 
+Function
+********
+
 Zend\\Server\\setPersistence
 ============================
 
@@ -127,6 +148,9 @@ Zend\\Server\\setPersistence
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Server\\setReturnResponse
 ===============================
@@ -144,6 +168,9 @@ Zend\\Server\\setReturnResponse
 
 
 
+Function
+********
+
 Zend\\Server\\getReturnResponse
 ===============================
 
@@ -155,6 +182,9 @@ Zend\\Server\\getReturnResponse
     :rtype: bool $flag Current status.
 
 
+
+Function
+********
 
 Zend\\Server\\getResponse
 =========================

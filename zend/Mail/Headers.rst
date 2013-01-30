@@ -1,5 +1,8 @@
-.. Mail/Headers.php generated using docpx on 01/30/13 03:32am
+.. Mail/Headers.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Headers
 ===================
@@ -9,10 +12,10 @@ Basic mail headers collection functionality
 Handles aggregation of headers
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -33,7 +36,7 @@ fromString
 
 
 setPluginClassLoader
---------------------
+++++++++++++++++++++
 
 .. function:: setPluginClassLoader()
 
@@ -47,7 +50,7 @@ setPluginClassLoader
 
 
 getPluginClassLoader
---------------------
+++++++++++++++++++++
 
 .. function:: getPluginClassLoader()
 
@@ -59,7 +62,7 @@ getPluginClassLoader
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -73,7 +76,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -85,7 +88,7 @@ getEncoding
 
 
 addHeaders
-----------
+++++++++++
 
 .. function:: addHeaders()
 
@@ -103,7 +106,7 @@ addHeaders
 
 
 addHeaderLine
--------------
++++++++++++++
 
 .. function:: addHeaderLine()
 
@@ -122,7 +125,7 @@ addHeaderLine
 
 
 addHeader
----------
++++++++++
 
 .. function:: addHeader()
 
@@ -136,7 +139,7 @@ addHeader
 
 
 removeHeader
-------------
+++++++++++++
 
 .. function:: removeHeader()
 
@@ -150,7 +153,7 @@ removeHeader
 
 
 clearHeaders
-------------
+++++++++++++
 
 .. function:: clearHeaders()
 
@@ -164,7 +167,7 @@ clearHeaders
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -180,7 +183,7 @@ HeaderInterface for the rest of cases.
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -194,7 +197,7 @@ has
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -204,7 +207,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -216,7 +219,7 @@ key
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -228,7 +231,7 @@ valid
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -238,7 +241,7 @@ rewind
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -250,7 +253,7 @@ current
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -263,7 +266,7 @@ count
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -278,7 +281,7 @@ toString
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -291,7 +294,7 @@ toArray
 
 
 forceLoading
-------------
+++++++++++++
 
 .. function:: forceLoading()
 
@@ -303,7 +306,7 @@ forceLoading
 
 
 lazyLoadHeader
---------------
+++++++++++++++
 
 .. function:: lazyLoadHeader()
 
@@ -315,7 +318,7 @@ lazyLoadHeader
 
 
 normalizeFieldName
-------------------
+++++++++++++++++++
 
 .. function:: normalizeFieldName()
 
@@ -331,15 +334,15 @@ normalizeFieldName
 
 
 Constants
-+++++++++
+---------
 
 EOL
-===
++++
 
 @var string End of Line for fields */
 
 FOLDING
-=======
++++++++
 
 @var string Start of Line when folding */
 

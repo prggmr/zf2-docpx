@@ -1,14 +1,17 @@
-.. Validator/Digits.php generated using docpx on 01/30/13 03:32am
+.. Validator/Digits.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Digits
 =======================
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -24,14 +27,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOT_DIGITS
-==========
+++++++++++
 
 STRING_EMPTY
-============
+++++++++++++
 
 INVALID
-=======
++++++++
 

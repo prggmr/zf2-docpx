@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/XCacheOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/XCacheOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\XCacheOptions
 ============================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\XCacheOptions
 These are options specific to the XCache adapter
 
 Methods
-+++++++
+-------
 
 setNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: setNamespaceSeparator()
 
@@ -24,7 +27,7 @@ setNamespaceSeparator
 
 
 getNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: getNamespaceSeparator()
 
@@ -36,7 +39,7 @@ getNamespaceSeparator
 
 
 setAdminUser
-------------
+++++++++++++
 
 .. function:: setAdminUser()
 
@@ -50,7 +53,7 @@ setAdminUser
 
 
 getAdminUser
-------------
+++++++++++++
 
 .. function:: getAdminUser()
 
@@ -62,7 +65,7 @@ getAdminUser
 
 
 setAdminAuth
-------------
+++++++++++++
 
 .. function:: setAdminAuth()
 
@@ -76,7 +79,7 @@ setAdminAuth
 
 
 getAdminAuth
-------------
+++++++++++++
 
 .. function:: getAdminAuth()
 
@@ -88,7 +91,7 @@ getAdminAuth
 
 
 setAdminPass
-------------
+++++++++++++
 
 .. function:: setAdminPass()
 
@@ -102,7 +105,7 @@ setAdminPass
 
 
 getAdminPass
-------------
+++++++++++++
 
 .. function:: getAdminPass()
 

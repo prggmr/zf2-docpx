@@ -1,5 +1,8 @@
-.. View/Helper/Gravatar.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Gravatar.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Gravatar
 ============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Gravatar
 Helper for retrieving avatars from gravatar.com
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -33,7 +36,7 @@ __invoke
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -47,7 +50,7 @@ setOptions
 
 
 getImgSize
-----------
+++++++++++
 
 .. function:: getImgSize()
 
@@ -59,7 +62,7 @@ getImgSize
 
 
 setImgSize
-----------
+++++++++++
 
 .. function:: setImgSize()
 
@@ -73,7 +76,7 @@ setImgSize
 
 
 getDefaultImg
--------------
++++++++++++++
 
 .. function:: getDefaultImg()
 
@@ -85,7 +88,7 @@ getDefaultImg
 
 
 setDefaultImg
--------------
++++++++++++++
 
 .. function:: setDefaultImg()
 
@@ -102,7 +105,7 @@ setDefaultImg
 
 
 setRating
----------
++++++++++
 
 .. function:: setRating()
 
@@ -121,7 +124,7 @@ setRating
 
 
 getRating
----------
++++++++++
 
 .. function:: getRating()
 
@@ -133,7 +136,7 @@ getRating
 
 
 setEmail
---------
+++++++++
 
 .. function:: setEmail()
 
@@ -147,7 +150,7 @@ setEmail
 
 
 getEmail
---------
+++++++++
 
 .. function:: getEmail()
 
@@ -159,7 +162,7 @@ getEmail
 
 
 setSecure
----------
++++++++++
 
 .. function:: setSecure()
 
@@ -173,7 +176,7 @@ setSecure
 
 
 getSecure
----------
++++++++++
 
 .. function:: getSecure()
 
@@ -185,7 +188,7 @@ getSecure
 
 
 getAttribs
-----------
+++++++++++
 
 .. function:: getAttribs()
 
@@ -202,7 +205,7 @@ getAttribs
 
 
 setAttribs
-----------
+++++++++++
 
 .. function:: setAttribs()
 
@@ -220,7 +223,7 @@ setAttribs
 
 
 getGravatarUrl
---------------
+++++++++++++++
 
 .. function:: getGravatarUrl()
 
@@ -232,7 +235,7 @@ getGravatarUrl
 
 
 getAvatarUrl
-------------
+++++++++++++
 
 .. function:: getAvatarUrl()
 
@@ -244,7 +247,7 @@ getAvatarUrl
 
 
 setSrcAttribForImg
-------------------
+++++++++++++++++++
 
 .. function:: setSrcAttribForImg()
 
@@ -261,7 +264,7 @@ setSrcAttribForImg
 
 
 getImgTag
----------
++++++++++
 
 .. function:: getImgTag()
 
@@ -273,7 +276,7 @@ getImgTag
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -287,46 +290,46 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 GRAVATAR_URL
-============
+++++++++++++
 
 URL to gravatar service
 
 GRAVATAR_URL_SECURE
-===================
++++++++++++++++++++
 
 Secure URL to gravatar service
 
 RATING_G
-========
+++++++++
 
 Gravatar rating
 
 RATING_PG
-=========
++++++++++
 
 RATING_R
-========
+++++++++
 
 RATING_X
-========
+++++++++
 
 DEFAULT_404
-===========
++++++++++++
 
 Default gravatar image value constants
 
 DEFAULT_MM
-==========
+++++++++++
 
 DEFAULT_IDENTICON
-=================
++++++++++++++++++
 
 DEFAULT_MONSTERID
-=================
++++++++++++++++++
 
 DEFAULT_WAVATAR
-===============
++++++++++++++++
 

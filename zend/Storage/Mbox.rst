@@ -1,14 +1,17 @@
-.. Mail/Storage/Mbox.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Mbox.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Mbox
 =========================
 
 Methods
-+++++++
+-------
 
 countMessages
--------------
++++++++++++++
 
 .. function:: countMessages()
 
@@ -22,7 +25,7 @@ countMessages
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -36,7 +39,7 @@ getSize
 
 
 getPos
-------
+++++++
 
 .. function:: getPos()
 
@@ -52,7 +55,7 @@ getPos
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -68,21 +71,21 @@ getMessage
 
 
 getRawHeader
-------------
+++++++++++++
 
 .. function:: getRawHeader()
 
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -98,7 +101,7 @@ __construct
 
 
 isMboxFile
-----------
+++++++++++
 
 .. function:: isMboxFile()
 
@@ -115,7 +118,7 @@ isMboxFile
 
 
 openMboxFile
-------------
+++++++++++++
 
 .. function:: openMboxFile()
 
@@ -130,7 +133,7 @@ openMboxFile
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -141,7 +144,7 @@ close
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -153,7 +156,7 @@ noop
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -167,7 +170,7 @@ removeMessage
 
 
 getUniqueId
------------
++++++++++++
 
 .. function:: getUniqueId()
 
@@ -187,7 +190,7 @@ getUniqueId
 
 
 getNumberByUniqueId
--------------------
++++++++++++++++++++
 
 .. function:: getNumberByUniqueId()
 
@@ -206,7 +209,7 @@ getNumberByUniqueId
 
 
 __sleep
--------
++++++++
 
 .. function:: __sleep()
 
@@ -220,7 +223,7 @@ __sleep
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 

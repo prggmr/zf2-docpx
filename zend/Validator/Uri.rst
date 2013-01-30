@@ -1,14 +1,17 @@
-.. Validator/Uri.php generated using docpx on 01/30/13 03:32am
+.. Validator/Uri.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Uri
 ====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getUriHandler
--------------
++++++++++++++
 
 .. function:: getUriHandler()
 
@@ -32,7 +35,7 @@ getUriHandler
 
 
 setUriHandler
--------------
++++++++++++++
 
 .. function:: setUriHandler()
 
@@ -45,7 +48,7 @@ setUriHandler
 
 
 getAllowAbsolute
-----------------
+++++++++++++++++
 
 .. function:: getAllowAbsolute()
 
@@ -57,7 +60,7 @@ getAllowAbsolute
 
 
 setAllowAbsolute
-----------------
+++++++++++++++++
 
 .. function:: setAllowAbsolute()
 
@@ -71,7 +74,7 @@ setAllowAbsolute
 
 
 getAllowRelative
-----------------
+++++++++++++++++
 
 .. function:: getAllowRelative()
 
@@ -83,7 +86,7 @@ getAllowRelative
 
 
 setAllowRelative
-----------------
+++++++++++++++++
 
 .. function:: setAllowRelative()
 
@@ -97,7 +100,7 @@ setAllowRelative
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -113,11 +116,11 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 NOT_URI
-=======
++++++++
 

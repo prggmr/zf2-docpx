@@ -1,5 +1,8 @@
-.. Mvc/Controller/Plugin/FlashMessenger.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/FlashMessenger.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\FlashMessenger
 =============================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Controller\\Plugin\\FlashMessenger
 Flash Messenger - implement session-based messages
 
 Methods
-+++++++
+-------
 
 setSessionManager
------------------
++++++++++++++++++
 
 .. function:: setSessionManager()
 
@@ -24,7 +27,7 @@ setSessionManager
 
 
 getSessionManager
------------------
++++++++++++++++++
 
 .. function:: getSessionManager()
 
@@ -38,7 +41,7 @@ getSessionManager
 
 
 getContainer
-------------
+++++++++++++
 
 .. function:: getContainer()
 
@@ -50,7 +53,7 @@ getContainer
 
 
 setNamespace
-------------
+++++++++++++
 
 .. function:: setNamespace()
 
@@ -66,7 +69,7 @@ setNamespace
 
 
 getNamespace
-------------
+++++++++++++
 
 .. function:: getNamespace()
 
@@ -78,7 +81,7 @@ getNamespace
 
 
 addMessage
-----------
+++++++++++
 
 .. function:: addMessage()
 
@@ -92,7 +95,7 @@ addMessage
 
 
 addInfoMessage
---------------
+++++++++++++++
 
 .. function:: addInfoMessage()
 
@@ -106,7 +109,7 @@ addInfoMessage
 
 
 addSuccessMessage
------------------
++++++++++++++++++
 
 .. function:: addSuccessMessage()
 
@@ -120,7 +123,7 @@ addSuccessMessage
 
 
 addErrorMessage
----------------
++++++++++++++++
 
 .. function:: addErrorMessage()
 
@@ -134,7 +137,7 @@ addErrorMessage
 
 
 hasMessages
------------
++++++++++++
 
 .. function:: hasMessages()
 
@@ -146,7 +149,7 @@ hasMessages
 
 
 hasInfoMessages
----------------
++++++++++++++++
 
 .. function:: hasInfoMessages()
 
@@ -158,7 +161,7 @@ hasInfoMessages
 
 
 hasSuccessMessages
-------------------
+++++++++++++++++++
 
 .. function:: hasSuccessMessages()
 
@@ -170,7 +173,7 @@ hasSuccessMessages
 
 
 hasErrorMessages
-----------------
+++++++++++++++++
 
 .. function:: hasErrorMessages()
 
@@ -182,7 +185,7 @@ hasErrorMessages
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 
@@ -194,7 +197,7 @@ getMessages
 
 
 getInfoMessages
----------------
++++++++++++++++
 
 .. function:: getInfoMessages()
 
@@ -206,7 +209,7 @@ getInfoMessages
 
 
 getSuccessMessages
-------------------
+++++++++++++++++++
 
 .. function:: getSuccessMessages()
 
@@ -218,7 +221,7 @@ getSuccessMessages
 
 
 getErrorMessages
-----------------
+++++++++++++++++
 
 .. function:: getErrorMessages()
 
@@ -230,7 +233,7 @@ getErrorMessages
 
 
 clearMessages
--------------
++++++++++++++
 
 .. function:: clearMessages()
 
@@ -242,7 +245,7 @@ clearMessages
 
 
 clearMessagesFromNamespace
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: clearMessagesFromNamespace()
 
@@ -254,7 +257,7 @@ clearMessagesFromNamespace
 
 
 clearMessagesFromContainer
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: clearMessagesFromContainer()
 
@@ -266,7 +269,7 @@ clearMessagesFromContainer
 
 
 hasCurrentMessages
-------------------
+++++++++++++++++++
 
 .. function:: hasCurrentMessages()
 
@@ -279,7 +282,7 @@ hasCurrentMessages
 
 
 hasCurrentInfoMessages
-----------------------
+++++++++++++++++++++++
 
 .. function:: hasCurrentInfoMessages()
 
@@ -292,7 +295,7 @@ hasCurrentInfoMessages
 
 
 hasCurrentSuccessMessages
--------------------------
++++++++++++++++++++++++++
 
 .. function:: hasCurrentSuccessMessages()
 
@@ -305,7 +308,7 @@ hasCurrentSuccessMessages
 
 
 hasCurrentErrorMessages
------------------------
++++++++++++++++++++++++
 
 .. function:: hasCurrentErrorMessages()
 
@@ -318,7 +321,7 @@ hasCurrentErrorMessages
 
 
 getCurrentMessages
-------------------
+++++++++++++++++++
 
 .. function:: getCurrentMessages()
 
@@ -331,7 +334,7 @@ getCurrentMessages
 
 
 getCurrentInfoMessages
-----------------------
+++++++++++++++++++++++
 
 .. function:: getCurrentInfoMessages()
 
@@ -344,7 +347,7 @@ getCurrentInfoMessages
 
 
 getCurrentSuccessMessages
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getCurrentSuccessMessages()
 
@@ -357,7 +360,7 @@ getCurrentSuccessMessages
 
 
 getCurrentErrorMessages
------------------------
++++++++++++++++++++++++
 
 .. function:: getCurrentErrorMessages()
 
@@ -370,7 +373,7 @@ getCurrentErrorMessages
 
 
 getCurrentMessagesFromNamespace
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: getCurrentMessagesFromNamespace()
 
@@ -383,7 +386,7 @@ getCurrentMessagesFromNamespace
 
 
 clearCurrentMessages
---------------------
+++++++++++++++++++++
 
 .. function:: clearCurrentMessages()
 
@@ -395,7 +398,7 @@ clearCurrentMessages
 
 
 clearCurrentMessagesFromNamespace
----------------------------------
++++++++++++++++++++++++++++++++++
 
 .. function:: clearCurrentMessagesFromNamespace()
 
@@ -407,7 +410,7 @@ clearCurrentMessagesFromNamespace
 
 
 clearCurrentMessagesFromContainer
----------------------------------
++++++++++++++++++++++++++++++++++
 
 .. function:: clearCurrentMessagesFromContainer()
 
@@ -419,7 +422,7 @@ clearCurrentMessagesFromContainer
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -431,7 +434,7 @@ getIterator
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -443,7 +446,7 @@ count
 
 
 getMessagesFromNamespace
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getMessagesFromNamespace()
 
@@ -455,7 +458,7 @@ getMessagesFromNamespace
 
 
 getMessagesFromContainer
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getMessagesFromContainer()
 
@@ -472,25 +475,25 @@ getMessagesFromContainer
 
 
 Constants
-+++++++++
+---------
 
 NAMESPACE_DEFAULT
-=================
++++++++++++++++++
 
 Default messages namespace
 
 NAMESPACE_SUCCESS
-=================
++++++++++++++++++
 
 Success messages namespace
 
 NAMESPACE_ERROR
-===============
++++++++++++++++
 
 Error messages namespace
 
 NAMESPACE_INFO
-==============
+++++++++++++++
 
 Info messages namespace
 

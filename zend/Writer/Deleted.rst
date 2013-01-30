@@ -1,5 +1,8 @@
-.. Feed/Writer/Deleted.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Deleted.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Deleted
 ===========================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Deleted
 
 
 Methods
-+++++++
+-------
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -27,7 +30,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -39,7 +42,7 @@ getEncoding
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -53,7 +56,7 @@ remove
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -69,7 +72,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -81,7 +84,7 @@ getType
 
 
 setReference
-------------
+++++++++++++
 
 .. function:: setReference()
 
@@ -97,7 +100,7 @@ setReference
 
 
 getReference
-------------
+++++++++++++
 
 .. function:: getReference()
 
@@ -107,7 +110,7 @@ getReference
 
 
 setWhen
--------
++++++++
 
 .. function:: setWhen()
 
@@ -123,7 +126,7 @@ setWhen
 
 
 getWhen
--------
++++++++
 
 .. function:: getWhen()
 
@@ -133,7 +136,7 @@ getWhen
 
 
 setBy
------
++++++
 
 .. function:: setBy()
 
@@ -149,7 +152,7 @@ setBy
 
 
 getBy
------
++++++
 
 .. function:: getBy()
 
@@ -159,7 +162,7 @@ getBy
 
 
 setComment
-----------
+++++++++++
 
 .. function:: setComment()
 
@@ -171,7 +174,7 @@ setComment
 
 
 getComment
-----------
+++++++++++
 
 .. function:: getComment()
 

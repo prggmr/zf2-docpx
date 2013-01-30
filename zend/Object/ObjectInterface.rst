@@ -1,5 +1,8 @@
-.. Barcode/Object/ObjectInterface.php generated using docpx on 01/30/13 03:32am
+.. Barcode/Object/ObjectInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\__construct
 ==================================
@@ -12,6 +15,9 @@ Zend\\Barcode\\Object\\__construct
     :param array|\Traversable: 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setOptions
 =================================
@@ -27,6 +33,9 @@ Zend\\Barcode\\Object\\setOptions
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\setBarcodeNamespace
 ==========================================
 
@@ -41,6 +50,9 @@ Zend\\Barcode\\Object\\setBarcodeNamespace
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getBarcodeNamespace
 ==========================================
 
@@ -53,6 +65,9 @@ Zend\\Barcode\\Object\\getBarcodeNamespace
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getType
 ==============================
 
@@ -64,6 +79,9 @@ Zend\\Barcode\\Object\\getType
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setBarHeight
 ===================================
@@ -79,6 +97,9 @@ Zend\\Barcode\\Object\\setBarHeight
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getBarHeight
 ===================================
 
@@ -90,6 +111,9 @@ Zend\\Barcode\\Object\\getBarHeight
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setBarThinWidth
 ======================================
@@ -105,6 +129,9 @@ Zend\\Barcode\\Object\\setBarThinWidth
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getBarThinWidth
 ======================================
 
@@ -116,6 +143,9 @@ Zend\\Barcode\\Object\\getBarThinWidth
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setBarThickWidth
 =======================================
@@ -131,6 +161,9 @@ Zend\\Barcode\\Object\\setBarThickWidth
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getBarThickWidth
 =======================================
 
@@ -142,6 +175,9 @@ Zend\\Barcode\\Object\\getBarThickWidth
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setFactor
 ================================
@@ -158,6 +194,9 @@ Zend\\Barcode\\Object\\setFactor
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getFactor
 ================================
 
@@ -170,6 +209,9 @@ Zend\\Barcode\\Object\\getFactor
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setForeColor
 ===================================
@@ -185,6 +227,9 @@ Zend\\Barcode\\Object\\setForeColor
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getForeColor
 ===================================
 
@@ -196,6 +241,9 @@ Zend\\Barcode\\Object\\getForeColor
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setBackgroundColor
 =========================================
@@ -211,6 +259,9 @@ Zend\\Barcode\\Object\\setBackgroundColor
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getBackgroundColor
 =========================================
 
@@ -222,6 +273,9 @@ Zend\\Barcode\\Object\\getBackgroundColor
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setWithBorder
 ====================================
@@ -237,6 +291,9 @@ Zend\\Barcode\\Object\\setWithBorder
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getWithBorder
 ====================================
 
@@ -249,6 +306,9 @@ Zend\\Barcode\\Object\\getWithBorder
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\setReverseColor
 ======================================
 
@@ -260,6 +320,9 @@ Zend\\Barcode\\Object\\setReverseColor
     :rtype: ObjectInterface 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setOrientation
 =====================================
@@ -275,6 +338,9 @@ Zend\\Barcode\\Object\\setOrientation
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getOrientation
 =====================================
 
@@ -286,6 +352,9 @@ Zend\\Barcode\\Object\\getOrientation
     :rtype: float 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setText
 ==============================
@@ -301,6 +370,9 @@ Zend\\Barcode\\Object\\setText
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getText
 ==============================
 
@@ -312,6 +384,9 @@ Zend\\Barcode\\Object\\getText
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\getRawText
 =================================
@@ -325,6 +400,9 @@ Zend\\Barcode\\Object\\getRawText
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getTextToDisplay
 =======================================
 
@@ -336,6 +414,9 @@ Zend\\Barcode\\Object\\getTextToDisplay
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setDrawText
 ==================================
@@ -351,6 +432,9 @@ Zend\\Barcode\\Object\\setDrawText
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getDrawText
 ==================================
 
@@ -362,6 +446,9 @@ Zend\\Barcode\\Object\\getDrawText
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setStretchText
 =====================================
@@ -378,6 +465,9 @@ Zend\\Barcode\\Object\\setStretchText
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getStretchText
 =====================================
 
@@ -390,6 +480,9 @@ Zend\\Barcode\\Object\\getStretchText
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setWithChecksum
 ======================================
@@ -407,6 +500,9 @@ Zend\\Barcode\\Object\\setWithChecksum
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getWithChecksum
 ======================================
 
@@ -419,6 +515,9 @@ Zend\\Barcode\\Object\\getWithChecksum
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setWithChecksumInText
 ============================================
@@ -436,6 +535,9 @@ Zend\\Barcode\\Object\\setWithChecksumInText
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getWithChecksumInText
 ============================================
 
@@ -448,6 +550,9 @@ Zend\\Barcode\\Object\\getWithChecksumInText
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setFont
 ==============================
@@ -465,6 +570,9 @@ Zend\\Barcode\\Object\\setFont
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getFont
 ==============================
 
@@ -476,6 +584,9 @@ Zend\\Barcode\\Object\\getFont
     :rtype: integer|string 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\setFontSize
 ==================================
@@ -491,6 +602,9 @@ Zend\\Barcode\\Object\\setFontSize
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getFontSize
 ==================================
 
@@ -502,6 +616,9 @@ Zend\\Barcode\\Object\\getFontSize
     :rtype: float 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\getQuietZone
 ===================================
@@ -516,6 +633,9 @@ Zend\\Barcode\\Object\\getQuietZone
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getInstructions
 ======================================
 
@@ -528,6 +648,9 @@ Zend\\Barcode\\Object\\getInstructions
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\checkParams
 ==================================
 
@@ -539,6 +662,9 @@ Zend\\Barcode\\Object\\checkParams
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\getHeight
 ================================
@@ -554,6 +680,9 @@ Zend\\Barcode\\Object\\getHeight
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getWidth
 ===============================
 
@@ -567,6 +696,9 @@ Zend\\Barcode\\Object\\getWidth
     :rtype: integer 
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\getOffsetLeft
 ====================================
@@ -583,6 +715,9 @@ Zend\\Barcode\\Object\\getOffsetLeft
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\getOffsetTop
 ===================================
 
@@ -598,6 +733,9 @@ Zend\\Barcode\\Object\\getOffsetTop
 
 
 
+Function
+********
+
 Zend\\Barcode\\Object\\draw
 ===========================
 
@@ -609,6 +747,9 @@ Zend\\Barcode\\Object\\draw
     :rtype: array Table of instructions
 
 
+
+Function
+********
 
 Zend\\Barcode\\Object\\validateText
 ===================================

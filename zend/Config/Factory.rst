@@ -1,14 +1,17 @@
-.. Config/Factory.php generated using docpx on 01/30/13 03:32am
+.. Config/Factory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Factory
 =====================
 
 Methods
-+++++++
+-------
 
 fromFile
---------
+++++++++
 
 .. function:: fromFile()
 
@@ -26,7 +29,7 @@ fromFile
 
 
 fromFiles
----------
++++++++++
 
 .. function:: fromFiles()
 
@@ -41,7 +44,7 @@ fromFiles
 
 
 toFile
-------
+++++++
 
 .. function:: toFile()
 
@@ -59,7 +62,7 @@ toFile
 
 
 setReaderPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setReaderPluginManager()
 
@@ -73,7 +76,7 @@ setReaderPluginManager
 
 
 getReaderPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getReaderPluginManager()
 
@@ -85,7 +88,7 @@ getReaderPluginManager
 
 
 setWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setWriterPluginManager()
 
@@ -99,7 +102,7 @@ setWriterPluginManager
 
 
 getWriterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getWriterPluginManager()
 
@@ -111,7 +114,7 @@ getWriterPluginManager
 
 
 registerReader
---------------
+++++++++++++++
 
 .. function:: registerReader()
 
@@ -128,7 +131,7 @@ registerReader
 
 
 registerWriter
---------------
+++++++++++++++
 
 .. function:: registerWriter()
 

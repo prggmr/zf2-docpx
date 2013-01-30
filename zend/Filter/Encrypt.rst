@@ -1,5 +1,8 @@
-.. Filter/Encrypt.php generated using docpx on 01/30/13 03:32am
+.. Filter/Encrypt.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Encrypt
 =====================
@@ -7,10 +10,10 @@ Zend\\Filter\\Encrypt
 Encrypts a given string
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -34,7 +37,7 @@ getAdapter
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -51,7 +54,7 @@ setAdapter
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -68,7 +71,7 @@ __call
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

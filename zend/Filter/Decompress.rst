@@ -1,5 +1,8 @@
-.. Filter/Decompress.php generated using docpx on 01/30/13 03:32am
+.. Filter/Decompress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Decompress
 ========================
@@ -7,10 +10,10 @@ Zend\\Filter\\Decompress
 Decompresses a given string
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -26,7 +29,7 @@ __invoke
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

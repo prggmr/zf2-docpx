@@ -1,5 +1,8 @@
-.. Db/Sql/Update.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Update.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Update
 =====================
@@ -7,10 +10,10 @@ Zend\\Db\\Sql\\Update
 @property Where $where
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 table
------
++++++
 
 .. function:: table()
 
@@ -36,7 +39,7 @@ table
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -53,7 +56,7 @@ set
 
 
 where
------
++++++
 
 .. function:: where()
 
@@ -70,14 +73,14 @@ where
 
 
 getRawState
------------
++++++++++++
 
 .. function:: getRawState()
 
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -92,7 +95,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 
@@ -106,7 +109,7 @@ getSqlString
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -122,7 +125,7 @@ __get
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -138,17 +141,17 @@ __clone
 
 
 Constants
-+++++++++
+---------
 
 SPECIFICATION_UPDATE
-====================
+++++++++++++++++++++
 
 SPECIFICATION_WHERE
-===================
++++++++++++++++++++
 
 VALUES_MERGE
-============
+++++++++++++
 
 VALUES_SET
-==========
+++++++++++
 

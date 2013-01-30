@@ -1,5 +1,8 @@
-.. Config/Config.php generated using docpx on 01/30/13 03:32am
+.. Config/Config.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Config
 ====================
@@ -12,10 +15,10 @@ Implements Countable, Iterator and ArrayAccess
 to facilitate easy access to the data.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -46,7 +49,7 @@ get
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -60,7 +63,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -80,7 +83,7 @@ __set
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 
@@ -93,7 +96,7 @@ __clone
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -105,7 +108,7 @@ toArray
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -119,7 +122,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -135,7 +138,7 @@ __unset
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -148,7 +151,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -161,7 +164,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -174,7 +177,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -187,7 +190,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -200,7 +203,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -213,7 +216,7 @@ valid
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -228,7 +231,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -243,7 +246,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -259,7 +262,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -274,7 +277,7 @@ offsetUnset
 
 
 merge
------
++++++
 
 .. function:: merge()
 
@@ -293,7 +296,7 @@ merge
 
 
 setReadOnly
------------
++++++++++++
 
 .. function:: setReadOnly()
 
@@ -308,7 +311,7 @@ setReadOnly
 
 
 isReadOnly
-----------
+++++++++++
 
 .. function:: isReadOnly()
 

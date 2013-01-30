@@ -1,5 +1,8 @@
-.. XmlRpc/Client.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Client.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Client
 ====================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Client
 An XML-RPC client implementation
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setHttpClient
--------------
++++++++++++++
 
 .. function:: setHttpClient()
 
@@ -38,7 +41,7 @@ setHttpClient
 
 
 getHttpClient
--------------
++++++++++++++
 
 .. function:: getHttpClient()
 
@@ -50,7 +53,7 @@ getHttpClient
 
 
 setIntrospector
----------------
++++++++++++++++
 
 .. function:: setIntrospector()
 
@@ -64,7 +67,7 @@ setIntrospector
 
 
 getIntrospector
----------------
++++++++++++++++
 
 .. function:: getIntrospector()
 
@@ -76,7 +79,7 @@ getIntrospector
 
 
 getLastRequest
---------------
+++++++++++++++
 
 .. function:: getLastRequest()
 
@@ -88,7 +91,7 @@ getLastRequest
 
 
 getLastResponse
----------------
++++++++++++++++
 
 .. function:: getLastResponse()
 
@@ -100,7 +103,7 @@ getLastResponse
 
 
 getProxy
---------
+++++++++
 
 .. function:: getProxy()
 
@@ -114,7 +117,7 @@ getProxy
 
 
 setSkipSystemLookup
--------------------
++++++++++++++++++++
 
 .. function:: setSkipSystemLookup()
 
@@ -128,7 +131,7 @@ setSkipSystemLookup
 
 
 skipSystemLookup
-----------------
+++++++++++++++++
 
 .. function:: skipSystemLookup()
 
@@ -140,7 +143,7 @@ skipSystemLookup
 
 
 doRequest
----------
++++++++++
 
 .. function:: doRequest()
 
@@ -157,7 +160,7 @@ doRequest
 
 
 call
-----
+++++
 
 .. function:: call()
 
@@ -174,7 +177,7 @@ call
 
 
 _createRequest
---------------
+++++++++++++++
 
 .. function:: _createRequest()
 

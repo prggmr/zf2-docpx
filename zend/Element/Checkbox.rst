@@ -1,5 +1,8 @@
-.. Form/Element/Checkbox.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Checkbox.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Checkbox
 =============================
@@ -7,10 +10,10 @@ Zend\\Form\\Element\\Checkbox
 @copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -27,7 +30,7 @@ setOptions
 
 
 setUseHiddenElement
--------------------
++++++++++++++++++++
 
 .. function:: setUseHiddenElement()
 
@@ -41,7 +44,7 @@ setUseHiddenElement
 
 
 useHiddenElement
-----------------
+++++++++++++++++
 
 .. function:: useHiddenElement()
 
@@ -53,7 +56,7 @@ useHiddenElement
 
 
 setUncheckedValue
------------------
++++++++++++++++++
 
 .. function:: setUncheckedValue()
 
@@ -67,7 +70,7 @@ setUncheckedValue
 
 
 getUncheckedValue
------------------
++++++++++++++++++
 
 .. function:: getUncheckedValue()
 
@@ -79,7 +82,7 @@ getUncheckedValue
 
 
 setCheckedValue
----------------
++++++++++++++++
 
 .. function:: setCheckedValue()
 
@@ -93,7 +96,7 @@ setCheckedValue
 
 
 getCheckedValue
----------------
++++++++++++++++
 
 .. function:: getCheckedValue()
 
@@ -105,7 +108,7 @@ getCheckedValue
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -117,7 +120,7 @@ getValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 
@@ -131,7 +134,7 @@ getInputSpecification
 
 
 isChecked
----------
++++++++++
 
 .. function:: isChecked()
 
@@ -143,7 +146,7 @@ isChecked
 
 
 setChecked
-----------
+++++++++++
 
 .. function:: setChecked()
 
@@ -157,7 +160,7 @@ setChecked
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 

@@ -1,5 +1,8 @@
-.. Navigation/Service/ConstructedNavigationFactory.php generated using docpx on 01/30/13 03:32am
+.. Navigation/Service/ConstructedNavigationFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\Service\\ConstructedNavigationFactory
 =======================================================
@@ -7,10 +10,10 @@ Zend\\Navigation\\Service\\ConstructedNavigationFactory
 Constructed factory to set pages during construction.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getPages
---------
+++++++++
 
 .. function:: getPages()
 
@@ -32,7 +35,7 @@ getPages
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 

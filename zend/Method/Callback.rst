@@ -1,5 +1,8 @@
-.. Server/Method/Callback.php generated using docpx on 01/30/13 03:32am
+.. Server/Method/Callback.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Method\\Callback
 ==============================
@@ -7,10 +10,10 @@ Zend\\Server\\Method\\Callback
 Method callback metadata
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -50,7 +53,7 @@ setClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -62,7 +65,7 @@ getClass
 
 
 setFunction
------------
++++++++++++
 
 .. function:: setFunction()
 
@@ -76,7 +79,7 @@ setFunction
 
 
 getFunction
------------
++++++++++++
 
 .. function:: getFunction()
 
@@ -88,7 +91,7 @@ getFunction
 
 
 setMethod
----------
++++++++++
 
 .. function:: setMethod()
 
@@ -102,7 +105,7 @@ setMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -114,7 +117,7 @@ getMethod
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -130,7 +133,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -142,7 +145,7 @@ getType
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

@@ -1,5 +1,8 @@
-.. Di/Di.php generated using docpx on 01/30/13 03:32am
+.. Di/Di.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Di
 ============
@@ -7,10 +10,10 @@ Zend\\Di\\Di
 Dependency injector that can generate instances using class definitions and configured instance parameters
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 configure
----------
++++++++++
 
 .. function:: configure()
 
@@ -38,7 +41,7 @@ configure
 
 
 setDefinitionList
------------------
++++++++++++++++++
 
 .. function:: setDefinitionList()
 
@@ -50,7 +53,7 @@ setDefinitionList
 
 
 definitions
------------
++++++++++++
 
 .. function:: definitions()
 
@@ -60,7 +63,7 @@ definitions
 
 
 setInstanceManager
-------------------
+++++++++++++++++++
 
 .. function:: setInstanceManager()
 
@@ -74,7 +77,7 @@ setInstanceManager
 
 
 instanceManager
----------------
++++++++++++++++
 
 .. function:: instanceManager()
 
@@ -84,7 +87,7 @@ instanceManager
 
 
 getCallParameters
------------------
++++++++++++++++++
 
 .. function:: getCallParameters()
 
@@ -99,7 +102,7 @@ getCallParameters
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -118,7 +121,7 @@ get
 
 
 newInstance
------------
++++++++++++
 
 .. function:: newInstance()
 
@@ -140,7 +143,7 @@ newInstance
 
 
 injectDependencies
-------------------
+++++++++++++++++++
 
 .. function:: injectDependencies()
 
@@ -155,7 +158,7 @@ injectDependencies
 
 
 handleInjectDependencies
-------------------------
+++++++++++++++++++++++++
 
 .. function:: handleInjectDependencies()
 
@@ -173,7 +176,7 @@ handleInjectDependencies
 
 
 createInstanceViaConstructor
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: createInstanceViaConstructor()
 
@@ -193,7 +196,7 @@ createInstanceViaConstructor
 
 
 createInstanceViaCallback
--------------------------
++++++++++++++++++++++++++
 
 .. function:: createInstanceViaCallback()
 
@@ -212,7 +215,7 @@ createInstanceViaCallback
 
 
 resolveAndCallInjectionMethodForInstance
-----------------------------------------
+++++++++++++++++++++++++++++++++++++++++
 
 .. function:: resolveAndCallInjectionMethodForInstance()
 
@@ -232,7 +235,7 @@ resolveAndCallInjectionMethodForInstance
 
 
 resolveMethodParameters
------------------------
++++++++++++++++++++++++
 
 .. function:: resolveMethodParameters()
 
@@ -254,7 +257,7 @@ resolveMethodParameters
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -270,7 +273,7 @@ getClass
 
 
 isSubclassOf
-------------
+++++++++++++
 
 .. function:: isSubclassOf()
 

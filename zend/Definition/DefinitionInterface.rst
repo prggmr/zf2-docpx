@@ -1,5 +1,8 @@
-.. Di/Definition/DefinitionInterface.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/DefinitionInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Di\\Definition\\getClasses
 ================================
@@ -13,6 +16,9 @@ Zend\\Di\\Definition\\getClasses
     :rtype: string[] 
 
 
+
+Function
+********
 
 Zend\\Di\\Definition\\hasClass
 ==============================
@@ -29,6 +35,9 @@ Zend\\Di\\Definition\\hasClass
 
 
 
+Function
+********
+
 Zend\\Di\\Definition\\getClassSupertypes
 ========================================
 
@@ -44,6 +53,9 @@ Zend\\Di\\Definition\\getClassSupertypes
 
 
 
+Function
+********
+
 Zend\\Di\\Definition\\getInstantiator
 =====================================
 
@@ -57,6 +69,9 @@ Zend\\Di\\Definition\\getInstantiator
     :rtype: string|array 
 
 
+
+Function
+********
 
 Zend\\Di\\Definition\\hasMethods
 ================================
@@ -73,6 +88,9 @@ Zend\\Di\\Definition\\hasMethods
 
 
 
+Function
+********
+
 Zend\\Di\\Definition\\getMethods
 ================================
 
@@ -87,6 +105,9 @@ Zend\\Di\\Definition\\getMethods
     :rtype: string[] 
 
 
+
+Function
+********
 
 Zend\\Di\\Definition\\hasMethod
 ===============================
@@ -103,6 +124,9 @@ Zend\\Di\\Definition\\hasMethod
 
 
 
+Function
+********
+
 Zend\\Di\\Definition\\hasMethodParameters
 =========================================
 
@@ -117,6 +141,9 @@ Zend\\Di\\Definition\\hasMethodParameters
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Di\\Definition\\getMethodParameters
 =========================================

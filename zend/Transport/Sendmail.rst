@@ -1,5 +1,8 @@
-.. Mail/Transport/Sendmail.php generated using docpx on 01/30/13 03:32am
+.. Mail/Transport/Sendmail.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Transport\\Sendmail
 ===============================
@@ -7,10 +10,10 @@ Zend\\Mail\\Transport\\Sendmail
 Class for sending email via the PHP internal mail() function
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -40,7 +43,7 @@ setParameters
 
 
 setCallable
------------
++++++++++++
 
 .. function:: setCallable()
 
@@ -58,7 +61,7 @@ setCallable
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -70,7 +73,7 @@ send
 
 
 prepareRecipients
------------------
++++++++++++++++++
 
 .. function:: prepareRecipients()
 
@@ -86,7 +89,7 @@ prepareRecipients
 
 
 prepareSubject
---------------
+++++++++++++++
 
 .. function:: prepareSubject()
 
@@ -100,7 +103,7 @@ prepareSubject
 
 
 prepareBody
------------
++++++++++++
 
 .. function:: prepareBody()
 
@@ -114,7 +117,7 @@ prepareBody
 
 
 prepareHeaders
---------------
+++++++++++++++
 
 .. function:: prepareHeaders()
 
@@ -128,7 +131,7 @@ prepareHeaders
 
 
 prepareParameters
------------------
++++++++++++++++++
 
 .. function:: prepareParameters()
 
@@ -145,7 +148,7 @@ prepareParameters
 
 
 mailHandler
------------
++++++++++++
 
 .. function:: mailHandler()
 
@@ -163,7 +166,7 @@ mailHandler
 
 
 handleMailErrors
-----------------
+++++++++++++++++
 
 .. function:: handleMailErrors()
 
@@ -181,7 +184,7 @@ handleMailErrors
 
 
 isWindowsOs
------------
++++++++++++
 
 .. function:: isWindowsOs()
 

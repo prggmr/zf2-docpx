@@ -1,5 +1,8 @@
-.. Feed/Writer/Renderer/AbstractRenderer.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Renderer/AbstractRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Renderer\\AbstractRenderer
 ==============================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Renderer\\AbstractRenderer
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 
@@ -34,7 +37,7 @@ saveXml
 
 
 getDomDocument
---------------
+++++++++++++++
 
 .. function:: getDomDocument()
 
@@ -46,7 +49,7 @@ getDomDocument
 
 
 getElement
-----------
+++++++++++
 
 .. function:: getElement()
 
@@ -58,7 +61,7 @@ getElement
 
 
 getDataContainer
-----------------
+++++++++++++++++
 
 .. function:: getDataContainer()
 
@@ -70,7 +73,7 @@ getDataContainer
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -84,7 +87,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -96,7 +99,7 @@ getEncoding
 
 
 ignoreExceptions
-----------------
+++++++++++++++++
 
 .. function:: ignoreExceptions()
 
@@ -112,7 +115,7 @@ ignoreExceptions
 
 
 getExceptions
--------------
++++++++++++++
 
 .. function:: getExceptions()
 
@@ -124,7 +127,7 @@ getExceptions
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -138,7 +141,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -150,7 +153,7 @@ getType
 
 
 setRootElement
---------------
+++++++++++++++
 
 .. function:: setRootElement()
 
@@ -165,7 +168,7 @@ setRootElement
 
 
 getRootElement
---------------
+++++++++++++++
 
 .. function:: getRootElement()
 
@@ -177,7 +180,7 @@ getRootElement
 
 
 _loadExtensions
----------------
++++++++++++++++
 
 .. function:: _loadExtensions()
 

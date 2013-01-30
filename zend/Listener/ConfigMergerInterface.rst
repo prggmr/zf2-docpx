@@ -1,5 +1,8 @@
-.. ModuleManager/Listener/ConfigMergerInterface.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/ConfigMergerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\ModuleManager\\Listener\\getMergedConfig
 ==============================================
@@ -14,6 +17,9 @@ Zend\\ModuleManager\\Listener\\getMergedConfig
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\ModuleManager\\Listener\\setMergedConfig
 ==============================================

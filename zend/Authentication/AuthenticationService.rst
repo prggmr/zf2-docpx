@@ -1,14 +1,17 @@
-.. Authentication/AuthenticationService.php generated using docpx on 01/30/13 03:32am
+.. Authentication/AuthenticationService.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Authentication\\AuthenticationService
 ===========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -35,7 +38,7 @@ getAdapter
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -49,7 +52,7 @@ setAdapter
 
 
 getStorage
-----------
+++++++++++
 
 .. function:: getStorage()
 
@@ -63,7 +66,7 @@ getStorage
 
 
 setStorage
-----------
+++++++++++
 
 .. function:: setStorage()
 
@@ -77,7 +80,7 @@ setStorage
 
 
 authenticate
-------------
+++++++++++++
 
 .. function:: authenticate()
 
@@ -93,7 +96,7 @@ authenticate
 
 
 hasIdentity
------------
++++++++++++
 
 .. function:: hasIdentity()
 
@@ -105,7 +108,7 @@ hasIdentity
 
 
 getIdentity
------------
++++++++++++
 
 .. function:: getIdentity()
 
@@ -117,7 +120,7 @@ getIdentity
 
 
 clearIdentity
--------------
++++++++++++++
 
 .. function:: clearIdentity()
 

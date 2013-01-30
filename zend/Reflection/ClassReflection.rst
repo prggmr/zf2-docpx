@@ -1,14 +1,17 @@
-.. Code/Reflection/ClassReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/ClassReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\ClassReflection
 =======================================
 
 Methods
-+++++++
+-------
 
 getDeclaringFile
-----------------
+++++++++++++++++
 
 .. function:: getDeclaringFile()
 
@@ -20,7 +23,7 @@ getDeclaringFile
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -34,7 +37,7 @@ getDocBlock
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -46,7 +49,7 @@ getAnnotations
 
 
 getStartLine
-------------
+++++++++++++
 
 .. function:: getStartLine()
 
@@ -60,7 +63,7 @@ getStartLine
 
 
 getContents
------------
++++++++++++
 
 .. function:: getContents()
 
@@ -74,7 +77,7 @@ getContents
 
 
 getInterfaces
--------------
++++++++++++++
 
 .. function:: getInterfaces()
 
@@ -86,7 +89,7 @@ getInterfaces
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -100,7 +103,7 @@ getMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -114,7 +117,7 @@ getMethods
 
 
 getParentClass
---------------
+++++++++++++++
 
 .. function:: getParentClass()
 
@@ -126,7 +129,7 @@ getParentClass
 
 
 getProperty
------------
++++++++++++
 
 .. function:: getProperty()
 
@@ -140,7 +143,7 @@ getProperty
 
 
 getProperties
--------------
++++++++++++++
 
 .. function:: getProperties()
 
@@ -154,14 +157,14 @@ getProperties
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

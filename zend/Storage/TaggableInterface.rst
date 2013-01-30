@@ -1,5 +1,8 @@
-.. Cache/Storage/TaggableInterface.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/TaggableInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Cache\\Storage\\setTags
 =============================
@@ -17,6 +20,9 @@ Zend\\Cache\\Storage\\setTags
 
 
 
+Function
+********
+
 Zend\\Cache\\Storage\\getTags
 =============================
 
@@ -30,6 +36,9 @@ Zend\\Cache\\Storage\\getTags
     :rtype: string[]|FALSE 
 
 
+
+Function
+********
 
 Zend\\Cache\\Storage\\clearByTags
 =================================

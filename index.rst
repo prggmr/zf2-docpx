@@ -18,8 +18,8 @@ Source Code
     :glob:
     :numbered:
 
-    zend/*/*
-    zend/*/*/*
+    Zend/*/*
+    Zend/*/*/*
 
 
 Indices and tables

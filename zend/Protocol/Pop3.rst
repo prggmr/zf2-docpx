@@ -1,14 +1,17 @@
-.. Mail/Protocol/Pop3.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/Pop3.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\Pop3
 ==========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -32,7 +35,7 @@ __destruct
 
 
 connect
--------
++++++++
 
 .. function:: connect()
 
@@ -50,7 +53,7 @@ connect
 
 
 sendRequest
------------
++++++++++++
 
 .. function:: sendRequest()
 
@@ -64,7 +67,7 @@ sendRequest
 
 
 readResponse
-------------
+++++++++++++
 
 .. function:: readResponse()
 
@@ -80,7 +83,7 @@ readResponse
 
 
 request
--------
++++++++
 
 .. function:: request()
 
@@ -96,7 +99,7 @@ request
 
 
 logout
-------
+++++++
 
 .. function:: logout()
 
@@ -106,7 +109,7 @@ logout
 
 
 capa
-----
+++++
 
 .. function:: capa()
 
@@ -118,7 +121,7 @@ capa
 
 
 login
------
++++++
 
 .. function:: login()
 
@@ -132,7 +135,7 @@ login
 
 
 status
-------
+++++++
 
 .. function:: status()
 
@@ -145,7 +148,7 @@ status
 
 
 getList
--------
++++++++
 
 .. function:: getList()
 
@@ -159,7 +162,7 @@ getList
 
 
 uniqueid
---------
+++++++++
 
 .. function:: uniqueid()
 
@@ -173,7 +176,7 @@ uniqueid
 
 
 top
----
++++
 
 .. function:: top()
 
@@ -196,7 +199,7 @@ top
 
 
 retrieve
---------
+++++++++
 
 .. function:: retrieve()
 
@@ -210,7 +213,7 @@ retrieve
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -220,7 +223,7 @@ noop
 
 
 delete
-------
+++++++
 
 .. function:: delete()
 
@@ -232,7 +235,7 @@ delete
 
 
 undelete
---------
+++++++++
 
 .. function:: undelete()
 
@@ -244,10 +247,10 @@ undelete
 
 
 Constants
-+++++++++
+---------
 
 TIMEOUT_CONNECTION
-==================
+++++++++++++++++++
 
 Default timeout in seconds for initiating session
 

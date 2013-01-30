@@ -1,5 +1,8 @@
-.. Mvc/Controller/ControllerManager.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/ControllerManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\ControllerManager
 ========================================
@@ -9,10 +12,10 @@ Manager for loading controllers
 Does not define any controllers by default, but does add a validator.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 injectControllerDependencies
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: injectControllerDependencies()
 
@@ -42,7 +45,7 @@ injectControllerDependencies
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 
@@ -60,7 +63,7 @@ validatePlugin
 
 
 get
----
++++
 
 .. function:: get()
 

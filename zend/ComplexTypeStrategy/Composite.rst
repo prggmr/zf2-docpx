@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/Composite.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/Composite.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\Composite
 ================================================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\Composite
 Zend_Soap_Wsdl_Strategy_Composite
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 connectTypeToStrategy
----------------------
++++++++++++++++++++++
 
 .. function:: connectTypeToStrategy()
 
@@ -39,7 +42,7 @@ connectTypeToStrategy
 
 
 getDefaultStrategy
-------------------
+++++++++++++++++++
 
 .. function:: getDefaultStrategy()
 
@@ -52,7 +55,7 @@ getDefaultStrategy
 
 
 getStrategyOfType
------------------
++++++++++++++++++
 
 .. function:: getStrategyOfType()
 
@@ -67,7 +70,7 @@ getStrategyOfType
 
 
 setContext
-----------
+++++++++++
 
 .. function:: setContext()
 
@@ -81,7 +84,7 @@ setContext
 
 
 addComplexType
---------------
+++++++++++++++
 
 .. function:: addComplexType()
 

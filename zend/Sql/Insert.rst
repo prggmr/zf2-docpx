@@ -1,14 +1,17 @@
-.. Db/Sql/Insert.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Insert.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Insert
 =====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 into
-----
+++++
 
 .. function:: into()
 
@@ -34,7 +37,7 @@ into
 
 
 columns
--------
++++++++
 
 .. function:: columns()
 
@@ -48,7 +51,7 @@ columns
 
 
 values
-------
+++++++
 
 .. function:: values()
 
@@ -65,14 +68,14 @@ values
 
 
 getRawState
------------
++++++++++++
 
 .. function:: getRawState()
 
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -87,7 +90,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 
@@ -101,7 +104,7 @@ getSqlString
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -118,7 +121,7 @@ __set
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -136,7 +139,7 @@ __unset
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -152,7 +155,7 @@ __isset
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -172,14 +175,14 @@ __get
 
 
 Constants
-+++++++++
+---------
 
 SPECIFICATION_INSERT
-====================
+++++++++++++++++++++
 
 VALUES_MERGE
-============
+++++++++++++
 
 VALUES_SET
-==========
+++++++++++
 

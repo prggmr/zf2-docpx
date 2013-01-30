@@ -1,14 +1,17 @@
-.. Form/Element.php generated using docpx on 01/30/13 03:32am
+.. Form/Element.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element
 ===================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -35,7 +38,7 @@ init
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -49,7 +52,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -61,7 +64,7 @@ getName
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -79,7 +82,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -91,7 +94,7 @@ getOptions
 
 
 getOption
----------
++++++++++
 
 .. function:: getOption()
 
@@ -105,7 +108,7 @@ getOption
 
 
 setAttribute
-------------
+++++++++++++
 
 .. function:: setAttribute()
 
@@ -120,7 +123,7 @@ setAttribute
 
 
 getAttribute
-------------
+++++++++++++
 
 .. function:: getAttribute()
 
@@ -134,7 +137,7 @@ getAttribute
 
 
 removeAttribute
----------------
++++++++++++++++
 
 .. function:: removeAttribute()
 
@@ -148,7 +151,7 @@ removeAttribute
 
 
 hasAttribute
-------------
+++++++++++++
 
 .. function:: hasAttribute()
 
@@ -162,7 +165,7 @@ hasAttribute
 
 
 setAttributes
--------------
++++++++++++++
 
 .. function:: setAttributes()
 
@@ -180,7 +183,7 @@ setAttributes
 
 
 getAttributes
--------------
++++++++++++++
 
 .. function:: getAttributes()
 
@@ -192,7 +195,7 @@ getAttributes
 
 
 removeAttributes
-----------------
+++++++++++++++++
 
 .. function:: removeAttributes()
 
@@ -206,7 +209,7 @@ removeAttributes
 
 
 clearAttributes
----------------
++++++++++++++++
 
 .. function:: clearAttributes()
 
@@ -218,7 +221,7 @@ clearAttributes
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -232,7 +235,7 @@ setValue
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -244,7 +247,7 @@ getValue
 
 
 setLabel
---------
+++++++++
 
 .. function:: setLabel()
 
@@ -258,7 +261,7 @@ setLabel
 
 
 getLabel
---------
+++++++++
 
 .. function:: getLabel()
 
@@ -270,7 +273,7 @@ getLabel
 
 
 setLabelAttributes
-------------------
+++++++++++++++++++
 
 .. function:: setLabelAttributes()
 
@@ -284,7 +287,7 @@ setLabelAttributes
 
 
 getLabelAttributes
-------------------
+++++++++++++++++++
 
 .. function:: getLabelAttributes()
 
@@ -296,7 +299,7 @@ getLabelAttributes
 
 
 setMessages
------------
++++++++++++
 
 .. function:: setMessages()
 
@@ -312,7 +315,7 @@ setMessages
 
 
 getMessages
------------
++++++++++++
 
 .. function:: getMessages()
 

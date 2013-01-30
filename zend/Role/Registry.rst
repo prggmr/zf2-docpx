@@ -1,14 +1,17 @@
-.. Permissions/Acl/Role/Registry.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Acl/Role/Registry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Acl\\Role\\Registry
 ======================================
 
 Methods
-+++++++
+-------
 
 add
----
++++
 
 .. function:: add()
 
@@ -36,7 +39,7 @@ add
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -54,7 +57,7 @@ get
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -70,7 +73,7 @@ has
 
 
 getParents
-----------
+++++++++++
 
 .. function:: getParents()
 
@@ -91,7 +94,7 @@ getParents
 
 
 inherits
---------
+++++++++
 
 .. function:: inherits()
 
@@ -115,7 +118,7 @@ inherits
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -133,7 +136,7 @@ remove
 
 
 removeAll
----------
++++++++++
 
 .. function:: removeAll()
 
@@ -145,7 +148,7 @@ removeAll
 
 
 getRoles
---------
+++++++++
 
 .. function:: getRoles()
 

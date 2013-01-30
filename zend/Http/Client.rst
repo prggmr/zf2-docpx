@@ -1,5 +1,8 @@
-.. Http/Client.php generated using docpx on 01/30/13 03:32am
+.. Http/Client.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Client
 ==================
@@ -7,10 +10,10 @@ Zend\\Http\\Client
 Http client
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -39,7 +42,7 @@ setOptions
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -58,7 +61,7 @@ setAdapter
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -70,7 +73,7 @@ getAdapter
 
 
 setRequest
-----------
+++++++++++
 
 .. function:: setRequest()
 
@@ -84,7 +87,7 @@ setRequest
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -96,7 +99,7 @@ getRequest
 
 
 setResponse
------------
++++++++++++
 
 .. function:: setResponse()
 
@@ -110,7 +113,7 @@ setResponse
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -122,7 +125,7 @@ getResponse
 
 
 getLastRawRequest
------------------
++++++++++++++++++
 
 .. function:: getLastRawRequest()
 
@@ -134,7 +137,7 @@ getLastRawRequest
 
 
 getLastRawResponse
-------------------
+++++++++++++++++++
 
 .. function:: getLastRawResponse()
 
@@ -146,7 +149,7 @@ getLastRawResponse
 
 
 getRedirectionsCount
---------------------
+++++++++++++++++++++
 
 .. function:: getRedirectionsCount()
 
@@ -158,7 +161,7 @@ getRedirectionsCount
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -172,7 +175,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -184,7 +187,7 @@ getUri
 
 
 setMethod
----------
++++++++++
 
 .. function:: setMethod()
 
@@ -198,7 +201,7 @@ setMethod
 
 
 getMethod
----------
++++++++++
 
 .. function:: getMethod()
 
@@ -210,7 +213,7 @@ getMethod
 
 
 setArgSeparator
----------------
++++++++++++++++
 
 .. function:: setArgSeparator()
 
@@ -224,7 +227,7 @@ setArgSeparator
 
 
 getArgSeparator
----------------
++++++++++++++++
 
 .. function:: getArgSeparator()
 
@@ -236,7 +239,7 @@ getArgSeparator
 
 
 setEncType
-----------
+++++++++++
 
 .. function:: setEncType()
 
@@ -251,7 +254,7 @@ setEncType
 
 
 getEncType
-----------
+++++++++++
 
 .. function:: getEncType()
 
@@ -263,7 +266,7 @@ getEncType
 
 
 setRawBody
-----------
+++++++++++
 
 .. function:: setRawBody()
 
@@ -277,7 +280,7 @@ setRawBody
 
 
 setParameterPost
-----------------
+++++++++++++++++
 
 .. function:: setParameterPost()
 
@@ -291,7 +294,7 @@ setParameterPost
 
 
 setParameterGet
----------------
++++++++++++++++
 
 .. function:: setParameterGet()
 
@@ -305,7 +308,7 @@ setParameterGet
 
 
 getCookies
-----------
+++++++++++
 
 .. function:: getCookies()
 
@@ -317,7 +320,7 @@ getCookies
 
 
 getCookieId
------------
++++++++++++
 
 .. function:: getCookieId()
 
@@ -331,7 +334,7 @@ getCookieId
 
 
 addCookie
----------
++++++++++
 
 .. function:: addCookie()
 
@@ -355,7 +358,7 @@ addCookie
 
 
 setCookies
-----------
+++++++++++
 
 .. function:: setCookies()
 
@@ -371,7 +374,7 @@ setCookies
 
 
 clearCookies
-------------
+++++++++++++
 
 .. function:: clearCookies()
 
@@ -381,7 +384,7 @@ clearCookies
 
 
 setHeaders
-----------
+++++++++++
 
 .. function:: setHeaders()
 
@@ -397,7 +400,7 @@ setHeaders
 
 
 hasHeader
----------
++++++++++
 
 .. function:: hasHeader()
 
@@ -411,7 +414,7 @@ hasHeader
 
 
 getHeader
----------
++++++++++
 
 .. function:: getHeader()
 
@@ -425,7 +428,7 @@ getHeader
 
 
 setStream
----------
++++++++++
 
 .. function:: setStream()
 
@@ -439,7 +442,7 @@ setStream
 
 
 getStream
----------
++++++++++
 
 .. function:: getStream()
 
@@ -451,7 +454,7 @@ getStream
 
 
 openTempStream
---------------
+++++++++++++++
 
 .. function:: openTempStream()
 
@@ -464,7 +467,7 @@ openTempStream
 
 
 setAuth
--------
++++++++
 
 .. function:: setAuth()
 
@@ -483,7 +486,7 @@ setAuth
 
 
 calcAuthDigest
---------------
+++++++++++++++
 
 .. function:: calcAuthDigest()
 
@@ -504,7 +507,7 @@ calcAuthDigest
 
 
 resetParameters
----------------
++++++++++++++++
 
 .. function:: resetParameters()
 
@@ -518,7 +521,7 @@ resetParameters
 
 
 dispatch
---------
+++++++++
 
 .. function:: dispatch()
 
@@ -533,7 +536,7 @@ dispatch
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -550,7 +553,7 @@ send
 
 
 setFileUpload
--------------
++++++++++++++
 
 .. function:: setFileUpload()
 
@@ -579,7 +582,7 @@ setFileUpload
 
 
 removeFileUpload
-----------------
+++++++++++++++++
 
 .. function:: removeFileUpload()
 
@@ -593,7 +596,7 @@ removeFileUpload
 
 
 prepareCookies
---------------
+++++++++++++++
 
 .. function:: prepareCookies()
 
@@ -609,7 +612,7 @@ prepareCookies
 
 
 prepareHeaders
---------------
+++++++++++++++
 
 .. function:: prepareHeaders()
 
@@ -626,7 +629,7 @@ prepareHeaders
 
 
 prepareBody
------------
++++++++++++
 
 .. function:: prepareBody()
 
@@ -640,7 +643,7 @@ prepareBody
 
 
 detectFileMimeType
-------------------
+++++++++++++++++++
 
 .. function:: detectFileMimeType()
 
@@ -662,7 +665,7 @@ detectFileMimeType
 
 
 encodeFormData
---------------
+++++++++++++++
 
 .. function:: encodeFormData()
 
@@ -680,7 +683,7 @@ encodeFormData
 
 
 flattenParametersArray
-----------------------
+++++++++++++++++++++++
 
 .. function:: flattenParametersArray()
 
@@ -701,7 +704,7 @@ flattenParametersArray
 
 
 doRequest
----------
++++++++++
 
 .. function:: doRequest()
 
@@ -722,7 +725,7 @@ doRequest
 
 
 encodeAuthHeader
-----------------
+++++++++++++++++
 
 .. function:: encodeAuthHeader()
 
@@ -744,41 +747,41 @@ encodeAuthHeader
 
 
 Constants
-+++++++++
+---------
 
 AUTH_BASIC
-==========
+++++++++++
 
 @const string Supported HTTP Authentication methods
 
 AUTH_DIGEST
-===========
++++++++++++
 
 ENC_URLENCODED
-==============
+++++++++++++++
 
 @const string POST data encoding methods
 
 ENC_FORMDATA
-============
+++++++++++++
 
 DIGEST_REALM
-============
+++++++++++++
 
 @const string DIGEST Authentication
 
 DIGEST_QOP
-==========
+++++++++++
 
 DIGEST_NONCE
-============
+++++++++++++
 
 DIGEST_OPAQUE
-=============
++++++++++++++
 
 DIGEST_NC
-=========
++++++++++
 
 DIGEST_CNONCE
-=============
++++++++++++++
 

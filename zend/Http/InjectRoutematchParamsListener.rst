@@ -1,14 +1,17 @@
-.. Mvc/View/Http/InjectRoutematchParamsListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/InjectRoutematchParamsListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\InjectRoutematchParamsListener
 =====================================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 injectParams
-------------
+++++++++++++
 
 .. function:: injectParams()
 
@@ -50,7 +53,7 @@ injectParams
 
 
 setOverwrite
-------------
+++++++++++++
 
 .. function:: setOverwrite()
 
@@ -62,7 +65,7 @@ setOverwrite
 
 
 getOverwrite
-------------
+++++++++++++
 
 .. function:: getOverwrite()
 

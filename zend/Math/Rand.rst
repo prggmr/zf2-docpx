@@ -1,5 +1,8 @@
-.. Math/Rand.php generated using docpx on 01/30/13 03:32am
+.. Math/Rand.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Math\\Rand
 ================
@@ -7,10 +10,10 @@ Zend\\Math\\Rand
 Pseudorandom number generator (PRNG)
 
 Methods
-+++++++
+-------
 
 getBytes
---------
+++++++++
 
 .. function:: getBytes()
 
@@ -27,7 +30,7 @@ getBytes
 
 
 getBoolean
-----------
+++++++++++
 
 .. function:: getBoolean()
 
@@ -41,7 +44,7 @@ getBoolean
 
 
 getInteger
-----------
+++++++++++
 
 .. function:: getInteger()
 
@@ -59,7 +62,7 @@ getInteger
 
 
 getFloat
---------
+++++++++
 
 .. function:: getFloat()
 
@@ -79,7 +82,7 @@ getFloat
 
 
 getString
----------
++++++++++
 
 .. function:: getString()
 

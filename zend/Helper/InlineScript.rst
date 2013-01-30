@@ -1,5 +1,8 @@
-.. View/Helper/InlineScript.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/InlineScript.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\InlineScript
 ================================
@@ -8,10 +11,10 @@ Helper for setting and retrieving script elements for inclusion in HTML body
 section
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

@@ -1,5 +1,8 @@
-.. Loader/ShortNameLocator.php generated using docpx on 01/30/13 03:32am
+.. Loader/ShortNameLocator.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Loader\\isLoaded
 ======================
@@ -15,6 +18,9 @@ Zend\\Loader\\isLoaded
 
 
 
+Function
+********
+
 Zend\\Loader\\getClassName
 ==========================
 
@@ -28,6 +34,9 @@ Zend\\Loader\\getClassName
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Loader\\load
 ==================

@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/AttributeType/OpenLdap.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/AttributeType/OpenLdap.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema\\AttributeType\\OpenLdap
 =================================================
@@ -8,10 +11,10 @@ Zend\Ldap\Node\Schema\AttributeType\OpenLdap provides access to the attribute ty
 schema information on an OpenLDAP server.
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -23,7 +26,7 @@ getName
 
 
 getOid
-------
+++++++
 
 .. function:: getOid()
 
@@ -35,7 +38,7 @@ getOid
 
 
 getSyntax
----------
++++++++++
 
 .. function:: getSyntax()
 
@@ -47,7 +50,7 @@ getSyntax
 
 
 getMaxLength
-------------
+++++++++++++
 
 .. function:: getMaxLength()
 
@@ -59,7 +62,7 @@ getMaxLength
 
 
 isSingleValued
---------------
+++++++++++++++
 
 .. function:: isSingleValued()
 
@@ -71,7 +74,7 @@ isSingleValued
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -83,7 +86,7 @@ getDescription
 
 
 getParent
----------
++++++++++
 
 .. function:: getParent()
 

@@ -1,14 +1,17 @@
-.. Validator/ValidatorPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Validator/ValidatorPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\ValidatorPluginManager
 =======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 injectTranslator
-----------------
+++++++++++++++++
 
 .. function:: injectTranslator()
 
@@ -37,7 +40,7 @@ injectTranslator
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

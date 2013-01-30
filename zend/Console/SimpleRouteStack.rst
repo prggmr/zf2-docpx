@@ -1,5 +1,8 @@
-.. Mvc/Router/Console/SimpleRouteStack.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/Console/SimpleRouteStack.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\Console\\SimpleRouteStack
 ============================================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\Console\\SimpleRouteStack
 Tree search implementation.
 
 Methods
-+++++++
+-------
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -21,7 +24,7 @@ init
 
 
 addRoute
---------
+++++++++
 
 .. function:: addRoute()
 
@@ -38,7 +41,7 @@ addRoute
 
 
 routeFromArray
---------------
+++++++++++++++
 
 .. function:: routeFromArray()
 

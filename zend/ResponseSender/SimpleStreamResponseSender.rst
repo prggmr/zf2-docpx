@@ -1,14 +1,17 @@
-.. Mvc/ResponseSender/SimpleStreamResponseSender.php generated using docpx on 01/30/13 03:32am
+.. Mvc/ResponseSender/SimpleStreamResponseSender.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\ResponseSender\\SimpleStreamResponseSender
 =====================================================
 
 Methods
-+++++++
+-------
 
 sendStream
-----------
+++++++++++
 
 .. function:: sendStream()
 
@@ -22,7 +25,7 @@ sendStream
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

@@ -1,5 +1,8 @@
-.. Di/Definition/RuntimeDefinition.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/RuntimeDefinition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\RuntimeDefinition
 =======================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\RuntimeDefinition
 Class definitions based on runtime reflection
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setIntrospectionStrategy
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setIntrospectionStrategy()
 
@@ -35,7 +38,7 @@ setIntrospectionStrategy
 
 
 getIntrospectionStrategy
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getIntrospectionStrategy()
 
@@ -45,7 +48,7 @@ getIntrospectionStrategy
 
 
 setExplicitClasses
-------------------
+++++++++++++++++++
 
 .. function:: setExplicitClasses()
 
@@ -57,7 +60,7 @@ setExplicitClasses
 
 
 forceLoadClass
---------------
+++++++++++++++
 
 .. function:: forceLoadClass()
 
@@ -67,7 +70,7 @@ forceLoadClass
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -77,7 +80,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -87,7 +90,7 @@ hasClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -97,7 +100,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -107,7 +110,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -117,7 +120,7 @@ hasMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -127,7 +130,7 @@ hasMethod
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -137,7 +140,7 @@ getMethods
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -147,7 +150,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 
@@ -157,7 +160,7 @@ getMethodParameters
 
 
 processClass
-------------
+++++++++++++
 
 .. function:: processClass()
 
@@ -167,7 +170,7 @@ processClass
 
 
 processParams
--------------
++++++++++++++
 
 .. function:: processParams()
 

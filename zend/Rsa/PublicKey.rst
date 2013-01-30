@@ -1,5 +1,8 @@
-.. Crypt/PublicKey/Rsa/PublicKey.php generated using docpx on 01/30/13 03:32am
+.. Crypt/PublicKey/Rsa/PublicKey.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\PublicKey\\Rsa\\PublicKey
 ======================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\PublicKey\\Rsa\\PublicKey
 RSA public key
 
 Methods
-+++++++
+-------
 
 fromFile
---------
+++++++++
 
 .. function:: fromFile()
 
@@ -27,7 +30,7 @@ fromFile
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -41,7 +44,7 @@ __construct
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -58,7 +61,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -75,7 +78,7 @@ decrypt
 
 
 getCertificate
---------------
+++++++++++++++
 
 .. function:: getCertificate()
 
@@ -87,7 +90,7 @@ getCertificate
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -103,8 +106,8 @@ toString
 
 
 Constants
-+++++++++
+---------
 
 CERT_START
-==========
+++++++++++
 

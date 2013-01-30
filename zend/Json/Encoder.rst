@@ -1,5 +1,8 @@
-.. Json/Encoder.php generated using docpx on 01/30/13 03:32am
+.. Json/Encoder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Encoder
 ===================
@@ -7,10 +10,10 @@ Zend\\Json\\Encoder
 Encode PHP constructs to JSON
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 encode
-------
+++++++
 
 .. function:: encode()
 
@@ -41,7 +44,7 @@ encode
 
 
 _encodeValue
-------------
+++++++++++++
 
 .. function:: _encodeValue()
 
@@ -59,7 +62,7 @@ _encodeValue
 
 
 _encodeObject
--------------
++++++++++++++
 
 .. function:: _encodeObject()
 
@@ -80,7 +83,7 @@ _encodeObject
 
 
 _wasVisited
------------
++++++++++++
 
 .. function:: _wasVisited()
 
@@ -94,7 +97,7 @@ _wasVisited
 
 
 _encodeArray
-------------
+++++++++++++
 
 .. function:: _encodeArray()
 
@@ -115,7 +118,7 @@ _encodeArray
 
 
 _encodeDatum
-------------
+++++++++++++
 
 .. function:: _encodeDatum()
 
@@ -132,7 +135,7 @@ _encodeDatum
 
 
 _encodeString
--------------
++++++++++++++
 
 .. function:: _encodeString()
 
@@ -146,7 +149,7 @@ _encodeString
 
 
 _encodeConstants
-----------------
+++++++++++++++++
 
 .. function:: _encodeConstants()
 
@@ -161,7 +164,7 @@ _encodeConstants
 
 
 _encodeMethods
---------------
+++++++++++++++
 
 .. function:: _encodeMethods()
 
@@ -176,7 +179,7 @@ _encodeMethods
 
 
 _encodeVariables
-----------------
+++++++++++++++++
 
 .. function:: _encodeVariables()
 
@@ -191,7 +194,7 @@ _encodeVariables
 
 
 encodeClass
------------
++++++++++++
 
 .. function:: encodeClass()
 
@@ -213,7 +216,7 @@ proxy class name
 
 
 encodeClasses
--------------
++++++++++++++
 
 .. function:: encodeClasses()
 
@@ -230,7 +233,7 @@ encodeClasses
 
 
 encodeUnicodeString
--------------------
++++++++++++++++++++
 
 .. function:: encodeUnicodeString()
 
@@ -248,7 +251,7 @@ encodeUnicodeString
 
 
 _utf82utf16
------------
++++++++++++
 
 .. function:: _utf82utf16()
 

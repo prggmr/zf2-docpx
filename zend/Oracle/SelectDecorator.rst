@@ -1,14 +1,17 @@
-.. Db/Sql/Platform/Oracle/SelectDecorator.php generated using docpx on 01/30/13 03:32am
+.. Db/Sql/Platform/Oracle/SelectDecorator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Sql\\Platform\\Oracle\\SelectDecorator
 ================================================
 
 Methods
-+++++++
+-------
 
 setSubject
-----------
+++++++++++
 
 .. function:: setSubject()
 
@@ -18,7 +21,7 @@ setSubject
 
 
 prepareStatement
-----------------
+++++++++++++++++
 
 .. function:: prepareStatement()
 
@@ -30,7 +33,7 @@ prepareStatement
 
 
 getSqlString
-------------
+++++++++++++
 
 .. function:: getSqlString()
 
@@ -42,7 +45,7 @@ getSqlString
 
 
 processLimitOffset
-------------------
+++++++++++++++++++
 
 .. function:: processLimitOffset()
 
@@ -59,7 +62,7 @@ processLimitOffset
 
 
 processJoins
-------------
+++++++++++++
 
 .. function:: processJoins()
 

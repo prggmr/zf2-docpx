@@ -1,5 +1,8 @@
-.. Config/Reader/Ini.php generated using docpx on 01/30/13 03:32am
+.. Config/Reader/Ini.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Reader\\Ini
 =========================
@@ -7,10 +10,10 @@ Zend\\Config\\Reader\\Ini
 XML config reader.
 
 Methods
-+++++++
+-------
 
 setNestSeparator
-----------------
+++++++++++++++++
 
 .. function:: setNestSeparator()
 
@@ -24,7 +27,7 @@ setNestSeparator
 
 
 getNestSeparator
-----------------
+++++++++++++++++
 
 .. function:: getNestSeparator()
 
@@ -36,7 +39,7 @@ getNestSeparator
 
 
 fromFile
---------
+++++++++
 
 .. function:: fromFile()
 
@@ -53,7 +56,7 @@ fromFile
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -69,7 +72,7 @@ fromString
 
 
 process
--------
++++++++
 
 .. function:: process()
 
@@ -83,7 +86,7 @@ process
 
 
 buildNestedSection
-------------------
+++++++++++++++++++
 
 .. function:: buildNestedSection()
 
@@ -98,7 +101,7 @@ buildNestedSection
 
 
 processSection
---------------
+++++++++++++++
 
 .. function:: processSection()
 
@@ -112,7 +115,7 @@ processSection
 
 
 processKey
-----------
+++++++++++
 
 .. function:: processKey()
 

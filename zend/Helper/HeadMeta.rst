@@ -1,5 +1,8 @@
-.. View/Helper/HeadMeta.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HeadMeta.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HeadMeta
 ============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HeadMeta
 Zend_Layout_View_Helper_HeadMeta
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -40,7 +43,7 @@ __invoke
 
 
 normalizeType
--------------
++++++++++++++
 
 .. function:: normalizeType()
 
@@ -56,7 +59,7 @@ normalizeType
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -87,7 +90,7 @@ __call
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -103,7 +106,7 @@ setCharset
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -117,7 +120,7 @@ isValid
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -133,7 +136,7 @@ append
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -150,7 +153,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -166,7 +169,7 @@ offsetUnset
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -182,7 +185,7 @@ prepend
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -198,7 +201,7 @@ set
 
 
 itemToString
-------------
+++++++++++++
 
 .. function:: itemToString()
 
@@ -214,7 +217,7 @@ itemToString
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -228,7 +231,7 @@ toString
 
 
 createData
-----------
+++++++++++
 
 .. function:: createData()
 

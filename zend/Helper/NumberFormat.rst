@@ -1,5 +1,8 @@
-.. I18n/View/Helper/NumberFormat.php generated using docpx on 01/30/13 03:32am
+.. I18n/View/Helper/NumberFormat.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\I18n\\View\\Helper\\NumberFormat
 ======================================
@@ -7,10 +10,10 @@ Zend\\I18n\\View\\Helper\\NumberFormat
 View helper for formatting dates.
 
 Methods
-+++++++
+-------
 
 setFormatStyle
---------------
+++++++++++++++
 
 .. function:: setFormatStyle()
 
@@ -24,7 +27,7 @@ setFormatStyle
 
 
 getFormatStyle
---------------
+++++++++++++++
 
 .. function:: getFormatStyle()
 
@@ -36,7 +39,7 @@ getFormatStyle
 
 
 setFormatType
--------------
++++++++++++++
 
 .. function:: setFormatType()
 
@@ -50,7 +53,7 @@ setFormatType
 
 
 getFormatType
--------------
++++++++++++++
 
 .. function:: getFormatType()
 
@@ -62,7 +65,7 @@ getFormatType
 
 
 setLocale
----------
++++++++++
 
 .. function:: setLocale()
 
@@ -76,7 +79,7 @@ setLocale
 
 
 getLocale
----------
++++++++++
 
 .. function:: getLocale()
 
@@ -88,7 +91,7 @@ getLocale
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

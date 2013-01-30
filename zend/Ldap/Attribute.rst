@@ -1,5 +1,8 @@
-.. Ldap/Attribute.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Attribute.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Attribute
 =====================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Attribute
 Zend\Ldap\Attribute is a collection of LDAP attribute related functions.
 
 Methods
-+++++++
+-------
 
 setAttribute
-------------
+++++++++++++
 
 .. function:: setAttribute()
 
@@ -27,7 +30,7 @@ setAttribute
 
 
 getAttribute
-------------
+++++++++++++
 
 .. function:: getAttribute()
 
@@ -43,7 +46,7 @@ getAttribute
 
 
 attributeHasValue
------------------
++++++++++++++++++
 
 .. function:: attributeHasValue()
 
@@ -59,7 +62,7 @@ attributeHasValue
 
 
 removeDuplicatesFromAttribute
------------------------------
++++++++++++++++++++++++++++++
 
 .. function:: removeDuplicatesFromAttribute()
 
@@ -74,7 +77,7 @@ removeDuplicatesFromAttribute
 
 
 removeFromAttribute
--------------------
++++++++++++++++++++
 
 .. function:: removeFromAttribute()
 
@@ -90,7 +93,7 @@ removeFromAttribute
 
 
 valueToLdap
------------
++++++++++++
 
 .. function:: valueToLdap()
 
@@ -102,7 +105,7 @@ valueToLdap
 
 
 valueFromLdap
--------------
++++++++++++++
 
 .. function:: valueFromLdap()
 
@@ -114,7 +117,7 @@ valueFromLdap
 
 
 setPassword
------------
++++++++++++
 
 .. function:: setPassword()
 
@@ -129,7 +132,7 @@ setPassword
 
 
 createPassword
---------------
+++++++++++++++
 
 .. function:: createPassword()
 
@@ -144,7 +147,7 @@ createPassword
 
 
 setDateTimeAttribute
---------------------
+++++++++++++++++++++
 
 .. function:: setDateTimeAttribute()
 
@@ -160,7 +163,7 @@ setDateTimeAttribute
 
 
 valueToLdapDateTime
--------------------
++++++++++++++++++++
 
 .. function:: valueToLdapDateTime()
 
@@ -174,7 +177,7 @@ valueToLdapDateTime
 
 
 getDateTimeAttribute
---------------------
+++++++++++++++++++++
 
 .. function:: getDateTimeAttribute()
 
@@ -190,7 +193,7 @@ getDateTimeAttribute
 
 
 valueFromLdapDateTime
----------------------
++++++++++++++++++++++
 
 .. function:: valueFromLdapDateTime()
 
@@ -204,20 +207,20 @@ valueFromLdapDateTime
 
 
 Constants
-+++++++++
+---------
 
 PASSWORD_HASH_MD5
-=================
++++++++++++++++++
 
 PASSWORD_HASH_SMD5
-==================
+++++++++++++++++++
 
 PASSWORD_HASH_SHA
-=================
++++++++++++++++++
 
 PASSWORD_HASH_SSHA
-==================
+++++++++++++++++++
 
 PASSWORD_UNICODEPWD
-===================
++++++++++++++++++++
 

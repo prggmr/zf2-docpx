@@ -1,5 +1,8 @@
-.. Validator/File/Md5.php generated using docpx on 01/30/13 03:32am
+.. Validator/File/Md5.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\File\\Md5
 ==========================
@@ -7,10 +10,10 @@ Zend\\Validator\\File\\Md5
 Validator for the md5 hash of given files
 
 Methods
-+++++++
+-------
 
 getMd5
-------
+++++++
 
 .. function:: getMd5()
 
@@ -22,7 +25,7 @@ getMd5
 
 
 setMd5
-------
+++++++
 
 .. function:: setMd5()
 
@@ -36,7 +39,7 @@ setMd5
 
 
 addMd5
-------
+++++++
 
 .. function:: addMd5()
 
@@ -50,7 +53,7 @@ addMd5
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -66,16 +69,16 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 DOES_NOT_MATCH
-==============
+++++++++++++++
 
 @const string Error constants
 
 NOT_DETECTED
-============
+++++++++++++
 
 NOT_FOUND
-=========
++++++++++
 

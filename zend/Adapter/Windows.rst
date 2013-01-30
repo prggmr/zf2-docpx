@@ -1,14 +1,17 @@
-.. Console/Adapter/Windows.php generated using docpx on 01/30/13 03:32am
+.. Console/Adapter/Windows.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Adapter\\Windows
 ===============================
 
 Methods
-+++++++
+-------
 
 getWidth
---------
+++++++++
 
 .. function:: getWidth()
 
@@ -20,7 +23,7 @@ getWidth
 
 
 getHeight
----------
++++++++++
 
 .. function:: getHeight()
 
@@ -32,7 +35,7 @@ getHeight
 
 
 runProbeCommand
----------------
++++++++++++++++
 
 .. function:: runProbeCommand()
 
@@ -48,7 +51,7 @@ runProbeCommand
 
 
 runModeCommand
---------------
+++++++++++++++
 
 .. function:: runModeCommand()
 
@@ -60,7 +63,7 @@ runModeCommand
 
 
 isUtf8
-------
+++++++
 
 .. function:: isUtf8()
 
@@ -72,7 +75,7 @@ isUtf8
 
 
 setPos
-------
+++++++
 
 .. function:: setPos()
 
@@ -85,7 +88,7 @@ setPos
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -97,7 +100,7 @@ getTitle
 
 
 setCharset
-----------
+++++++++++
 
 .. function:: setCharset()
 
@@ -109,7 +112,7 @@ setCharset
 
 
 getCharset
-----------
+++++++++++
 
 .. function:: getCharset()
 
@@ -121,7 +124,7 @@ getCharset
 
 
 getDefaultCharset
------------------
++++++++++++++++++
 
 .. function:: getDefaultCharset()
 
@@ -131,7 +134,7 @@ getDefaultCharset
 
 
 switchToUtf8
-------------
+++++++++++++
 
 .. function:: switchToUtf8()
 
@@ -143,7 +146,7 @@ switchToUtf8
 
 
 clear
------
++++++
 
 .. function:: clear()
 
@@ -153,7 +156,7 @@ clear
 
 
 clearLine
----------
++++++++++
 
 .. function:: clearLine()
 
@@ -163,7 +166,7 @@ clearLine
 
 
 readChar
---------
+++++++++
 
 .. function:: readChar()
 
@@ -179,7 +182,7 @@ readChar
 
 
 readLine
---------
+++++++++
 
 .. function:: readLine()
 

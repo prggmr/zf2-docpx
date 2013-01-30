@@ -1,5 +1,8 @@
-.. Form/View/Helper/File/FormFileUploadProgress.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/File/FormFileUploadProgress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\File\\FormFileUploadProgress
 ======================================================
@@ -8,10 +11,10 @@ A view helper to render the hidden input with a UploadProgress id
 for file uploads progress tracking.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -27,7 +30,7 @@ __invoke
 
 
 renderHiddenId
---------------
+++++++++++++++
 
 .. function:: renderHiddenId()
 
@@ -39,7 +42,7 @@ renderHiddenId
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -49,7 +52,7 @@ getName
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 

@@ -1,5 +1,8 @@
-.. XmlRpc/Client/ServerIntrospection.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Client/ServerIntrospection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Client\\ServerIntrospection
 =========================================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Client\\ServerIntrospection
 Wraps the XML-RPC system.* introspection methods
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getSignatureForEachMethod
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getSignatureForEachMethod()
 
@@ -34,7 +37,7 @@ getSignatureForEachMethod
 
 
 getSignatureForEachMethodByMulticall
-------------------------------------
+++++++++++++++++++++++++++++++++++++
 
 .. function:: getSignatureForEachMethodByMulticall()
 
@@ -52,7 +55,7 @@ getSignatureForEachMethodByMulticall
 
 
 getSignatureForEachMethodByLooping
-----------------------------------
+++++++++++++++++++++++++++++++++++
 
 .. function:: getSignatureForEachMethodByLooping()
 
@@ -67,7 +70,7 @@ getSignatureForEachMethodByLooping
 
 
 getMethodSignature
-------------------
+++++++++++++++++++
 
 .. function:: getMethodSignature()
 
@@ -83,7 +86,7 @@ getMethodSignature
 
 
 listMethods
------------
++++++++++++
 
 .. function:: listMethods()
 

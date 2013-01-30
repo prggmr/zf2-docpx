@@ -1,14 +1,17 @@
-.. Crypt/PublicKey/Rsa/AbstractKey.php generated using docpx on 01/30/13 03:32am
+.. Crypt/PublicKey/Rsa/AbstractKey.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\PublicKey\\Rsa\\AbstractKey
 ========================================
 
 Methods
-+++++++
+-------
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -20,7 +23,7 @@ getSize
 
 
 getOpensslKeyResource
----------------------
++++++++++++++++++++++
 
 .. function:: getOpensslKeyResource()
 
@@ -32,7 +35,7 @@ getOpensslKeyResource
 
 
 encrypt
--------
++++++++
 
 .. function:: encrypt()
 
@@ -47,7 +50,7 @@ encrypt
 
 
 decrypt
--------
++++++++
 
 .. function:: decrypt()
 
@@ -62,7 +65,7 @@ decrypt
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -75,7 +78,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -87,8 +90,8 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 DEFAULT_KEY_SIZE
-================
+++++++++++++++++
 

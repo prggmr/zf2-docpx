@@ -1,14 +1,17 @@
-.. Mime/Message.php generated using docpx on 01/30/13 03:32am
+.. Mime/Message.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mime\\Message
 ===================
 
 Methods
-+++++++
+-------
 
 getParts
---------
+++++++++
 
 .. function:: getParts()
 
@@ -20,7 +23,7 @@ getParts
 
 
 setParts
---------
+++++++++
 
 .. function:: setParts()
 
@@ -32,7 +35,7 @@ setParts
 
 
 addPart
--------
++++++++
 
 .. function:: addPart()
 
@@ -44,7 +47,7 @@ addPart
 
 
 isMultiPart
------------
++++++++++++
 
 .. function:: isMultiPart()
 
@@ -57,7 +60,7 @@ isMultiPart
 
 
 setMime
--------
++++++++
 
 .. function:: setMime()
 
@@ -72,7 +75,7 @@ setMime
 
 
 getMime
--------
++++++++
 
 .. function:: getMime()
 
@@ -87,7 +90,7 @@ getMime
 
 
 generateMessage
----------------
++++++++++++++++
 
 .. function:: generateMessage()
 
@@ -110,7 +113,7 @@ generateMessage
 
 
 getPartHeadersArray
--------------------
++++++++++++++++++++
 
 .. function:: getPartHeadersArray()
 
@@ -124,7 +127,7 @@ getPartHeadersArray
 
 
 getPartHeaders
---------------
+++++++++++++++
 
 .. function:: getPartHeaders()
 
@@ -139,7 +142,7 @@ getPartHeaders
 
 
 getPartContent
---------------
+++++++++++++++
 
 .. function:: getPartContent()
 
@@ -154,7 +157,7 @@ getPartContent
 
 
 _disassembleMime
-----------------
+++++++++++++++++
 
 .. function:: _disassembleMime()
 
@@ -173,7 +176,7 @@ _disassembleMime
 
 
 createFromMessage
------------------
++++++++++++++++++
 
 .. function:: createFromMessage()
 

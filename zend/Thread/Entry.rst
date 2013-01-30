@@ -1,5 +1,8 @@
-.. Feed/Reader/Extension/Thread/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Thread/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Thread\\Entry
 ============================================
@@ -7,10 +10,10 @@ Zend\\Feed\\Reader\\Extension\\Thread\\Entry
 
 
 Methods
-+++++++
+-------
 
 getInReplyTo
-------------
+++++++++++++
 
 .. function:: getInReplyTo()
 
@@ -22,7 +25,7 @@ getInReplyTo
 
 
 getCommentCount
----------------
++++++++++++++++
 
 .. function:: getCommentCount()
 
@@ -34,7 +37,7 @@ getCommentCount
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -48,7 +51,7 @@ getData
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

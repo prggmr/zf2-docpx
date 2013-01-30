@@ -1,5 +1,8 @@
-.. Form/Element/Select.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/Select.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\Select
 ===========================
@@ -7,10 +10,10 @@ Zend\\Form\\Element\\Select
 @copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-+++++++
+-------
 
 getValueOptions
----------------
++++++++++++++++
 
 .. function:: getValueOptions()
 
@@ -20,7 +23,7 @@ getValueOptions
 
 
 setValueOptions
----------------
++++++++++++++++
 
 .. function:: setValueOptions()
 
@@ -32,7 +35,7 @@ setValueOptions
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -52,7 +55,7 @@ setOptions
 
 
 setAttribute
-------------
+++++++++++++
 
 .. function:: setAttribute()
 
@@ -67,7 +70,7 @@ setAttribute
 
 
 setEmptyOption
---------------
+++++++++++++++
 
 .. function:: setEmptyOption()
 
@@ -81,7 +84,7 @@ setEmptyOption
 
 
 getEmptyOption
---------------
+++++++++++++++
 
 .. function:: getEmptyOption()
 
@@ -93,7 +96,7 @@ getEmptyOption
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -105,7 +108,7 @@ getValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 
@@ -119,7 +122,7 @@ getInputSpecification
 
 
 getValueOptionsValues
----------------------
++++++++++++++++++++++
 
 .. function:: getValueOptionsValues()
 
@@ -131,7 +134,7 @@ getValueOptionsValues
 
 
 getOptionValue
---------------
+++++++++++++++
 
 .. function:: getOptionValue()
 

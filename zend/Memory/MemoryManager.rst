@@ -1,5 +1,8 @@
-.. Memory/MemoryManager.php generated using docpx on 01/30/13 03:32am
+.. Memory/MemoryManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Memory\\MemoryManager
 ===========================
@@ -10,10 +13,10 @@ This class encapsulates memory menagement operations, when PHP works
 in limited memory mode.
 
 Methods
-+++++++
+-------
 
 _generateMemManagerId
----------------------
++++++++++++++++++++++
 
 .. function:: _generateMemManagerId()
 
@@ -23,7 +26,7 @@ _generateMemManagerId
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -37,7 +40,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -49,7 +52,7 @@ __destruct
 
 
 setMemoryLimit
---------------
+++++++++++++++
 
 .. function:: setMemoryLimit()
 
@@ -61,7 +64,7 @@ setMemoryLimit
 
 
 getMemoryLimit
---------------
+++++++++++++++
 
 .. function:: getMemoryLimit()
 
@@ -73,7 +76,7 @@ getMemoryLimit
 
 
 setMinSize
-----------
+++++++++++
 
 .. function:: setMinSize()
 
@@ -85,7 +88,7 @@ setMinSize
 
 
 getMinSize
-----------
+++++++++++
 
 .. function:: getMinSize()
 
@@ -97,7 +100,7 @@ getMinSize
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -113,7 +116,7 @@ create
 
 
 createLocked
-------------
+++++++++++++
 
 .. function:: createLocked()
 
@@ -130,7 +133,7 @@ createLocked
 
 
 _create
--------
++++++++
 
 .. function:: _create()
 
@@ -147,7 +150,7 @@ _create
 
 
 unlink
-------
+++++++
 
 .. function:: unlink()
 
@@ -165,7 +168,7 @@ unlink
 
 
 processUpdate
--------------
++++++++++++++
 
 .. function:: processUpdate()
 
@@ -179,7 +182,7 @@ processUpdate
 
 
 _commit
--------
++++++++
 
 .. function:: _commit()
 
@@ -189,7 +192,7 @@ _commit
 
 
 _swapCheck
-----------
+++++++++++
 
 .. function:: _swapCheck()
 
@@ -200,7 +203,7 @@ _swapCheck
 
 
 _swap
------
++++++
 
 .. function:: _swap()
 
@@ -215,7 +218,7 @@ _swap
 
 
 load
-----
+++++
 
 .. function:: load()
 

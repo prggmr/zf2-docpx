@@ -1,5 +1,8 @@
-.. Navigation/Page/Uri.php generated using docpx on 01/30/13 03:32am
+.. Navigation/Page/Uri.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Navigation\\Page\\Uri
 ===========================
@@ -7,10 +10,10 @@ Zend\\Navigation\\Page\\Uri
 Represents a page that is defined by specifying a URI
 
 Methods
-+++++++
+-------
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -26,7 +29,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -38,7 +41,7 @@ getUri
 
 
 getHref
--------
++++++++
 
 .. function:: getHref()
 
@@ -52,7 +55,7 @@ getHref
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 

@@ -1,5 +1,8 @@
-.. Mvc/Router/RoutePluginManager.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/RoutePluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\RoutePluginManager
 =====================================
@@ -12,10 +15,10 @@ instance. The manager is marked to not share by default, in order to allow
 multiple route instances of the same type.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 
@@ -34,7 +37,7 @@ validatePlugin
 
 
 createFromInvokable
--------------------
++++++++++++++++++++
 
 .. function:: createFromInvokable()
 

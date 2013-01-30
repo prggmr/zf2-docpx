@@ -1,5 +1,8 @@
-.. Session/SaveHandler/MongoDBOptions.php generated using docpx on 01/30/13 03:32am
+.. Session/SaveHandler/MongoDBOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\SaveHandler\\MongoDBOptions
 ==========================================
@@ -7,10 +10,10 @@ Zend\\Session\\SaveHandler\\MongoDBOptions
 MongoDB session save handler Options
 
 Methods
-+++++++
+-------
 
 setDatabase
------------
++++++++++++
 
 .. function:: setDatabase()
 
@@ -26,7 +29,7 @@ setDatabase
 
 
 getDatabase
------------
++++++++++++
 
 .. function:: getDatabase()
 
@@ -38,7 +41,7 @@ getDatabase
 
 
 setCollection
--------------
++++++++++++++
 
 .. function:: setCollection()
 
@@ -54,7 +57,7 @@ setCollection
 
 
 getCollection
--------------
++++++++++++++
 
 .. function:: getCollection()
 
@@ -66,7 +69,7 @@ getCollection
 
 
 setSaveOptions
---------------
+++++++++++++++
 
 .. function:: setSaveOptions()
 
@@ -81,7 +84,7 @@ setSaveOptions
 
 
 getSaveOptions
---------------
+++++++++++++++
 
 .. function:: getSaveOptions()
 
@@ -93,7 +96,7 @@ getSaveOptions
 
 
 setNameField
-------------
+++++++++++++
 
 .. function:: setNameField()
 
@@ -109,7 +112,7 @@ setNameField
 
 
 getNameField
-------------
+++++++++++++
 
 .. function:: getNameField()
 
@@ -121,7 +124,7 @@ getNameField
 
 
 setDataField
-------------
+++++++++++++
 
 .. function:: setDataField()
 
@@ -137,7 +140,7 @@ setDataField
 
 
 getDataField
-------------
+++++++++++++
 
 .. function:: getDataField()
 
@@ -149,7 +152,7 @@ getDataField
 
 
 setLifetimeField
-----------------
+++++++++++++++++
 
 .. function:: setLifetimeField()
 
@@ -165,7 +168,7 @@ setLifetimeField
 
 
 getLifetimeField
-----------------
+++++++++++++++++
 
 .. function:: getLifetimeField()
 
@@ -177,7 +180,7 @@ getLifetimeField
 
 
 setModifiedField
-----------------
+++++++++++++++++
 
 .. function:: setModifiedField()
 
@@ -193,7 +196,7 @@ setModifiedField
 
 
 getModifiedField
-----------------
+++++++++++++++++
 
 .. function:: getModifiedField()
 

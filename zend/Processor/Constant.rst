@@ -1,14 +1,17 @@
-.. Config/Processor/Constant.php generated using docpx on 01/30/13 03:32am
+.. Config/Processor/Constant.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Config\\Processor\\Constant
 =================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getUserOnly
------------
++++++++++++
 
 .. function:: getUserOnly()
 
@@ -35,7 +38,7 @@ getUserOnly
 
 
 setUserOnly
------------
++++++++++++
 
 .. function:: setUserOnly()
 
@@ -49,7 +52,7 @@ setUserOnly
 
 
 loadConstants
--------------
++++++++++++++
 
 .. function:: loadConstants()
 
@@ -61,7 +64,7 @@ loadConstants
 
 
 getTokens
----------
++++++++++
 
 .. function:: getTokens()
 

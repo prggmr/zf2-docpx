@@ -1,5 +1,8 @@
-.. View/Helper/RenderToPlaceholder.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/RenderToPlaceholder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\RenderToPlaceholder
 =======================================
@@ -8,10 +11,10 @@ Renders a template and stores the rendered output as a placeholder
 variable for later use.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

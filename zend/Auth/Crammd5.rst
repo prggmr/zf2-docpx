@@ -1,5 +1,8 @@
-.. Mail/Protocol/Smtp/Auth/Crammd5.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/Smtp/Auth/Crammd5.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\Smtp\\Auth\\Crammd5
 =========================================
@@ -7,10 +10,10 @@ Zend\\Mail\\Protocol\\Smtp\\Auth\\Crammd5
 Performs CRAM-MD5 authentication
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 auth
-----
+++++
 
 .. function:: auth()
 
@@ -37,7 +40,7 @@ auth
 
 
 setUsername
------------
++++++++++++
 
 .. function:: setUsername()
 
@@ -51,7 +54,7 @@ setUsername
 
 
 getUsername
------------
++++++++++++
 
 .. function:: getUsername()
 
@@ -63,7 +66,7 @@ getUsername
 
 
 setPassword
------------
++++++++++++
 
 .. function:: setPassword()
 
@@ -77,7 +80,7 @@ setPassword
 
 
 getPassword
------------
++++++++++++
 
 .. function:: getPassword()
 
@@ -89,7 +92,7 @@ getPassword
 
 
 _hmacMd5
---------
+++++++++
 
 .. function:: _hmacMd5()
 

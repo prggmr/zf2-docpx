@@ -1,5 +1,8 @@
-.. Crypt/PublicKey/RsaOptions.php generated using docpx on 01/30/13 03:32am
+.. Crypt/PublicKey/RsaOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\PublicKey\\RsaOptions
 ==================================
@@ -7,10 +10,10 @@ Zend\\Crypt\\PublicKey\\RsaOptions
 RSA instance options
 
 Methods
-+++++++
+-------
 
 setPrivateKey
--------------
++++++++++++++
 
 .. function:: setPrivateKey()
 
@@ -24,7 +27,7 @@ setPrivateKey
 
 
 getPrivateKey
--------------
++++++++++++++
 
 .. function:: getPrivateKey()
 
@@ -36,7 +39,7 @@ getPrivateKey
 
 
 setPublicKey
-------------
+++++++++++++
 
 .. function:: setPublicKey()
 
@@ -50,7 +53,7 @@ setPublicKey
 
 
 getPublicKey
-------------
+++++++++++++
 
 .. function:: getPublicKey()
 
@@ -62,7 +65,7 @@ getPublicKey
 
 
 setPassPhrase
--------------
++++++++++++++
 
 .. function:: setPassPhrase()
 
@@ -76,7 +79,7 @@ setPassPhrase
 
 
 getPassPhrase
--------------
++++++++++++++
 
 .. function:: getPassPhrase()
 
@@ -88,7 +91,7 @@ getPassPhrase
 
 
 setHashAlgorithm
-----------------
+++++++++++++++++
 
 .. function:: setHashAlgorithm()
 
@@ -105,7 +108,7 @@ setHashAlgorithm
 
 
 getHashAlgorithm
-----------------
+++++++++++++++++
 
 .. function:: getHashAlgorithm()
 
@@ -117,14 +120,14 @@ getHashAlgorithm
 
 
 getOpensslSignatureAlgorithm
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: getOpensslSignatureAlgorithm()
 
 
 
 setBinaryOutput
----------------
++++++++++++++++
 
 .. function:: setBinaryOutput()
 
@@ -138,7 +141,7 @@ setBinaryOutput
 
 
 getBinaryOutput
----------------
++++++++++++++++
 
 .. function:: getBinaryOutput()
 
@@ -150,7 +153,7 @@ getBinaryOutput
 
 
 generateKeys
-------------
+++++++++++++
 
 .. function:: generateKeys()
 

@@ -1,5 +1,8 @@
-.. Mvc/Router/RouteMatch.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Router/RouteMatch.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Router\\RouteMatch
 =============================
@@ -7,10 +10,10 @@ Zend\\Mvc\\Router\\RouteMatch
 RouteInterface match.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setMatchedRouteName
--------------------
++++++++++++++++++++
 
 .. function:: setMatchedRouteName()
 
@@ -36,7 +39,7 @@ setMatchedRouteName
 
 
 getMatchedRouteName
--------------------
++++++++++++++++++++
 
 .. function:: getMatchedRouteName()
 
@@ -48,7 +51,7 @@ getMatchedRouteName
 
 
 setParam
---------
+++++++++
 
 .. function:: setParam()
 
@@ -63,7 +66,7 @@ setParam
 
 
 getParams
----------
++++++++++
 
 .. function:: getParams()
 
@@ -75,7 +78,7 @@ getParams
 
 
 getParam
---------
+++++++++
 
 .. function:: getParam()
 

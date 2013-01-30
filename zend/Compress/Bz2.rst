@@ -1,5 +1,8 @@
-.. Filter/Compress/Bz2.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress/Bz2.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Compress\\Bz2
 ===========================
@@ -7,10 +10,10 @@ Zend\\Filter\\Compress\\Bz2
 Compression adapter for Bz2
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 getBlocksize
-------------
+++++++++++++
 
 .. function:: getBlocksize()
 
@@ -36,7 +39,7 @@ getBlocksize
 
 
 setBlocksize
-------------
+++++++++++++
 
 .. function:: setBlocksize()
 
@@ -52,7 +55,7 @@ setBlocksize
 
 
 getArchive
-----------
+++++++++++
 
 .. function:: getArchive()
 
@@ -64,7 +67,7 @@ getArchive
 
 
 setArchive
-----------
+++++++++++
 
 .. function:: setArchive()
 
@@ -78,7 +81,7 @@ setArchive
 
 
 compress
---------
+++++++++
 
 .. function:: compress()
 
@@ -94,7 +97,7 @@ compress
 
 
 decompress
-----------
+++++++++++
 
 .. function:: decompress()
 
@@ -110,7 +113,7 @@ decompress
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

@@ -1,14 +1,17 @@
-.. Validator/StaticValidator.php generated using docpx on 01/30/13 03:32am
+.. Validator/StaticValidator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\StaticValidator
 ================================
 
 Methods
-+++++++
+-------
 
 setPluginManager
-----------------
+++++++++++++++++
 
 .. function:: setPluginManager()
 
@@ -22,7 +25,7 @@ setPluginManager
 
 
 getPluginManager
-----------------
+++++++++++++++++
 
 .. function:: getPluginManager()
 
@@ -34,7 +37,7 @@ getPluginManager
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 

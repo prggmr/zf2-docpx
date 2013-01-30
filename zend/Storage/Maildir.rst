@@ -1,14 +1,17 @@
-.. Mail/Storage/Maildir.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Maildir.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Maildir
 ============================
 
 Methods
-+++++++
+-------
 
 countMessages
--------------
++++++++++++++
 
 .. function:: countMessages()
 
@@ -22,7 +25,7 @@ countMessages
 
 
 _getFileData
-------------
+++++++++++++
 
 .. function:: _getFileData()
 
@@ -39,7 +42,7 @@ _getFileData
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -53,7 +56,7 @@ getSize
 
 
 getMessage
-----------
+++++++++++
 
 .. function:: getMessage()
 
@@ -69,21 +72,21 @@ getMessage
 
 
 getRawHeader
-------------
+++++++++++++
 
 .. function:: getRawHeader()
 
 
 
 getRawContent
--------------
++++++++++++++
 
 .. function:: getRawContent()
 
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -99,7 +102,7 @@ __construct
 
 
 _isMaildir
-----------
+++++++++++
 
 .. function:: _isMaildir()
 
@@ -113,7 +116,7 @@ _isMaildir
 
 
 _openMaildir
-------------
+++++++++++++
 
 .. function:: _openMaildir()
 
@@ -127,7 +130,7 @@ _openMaildir
 
 
 _getMaildirFiles
-----------------
+++++++++++++++++
 
 .. function:: _getMaildirFiles()
 
@@ -141,7 +144,7 @@ _getMaildirFiles
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -152,7 +155,7 @@ close
 
 
 noop
-----
+++++
 
 .. function:: noop()
 
@@ -164,7 +167,7 @@ noop
 
 
 removeMessage
--------------
++++++++++++++
 
 .. function:: removeMessage()
 
@@ -178,7 +181,7 @@ removeMessage
 
 
 getUniqueId
------------
++++++++++++
 
 .. function:: getUniqueId()
 
@@ -194,7 +197,7 @@ getUniqueId
 
 
 getNumberByUniqueId
--------------------
++++++++++++++++++++
 
 .. function:: getNumberByUniqueId()
 

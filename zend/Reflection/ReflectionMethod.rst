@@ -1,5 +1,8 @@
-.. Server/Reflection/ReflectionMethod.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/ReflectionMethod.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\ReflectionMethod
 ==========================================
@@ -7,10 +10,10 @@ Zend\\Server\\Reflection\\ReflectionMethod
 Method Reflection
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getDeclaringClass
------------------
++++++++++++++++++
 
 .. function:: getDeclaringClass()
 
@@ -37,7 +40,7 @@ getDeclaringClass
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 

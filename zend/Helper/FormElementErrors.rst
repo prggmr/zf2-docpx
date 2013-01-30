@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormElementErrors.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormElementErrors.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormElementErrors
 ===========================================
 
 Methods
-+++++++
+-------
 
 setMessageCloseString
----------------------
++++++++++++++++++++++
 
 .. function:: setMessageCloseString()
 
@@ -22,7 +25,7 @@ setMessageCloseString
 
 
 getMessageCloseString
----------------------
++++++++++++++++++++++
 
 .. function:: getMessageCloseString()
 
@@ -34,7 +37,7 @@ getMessageCloseString
 
 
 setMessageOpenFormat
---------------------
+++++++++++++++++++++
 
 .. function:: setMessageOpenFormat()
 
@@ -48,7 +51,7 @@ setMessageOpenFormat
 
 
 getMessageOpenFormat
---------------------
+++++++++++++++++++++
 
 .. function:: getMessageOpenFormat()
 
@@ -60,7 +63,7 @@ getMessageOpenFormat
 
 
 setMessageSeparatorString
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setMessageSeparatorString()
 
@@ -74,7 +77,7 @@ setMessageSeparatorString
 
 
 getMessageSeparatorString
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getMessageSeparatorString()
 
@@ -86,7 +89,7 @@ getMessageSeparatorString
 
 
 setAttributes
--------------
++++++++++++++
 
 .. function:: setAttributes()
 
@@ -100,7 +103,7 @@ setAttributes
 
 
 getAttributes
--------------
++++++++++++++
 
 .. function:: getAttributes()
 
@@ -112,7 +115,7 @@ getAttributes
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -129,7 +132,7 @@ render
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 

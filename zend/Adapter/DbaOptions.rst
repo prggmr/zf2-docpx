@@ -1,5 +1,8 @@
-.. Cache/Storage/Adapter/DbaOptions.php generated using docpx on 01/30/13 03:32am
+.. Cache/Storage/Adapter/DbaOptions.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Storage\\Adapter\\DbaOptions
 =========================================
@@ -7,10 +10,10 @@ Zend\\Cache\\Storage\\Adapter\\DbaOptions
 These are options specific to the APC adapter
 
 Methods
-+++++++
+-------
 
 setNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: setNamespaceSeparator()
 
@@ -24,7 +27,7 @@ setNamespaceSeparator
 
 
 getNamespaceSeparator
----------------------
++++++++++++++++++++++
 
 .. function:: getNamespaceSeparator()
 
@@ -36,7 +39,7 @@ getNamespaceSeparator
 
 
 setPathname
------------
++++++++++++
 
 .. function:: setPathname()
 
@@ -50,7 +53,7 @@ setPathname
 
 
 getPathname
------------
++++++++++++
 
 .. function:: getPathname()
 
@@ -62,7 +65,7 @@ getPathname
 
 
 setMode
--------
++++++++
 
 .. function:: setMode()
 
@@ -74,21 +77,21 @@ setMode
 
 
 getMode
--------
++++++++
 
 .. function:: getMode()
 
 
 
 setHandler
-----------
+++++++++++
 
 .. function:: setHandler()
 
 
 
 getHandler
-----------
+++++++++++
 
 .. function:: getHandler()
 

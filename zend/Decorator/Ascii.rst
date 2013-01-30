@@ -1,5 +1,8 @@
-.. Text/Table/Decorator/Ascii.php generated using docpx on 01/30/13 03:32am
+.. Text/Table/Decorator/Ascii.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\Table\\Decorator\\Ascii
 ===================================
@@ -7,10 +10,10 @@ Zend\\Text\\Table\\Decorator\\Ascii
 ASCII Decorator for Zend\Text\Table
 
 Methods
-+++++++
+-------
 
 getTopLeft
-----------
+++++++++++
 
 .. function:: getTopLeft()
 
@@ -22,7 +25,7 @@ getTopLeft
 
 
 getTopRight
------------
++++++++++++
 
 .. function:: getTopRight()
 
@@ -34,7 +37,7 @@ getTopRight
 
 
 getBottomLeft
--------------
++++++++++++++
 
 .. function:: getBottomLeft()
 
@@ -46,7 +49,7 @@ getBottomLeft
 
 
 getBottomRight
---------------
+++++++++++++++
 
 .. function:: getBottomRight()
 
@@ -58,7 +61,7 @@ getBottomRight
 
 
 getVertical
------------
++++++++++++
 
 .. function:: getVertical()
 
@@ -70,7 +73,7 @@ getVertical
 
 
 getHorizontal
--------------
++++++++++++++
 
 .. function:: getHorizontal()
 
@@ -82,7 +85,7 @@ getHorizontal
 
 
 getCross
---------
+++++++++
 
 .. function:: getCross()
 
@@ -94,7 +97,7 @@ getCross
 
 
 getVerticalRight
-----------------
+++++++++++++++++
 
 .. function:: getVerticalRight()
 
@@ -106,7 +109,7 @@ getVerticalRight
 
 
 getVerticalLeft
----------------
++++++++++++++++
 
 .. function:: getVerticalLeft()
 
@@ -118,7 +121,7 @@ getVerticalLeft
 
 
 getHorizontalDown
------------------
++++++++++++++++++
 
 .. function:: getHorizontalDown()
 
@@ -130,7 +133,7 @@ getHorizontalDown
 
 
 getHorizontalUp
----------------
++++++++++++++++
 
 .. function:: getHorizontalUp()
 

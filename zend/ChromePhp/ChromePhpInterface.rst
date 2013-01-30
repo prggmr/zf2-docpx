@@ -1,5 +1,8 @@
-.. Log/Writer/ChromePhp/ChromePhpInterface.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/ChromePhp/ChromePhpInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Log\\Writer\\ChromePhp\\error
 ===================================
@@ -13,6 +16,9 @@ Zend\\Log\\Writer\\ChromePhp\\error
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\ChromePhp\\warn
 ==================================
 
@@ -24,6 +30,9 @@ Zend\\Log\\Writer\\ChromePhp\\warn
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Log\\Writer\\ChromePhp\\info
 ==================================
@@ -37,6 +46,9 @@ Zend\\Log\\Writer\\ChromePhp\\info
 
 
 
+Function
+********
+
 Zend\\Log\\Writer\\ChromePhp\\trace
 ===================================
 
@@ -48,6 +60,9 @@ Zend\\Log\\Writer\\ChromePhp\\trace
     :param string: 
 
 
+
+Function
+********
 
 Zend\\Log\\Writer\\ChromePhp\\log
 =================================

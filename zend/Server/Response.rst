@@ -1,14 +1,17 @@
-.. Json/Server/Response.php generated using docpx on 01/30/13 03:32am
+.. Json/Server/Response.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Server\\Response
 ============================
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -22,7 +25,7 @@ setOptions
 
 
 loadJson
---------
+++++++++
 
 .. function:: loadJson()
 
@@ -36,7 +39,7 @@ loadJson
 
 
 setResult
----------
++++++++++
 
 .. function:: setResult()
 
@@ -50,7 +53,7 @@ setResult
 
 
 getResult
----------
++++++++++
 
 .. function:: getResult()
 
@@ -62,7 +65,7 @@ getResult
 
 
 setError
---------
+++++++++
 
 .. function:: setError()
 
@@ -76,7 +79,7 @@ setError
 
 
 getError
---------
+++++++++
 
 .. function:: getError()
 
@@ -88,7 +91,7 @@ getError
 
 
 isError
--------
++++++++
 
 .. function:: isError()
 
@@ -100,7 +103,7 @@ isError
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -114,7 +117,7 @@ setId
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -126,7 +129,7 @@ getId
 
 
 setVersion
-----------
+++++++++++
 
 .. function:: setVersion()
 
@@ -140,7 +143,7 @@ setVersion
 
 
 getVersion
-----------
+++++++++++
 
 .. function:: getVersion()
 
@@ -152,7 +155,7 @@ getVersion
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -164,7 +167,7 @@ toJson
 
 
 getArgs
--------
++++++++
 
 .. function:: getArgs()
 
@@ -176,7 +179,7 @@ getArgs
 
 
 setArgs
--------
++++++++
 
 .. function:: setArgs()
 
@@ -190,7 +193,7 @@ setArgs
 
 
 setServiceMap
--------------
++++++++++++++
 
 .. function:: setServiceMap()
 
@@ -204,7 +207,7 @@ setServiceMap
 
 
 getServiceMap
--------------
++++++++++++++
 
 .. function:: getServiceMap()
 
@@ -216,7 +219,7 @@ getServiceMap
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

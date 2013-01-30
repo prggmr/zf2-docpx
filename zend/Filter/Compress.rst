@@ -1,5 +1,8 @@
-.. Filter/Compress.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Compress
 ======================
@@ -7,10 +10,10 @@ Zend\\Filter\\Compress
 Compresses a given string
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -38,7 +41,7 @@ setOptions
 
 
 getAdapter
-----------
+++++++++++
 
 .. function:: getAdapter()
 
@@ -51,7 +54,7 @@ getAdapter
 
 
 getAdapterName
---------------
+++++++++++++++
 
 .. function:: getAdapterName()
 
@@ -63,7 +66,7 @@ getAdapterName
 
 
 setAdapter
-----------
+++++++++++
 
 .. function:: setAdapter()
 
@@ -79,7 +82,7 @@ setAdapter
 
 
 getAdapterOptions
------------------
++++++++++++++++++
 
 .. function:: getAdapterOptions()
 
@@ -91,7 +94,7 @@ getAdapterOptions
 
 
 setAdapterOptions
------------------
++++++++++++++++++
 
 .. function:: setAdapterOptions()
 
@@ -105,7 +108,7 @@ setAdapterOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -119,7 +122,7 @@ getOptions
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -136,7 +139,7 @@ __call
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 

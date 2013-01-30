@@ -1,5 +1,8 @@
-.. Json/Decoder.php generated using docpx on 01/30/13 03:32am
+.. Json/Decoder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Json\\Decoder
 ===================
@@ -7,10 +10,10 @@ Zend\\Json\\Decoder
 Decode JSON encoded string to PHP variable constructs
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -29,7 +32,7 @@ valid values
 
 
 decode
-------
+++++++
 
 .. function:: decode()
 
@@ -62,7 +65,7 @@ either or {@link Zend_Json::TYPE_ARRAY} or
 
 
 _decodeValue
-------------
+++++++++++++
 
 .. function:: _decodeValue()
 
@@ -74,7 +77,7 @@ _decodeValue
 
 
 _decodeObject
--------------
++++++++++++++
 
 .. function:: _decodeObject()
 
@@ -97,7 +100,7 @@ _decodeObject
 
 
 _decodeArray
-------------
+++++++++++++
 
 .. function:: _decodeArray()
 
@@ -112,7 +115,7 @@ _decodeArray
 
 
 _eatWhitespace
---------------
+++++++++++++++
 
 .. function:: _eatWhitespace()
 
@@ -122,7 +125,7 @@ _eatWhitespace
 
 
 _getNextToken
--------------
++++++++++++++
 
 .. function:: _getNextToken()
 
@@ -136,7 +139,7 @@ _getNextToken
 
 
 decodeUnicodeString
--------------------
++++++++++++++++++++
 
 .. function:: decodeUnicodeString()
 
@@ -154,7 +157,7 @@ decodeUnicodeString
 
 
 _utf162utf8
------------
++++++++++++
 
 .. function:: _utf162utf8()
 
@@ -177,33 +180,33 @@ _utf162utf8
 
 
 Constants
-+++++++++
+---------
 
 EOF
-===
++++
 
 Parse tokens used to decode the JSON object. These are not
 for public consumption, they are just used internally to the
 class.
 
 DATUM
-=====
++++++
 
 LBRACE
-======
+++++++
 
 LBRACKET
-========
+++++++++
 
 RBRACE
-======
+++++++
 
 RBRACKET
-========
+++++++++
 
 COMMA
-=====
++++++
 
 COLON
-=====
++++++
 

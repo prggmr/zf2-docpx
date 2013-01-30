@@ -1,5 +1,8 @@
-.. Ldap/Collection.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Collection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Collection
 ======================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Collection
 Zend\Ldap\Collection wraps a list of LDAP entries.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,14 +25,14 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
 
 
 close
------
++++++
 
 .. function:: close()
 
@@ -41,7 +44,7 @@ close
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -53,7 +56,7 @@ toArray
 
 
 getFirst
---------
+++++++++
 
 .. function:: getFirst()
 
@@ -65,7 +68,7 @@ getFirst
 
 
 getInnerIterator
-----------------
+++++++++++++++++
 
 .. function:: getInnerIterator()
 
@@ -77,7 +80,7 @@ getInnerIterator
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -90,7 +93,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -105,7 +108,7 @@ current
 
 
 createEntry
------------
++++++++++++
 
 .. function:: createEntry()
 
@@ -119,7 +122,7 @@ createEntry
 
 
 dn
---
+++
 
 .. function:: dn()
 
@@ -131,7 +134,7 @@ dn
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -144,7 +147,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -156,7 +159,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -168,7 +171,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 

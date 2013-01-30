@@ -1,5 +1,8 @@
-.. Crypt/Password/Apache.php generated using docpx on 01/30/13 03:32am
+.. Crypt/Password/Apache.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Crypt\\Password\\Apache
 =============================
@@ -7,10 +10,10 @@ Zend\\Crypt\\Password\\Apache
 Apache password authentication
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -40,7 +43,7 @@ create
 
 
 verify
-------
+++++++
 
 .. function:: verify()
 
@@ -55,7 +58,7 @@ verify
 
 
 setFormat
----------
++++++++++
 
 .. function:: setFormat()
 
@@ -71,7 +74,7 @@ setFormat
 
 
 getFormat
----------
++++++++++
 
 .. function:: getFormat()
 
@@ -83,7 +86,7 @@ getFormat
 
 
 setAuthName
------------
++++++++++++
 
 .. function:: setAuthName()
 
@@ -97,7 +100,7 @@ setAuthName
 
 
 getAuthName
------------
++++++++++++
 
 .. function:: getAuthName()
 
@@ -109,7 +112,7 @@ getAuthName
 
 
 setUserName
------------
++++++++++++
 
 .. function:: setUserName()
 
@@ -123,7 +126,7 @@ setUserName
 
 
 getUserName
------------
++++++++++++
 
 .. function:: getUserName()
 
@@ -135,7 +138,7 @@ getUserName
 
 
 toAlphabet64
-------------
+++++++++++++
 
 .. function:: toAlphabet64()
 
@@ -149,7 +152,7 @@ toAlphabet64
 
 
 apr1Md5
--------
++++++++
 
 .. function:: apr1Md5()
 
@@ -165,11 +168,11 @@ apr1Md5
 
 
 Constants
-+++++++++
+---------
 
 BASE64
-======
+++++++
 
 ALPHA64
-=======
++++++++
 

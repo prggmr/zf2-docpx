@@ -1,5 +1,8 @@
-.. EventManager/EventManagerInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/EventManagerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\trigger
 ===========================
@@ -26,6 +29,9 @@ Zend\\EventManager\\trigger
 
 
 
+Function
+********
+
 Zend\\EventManager\\triggerUntil
 ================================
 
@@ -49,6 +55,9 @@ Zend\\EventManager\\triggerUntil
 
 
 
+Function
+********
+
 Zend\\EventManager\\attach
 ==========================
 
@@ -65,6 +74,9 @@ Zend\\EventManager\\attach
 
 
 
+Function
+********
+
 Zend\\EventManager\\detach
 ==========================
 
@@ -79,6 +91,9 @@ Zend\\EventManager\\detach
 
 
 
+Function
+********
+
 Zend\\EventManager\\getEvents
 =============================
 
@@ -90,6 +105,9 @@ Zend\\EventManager\\getEvents
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\EventManager\\getListeners
 ================================
@@ -105,6 +123,9 @@ Zend\\EventManager\\getListeners
 
 
 
+Function
+********
+
 Zend\\EventManager\\clearListeners
 ==================================
 
@@ -118,6 +139,9 @@ Zend\\EventManager\\clearListeners
     :rtype: void 
 
 
+
+Function
+********
 
 Zend\\EventManager\\setEventClass
 =================================
@@ -133,6 +157,9 @@ Zend\\EventManager\\setEventClass
 
 
 
+Function
+********
+
 Zend\\EventManager\\getIdentifiers
 ==================================
 
@@ -144,6 +171,9 @@ Zend\\EventManager\\getIdentifiers
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\EventManager\\setIdentifiers
 ==================================
@@ -159,6 +189,9 @@ Zend\\EventManager\\setIdentifiers
 
 
 
+Function
+********
+
 Zend\\EventManager\\addIdentifiers
 ==================================
 
@@ -172,6 +205,9 @@ Zend\\EventManager\\addIdentifiers
     :rtype: EventManagerInterface 
 
 
+
+Function
+********
 
 Zend\\EventManager\\attachAggregate
 ===================================
@@ -187,6 +223,9 @@ Zend\\EventManager\\attachAggregate
     :rtype: mixed return value of {@link ListenerAggregateInterface::attach()}
 
 
+
+Function
+********
 
 Zend\\EventManager\\detachAggregate
 ===================================

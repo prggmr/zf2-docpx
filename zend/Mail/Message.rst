@@ -1,14 +1,17 @@
-.. Mail/Message.php generated using docpx on 01/30/13 03:32am
+.. Mail/Message.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Message
 ===================
 
 Methods
-+++++++
+-------
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -22,7 +25,7 @@ isValid
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -36,7 +39,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -48,7 +51,7 @@ getEncoding
 
 
 setHeaders
-----------
+++++++++++
 
 .. function:: setHeaders()
 
@@ -62,7 +65,7 @@ setHeaders
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 
@@ -76,7 +79,7 @@ getHeaders
 
 
 setFrom
--------
++++++++
 
 .. function:: setFrom()
 
@@ -91,7 +94,7 @@ setFrom
 
 
 addFrom
--------
++++++++
 
 .. function:: addFrom()
 
@@ -106,7 +109,7 @@ addFrom
 
 
 getFrom
--------
++++++++
 
 .. function:: getFrom()
 
@@ -118,7 +121,7 @@ getFrom
 
 
 setTo
------
++++++
 
 .. function:: setTo()
 
@@ -133,7 +136,7 @@ setTo
 
 
 addTo
------
++++++
 
 .. function:: addTo()
 
@@ -150,7 +153,7 @@ addTo
 
 
 getTo
------
++++++
 
 .. function:: getTo()
 
@@ -162,7 +165,7 @@ getTo
 
 
 setCc
------
++++++
 
 .. function:: setCc()
 
@@ -177,7 +180,7 @@ setCc
 
 
 addCc
------
++++++
 
 .. function:: addCc()
 
@@ -192,7 +195,7 @@ addCc
 
 
 getCc
------
++++++
 
 .. function:: getCc()
 
@@ -204,7 +207,7 @@ getCc
 
 
 setBcc
-------
+++++++
 
 .. function:: setBcc()
 
@@ -219,7 +222,7 @@ setBcc
 
 
 addBcc
-------
+++++++
 
 .. function:: addBcc()
 
@@ -234,7 +237,7 @@ addBcc
 
 
 getBcc
-------
+++++++
 
 .. function:: getBcc()
 
@@ -246,7 +249,7 @@ getBcc
 
 
 setReplyTo
-----------
+++++++++++
 
 .. function:: setReplyTo()
 
@@ -261,7 +264,7 @@ setReplyTo
 
 
 addReplyTo
-----------
+++++++++++
 
 .. function:: addReplyTo()
 
@@ -278,7 +281,7 @@ addReplyTo
 
 
 getReplyTo
-----------
+++++++++++
 
 .. function:: getReplyTo()
 
@@ -290,7 +293,7 @@ getReplyTo
 
 
 setSender
----------
++++++++++
 
 .. function:: setSender()
 
@@ -305,7 +308,7 @@ setSender
 
 
 getSender
----------
++++++++++
 
 .. function:: getSender()
 
@@ -317,7 +320,7 @@ getSender
 
 
 setSubject
-----------
+++++++++++
 
 .. function:: setSubject()
 
@@ -331,7 +334,7 @@ setSubject
 
 
 getSubject
-----------
+++++++++++
 
 .. function:: getSubject()
 
@@ -343,7 +346,7 @@ getSubject
 
 
 setBody
--------
++++++++
 
 .. function:: setBody()
 
@@ -359,7 +362,7 @@ setBody
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -371,7 +374,7 @@ getBody
 
 
 getBodyText
------------
++++++++++++
 
 .. function:: getBodyText()
 
@@ -383,7 +386,7 @@ getBodyText
 
 
 getHeaderByName
----------------
++++++++++++++++
 
 .. function:: getHeaderByName()
 
@@ -400,7 +403,7 @@ getHeaderByName
 
 
 clearHeaderByName
------------------
++++++++++++++++++
 
 .. function:: clearHeaderByName()
 
@@ -412,7 +415,7 @@ clearHeaderByName
 
 
 getAddressListFromHeader
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getAddressListFromHeader()
 
@@ -432,7 +435,7 @@ getAddressListFromHeader
 
 
 updateAddressList
------------------
++++++++++++++++++
 
 .. function:: updateAddressList()
 
@@ -451,7 +454,7 @@ updateAddressList
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -463,7 +466,7 @@ toString
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 

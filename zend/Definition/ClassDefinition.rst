@@ -1,5 +1,8 @@
-.. Di/Definition/ClassDefinition.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/ClassDefinition.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\ClassDefinition
 =====================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\ClassDefinition
 Class definitions for a single class
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setInstantiator
----------------
++++++++++++++++
 
 .. function:: setInstantiator()
 
@@ -32,7 +35,7 @@ setInstantiator
 
 
 setSupertypes
--------------
++++++++++++++
 
 .. function:: setSupertypes()
 
@@ -44,7 +47,7 @@ setSupertypes
 
 
 addMethod
----------
++++++++++
 
 .. function:: addMethod()
 
@@ -58,7 +61,7 @@ addMethod
 
 
 addMethodParameter
-------------------
+++++++++++++++++++
 
 .. function:: addMethodParameter()
 
@@ -73,7 +76,7 @@ addMethodParameter
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -83,7 +86,7 @@ getClasses
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -93,7 +96,7 @@ hasClass
 
 
 getClassSupertypes
-------------------
+++++++++++++++++++
 
 .. function:: getClassSupertypes()
 
@@ -103,7 +106,7 @@ getClassSupertypes
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -113,7 +116,7 @@ getInstantiator
 
 
 hasMethods
-----------
+++++++++++
 
 .. function:: hasMethods()
 
@@ -123,7 +126,7 @@ hasMethods
 
 
 getMethods
-----------
+++++++++++
 
 .. function:: getMethods()
 
@@ -133,7 +136,7 @@ getMethods
 
 
 hasMethod
----------
++++++++++
 
 .. function:: hasMethod()
 
@@ -143,7 +146,7 @@ hasMethod
 
 
 hasMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: hasMethodParameters()
 
@@ -153,7 +156,7 @@ hasMethodParameters
 
 
 getMethodParameters
--------------------
++++++++++++++++++++
 
 .. function:: getMethodParameters()
 

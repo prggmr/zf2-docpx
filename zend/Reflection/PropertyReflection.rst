@@ -1,5 +1,8 @@
-.. Code/Reflection/PropertyReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/PropertyReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\PropertyReflection
 ==========================================
@@ -7,10 +10,10 @@ Zend\\Code\\Reflection\\PropertyReflection
 @todo       implement line numbers
 
 Methods
-+++++++
+-------
 
 getDeclaringClass
------------------
++++++++++++++++++
 
 .. function:: getDeclaringClass()
 
@@ -22,7 +25,7 @@ getDeclaringClass
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -34,7 +37,7 @@ getDocComment
 
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -44,7 +47,7 @@ getDocBlock
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -56,7 +59,7 @@ getAnnotations
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

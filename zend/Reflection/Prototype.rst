@@ -1,5 +1,8 @@
-.. Server/Reflection/Prototype.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/Prototype.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\Prototype
 ===================================
@@ -9,10 +12,10 @@ Method/Function prototypes
 Contains accessors for the return value and all method arguments.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getReturnType
--------------
++++++++++++++
 
 .. function:: getReturnType()
 
@@ -39,7 +42,7 @@ getReturnType
 
 
 getReturnValue
---------------
+++++++++++++++
 
 .. function:: getReturnValue()
 
@@ -51,7 +54,7 @@ getReturnValue
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 

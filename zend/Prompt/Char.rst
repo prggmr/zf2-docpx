@@ -1,14 +1,17 @@
-.. Console/Prompt/Char.php generated using docpx on 01/30/13 03:32am
+.. Console/Prompt/Char.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Prompt\\Char
 ===========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 show
-----
+++++
 
 .. function:: show()
 
@@ -36,7 +39,7 @@ show
 
 
 setAllowEmpty
--------------
++++++++++++++
 
 .. function:: setAllowEmpty()
 
@@ -46,7 +49,7 @@ setAllowEmpty
 
 
 getAllowEmpty
--------------
++++++++++++++
 
 .. function:: getAllowEmpty()
 
@@ -56,7 +59,7 @@ getAllowEmpty
 
 
 setPromptText
--------------
++++++++++++++
 
 .. function:: setPromptText()
 
@@ -66,7 +69,7 @@ setPromptText
 
 
 getPromptText
--------------
++++++++++++++
 
 .. function:: getPromptText()
 
@@ -76,7 +79,7 @@ getPromptText
 
 
 setAllowedChars
----------------
++++++++++++++++
 
 .. function:: setAllowedChars()
 
@@ -86,7 +89,7 @@ setAllowedChars
 
 
 getAllowedChars
----------------
++++++++++++++++
 
 .. function:: getAllowedChars()
 
@@ -96,7 +99,7 @@ getAllowedChars
 
 
 setIgnoreCase
--------------
++++++++++++++
 
 .. function:: setIgnoreCase()
 
@@ -106,7 +109,7 @@ setIgnoreCase
 
 
 getIgnoreCase
--------------
++++++++++++++
 
 .. function:: getIgnoreCase()
 
@@ -116,7 +119,7 @@ getIgnoreCase
 
 
 setEcho
--------
++++++++
 
 .. function:: setEcho()
 
@@ -126,7 +129,7 @@ setEcho
 
 
 getEcho
--------
++++++++
 
 .. function:: getEcho()
 

@@ -1,14 +1,17 @@
-.. Mvc/Controller/Plugin/Layout.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/Plugin/Layout.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\Plugin\\Layout
 =====================================
 
 Methods
-+++++++
+-------
 
 setTemplate
------------
++++++++++++
 
 .. function:: setTemplate()
 
@@ -22,7 +25,7 @@ setTemplate
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -39,7 +42,7 @@ __invoke
 
 
 getEvent
---------
+++++++++
 
 .. function:: getEvent()
 
@@ -53,7 +56,7 @@ getEvent
 
 
 getViewModel
-------------
+++++++++++++
 
 .. function:: getViewModel()
 

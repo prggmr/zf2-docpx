@@ -1,5 +1,8 @@
-.. View/Helper/HeadScript.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HeadScript.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\HeadScript
 ==============================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\HeadScript
 Helper for setting and retrieving script elements for HTML head section
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -43,7 +46,7 @@ __invoke
 
 
 captureStart
-------------
+++++++++++++
 
 .. function:: captureStart()
 
@@ -61,7 +64,7 @@ captureStart
 
 
 captureEnd
-----------
+++++++++++
 
 .. function:: captureEnd()
 
@@ -73,7 +76,7 @@ captureEnd
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -100,7 +103,7 @@ __call
 
 
 isDuplicate
------------
++++++++++++
 
 .. function:: isDuplicate()
 
@@ -114,7 +117,7 @@ isDuplicate
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -128,7 +131,7 @@ isValid
 
 
 append
-------
+++++++
 
 .. function:: append()
 
@@ -144,7 +147,7 @@ append
 
 
 prepend
--------
++++++++
 
 .. function:: prepend()
 
@@ -160,7 +163,7 @@ prepend
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -176,7 +179,7 @@ set
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -193,7 +196,7 @@ offsetSet
 
 
 setAllowArbitraryAttributes
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: setAllowArbitraryAttributes()
 
@@ -207,7 +210,7 @@ setAllowArbitraryAttributes
 
 
 arbitraryAttributesAllowed
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: arbitraryAttributesAllowed()
 
@@ -219,7 +222,7 @@ arbitraryAttributesAllowed
 
 
 itemToString
-------------
+++++++++++++
 
 .. function:: itemToString()
 
@@ -236,7 +239,7 @@ itemToString
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -250,7 +253,7 @@ toString
 
 
 createData
-----------
+++++++++++
 
 .. function:: createData()
 
@@ -268,11 +271,11 @@ createData
 
 
 Constants
-+++++++++
+---------
 
 FILE
-====
+++++
 
 SCRIPT
-======
+++++++
 

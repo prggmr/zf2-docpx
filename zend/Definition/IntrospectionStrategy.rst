@@ -1,5 +1,8 @@
-.. Di/Definition/IntrospectionStrategy.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/IntrospectionStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\IntrospectionStrategy
 ===========================================
@@ -8,10 +11,10 @@ Strategy used to discover methods to be considered as endpoints for dependency i
 interfaces, annotations and method names
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 getAnnotationManager
---------------------
+++++++++++++++++++++
 
 .. function:: getAnnotationManager()
 
@@ -35,7 +38,7 @@ getAnnotationManager
 
 
 createDefaultAnnotationManager
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: createDefaultAnnotationManager()
 
@@ -47,7 +50,7 @@ createDefaultAnnotationManager
 
 
 setUseAnnotations
------------------
++++++++++++++++++
 
 .. function:: setUseAnnotations()
 
@@ -59,7 +62,7 @@ setUseAnnotations
 
 
 getUseAnnotations
------------------
++++++++++++++++++
 
 .. function:: getUseAnnotations()
 
@@ -71,7 +74,7 @@ getUseAnnotations
 
 
 setMethodNameInclusionPatterns
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: setMethodNameInclusionPatterns()
 
@@ -83,7 +86,7 @@ setMethodNameInclusionPatterns
 
 
 getMethodNameInclusionPatterns
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: getMethodNameInclusionPatterns()
 
@@ -95,7 +98,7 @@ getMethodNameInclusionPatterns
 
 
 setInterfaceInjectionInclusionPatterns
---------------------------------------
+++++++++++++++++++++++++++++++++++++++
 
 .. function:: setInterfaceInjectionInclusionPatterns()
 
@@ -107,7 +110,7 @@ setInterfaceInjectionInclusionPatterns
 
 
 getInterfaceInjectionInclusionPatterns
---------------------------------------
+++++++++++++++++++++++++++++++++++++++
 
 .. function:: getInterfaceInjectionInclusionPatterns()
 

@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pgsql/Result.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pgsql/Result.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pgsql\\Result
 ========================================
 
 Methods
-+++++++
+-------
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -25,7 +28,7 @@ initialize
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -37,7 +40,7 @@ current
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -49,7 +52,7 @@ next
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -61,7 +64,7 @@ key
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -73,7 +76,7 @@ valid
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -85,7 +88,7 @@ rewind
 
 
 buffer
-------
+++++++
 
 .. function:: buffer()
 
@@ -97,7 +100,7 @@ buffer
 
 
 isBuffered
-----------
+++++++++++
 
 .. function:: isBuffered()
 
@@ -109,7 +112,7 @@ isBuffered
 
 
 isQueryResult
--------------
++++++++++++++
 
 .. function:: isQueryResult()
 
@@ -121,7 +124,7 @@ isQueryResult
 
 
 getAffectedRows
----------------
++++++++++++++++
 
 .. function:: getAffectedRows()
 
@@ -133,7 +136,7 @@ getAffectedRows
 
 
 getGeneratedValue
------------------
++++++++++++++++++
 
 .. function:: getGeneratedValue()
 
@@ -145,7 +148,7 @@ getGeneratedValue
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -155,7 +158,7 @@ getResource
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -174,7 +177,7 @@ The return value is cast to an integer.
 
 
 getFieldCount
--------------
++++++++++++++
 
 .. function:: getFieldCount()
 

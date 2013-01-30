@@ -1,14 +1,17 @@
-.. Code/Reflection/MethodReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/MethodReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\MethodReflection
 ========================================
 
 Methods
-+++++++
+-------
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -20,7 +23,7 @@ getDocBlock
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -32,7 +35,7 @@ getAnnotations
 
 
 getStartLine
-------------
+++++++++++++
 
 .. function:: getStartLine()
 
@@ -46,7 +49,7 @@ getStartLine
 
 
 getDeclaringClass
------------------
++++++++++++++++++
 
 .. function:: getDeclaringClass()
 
@@ -58,7 +61,7 @@ getDeclaringClass
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -70,7 +73,7 @@ getParameters
 
 
 getContents
------------
++++++++++++
 
 .. function:: getContents()
 
@@ -84,7 +87,7 @@ getContents
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -96,14 +99,14 @@ getBody
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

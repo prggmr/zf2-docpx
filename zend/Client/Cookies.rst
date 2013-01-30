@@ -1,5 +1,8 @@
-.. Http/Client/Cookies.php generated using docpx on 01/30/13 03:32am
+.. Http/Client/Cookies.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Client\\Cookies
 ===========================
@@ -20,10 +23,10 @@ You can also choose, when returning more than one cookie, whether to get an arra
 (by passing Zend\Http\Client\Cookies::COOKIE_STRING_CONCAT).
 
 Methods
-+++++++
+-------
 
 addCookie
----------
++++++++++
 
 .. function:: addCookie()
 
@@ -39,7 +42,7 @@ addCookie
 
 
 addCookiesFromResponse
-----------------------
+++++++++++++++++++++++
 
 .. function:: addCookiesFromResponse()
 
@@ -52,7 +55,7 @@ addCookiesFromResponse
 
 
 getAllCookies
--------------
++++++++++++++
 
 .. function:: getAllCookies()
 
@@ -66,7 +69,7 @@ getAllCookies
 
 
 getMatchingCookies
-------------------
+++++++++++++++++++
 
 .. function:: getMatchingCookies()
 
@@ -87,7 +90,7 @@ getMatchingCookies
 
 
 getCookie
----------
++++++++++
 
 .. function:: getCookie()
 
@@ -105,7 +108,7 @@ getCookie
 
 
 _flattenCookiesArray
---------------------
+++++++++++++++++++++
 
 .. function:: _flattenCookiesArray()
 
@@ -121,7 +124,7 @@ _flattenCookiesArray
 
 
 _matchDomain
-------------
+++++++++++++
 
 .. function:: _matchDomain()
 
@@ -135,7 +138,7 @@ _matchDomain
 
 
 _matchPath
-----------
+++++++++++
 
 .. function:: _matchPath()
 
@@ -150,7 +153,7 @@ _matchPath
 
 
 fromResponse
-------------
+++++++++++++
 
 .. function:: fromResponse()
 
@@ -170,7 +173,7 @@ fromResponse
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -182,7 +185,7 @@ count
 
 
 getIterator
------------
++++++++++++
 
 .. function:: getIterator()
 
@@ -194,7 +197,7 @@ getIterator
 
 
 isEmpty
--------
++++++++
 
 .. function:: isEmpty()
 
@@ -206,7 +209,7 @@ isEmpty
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -218,7 +221,7 @@ reset
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -239,7 +242,7 @@ The return value will be casted to boolean if non-boolean was returned.
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -257,7 +260,7 @@ The offset to retrieve.
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -278,7 +281,7 @@ The value to set.
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -296,7 +299,7 @@ The offset to unset.
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -310,7 +313,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 
@@ -328,42 +331,42 @@ The string representation of the object.
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
 
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 get
----
++++
 
 .. function:: get()
 
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -372,20 +375,20 @@ set
 
 
 Constants
-+++++++++
+---------
 
 COOKIE_OBJECT
-=============
++++++++++++++
 
 Return cookie(s) as a Zend\Http\Header\Cookie object
 
 COOKIE_STRING_ARRAY
-===================
++++++++++++++++++++
 
 Return cookie(s) as a string (suitable for sending in an HTTP request)
 
 COOKIE_STRING_CONCAT
-====================
+++++++++++++++++++++
 
 Return all cookies as one long string (suitable for sending in an HTTP request)
 

@@ -1,5 +1,8 @@
-.. Form/Annotation/FormAnnotationsListener.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/FormAnnotationsListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\FormAnnotationsListener
 ===============================================
@@ -22,10 +25,10 @@ registered work with the annotation values, as well as the form
 specification passed in the event object.
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -39,7 +42,7 @@ attach
 
 
 handleAttributesAnnotation
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: handleAttributesAnnotation()
 
@@ -55,7 +58,7 @@ handleAttributesAnnotation
 
 
 handleFlagsAnnotation
----------------------
++++++++++++++++++++++
 
 .. function:: handleFlagsAnnotation()
 
@@ -71,7 +74,7 @@ handleFlagsAnnotation
 
 
 handleHydratorAnnotation
-------------------------
+++++++++++++++++++++++++
 
 .. function:: handleHydratorAnnotation()
 
@@ -87,7 +90,7 @@ handleHydratorAnnotation
 
 
 handleInputFilterAnnotation
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: handleInputFilterAnnotation()
 
@@ -103,7 +106,7 @@ handleInputFilterAnnotation
 
 
 handleObjectAnnotation
-----------------------
+++++++++++++++++++++++
 
 .. function:: handleObjectAnnotation()
 
@@ -119,7 +122,7 @@ handleObjectAnnotation
 
 
 handleOptionsAnnotation
------------------------
++++++++++++++++++++++++
 
 .. function:: handleOptionsAnnotation()
 
@@ -135,7 +138,7 @@ handleOptionsAnnotation
 
 
 handleTypeAnnotation
---------------------
+++++++++++++++++++++
 
 .. function:: handleTypeAnnotation()
 
@@ -151,7 +154,7 @@ handleTypeAnnotation
 
 
 handleValidationGroupAnnotation
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: handleValidationGroupAnnotation()
 

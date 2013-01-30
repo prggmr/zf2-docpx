@@ -1,5 +1,8 @@
-.. Soap/Wsdl/ComplexTypeStrategy/ComplexTypeStrategyInterface.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl/ComplexTypeStrategy/ComplexTypeStrategyInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\setContext
 =================================================
@@ -12,6 +15,9 @@ Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\setContext
     :param Wsdl: 
 
 
+
+Function
+********
 
 Zend\\Soap\\Wsdl\\ComplexTypeStrategy\\addComplexType
 =====================================================

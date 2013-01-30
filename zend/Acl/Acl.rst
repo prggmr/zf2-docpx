@@ -1,14 +1,17 @@
-.. Permissions/Acl/Acl.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Acl/Acl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Acl\\Acl
 ===========================
 
 Methods
-+++++++
+-------
 
 addRole
--------
++++++++
 
 .. function:: addRole()
 
@@ -36,7 +39,7 @@ addRole
 
 
 getRole
--------
++++++++
 
 .. function:: getRole()
 
@@ -52,7 +55,7 @@ getRole
 
 
 hasRole
--------
++++++++
 
 .. function:: hasRole()
 
@@ -68,7 +71,7 @@ hasRole
 
 
 inheritsRole
-------------
+++++++++++++
 
 .. function:: inheritsRole()
 
@@ -90,7 +93,7 @@ inheritsRole
 
 
 removeRole
-----------
+++++++++++
 
 .. function:: removeRole()
 
@@ -106,7 +109,7 @@ removeRole
 
 
 removeRoleAll
--------------
++++++++++++++
 
 .. function:: removeRoleAll()
 
@@ -118,7 +121,7 @@ removeRoleAll
 
 
 addResource
------------
++++++++++++
 
 .. function:: addResource()
 
@@ -138,7 +141,7 @@ addResource
 
 
 getResource
------------
++++++++++++
 
 .. function:: getResource()
 
@@ -156,7 +159,7 @@ getResource
 
 
 hasResource
------------
++++++++++++
 
 .. function:: hasResource()
 
@@ -172,7 +175,7 @@ hasResource
 
 
 inheritsResource
-----------------
+++++++++++++++++
 
 .. function:: inheritsResource()
 
@@ -196,7 +199,7 @@ inheritsResource
 
 
 removeResource
---------------
+++++++++++++++
 
 .. function:: removeResource()
 
@@ -214,7 +217,7 @@ removeResource
 
 
 removeResourceAll
------------------
++++++++++++++++++
 
 .. function:: removeResourceAll()
 
@@ -226,7 +229,7 @@ removeResourceAll
 
 
 allow
------
++++++
 
 .. function:: allow()
 
@@ -243,7 +246,7 @@ allow
 
 
 deny
-----
+++++
 
 .. function:: deny()
 
@@ -260,7 +263,7 @@ deny
 
 
 removeAllow
------------
++++++++++++
 
 .. function:: removeAllow()
 
@@ -276,7 +279,7 @@ removeAllow
 
 
 removeDeny
-----------
+++++++++++
 
 .. function:: removeDeny()
 
@@ -292,7 +295,7 @@ removeDeny
 
 
 setRule
--------
++++++++
 
 .. function:: setRule()
 
@@ -351,7 +354,7 @@ setRule
 
 
 getChildResources
------------------
++++++++++++++++++
 
 .. function:: getChildResources()
 
@@ -365,7 +368,7 @@ getChildResources
 
 
 isAllowed
----------
++++++++++
 
 .. function:: isAllowed()
 
@@ -399,7 +402,7 @@ isAllowed
 
 
 getRoleRegistry
----------------
++++++++++++++++
 
 .. function:: getRoleRegistry()
 
@@ -414,7 +417,7 @@ getRoleRegistry
 
 
 roleDFSAllPrivileges
---------------------
+++++++++++++++++++++
 
 .. function:: roleDFSAllPrivileges()
 
@@ -433,7 +436,7 @@ roleDFSAllPrivileges
 
 
 roleDFSVisitAllPrivileges
--------------------------
++++++++++++++++++++++++++
 
 .. function:: roleDFSVisitAllPrivileges()
 
@@ -456,7 +459,7 @@ roleDFSVisitAllPrivileges
 
 
 roleDFSOnePrivilege
--------------------
++++++++++++++++++++
 
 .. function:: roleDFSOnePrivilege()
 
@@ -478,7 +481,7 @@ roleDFSOnePrivilege
 
 
 roleDFSVisitOnePrivilege
-------------------------
+++++++++++++++++++++++++
 
 .. function:: roleDFSVisitOnePrivilege()
 
@@ -502,7 +505,7 @@ roleDFSVisitOnePrivilege
 
 
 getRuleType
------------
++++++++++++
 
 .. function:: getRuleType()
 
@@ -531,7 +534,7 @@ getRuleType
 
 
 getRules
---------
+++++++++
 
 .. function:: getRules()
 
@@ -552,7 +555,7 @@ getRules
 
 
 getRoles
---------
+++++++++
 
 .. function:: getRoles()
 
@@ -562,7 +565,7 @@ getRoles
 
 
 getResources
-------------
+++++++++++++
 
 .. function:: getResources()
 
@@ -574,25 +577,25 @@ getResources
 
 
 Constants
-+++++++++
+---------
 
 TYPE_ALLOW
-==========
+++++++++++
 
 Rule type: allow
 
 TYPE_DENY
-=========
++++++++++
 
 Rule type: deny
 
 OP_ADD
-======
+++++++
 
 Rule operation: add
 
 OP_REMOVE
-=========
++++++++++
 
 Rule operation: remove
 

@@ -1,14 +1,17 @@
-.. Validator/DateStep.php generated using docpx on 01/30/13 03:32am
+.. Validator/DateStep.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\DateStep
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setBaseValue
-------------
+++++++++++++
 
 .. function:: setBaseValue()
 
@@ -34,7 +37,7 @@ setBaseValue
 
 
 getBaseValue
-------------
+++++++++++++
 
 .. function:: getBaseValue()
 
@@ -46,7 +49,7 @@ getBaseValue
 
 
 setStep
--------
++++++++
 
 .. function:: setStep()
 
@@ -60,7 +63,7 @@ setStep
 
 
 getStep
--------
++++++++
 
 .. function:: getStep()
 
@@ -72,7 +75,7 @@ getStep
 
 
 getTimezone
------------
++++++++++++
 
 .. function:: getTimezone()
 
@@ -84,7 +87,7 @@ getTimezone
 
 
 setTimezone
------------
++++++++++++
 
 .. function:: setTimezone()
 
@@ -98,7 +101,7 @@ setTimezone
 
 
 convertToDateTime
------------------
++++++++++++++++++
 
 .. function:: convertToDateTime()
 
@@ -114,7 +117,7 @@ convertToDateTime
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -132,8 +135,8 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOT_STEP
-========
+++++++++
 

@@ -1,14 +1,17 @@
-.. ServiceManager/Di/DiServiceInitializer.php generated using docpx on 01/30/13 03:32am
+.. ServiceManager/Di/DiServiceInitializer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ServiceManager\\Di\\DiServiceInitializer
 ==============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 

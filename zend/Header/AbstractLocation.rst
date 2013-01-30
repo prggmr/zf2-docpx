@@ -1,5 +1,8 @@
-.. Http/Header/AbstractLocation.php generated using docpx on 01/30/13 03:32am
+.. Http/Header/AbstractLocation.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Header\\AbstractLocation
 ====================================
@@ -8,10 +11,10 @@ Abstract Location Header
 Supports headers that have URI as value
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -27,7 +30,7 @@ fromString
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -43,7 +46,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -55,7 +58,7 @@ getUri
 
 
 uri
----
++++
 
 .. function:: uri()
 
@@ -67,7 +70,7 @@ uri
 
 
 getFieldValue
--------------
++++++++++++++
 
 .. function:: getFieldValue()
 
@@ -79,7 +82,7 @@ getFieldValue
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -91,7 +94,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

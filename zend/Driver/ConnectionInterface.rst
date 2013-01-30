@@ -1,5 +1,8 @@
-.. Db/Adapter/Driver/ConnectionInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/ConnectionInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\getCurrentSchema
 ===========================================
@@ -13,6 +16,9 @@ Zend\\Db\\Adapter\\Driver\\getCurrentSchema
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\getResource
 ======================================
 
@@ -24,6 +30,9 @@ Zend\\Db\\Adapter\\Driver\\getResource
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\connect
 ==================================
@@ -37,6 +46,9 @@ Zend\\Db\\Adapter\\Driver\\connect
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\isConnected
 ======================================
 
@@ -48,6 +60,9 @@ Zend\\Db\\Adapter\\Driver\\isConnected
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\disconnect
 =====================================
@@ -61,6 +76,9 @@ Zend\\Db\\Adapter\\Driver\\disconnect
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\beginTransaction
 ===========================================
 
@@ -72,6 +90,9 @@ Zend\\Db\\Adapter\\Driver\\beginTransaction
     :rtype: ConnectionInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\commit
 =================================
@@ -85,6 +106,9 @@ Zend\\Db\\Adapter\\Driver\\commit
 
 
 
+Function
+********
+
 Zend\\Db\\Adapter\\Driver\\rollback
 ===================================
 
@@ -96,6 +120,9 @@ Zend\\Db\\Adapter\\Driver\\rollback
     :rtype: ConnectionInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\execute
 ==================================
@@ -110,6 +137,9 @@ Zend\\Db\\Adapter\\Driver\\execute
     :rtype: ResultInterface 
 
 
+
+Function
+********
 
 Zend\\Db\\Adapter\\Driver\\getLastGeneratedValue
 ================================================

@@ -1,5 +1,8 @@
-.. InputFilter/InputFilterInterface.php generated using docpx on 01/30/13 03:32am
+.. InputFilter/InputFilterInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\InputFilter\\add
 ======================
@@ -16,6 +19,9 @@ Zend\\InputFilter\\add
 
 
 
+Function
+********
+
 Zend\\InputFilter\\get
 ======================
 
@@ -29,6 +35,9 @@ Zend\\InputFilter\\get
     :rtype: InputInterface|InputFilterInterface 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\has
 ======================
@@ -44,6 +53,9 @@ Zend\\InputFilter\\has
 
 
 
+Function
+********
+
 Zend\\InputFilter\\remove
 =========================
 
@@ -57,6 +69,9 @@ Zend\\InputFilter\\remove
     :rtype: InputFilterInterface 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\setData
 ==========================
@@ -72,6 +87,9 @@ Zend\\InputFilter\\setData
 
 
 
+Function
+********
+
 Zend\\InputFilter\\isValid
 ==========================
 
@@ -83,6 +101,9 @@ Zend\\InputFilter\\isValid
     :rtype: bool 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\setValidationGroup
 =====================================
@@ -106,6 +127,9 @@ Zend\\InputFilter\\setValidationGroup
 
 
 
+Function
+********
+
 Zend\\InputFilter\\getInvalidInput
 ==================================
 
@@ -120,6 +144,9 @@ Zend\\InputFilter\\getInvalidInput
     :rtype: InputInterface[] 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\getValidInput
 ================================
@@ -136,6 +163,9 @@ Zend\\InputFilter\\getValidInput
 
 
 
+Function
+********
+
 Zend\\InputFilter\\getValue
 ===========================
 
@@ -149,6 +179,9 @@ Zend\\InputFilter\\getValue
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\getValues
 ============================
@@ -165,6 +198,9 @@ Zend\\InputFilter\\getValues
 
 
 
+Function
+********
+
 Zend\\InputFilter\\getRawValue
 ==============================
 
@@ -178,6 +214,9 @@ Zend\\InputFilter\\getRawValue
     :rtype: mixed 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\getRawValues
 ===============================
@@ -193,6 +232,9 @@ Zend\\InputFilter\\getRawValues
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\InputFilter\\getMessages
 ==============================
@@ -210,5 +252,5 @@ Zend\\InputFilter\\getMessages
 
 
 VALIDATE_ALL
-============
+++++++++++++
 

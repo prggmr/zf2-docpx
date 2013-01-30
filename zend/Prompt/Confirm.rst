@@ -1,14 +1,17 @@
-.. Console/Prompt/Confirm.php generated using docpx on 01/30/13 03:32am
+.. Console/Prompt/Confirm.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Console\\Prompt\\Confirm
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 show
-----
+++++
 
 .. function:: show()
 
@@ -34,7 +37,7 @@ show
 
 
 setNoChar
----------
++++++++++
 
 .. function:: setNoChar()
 
@@ -44,7 +47,7 @@ setNoChar
 
 
 getNoChar
----------
++++++++++
 
 .. function:: getNoChar()
 
@@ -54,7 +57,7 @@ getNoChar
 
 
 setYesChar
-----------
+++++++++++
 
 .. function:: setYesChar()
 
@@ -64,7 +67,7 @@ setYesChar
 
 
 getYesChar
-----------
+++++++++++
 
 .. function:: getYesChar()
 

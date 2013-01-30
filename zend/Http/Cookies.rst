@@ -1,5 +1,8 @@
-.. Http/Cookies.php generated using docpx on 01/30/13 03:32am
+.. Http/Cookies.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Cookies
 ===================
@@ -20,10 +23,10 @@ You can also choose, when returning more than one cookie, whether to get an arra
 (by passing Zend\Http\Client\Cookies::COOKIE_STRING_CONCAT).
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -38,7 +41,7 @@ fromString
 
 
 addCookie
----------
++++++++++
 
 .. function:: addCookie()
 
@@ -54,7 +57,7 @@ addCookie
 
 
 addCookiesFromResponse
-----------------------
+++++++++++++++++++++++
 
 .. function:: addCookiesFromResponse()
 
@@ -67,7 +70,7 @@ addCookiesFromResponse
 
 
 getAllCookies
--------------
++++++++++++++
 
 .. function:: getAllCookies()
 
@@ -81,7 +84,7 @@ getAllCookies
 
 
 getMatchingCookies
-------------------
+++++++++++++++++++
 
 .. function:: getMatchingCookies()
 
@@ -102,7 +105,7 @@ getMatchingCookies
 
 
 getCookie
----------
++++++++++
 
 .. function:: getCookie()
 
@@ -120,7 +123,7 @@ getCookie
 
 
 _flattenCookiesArray
---------------------
+++++++++++++++++++++
 
 .. function:: _flattenCookiesArray()
 
@@ -136,7 +139,7 @@ _flattenCookiesArray
 
 
 _matchDomain
-------------
+++++++++++++
 
 .. function:: _matchDomain()
 
@@ -150,7 +153,7 @@ _matchDomain
 
 
 _matchPath
-----------
+++++++++++
 
 .. function:: _matchPath()
 
@@ -165,7 +168,7 @@ _matchPath
 
 
 fromResponse
-------------
+++++++++++++
 
 .. function:: fromResponse()
 
@@ -185,7 +188,7 @@ fromResponse
 
 
 isEmpty
--------
++++++++
 
 .. function:: isEmpty()
 
@@ -197,7 +200,7 @@ isEmpty
 
 
 reset
------
++++++
 
 .. function:: reset()
 
@@ -211,25 +214,25 @@ reset
 
 
 Constants
-+++++++++
+---------
 
 COOKIE_OBJECT
-=============
++++++++++++++
 
 Return cookie(s) as a Zend_Http_Cookie object
 
 COOKIE_STRING_ARRAY
-===================
++++++++++++++++++++
 
 Return cookie(s) as a string (suitable for sending in an HTTP request)
 
 COOKIE_STRING_CONCAT
-====================
+++++++++++++++++++++
 
 Return all cookies as one long string (suitable for sending in an HTTP request)
 
 COOKIE_STRING_CONCAT_STRICT
-===========================
++++++++++++++++++++++++++++
 
 Return all cookies as one long string (strict mode)
  - Single space after the semi-colon separating each cookie

@@ -1,14 +1,17 @@
-.. Validator/Date.php generated using docpx on 01/30/13 03:32am
+.. Validator/Date.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\Date
 =====================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getFormat
----------
++++++++++
 
 .. function:: getFormat()
 
@@ -32,7 +35,7 @@ getFormat
 
 
 setFormat
----------
++++++++++
 
 .. function:: setFormat()
 
@@ -46,7 +49,7 @@ setFormat
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -64,14 +67,14 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 INVALID
-=======
++++++++
 
 INVALID_DATE
-============
+++++++++++++
 
 FALSEFORMAT
-===========
++++++++++++
 

@@ -1,14 +1,17 @@
-.. Form/Element/DateSelect.php generated using docpx on 01/30/13 03:32am
+.. Form/Element/DateSelect.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Element\\DateSelect
 ===============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 getDayElement
--------------
++++++++++++++
 
 .. function:: getDayElement()
 
@@ -46,7 +49,7 @@ getDayElement
 
 
 setDayAttributes
-----------------
+++++++++++++++++
 
 .. function:: setDayAttributes()
 
@@ -60,7 +63,7 @@ setDayAttributes
 
 
 getDayAttributes
-----------------
+++++++++++++++++
 
 .. function:: getDayAttributes()
 
@@ -72,7 +75,7 @@ getDayAttributes
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -85,7 +88,7 @@ setValue
 
 
 prepareElement
---------------
+++++++++++++++
 
 .. function:: prepareElement()
 
@@ -99,7 +102,7 @@ prepareElement
 
 
 getValidator
-------------
+++++++++++++
 
 .. function:: getValidator()
 
@@ -111,7 +114,7 @@ getValidator
 
 
 getInputSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: getInputSpecification()
 
@@ -124,7 +127,7 @@ getInputSpecification
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

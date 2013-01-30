@@ -1,5 +1,8 @@
-.. Form/Annotation/AnnotationBuilder.php generated using docpx on 01/30/13 03:32am
+.. Form/Annotation/AnnotationBuilder.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Annotation\\AnnotationBuilder
 =========================================
@@ -8,10 +11,10 @@ Parses a class' properties for annotations in order to create a form and
 input filter definition.
 
 Methods
-+++++++
+-------
 
 setFormFactory
---------------
+++++++++++++++
 
 .. function:: setFormFactory()
 
@@ -25,7 +28,7 @@ setFormFactory
 
 
 setAnnotationManager
---------------------
+++++++++++++++++++++
 
 .. function:: setAnnotationManager()
 
@@ -39,7 +42,7 @@ setAnnotationManager
 
 
 setEventManager
----------------
++++++++++++++++
 
 .. function:: setEventManager()
 
@@ -53,7 +56,7 @@ setEventManager
 
 
 getFormFactory
---------------
+++++++++++++++
 
 .. function:: getFormFactory()
 
@@ -67,7 +70,7 @@ getFormFactory
 
 
 getAnnotationManager
---------------------
+++++++++++++++++++++
 
 .. function:: getAnnotationManager()
 
@@ -81,7 +84,7 @@ getAnnotationManager
 
 
 getEventManager
----------------
++++++++++++++++
 
 .. function:: getEventManager()
 
@@ -93,7 +96,7 @@ getEventManager
 
 
 getFormSpecification
---------------------
+++++++++++++++++++++
 
 .. function:: getFormSpecification()
 
@@ -113,7 +116,7 @@ getFormSpecification
 
 
 createForm
-----------
+++++++++++
 
 .. function:: createForm()
 
@@ -127,7 +130,7 @@ createForm
 
 
 getEntity
----------
++++++++++
 
 .. function:: getEntity()
 
@@ -139,7 +142,7 @@ getEntity
 
 
 configureForm
--------------
++++++++++++++
 
 .. function:: configureForm()
 
@@ -157,7 +160,7 @@ configureForm
 
 
 configureElement
-----------------
+++++++++++++++++
 
 .. function:: configureElement()
 
@@ -176,7 +179,7 @@ configureElement
 
 
 discoverName
-------------
+++++++++++++
 
 .. function:: discoverName()
 
@@ -191,7 +194,7 @@ discoverName
 
 
 checkForExclude
----------------
++++++++++++++++
 
 .. function:: checkForExclude()
 
@@ -205,7 +208,7 @@ checkForExclude
 
 
 isSubclassOf
-------------
+++++++++++++
 
 .. function:: isSubclassOf()
 

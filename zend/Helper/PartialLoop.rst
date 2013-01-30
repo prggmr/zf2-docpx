@@ -1,5 +1,8 @@
-.. View/Helper/PartialLoop.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/PartialLoop.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\PartialLoop
 ===============================
@@ -8,10 +11,10 @@ Helper for rendering a template fragment in its own variable scope; iterates
 over data provided and renders for each iteration.
 
 Methods
-+++++++
+-------
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -31,7 +34,7 @@ __invoke
 
 
 getPartialCounter
------------------
++++++++++++++++++
 
 .. function:: getPartialCounter()
 

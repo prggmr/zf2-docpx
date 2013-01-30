@@ -1,14 +1,17 @@
-.. Paginator/SerializableLimitIterator.php generated using docpx on 01/30/13 03:32am
+.. Paginator/SerializableLimitIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Paginator\\SerializableLimitIterator
 ==========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 serialize
----------
++++++++++
 
 .. function:: serialize()
 
@@ -34,7 +37,7 @@ serialize
 
 
 unserialize
------------
++++++++++++
 
 .. function:: unserialize()
 
@@ -46,7 +49,7 @@ unserialize
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -60,7 +63,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -74,7 +77,7 @@ offsetSet
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -88,7 +91,7 @@ offsetExists
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 

@@ -1,5 +1,8 @@
-.. Filter/Compress/Tar.php generated using docpx on 01/30/13 03:32am
+.. Filter/Compress/Tar.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\Compress\\Tar
 ===========================
@@ -7,10 +10,10 @@ Zend\\Filter\\Compress\\Tar
 Compression adapter for Tar
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 getArchive
-----------
+++++++++++
 
 .. function:: getArchive()
 
@@ -36,7 +39,7 @@ getArchive
 
 
 setArchive
-----------
+++++++++++
 
 .. function:: setArchive()
 
@@ -50,7 +53,7 @@ setArchive
 
 
 getTarget
----------
++++++++++
 
 .. function:: getTarget()
 
@@ -62,7 +65,7 @@ getTarget
 
 
 setTarget
----------
++++++++++
 
 .. function:: setTarget()
 
@@ -78,7 +81,7 @@ setTarget
 
 
 getMode
--------
++++++++
 
 .. function:: getMode()
 
@@ -90,7 +93,7 @@ getMode
 
 
 setMode
--------
++++++++
 
 .. function:: setMode()
 
@@ -110,7 +113,7 @@ setMode
 
 
 compress
---------
+++++++++
 
 .. function:: compress()
 
@@ -127,7 +130,7 @@ compress
 
 
 decompress
-----------
+++++++++++
 
 .. function:: decompress()
 
@@ -144,7 +147,7 @@ decompress
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 

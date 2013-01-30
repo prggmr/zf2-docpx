@@ -1,5 +1,8 @@
-.. Memory/Container/AccessController.php generated using docpx on 01/30/13 03:32am
+.. Memory/Container/AccessController.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Memory\\Container\\AccessController
 =========================================
@@ -16,10 +19,10 @@ out of scope or unset operation.
 Class also provides Zend\Memory\Container interface and works as proxy for such cases.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -31,7 +34,7 @@ __construct
 
 
 __destruct
-----------
+++++++++++
 
 .. function:: __destruct()
 
@@ -41,7 +44,7 @@ __destruct
 
 
 getRef
-------
+++++++
 
 .. function:: getRef()
 
@@ -56,7 +59,7 @@ getRef
 
 
 touch
------
++++++
 
 .. function:: touch()
 
@@ -68,7 +71,7 @@ touch
 
 
 lock
-----
+++++
 
 .. function:: lock()
 
@@ -78,7 +81,7 @@ lock
 
 
 unlock
-------
+++++++
 
 .. function:: unlock()
 
@@ -88,7 +91,7 @@ unlock
 
 
 isLocked
---------
+++++++++
 
 .. function:: isLocked()
 
@@ -100,7 +103,7 @@ isLocked
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -117,7 +120,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 

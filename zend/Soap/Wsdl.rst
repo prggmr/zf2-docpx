@@ -1,5 +1,8 @@
-.. Soap/Wsdl.php generated using docpx on 01/30/13 03:32am
+.. Soap/Wsdl.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Wsdl
 ================
@@ -7,10 +10,10 @@ Zend\\Soap\\Wsdl
 \Zend\Soap\Wsdl
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 escapeUri
----------
++++++++++
 
 .. function:: escapeUri()
 
@@ -41,7 +44,7 @@ escapeUri
 
 
 decodeAmpersand
----------------
++++++++++++++++
 
 .. function:: decodeAmpersand()
 
@@ -55,7 +58,7 @@ decodeAmpersand
 
 
 getTargetNamespace
-------------------
+++++++++++++++++++
 
 .. function:: getTargetNamespace()
 
@@ -67,7 +70,7 @@ getTargetNamespace
 
 
 getClassMap
------------
++++++++++++
 
 .. function:: getClassMap()
 
@@ -79,7 +82,7 @@ getClassMap
 
 
 setClassMap
------------
++++++++++++
 
 .. function:: setClassMap()
 
@@ -89,7 +92,7 @@ setClassMap
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -103,7 +106,7 @@ setUri
 
 
 setComplexTypeStrategy
-----------------------
+++++++++++++++++++++++
 
 .. function:: setComplexTypeStrategy()
 
@@ -117,7 +120,7 @@ setComplexTypeStrategy
 
 
 getComplexTypeStrategy
-----------------------
+++++++++++++++++++++++
 
 .. function:: getComplexTypeStrategy()
 
@@ -129,7 +132,7 @@ getComplexTypeStrategy
 
 
 addMessage
-----------
+++++++++++
 
 .. function:: addMessage()
 
@@ -147,7 +150,7 @@ addMessage
 
 
 addPortType
------------
++++++++++++
 
 .. function:: addPortType()
 
@@ -161,7 +164,7 @@ addPortType
 
 
 addPortOperation
-----------------
+++++++++++++++++
 
 .. function:: addPortOperation()
 
@@ -179,7 +182,7 @@ addPortOperation
 
 
 addBinding
-----------
+++++++++++
 
 .. function:: addBinding()
 
@@ -194,7 +197,7 @@ addBinding
 
 
 addBindingOperation
--------------------
++++++++++++++++++++
 
 .. function:: addBindingOperation()
 
@@ -213,7 +216,7 @@ addBindingOperation
 
 
 addSoapBinding
---------------
+++++++++++++++
 
 .. function:: addSoapBinding()
 
@@ -230,7 +233,7 @@ addSoapBinding
 
 
 addSoapOperation
-----------------
+++++++++++++++++
 
 .. function:: addSoapOperation()
 
@@ -246,7 +249,7 @@ addSoapOperation
 
 
 addService
-----------
+++++++++++
 
 .. function:: addService()
 
@@ -264,7 +267,7 @@ addService
 
 
 addDocumentation
-----------------
+++++++++++++++++
 
 .. function:: addDocumentation()
 
@@ -283,7 +286,7 @@ addDocumentation
 
 
 addTypes
---------
+++++++++
 
 .. function:: addTypes()
 
@@ -295,7 +298,7 @@ addTypes
 
 
 addType
--------
++++++++
 
 .. function:: addType()
 
@@ -310,7 +313,7 @@ addType
 
 
 getTypes
---------
+++++++++
 
 .. function:: getTypes()
 
@@ -322,7 +325,7 @@ getTypes
 
 
 getSchema
----------
++++++++++
 
 .. function:: getSchema()
 
@@ -334,7 +337,7 @@ getSchema
 
 
 toXML
------
++++++
 
 .. function:: toXML()
 
@@ -346,7 +349,7 @@ toXML
 
 
 toDomDocument
--------------
++++++++++++++
 
 .. function:: toDomDocument()
 
@@ -358,7 +361,7 @@ toDomDocument
 
 
 dump
-----
+++++
 
 .. function:: dump()
 
@@ -372,7 +375,7 @@ dump
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -386,7 +389,7 @@ getType
 
 
 addSchemaTypeSection
---------------------
+++++++++++++++++++++
 
 .. function:: addSchemaTypeSection()
 
@@ -398,7 +401,7 @@ addSchemaTypeSection
 
 
 translateType
--------------
++++++++++++++
 
 .. function:: translateType()
 
@@ -412,7 +415,7 @@ translateType
 
 
 addComplexType
---------------
+++++++++++++++
 
 .. function:: addComplexType()
 
@@ -426,7 +429,7 @@ addComplexType
 
 
 _parseElement
--------------
++++++++++++++
 
 .. function:: _parseElement()
 
@@ -442,7 +445,7 @@ _parseElement
 
 
 addElement
-----------
+++++++++++
 
 .. function:: addElement()
 
@@ -470,44 +473,44 @@ addElement
 
 
 Constants
-+++++++++
+---------
 
 XML_NS
-======
+++++++
 
 XML_NS_URI
-==========
+++++++++++
 
 WSDL_NS
-=======
++++++++
 
 WSDL_NS_URI
-===========
++++++++++++
 
 SOAP_11_NS
-==========
+++++++++++
 
 SOAP_11_NS_URI
-==============
+++++++++++++++
 
 SOAP_12_NS
-==========
+++++++++++
 
 SOAP_12_NS_URI
-==============
+++++++++++++++
 
 SOAP_ENC_NS
-===========
++++++++++++
 
 SOAP_ENC_URI
-============
+++++++++++++
 
 XSD_NS
-======
+++++++
 
 XSD_NS_URI
-==========
+++++++++++
 
 TYPES_NS
-========
+++++++++
 

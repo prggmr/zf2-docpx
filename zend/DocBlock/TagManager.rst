@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/TagManager.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/TagManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\TagManager
 ============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 useDefaultPrototypes
---------------------
+++++++++++++++++++++
 
 .. function:: useDefaultPrototypes()
 
@@ -28,7 +31,7 @@ useDefaultPrototypes
 
 
 addTagPrototype
----------------
++++++++++++++++
 
 .. function:: addTagPrototype()
 
@@ -39,7 +42,7 @@ addTagPrototype
 
 
 hasTag
-------
+++++++
 
 .. function:: hasTag()
 
@@ -51,7 +54,7 @@ hasTag
 
 
 createTag
----------
++++++++++
 
 .. function:: createTag()
 
@@ -69,8 +72,8 @@ createTag
 
 
 Constants
-+++++++++
+---------
 
 USE_DEFAULT_PROTOTYPES
-======================
+++++++++++++++++++++++
 

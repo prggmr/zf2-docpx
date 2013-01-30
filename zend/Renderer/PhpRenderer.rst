@@ -1,5 +1,8 @@
-.. View/Renderer/PhpRenderer.php generated using docpx on 01/30/13 03:32am
+.. View/Renderer/PhpRenderer.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Renderer\\PhpRenderer
 =================================
@@ -11,10 +14,10 @@ mark them as part of the internal implementation, and thus prevent conflict
 with variables injected into the renderer.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getEngine
----------
++++++++++
 
 .. function:: getEngine()
 
@@ -41,7 +44,7 @@ getEngine
 
 
 init
-----
+++++
 
 .. function:: init()
 
@@ -56,7 +59,7 @@ init
 
 
 setResolver
------------
++++++++++++
 
 .. function:: setResolver()
 
@@ -72,7 +75,7 @@ setResolver
 
 
 resolver
---------
+++++++++
 
 .. function:: resolver()
 
@@ -86,7 +89,7 @@ resolver
 
 
 setVars
--------
++++++++
 
 .. function:: setVars()
 
@@ -104,7 +107,7 @@ setVars
 
 
 vars
-----
+++++
 
 .. function:: vars()
 
@@ -118,7 +121,7 @@ vars
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -132,7 +135,7 @@ get
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -146,7 +149,7 @@ __get
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -161,7 +164,7 @@ __set
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -175,7 +178,7 @@ __isset
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -189,7 +192,7 @@ __unset
 
 
 setHelperPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setHelperPluginManager()
 
@@ -205,7 +208,7 @@ setHelperPluginManager
 
 
 getHelperPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getHelperPluginManager()
 
@@ -217,7 +220,7 @@ getHelperPluginManager
 
 
 plugin
-------
+++++++
 
 .. function:: plugin()
 
@@ -232,7 +235,7 @@ plugin
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -253,7 +256,7 @@ __call
 
 
 setFilterChain
---------------
+++++++++++++++
 
 .. function:: setFilterChain()
 
@@ -267,7 +270,7 @@ setFilterChain
 
 
 getFilterChain
---------------
+++++++++++++++
 
 .. function:: getFilterChain()
 
@@ -279,7 +282,7 @@ getFilterChain
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -305,7 +308,7 @@ render
 
 
 setCanRenderTrees
------------------
++++++++++++++++++
 
 .. function:: setCanRenderTrees()
 
@@ -324,7 +327,7 @@ setCanRenderTrees
 
 
 canRenderTrees
---------------
+++++++++++++++
 
 .. function:: canRenderTrees()
 
@@ -336,7 +339,7 @@ canRenderTrees
 
 
 addTemplate
------------
++++++++++++
 
 .. function:: addTemplate()
 
@@ -350,7 +353,7 @@ addTemplate
 
 
 __clone
--------
++++++++
 
 .. function:: __clone()
 

@@ -1,14 +1,17 @@
-.. Stdlib/Hydrator/Strategy/SerializableStrategy.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/Hydrator/Strategy/SerializableStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\Hydrator\\Strategy\\SerializableStrategy
 ======================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 extract
--------
++++++++
 
 .. function:: extract()
 
@@ -32,7 +35,7 @@ extract
 
 
 hydrate
--------
++++++++
 
 .. function:: hydrate()
 
@@ -46,7 +49,7 @@ hydrate
 
 
 setSerializer
--------------
++++++++++++++
 
 .. function:: setSerializer()
 
@@ -60,7 +63,7 @@ setSerializer
 
 
 getSerializer
--------------
++++++++++++++
 
 .. function:: getSerializer()
 
@@ -72,7 +75,7 @@ getSerializer
 
 
 setSerializerOptions
---------------------
+++++++++++++++++++++
 
 .. function:: setSerializerOptions()
 
@@ -86,7 +89,7 @@ setSerializerOptions
 
 
 getSerializerOptions
---------------------
+++++++++++++++++++++
 
 .. function:: getSerializerOptions()
 

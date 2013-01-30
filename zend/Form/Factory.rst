@@ -1,14 +1,17 @@
-.. Form/Factory.php generated using docpx on 01/30/13 03:32am
+.. Form/Factory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Factory
 ===================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -18,7 +21,7 @@ __construct
 
 
 setInputFilterFactory
----------------------
++++++++++++++++++++++
 
 .. function:: setInputFilterFactory()
 
@@ -32,7 +35,7 @@ setInputFilterFactory
 
 
 getInputFilterFactory
----------------------
++++++++++++++++++++++
 
 .. function:: getInputFilterFactory()
 
@@ -46,7 +49,7 @@ getInputFilterFactory
 
 
 setFormElementManager
----------------------
++++++++++++++++++++++
 
 .. function:: setFormElementManager()
 
@@ -60,7 +63,7 @@ setFormElementManager
 
 
 getFormElementManager
----------------------
++++++++++++++++++++++
 
 .. function:: getFormElementManager()
 
@@ -72,7 +75,7 @@ getFormElementManager
 
 
 create
-------
+++++++
 
 .. function:: create()
 
@@ -92,7 +95,7 @@ create
 
 
 createElement
--------------
++++++++++++++
 
 .. function:: createElement()
 
@@ -106,7 +109,7 @@ createElement
 
 
 createFieldset
---------------
+++++++++++++++
 
 .. function:: createFieldset()
 
@@ -120,7 +123,7 @@ createFieldset
 
 
 createForm
-----------
+++++++++++
 
 .. function:: createForm()
 
@@ -134,7 +137,7 @@ createForm
 
 
 configureElement
-----------------
+++++++++++++++++
 
 .. function:: configureElement()
 
@@ -158,7 +161,7 @@ configureElement
 
 
 configureFieldset
------------------
++++++++++++++++++
 
 .. function:: configureFieldset()
 
@@ -186,7 +189,7 @@ configureFieldset
 
 
 configureForm
--------------
++++++++++++++
 
 .. function:: configureForm()
 
@@ -208,7 +211,7 @@ configureForm
 
 
 validateSpecification
----------------------
++++++++++++++++++++++
 
 .. function:: validateSpecification()
 
@@ -227,7 +230,7 @@ validateSpecification
 
 
 prepareAndInjectElements
-------------------------
+++++++++++++++++++++++++
 
 .. function:: prepareAndInjectElements()
 
@@ -243,7 +246,7 @@ prepareAndInjectElements
 
 
 prepareAndInjectFieldsets
--------------------------
++++++++++++++++++++++++++
 
 .. function:: prepareAndInjectFieldsets()
 
@@ -259,7 +262,7 @@ prepareAndInjectFieldsets
 
 
 prepareAndInjectObject
-----------------------
+++++++++++++++++++++++
 
 .. function:: prepareAndInjectObject()
 
@@ -280,7 +283,7 @@ prepareAndInjectObject
 
 
 prepareAndInjectHydrator
-------------------------
+++++++++++++++++++++++++
 
 .. function:: prepareAndInjectHydrator()
 
@@ -302,7 +305,7 @@ prepareAndInjectHydrator
 
 
 prepareAndInjectInputFilter
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: prepareAndInjectInputFilter()
 
@@ -327,7 +330,7 @@ prepareAndInjectInputFilter
 
 
 prepareAndInjectValidationGroup
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: prepareAndInjectValidationGroup()
 
@@ -347,7 +350,7 @@ prepareAndInjectValidationGroup
 
 
 getHydratorFromName
--------------------
++++++++++++++++++++
 
 .. function:: getHydratorFromName()
 

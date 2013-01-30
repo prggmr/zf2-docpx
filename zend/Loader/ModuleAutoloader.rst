@@ -1,14 +1,17 @@
-.. Loader/ModuleAutoloader.php generated using docpx on 01/30/13 03:32am
+.. Loader/ModuleAutoloader.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Loader\\ModuleAutoloader
 ==============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -39,7 +42,7 @@ setOptions
 
 
 getModuleClassMap
------------------
++++++++++++++++++
 
 .. function:: getModuleClassMap()
 
@@ -51,7 +54,7 @@ getModuleClassMap
 
 
 setModuleClassMap
------------------
++++++++++++++++++
 
 .. function:: setModuleClassMap()
 
@@ -65,7 +68,7 @@ setModuleClassMap
 
 
 autoload
---------
+++++++++
 
 .. function:: autoload()
 
@@ -80,7 +83,7 @@ autoload
 
 
 loadModuleFromDir
------------------
++++++++++++++++++
 
 .. function:: loadModuleFromDir()
 
@@ -96,7 +99,7 @@ loadModuleFromDir
 
 
 loadModuleFromPhar
-------------------
+++++++++++++++++++
 
 .. function:: loadModuleFromPhar()
 
@@ -112,7 +115,7 @@ loadModuleFromPhar
 
 
 register
---------
+++++++++
 
 .. function:: register()
 
@@ -124,7 +127,7 @@ register
 
 
 unregister
-----------
+++++++++++
 
 .. function:: unregister()
 
@@ -136,7 +139,7 @@ unregister
 
 
 registerPaths
--------------
++++++++++++++
 
 .. function:: registerPaths()
 
@@ -152,7 +155,7 @@ registerPaths
 
 
 registerPath
-------------
+++++++++++++
 
 .. function:: registerPath()
 
@@ -169,7 +172,7 @@ registerPath
 
 
 getPaths
---------
+++++++++
 
 .. function:: getPaths()
 
@@ -183,7 +186,7 @@ getPaths
 
 
 pharFileToModuleName
---------------------
+++++++++++++++++++++
 
 .. function:: pharFileToModuleName()
 
@@ -197,7 +200,7 @@ pharFileToModuleName
 
 
 normalizePath
--------------
++++++++++++++
 
 .. function:: normalizePath()
 

@@ -1,5 +1,8 @@
-.. XmlRpc/Generator/XmlWriter.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Generator/XmlWriter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Generator\\XmlWriter
 ==================================
@@ -7,10 +10,10 @@ Zend\\XmlRpc\\Generator\\XmlWriter
 XML generator adapter based on XMLWriter
 
 Methods
-+++++++
+-------
 
 _init
------
++++++
 
 .. function:: _init()
 
@@ -22,7 +25,7 @@ _init
 
 
 _openElement
-------------
+++++++++++++
 
 .. function:: _openElement()
 
@@ -36,7 +39,7 @@ _openElement
 
 
 _writeTextData
---------------
+++++++++++++++
 
 .. function:: _writeTextData()
 
@@ -50,7 +53,7 @@ _writeTextData
 
 
 _closeElement
--------------
++++++++++++++
 
 .. function:: _closeElement()
 
@@ -64,7 +67,7 @@ _closeElement
 
 
 saveXml
--------
++++++++
 
 .. function:: saveXml()
 

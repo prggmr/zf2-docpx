@@ -1,5 +1,8 @@
-.. EventManager/Filter/FilterIterator.php generated using docpx on 01/30/13 03:32am
+.. EventManager/Filter/FilterIterator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\EventManager\\Filter\\FilterIterator
 ==========================================
@@ -10,10 +13,10 @@ filter chain.
 Allows removal
 
 Methods
-+++++++
+-------
 
 contains
---------
+++++++++
 
 .. function:: contains()
 
@@ -27,7 +30,7 @@ contains
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -44,7 +47,7 @@ remove
 
 
 next
-----
+++++
 
 .. function:: next()
 

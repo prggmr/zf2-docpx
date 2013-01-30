@@ -1,14 +1,17 @@
-.. Filter/StripTags.php generated using docpx on 01/30/13 03:32am
+.. Filter/StripTags.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Filter\\StripTags
 =======================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 getTagsAllowed
---------------
+++++++++++++++
 
 .. function:: getTagsAllowed()
 
@@ -36,7 +39,7 @@ getTagsAllowed
 
 
 setTagsAllowed
---------------
+++++++++++++++
 
 .. function:: setTagsAllowed()
 
@@ -50,7 +53,7 @@ setTagsAllowed
 
 
 getAttributesAllowed
---------------------
+++++++++++++++++++++
 
 .. function:: getAttributesAllowed()
 
@@ -62,7 +65,7 @@ getAttributesAllowed
 
 
 setAttributesAllowed
---------------------
+++++++++++++++++++++
 
 .. function:: setAttributesAllowed()
 
@@ -76,7 +79,7 @@ setAttributesAllowed
 
 
 filter
-------
+++++++
 
 .. function:: filter()
 
@@ -91,7 +94,7 @@ filter
 
 
 _filterTag
-----------
+++++++++++
 
 .. function:: _filterTag()
 
@@ -107,10 +110,10 @@ _filterTag
 
 
 Constants
-+++++++++
+---------
 
 UNIQUE_ID_PREFIX
-================
+++++++++++++++++
 
 Unique ID prefix used for allowing comments
 

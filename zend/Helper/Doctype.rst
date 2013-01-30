@@ -1,5 +1,8 @@
-.. View/Helper/Doctype.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/Doctype.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Helper\\Doctype
 ===========================
@@ -7,10 +10,10 @@ Zend\\View\\Helper\\Doctype
 Helper for setting and retrieving the doctype
 
 Methods
-+++++++
+-------
 
 registerDefaultDoctypes
------------------------
++++++++++++++++++++++++
 
 .. function:: registerDefaultDoctypes()
 
@@ -22,7 +25,7 @@ registerDefaultDoctypes
 
 
 unsetDoctypeRegistry
---------------------
+++++++++++++++++++++
 
 .. function:: unsetDoctypeRegistry()
 
@@ -37,7 +40,7 @@ unsetDoctypeRegistry
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -49,7 +52,7 @@ __construct
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -65,7 +68,7 @@ __invoke
 
 
 setDoctype
-----------
+++++++++++
 
 .. function:: setDoctype()
 
@@ -79,7 +82,7 @@ setDoctype
 
 
 getDoctype
-----------
+++++++++++
 
 .. function:: getDoctype()
 
@@ -91,7 +94,7 @@ getDoctype
 
 
 getDoctypes
------------
++++++++++++
 
 .. function:: getDoctypes()
 
@@ -103,7 +106,7 @@ getDoctypes
 
 
 isXhtml
--------
++++++++
 
 .. function:: isXhtml()
 
@@ -115,7 +118,7 @@ isXhtml
 
 
 isHtml5
--------
++++++++
 
 .. function:: isHtml5()
 
@@ -127,7 +130,7 @@ isHtml5
 
 
 isRdfa
-------
+++++++
 
 .. function:: isRdfa()
 
@@ -139,7 +142,7 @@ isRdfa
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -153,47 +156,47 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 XHTML11
-=======
++++++++
 
 XHTML1_STRICT
-=============
++++++++++++++
 
 XHTML1_TRANSITIONAL
-===================
++++++++++++++++++++
 
 XHTML1_FRAMESET
-===============
++++++++++++++++
 
 XHTML1_RDFA
-===========
++++++++++++
 
 XHTML1_RDFA11
-=============
++++++++++++++
 
 XHTML_BASIC1
-============
+++++++++++++
 
 XHTML5
-======
+++++++
 
 HTML4_STRICT
-============
+++++++++++++
 
 HTML4_LOOSE
-===========
++++++++++++
 
 HTML4_FRAMESET
-==============
+++++++++++++++
 
 HTML5
-=====
++++++
 
 CUSTOM_XHTML
-============
+++++++++++++
 
 CUSTOM
-======
+++++++
 

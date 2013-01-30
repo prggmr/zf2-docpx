@@ -1,5 +1,8 @@
-.. Http/PhpEnvironment/RemoteAddress.php generated using docpx on 01/30/13 03:32am
+.. Http/PhpEnvironment/RemoteAddress.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\PhpEnvironment\\RemoteAddress
 =========================================
@@ -7,10 +10,10 @@ Zend\\Http\\PhpEnvironment\\RemoteAddress
 Functionality for determining client IP address.
 
 Methods
-+++++++
+-------
 
 setUseProxy
------------
++++++++++++
 
 .. function:: setUseProxy()
 
@@ -27,7 +30,7 @@ setUseProxy
 
 
 getUseProxy
------------
++++++++++++
 
 .. function:: getUseProxy()
 
@@ -39,7 +42,7 @@ getUseProxy
 
 
 setTrustedProxies
------------------
++++++++++++++++++
 
 .. function:: setTrustedProxies()
 
@@ -53,7 +56,7 @@ setTrustedProxies
 
 
 setProxyHeader
---------------
+++++++++++++++
 
 .. function:: setProxyHeader()
 
@@ -67,7 +70,7 @@ setProxyHeader
 
 
 getIpAddress
-------------
+++++++++++++
 
 .. function:: getIpAddress()
 
@@ -79,7 +82,7 @@ getIpAddress
 
 
 getIpAddressFromProxy
----------------------
++++++++++++++++++++++
 
 .. function:: getIpAddressFromProxy()
 
@@ -91,7 +94,7 @@ getIpAddressFromProxy
 
 
 normalizeProxyHeader
---------------------
+++++++++++++++++++++
 
 .. function:: normalizeProxyHeader()
 

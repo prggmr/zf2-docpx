@@ -1,5 +1,8 @@
-.. Di/ServiceLocator/DependencyInjectorProxy.php generated using docpx on 01/30/13 03:32am
+.. Di/ServiceLocator/DependencyInjectorProxy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\ServiceLocator\\DependencyInjectorProxy
 =================================================
@@ -8,10 +11,10 @@ Proxy used to analyze how instances are created by a given Di. Overrides Zend\Di
 represent the process used to instantiate a particular instance
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -33,7 +36,7 @@ get
 
 
 newInstance
------------
++++++++++++
 
 .. function:: newInstance()
 
@@ -45,7 +48,7 @@ newInstance
 
 
 createInstanceViaConstructor
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: createInstanceViaConstructor()
 
@@ -57,7 +60,7 @@ createInstanceViaConstructor
 
 
 createInstanceViaCallback
--------------------------
++++++++++++++++++++++++++
 
 .. function:: createInstanceViaCallback()
 
@@ -70,7 +73,7 @@ createInstanceViaCallback
 
 
 handleInjectionMethodForObject
-------------------------------
+++++++++++++++++++++++++++++++
 
 .. function:: handleInjectionMethodForObject()
 
@@ -80,7 +83,7 @@ handleInjectionMethodForObject
 
 
 resolveAndCallInjectionMethodForInstance
-----------------------------------------
+++++++++++++++++++++++++++++++++++++++++
 
 .. function:: resolveAndCallInjectionMethodForInstance()
 
@@ -90,7 +93,7 @@ resolveAndCallInjectionMethodForInstance
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 

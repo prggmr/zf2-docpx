@@ -1,5 +1,8 @@
-.. Http/Response.php generated using docpx on 01/30/13 03:32am
+.. Http/Response.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\Response
 ====================
@@ -7,10 +10,10 @@ Zend\\Http\\Response
 HTTP Response
 
 Methods
-+++++++
+-------
 
 fromString
-----------
+++++++++++
 
 .. function:: fromString()
 
@@ -26,7 +29,7 @@ fromString
 
 
 getCookie
----------
++++++++++
 
 .. function:: getCookie()
 
@@ -36,7 +39,7 @@ getCookie
 
 
 setStatusCode
--------------
++++++++++++++
 
 .. function:: setStatusCode()
 
@@ -52,7 +55,7 @@ setStatusCode
 
 
 getStatusCode
--------------
++++++++++++++
 
 .. function:: getStatusCode()
 
@@ -64,7 +67,7 @@ getStatusCode
 
 
 setReasonPhrase
----------------
++++++++++++++++
 
 .. function:: setReasonPhrase()
 
@@ -76,7 +79,7 @@ setReasonPhrase
 
 
 getReasonPhrase
----------------
++++++++++++++++
 
 .. function:: getReasonPhrase()
 
@@ -88,7 +91,7 @@ getReasonPhrase
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -100,7 +103,7 @@ getBody
 
 
 isClientError
--------------
++++++++++++++
 
 .. function:: isClientError()
 
@@ -112,7 +115,7 @@ isClientError
 
 
 isForbidden
------------
++++++++++++
 
 .. function:: isForbidden()
 
@@ -124,7 +127,7 @@ isForbidden
 
 
 isInformational
----------------
++++++++++++++++
 
 .. function:: isInformational()
 
@@ -136,7 +139,7 @@ isInformational
 
 
 isNotFound
-----------
+++++++++++
 
 .. function:: isNotFound()
 
@@ -148,7 +151,7 @@ isNotFound
 
 
 isOk
-----
+++++
 
 .. function:: isOk()
 
@@ -160,7 +163,7 @@ isOk
 
 
 isServerError
--------------
++++++++++++++
 
 .. function:: isServerError()
 
@@ -172,7 +175,7 @@ isServerError
 
 
 isRedirect
-----------
+++++++++++
 
 .. function:: isRedirect()
 
@@ -184,7 +187,7 @@ isRedirect
 
 
 isSuccess
----------
++++++++++
 
 .. function:: isSuccess()
 
@@ -196,7 +199,7 @@ isSuccess
 
 
 renderStatusLine
-----------------
+++++++++++++++++
 
 .. function:: renderStatusLine()
 
@@ -208,7 +211,7 @@ renderStatusLine
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -220,7 +223,7 @@ toString
 
 
 decodeChunkedBody
------------------
++++++++++++++++++
 
 .. function:: decodeChunkedBody()
 
@@ -236,7 +239,7 @@ decodeChunkedBody
 
 
 decodeGzip
-----------
+++++++++++
 
 .. function:: decodeGzip()
 
@@ -254,7 +257,7 @@ decodeGzip
 
 
 decodeDeflate
--------------
++++++++++++++
 
 .. function:: decodeDeflate()
 
@@ -274,179 +277,179 @@ decodeDeflate
 
 
 Constants
-+++++++++
+---------
 
 STATUS_CODE_CUSTOM
-==================
+++++++++++++++++++
 
 STATUS_CODE_100
-===============
++++++++++++++++
 
 STATUS_CODE_101
-===============
++++++++++++++++
 
 STATUS_CODE_102
-===============
++++++++++++++++
 
 STATUS_CODE_200
-===============
++++++++++++++++
 
 STATUS_CODE_201
-===============
++++++++++++++++
 
 STATUS_CODE_202
-===============
++++++++++++++++
 
 STATUS_CODE_203
-===============
++++++++++++++++
 
 STATUS_CODE_204
-===============
++++++++++++++++
 
 STATUS_CODE_205
-===============
++++++++++++++++
 
 STATUS_CODE_206
-===============
++++++++++++++++
 
 STATUS_CODE_207
-===============
++++++++++++++++
 
 STATUS_CODE_208
-===============
++++++++++++++++
 
 STATUS_CODE_300
-===============
++++++++++++++++
 
 STATUS_CODE_301
-===============
++++++++++++++++
 
 STATUS_CODE_302
-===============
++++++++++++++++
 
 STATUS_CODE_303
-===============
++++++++++++++++
 
 STATUS_CODE_304
-===============
++++++++++++++++
 
 STATUS_CODE_305
-===============
++++++++++++++++
 
 STATUS_CODE_306
-===============
++++++++++++++++
 
 STATUS_CODE_307
-===============
++++++++++++++++
 
 STATUS_CODE_400
-===============
++++++++++++++++
 
 STATUS_CODE_401
-===============
++++++++++++++++
 
 STATUS_CODE_402
-===============
++++++++++++++++
 
 STATUS_CODE_403
-===============
++++++++++++++++
 
 STATUS_CODE_404
-===============
++++++++++++++++
 
 STATUS_CODE_405
-===============
++++++++++++++++
 
 STATUS_CODE_406
-===============
++++++++++++++++
 
 STATUS_CODE_407
-===============
++++++++++++++++
 
 STATUS_CODE_408
-===============
++++++++++++++++
 
 STATUS_CODE_409
-===============
++++++++++++++++
 
 STATUS_CODE_410
-===============
++++++++++++++++
 
 STATUS_CODE_411
-===============
++++++++++++++++
 
 STATUS_CODE_412
-===============
++++++++++++++++
 
 STATUS_CODE_413
-===============
++++++++++++++++
 
 STATUS_CODE_414
-===============
++++++++++++++++
 
 STATUS_CODE_415
-===============
++++++++++++++++
 
 STATUS_CODE_416
-===============
++++++++++++++++
 
 STATUS_CODE_417
-===============
++++++++++++++++
 
 STATUS_CODE_418
-===============
++++++++++++++++
 
 STATUS_CODE_422
-===============
++++++++++++++++
 
 STATUS_CODE_423
-===============
++++++++++++++++
 
 STATUS_CODE_424
-===============
++++++++++++++++
 
 STATUS_CODE_425
-===============
++++++++++++++++
 
 STATUS_CODE_426
-===============
++++++++++++++++
 
 STATUS_CODE_428
-===============
++++++++++++++++
 
 STATUS_CODE_429
-===============
++++++++++++++++
 
 STATUS_CODE_431
-===============
++++++++++++++++
 
 STATUS_CODE_500
-===============
++++++++++++++++
 
 STATUS_CODE_501
-===============
++++++++++++++++
 
 STATUS_CODE_502
-===============
++++++++++++++++
 
 STATUS_CODE_503
-===============
++++++++++++++++
 
 STATUS_CODE_504
-===============
++++++++++++++++
 
 STATUS_CODE_505
-===============
++++++++++++++++
 
 STATUS_CODE_506
-===============
++++++++++++++++
 
 STATUS_CODE_507
-===============
++++++++++++++++
 
 STATUS_CODE_508
-===============
++++++++++++++++
 
 STATUS_CODE_511
-===============
++++++++++++++++
 

@@ -1,5 +1,8 @@
-.. Memory/Container/Locked.php generated using docpx on 01/30/13 03:32am
+.. Memory/Container/Locked.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Memory\\Container\\Locked
 ===============================
@@ -9,10 +12,10 @@ Memory value container
 Locked (always stored in memory).
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 lock
-----
+++++
 
 .. function:: lock()
 
@@ -34,7 +37,7 @@ lock
 
 
 unlock
-------
+++++++
 
 .. function:: unlock()
 
@@ -44,7 +47,7 @@ unlock
 
 
 isLocked
---------
+++++++++
 
 .. function:: isLocked()
 
@@ -56,7 +59,7 @@ isLocked
 
 
 getRef
-------
+++++++
 
 .. function:: getRef()
 
@@ -71,7 +74,7 @@ getRef
 
 
 touch
------
++++++
 
 .. function:: touch()
 
@@ -83,7 +86,7 @@ touch
 
 
 destroy
--------
++++++++
 
 .. function:: destroy()
 

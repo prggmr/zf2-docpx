@@ -1,14 +1,17 @@
-.. Db/TableGateway/Feature/MasterSlaveFeature.php generated using docpx on 01/30/13 03:32am
+.. Db/TableGateway/Feature/MasterSlaveFeature.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\TableGateway\\Feature\\MasterSlaveFeature
 ===================================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,14 +23,14 @@ __construct
 
 
 getSlaveAdapter
----------------
++++++++++++++++
 
 .. function:: getSlaveAdapter()
 
 
 
 getSlaveSql
------------
++++++++++++
 
 .. function:: getSlaveSql()
 
@@ -37,7 +40,7 @@ getSlaveSql
 
 
 postInitialize
---------------
+++++++++++++++
 
 .. function:: postInitialize()
 
@@ -47,7 +50,7 @@ postInitialize
 
 
 preSelect
----------
++++++++++
 
 .. function:: preSelect()
 
@@ -58,7 +61,7 @@ preSelect
 
 
 postSelect
-----------
+++++++++++
 
 .. function:: postSelect()
 

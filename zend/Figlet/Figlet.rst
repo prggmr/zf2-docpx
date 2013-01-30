@@ -1,5 +1,8 @@
-.. Text/Figlet/Figlet.php generated using docpx on 01/30/13 03:32am
+.. Text/Figlet/Figlet.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Text\\Figlet\\Figlet
 ==========================
@@ -7,10 +10,10 @@ Zend\\Text\\Figlet\\Figlet
 Zend\Text\Figlet is a PHP implementation of FIGlet
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -39,7 +42,7 @@ setOptions
 
 
 setFont
--------
++++++++
 
 .. function:: setFont()
 
@@ -53,7 +56,7 @@ setFont
 
 
 setHandleParagraphs
--------------------
++++++++++++++++++++
 
 .. function:: setHandleParagraphs()
 
@@ -67,7 +70,7 @@ setHandleParagraphs
 
 
 setJustification
-----------------
+++++++++++++++++
 
 .. function:: setJustification()
 
@@ -82,7 +85,7 @@ setJustification
 
 
 setOutputWidth
---------------
+++++++++++++++
 
 .. function:: setOutputWidth()
 
@@ -97,7 +100,7 @@ setOutputWidth
 
 
 setRightToLeft
---------------
+++++++++++++++
 
 .. function:: setRightToLeft()
 
@@ -113,7 +116,7 @@ setRightToLeft
 
 
 setSmushMode
-------------
+++++++++++++
 
 .. function:: setSmushMode()
 
@@ -129,7 +132,7 @@ setSmushMode
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -147,7 +150,7 @@ render
 
 
 _putString
-----------
+++++++++++
 
 .. function:: _putString()
 
@@ -165,7 +168,7 @@ _putString
 
 
 _appendLine
------------
++++++++++++
 
 .. function:: _appendLine()
 
@@ -177,7 +180,7 @@ _appendLine
 
 
 _splitLine
-----------
+++++++++++
 
 .. function:: _splitLine()
 
@@ -191,7 +194,7 @@ _splitLine
 
 
 _clearLine
-----------
+++++++++++
 
 .. function:: _clearLine()
 
@@ -203,7 +206,7 @@ _clearLine
 
 
 _addChar
---------
+++++++++
 
 .. function:: _addChar()
 
@@ -218,7 +221,7 @@ _addChar
 
 
 _getLetter
-----------
+++++++++++
 
 .. function:: _getLetter()
 
@@ -232,7 +235,7 @@ _getLetter
 
 
 _smushAmount
-------------
+++++++++++++
 
 .. function:: _smushAmount()
 
@@ -245,7 +248,7 @@ _smushAmount
 
 
 _smushem
---------
+++++++++
 
 .. function:: _smushem()
 
@@ -272,7 +275,7 @@ _smushem
 
 
 _loadFont
----------
++++++++++
 
 .. function:: _loadFont()
 
@@ -291,7 +294,7 @@ _loadFont
 
 
 _setUsedSmush
--------------
++++++++++++++
 
 .. function:: _setUsedSmush()
 
@@ -304,7 +307,7 @@ _setUsedSmush
 
 
 _readMagic
-----------
+++++++++++
 
 .. function:: _readMagic()
 
@@ -318,7 +321,7 @@ _readMagic
 
 
 _skipToEol
-----------
+++++++++++
 
 .. function:: _skipToEol()
 
@@ -332,7 +335,7 @@ _skipToEol
 
 
 _loadChar
----------
++++++++++
 
 .. function:: _loadChar()
 
@@ -346,7 +349,7 @@ _loadChar
 
 
 _uniOrd
--------
++++++++
 
 .. function:: _uniOrd()
 
@@ -362,66 +365,66 @@ _uniOrd
 
 
 Constants
-+++++++++
+---------
 
 SM_EQUAL
-========
+++++++++
 
 Smush2 layout modes
 
 SM_LOWLINE
-==========
+++++++++++
 
 SM_HIERARCHY
-============
+++++++++++++
 
 SM_PAIR
-=======
++++++++
 
 SM_BIGX
-=======
++++++++
 
 SM_HARDBLANK
-============
+++++++++++++
 
 SM_KERN
-=======
++++++++
 
 SM_SMUSH
-========
+++++++++
 
 SMO_NO
-======
+++++++
 
 Smush mode override modes
 
 SMO_YES
-=======
++++++++
 
 SMO_FORCE
-=========
++++++++++
 
 JUSTIFICATION_LEFT
-==================
+++++++++++++++++++
 
 Justifications
 
 JUSTIFICATION_CENTER
-====================
+++++++++++++++++++++
 
 JUSTIFICATION_RIGHT
-===================
++++++++++++++++++++
 
 DIRECTION_LEFT_TO_RIGHT
-=======================
++++++++++++++++++++++++
 
 Write directions
 
 DIRECTION_RIGHT_TO_LEFT
-=======================
++++++++++++++++++++++++
 
 FONTFILE_MAGIC_NUMBER
-=====================
++++++++++++++++++++++
 
 Magic fontfile number
 

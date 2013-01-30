@@ -1,14 +1,17 @@
-.. View/Strategy/FeedStrategy.php generated using docpx on 01/30/13 03:32am
+.. View/Strategy/FeedStrategy.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\View\\Strategy\\FeedStrategy
 ==================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -35,7 +38,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -49,7 +52,7 @@ detach
 
 
 selectRenderer
---------------
+++++++++++++++
 
 .. function:: selectRenderer()
 
@@ -64,7 +67,7 @@ selectRenderer
 
 
 injectResponse
---------------
+++++++++++++++
 
 .. function:: injectResponse()
 

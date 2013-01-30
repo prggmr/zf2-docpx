@@ -1,5 +1,8 @@
-.. Di/Definition/Builder/PhpClass.php generated using docpx on 01/30/13 03:32am
+.. Di/Definition/Builder/PhpClass.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\Definition\\Builder\\PhpClass
 =======================================
@@ -7,10 +10,10 @@ Zend\\Di\\Definition\\Builder\\PhpClass
 Object containing definitions for a single class
 
 Methods
-+++++++
+-------
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -24,7 +27,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -36,7 +39,7 @@ getName
 
 
 setInstantiator
----------------
++++++++++++++++
 
 .. function:: setInstantiator()
 
@@ -48,7 +51,7 @@ setInstantiator
 
 
 getInstantiator
----------------
++++++++++++++++
 
 .. function:: getInstantiator()
 
@@ -58,7 +61,7 @@ getInstantiator
 
 
 addSuperType
-------------
+++++++++++++
 
 .. function:: addSuperType()
 
@@ -70,7 +73,7 @@ addSuperType
 
 
 getSuperTypes
--------------
++++++++++++++
 
 .. function:: getSuperTypes()
 
@@ -82,7 +85,7 @@ getSuperTypes
 
 
 addInjectionMethod
-------------------
+++++++++++++++++++
 
 .. function:: addInjectionMethod()
 
@@ -96,7 +99,7 @@ addInjectionMethod
 
 
 createInjectionMethod
----------------------
++++++++++++++++++++++
 
 .. function:: createInjectionMethod()
 
@@ -116,7 +119,7 @@ createInjectionMethod
 
 
 setMethodBuilder
-----------------
+++++++++++++++++
 
 .. function:: setMethodBuilder()
 
@@ -130,7 +133,7 @@ setMethodBuilder
 
 
 getMethodBuilder
-----------------
+++++++++++++++++
 
 .. function:: getMethodBuilder()
 
@@ -144,7 +147,7 @@ getMethodBuilder
 
 
 getInjectionMethods
--------------------
++++++++++++++++++++
 
 .. function:: getInjectionMethods()
 

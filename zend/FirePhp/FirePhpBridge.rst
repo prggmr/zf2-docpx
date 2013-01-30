@@ -1,14 +1,17 @@
-.. Log/Writer/FirePhp/FirePhpBridge.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/FirePhp/FirePhpBridge.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\FirePhp\\FirePhpBridge
 =========================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 getFirePhp
-----------
+++++++++++
 
 .. function:: getFirePhp()
 
@@ -32,7 +35,7 @@ getFirePhp
 
 
 getEnabled
-----------
+++++++++++
 
 .. function:: getEnabled()
 
@@ -44,7 +47,7 @@ getEnabled
 
 
 error
------
++++++
 
 .. function:: error()
 
@@ -58,7 +61,7 @@ error
 
 
 warn
-----
+++++
 
 .. function:: warn()
 
@@ -72,7 +75,7 @@ warn
 
 
 info
-----
+++++
 
 .. function:: info()
 
@@ -86,7 +89,7 @@ info
 
 
 trace
------
++++++
 
 .. function:: trace()
 
@@ -100,7 +103,7 @@ trace
 
 
 log
----
++++
 
 .. function:: log()
 

@@ -1,5 +1,8 @@
-.. Stdlib/CallbackHandler.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/CallbackHandler.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\CallbackHandler
 =============================
@@ -11,10 +14,10 @@ primarily to allow for lazy-loading and ensuring availability of default
 arguments (currying).
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 registerCallback
-----------------
+++++++++++++++++
 
 .. function:: registerCallback()
 
@@ -50,7 +53,7 @@ registerCallback
 
 
 getCallback
------------
++++++++++++
 
 .. function:: getCallback()
 
@@ -62,7 +65,7 @@ getCallback
 
 
 call
-----
+++++
 
 .. function:: call()
 
@@ -76,7 +79,7 @@ call
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -88,7 +91,7 @@ __invoke
 
 
 getMetadata
------------
++++++++++++
 
 .. function:: getMetadata()
 
@@ -100,7 +103,7 @@ getMetadata
 
 
 getMetadatum
-------------
+++++++++++++
 
 .. function:: getMetadatum()
 
@@ -114,7 +117,7 @@ getMetadatum
 
 
 validateStringCallbackFor54
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: validateStringCallbackFor54()
 

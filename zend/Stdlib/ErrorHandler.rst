@@ -1,5 +1,8 @@
-.. Stdlib/ErrorHandler.php generated using docpx on 01/30/13 03:32am
+.. Stdlib/ErrorHandler.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Stdlib\\ErrorHandler
 ==========================
@@ -8,10 +11,10 @@ ErrorHandler that can be used to catch internal PHP errors
 and convert to a ErrorException instance.
 
 Methods
-+++++++
+-------
 
 started
--------
++++++++
 
 .. function:: started()
 
@@ -23,7 +26,7 @@ started
 
 
 getNestedLevel
---------------
+++++++++++++++
 
 .. function:: getNestedLevel()
 
@@ -35,7 +38,7 @@ getNestedLevel
 
 
 start
------
++++++
 
 .. function:: start()
 
@@ -47,7 +50,7 @@ start
 
 
 stop
-----
+++++
 
 .. function:: stop()
 
@@ -63,7 +66,7 @@ stop
 
 
 clean
------
++++++
 
 .. function:: clean()
 
@@ -75,7 +78,7 @@ clean
 
 
 addError
---------
+++++++++
 
 .. function:: addError()
 

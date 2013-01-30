@@ -1,14 +1,17 @@
-.. Cache/Pattern/CaptureCache.php generated using docpx on 01/30/13 03:32am
+.. Cache/Pattern/CaptureCache.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Cache\\Pattern\\CaptureCache
 ==================================
 
 Methods
-+++++++
+-------
 
 start
------
++++++
 
 .. function:: start()
 
@@ -22,7 +25,7 @@ start
 
 
 set
----
++++
 
 .. function:: set()
 
@@ -37,7 +40,7 @@ set
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -54,7 +57,7 @@ get
 
 
 has
----
++++
 
 .. function:: has()
 
@@ -70,7 +73,7 @@ has
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -87,7 +90,7 @@ remove
 
 
 clearByGlob
------------
++++++++++++
 
 .. function:: clearByGlob()
 
@@ -101,7 +104,7 @@ clearByGlob
 
 
 detectPageId
-------------
+++++++++++++
 
 .. function:: detectPageId()
 
@@ -114,7 +117,7 @@ detectPageId
 
 
 pageId2Filename
----------------
++++++++++++++++
 
 .. function:: pageId2Filename()
 
@@ -128,7 +131,7 @@ pageId2Filename
 
 
 pageId2Path
------------
++++++++++++
 
 .. function:: pageId2Path()
 
@@ -142,7 +145,7 @@ pageId2Path
 
 
 putFileContent
---------------
+++++++++++++++
 
 .. function:: putFileContent()
 
@@ -159,7 +162,7 @@ putFileContent
 
 
 createDirectoryStructure
-------------------------
+++++++++++++++++++++++++
 
 .. function:: createDirectoryStructure()
 

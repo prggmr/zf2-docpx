@@ -1,14 +1,17 @@
-.. Mail/Storage/Folder/Mbox.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Folder/Mbox.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Folder\\Mbox
 =================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 _buildFolderTree
-----------------
+++++++++++++++++
 
 .. function:: _buildFolderTree()
 
@@ -47,7 +50,7 @@ _buildFolderTree
 
 
 getFolders
-----------
+++++++++++
 
 .. function:: getFolders()
 
@@ -63,7 +66,7 @@ getFolders
 
 
 selectFolder
-------------
+++++++++++++
 
 .. function:: selectFolder()
 
@@ -79,7 +82,7 @@ selectFolder
 
 
 getCurrentFolder
-----------------
+++++++++++++++++
 
 .. function:: getCurrentFolder()
 
@@ -93,7 +96,7 @@ getCurrentFolder
 
 
 __sleep
--------
++++++++
 
 .. function:: __sleep()
 
@@ -107,7 +110,7 @@ __sleep
 
 
 __wakeup
---------
+++++++++
 
 .. function:: __wakeup()
 

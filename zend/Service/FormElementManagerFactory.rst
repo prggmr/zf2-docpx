@@ -1,14 +1,17 @@
-.. Mvc/Service/FormElementManagerFactory.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Service/FormElementManagerFactory.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Service\\FormElementManagerFactory
 =============================================
 
 Methods
-+++++++
+-------
 
 createService
--------------
++++++++++++++
 
 .. function:: createService()
 
@@ -24,8 +27,8 @@ createService
 
 
 Constants
-+++++++++
+---------
 
 PLUGIN_MANAGER_CLASS
-====================
+++++++++++++++++++++
 

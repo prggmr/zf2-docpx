@@ -1,5 +1,8 @@
-.. Code/Annotation/Parser/GenericAnnotationParser.php generated using docpx on 01/30/13 03:32am
+.. Code/Annotation/Parser/GenericAnnotationParser.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Annotation\\Parser\\GenericAnnotationParser
 =======================================================
@@ -11,10 +14,10 @@ will be passed annotation content to their initialize() method, which
 they are then responsible for parsing.
 
 Methods
-+++++++
+-------
 
 onCreateAnnotation
-------------------
+++++++++++++++++++
 
 .. function:: onCreateAnnotation()
 
@@ -34,7 +37,7 @@ onCreateAnnotation
 
 
 registerAnnotation
-------------------
+++++++++++++++++++
 
 .. function:: registerAnnotation()
 
@@ -51,7 +54,7 @@ registerAnnotation
 
 
 registerAnnotations
--------------------
++++++++++++++++++++
 
 .. function:: registerAnnotations()
 
@@ -67,7 +70,7 @@ registerAnnotations
 
 
 hasAnnotation
--------------
++++++++++++++
 
 .. function:: hasAnnotation()
 
@@ -81,7 +84,7 @@ hasAnnotation
 
 
 setAlias
---------
+++++++++
 
 .. function:: setAlias()
 
@@ -98,7 +101,7 @@ setAlias
 
 
 normalizeAlias
---------------
+++++++++++++++
 
 .. function:: normalizeAlias()
 
@@ -112,7 +115,7 @@ normalizeAlias
 
 
 hasAlias
---------
+++++++++
 
 .. function:: hasAlias()
 
@@ -126,7 +129,7 @@ hasAlias
 
 
 resolveAlias
-------------
+++++++++++++
 
 .. function:: resolveAlias()
 

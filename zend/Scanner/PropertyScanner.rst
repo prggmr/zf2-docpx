@@ -1,14 +1,17 @@
-.. Code/Scanner/PropertyScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/PropertyScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\PropertyScanner
 ====================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -31,7 +34,7 @@ setClass
 
 
 setScannerClass
----------------
++++++++++++++++
 
 .. function:: setScannerClass()
 
@@ -41,7 +44,7 @@ setScannerClass
 
 
 getClassScanner
----------------
++++++++++++++++
 
 .. function:: getClassScanner()
 
@@ -51,7 +54,7 @@ getClassScanner
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -61,7 +64,7 @@ getName
 
 
 isPublic
---------
+++++++++
 
 .. function:: isPublic()
 
@@ -71,7 +74,7 @@ isPublic
 
 
 isPrivate
----------
++++++++++
 
 .. function:: isPrivate()
 
@@ -81,7 +84,7 @@ isPrivate
 
 
 isProtected
------------
++++++++++++
 
 .. function:: isProtected()
 
@@ -91,7 +94,7 @@ isProtected
 
 
 isStatic
---------
+++++++++
 
 .. function:: isStatic()
 
@@ -101,7 +104,7 @@ isStatic
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -111,7 +114,7 @@ getValue
 
 
 getDocComment
--------------
++++++++++++++
 
 .. function:: getDocComment()
 
@@ -121,7 +124,7 @@ getDocComment
 
 
 getAnnotations
---------------
+++++++++++++++
 
 .. function:: getAnnotations()
 
@@ -133,7 +136,7 @@ getAnnotations
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -143,7 +146,7 @@ __toString
 
 
 scan
-----
+++++
 
 .. function:: scan()
 

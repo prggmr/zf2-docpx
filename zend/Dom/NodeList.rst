@@ -1,5 +1,8 @@
-.. Dom/NodeList.php generated using docpx on 01/30/13 03:32am
+.. Dom/NodeList.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Dom\\NodeList
 ===================
@@ -7,10 +10,10 @@ Zend\\Dom\\NodeList
 Nodelist for DOM XPath query
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -27,7 +30,7 @@ __construct
 
 
 getCssQuery
------------
++++++++++++
 
 .. function:: getCssQuery()
 
@@ -39,7 +42,7 @@ getCssQuery
 
 
 getXpathQuery
--------------
++++++++++++++
 
 .. function:: getXpathQuery()
 
@@ -51,7 +54,7 @@ getXpathQuery
 
 
 getDocument
------------
++++++++++++
 
 .. function:: getDocument()
 
@@ -63,7 +66,7 @@ getDocument
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -75,7 +78,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -87,7 +90,7 @@ valid
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -99,7 +102,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -111,7 +114,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -123,7 +126,7 @@ next
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -135,7 +138,7 @@ count
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -147,7 +150,7 @@ offsetExists
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -159,7 +162,7 @@ offsetGet
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -173,7 +176,7 @@ offsetSet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 

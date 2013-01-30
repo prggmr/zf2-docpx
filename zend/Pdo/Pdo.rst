@@ -1,14 +1,17 @@
-.. Db/Adapter/Driver/Pdo/Pdo.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pdo/Pdo.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Pdo
 ===================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -22,7 +25,7 @@ __construct
 
 
 setProfiler
------------
++++++++++++
 
 .. function:: setProfiler()
 
@@ -34,7 +37,7 @@ setProfiler
 
 
 getProfiler
------------
++++++++++++
 
 .. function:: getProfiler()
 
@@ -44,7 +47,7 @@ getProfiler
 
 
 registerConnection
-------------------
+++++++++++++++++++
 
 .. function:: registerConnection()
 
@@ -58,7 +61,7 @@ registerConnection
 
 
 registerStatementPrototype
---------------------------
+++++++++++++++++++++++++++
 
 .. function:: registerStatementPrototype()
 
@@ -70,7 +73,7 @@ registerStatementPrototype
 
 
 registerResultPrototype
------------------------
++++++++++++++++++++++++
 
 .. function:: registerResultPrototype()
 
@@ -82,7 +85,7 @@ registerResultPrototype
 
 
 addFeature
-----------
+++++++++++
 
 .. function:: addFeature()
 
@@ -97,7 +100,7 @@ addFeature
 
 
 setupDefaultFeatures
---------------------
+++++++++++++++++++++
 
 .. function:: setupDefaultFeatures()
 
@@ -109,7 +112,7 @@ setupDefaultFeatures
 
 
 getFeature
-----------
+++++++++++
 
 .. function:: getFeature()
 
@@ -123,7 +126,7 @@ getFeature
 
 
 getDatabasePlatformName
------------------------
++++++++++++++++++++++++
 
 .. function:: getDatabasePlatformName()
 
@@ -137,7 +140,7 @@ getDatabasePlatformName
 
 
 checkEnvironment
-----------------
+++++++++++++++++
 
 .. function:: checkEnvironment()
 
@@ -147,7 +150,7 @@ checkEnvironment
 
 
 getConnection
--------------
++++++++++++++
 
 .. function:: getConnection()
 
@@ -157,7 +160,7 @@ getConnection
 
 
 createStatement
----------------
++++++++++++++++
 
 .. function:: createStatement()
 
@@ -169,7 +172,7 @@ createStatement
 
 
 createResult
-------------
+++++++++++++
 
 .. function:: createResult()
 
@@ -183,7 +186,7 @@ createResult
 
 
 getPrepareType
---------------
+++++++++++++++
 
 .. function:: getPrepareType()
 
@@ -193,7 +196,7 @@ getPrepareType
 
 
 formatParameterName
--------------------
++++++++++++++++++++
 
 .. function:: formatParameterName()
 
@@ -207,7 +210,7 @@ formatParameterName
 
 
 getLastGeneratedValue
----------------------
++++++++++++++++++++++
 
 .. function:: getLastGeneratedValue()
 
@@ -219,10 +222,10 @@ getLastGeneratedValue
 
 
 Constants
-+++++++++
+---------
 
 FEATURES_DEFAULT
-================
+++++++++++++++++
 
 @const
 

@@ -1,5 +1,8 @@
-.. EventManager/SharedEventManagerInterface.php generated using docpx on 01/30/13 03:32am
+.. EventManager/SharedEventManagerInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\EventManager\\getListeners
 ================================
@@ -15,6 +18,9 @@ Zend\\EventManager\\getListeners
     :rtype: false|PriorityQueue 
 
 
+
+Function
+********
 
 Zend\\EventManager\\attach
 ==========================
@@ -33,6 +39,9 @@ Zend\\EventManager\\attach
 
 
 
+Function
+********
+
 Zend\\EventManager\\detach
 ==========================
 
@@ -48,6 +57,9 @@ Zend\\EventManager\\detach
 
 
 
+Function
+********
+
 Zend\\EventManager\\getEvents
 =============================
 
@@ -61,6 +73,9 @@ Zend\\EventManager\\getEvents
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\EventManager\\clearListeners
 ==================================

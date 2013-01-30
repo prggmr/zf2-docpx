@@ -1,14 +1,17 @@
-.. Code/Reflection/DocBlock/Tag/LicenseTag.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/DocBlock/Tag/LicenseTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\LicenseTag
 =================================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -18,7 +21,7 @@ getName
 
 
 initialize
-----------
+++++++++++
 
 .. function:: initialize()
 
@@ -30,7 +33,7 @@ initialize
 
 
 getUrl
-------
+++++++
 
 .. function:: getUrl()
 
@@ -40,7 +43,7 @@ getUrl
 
 
 getLicenseName
---------------
+++++++++++++++
 
 .. function:: getLicenseName()
 
@@ -50,7 +53,7 @@ getLicenseName
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

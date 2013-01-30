@@ -1,5 +1,8 @@
-.. Db/Adapter/Driver/Pdo/Feature/SqliteRowCounter.php generated using docpx on 01/30/13 03:32am
+.. Db/Adapter/Driver/Pdo/Feature/SqliteRowCounter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Feature\\SqliteRowCounter
 =========================================================
@@ -7,10 +10,10 @@ Zend\\Db\\Adapter\\Driver\\Pdo\\Feature\\SqliteRowCounter
 SqliteRowCounter
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -20,7 +23,7 @@ getName
 
 
 getCountForStatement
---------------------
+++++++++++++++++++++
 
 .. function:: getCountForStatement()
 
@@ -32,7 +35,7 @@ getCountForStatement
 
 
 getCountForSql
---------------
+++++++++++++++
 
 .. function:: getCountForSql()
 
@@ -44,7 +47,7 @@ getCountForSql
 
 
 getRowCountClosure
-------------------
+++++++++++++++++++
 
 .. function:: getRowCountClosure()
 

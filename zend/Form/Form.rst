@@ -1,14 +1,17 @@
-.. Form/Form.php generated using docpx on 01/30/13 03:32am
+.. Form/Form.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\Form
 ================
 
 Methods
-+++++++
+-------
 
 add
----
++++
 
 .. function:: add()
 
@@ -29,7 +32,7 @@ add
 
 
 prepare
--------
++++++++
 
 .. function:: prepare()
 
@@ -45,7 +48,7 @@ prepare
 
 
 setData
--------
++++++++
 
 .. function:: setData()
 
@@ -63,7 +66,7 @@ setData
 
 
 bind
-----
+++++
 
 .. function:: bind()
 
@@ -82,7 +85,7 @@ bind
 
 
 setHydrator
------------
++++++++++++
 
 .. function:: setHydrator()
 
@@ -96,7 +99,7 @@ setHydrator
 
 
 bindValues
-----------
+++++++++++
 
 .. function:: bindValues()
 
@@ -110,7 +113,7 @@ bindValues
 
 
 prepareBindData
----------------
++++++++++++++++
 
 .. function:: prepareBindData()
 
@@ -125,7 +128,7 @@ prepareBindData
 
 
 setBindOnValidate
------------------
++++++++++++++++++
 
 .. function:: setBindOnValidate()
 
@@ -141,7 +144,7 @@ setBindOnValidate
 
 
 bindOnValidate
---------------
+++++++++++++++
 
 .. function:: bindOnValidate()
 
@@ -153,7 +156,7 @@ bindOnValidate
 
 
 setBaseFieldset
----------------
++++++++++++++++
 
 .. function:: setBaseFieldset()
 
@@ -169,7 +172,7 @@ setBaseFieldset
 
 
 getBaseFieldset
----------------
++++++++++++++++
 
 .. function:: getBaseFieldset()
 
@@ -181,7 +184,7 @@ getBaseFieldset
 
 
 hasValidated
-------------
+++++++++++++
 
 .. function:: hasValidated()
 
@@ -193,7 +196,7 @@ hasValidated
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -209,7 +212,7 @@ isValid
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -228,7 +231,7 @@ getData
 
 
 setValidationGroup
-------------------
+++++++++++++++++++
 
 .. function:: setValidationGroup()
 
@@ -243,7 +246,7 @@ setValidationGroup
 
 
 prepareValidationGroup
-----------------------
+++++++++++++++++++++++
 
 .. function:: prepareValidationGroup()
 
@@ -258,7 +261,7 @@ prepareValidationGroup
 
 
 setInputFilter
---------------
+++++++++++++++
 
 .. function:: setInputFilter()
 
@@ -272,7 +275,7 @@ setInputFilter
 
 
 getInputFilter
---------------
+++++++++++++++
 
 .. function:: getInputFilter()
 
@@ -284,7 +287,7 @@ getInputFilter
 
 
 setUseInputFilterDefaults
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setUseInputFilterDefaults()
 
@@ -298,7 +301,7 @@ setUseInputFilterDefaults
 
 
 useInputFilterDefaults
-----------------------
+++++++++++++++++++++++
 
 .. function:: useInputFilterDefaults()
 
@@ -310,7 +313,7 @@ useInputFilterDefaults
 
 
 setPreferFormInputFilter
-------------------------
+++++++++++++++++++++++++
 
 .. function:: setPreferFormInputFilter()
 
@@ -324,7 +327,7 @@ setPreferFormInputFilter
 
 
 getPreferFormInputFilter
-------------------------
+++++++++++++++++++++++++
 
 .. function:: getPreferFormInputFilter()
 
@@ -336,7 +339,7 @@ getPreferFormInputFilter
 
 
 attachInputFilterDefaults
--------------------------
++++++++++++++++++++++++++
 
 .. function:: attachInputFilterDefaults()
 
@@ -351,7 +354,7 @@ attachInputFilterDefaults
 
 
 setWrapElements
----------------
++++++++++++++++
 
 .. function:: setWrapElements()
 
@@ -365,7 +368,7 @@ setWrapElements
 
 
 wrapElements
-------------
+++++++++++++
 
 .. function:: wrapElements()
 
@@ -377,7 +380,7 @@ wrapElements
 
 
 extract
--------
++++++++
 
 .. function:: extract()
 

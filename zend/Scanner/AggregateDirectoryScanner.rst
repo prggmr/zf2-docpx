@@ -1,14 +1,17 @@
-.. Code/Scanner/AggregateDirectoryScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/AggregateDirectoryScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\AggregateDirectoryScanner
 ==============================================
 
 Methods
-+++++++
+-------
 
 getNamespaces
--------------
++++++++++++++
 
 .. function:: getNamespaces()
 
@@ -19,21 +22,21 @@ getNamespaces
 
 
 getIncludes
------------
++++++++++++
 
 .. function:: getIncludes()
 
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
 
 
 hasClass
---------
+++++++++
 
 .. function:: hasClass()
 
@@ -45,7 +48,7 @@ hasClass
 
 
 getClass
---------
+++++++++
 
 .. function:: getClass()
 
@@ -62,7 +65,7 @@ getClass
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 

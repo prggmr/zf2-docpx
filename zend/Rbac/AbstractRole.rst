@@ -1,14 +1,17 @@
-.. Permissions/Rbac/AbstractRole.php generated using docpx on 01/30/13 03:32am
+.. Permissions/Rbac/AbstractRole.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Permissions\\Rbac\\AbstractRole
 =====================================
 
 Methods
-+++++++
+-------
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -20,7 +23,7 @@ getName
 
 
 addPermission
--------------
++++++++++++++
 
 .. function:: addPermission()
 
@@ -34,7 +37,7 @@ addPermission
 
 
 hasPermission
--------------
++++++++++++++
 
 .. function:: hasPermission()
 
@@ -48,7 +51,7 @@ hasPermission
 
 
 addChild
---------
+++++++++
 
 .. function:: addChild()
 
@@ -62,7 +65,7 @@ addChild
 
 
 setParent
----------
++++++++++
 
 .. function:: setParent()
 
@@ -74,7 +77,7 @@ setParent
 
 
 getParent
----------
++++++++++
 
 .. function:: getParent()
 

@@ -1,14 +1,17 @@
-.. Mvc/View/Http/InjectTemplateListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/InjectTemplateListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\InjectTemplateListener
 =============================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 injectTemplate
---------------
+++++++++++++++
 
 .. function:: injectTemplate()
 
@@ -53,7 +56,7 @@ injectTemplate
 
 
 inflectName
------------
++++++++++++
 
 .. function:: inflectName()
 
@@ -67,7 +70,7 @@ inflectName
 
 
 deriveModuleNamespace
----------------------
++++++++++++++++++++++
 
 .. function:: deriveModuleNamespace()
 
@@ -81,7 +84,7 @@ deriveModuleNamespace
 
 
 deriveControllerSubNamespace
-----------------------------
+++++++++++++++++++++++++++++
 
 .. function:: deriveControllerSubNamespace()
 
@@ -93,7 +96,7 @@ deriveControllerSubNamespace
 
 
 deriveControllerClass
----------------------
++++++++++++++++++++++
 
 .. function:: deriveControllerClass()
 

@@ -1,5 +1,8 @@
-.. Mail/Protocol/SmtpPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Mail/Protocol/SmtpPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Protocol\\SmtpPluginManager
 =======================================
@@ -10,10 +13,10 @@ Enforces that SMTP extensions retrieved are instances of Smtp. Additionally,
 it registers a number of default extensions available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

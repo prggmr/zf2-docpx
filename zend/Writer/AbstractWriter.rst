@@ -1,14 +1,17 @@
-.. Log/Writer/AbstractWriter.php generated using docpx on 01/30/13 03:32am
+.. Log/Writer/AbstractWriter.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Writer\\AbstractWriter
 =================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 addFilter
----------
++++++++++
 
 .. function:: addFilter()
 
@@ -45,7 +48,7 @@ addFilter
 
 
 getFilterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: getFilterPluginManager()
 
@@ -57,7 +60,7 @@ getFilterPluginManager
 
 
 setFilterPluginManager
-----------------------
+++++++++++++++++++++++
 
 .. function:: setFilterPluginManager()
 
@@ -73,7 +76,7 @@ setFilterPluginManager
 
 
 filterPlugin
-------------
+++++++++++++
 
 .. function:: filterPlugin()
 
@@ -88,7 +91,7 @@ filterPlugin
 
 
 getFormatterPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getFormatterPluginManager()
 
@@ -100,7 +103,7 @@ getFormatterPluginManager
 
 
 setFormatterPluginManager
--------------------------
++++++++++++++++++++++++++
 
 .. function:: setFormatterPluginManager()
 
@@ -116,7 +119,7 @@ setFormatterPluginManager
 
 
 formatterPlugin
----------------
++++++++++++++++
 
 .. function:: formatterPlugin()
 
@@ -131,7 +134,7 @@ formatterPlugin
 
 
 write
------
++++++
 
 .. function:: write()
 
@@ -145,7 +148,7 @@ write
 
 
 setFormatter
-------------
+++++++++++++
 
 .. function:: setFormatter()
 
@@ -161,7 +164,7 @@ setFormatter
 
 
 setConvertWriteErrorsToExceptions
----------------------------------
++++++++++++++++++++++++++++++++++
 
 .. function:: setConvertWriteErrorsToExceptions()
 
@@ -173,7 +176,7 @@ setConvertWriteErrorsToExceptions
 
 
 shutdown
---------
+++++++++
 
 .. function:: shutdown()
 
@@ -185,7 +188,7 @@ shutdown
 
 
 doWrite
--------
++++++++
 
 .. function:: doWrite()
 

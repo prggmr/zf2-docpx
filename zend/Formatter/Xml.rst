@@ -1,14 +1,17 @@
-.. Log/Formatter/Xml.php generated using docpx on 01/30/13 03:32am
+.. Log/Formatter/Xml.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Log\\Formatter\\Xml
 =========================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -35,7 +38,7 @@ getEncoding
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -49,7 +52,7 @@ setEncoding
 
 
 setEscaper
-----------
+++++++++++
 
 .. function:: setEscaper()
 
@@ -63,7 +66,7 @@ setEscaper
 
 
 getEscaper
-----------
+++++++++++
 
 .. function:: getEscaper()
 
@@ -77,7 +80,7 @@ getEscaper
 
 
 format
-------
+++++++
 
 .. function:: format()
 
@@ -91,7 +94,7 @@ format
 
 
 getDateTimeFormat
------------------
++++++++++++++++++
 
 .. function:: getDateTimeFormat()
 
@@ -101,7 +104,7 @@ getDateTimeFormat
 
 
 setDateTimeFormat
------------------
++++++++++++++++++
 
 .. function:: setDateTimeFormat()
 

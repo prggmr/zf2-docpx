@@ -1,5 +1,8 @@
-.. Feed/Writer/Feed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Feed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Feed
 ========================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Feed
 
 
 Methods
-+++++++
+-------
 
 createEntry
------------
++++++++++++
 
 .. function:: createEntry()
 
@@ -24,7 +27,7 @@ createEntry
 
 
 addTombstone
-------------
+++++++++++++
 
 .. function:: addTombstone()
 
@@ -39,7 +42,7 @@ addTombstone
 
 
 createTombstone
----------------
++++++++++++++++
 
 .. function:: createTombstone()
 
@@ -53,7 +56,7 @@ createTombstone
 
 
 addEntry
---------
+++++++++
 
 .. function:: addEntry()
 
@@ -68,7 +71,7 @@ addEntry
 
 
 removeEntry
------------
++++++++++++
 
 .. function:: removeEntry()
 
@@ -85,7 +88,7 @@ removeEntry
 
 
 getEntry
---------
+++++++++
 
 .. function:: getEntry()
 
@@ -100,7 +103,7 @@ getEntry
 
 
 orderByDate
------------
++++++++++++
 
 .. function:: orderByDate()
 
@@ -116,7 +119,7 @@ orderByDate
 
 
 count
------
++++++
 
 .. function:: count()
 
@@ -129,7 +132,7 @@ count
 
 
 current
--------
++++++++
 
 .. function:: current()
 
@@ -141,7 +144,7 @@ current
 
 
 key
----
++++
 
 .. function:: key()
 
@@ -153,7 +156,7 @@ key
 
 
 next
-----
+++++
 
 .. function:: next()
 
@@ -165,7 +168,7 @@ next
 
 
 rewind
-------
+++++++
 
 .. function:: rewind()
 
@@ -177,7 +180,7 @@ rewind
 
 
 valid
------
++++++
 
 .. function:: valid()
 
@@ -189,7 +192,7 @@ valid
 
 
 export
-------
+++++++
 
 .. function:: export()
 

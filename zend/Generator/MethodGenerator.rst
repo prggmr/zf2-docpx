@@ -1,14 +1,17 @@
-.. Code/Generator/MethodGenerator.php generated using docpx on 01/30/13 03:32am
+.. Code/Generator/MethodGenerator.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Generator\\MethodGenerator
 ======================================
 
 Methods
-+++++++
+-------
 
 fromReflection
---------------
+++++++++++++++
 
 .. function:: fromReflection()
 
@@ -20,7 +23,7 @@ fromReflection
 
 
 fromArray
----------
++++++++++
 
 .. function:: fromArray()
 
@@ -35,7 +38,7 @@ fromArray
 
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -50,7 +53,7 @@ __construct
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -62,7 +65,7 @@ setParameters
 
 
 setParameter
-------------
+++++++++++++
 
 .. function:: setParameter()
 
@@ -75,7 +78,7 @@ setParameter
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -85,7 +88,7 @@ getParameters
 
 
 setBody
--------
++++++++
 
 .. function:: setBody()
 
@@ -97,7 +100,7 @@ setBody
 
 
 getBody
--------
++++++++
 
 .. function:: getBody()
 
@@ -107,7 +110,7 @@ getBody
 
 
 generate
---------
+++++++++
 
 .. function:: generate()
 
@@ -117,7 +120,7 @@ generate
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

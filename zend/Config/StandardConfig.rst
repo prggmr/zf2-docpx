@@ -1,5 +1,8 @@
-.. Session/Config/StandardConfig.php generated using docpx on 01/30/13 03:32am
+.. Session/Config/StandardConfig.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Session\\Config\\StandardConfig
 =====================================
@@ -7,10 +10,10 @@ Zend\\Session\\Config\\StandardConfig
 Standard session configuration
 
 Methods
-+++++++
+-------
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -30,7 +33,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -42,7 +45,7 @@ getOptions
 
 
 setOption
----------
++++++++++
 
 .. function:: setOption()
 
@@ -60,7 +63,7 @@ setOption
 
 
 getOption
----------
++++++++++
 
 .. function:: getOption()
 
@@ -80,7 +83,7 @@ getOption
 
 
 hasOption
----------
++++++++++
 
 .. function:: hasOption()
 
@@ -94,7 +97,7 @@ hasOption
 
 
 setStorageOption
-----------------
+++++++++++++++++
 
 .. function:: setStorageOption()
 
@@ -112,7 +115,7 @@ setStorageOption
 
 
 getStorageOption
-----------------
+++++++++++++++++
 
 .. function:: getStorageOption()
 
@@ -128,7 +131,7 @@ getStorageOption
 
 
 setSavePath
------------
++++++++++++
 
 .. function:: setSavePath()
 
@@ -144,7 +147,7 @@ setSavePath
 
 
 getSavePath
------------
++++++++++++
 
 .. function:: getSavePath()
 
@@ -156,7 +159,7 @@ getSavePath
 
 
 setName
--------
++++++++
 
 .. function:: setName()
 
@@ -172,7 +175,7 @@ setName
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -184,7 +187,7 @@ getName
 
 
 setGcProbability
-----------------
+++++++++++++++++
 
 .. function:: setGcProbability()
 
@@ -200,7 +203,7 @@ setGcProbability
 
 
 getGcProbability
-----------------
+++++++++++++++++
 
 .. function:: getGcProbability()
 
@@ -212,7 +215,7 @@ getGcProbability
 
 
 setGcDivisor
-------------
+++++++++++++
 
 .. function:: setGcDivisor()
 
@@ -228,7 +231,7 @@ setGcDivisor
 
 
 getGcDivisor
-------------
+++++++++++++
 
 .. function:: getGcDivisor()
 
@@ -240,7 +243,7 @@ getGcDivisor
 
 
 setGcMaxlifetime
-----------------
+++++++++++++++++
 
 .. function:: setGcMaxlifetime()
 
@@ -256,7 +259,7 @@ setGcMaxlifetime
 
 
 getGcMaxlifetime
-----------------
+++++++++++++++++
 
 .. function:: getGcMaxlifetime()
 
@@ -268,7 +271,7 @@ getGcMaxlifetime
 
 
 setCookieLifetime
------------------
++++++++++++++++++
 
 .. function:: setCookieLifetime()
 
@@ -284,7 +287,7 @@ setCookieLifetime
 
 
 getCookieLifetime
------------------
++++++++++++++++++
 
 .. function:: getCookieLifetime()
 
@@ -296,7 +299,7 @@ getCookieLifetime
 
 
 setCookiePath
--------------
++++++++++++++
 
 .. function:: setCookiePath()
 
@@ -312,7 +315,7 @@ setCookiePath
 
 
 getCookiePath
--------------
++++++++++++++
 
 .. function:: getCookiePath()
 
@@ -324,7 +327,7 @@ getCookiePath
 
 
 setCookieDomain
----------------
++++++++++++++++
 
 .. function:: setCookieDomain()
 
@@ -340,7 +343,7 @@ setCookieDomain
 
 
 getCookieDomain
----------------
++++++++++++++++
 
 .. function:: getCookieDomain()
 
@@ -352,7 +355,7 @@ getCookieDomain
 
 
 setCookieSecure
----------------
++++++++++++++++
 
 .. function:: setCookieSecure()
 
@@ -366,7 +369,7 @@ setCookieSecure
 
 
 getCookieSecure
----------------
++++++++++++++++
 
 .. function:: getCookieSecure()
 
@@ -378,7 +381,7 @@ getCookieSecure
 
 
 setCookieHttpOnly
------------------
++++++++++++++++++
 
 .. function:: setCookieHttpOnly()
 
@@ -395,7 +398,7 @@ setCookieHttpOnly
 
 
 getCookieHttpOnly
------------------
++++++++++++++++++
 
 .. function:: getCookieHttpOnly()
 
@@ -407,7 +410,7 @@ getCookieHttpOnly
 
 
 setUseCookies
--------------
++++++++++++++
 
 .. function:: setUseCookies()
 
@@ -421,7 +424,7 @@ setUseCookies
 
 
 getUseCookies
--------------
++++++++++++++
 
 .. function:: getUseCookies()
 
@@ -433,7 +436,7 @@ getUseCookies
 
 
 setEntropyFile
---------------
+++++++++++++++
 
 .. function:: setEntropyFile()
 
@@ -449,7 +452,7 @@ setEntropyFile
 
 
 getEntropyFile
---------------
+++++++++++++++
 
 .. function:: getEntropyFile()
 
@@ -461,7 +464,7 @@ getEntropyFile
 
 
 setEntropyLength
-----------------
+++++++++++++++++
 
 .. function:: setEntropyLength()
 
@@ -477,7 +480,7 @@ setEntropyLength
 
 
 getEntropyLength
-----------------
+++++++++++++++++
 
 .. function:: getEntropyLength()
 
@@ -489,7 +492,7 @@ getEntropyLength
 
 
 setCacheExpire
---------------
+++++++++++++++
 
 .. function:: setCacheExpire()
 
@@ -505,7 +508,7 @@ setCacheExpire
 
 
 getCacheExpire
---------------
+++++++++++++++
 
 .. function:: getCacheExpire()
 
@@ -517,7 +520,7 @@ getCacheExpire
 
 
 setHashBitsPerCharacter
------------------------
++++++++++++++++++++++++
 
 .. function:: setHashBitsPerCharacter()
 
@@ -533,7 +536,7 @@ setHashBitsPerCharacter
 
 
 getHashBitsPerCharacter
------------------------
++++++++++++++++++++++++
 
 .. function:: getHashBitsPerCharacter()
 
@@ -545,7 +548,7 @@ getHashBitsPerCharacter
 
 
 setRememberMeSeconds
---------------------
+++++++++++++++++++++
 
 .. function:: setRememberMeSeconds()
 
@@ -561,7 +564,7 @@ setRememberMeSeconds
 
 
 getRememberMeSeconds
---------------------
+++++++++++++++++++++
 
 .. function:: getRememberMeSeconds()
 
@@ -573,7 +576,7 @@ getRememberMeSeconds
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -585,7 +588,7 @@ toArray
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 

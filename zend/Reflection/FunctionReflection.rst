@@ -1,14 +1,17 @@
-.. Code/Reflection/FunctionReflection.php generated using docpx on 01/30/13 03:32am
+.. Code/Reflection/FunctionReflection.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Reflection\\FunctionReflection
 ==========================================
 
 Methods
-+++++++
+-------
 
 getDocBlock
------------
++++++++++++
 
 .. function:: getDocBlock()
 
@@ -21,7 +24,7 @@ getDocBlock
 
 
 getStartLine
-------------
+++++++++++++
 
 .. function:: getStartLine()
 
@@ -35,7 +38,7 @@ getStartLine
 
 
 getContents
------------
++++++++++++
 
 .. function:: getContents()
 
@@ -49,7 +52,7 @@ getContents
 
 
 getParameters
--------------
++++++++++++++
 
 .. function:: getParameters()
 
@@ -61,7 +64,7 @@ getParameters
 
 
 getReturn
----------
++++++++++
 
 .. function:: getReturn()
 
@@ -74,14 +77,14 @@ getReturn
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 

@@ -1,5 +1,8 @@
-.. Db/RowGateway/RowGatewayInterface.php generated using docpx on 01/30/13 03:32am
+.. Db/RowGateway/RowGatewayInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Db\\RowGateway\\save
 ==========================
@@ -7,6 +10,9 @@ Zend\\Db\\RowGateway\\save
 .. function:: Zend\Db\RowGateway\save()
 
 
+
+Function
+********
 
 Zend\\Db\\RowGateway\\delete
 ============================

@@ -1,5 +1,8 @@
-.. Server/Reflection/Node.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/Node.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\Node
 ==============================
@@ -7,10 +10,10 @@ Zend\\Server\\Reflection\\Node
 Node Tree class for Zend_Server reflection operations
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 setParent
----------
++++++++++
 
 .. function:: setParent()
 
@@ -41,7 +44,7 @@ and should always be attached
 
 
 createChild
------------
++++++++++++
 
 .. function:: createChild()
 
@@ -57,7 +60,7 @@ createChild
 
 
 attachChild
------------
++++++++++++
 
 .. function:: attachChild()
 
@@ -71,7 +74,7 @@ attachChild
 
 
 getChildren
------------
++++++++++++
 
 .. function:: getChildren()
 
@@ -83,7 +86,7 @@ getChildren
 
 
 hasChildren
------------
++++++++++++
 
 .. function:: hasChildren()
 
@@ -95,7 +98,7 @@ hasChildren
 
 
 getParent
----------
++++++++++
 
 .. function:: getParent()
 
@@ -107,7 +110,7 @@ getParent
 
 
 getValue
---------
+++++++++
 
 .. function:: getValue()
 
@@ -119,7 +122,7 @@ getValue
 
 
 setValue
---------
+++++++++
 
 .. function:: setValue()
 
@@ -133,7 +136,7 @@ setValue
 
 
 getEndPoints
-------------
+++++++++++++
 
 .. function:: getEndPoints()
 

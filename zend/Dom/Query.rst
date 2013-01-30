@@ -1,5 +1,8 @@
-.. Dom/Query.php generated using docpx on 01/30/13 03:32am
+.. Dom/Query.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Dom\\Query
 ================
@@ -7,10 +10,10 @@ Zend\\Dom\\Query
 Query DOM structures based on CSS selectors and/or XPath
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -37,7 +40,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -49,7 +52,7 @@ getEncoding
 
 
 setDocument
------------
++++++++++++
 
 .. function:: setDocument()
 
@@ -64,7 +67,7 @@ setDocument
 
 
 setDocumentHtml
----------------
++++++++++++++++
 
 .. function:: setDocumentHtml()
 
@@ -79,7 +82,7 @@ setDocumentHtml
 
 
 setDocumentXhtml
-----------------
+++++++++++++++++
 
 .. function:: setDocumentXhtml()
 
@@ -94,7 +97,7 @@ setDocumentXhtml
 
 
 setDocumentXml
---------------
+++++++++++++++
 
 .. function:: setDocumentXml()
 
@@ -109,7 +112,7 @@ setDocumentXml
 
 
 getDocument
------------
++++++++++++
 
 .. function:: getDocument()
 
@@ -121,7 +124,7 @@ getDocument
 
 
 getDocumentType
----------------
++++++++++++++++
 
 .. function:: getDocumentType()
 
@@ -133,7 +136,7 @@ getDocumentType
 
 
 getDocumentErrors
------------------
++++++++++++++++++
 
 .. function:: getDocumentErrors()
 
@@ -145,7 +148,7 @@ getDocumentErrors
 
 
 execute
--------
++++++++
 
 .. function:: execute()
 
@@ -159,7 +162,7 @@ execute
 
 
 queryXpath
-----------
+++++++++++
 
 .. function:: queryXpath()
 
@@ -176,7 +179,7 @@ queryXpath
 
 
 registerXpathNamespaces
------------------------
++++++++++++++++++++++++
 
 .. function:: registerXpathNamespaces()
 
@@ -190,7 +193,7 @@ registerXpathNamespaces
 
 
 registerXpathPhpFunctions
--------------------------
++++++++++++++++++++++++++
 
 .. function:: registerXpathPhpFunctions()
 
@@ -204,7 +207,7 @@ registerXpathPhpFunctions
 
 
 getNodeList
------------
++++++++++++
 
 .. function:: getNodeList()
 
@@ -221,14 +224,14 @@ getNodeList
 
 
 Constants
-+++++++++
+---------
 
 DOC_XML
-=======
++++++++
 
 DOC_HTML
-========
+++++++++
 
 DOC_XHTML
-=========
++++++++++
 

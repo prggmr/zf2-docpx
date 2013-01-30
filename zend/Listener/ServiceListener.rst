@@ -1,14 +1,17 @@
-.. ModuleManager/Listener/ServiceListener.php generated using docpx on 01/30/13 03:32am
+.. ModuleManager/Listener/ServiceListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\ModuleManager\\Listener\\ServiceListener
 ==============================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -20,7 +23,7 @@ __construct
 
 
 setDefaultServiceConfig
------------------------
++++++++++++++++++++++++
 
 .. function:: setDefaultServiceConfig()
 
@@ -32,7 +35,7 @@ setDefaultServiceConfig
 
 
 addServiceManager
------------------
++++++++++++++++++
 
 .. function:: addServiceManager()
 
@@ -50,7 +53,7 @@ addServiceManager
 
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -62,7 +65,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -74,7 +77,7 @@ detach
 
 
 onLoadModule
-------------
+++++++++++++
 
 .. function:: onLoadModule()
 
@@ -97,7 +100,7 @@ onLoadModule
 
 
 onLoadModulesPost
------------------
++++++++++++++++++
 
 .. function:: onLoadModulesPost()
 
@@ -117,7 +120,7 @@ onLoadModulesPost
 
 
 serviceConfigToArray
---------------------
+++++++++++++++++++++
 
 .. function:: serviceConfigToArray()
 

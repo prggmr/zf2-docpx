@@ -1,5 +1,8 @@
-.. Di/InstanceManager.php generated using docpx on 01/30/13 03:32am
+.. Di/InstanceManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Di\\InstanceManager
 =========================
@@ -7,10 +10,10 @@ Zend\\Di\\InstanceManager
 Registry of instantiated objects, their names and the parameters used to build them
 
 Methods
-+++++++
+-------
 
 hasSharedInstance
------------------
++++++++++++++++++
 
 .. function:: hasSharedInstance()
 
@@ -24,7 +27,7 @@ hasSharedInstance
 
 
 getSharedInstance
------------------
++++++++++++++++++
 
 .. function:: getSharedInstance()
 
@@ -34,7 +37,7 @@ getSharedInstance
 
 
 addSharedInstance
------------------
++++++++++++++++++
 
 .. function:: addSharedInstance()
 
@@ -49,7 +52,7 @@ addSharedInstance
 
 
 hasSharedInstanceWithParameters
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: hasSharedInstanceWithParameters()
 
@@ -65,7 +68,7 @@ hasSharedInstanceWithParameters
 
 
 addSharedInstanceWithParameters
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: addSharedInstanceWithParameters()
 
@@ -81,7 +84,7 @@ addSharedInstanceWithParameters
 
 
 getSharedInstanceWithParameters
--------------------------------
++++++++++++++++++++++++++++++++
 
 .. function:: getSharedInstanceWithParameters()
 
@@ -97,7 +100,7 @@ getSharedInstanceWithParameters
 
 
 hasAlias
---------
+++++++++
 
 .. function:: hasAlias()
 
@@ -111,7 +114,7 @@ hasAlias
 
 
 getAliases
-----------
+++++++++++
 
 .. function:: getAliases()
 
@@ -123,7 +126,7 @@ getAliases
 
 
 getClassFromAlias
------------------
++++++++++++++++++
 
 .. function:: getClassFromAlias()
 
@@ -139,7 +142,7 @@ getClassFromAlias
 
 
 getBaseAlias
-------------
+++++++++++++
 
 .. function:: getBaseAlias()
 
@@ -153,7 +156,7 @@ getBaseAlias
 
 
 addAlias
---------
+++++++++
 
 .. function:: addAlias()
 
@@ -170,7 +173,7 @@ addAlias
 
 
 hasConfig
----------
++++++++++
 
 .. function:: hasConfig()
 
@@ -184,7 +187,7 @@ hasConfig
 
 
 setConfig
----------
++++++++++
 
 .. function:: setConfig()
 
@@ -198,7 +201,7 @@ setConfig
 
 
 getClasses
-----------
+++++++++++
 
 .. function:: getClasses()
 
@@ -210,7 +213,7 @@ getClasses
 
 
 getConfig
----------
++++++++++
 
 .. function:: getConfig()
 
@@ -222,7 +225,7 @@ getConfig
 
 
 setParameters
--------------
++++++++++++++
 
 .. function:: setParameters()
 
@@ -238,7 +241,7 @@ setParameters
 
 
 setInjections
--------------
++++++++++++++
 
 .. function:: setInjections()
 
@@ -254,7 +257,7 @@ setInjections
 
 
 setShared
----------
++++++++++
 
 .. function:: setShared()
 
@@ -269,7 +272,7 @@ setShared
 
 
 hasTypePreferences
-------------------
+++++++++++++++++++
 
 .. function:: hasTypePreferences()
 
@@ -283,7 +286,7 @@ hasTypePreferences
 
 
 setTypePreference
------------------
++++++++++++++++++
 
 .. function:: setTypePreference()
 
@@ -298,7 +301,7 @@ setTypePreference
 
 
 getTypePreferences
-------------------
+++++++++++++++++++
 
 .. function:: getTypePreferences()
 
@@ -312,7 +315,7 @@ getTypePreferences
 
 
 unsetTypePreferences
---------------------
+++++++++++++++++++++
 
 .. function:: unsetTypePreferences()
 
@@ -326,7 +329,7 @@ unsetTypePreferences
 
 
 addTypePreference
------------------
++++++++++++++++++
 
 .. function:: addTypePreference()
 
@@ -342,7 +345,7 @@ addTypePreference
 
 
 removeTypePreference
---------------------
+++++++++++++++++++++
 
 .. function:: removeTypePreference()
 
@@ -357,7 +360,7 @@ removeTypePreference
 
 
 createHashForKeys
------------------
++++++++++++++++++
 
 .. function:: createHashForKeys()
 
@@ -371,7 +374,7 @@ createHashForKeys
 
 
 createHashForValues
--------------------
++++++++++++++++++++
 
 .. function:: createHashForValues()
 

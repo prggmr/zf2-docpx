@@ -1,5 +1,8 @@
-.. Text/Table/Decorator/DecoratorInterface.php generated using docpx on 01/30/13 03:32am
+.. Text/Table/Decorator/DecoratorInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getTopLeft
 ========================================
@@ -13,6 +16,9 @@ Zend\\Text\\Table\\Decorator\\getTopLeft
 
 
 
+Function
+********
+
 Zend\\Text\\Table\\Decorator\\getTopRight
 =========================================
 
@@ -24,6 +30,9 @@ Zend\\Text\\Table\\Decorator\\getTopRight
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getBottomLeft
 ===========================================
@@ -37,6 +46,9 @@ Zend\\Text\\Table\\Decorator\\getBottomLeft
 
 
 
+Function
+********
+
 Zend\\Text\\Table\\Decorator\\getBottomRight
 ============================================
 
@@ -48,6 +60,9 @@ Zend\\Text\\Table\\Decorator\\getBottomRight
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getVertical
 =========================================
@@ -61,6 +76,9 @@ Zend\\Text\\Table\\Decorator\\getVertical
 
 
 
+Function
+********
+
 Zend\\Text\\Table\\Decorator\\getHorizontal
 ===========================================
 
@@ -72,6 +90,9 @@ Zend\\Text\\Table\\Decorator\\getHorizontal
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getCross
 ======================================
@@ -85,6 +106,9 @@ Zend\\Text\\Table\\Decorator\\getCross
 
 
 
+Function
+********
+
 Zend\\Text\\Table\\Decorator\\getVerticalRight
 ==============================================
 
@@ -96,6 +120,9 @@ Zend\\Text\\Table\\Decorator\\getVerticalRight
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getVerticalLeft
 =============================================
@@ -109,6 +136,9 @@ Zend\\Text\\Table\\Decorator\\getVerticalLeft
 
 
 
+Function
+********
+
 Zend\\Text\\Table\\Decorator\\getHorizontalDown
 ===============================================
 
@@ -120,6 +150,9 @@ Zend\\Text\\Table\\Decorator\\getHorizontalDown
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Text\\Table\\Decorator\\getHorizontalUp
 =============================================

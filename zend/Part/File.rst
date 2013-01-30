@@ -1,14 +1,17 @@
-.. Mail/Storage/Part/File.php generated using docpx on 01/30/13 03:32am
+.. Mail/Storage/Part/File.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Storage\\Part\\File
 ===============================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -44,7 +47,7 @@ getContent
 
 
 getSize
--------
++++++++
 
 .. function:: getSize()
 
@@ -58,7 +61,7 @@ getSize
 
 
 getPart
--------
++++++++
 
 .. function:: getPart()
 

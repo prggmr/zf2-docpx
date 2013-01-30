@@ -1,5 +1,8 @@
-.. Mail/Transport/File.php generated using docpx on 01/30/13 03:32am
+.. Mail/Transport/File.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mail\\Transport\\File
 ===========================
@@ -9,10 +12,10 @@ File transport
 Class for saving outgoing emails in filesystem
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -24,7 +27,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -36,7 +39,7 @@ setOptions
 
 
 send
-----
+++++
 
 .. function:: send()
 
@@ -51,7 +54,7 @@ on file_put_contents() failure
 
 
 getLastFile
------------
++++++++++++
 
 .. function:: getLastFile()
 

@@ -1,14 +1,17 @@
-.. Form/View/Helper/Captcha/AbstractWord.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/Captcha/AbstractWord.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\Captcha\\AbstractWord
 ===============================================
 
 Methods
-+++++++
+-------
 
 setCaptchaPosition
-------------------
+++++++++++++++++++
 
 .. function:: setCaptchaPosition()
 
@@ -24,7 +27,7 @@ setCaptchaPosition
 
 
 getCaptchaPosition
-------------------
+++++++++++++++++++
 
 .. function:: getCaptchaPosition()
 
@@ -36,7 +39,7 @@ getCaptchaPosition
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -50,7 +53,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -62,7 +65,7 @@ getSeparator
 
 
 renderCaptchaInputs
--------------------
++++++++++++++++++++
 
 .. function:: renderCaptchaInputs()
 
@@ -84,7 +87,7 @@ renderCaptchaInputs
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -100,7 +103,7 @@ __invoke
 
 
 renderCaptchaHidden
--------------------
++++++++++++++++++++
 
 .. function:: renderCaptchaHidden()
 
@@ -115,7 +118,7 @@ renderCaptchaHidden
 
 
 renderCaptchaInput
-------------------
+++++++++++++++++++
 
 .. function:: renderCaptchaInput()
 
@@ -132,11 +135,11 @@ renderCaptchaInput
 
 
 Constants
-+++++++++
+---------
 
 CAPTCHA_APPEND
-==============
+++++++++++++++
 
 CAPTCHA_PREPEND
-===============
++++++++++++++++
 

@@ -1,14 +1,17 @@
-.. Validator/InArray.php generated using docpx on 01/30/13 03:32am
+.. Validator/InArray.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Validator\\InArray
 ========================
 
 Methods
-+++++++
+-------
 
 getHaystack
------------
++++++++++++
 
 .. function:: getHaystack()
 
@@ -22,7 +25,7 @@ getHaystack
 
 
 setHaystack
------------
++++++++++++
 
 .. function:: setHaystack()
 
@@ -36,7 +39,7 @@ setHaystack
 
 
 getStrict
----------
++++++++++
 
 .. function:: getStrict()
 
@@ -48,7 +51,7 @@ getStrict
 
 
 setStrict
----------
++++++++++
 
 .. function:: setStrict()
 
@@ -65,7 +68,7 @@ setStrict
 
 
 getRecursive
-------------
+++++++++++++
 
 .. function:: getRecursive()
 
@@ -77,7 +80,7 @@ getRecursive
 
 
 setRecursive
-------------
+++++++++++++
 
 .. function:: setRecursive()
 
@@ -91,7 +94,7 @@ setRecursive
 
 
 isValid
--------
++++++++
 
 .. function:: isValid()
 
@@ -108,25 +111,25 @@ isValid
 
 
 Constants
-+++++++++
+---------
 
 NOT_IN_ARRAY
-============
+++++++++++++
 
 COMPARE_STRICT
-==============
+++++++++++++++
 
 standard in_array strict checking value and type
 
 COMPARE_NOT_STRICT_AND_PREVENT_STR_TO_INT_VULNERABILITY
-=======================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Non strict check but prevents "asdf" == 0 returning TRUE causing false/positive.
 This is the most secure option for non-strict checks and replaces strict = false
 This will only be effective when the input is a string
 
 COMPARE_NOT_STRICT
-==================
+++++++++++++++++++
 
 Standard non-strict check where "asdf" == 0 returns TRUE
 This will be wanted when comparing "0" against int 0

@@ -1,5 +1,8 @@
-.. XmlRpc/Server.php generated using docpx on 01/30/13 03:32am
+.. XmlRpc/Server.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\XmlRpc\\Server
 ====================
@@ -35,10 +38,10 @@ echo $response;
 </code>
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -50,7 +53,7 @@ __construct
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -67,7 +70,7 @@ __call
 
 
 addFunction
------------
++++++++++++
 
 .. function:: addFunction()
 
@@ -92,7 +95,7 @@ addFunction
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -118,7 +121,7 @@ setClass
 
 
 fault
------
++++++
 
 .. function:: fault()
 
@@ -133,7 +136,7 @@ fault
 
 
 setReturnResponse
------------------
++++++++++++++++++
 
 .. function:: setReturnResponse()
 
@@ -152,7 +155,7 @@ setReturnResponse
 
 
 getReturnResponse
------------------
++++++++++++++++++
 
 .. function:: getReturnResponse()
 
@@ -164,7 +167,7 @@ getReturnResponse
 
 
 handle
-------
+++++++
 
 .. function:: handle()
 
@@ -178,7 +181,7 @@ handle
 
 
 loadFunctions
--------------
++++++++++++++
 
 .. function:: loadFunctions()
 
@@ -197,7 +200,7 @@ loadFunctions
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -211,7 +214,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -223,7 +226,7 @@ getEncoding
 
 
 setPersistence
---------------
+++++++++++++++
 
 .. function:: setPersistence()
 
@@ -237,7 +240,7 @@ setPersistence
 
 
 setRequest
-----------
+++++++++++
 
 .. function:: setRequest()
 
@@ -253,7 +256,7 @@ setRequest
 
 
 getRequest
-----------
+++++++++++
 
 .. function:: getRequest()
 
@@ -265,7 +268,7 @@ getRequest
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -277,7 +280,7 @@ getResponse
 
 
 setResponseClass
-----------------
+++++++++++++++++
 
 .. function:: setResponseClass()
 
@@ -293,7 +296,7 @@ setResponseClass
 
 
 getResponseClass
-----------------
+++++++++++++++++
 
 .. function:: getResponseClass()
 
@@ -305,7 +308,7 @@ getResponseClass
 
 
 getDispatchTable
-----------------
+++++++++++++++++
 
 .. function:: getDispatchTable()
 
@@ -317,7 +320,7 @@ getDispatchTable
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -332,7 +335,7 @@ getFunctions
 
 
 getSystem
----------
++++++++++
 
 .. function:: getSystem()
 
@@ -344,7 +347,7 @@ getSystem
 
 
 sendArgumentsToAllMethods
--------------------------
++++++++++++++++++++++++++
 
 .. function:: sendArgumentsToAllMethods()
 
@@ -359,7 +362,7 @@ sendArgumentsToAllMethods
 
 
 _fixType
---------
+++++++++
 
 .. function:: _fixType()
 
@@ -373,7 +376,7 @@ _fixType
 
 
 handleRequest
--------------
++++++++++++++
 
 .. function:: handleRequest()
 
@@ -390,7 +393,7 @@ any other exception may be thrown by the callback
 
 
 registerSystemMethods
----------------------
++++++++++++++++++++++
 
 .. function:: registerSystemMethods()
 
@@ -402,7 +405,7 @@ registerSystemMethods
 
 
 isSubclassOf
-------------
+++++++++++++
 
 .. function:: isSubclassOf()
 

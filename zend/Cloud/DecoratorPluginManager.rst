@@ -1,5 +1,8 @@
-.. Tag/Cloud/DecoratorPluginManager.php generated using docpx on 01/30/13 03:32am
+.. Tag/Cloud/DecoratorPluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Cloud\\DecoratorPluginManager
 ========================================
@@ -11,10 +14,10 @@ Decorator\DecoratorInterface. Additionally, it registers a number of default
 decorators available.
 
 Methods
-+++++++
+-------
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

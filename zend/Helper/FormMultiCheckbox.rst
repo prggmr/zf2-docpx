@@ -1,14 +1,17 @@
-.. Form/View/Helper/FormMultiCheckbox.php generated using docpx on 01/30/13 03:32am
+.. Form/View/Helper/FormMultiCheckbox.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Form\\View\\Helper\\FormMultiCheckbox
 ===========================================
 
 Methods
-+++++++
+-------
 
 setLabelPosition
-----------------
+++++++++++++++++
 
 .. function:: setLabelPosition()
 
@@ -24,7 +27,7 @@ setLabelPosition
 
 
 getLabelPosition
-----------------
+++++++++++++++++
 
 .. function:: getLabelPosition()
 
@@ -36,7 +39,7 @@ getLabelPosition
 
 
 setSeparator
-------------
+++++++++++++
 
 .. function:: setSeparator()
 
@@ -50,7 +53,7 @@ setSeparator
 
 
 getSeparator
-------------
+++++++++++++
 
 .. function:: getSeparator()
 
@@ -62,7 +65,7 @@ getSeparator
 
 
 setLabelAttributes
-------------------
+++++++++++++++++++
 
 .. function:: setLabelAttributes()
 
@@ -76,7 +79,7 @@ setLabelAttributes
 
 
 getLabelAttributes
-------------------
+++++++++++++++++++
 
 .. function:: getLabelAttributes()
 
@@ -88,7 +91,7 @@ getLabelAttributes
 
 
 getUseHiddenElement
--------------------
++++++++++++++++++++
 
 .. function:: getUseHiddenElement()
 
@@ -101,7 +104,7 @@ getUseHiddenElement
 
 
 setUseHiddenElement
--------------------
++++++++++++++++++++
 
 .. function:: setUseHiddenElement()
 
@@ -116,7 +119,7 @@ setUseHiddenElement
 
 
 getUncheckedValue
------------------
++++++++++++++++++
 
 .. function:: getUncheckedValue()
 
@@ -128,7 +131,7 @@ getUncheckedValue
 
 
 setUncheckedValue
------------------
++++++++++++++++++
 
 .. function:: setUncheckedValue()
 
@@ -142,7 +145,7 @@ setUncheckedValue
 
 
 render
-------
+++++++
 
 .. function:: render()
 
@@ -159,7 +162,7 @@ render
 
 
 renderOptions
--------------
++++++++++++++
 
 .. function:: renderOptions()
 
@@ -176,7 +179,7 @@ renderOptions
 
 
 renderHiddenElement
--------------------
++++++++++++++++++++
 
 .. function:: renderHiddenElement()
 
@@ -191,7 +194,7 @@ renderHiddenElement
 
 
 __invoke
---------
+++++++++
 
 .. function:: __invoke()
 
@@ -208,7 +211,7 @@ __invoke
 
 
 getInputType
-------------
+++++++++++++
 
 .. function:: getInputType()
 
@@ -220,7 +223,7 @@ getInputType
 
 
 getInputHelper
---------------
+++++++++++++++
 
 .. function:: getInputHelper()
 
@@ -232,7 +235,7 @@ getInputHelper
 
 
 getLabelHelper
---------------
+++++++++++++++
 
 .. function:: getLabelHelper()
 
@@ -244,7 +247,7 @@ getLabelHelper
 
 
 getName
--------
++++++++
 
 .. function:: getName()
 
@@ -262,11 +265,11 @@ getName
 
 
 Constants
-+++++++++
+---------
 
 LABEL_APPEND
-============
+++++++++++++
 
 LABEL_PREPEND
-=============
++++++++++++++
 

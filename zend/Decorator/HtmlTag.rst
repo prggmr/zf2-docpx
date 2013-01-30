@@ -1,5 +1,8 @@
-.. Tag/Cloud/Decorator/HtmlTag.php generated using docpx on 01/30/13 03:32am
+.. Tag/Cloud/Decorator/HtmlTag.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Tag\\Cloud\\Decorator\\HtmlTag
 ====================================
@@ -7,10 +10,10 @@ Zend\\Tag\\Cloud\\Decorator\\HtmlTag
 Simple HTML decorator for tags
 
 Methods
-+++++++
+-------
 
 setClassList
-------------
+++++++++++++
 
 .. function:: setClassList()
 
@@ -27,7 +30,7 @@ setClassList
 
 
 getClassList
-------------
+++++++++++++
 
 .. function:: getClassList()
 
@@ -39,7 +42,7 @@ getClassList
 
 
 setFontSizeUnit
----------------
++++++++++++++++
 
 .. function:: setFontSizeUnit()
 
@@ -57,7 +60,7 @@ setFontSizeUnit
 
 
 getFontSizeUnit
----------------
++++++++++++++++
 
 .. function:: getFontSizeUnit()
 
@@ -69,7 +72,7 @@ getFontSizeUnit
 
 
 setHTMLTags
------------
++++++++++++
 
 .. function:: setHTMLTags()
 
@@ -83,7 +86,7 @@ setHTMLTags
 
 
 getHTMLTags
------------
++++++++++++
 
 .. function:: getHTMLTags()
 
@@ -95,7 +98,7 @@ getHTMLTags
 
 
 setMaxFontSize
---------------
+++++++++++++++
 
 .. function:: setMaxFontSize()
 
@@ -111,7 +114,7 @@ setMaxFontSize
 
 
 getMaxFontSize
---------------
+++++++++++++++
 
 .. function:: getMaxFontSize()
 
@@ -123,7 +126,7 @@ getMaxFontSize
 
 
 setMinFontSize
---------------
+++++++++++++++
 
 .. function:: setMinFontSize()
 
@@ -139,7 +142,7 @@ setMinFontSize
 
 
 getMinFontSize
---------------
+++++++++++++++
 
 .. function:: getMinFontSize()
 
@@ -151,7 +154,7 @@ getMinFontSize
 
 
 render
-------
+++++++
 
 .. function:: render()
 

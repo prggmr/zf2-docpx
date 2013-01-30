@@ -1,14 +1,17 @@
-.. Mvc/View/Http/CreateViewModelListener.php generated using docpx on 01/30/13 03:32am
+.. Mvc/View/Http/CreateViewModelListener.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\View\\Http\\CreateViewModelListener
 ==============================================
 
 Methods
-+++++++
+-------
 
 attach
-------
+++++++
 
 .. function:: attach()
 
@@ -22,7 +25,7 @@ attach
 
 
 detach
-------
+++++++
 
 .. function:: detach()
 
@@ -36,7 +39,7 @@ detach
 
 
 createViewModelFromArray
-------------------------
+++++++++++++++++++++++++
 
 .. function:: createViewModelFromArray()
 
@@ -50,7 +53,7 @@ createViewModelFromArray
 
 
 createViewModelFromNull
------------------------
++++++++++++++++++++++++
 
 .. function:: createViewModelFromNull()
 

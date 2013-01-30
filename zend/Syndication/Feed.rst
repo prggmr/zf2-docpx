@@ -1,14 +1,17 @@
-.. Feed/Reader/Extension/Syndication/Feed.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Extension/Syndication/Feed.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Reader\\Extension\\Syndication\\Feed
 ================================================
 
 Methods
-+++++++
+-------
 
 getUpdatePeriod
----------------
++++++++++++++++
 
 .. function:: getUpdatePeriod()
 
@@ -22,7 +25,7 @@ getUpdatePeriod
 
 
 getUpdateFrequency
-------------------
+++++++++++++++++++
 
 .. function:: getUpdateFrequency()
 
@@ -34,7 +37,7 @@ getUpdateFrequency
 
 
 getUpdateFrequencyAsTicks
--------------------------
++++++++++++++++++++++++++
 
 .. function:: getUpdateFrequencyAsTicks()
 
@@ -46,7 +49,7 @@ getUpdateFrequencyAsTicks
 
 
 getUpdateBase
--------------
++++++++++++++
 
 .. function:: getUpdateBase()
 
@@ -58,7 +61,7 @@ getUpdateBase
 
 
 _getData
---------
+++++++++
 
 .. function:: _getData()
 
@@ -73,7 +76,7 @@ _getData
 
 
 registerNamespaces
-------------------
+++++++++++++++++++
 
 .. function:: registerNamespaces()
 

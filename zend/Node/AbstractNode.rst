@@ -1,5 +1,8 @@
-.. Ldap/Node/AbstractNode.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/AbstractNode.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\AbstractNode
 ==============================
@@ -7,10 +10,10 @@ Zend\\Ldap\\Node\\AbstractNode
 This class provides a base implementation for LDAP nodes
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -26,7 +29,7 @@ __construct
 
 
 loadData
---------
+++++++++
 
 .. function:: loadData()
 
@@ -38,7 +41,7 @@ loadData
 
 
 reload
-------
+++++++
 
 .. function:: reload()
 
@@ -54,7 +57,7 @@ reload
 
 
 _getDn
-------
+++++++
 
 .. function:: _getDn()
 
@@ -68,7 +71,7 @@ _getDn
 
 
 getDn
------
++++++
 
 .. function:: getDn()
 
@@ -83,7 +86,7 @@ getDn
 
 
 getDnString
------------
++++++++++++
 
 .. function:: getDnString()
 
@@ -99,7 +102,7 @@ getDnString
 
 
 getDnArray
-----------
+++++++++++
 
 .. function:: getDnArray()
 
@@ -115,7 +118,7 @@ getDnArray
 
 
 getRdnString
-------------
+++++++++++++
 
 .. function:: getRdnString()
 
@@ -131,7 +134,7 @@ getRdnString
 
 
 getRdnArray
------------
++++++++++++
 
 .. function:: getRdnArray()
 
@@ -147,7 +150,7 @@ getRdnArray
 
 
 getObjectClass
---------------
+++++++++++++++
 
 .. function:: getObjectClass()
 
@@ -159,7 +162,7 @@ getObjectClass
 
 
 getAttributes
--------------
++++++++++++++
 
 .. function:: getAttributes()
 
@@ -177,7 +180,7 @@ getAttributes
 
 
 toString
---------
+++++++++
 
 .. function:: toString()
 
@@ -189,7 +192,7 @@ toString
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -201,7 +204,7 @@ __toString
 
 
 toArray
--------
++++++++
 
 .. function:: toArray()
 
@@ -215,7 +218,7 @@ toArray
 
 
 toJson
-------
+++++++
 
 .. function:: toJson()
 
@@ -229,7 +232,7 @@ toJson
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -247,7 +250,7 @@ getData
 
 
 existsAttribute
----------------
++++++++++++++++
 
 .. function:: existsAttribute()
 
@@ -268,7 +271,7 @@ existsAttribute
 
 
 attributeHasValue
------------------
++++++++++++++++++
 
 .. function:: attributeHasValue()
 
@@ -283,7 +286,7 @@ attributeHasValue
 
 
 getAttribute
-------------
+++++++++++++
 
 .. function:: getAttribute()
 
@@ -302,7 +305,7 @@ getAttribute
 
 
 getDateTimeAttribute
---------------------
+++++++++++++++++++++
 
 .. function:: getDateTimeAttribute()
 
@@ -321,7 +324,7 @@ getDateTimeAttribute
 
 
 __set
------
++++++
 
 .. function:: __set()
 
@@ -338,7 +341,7 @@ __set
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -356,7 +359,7 @@ __get
 
 
 __unset
--------
++++++++
 
 .. function:: __unset()
 
@@ -374,7 +377,7 @@ __unset
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -390,7 +393,7 @@ __isset
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -410,7 +413,7 @@ offsetSet
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -429,7 +432,7 @@ offsetGet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -448,7 +451,7 @@ offsetUnset
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -465,7 +468,7 @@ offsetExists
 
 
 count
------
++++++
 
 .. function:: count()
 

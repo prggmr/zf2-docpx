@@ -1,5 +1,8 @@
-.. Cache/Pattern/PatternInterface.php generated using docpx on 01/30/13 03:32am
+.. Cache/Pattern/PatternInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Cache\\Pattern\\setOptions
 ================================
@@ -14,6 +17,9 @@ Zend\\Cache\\Pattern\\setOptions
     :rtype: PatternInterface 
 
 
+
+Function
+********
 
 Zend\\Cache\\Pattern\\getOptions
 ================================

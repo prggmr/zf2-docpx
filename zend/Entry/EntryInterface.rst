@@ -1,5 +1,8 @@
-.. Feed/Reader/Entry/EntryInterface.php generated using docpx on 01/30/13 03:32am
+.. Feed/Reader/Entry/EntryInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getAuthor
 ====================================
@@ -15,6 +18,9 @@ Zend\\Feed\\Reader\\Entry\\getAuthor
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getAuthors
 =====================================
 
@@ -26,6 +32,9 @@ Zend\\Feed\\Reader\\Entry\\getAuthors
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getContent
 =====================================
@@ -39,6 +48,9 @@ Zend\\Feed\\Reader\\Entry\\getContent
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getDateCreated
 =========================================
 
@@ -50,6 +62,9 @@ Zend\\Feed\\Reader\\Entry\\getDateCreated
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getDateModified
 ==========================================
@@ -63,6 +78,9 @@ Zend\\Feed\\Reader\\Entry\\getDateModified
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getDescription
 =========================================
 
@@ -74,6 +92,9 @@ Zend\\Feed\\Reader\\Entry\\getDescription
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getEnclosure
 =======================================
@@ -87,6 +108,9 @@ Zend\\Feed\\Reader\\Entry\\getEnclosure
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getId
 ================================
 
@@ -98,6 +122,9 @@ Zend\\Feed\\Reader\\Entry\\getId
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getLink
 ==================================
@@ -113,6 +140,9 @@ Zend\\Feed\\Reader\\Entry\\getLink
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getLinks
 ===================================
 
@@ -124,6 +154,9 @@ Zend\\Feed\\Reader\\Entry\\getLinks
     :rtype: array 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getPermalink
 =======================================
@@ -137,6 +170,9 @@ Zend\\Feed\\Reader\\Entry\\getPermalink
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getTitle
 ===================================
 
@@ -148,6 +184,9 @@ Zend\\Feed\\Reader\\Entry\\getTitle
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getCommentCount
 ==========================================
@@ -161,6 +200,9 @@ Zend\\Feed\\Reader\\Entry\\getCommentCount
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getCommentLink
 =========================================
 
@@ -173,6 +215,9 @@ Zend\\Feed\\Reader\\Entry\\getCommentLink
 
 
 
+Function
+********
+
 Zend\\Feed\\Reader\\Entry\\getCommentFeedLink
 =============================================
 
@@ -184,6 +229,9 @@ Zend\\Feed\\Reader\\Entry\\getCommentFeedLink
     :rtype: string 
 
 
+
+Function
+********
 
 Zend\\Feed\\Reader\\Entry\\getCategories
 ========================================

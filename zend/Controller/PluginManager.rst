@@ -1,5 +1,8 @@
-.. Mvc/Controller/PluginManager.php generated using docpx on 01/30/13 03:32am
+.. Mvc/Controller/PluginManager.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Mvc\\Controller\\PluginManager
 ====================================
@@ -10,10 +13,10 @@ Registers a number of default plugins, and contains an initializer for
 injecting plugins with the current controller.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -28,7 +31,7 @@ __construct
 
 
 get
----
++++
 
 .. function:: get()
 
@@ -51,7 +54,7 @@ get
 
 
 setController
--------------
++++++++++++++
 
 .. function:: setController()
 
@@ -65,7 +68,7 @@ setController
 
 
 getController
--------------
++++++++++++++
 
 .. function:: getController()
 
@@ -77,7 +80,7 @@ getController
 
 
 injectController
-----------------
+++++++++++++++++
 
 .. function:: injectController()
 
@@ -91,7 +94,7 @@ injectController
 
 
 validatePlugin
---------------
+++++++++++++++
 
 .. function:: validatePlugin()
 

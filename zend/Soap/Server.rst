@@ -1,5 +1,8 @@
-.. Soap/Server.php generated using docpx on 01/30/13 03:32am
+.. Soap/Server.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Soap\\Server
 ==================
@@ -7,10 +10,10 @@ Zend\\Soap\\Server
 Zend_Soap_Server
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -32,7 +35,7 @@ __construct
 
 
 setOptions
-----------
+++++++++++
 
 .. function:: setOptions()
 
@@ -48,7 +51,7 @@ setOptions
 
 
 getOptions
-----------
+++++++++++
 
 .. function:: getOptions()
 
@@ -60,7 +63,7 @@ getOptions
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -76,7 +79,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -88,7 +91,7 @@ getEncoding
 
 
 setSoapVersion
---------------
+++++++++++++++
 
 .. function:: setSoapVersion()
 
@@ -104,7 +107,7 @@ setSoapVersion
 
 
 getSoapVersion
---------------
+++++++++++++++
 
 .. function:: getSoapVersion()
 
@@ -116,7 +119,7 @@ getSoapVersion
 
 
 validateUrn
------------
++++++++++++
 
 .. function:: validateUrn()
 
@@ -132,7 +135,7 @@ validateUrn
 
 
 setActor
---------
+++++++++
 
 .. function:: setActor()
 
@@ -148,7 +151,7 @@ setActor
 
 
 getActor
---------
+++++++++
 
 .. function:: getActor()
 
@@ -160,7 +163,7 @@ getActor
 
 
 setUri
-------
+++++++
 
 .. function:: setUri()
 
@@ -176,7 +179,7 @@ setUri
 
 
 getUri
-------
+++++++
 
 .. function:: getUri()
 
@@ -188,7 +191,7 @@ getUri
 
 
 setClassmap
------------
++++++++++++
 
 .. function:: setClassmap()
 
@@ -204,7 +207,7 @@ setClassmap
 
 
 getClassmap
------------
++++++++++++
 
 .. function:: getClassmap()
 
@@ -216,7 +219,7 @@ getClassmap
 
 
 setWSDL
--------
++++++++
 
 .. function:: setWSDL()
 
@@ -230,7 +233,7 @@ setWSDL
 
 
 getWSDL
--------
++++++++
 
 .. function:: getWSDL()
 
@@ -242,7 +245,7 @@ getWSDL
 
 
 setSoapFeatures
----------------
++++++++++++++++
 
 .. function:: setSoapFeatures()
 
@@ -256,7 +259,7 @@ setSoapFeatures
 
 
 getSoapFeatures
----------------
++++++++++++++++
 
 .. function:: getSoapFeatures()
 
@@ -268,7 +271,7 @@ getSoapFeatures
 
 
 setWSDLCache
-------------
+++++++++++++
 
 .. function:: setWSDLCache()
 
@@ -282,7 +285,7 @@ setWSDLCache
 
 
 getWSDLCache
-------------
+++++++++++++
 
 .. function:: getWSDLCache()
 
@@ -292,7 +295,7 @@ getWSDLCache
 
 
 addFunction
------------
++++++++++++
 
 .. function:: addFunction()
 
@@ -310,7 +313,7 @@ or SOAP_FUNCTIONS_ALL to attach all functions
 
 
 setClass
---------
+++++++++
 
 .. function:: setClass()
 
@@ -334,7 +337,7 @@ does not exist
 
 
 setObject
----------
++++++++++
 
 .. function:: setObject()
 
@@ -352,7 +355,7 @@ setObject
 
 
 getFunctions
-------------
+++++++++++++
 
 .. function:: getFunctions()
 
@@ -369,7 +372,7 @@ getFunctions
 
 
 loadFunctions
--------------
++++++++++++++
 
 .. function:: loadFunctions()
 
@@ -385,7 +388,7 @@ loadFunctions
 
 
 setPersistence
---------------
+++++++++++++++
 
 .. function:: setPersistence()
 
@@ -401,7 +404,7 @@ setPersistence
 
 
 getPersistence
---------------
+++++++++++++++
 
 .. function:: getPersistence()
 
@@ -413,7 +416,7 @@ getPersistence
 
 
 _setRequest
------------
++++++++++++
 
 .. function:: _setRequest()
 
@@ -436,7 +439,7 @@ _setRequest
 
 
 getLastRequest
---------------
+++++++++++++++
 
 .. function:: getLastRequest()
 
@@ -448,7 +451,7 @@ getLastRequest
 
 
 setReturnResponse
------------------
++++++++++++++++++
 
 .. function:: setReturnResponse()
 
@@ -467,7 +470,7 @@ setReturnResponse
 
 
 getReturnResponse
------------------
++++++++++++++++++
 
 .. function:: getReturnResponse()
 
@@ -479,7 +482,7 @@ getReturnResponse
 
 
 getResponse
------------
++++++++++++
 
 .. function:: getResponse()
 
@@ -491,7 +494,7 @@ getResponse
 
 
 _getSoap
---------
+++++++++
 
 .. function:: _getSoap()
 
@@ -507,7 +510,7 @@ _getSoap
 
 
 handle
-------
+++++++
 
 .. function:: handle()
 
@@ -534,7 +537,7 @@ handle
 
 
 _initializeSoapErrorContext
----------------------------
++++++++++++++++++++++++++++
 
 .. function:: _initializeSoapErrorContext()
 
@@ -546,7 +549,7 @@ _initializeSoapErrorContext
 
 
 registerFaultException
-----------------------
+++++++++++++++++++++++
 
 .. function:: registerFaultException()
 
@@ -560,7 +563,7 @@ registerFaultException
 
 
 deregisterFaultException
-------------------------
+++++++++++++++++++++++++
 
 .. function:: deregisterFaultException()
 
@@ -574,7 +577,7 @@ deregisterFaultException
 
 
 getFaultExceptions
-------------------
+++++++++++++++++++
 
 .. function:: getFaultExceptions()
 
@@ -586,7 +589,7 @@ getFaultExceptions
 
 
 fault
------
++++++
 
 .. function:: fault()
 
@@ -608,7 +611,7 @@ fault
 
 
 handlePhpErrors
----------------
++++++++++++++++
 
 .. function:: handlePhpErrors()
 

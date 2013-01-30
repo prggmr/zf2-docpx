@@ -1,5 +1,8 @@
-.. Http/PhpEnvironment/Request.php generated using docpx on 01/30/13 03:32am
+.. Http/PhpEnvironment/Request.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\PhpEnvironment\\Request
 ===================================
@@ -7,10 +10,10 @@ Zend\\Http\\PhpEnvironment\\Request
 HTTP Request for current PHP environment
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -33,7 +36,7 @@ getContent
 
 
 setCookies
-----------
+++++++++++
 
 .. function:: setCookies()
 
@@ -49,7 +52,7 @@ setCookies
 
 
 setRequestUri
--------------
++++++++++++++
 
 .. function:: setRequestUri()
 
@@ -63,7 +66,7 @@ setRequestUri
 
 
 getRequestUri
--------------
++++++++++++++
 
 .. function:: getRequestUri()
 
@@ -75,7 +78,7 @@ getRequestUri
 
 
 setBaseUrl
-----------
+++++++++++
 
 .. function:: setBaseUrl()
 
@@ -89,7 +92,7 @@ setBaseUrl
 
 
 getBaseUrl
-----------
+++++++++++
 
 .. function:: getBaseUrl()
 
@@ -101,7 +104,7 @@ getBaseUrl
 
 
 setBasePath
------------
++++++++++++
 
 .. function:: setBasePath()
 
@@ -115,7 +118,7 @@ setBasePath
 
 
 getBasePath
------------
++++++++++++
 
 .. function:: getBasePath()
 
@@ -127,7 +130,7 @@ getBasePath
 
 
 setServer
----------
++++++++++
 
 .. function:: setServer()
 
@@ -142,7 +145,7 @@ setServer
 
 
 getServer
----------
++++++++++
 
 .. function:: getServer()
 
@@ -159,7 +162,7 @@ getServer
 
 
 setEnv
-------
+++++++
 
 .. function:: setEnv()
 
@@ -174,7 +177,7 @@ setEnv
 
 
 getEnv
-------
+++++++
 
 .. function:: getEnv()
 
@@ -189,7 +192,7 @@ getEnv
 
 
 mapPhpFiles
------------
++++++++++++
 
 .. function:: mapPhpFiles()
 
@@ -202,7 +205,7 @@ mapPhpFiles
 
 
 mapPhpFileParam
----------------
++++++++++++++++
 
 .. function:: mapPhpFileParam()
 
@@ -216,7 +219,7 @@ mapPhpFileParam
 
 
 detectRequestUri
-----------------
+++++++++++++++++
 
 .. function:: detectRequestUri()
 
@@ -231,7 +234,7 @@ detectRequestUri
 
 
 detectBaseUrl
--------------
++++++++++++++
 
 .. function:: detectBaseUrl()
 
@@ -248,7 +251,7 @@ detectBaseUrl
 
 
 detectBasePath
---------------
+++++++++++++++
 
 .. function:: detectBasePath()
 

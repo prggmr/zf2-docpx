@@ -1,5 +1,8 @@
-.. Feed/Writer/Entry.php generated using docpx on 01/30/13 03:32am
+.. Feed/Writer/Entry.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Feed\\Writer\\Entry
 =========================
@@ -7,10 +10,10 @@ Zend\\Feed\\Writer\\Entry
 
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -21,7 +24,7 @@ __construct
 
 
 addAuthor
----------
++++++++++
 
 .. function:: addAuthor()
 
@@ -42,7 +45,7 @@ addAuthor
 
 
 addAuthors
-----------
+++++++++++
 
 .. function:: addAuthors()
 
@@ -57,7 +60,7 @@ addAuthors
 
 
 setEncoding
------------
++++++++++++
 
 .. function:: setEncoding()
 
@@ -73,7 +76,7 @@ setEncoding
 
 
 getEncoding
------------
++++++++++++
 
 .. function:: getEncoding()
 
@@ -85,7 +88,7 @@ getEncoding
 
 
 setCopyright
-------------
+++++++++++++
 
 .. function:: setCopyright()
 
@@ -101,7 +104,7 @@ setCopyright
 
 
 setContent
-----------
+++++++++++
 
 .. function:: setContent()
 
@@ -117,7 +120,7 @@ setContent
 
 
 setDateCreated
---------------
+++++++++++++++
 
 .. function:: setDateCreated()
 
@@ -133,7 +136,7 @@ setDateCreated
 
 
 setDateModified
----------------
++++++++++++++++
 
 .. function:: setDateModified()
 
@@ -149,7 +152,7 @@ setDateModified
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 
@@ -165,7 +168,7 @@ setDescription
 
 
 setId
------
++++++
 
 .. function:: setId()
 
@@ -181,7 +184,7 @@ setId
 
 
 setLink
--------
++++++++
 
 .. function:: setLink()
 
@@ -197,7 +200,7 @@ setLink
 
 
 setCommentCount
----------------
++++++++++++++++
 
 .. function:: setCommentCount()
 
@@ -213,7 +216,7 @@ setCommentCount
 
 
 setCommentLink
---------------
+++++++++++++++
 
 .. function:: setCommentLink()
 
@@ -229,7 +232,7 @@ setCommentLink
 
 
 setCommentFeedLink
-------------------
+++++++++++++++++++
 
 .. function:: setCommentFeedLink()
 
@@ -245,7 +248,7 @@ setCommentFeedLink
 
 
 setCommentFeedLinks
--------------------
++++++++++++++++++++
 
 .. function:: setCommentFeedLinks()
 
@@ -261,7 +264,7 @@ setCommentFeedLinks
 
 
 setTitle
---------
+++++++++
 
 .. function:: setTitle()
 
@@ -277,7 +280,7 @@ setTitle
 
 
 getAuthors
-----------
+++++++++++
 
 .. function:: getAuthors()
 
@@ -289,7 +292,7 @@ getAuthors
 
 
 getContent
-----------
+++++++++++
 
 .. function:: getContent()
 
@@ -301,7 +304,7 @@ getContent
 
 
 getCopyright
-------------
+++++++++++++
 
 .. function:: getCopyright()
 
@@ -313,7 +316,7 @@ getCopyright
 
 
 getDateCreated
---------------
+++++++++++++++
 
 .. function:: getDateCreated()
 
@@ -325,7 +328,7 @@ getDateCreated
 
 
 getDateModified
----------------
++++++++++++++++
 
 .. function:: getDateModified()
 
@@ -337,7 +340,7 @@ getDateModified
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -349,7 +352,7 @@ getDescription
 
 
 getId
------
++++++
 
 .. function:: getId()
 
@@ -361,7 +364,7 @@ getId
 
 
 getLink
--------
++++++++
 
 .. function:: getLink()
 
@@ -373,7 +376,7 @@ getLink
 
 
 getLinks
---------
+++++++++
 
 .. function:: getLinks()
 
@@ -385,7 +388,7 @@ getLinks
 
 
 getTitle
---------
+++++++++
 
 .. function:: getTitle()
 
@@ -397,7 +400,7 @@ getTitle
 
 
 getCommentCount
----------------
++++++++++++++++
 
 .. function:: getCommentCount()
 
@@ -409,7 +412,7 @@ getCommentCount
 
 
 getCommentLink
---------------
+++++++++++++++
 
 .. function:: getCommentLink()
 
@@ -421,7 +424,7 @@ getCommentLink
 
 
 getCommentFeedLinks
--------------------
++++++++++++++++++++
 
 .. function:: getCommentFeedLinks()
 
@@ -434,7 +437,7 @@ getCommentFeedLinks
 
 
 addCategory
------------
++++++++++++
 
 .. function:: addCategory()
 
@@ -450,7 +453,7 @@ addCategory
 
 
 addCategories
--------------
++++++++++++++
 
 .. function:: addCategories()
 
@@ -464,7 +467,7 @@ addCategories
 
 
 getCategories
--------------
++++++++++++++
 
 .. function:: getCategories()
 
@@ -476,7 +479,7 @@ getCategories
 
 
 setEnclosure
-------------
+++++++++++++
 
 .. function:: setEnclosure()
 
@@ -495,7 +498,7 @@ setEnclosure
 
 
 getEnclosure
-------------
+++++++++++++
 
 .. function:: getEnclosure()
 
@@ -507,7 +510,7 @@ getEnclosure
 
 
 remove
-------
+++++++
 
 .. function:: remove()
 
@@ -521,7 +524,7 @@ remove
 
 
 getExtensions
--------------
++++++++++++++
 
 .. function:: getExtensions()
 
@@ -533,7 +536,7 @@ getExtensions
 
 
 getExtension
-------------
+++++++++++++
 
 .. function:: getExtension()
 
@@ -547,7 +550,7 @@ getExtension
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -563,7 +566,7 @@ setType
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -575,7 +578,7 @@ getType
 
 
 __call
-------
+++++++
 
 .. function:: __call()
 
@@ -592,7 +595,7 @@ __call
 
 
 createSource
-------------
+++++++++++++
 
 .. function:: createSource()
 
@@ -606,7 +609,7 @@ createSource
 
 
 setSource
----------
++++++++++
 
 .. function:: setSource()
 
@@ -621,7 +624,7 @@ setSource
 
 
 getSource
----------
++++++++++
 
 .. function:: getSource()
 
@@ -631,7 +634,7 @@ getSource
 
 
 _loadExtensions
----------------
++++++++++++++++
 
 .. function:: _loadExtensions()
 

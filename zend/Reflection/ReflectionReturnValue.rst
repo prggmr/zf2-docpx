@@ -1,5 +1,8 @@
-.. Server/Reflection/ReflectionReturnValue.php generated using docpx on 01/30/13 03:32am
+.. Server/Reflection/ReflectionReturnValue.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Server\\Reflection\\ReflectionReturnValue
 ===============================================
@@ -9,10 +12,10 @@ Return value reflection
 Stores the return value type and description
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -25,7 +28,7 @@ __construct
 
 
 getType
--------
++++++++
 
 .. function:: getType()
 
@@ -37,7 +40,7 @@ getType
 
 
 setType
--------
++++++++
 
 .. function:: setType()
 
@@ -53,7 +56,7 @@ setType
 
 
 getDescription
---------------
+++++++++++++++
 
 .. function:: getDescription()
 
@@ -65,7 +68,7 @@ getDescription
 
 
 setDescription
---------------
+++++++++++++++
 
 .. function:: setDescription()
 

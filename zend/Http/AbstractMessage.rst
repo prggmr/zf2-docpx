@@ -1,5 +1,8 @@
-.. Http/AbstractMessage.php generated using docpx on 01/30/13 03:32am
+.. Http/AbstractMessage.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Http\\AbstractMessage
 ===========================
@@ -7,10 +10,10 @@ Zend\\Http\\AbstractMessage
 HTTP standard message (Request/Response)
 
 Methods
-+++++++
+-------
 
 setVersion
-----------
+++++++++++
 
 .. function:: setVersion()
 
@@ -27,7 +30,7 @@ setVersion
 
 
 getVersion
-----------
+++++++++++
 
 .. function:: getVersion()
 
@@ -39,7 +42,7 @@ getVersion
 
 
 setHeaders
-----------
+++++++++++
 
 .. function:: setHeaders()
 
@@ -55,7 +58,7 @@ setHeaders
 
 
 getHeaders
-----------
+++++++++++
 
 .. function:: getHeaders()
 
@@ -67,7 +70,7 @@ getHeaders
 
 
 __toString
-----------
+++++++++++
 
 .. function:: __toString()
 
@@ -81,11 +84,11 @@ __toString
 
 
 Constants
-+++++++++
+---------
 
 VERSION_10
-==========
+++++++++++
 
 VERSION_11
-==========
+++++++++++
 

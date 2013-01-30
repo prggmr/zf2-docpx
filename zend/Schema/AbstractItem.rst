@@ -1,5 +1,8 @@
-.. Ldap/Node/Schema/AbstractItem.php generated using docpx on 01/30/13 03:32am
+.. Ldap/Node/Schema/AbstractItem.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Ldap\\Node\\Schema\\AbstractItem
 ======================================
@@ -8,10 +11,10 @@ This class provides a base implementation for managing schema
 items like objectClass and attributeType.
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setData
--------
++++++++
 
 .. function:: setData()
 
@@ -37,7 +40,7 @@ setData
 
 
 getData
--------
++++++++
 
 .. function:: getData()
 
@@ -49,7 +52,7 @@ getData
 
 
 __get
------
++++++
 
 .. function:: __get()
 
@@ -63,7 +66,7 @@ __get
 
 
 __isset
--------
++++++++
 
 .. function:: __isset()
 
@@ -77,7 +80,7 @@ __isset
 
 
 offsetSet
----------
++++++++++
 
 .. function:: offsetSet()
 
@@ -95,7 +98,7 @@ offsetSet
 
 
 offsetGet
----------
++++++++++
 
 .. function:: offsetGet()
 
@@ -109,7 +112,7 @@ offsetGet
 
 
 offsetUnset
------------
++++++++++++
 
 .. function:: offsetUnset()
 
@@ -126,7 +129,7 @@ offsetUnset
 
 
 offsetExists
-------------
+++++++++++++
 
 .. function:: offsetExists()
 
@@ -140,7 +143,7 @@ offsetExists
 
 
 count
------
++++++
 
 .. function:: count()
 

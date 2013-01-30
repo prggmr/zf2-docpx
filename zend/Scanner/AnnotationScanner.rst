@@ -1,14 +1,17 @@
-.. Code/Scanner/AnnotationScanner.php generated using docpx on 01/30/13 03:32am
+.. Code/Scanner/AnnotationScanner.php generated using docpx on 01/30/13 03:02pm
 
+
+Class
+*****
 
 Zend\\Code\\Scanner\\AnnotationScanner
 ======================================
 
 Methods
-+++++++
+-------
 
 __construct
------------
++++++++++++
 
 .. function:: __construct()
 
@@ -23,7 +26,7 @@ __construct
 
 
 setNameInformation
-------------------
+++++++++++++++++++
 
 .. function:: setNameInformation()
 
@@ -33,7 +36,7 @@ setNameInformation
 
 
 scan
-----
+++++
 
 .. function:: scan()
 
@@ -43,7 +46,7 @@ scan
 
 
 tokenize
---------
+++++++++
 
 .. function:: tokenize()
 

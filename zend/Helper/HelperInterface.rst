@@ -1,5 +1,8 @@
-.. View/Helper/HelperInterface.php generated using docpx on 01/30/13 03:32am
+.. View/Helper/HelperInterface.php generated using docpx on 01/30/13 03:02pm
 
+
+Function
+********
 
 Zend\\View\\Helper\\setView
 ===========================
@@ -14,6 +17,9 @@ Zend\\View\\Helper\\setView
     :rtype: HelperInterface 
 
 
+
+Function
+********
 
 Zend\\View\\Helper\\getView
 ===========================
