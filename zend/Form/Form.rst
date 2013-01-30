@@ -1,21 +1,16 @@
-.. /Form/Form.php generated using docpx on 01/15/13 05:29pm
+.. Form/Form.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Form
-****************
-
-
-@category   Zend
-
-
+================
 
 Methods
-=======
++++++++
 
 add
 ---
 
-.. function:: add($elementOrFieldset, [$flags = false])
+.. function:: add()
 
 
     Add an element or fieldset
@@ -26,8 +21,8 @@ add
     $flags could contain metadata such as the alias under which to register
     the element or fieldset, order in which to prioritize it, etc.
 
-    :param array|Traversable|ElementInterface $elementOrFieldset: 
-    :param array $flags: 
+    :param array|Traversable|ElementInterface: 
+    :param array: 
 
     :rtype: \Zend\Form\Fieldset|\Zend\Form\FieldsetInterface|\Zend\Form\FormInterface 
 
@@ -52,14 +47,14 @@ prepare
 setData
 -------
 
-.. function:: setData($data)
+.. function:: setData()
 
 
     Set data to validate and/or populate elements
     
     Typically, also passes data on to the composed input filter.
 
-    :param array|\ArrayAccess|\Traversable $data: 
+    :param array|\ArrayAccess|\Traversable: 
 
     :rtype: Form|FormInterface 
 
@@ -70,15 +65,15 @@ setData
 bind
 ----
 
-.. function:: bind($object, [$flags = 17])
+.. function:: bind()
 
 
     Bind an object to the form
     
     Ensures the object is populated with validated values.
 
-    :param object $object: 
-    :param int $flags: 
+    :param object: 
+    :param int: 
 
     :rtype: mixed|void 
 
@@ -89,12 +84,12 @@ bind
 setHydrator
 -----------
 
-.. function:: setHydrator($hydrator)
+.. function:: setHydrator()
 
 
     Set the hydrator to use when binding an object to the element
 
-    :param HydratorInterface $hydrator: 
+    :param HydratorInterface: 
 
     :rtype: FieldsetInterface 
 
@@ -103,12 +98,12 @@ setHydrator
 bindValues
 ----------
 
-.. function:: bindValues([$values = false])
+.. function:: bindValues()
 
 
     Bind values to the bound object
 
-    :param array $values: 
+    :param array: 
 
     :rtype: mixed 
 
@@ -117,13 +112,13 @@ bindValues
 prepareBindData
 ---------------
 
-.. function:: prepareBindData($values, $match)
+.. function:: prepareBindData()
 
 
     Parse filtered values and return only posted fields for binding
 
-    :param array $values: 
-    :param array $match: 
+    :param array: 
+    :param array: 
 
     :rtype: array 
 
@@ -132,12 +127,12 @@ prepareBindData
 setBindOnValidate
 -----------------
 
-.. function:: setBindOnValidate($bindOnValidateFlag)
+.. function:: setBindOnValidate()
 
 
     Set flag indicating whether or not to bind values on successful validation
 
-    :param int $bindOnValidateFlag: 
+    :param int: 
 
     :rtype: void|Form 
 
@@ -160,12 +155,12 @@ bindOnValidate
 setBaseFieldset
 ---------------
 
-.. function:: setBaseFieldset($baseFieldset)
+.. function:: setBaseFieldset()
 
 
     Set the base fieldset to use when hydrating
 
-    :param FieldsetInterface $baseFieldset: 
+    :param FieldsetInterface: 
 
     :rtype: Form 
 
@@ -216,7 +211,7 @@ isValid
 getData
 -------
 
-.. function:: getData([$flag = 17])
+.. function:: getData()
 
 
     Retrieve the validated data
@@ -224,7 +219,7 @@ getData
     By default, retrieves normalized values; pass one of the
     FormInterface::VALUES_* constants to shape the behavior.
 
-    :param int $flag: 
+    :param int: 
 
     :rtype: array|object 
 
@@ -250,27 +245,27 @@ setValidationGroup
 prepareValidationGroup
 ----------------------
 
-.. function:: prepareValidationGroup($formOrFieldset, $data, $validationGroup)
+.. function:: prepareValidationGroup()
 
 
     Prepare the validation group in case Collection elements were used (this function also handle the case where elements
     could have been dynamically added or removed from a collection using JavaScript)
 
-    :param FieldsetInterface $formOrFieldset: 
-    :param array $data: 
-    :param array $validationGroup: 
+    :param FieldsetInterface: 
+    :param array: 
+    :param array: 
 
 
 
 setInputFilter
 --------------
 
-.. function:: setInputFilter($inputFilter)
+.. function:: setInputFilter()
 
 
     Set the input filter used by this form
 
-    :param InputFilterInterface $inputFilter: 
+    :param InputFilterInterface: 
 
     :rtype: FormInterface 
 
@@ -291,12 +286,12 @@ getInputFilter
 setUseInputFilterDefaults
 -------------------------
 
-.. function:: setUseInputFilterDefaults($useInputFilterDefaults)
+.. function:: setUseInputFilterDefaults()
 
 
     Set flag indicating whether or not to scan elements and fieldsets for defaults
 
-    :param bool $useInputFilterDefaults: 
+    :param bool: 
 
     :rtype: Form 
 
@@ -314,16 +309,42 @@ useInputFilterDefaults
 
 
 
+setPreferFormInputFilter
+------------------------
+
+.. function:: setPreferFormInputFilter()
+
+
+    Set flag indicating whether or not to prefer the form input filter over element and fieldset defaults
+
+    :param bool: 
+
+    :rtype: Form 
+
+
+
+getPreferFormInputFilter
+------------------------
+
+.. function:: getPreferFormInputFilter()
+
+
+    Should we use form input filter over element input filter defaults from elements and fieldsets?
+
+    :rtype: bool 
+
+
+
 attachInputFilterDefaults
 -------------------------
 
-.. function:: attachInputFilterDefaults($inputFilter, $fieldset)
+.. function:: attachInputFilterDefaults()
 
 
     Attach defaults provided by the elements to the input filter
 
-    :param InputFilterInterface $inputFilter: 
-    :param FieldsetInterface $fieldset: Fieldset to traverse when looking for default inputs
+    :param InputFilterInterface: 
+    :param FieldsetInterface: Fieldset to traverse when looking for default inputs
 
     :rtype: void 
 
@@ -332,12 +353,12 @@ attachInputFilterDefaults
 setWrapElements
 ---------------
 
-.. function:: setWrapElements($wrapElements)
+.. function:: setWrapElements()
 
 
     Are the form elements/fieldsets names wrapped by the form name ?
 
-    :param bool $wrapElements: 
+    :param bool: 
 
     :rtype: Form 
 
@@ -364,8 +385,6 @@ extract
     Recursively extract values for elements and sub-fieldsets, and populate form values
 
     :rtype: array 
-
-
 
 
 

@@ -1,34 +1,29 @@
-.. /Code/Reflection/DocBlock/Tag/GenericTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/GenericTag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\GenericTag
-*************************************************
-
-
-@category   Zend
-
-
+=================================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$contentSplitCharacter = " "])
+.. function:: __construct()
 
 
-    @param string $contentSplitCharacter
+    @param  string $contentSplitCharacter
 
 
 
 initialize
 ----------
 
-.. function:: initialize($tagDocBlockLine)
+.. function:: initialize()
 
 
-    @param string $tagDocBlockLine
+    @param  string $tagDocBlockLine
 
     :rtype: void 
 
@@ -49,7 +44,10 @@ getName
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
+
+
+    @param  string $name
 
 
 
@@ -59,11 +57,19 @@ getContent
 .. function:: getContent()
 
 
+    @return string
+
+
 
 returnValue
 -----------
 
-.. function:: returnValue($position)
+.. function:: returnValue()
+
+
+    @param  integer $position
+
+    :rtype: string 
 
 
 
@@ -78,10 +84,6 @@ __toString
     Required by Reflector
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: string 
 
 
@@ -89,9 +91,10 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 parse
 -----
 
-.. function:: parse($docBlockLine)
+.. function:: parse()
 
 
+    @param  string $docBlockLine
 
 
 

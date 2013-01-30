@@ -1,16 +1,13 @@
-.. /Console/Adapter/Posix.php generated using docpx on 01/15/13 05:29pm
+.. Console/Adapter/Posix.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Adapter\\Posix
-*****************************
-
+=============================
 
 @todo Add GNU readline support
 
-
-
 Methods
-=======
++++++++
 
 getWidth
 --------
@@ -83,27 +80,27 @@ hideCursor
 setPos
 ------
 
-.. function:: setPos($x, $y)
+.. function:: setPos()
 
 
     Set cursor position
 
-    :param int $x: 
-    :param int $y: 
+    :param int: 
+    :param int: 
 
 
 
 colorize
 --------
 
-.. function:: colorize($string, [$color = false, [$bgColor = false]])
+.. function:: colorize()
 
 
     Prepare a string that will be rendered in color.
 
-    :param string $string: 
-    :param int $color: 
-    :param null|int $bgColor: 
+    :param string: 
+    :param int: 
+    :param null|int: 
 
     :throws Exception\BadMethodCallException: 
 
@@ -114,12 +111,12 @@ colorize
 setColor
 --------
 
-.. function:: setColor($color)
+.. function:: setColor()
 
 
     Change current drawing color.
 
-    :param int $color: 
+    :param int: 
 
     :throws Exception\BadMethodCallException: 
 
@@ -128,12 +125,12 @@ setColor
 setBgColor
 ----------
 
-.. function:: setBgColor($bgColor)
+.. function:: setBgColor()
 
 
     Change current drawing background color
 
-    :param int $bgColor: 
+    :param int: 
 
     :throws Exception\BadMethodCallException: 
 
@@ -164,12 +161,12 @@ getTitle
 setCharset
 ----------
 
-.. function:: setCharset($charset)
+.. function:: setCharset()
 
 
     Set Console charset to use.
 
-    :param Charset\CharsetInterface $charset: 
+    :param Charset\CharsetInterface: 
 
 
 
@@ -198,12 +195,12 @@ getDefaultCharset
 readChar
 --------
 
-.. function:: readChar([$mask = false])
+.. function:: readChar()
 
 
     Read a single character from the console input
 
-    :param string|null $mask: A list of allowed chars
+    :param string|null: A list of allowed chars
 
     :rtype: string 
 
@@ -234,19 +231,29 @@ restoreTTYMode
 setTTYMode
 ----------
 
-.. function:: setTTYMode($mode)
+.. function:: setTTYMode()
 
 
     Change TTY (Console) mode
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :param $mode: 
 
 
+
+getColorCode
+------------
+
+.. function:: getColorCode()
+
+
+    Get the final color code and throw exception on error
+
+    :param null|int|Xterm256: 
+
+    :throws Exception\BadMethodCallException: 
+
+    :rtype: string 
 
 
 

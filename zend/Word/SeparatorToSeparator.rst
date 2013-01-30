@@ -1,39 +1,34 @@
-.. /Filter/Word/SeparatorToSeparator.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Word/SeparatorToSeparator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Word\\SeparatorToSeparator
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$searchSeparator = " ", [$replacementSeparator = "-"]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $searchSeparator: Separator to search for
-    :param string $replacementSeparator: Separator to replace with
+    :param string: Separator to search for
+    :param string: Separator to replace with
 
 
 
 setSearchSeparator
 ------------------
 
-.. function:: setSearchSeparator($separator)
+.. function:: setSearchSeparator()
 
 
     Sets a new seperator to search for
 
-    :param string $separator: Seperator to search for
+    :param string: Seperator to search for
 
     :rtype: SeparatorToSeparator 
 
@@ -54,12 +49,12 @@ getSearchSeparator
 setReplacementSeparator
 -----------------------
 
-.. function:: setReplacementSeparator($separator)
+.. function:: setReplacementSeparator()
 
 
     Sets a new separator which replaces the searched one
 
-    :param string $separator: Separator which replaces the searched one
+    :param string: Separator which replaces the searched one
 
     :rtype: SeparatorToSeparator 
 
@@ -80,36 +75,16 @@ getReplacementSeparator
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\Filter
     
     Returns the string $value, replacing the searched separators with the defined ones
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
-
-
-
-_separatorToSeparatorFilter
----------------------------
-
-.. function:: _separatorToSeparatorFilter($value)
-
-
-    Do the real work, replaces the seperator to search for with the replacement seperator
-    
-    Returns the replaced string
-
-    :param string $value: 
-
-    :rtype: string 
-
-    :throws: Exception\RuntimeException 
-
-
 
 
 

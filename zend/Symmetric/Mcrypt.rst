@@ -1,9 +1,8 @@
-.. /Crypt/Symmetric/Mcrypt.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/Symmetric/Mcrypt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\Symmetric\\Mcrypt
-******************************
-
+==============================
 
 Symmetric encryption using the Mcrypt extension
 
@@ -11,20 +10,18 @@ NOTE: DO NOT USE only this class to encrypt data.
 This class doesn't provide authentication and integrity check over the data.
 PLEASE USE Zend\Crypt\BlockCipher instead!
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws Exception\RuntimeException: 
     :throws Exception\InvalidArgumentException: 
@@ -34,12 +31,12 @@ __construct
 setDefaultOptions
 -----------------
 
-.. function:: setDefaultOptions([$options = false])
+.. function:: setDefaultOptions()
 
 
     Set default options
 
-    :param array $options: 
+    :param array: 
 
     :rtype: void 
 
@@ -60,12 +57,12 @@ getPaddingPluginManager
 setPaddingPluginManager
 -----------------------
 
-.. function:: setPaddingPluginManager($plugins)
+.. function:: setPaddingPluginManager()
 
 
     Set the padding plugin manager
 
-    :param string|PaddingPluginManager $plugins: 
+    :param string|PaddingPluginManager: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -88,12 +85,12 @@ getKeySize
 setKey
 ------
 
-.. function:: setKey($key)
+.. function:: setKey()
 
 
     Set the encryption key
 
-    :param string $key: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -116,12 +113,12 @@ getKey
 setAlgorithm
 ------------
 
-.. function:: setAlgorithm($algo)
+.. function:: setAlgorithm()
 
 
     Set the encryption algorithm (cipher)
 
-    :param string $algo: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -144,12 +141,12 @@ getAlgorithm
 setPadding
 ----------
 
-.. function:: setPadding($padding)
+.. function:: setPadding()
 
 
     Set the padding object
 
-    :param Padding\PaddingInterface $padding: 
+    :param Padding\PaddingInterface: 
 
     :rtype: Mcrypt 
 
@@ -170,12 +167,12 @@ getPadding
 encrypt
 -------
 
-.. function:: encrypt($data)
+.. function:: encrypt()
 
 
     Encrypt
 
-    :param string $data: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -186,12 +183,12 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($data)
+.. function:: decrypt()
 
 
     Decrypt
 
-    :param string $data: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -226,12 +223,12 @@ getSupportedAlgorithms
 setSalt
 -------
 
-.. function:: setSalt($salt)
+.. function:: setSalt()
 
 
     Set the salt (IV)
 
-    :param string $salt: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -245,7 +242,19 @@ getSalt
 .. function:: getSalt()
 
 
-    Get the salt (IV)
+    Get the salt (IV) according to the size requested by the algorithm
+
+    :rtype: string 
+
+
+
+getOriginalSalt
+---------------
+
+.. function:: getOriginalSalt()
+
+
+    Get the original salt value
 
     :rtype: string 
 
@@ -254,12 +263,12 @@ getSalt
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Set the cipher mode
 
-    :param string $mode: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -306,8 +315,8 @@ getBlockSize
 
 
 Constants
----------
++++++++++
 
 DEFAULT_PADDING
-+++++++++++++++
+===============
 

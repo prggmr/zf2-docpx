@@ -1,26 +1,23 @@
-.. /Di/Definition/Builder/PhpClass.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/Builder/PhpClass.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\Builder\\PhpClass
-***************************************
-
+=======================================
 
 Object containing definitions for a single class
 
-
-
 Methods
-=======
++++++++
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: PhpClass 
 
@@ -41,7 +38,7 @@ getName
 setInstantiator
 ---------------
 
-.. function:: setInstantiator($instantiator)
+.. function:: setInstantiator()
 
 
     @param  string|\Callable|array $instantiator
@@ -63,7 +60,7 @@ getInstantiator
 addSuperType
 ------------
 
-.. function:: addSuperType($superType)
+.. function:: addSuperType()
 
 
     @param  string   $superType
@@ -87,12 +84,12 @@ getSuperTypes
 addInjectionMethod
 ------------------
 
-.. function:: addInjectionMethod($injectionMethod)
+.. function:: addInjectionMethod()
 
 
     Add injection method
 
-    :param InjectionMethod $injectionMethod: 
+    :param InjectionMethod: 
 
     :rtype: PhpClass 
 
@@ -101,7 +98,7 @@ addInjectionMethod
 createInjectionMethod
 ---------------------
 
-.. function:: createInjectionMethod([$name = false])
+.. function:: createInjectionMethod()
 
 
     Create and register an injection method
@@ -112,7 +109,7 @@ createInjectionMethod
     order to provide a more fluent interface for building classes with
     injection methods.
 
-    :param null|string $name: 
+    :param null|string: 
 
     :rtype: InjectionMethod 
 
@@ -121,12 +118,12 @@ createInjectionMethod
 setMethodBuilder
 ----------------
 
-.. function:: setMethodBuilder($class)
+.. function:: setMethodBuilder()
 
 
     Override which class will be used by {@link createInjectionMethod()}
 
-    :param string $class: 
+    :param string: 
 
     :rtype: PhpClass 
 
@@ -153,8 +150,6 @@ getInjectionMethods
 
 
     @return InjectionMethod[]
-
-
 
 
 

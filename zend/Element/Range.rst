@@ -1,16 +1,11 @@
-.. /Form/Element/Range.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Range.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Range
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 getValidators
 -------------
@@ -21,8 +16,6 @@ getValidators
     Get validator
 
     :rtype: \Zend\Validator\ValidatorInterface[] 
-
-
 
 
 

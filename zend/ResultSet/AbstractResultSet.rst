@@ -1,26 +1,21 @@
-.. /Db/ResultSet/AbstractResultSet.php generated using docpx on 01/15/13 05:29pm
+.. Db/ResultSet/AbstractResultSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\ResultSet\\AbstractResultSet
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($dataSource)
+.. function:: initialize()
 
 
     Set the data source for the result set
 
-    :param Iterator|IteratorAggregate|ResultInterface $dataSource: 
+    :param Iterator|IteratorAggregate|ResultInterface: 
 
     :rtype: ResultSet 
 
@@ -149,8 +144,6 @@ toArray
     :rtype: array 
 
     :throws: Exception\RuntimeException if any row is not castable to an array
-
-
 
 
 

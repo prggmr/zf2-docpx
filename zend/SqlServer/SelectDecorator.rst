@@ -1,18 +1,16 @@
-.. /Db/Sql/Platform/SqlServer/SelectDecorator.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Platform/SqlServer/SelectDecorator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Platform\\SqlServer\\SelectDecorator
-***************************************************
-
-
+===================================================
 
 Methods
-=======
++++++++
 
 setSubject
 ----------
 
-.. function:: setSubject($select)
+.. function:: setSubject()
 
 
     @param Select $select
@@ -22,19 +20,19 @@ setSubject
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
-    @param Adapter $adapter
+    @param AdapterInterface $adapter
 
-    :param StatementContainerInterface $statementContainer: 
+    :param StatementContainerInterface: 
 
 
 
 getSqlString
 ------------
 
-.. function:: getSqlString([$platform = false])
+.. function:: getSqlString()
 
 
     @param PlatformInterface $platform
@@ -46,19 +44,17 @@ getSqlString
 processLimitOffset
 ------------------
 
-.. function:: processLimitOffset($platform, [$adapter = false, [$parameterContainer = false, $sqls, $parameters]])
+.. function:: processLimitOffset()
 
 
     @param PlatformInterface $platform
 
-    :param Adapter $adapter: 
-    :param ParameterContainer $parameterContainer: 
+    :param DriverInterface: 
+    :param ParameterContainer: 
     :param $sqls: 
     :param $parameters: 
 
     :rtype: null 
-
-
 
 
 

@@ -1,4 +1,4 @@
-.. /Feed/PubSubHubbub/CallbackInterface.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/CallbackInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\handle
@@ -11,8 +11,8 @@ Zend\\Feed\\PubSubHubbub\\handle
     unsubscription request. This should be the Hub Server confirming the
     the request prior to taking action on it.
 
-    :param array $httpData: GET/POST data if available and not in $_GET/POST
-    :param bool $sendResponseNow: Whether to send response now or when asked
+    :param array: GET/POST data if available and not in $_GET/POST
+    :param bool: Whether to send response now or when asked
 
 
 
@@ -41,7 +41,7 @@ Zend\\Feed\\PubSubHubbub\\setHttpResponse
     Zend_Feed_Pubsubhubbub_HttpResponse which shares an unenforced interface with
     (i.e. not inherited from) Zend_Controller_Response_Http.
 
-    :param HttpResponse|\Zend\Http\PhpEnvironment\Response $httpResponse: 
+    :param HttpResponse|\Zend\Http\PhpEnvironment\Response: 
 
 
 

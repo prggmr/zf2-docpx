@@ -1,16 +1,11 @@
-.. /Code/Reflection/FunctionReflection.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/FunctionReflection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\FunctionReflection
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 getDocBlock
 -----------
@@ -28,12 +23,12 @@ getDocBlock
 getStartLine
 ------------
 
-.. function:: getStartLine([$includeDocComment = false])
+.. function:: getStartLine()
 
 
     Get start line (position) of function
 
-    :param bool $includeDocComment: 
+    :param bool: 
 
     :rtype: int 
 
@@ -42,12 +37,12 @@ getStartLine
 getContents
 -----------
 
-.. function:: getContents([$includeDocBlock = true])
+.. function:: getContents()
 
 
     Get contents of function
 
-    :param bool $includeDocBlock: 
+    :param bool: 
 
     :rtype: string 
 
@@ -61,7 +56,7 @@ getParameters
 
     Get function parameters
 
-    :rtype: ReflectionParameter[] 
+    :rtype: ParameterReflection[] 
 
 
 
@@ -74,7 +69,7 @@ getReturn
     Get return type tag
 
 
-    :rtype: DocBlock\Tag\ReturnTag 
+    :rtype: ReturnTag 
 
 
 
@@ -94,8 +89,6 @@ __toString
     Required due to bug in php
 
     :rtype: string 
-
-
 
 
 

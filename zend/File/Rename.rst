@@ -1,21 +1,16 @@
-.. /Filter/File/Rename.php generated using docpx on 01/15/13 05:29pm
+.. Filter/File/Rename.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\File\\Rename
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($options)
+.. function:: __construct()
 
 
     Class constructor
@@ -25,8 +20,9 @@ __construct
     'source'    => Source filename or directory which will be renamed
     'target'    => Target filename or directory, the new name of the source file
     'overwrite' => Shall existing files be overwritten ?
+    'randomize' => Shall target files have a random postfix attached?
 
-    :param string|array|Traversable $options: Target file or directory to be renamed
+    :param string|array|Traversable: Target file or directory to be renamed
 
     :throws Exception\InvalidArgumentException: 
 
@@ -47,7 +43,7 @@ getFile
 setFile
 -------
 
-.. function:: setFile($options)
+.. function:: setFile()
 
 
     Sets a new file or directory as target, deleting existing ones
@@ -55,9 +51,10 @@ setFile
     Array accepts the following keys:
     'source'    => Source filename or directory which will be renamed
     'target'    => Target filename or directory, the new name of the sourcefile
-    'overwrite' => Shall existing files be overwritten ?
+    'overwrite' => Shall existing files be overwritten?
+    'randomize' => Shall target files have a random postfix attached?
 
-    :param string|array $options: Old file or directory to be rewritten
+    :param string|array: Old file or directory to be rewritten
 
     :rtype: \Zend\Filter\File\Rename 
 
@@ -66,7 +63,7 @@ setFile
 addFile
 -------
 
-.. function:: addFile($options)
+.. function:: addFile()
 
 
     Adds a new file or directory as target to the existing ones
@@ -74,9 +71,10 @@ addFile
     Array accepts the following keys:
     'source'    => Source filename or directory which will be renamed
     'target'    => Target filename or directory, the new name of the sourcefile
-    'overwrite' => Shall existing files be overwritten ?
+    'overwrite' => Shall existing files be overwritten?
+    'randomize' => Shall target files have a random postfix attached?
 
-    :param string|array $options: Old file or directory to be rewritten
+    :param string|array: Old file or directory to be rewritten
 
     :rtype: Rename 
 
@@ -87,14 +85,14 @@ addFile
 getNewName
 ----------
 
-.. function:: getNewName($value, [$source = false])
+.. function:: getNewName()
 
 
     Returns only the new filename without moving it
     But existing files will be erased when the overwrite option is true
 
-    :param string $value: Full path of file to change
-    :param bool $source: Return internal informations
+    :param string: Full path of file to change
+    :param bool: Return internal informations
 
     :rtype: string The new filename which has been set
 
@@ -105,7 +103,7 @@ getNewName
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\Filter
@@ -113,24 +111,24 @@ filter
     Renames the file $value to the new name set before
     Returns the file $value, removing all but digit characters
 
-    :param string $value: Full path of file to change
+    :param string|array: Full path of file to change or $_FILES data array
 
     :throws Exception\RuntimeException: 
 
-    :rtype: string The new filename which has been set, or false when there were errors
+    :rtype: string|array The new filename which has been set
 
 
 
 _convertOptions
 ---------------
 
-.. function:: _convertOptions($options)
+.. function:: _convertOptions()
 
 
     Internal method for creating the file array
     Supports single and nested arrays
 
-    :param array $options: 
+    :param array: 
 
     :rtype: array 
 
@@ -139,17 +137,15 @@ _convertOptions
 _getFileName
 ------------
 
-.. function:: _getFileName($file)
+.. function:: _getFileName()
 
 
     Internal method to resolve the requested source
     and return all other related parameters
 
-    :param string $file: Filename to get the informations for
+    :param string: Filename to get the informations for
 
     :rtype: array|string 
-
-
 
 
 

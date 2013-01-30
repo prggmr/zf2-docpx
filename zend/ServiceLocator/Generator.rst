@@ -1,41 +1,38 @@
-.. /Di/ServiceLocator/Generator.php generated using docpx on 01/15/13 05:29pm
+.. Di/ServiceLocator/Generator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\ServiceLocator\\Generator
-***********************************
-
+===================================
 
 Generator that creates the body of a service locator that can emulate the logic of the given Zend\Di\Di instance
 without class definitions
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($injector)
+.. function:: __construct()
 
 
     Constructor
     
     Requires a DependencyInjection manager on which to operate.
 
-    :param Di $injector: 
+    :param Di: 
 
 
 
 setContainerClass
 -----------------
 
-.. function:: setContainerClass($name)
+.. function:: setContainerClass()
 
 
     Set the class name for the generated service locator container
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Generator 
 
@@ -44,12 +41,12 @@ setContainerClass
 setNamespace
 ------------
 
-.. function:: setNamespace($namespace)
+.. function:: setNamespace()
 
 
     Set the namespace to use for the generated class file
 
-    :param string $namespace: 
+    :param string: 
 
     :rtype: Generator 
 
@@ -58,7 +55,7 @@ setNamespace
 getCodeGenerator
 ----------------
 
-.. function:: getCodeGenerator([$filename = false])
+.. function:: getCodeGenerator()
 
 
     Construct, configure, and return a PHP class file code generation object
@@ -66,7 +63,7 @@ getCodeGenerator
     Creates a Zend\Code\Generator\FileGenerator object that has
     created the specified class and service locator methods.
 
-    :param null|string $filename: 
+    :param null|string: 
 
     :throws \Zend\Di\Exception\RuntimeException: 
 
@@ -77,7 +74,7 @@ getCodeGenerator
 reduceAliases
 -------------
 
-.. function:: reduceAliases($aliasList)
+.. function:: reduceAliases()
 
 
     Reduces aliases
@@ -86,7 +83,7 @@ reduceAliases
     class names pointing to an array of aliases that resolve to
     it.
 
-    :param array $aliasList: 
+    :param array: 
 
     :rtype: array 
 
@@ -95,13 +92,13 @@ reduceAliases
 getCodeGenMethodFromAlias
 -------------------------
 
-.. function:: getCodeGenMethodFromAlias($alias, $class)
+.. function:: getCodeGenMethodFromAlias()
 
 
     Create a PhpMethod code generation object named after a given alias
 
-    :param string $alias: 
-    :param string $class: Class to which alias refers
+    :param string: 
+    :param string: Class to which alias refers
 
     :rtype: MethodGenerator 
 
@@ -110,16 +107,14 @@ getCodeGenMethodFromAlias
 normalizeAlias
 --------------
 
-.. function:: normalizeAlias($alias)
+.. function:: normalizeAlias()
 
 
     Normalize an alias to a getter method name
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

@@ -1,30 +1,25 @@
-.. /Form/Element/Password.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Password.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Password
-*****************************
+=============================
 
-
-@category   Zend
-
-
+@copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-=======
++++++++
 
 prepareElement
 --------------
 
-.. function:: prepareElement($form)
+.. function:: prepareElement()
 
 
     Remove the password before rendering if the form fails in order to avoid any security issue
 
-    :param Form $form: 
+    :param FormInterface: 
 
     :rtype: mixed 
-
-
 
 
 

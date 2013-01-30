@@ -1,13 +1,8 @@
-.. /Barcode/Object/Planet.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Planet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Planet
-*****************************
-
+=============================
 
 Class for generate Planet barcode
-
-
-
-
 

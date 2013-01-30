@@ -1,26 +1,35 @@
-.. /Form/View/Helper/FormCollection.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormCollection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormCollection
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a collection by iterating through all fieldsets and elements
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
+
+    :rtype: string 
+
+
+
+renderTemplate
+--------------
+
+.. function:: renderTemplate()
+
+
+    Only render a template
+
+    :param CollectionElement: 
 
     :rtype: string 
 
@@ -29,15 +38,15 @@ render
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$wrap = true]])
+.. function:: __invoke()
 
 
     Invoke helper as function
     
     Proxies to {@link render()}.
 
-    :param ElementInterface|null $element: 
-    :param bool $wrap: 
+    :param ElementInterface|null: 
+    :param bool: 
 
     :rtype: string|FormCollection 
 
@@ -46,12 +55,12 @@ __invoke
 setShouldWrap
 -------------
 
-.. function:: setShouldWrap($wrap)
+.. function:: setShouldWrap()
 
 
     If set to true, collections are automatically wrapped around a fieldset
 
-    :param bool $wrap: 
+    :param bool: 
 
     :rtype: FormCollection 
 
@@ -84,12 +93,12 @@ getDefaultElementHelper
 setDefaultElementHelper
 -----------------------
 
-.. function:: setDefaultElementHelper($defaultSubHelper)
+.. function:: setDefaultElementHelper()
 
 
     Sets the name of the view helper that should be used to render sub elements.
 
-    :param string $defaultSubHelper: The name of the view helper to set.
+    :param string: The name of the view helper to set.
 
     :rtype: FormCollection 
 
@@ -111,16 +120,40 @@ getElementHelper
 setElementHelper
 ----------------
 
-.. function:: setElementHelper($elementHelper)
+.. function:: setElementHelper()
 
 
     Sets the element helper that should be used by this collection.
 
-    :param AbstractHelper $elementHelper: The element helper to use.
+    :param AbstractHelper: The element helper to use.
 
     :rtype: FormCollection 
 
 
+
+getFieldsetHelper
+-----------------
+
+.. function:: getFieldsetHelper()
+
+
+    Retrieve the fieldset helper.
+
+    :rtype: AbstractHelper 
+
+
+
+setFieldsetHelper
+-----------------
+
+.. function:: setFieldsetHelper()
+
+
+    Sets the fieldset helper that should be used by this collection.
+
+    :param AbstractHelper: The fieldset helper to use.
+
+    :rtype: FormCollection 
 
 
 

@@ -1,26 +1,23 @@
-.. /Filter/Encrypt.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Encrypt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Encrypt
-*********************
-
+=====================
 
 Encrypts a given string
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param string|array|Traversable $options: (Optional) Options to set, if null mcrypt is used
+    :param string|array|Traversable: (Optional) Options to set, if null mcrypt is used
 
 
 
@@ -39,12 +36,12 @@ getAdapter
 setAdapter
 ----------
 
-.. function:: setAdapter([$options = false])
+.. function:: setAdapter()
 
 
     Sets new encryption options
 
-    :param string|array $options: (Optional) Encryption options
+    :param string|array: (Optional) Encryption options
 
     :rtype: Encrypt 
 
@@ -56,13 +53,13 @@ setAdapter
 __call
 ------
 
-.. function:: __call($method, $options)
+.. function:: __call()
 
 
     Calls adapter methods
 
-    :param string $method: Method to call
-    :param string|array $options: Options for this method
+    :param string: Method to call
+    :param string|array: Options for this method
 
     :rtype: mixed 
 
@@ -73,18 +70,16 @@ __call
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\Filter
     
     Encrypts the content $value with the defined settings
 
-    :param string $value: Content to encrypt
+    :param string: Content to encrypt
 
     :rtype: string The encrypted content
-
-
 
 
 

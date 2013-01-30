@@ -1,16 +1,13 @@
-.. /Barcode/Barcode.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Barcode.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Barcode
-**********************
-
+======================
 
 Class for generate Barcode
 
-
-
 Methods
-=======
++++++++
 
 getObjectPluginManager
 ----------------------
@@ -39,7 +36,7 @@ getRendererPluginManager
 factory
 -------
 
-.. function:: factory($barcode, [$renderer = "image", [$barcodeConfig = false, [$rendererConfig = false, [$automaticRenderError = true]]]])
+.. function:: factory()
 
 
     Factory for Zend_Barcode classes.
@@ -58,11 +55,11 @@ factory
     If the first argument is of type Traversable, it is assumed to contain
     all parameters, and the second argument is ignored.
 
-    :param mixed $barcode: String name of barcode class, or Traversable object.
-    :param mixed $renderer: String name of renderer class
-    :param mixed $barcodeConfig: OPTIONAL; an array or Traversable object with barcode parameters.
-    :param mixed $rendererConfig: OPTIONAL; an array or Traversable object with renderer parameters.
-    :param bool $automaticRenderError: OPTIONAL; set the automatic rendering of exception
+    :param mixed: String name of barcode class, or Traversable object.
+    :param mixed: String name of renderer class
+    :param mixed: OPTIONAL; an array or Traversable object with barcode parameters.
+    :param mixed: OPTIONAL; an array or Traversable object with renderer parameters.
+    :param bool: OPTIONAL; set the automatic rendering of exception
 
     :rtype: Barcode 
 
@@ -73,13 +70,13 @@ factory
 makeBarcode
 -----------
 
-.. function:: makeBarcode($barcode, [$barcodeConfig = false])
+.. function:: makeBarcode()
 
 
     Barcode Constructor
 
-    :param mixed $barcode: String name of barcode class, or Traversable object, or barcode object.
-    :param mixed $barcodeConfig: OPTIONAL; an array or Traversable object with barcode parameters.
+    :param mixed: String name of barcode class, or Traversable object, or barcode object.
+    :param mixed: OPTIONAL; an array or Traversable object with barcode parameters.
 
     :throws Exception\InvalidArgumentException: 
 
@@ -90,13 +87,13 @@ makeBarcode
 makeRenderer
 ------------
 
-.. function:: makeRenderer([$renderer = "image", [$rendererConfig = false]])
+.. function:: makeRenderer()
 
 
     Renderer Constructor
 
-    :param mixed $renderer: String name of renderer class, or Traversable object.
-    :param mixed $rendererConfig: OPTIONAL; an array or Traversable object with renderer parameters.
+    :param mixed: String name of renderer class, or Traversable object.
+    :param mixed: OPTIONAL; an array or Traversable object with renderer parameters.
 
     :throws Exception\RendererCreationException: 
 
@@ -107,30 +104,30 @@ makeRenderer
 render
 ------
 
-.. function:: render($barcode, $renderer, [$barcodeConfig = false, [$rendererConfig = false]])
+.. function:: render()
 
 
     Proxy to renderer render() method
 
-    :param string |: Object\ObjectInterface | array | Traversable $barcode
-    :param string |: Renderer\RendererInterface $renderer
-    :param array |: Traversable $barcodeConfig
-    :param array |: Traversable $rendererConfig
+    :param string: Object\ObjectInterface | array | Traversable $barcode
+    :param string: Renderer\RendererInterface $renderer
+    :param array: Traversable $barcodeConfig
+    :param array: Traversable $rendererConfig
 
 
 
 draw
 ----
 
-.. function:: draw($barcode, $renderer, [$barcodeConfig = false, [$rendererConfig = false]])
+.. function:: draw()
 
 
     Proxy to renderer draw() method
 
-    :param string |: Object\ObjectInterface | array | Traversable $barcode
-    :param string |: Renderer\RendererInterface $renderer
-    :param array |: Traversable $barcodeConfig
-    :param array |: Traversable $rendererConfig
+    :param string: Object\ObjectInterface | array | Traversable $barcode
+    :param string: Renderer\RendererInterface $renderer
+    :param array: Traversable $barcodeConfig
+    :param array: Traversable $rendererConfig
 
     :rtype: mixed 
 
@@ -139,12 +136,12 @@ draw
 setBarcodeFont
 --------------
 
-.. function:: setBarcodeFont($font)
+.. function:: setBarcodeFont()
 
 
     Set the default font for new instances of barcode
 
-    :param string $font: 
+    :param string: 
 
     :rtype: void 
 
@@ -159,8 +156,6 @@ getBarcodeFont
     Get current default font
 
     :rtype: string 
-
-
 
 
 

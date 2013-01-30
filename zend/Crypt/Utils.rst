@@ -1,21 +1,18 @@
-.. /Crypt/Utils.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/Utils.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\Utils
-******************
-
+==================
 
 Tools for cryptography
 
-
-
 Methods
-=======
++++++++
 
 compareStrings
 --------------
 
-.. function:: compareStrings($expected, $actual)
+.. function:: compareStrings()
 
 
     Compare two strings to avoid timing attacks
@@ -25,12 +22,10 @@ compareStrings
     timing information useful to an attacker attempting to iteratively guess
     the unknown string (e.g. password).
 
-    :param string $expected: 
-    :param string $actual: 
+    :param string: 
+    :param string: 
 
     :rtype: bool 
-
-
 
 
 

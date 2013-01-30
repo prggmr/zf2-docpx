@@ -1,4 +1,4 @@
-.. /Feed/Reader/Entry/EntryInterface.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Entry/EntryInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Entry\\getAuthor
@@ -9,7 +9,7 @@ Zend\\Feed\\Reader\\Entry\\getAuthor
 
     Get the specified author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -107,7 +107,7 @@ Zend\\Feed\\Reader\\Entry\\getLink
 
     Get a specific link
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string 
 

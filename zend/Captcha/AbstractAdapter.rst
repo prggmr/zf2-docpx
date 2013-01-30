@@ -1,18 +1,15 @@
-.. /Captcha/AbstractAdapter.php generated using docpx on 01/15/13 05:29pm
+.. Captcha/AbstractAdapter.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Captcha\\AbstractAdapter
-******************************
-
+==============================
 
 Base class for Captcha adapters
 
 Provides some utility functionality to build on
 
-
-
 Methods
-=======
++++++++
 
 getName
 -------
@@ -29,12 +26,12 @@ getName
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: AbstractAdapter 
 
@@ -43,13 +40,13 @@ setName
 setOption
 ---------
 
-.. function:: setOption($key, $value)
+.. function:: setOption()
 
 
     Set single option for the object
 
-    :param string $key: 
-    :param string $value: 
+    :param string: 
+    :param string: 
 
     :rtype: AbstractAdapter 
 
@@ -58,12 +55,12 @@ setOption
 setOptions
 ----------
 
-.. function:: setOptions([$options = false])
+.. function:: setOptions()
 
 
     Set object state from options array
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -94,8 +91,6 @@ getHelperName
     By default, return empty string, indicating no helper needed.
 
     :rtype: string 
-
-
 
 
 

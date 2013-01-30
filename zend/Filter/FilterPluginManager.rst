@@ -1,9 +1,8 @@
-.. /Filter/FilterPluginManager.php generated using docpx on 01/15/13 05:29pm
+.. Filter/FilterPluginManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\FilterPluginManager
-*********************************
-
+=================================
 
 Plugin manager implementation for the filter chain.
 
@@ -11,15 +10,13 @@ Enforces that filters retrieved are either callbacks or instances of
 FilterInterface. Additionally, it registers a number of default filters
 available, as well as aliases for them.
 
-
-
 Methods
-=======
++++++++
 
 validatePlugin
 --------------
 
-.. function:: validatePlugin($plugin)
+.. function:: validatePlugin()
 
 
     Validate the plugin
@@ -27,13 +24,11 @@ validatePlugin
     Checks that the filter loaded is either a valid callback or an instance
     of FilterInterface.
 
-    :param mixed $plugin: 
+    :param mixed: 
 
     :rtype: void 
 
     :throws: Exception\RuntimeException if invalid
-
-
 
 
 

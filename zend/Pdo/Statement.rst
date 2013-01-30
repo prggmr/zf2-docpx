@@ -1,40 +1,57 @@
-.. /Db/Adapter/Driver/Pdo/Statement.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pdo/Statement.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Statement
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Pdo $driver: 
+    :param Pdo: 
 
     :rtype: Statement 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Statement 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 initialize
 ----------
 
-.. function:: initialize($connectionResource)
+.. function:: initialize()
 
 
     Initialize
 
-    :param \PDO $connectionResource: 
+    :param \PDO: 
 
     :rtype: Statement 
 
@@ -43,12 +60,12 @@ initialize
 setResource
 -----------
 
-.. function:: setResource($pdoStatement)
+.. function:: setResource()
 
 
     Set resource
 
-    :param \PDOStatement $pdoStatement: 
+    :param \PDOStatement: 
 
     :rtype: Statement 
 
@@ -69,12 +86,12 @@ getResource
 setSql
 ------
 
-.. function:: setSql($sql)
+.. function:: setSql()
 
 
     Set sql
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: Statement 
 
@@ -95,7 +112,7 @@ getSql
 setParameterContainer
 ---------------------
 
-.. function:: setParameterContainer($parameterContainer)
+.. function:: setParameterContainer()
 
 
     @param ParameterContainer $parameterContainer
@@ -117,7 +134,7 @@ getParameterContainer
 prepare
 -------
 
-.. function:: prepare([$sql = false])
+.. function:: prepare()
 
 
     @param string $sql
@@ -138,7 +155,7 @@ isPrepared
 execute
 -------
 
-.. function:: execute([$parameters = false])
+.. function:: execute()
 
 
     @param mixed $parameters
@@ -167,8 +184,6 @@ __clone
     Perform a deep clone
 
     :rtype: Statement A cloned statement
-
-
 
 
 

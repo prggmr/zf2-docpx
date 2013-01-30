@@ -1,21 +1,16 @@
-.. /Filter/StripTags.php generated using docpx on 01/15/13 05:29pm
+.. Filter/StripTags.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\StripTags
-***********************
-
-
-@category   Zend
-
-
+=======================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Sets the filter options
@@ -24,7 +19,7 @@ __construct
         'allowAttribs'  => Attributes which are allowed
         'allowComments' => Are comments allowed ?
 
-    :param string|array|Traversable $options: 
+    :param string|array|Traversable: 
 
 
 
@@ -43,12 +38,12 @@ getTagsAllowed
 setTagsAllowed
 --------------
 
-.. function:: setTagsAllowed($tagsAllowed)
+.. function:: setTagsAllowed()
 
 
     Sets the tagsAllowed option
 
-    :param array|string $tagsAllowed: 
+    :param array|string: 
 
     :rtype: StripTags Provides a fluent interface
 
@@ -69,12 +64,12 @@ getAttributesAllowed
 setAttributesAllowed
 --------------------
 
-.. function:: setAttributesAllowed($attributesAllowed)
+.. function:: setAttributesAllowed()
 
 
     Sets the attributesAllowed option
 
-    :param array|string $attributesAllowed: 
+    :param array|string: 
 
     :rtype: StripTags Provides a fluent interface
 
@@ -83,17 +78,13 @@ setAttributesAllowed
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
 
@@ -102,12 +93,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 _filterTag
 ----------
 
-.. function:: _filterTag($tag)
+.. function:: _filterTag()
 
 
     Filters a single tag against the current option settings
 
-    :param string $tag: 
+    :param string: 
 
     :rtype: string 
 
@@ -116,10 +107,10 @@ _filterTag
 
 
 Constants
----------
++++++++++
 
 UNIQUE_ID_PREFIX
-++++++++++++++++
+================
 
 Unique ID prefix used for allowing comments
 

@@ -1,27 +1,22 @@
-.. /Cache/PatternFactory.php generated using docpx on 01/15/13 05:29pm
+.. Cache/PatternFactory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\PatternFactory
-***************************
-
-
-@category   Zend
-
-
+===========================
 
 Methods
-=======
++++++++
 
 factory
 -------
 
-.. function:: factory($patternName, [$options = false])
+.. function:: factory()
 
 
     Instantiate a cache pattern
 
-    :param string|Pattern\PatternInterface $patternName: 
-    :param array|Traversable|Pattern\PatternOptions $options: 
+    :param string|Pattern\PatternInterface: 
+    :param array|Traversable|Pattern\PatternOptions: 
 
     :rtype: Pattern\PatternInterface 
 
@@ -44,12 +39,12 @@ getPluginManager
 setPluginManager
 ----------------
 
-.. function:: setPluginManager($plugins)
+.. function:: setPluginManager()
 
 
     Set the pattern plugin manager
 
-    :param PatternPluginManager $plugins: 
+    :param PatternPluginManager: 
 
     :rtype: void 
 
@@ -64,8 +59,6 @@ resetPluginManager
     Reset pattern plugin manager to default
 
     :rtype: void 
-
-
 
 
 

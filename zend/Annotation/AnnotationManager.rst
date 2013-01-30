@@ -1,9 +1,8 @@
-.. /Code/Annotation/AnnotationManager.php generated using docpx on 01/15/13 05:29pm
+.. Code/Annotation/AnnotationManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Annotation\\AnnotationManager
-*****************************************
-
+=========================================
 
 Pluggable annotation manager
 
@@ -13,20 +12,18 @@ annotation content, and the raw annotation string; the first listener to
 return an object will halt execution of the event, and that object will be
 returned as the annotation.
 
-
-
 Methods
-=======
++++++++
 
 setEventManager
 ---------------
 
-.. function:: setEventManager($events)
+.. function:: setEventManager()
 
 
     Set the event manager instance
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: AnnotationManager 
 
@@ -49,12 +46,12 @@ getEventManager
 attach
 ------
 
-.. function:: attach($parser)
+.. function:: attach()
 
 
     Attach a parser to listen to the createAnnotation event
 
-    :param Parser\ParserInterface $parser: 
+    :param ParserInterface: 
 
     :rtype: AnnotationManager 
 
@@ -63,29 +60,22 @@ attach
 createAnnotation
 ----------------
 
-.. function:: createAnnotation($annotationData)
+.. function:: createAnnotation()
 
 
     Create Annotation
 
-    :param array $annotationData: 
+    :param array: 
 
     :rtype: false|\stdClass 
-
-
-
-$r
---
-
-.. function:: $r()
 
 
 
 
 
 Constants
----------
++++++++++
 
 EVENT_CREATE_ANNOTATION
-+++++++++++++++++++++++
+=======================
 

@@ -1,21 +1,18 @@
-.. /Filter/Encrypt/Openssl.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Encrypt/Openssl.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Encrypt\\Openssl
-******************************
-
+==============================
 
 Encryption adapter for openssl
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
@@ -27,7 +24,7 @@ __construct
       'compression' => compress value with this compression adapter
       'package'     => pack envelope keys into encrypted string, simplifies decryption
 
-    :param string|array|Traversable $options: Options for this adapter
+    :param string|array|Traversable: Options for this adapter
 
     :throws Exception\ExtensionNotLoadedException: 
 
@@ -36,12 +33,12 @@ __construct
 _setKeys
 --------
 
-.. function:: _setKeys($keys)
+.. function:: _setKeys()
 
 
     Sets the encryption keys
 
-    :param string|array $keys: Key with type association
+    :param string|array: Key with type association
 
     :rtype: Openssl 
 
@@ -64,12 +61,12 @@ getPublicKey
 setPublicKey
 ------------
 
-.. function:: setPublicKey($key)
+.. function:: setPublicKey()
 
 
     Sets public keys
 
-    :param string|array $key: Public keys
+    :param string|array: Public keys
 
     :rtype: \Zend\Filter\Encrypt\Openssl 
 
@@ -90,13 +87,13 @@ getPrivateKey
 setPrivateKey
 -------------
 
-.. function:: setPrivateKey($key, [$passphrase = false])
+.. function:: setPrivateKey()
 
 
     Sets private keys
 
-    :param string $key: Private key
-    :param string $passphrase: 
+    :param string: Private key
+    :param string: 
 
     :rtype: Openssl 
 
@@ -117,12 +114,12 @@ getEnvelopeKey
 setEnvelopeKey
 --------------
 
-.. function:: setEnvelopeKey($key)
+.. function:: setEnvelopeKey()
 
 
     Sets envelope keys
 
-    :param string|array $key: Envelope keys
+    :param string|array: Envelope keys
 
     :rtype: \Zend\Filter\Encrypt\Openssl 
 
@@ -143,12 +140,12 @@ getPassphrase
 setPassphrase
 -------------
 
-.. function:: setPassphrase($passphrase)
+.. function:: setPassphrase()
 
 
     Sets a new passphrase
 
-    :param string $passphrase: 
+    :param string: 
 
     :rtype: Openssl 
 
@@ -169,12 +166,12 @@ getCompression
 setCompression
 --------------
 
-.. function:: setCompression($compression)
+.. function:: setCompression()
 
 
     Sets a internal compression for values to encrypt
 
-    :param string|array $compression: 
+    :param string|array: 
 
     :rtype: Openssl 
 
@@ -195,12 +192,12 @@ getPackage
 setPackage
 ----------
 
-.. function:: setPackage($package)
+.. function:: setPackage()
 
 
     Sets if the envelope keys should be included in the encrypted value
 
-    :param bool $package: 
+    :param bool: 
 
     :rtype: Openssl 
 
@@ -209,13 +206,13 @@ setPackage
 encrypt
 -------
 
-.. function:: encrypt($value)
+.. function:: encrypt()
 
 
     Encrypts $value with the defined settings
     Note that you also need the "encrypted" keys to be able to decrypt
 
-    :param string $value: Content to encrypt
+    :param string: Content to encrypt
 
     :rtype: string The encrypted content
 
@@ -226,14 +223,14 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($value)
+.. function:: decrypt()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Decrypts $value with the defined settings
 
-    :param string $value: Content to decrypt
+    :param string: Content to decrypt
 
     :rtype: string The decrypted content
 
@@ -250,8 +247,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

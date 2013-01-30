@@ -1,38 +1,33 @@
-.. /Db/Metadata/Object/AbstractTableObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/AbstractTableObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\AbstractTableObject
-***********************************************
-
-
-@category   Zend
-
-
+===============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name)
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $name: 
+    :param string: 
 
 
 
 setColumns
 ----------
 
-.. function:: setColumns($columns)
+.. function:: setColumns()
 
 
     Set columns
 
-    :param array $columns: 
+    :param array: 
 
 
 
@@ -51,12 +46,12 @@ getColumns
 setConstraints
 --------------
 
-.. function:: setConstraints($constraints)
+.. function:: setConstraints()
 
 
     Set constraints
 
-    :param array $constraints: 
+    :param array: 
 
 
 
@@ -75,12 +70,12 @@ getConstraints
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set name
 
-    :param string $name: 
+    :param string: 
 
 
 
@@ -93,8 +88,6 @@ getName
     Get name
 
     :rtype: string 
-
-
 
 
 

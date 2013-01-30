@@ -1,24 +1,21 @@
-.. /EventManager/EventManager.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/EventManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\EventManager
-********************************
-
+================================
 
 Event manager: notification system
 
 Use the EventManager when you want to create a per-instance notification
 system for your objects.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$identifiers = false])
+.. function:: __construct()
 
 
     Constructor
@@ -26,19 +23,19 @@ __construct
     Allows optionally specifying identifier(s) to use to pull signals from a
     SharedEventManagerInterface.
 
-    :param null|string|int|array|Traversable $identifiers: 
+    :param null|string|int|array|Traversable: 
 
 
 
 setEventClass
 -------------
 
-.. function:: setEventClass($class)
+.. function:: setEventClass()
 
 
     Set the event class to utilize
 
-    :param string $class: 
+    :param string: 
 
     :rtype: EventManager 
 
@@ -47,12 +44,12 @@ setEventClass
 setSharedManager
 ----------------
 
-.. function:: setSharedManager($sharedEventManager)
+.. function:: setSharedManager()
 
 
     Set shared event manager
 
-    :param SharedEventManagerInterface $sharedEventManager: 
+    :param SharedEventManagerInterface: 
 
     :rtype: EventManager 
 
@@ -103,12 +100,12 @@ getIdentifiers
 setIdentifiers
 --------------
 
-.. function:: setIdentifiers($identifiers)
+.. function:: setIdentifiers()
 
 
     Set the identifiers (overrides any currently set identifiers)
 
-    :param string|int|array|Traversable $identifiers: 
+    :param string|int|array|Traversable: 
 
     :rtype: EventManager Provides a fluent interface
 
@@ -117,12 +114,12 @@ setIdentifiers
 addIdentifiers
 --------------
 
-.. function:: addIdentifiers($identifiers)
+.. function:: addIdentifiers()
 
 
     Add some identifier(s) (appends to any currently set identifiers)
 
-    :param string|int|array|Traversable $identifiers: 
+    :param string|int|array|Traversable: 
 
     :rtype: EventManager Provides a fluent interface
 
@@ -131,17 +128,17 @@ addIdentifiers
 trigger
 -------
 
-.. function:: trigger($event, [$target = false, [$argv = false, [$callback = false]]])
+.. function:: trigger()
 
 
     Trigger all listeners for a given event
     
     Can emulate triggerUntil() if the last argument provided is a callback.
 
-    :param string $event: 
-    :param string|object $target: Object calling emit, or symbol describing target (such as static method name)
-    :param array|ArrayAccess $argv: Array of arguments; typically, should be associative
-    :param null|callable $callback: 
+    :param string: 
+    :param string|object: Object calling emit, or symbol describing target (such as static method name)
+    :param array|ArrayAccess: Array of arguments; typically, should be associative
+    :param null|callable: 
 
     :rtype: ResponseCollection All listener return values
 
@@ -152,7 +149,7 @@ trigger
 triggerUntil
 ------------
 
-.. function:: triggerUntil($event, $target, [$argv = false, [$callback = false]])
+.. function:: triggerUntil()
 
 
     Trigger listeners until return value of one causes a callback to
@@ -161,10 +158,10 @@ triggerUntil
     Triggers listeners until the provided callback evaluates the return
     value of one as true, or until all listeners have been executed.
 
-    :param string $event: 
-    :param string|object $target: Object calling emit, or symbol describing target (such as static method name)
-    :param array|ArrayAccess $argv: Array of arguments; typically, should be associative
-    :param callable $callback: 
+    :param string: 
+    :param string|object: Object calling emit, or symbol describing target (such as static method name)
+    :param array|ArrayAccess: Array of arguments; typically, should be associative
+    :param callable: 
 
     :rtype: ResponseCollection 
 
@@ -175,7 +172,7 @@ triggerUntil
 attach
 ------
 
-.. function:: attach($event, [$callback = false, [$priority = 1]])
+.. function:: attach()
 
 
     Attach a listener to an event
@@ -191,9 +188,9 @@ attach
     You can specify "*" for the event name. In such cases, the listener will
     be triggered for every event.
 
-    :param string|array|ListenerAggregateInterface $event: An event or array of event names. If a ListenerAggregateInterface, proxies to {@link attachAggregate()}.
-    :param callable|int $callback: If string $event provided, expects PHP callback; for a ListenerAggregateInterface $event, this will be the priority
-    :param int $priority: If provided, the priority at which to register the callable
+    :param string|array|ListenerAggregateInterface: An event or array of event names. If a ListenerAggregateInterface, proxies to {@link attachAggregate()}.
+    :param callable|int: If string $event provided, expects PHP callback; for a ListenerAggregateInterface $event, this will be the priority
+    :param int: If provided, the priority at which to register the callable
 
     :rtype: CallbackHandler|mixed CallbackHandler if attaching callable (to allow later unsubscribe); mixed if attaching aggregate
 
@@ -204,7 +201,7 @@ attach
 attachAggregate
 ---------------
 
-.. function:: attachAggregate($aggregate, [$priority = 1])
+.. function:: attachAggregate()
 
 
     Attach a listener aggregate
@@ -213,8 +210,8 @@ attachAggregate
     one or more times, typically to attach to multiple events using local
     methods.
 
-    :param ListenerAggregateInterface $aggregate: 
-    :param int $priority: If provided, a suggested priority for the aggregate to use
+    :param ListenerAggregateInterface: 
+    :param int: If provided, a suggested priority for the aggregate to use
 
     :rtype: mixed return value of {@link ListenerAggregateInterface::attach()}
 
@@ -223,12 +220,12 @@ attachAggregate
 detach
 ------
 
-.. function:: detach($listener)
+.. function:: detach()
 
 
     Unsubscribe a listener from an event
 
-    :param CallbackHandler|ListenerAggregateInterface $listener: 
+    :param CallbackHandler|ListenerAggregateInterface: 
 
     :rtype: bool Returns true if event and listener found, and unsubscribed; returns false if either event or listener not found
 
@@ -239,7 +236,7 @@ detach
 detachAggregate
 ---------------
 
-.. function:: detachAggregate($aggregate)
+.. function:: detachAggregate()
 
 
     Detach a listener aggregate
@@ -247,7 +244,7 @@ detachAggregate
     Listener aggregates accept an EventManagerInterface instance, and call detach()
     of all previously attached listeners.
 
-    :param ListenerAggregateInterface $aggregate: 
+    :param ListenerAggregateInterface: 
 
     :rtype: mixed return value of {@link ListenerAggregateInterface::detach()}
 
@@ -268,12 +265,12 @@ getEvents
 getListeners
 ------------
 
-.. function:: getListeners($event)
+.. function:: getListeners()
 
 
     Retrieve all listeners for a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: PriorityQueue 
 
@@ -282,12 +279,12 @@ getListeners
 clearListeners
 --------------
 
-.. function:: clearListeners($event)
+.. function:: clearListeners()
 
 
     Clear all listeners for a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: void 
 
@@ -296,7 +293,7 @@ clearListeners
 prepareArgs
 -----------
 
-.. function:: prepareArgs($args)
+.. function:: prepareArgs()
 
 
     Prepare arguments
@@ -305,7 +302,7 @@ prepareArgs
     listener. It returns an ArrayObject of the arguments, which may then be
     passed to trigger() or triggerUntil().
 
-    :param array $args: 
+    :param array: 
 
     :rtype: ArrayObject 
 
@@ -314,7 +311,7 @@ prepareArgs
 triggerListeners
 ----------------
 
-.. function:: triggerListeners($event, $e, [$callback = false])
+.. function:: triggerListeners()
 
 
     Trigger listeners
@@ -322,9 +319,9 @@ triggerListeners
     Actual functionality for triggering listeners, to which both trigger() and triggerUntil()
     delegate.
 
-    :param string $event: Event name
-    :param EventInterface $e: 
-    :param null|callable $callback: 
+    :param string: Event name
+    :param EventInterface: 
+    :param null|callable: 
 
     :rtype: ResponseCollection 
 
@@ -333,13 +330,13 @@ triggerListeners
 getSharedListeners
 ------------------
 
-.. function:: getSharedListeners($event)
+.. function:: getSharedListeners()
 
 
     Get list of all listeners attached to the shared event manager for
     identifiers registered by this instance
 
-    :param string $event: 
+    :param string: 
 
     :rtype: array 
 
@@ -348,19 +345,17 @@ getSharedListeners
 insertListeners
 ---------------
 
-.. function:: insertListeners($masterListeners, $listeners)
+.. function:: insertListeners()
 
 
     Add listeners to the master queue of listeners
     
     Used to inject shared listeners and wildcard listeners.
 
-    :param PriorityQueue $masterListeners: 
-    :param PriorityQueue $listeners: 
+    :param PriorityQueue: 
+    :param PriorityQueue: 
 
     :rtype: void 
-
-
 
 
 

@@ -1,16 +1,13 @@
-.. /Console/Adapter/Virtual.php generated using docpx on 01/15/13 05:29pm
+.. Console/Adapter/Virtual.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Adapter\\Virtual
-*******************************
-
+===============================
 
 Virtual buffer adapter
 
-
-
 Methods
-=======
++++++++
 
 getWidth
 --------
@@ -63,13 +60,13 @@ isUtf8
 setPos
 ------
 
-.. function:: setPos($x, $y)
+.. function:: setPos()
 
 
     Set cursor position
 
-    :param int $x: 
-    :param int $y: 
+    :param int: 
+    :param int: 
 
 
 
@@ -88,12 +85,12 @@ getTitle
 setCharset
 ----------
 
-.. function:: setCharset($charset)
+.. function:: setCharset()
 
 
     Set Console charset to use.
 
-    :param Charset\CharsetInterface $charset: 
+    :param Charset\CharsetInterface: 
 
 
 
@@ -128,8 +125,6 @@ switchToUtf8
     Switch to UTF mode
 
     :rtype: void 
-
-
 
 
 

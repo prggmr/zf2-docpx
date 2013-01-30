@@ -1,27 +1,24 @@
-.. /Di/Display/Console.php generated using docpx on 01/15/13 05:29pm
+.. Di/Display/Console.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Display\\Console
-**************************
-
+==========================
 
 Exporter for class definitions
 
-
-
 Methods
-=======
++++++++
 
 export
 ------
 
-.. function:: export($di, [$runtimeClasses = false])
+.. function:: export()
 
 
     Export
 
-    :param Di $di: 
-    :param array $runtimeClasses: 
+    :param Di: 
+    :param array: 
 
     :rtype: void 
 
@@ -30,19 +27,19 @@ export
 __construct
 -----------
 
-.. function:: __construct([$di = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|Di $di: 
+    :param null|Di: 
 
 
 
 addRuntimeClasses
 -----------------
 
-.. function:: addRuntimeClasses($runtimeClasses)
+.. function:: addRuntimeClasses()
 
 
     @param string[] $runtimeClasses
@@ -52,7 +49,7 @@ addRuntimeClasses
 addRuntimeClass
 ---------------
 
-.. function:: addRuntimeClass($runtimeClass)
+.. function:: addRuntimeClass()
 
 
     @param string $runtimeClass
@@ -69,7 +66,7 @@ render
 renderDefinition
 ----------------
 
-.. function:: renderDefinition($definition)
+.. function:: renderDefinition()
 
 
     @param object $definition
@@ -79,14 +76,12 @@ renderDefinition
 renderClassDefinition
 ---------------------
 
-.. function:: renderClassDefinition($definition, $class)
+.. function:: renderClassDefinition()
 
 
     @param \Zend\Di\Definition\DefinitionInterface $definition
 
-    :param string $class: 
-
-
+    :param string: 
 
 
 

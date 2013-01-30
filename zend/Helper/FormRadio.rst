@@ -1,16 +1,11 @@
-.. /Form/View/Helper/FormRadio.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormRadio.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormRadio
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 getInputType
 ------------
@@ -27,16 +22,14 @@ getInputType
 getName
 -------
 
-.. function:: getName($element)
+.. function:: getName()
 
 
     Get element name
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
-
-
 
 
 

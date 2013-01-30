@@ -1,52 +1,31 @@
-.. /Code/Generator/DocBlock/Tag/LicenseTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/LicenseTag.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Code\\Generator\\DocBlock\\Tag\\LicenseTag
-************************************************
-
-
-@category   Zend
-
-
+Zend\\Code\\Reflection\\DocBlock\\Tag\\LicenseTag
+=================================================
 
 Methods
-=======
++++++++
 
-__construct
------------
+getName
+-------
 
-.. function:: __construct([$options = false])
-
-
-    @param array $options
+.. function:: getName()
 
 
-
-fromReflection
---------------
-
-.. function:: fromReflection($reflectionTagLicense)
-
-
-    fromReflection()
-
-    :param ReflectionDocBlockTag $reflectionTagLicense: 
-
-    :rtype: LicenseTag 
+    @return string
 
 
 
-setUrl
-------
+initialize
+----------
 
-.. function:: setUrl($url)
+.. function:: initialize()
 
 
-    setUrl()
+    Initializer
 
-    :param string $url: 
-
-    :rtype: LicenseTag 
+    :param string: 
 
 
 
@@ -56,23 +35,24 @@ getUrl
 .. function:: getUrl()
 
 
-    getUrl()
-
-    :rtype: string 
+    @return null|string
 
 
 
-generate
---------
+getLicenseName
+--------------
 
-.. function:: generate()
-
-
-    generate()
-
-    :rtype: string 
+.. function:: getLicenseName()
 
 
+    @return null|string
+
+
+
+__toString
+----------
+
+.. function:: __toString()
 
 
 

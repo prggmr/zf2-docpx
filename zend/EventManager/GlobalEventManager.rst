@@ -1,29 +1,26 @@
-.. /EventManager/GlobalEventManager.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/GlobalEventManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\GlobalEventManager
-**************************************
-
+======================================
 
 Event manager: notification system
 
 Use the EventManager when you want to create a per-instance notification
 system for your objects.
 
-
-
 Methods
-=======
++++++++
 
 setEventCollection
 ------------------
 
-.. function:: setEventCollection([$events = false])
+.. function:: setEventCollection()
 
 
     Set the event collection on which this will operate
 
-    :param null|EventManagerInterface $events: 
+    :param null|EventManagerInterface: 
 
     :rtype: void 
 
@@ -44,14 +41,14 @@ getEventCollection
 trigger
 -------
 
-.. function:: trigger($event, $context, [$argv = false])
+.. function:: trigger()
 
 
     Trigger an event
 
-    :param string $event: 
-    :param object|string $context: 
-    :param array|object $argv: 
+    :param string: 
+    :param object|string: 
+    :param array|object: 
 
     :rtype: ResponseCollection 
 
@@ -60,16 +57,16 @@ trigger
 triggerUntil
 ------------
 
-.. function:: triggerUntil($event, $context, $argv, $callback)
+.. function:: triggerUntil()
 
 
     Trigger listeners until return value of one causes a callback to evaluate
     to true.
 
-    :param string $event: 
-    :param string|object $context: 
-    :param array|object $argv: 
-    :param callable $callback: 
+    :param string: 
+    :param string|object: 
+    :param array|object: 
+    :param callable: 
 
     :rtype: ResponseCollection 
 
@@ -78,14 +75,14 @@ triggerUntil
 attach
 ------
 
-.. function:: attach($event, $callback, [$priority = 1])
+.. function:: attach()
 
 
     Attach a listener to an event
 
-    :param string $event: 
-    :param callable $callback: 
-    :param int $priority: 
+    :param string: 
+    :param callable: 
+    :param int: 
 
     :rtype: CallbackHandler 
 
@@ -94,12 +91,12 @@ attach
 detach
 ------
 
-.. function:: detach($listener)
+.. function:: detach()
 
 
     Detach a callback from a listener
 
-    :param CallbackHandler $listener: 
+    :param CallbackHandler: 
 
     :rtype: bool 
 
@@ -120,12 +117,12 @@ getEvents
 getListeners
 ------------
 
-.. function:: getListeners($event)
+.. function:: getListeners()
 
 
     Retrieve all listeners for a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: PriorityQueue|array 
 
@@ -134,16 +131,14 @@ getListeners
 clearListeners
 --------------
 
-.. function:: clearListeners($event)
+.. function:: clearListeners()
 
 
     Clear all listeners for a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: void 
-
-
 
 
 

@@ -1,40 +1,35 @@
-.. /Db/Metadata/Object/ConstraintObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/ConstraintObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\ConstraintObject
-********************************************
-
-
-@category   Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name, $tableName, [$schemaName = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $name: 
-    :param string $tableName: 
-    :param string $schemaName: 
+    :param string: 
+    :param string: 
+    :param string: 
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set name
 
-    :param string $name: 
+    :param string: 
 
 
 
@@ -53,12 +48,12 @@ getName
 setSchemaName
 -------------
 
-.. function:: setSchemaName($schemaName)
+.. function:: setSchemaName()
 
 
     Set schema name
 
-    :param string $schemaName: 
+    :param string: 
 
 
 
@@ -89,12 +84,12 @@ getTableName
 setTableName
 ------------
 
-.. function:: setTableName($tableName)
+.. function:: setTableName()
 
 
     Set table name
 
-    :param string $tableName: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -103,12 +98,12 @@ setTableName
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set type
 
-    :param string $type: 
+    :param string: 
 
 
 
@@ -146,12 +141,12 @@ getColumns
 setColumns
 ----------
 
-.. function:: setColumns($columns)
+.. function:: setColumns()
 
 
     Set Columns.
 
-    :param string[] $columns: 
+    :param string[]: 
 
     :rtype: ConstraintObject 
 
@@ -172,12 +167,12 @@ getReferencedTableSchema
 setReferencedTableSchema
 ------------------------
 
-.. function:: setReferencedTableSchema($referencedTableSchema)
+.. function:: setReferencedTableSchema()
 
 
     Set Referenced Table Schema.
 
-    :param string $referencedTableSchema: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -198,12 +193,12 @@ getReferencedTableName
 setReferencedTableName
 ----------------------
 
-.. function:: setReferencedTableName($referencedTableName)
+.. function:: setReferencedTableName()
 
 
     Set Referenced Table Name.
 
-    :param string $referencedTableName: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -224,12 +219,12 @@ getReferencedColumns
 setReferencedColumns
 --------------------
 
-.. function:: setReferencedColumns($referencedColumns)
+.. function:: setReferencedColumns()
 
 
     Set Referenced Columns.
 
-    :param string[] $referencedColumns: 
+    :param string[]: 
 
     :rtype: ConstraintObject 
 
@@ -250,12 +245,12 @@ getMatchOption
 setMatchOption
 --------------
 
-.. function:: setMatchOption($matchOption)
+.. function:: setMatchOption()
 
 
     Set Match Option.
 
-    :param string $matchOption: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -276,12 +271,12 @@ getUpdateRule
 setUpdateRule
 -------------
 
-.. function:: setUpdateRule($updateRule)
+.. function:: setUpdateRule()
 
 
     Set Update Rule.
 
-    :param string $updateRule: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -302,12 +297,12 @@ getDeleteRule
 setDeleteRule
 -------------
 
-.. function:: setDeleteRule($deleteRule)
+.. function:: setDeleteRule()
 
 
     Set Delete Rule.
 
-    :param string $deleteRule: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -328,12 +323,12 @@ getCheckClause
 setCheckClause
 --------------
 
-.. function:: setCheckClause($checkClause)
+.. function:: setCheckClause()
 
 
     Set Check Clause.
 
-    :param string $checkClause: 
+    :param string: 
 
     :rtype: ConstraintObject 
 
@@ -384,8 +379,6 @@ isCheck
     Is foreign key
 
     :rtype: bool 
-
-
 
 
 

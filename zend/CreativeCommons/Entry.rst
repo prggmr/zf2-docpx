@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/CreativeCommons/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/CreativeCommons/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\CreativeCommons\\Entry
-*****************************************************
-
-
-@category Zend
-
-
+=====================================================
 
 Methods
-=======
++++++++
 
 getLicense
 ----------
 
-.. function:: getLicense([$index = false])
+.. function:: getLicense()
 
 
     Get the entry license
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -45,8 +40,6 @@ registerNamespaces
 
 
     Register Creative Commons namespaces
-
-
 
 
 

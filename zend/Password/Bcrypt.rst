@@ -1,26 +1,23 @@
-.. /Crypt/Password/Bcrypt.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/Password/Bcrypt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\Password\\Bcrypt
-*****************************
-
+=============================
 
 Bcrypt algorithm using crypt() function of PHP
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -29,12 +26,12 @@ __construct
 create
 ------
 
-.. function:: create($password)
+.. function:: create()
 
 
     Bcrypt
 
-    :param string $password: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -45,13 +42,13 @@ create
 verify
 ------
 
-.. function:: verify($password, $hash)
+.. function:: verify()
 
 
     Verify if a password is correct against an hash value
 
-    :param string $password: 
-    :param string $hash: 
+    :param string: 
+    :param string: 
 
     :rtype: bool 
 
@@ -60,12 +57,12 @@ verify
 setCost
 -------
 
-.. function:: setCost($cost)
+.. function:: setCost()
 
 
     Set the cost parameter
 
-    :param integer|string $cost: 
+    :param integer|string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -88,12 +85,12 @@ getCost
 setSalt
 -------
 
-.. function:: setSalt($salt)
+.. function:: setSalt()
 
 
     Set the salt value
 
-    :param string $salt: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -113,11 +110,35 @@ getSalt
 
 
 
+setBackwardCompatibility
+------------------------
+
+.. function:: setBackwardCompatibility()
+
+
+    Set the backward compatibility $2a$ instead of $2y$ for PHP 5.3.7+
+
+    :param boolean: 
+
+
+
+getBackwardCompatibility
+------------------------
+
+.. function:: getBackwardCompatibility()
+
+
+    Get the backward compatibility
+
+    :rtype: boolean 
+
+
+
 
 
 Constants
----------
++++++++++
 
 MIN_SALT_SIZE
-+++++++++++++
+=============
 

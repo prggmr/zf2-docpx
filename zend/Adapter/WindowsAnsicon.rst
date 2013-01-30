@@ -1,9 +1,8 @@
-.. /Console/Adapter/WindowsAnsicon.php generated using docpx on 01/15/13 05:29pm
+.. Console/Adapter/WindowsAnsicon.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Adapter\\WindowsAnsicon
-**************************************
-
+======================================
 
 MS Windows with ANSICON console adapter
 
@@ -18,10 +17,8 @@ Console should not run in UTF8 code page (65001), because ANSICON does not behav
 It's best to use non-unicode code page 437, 850, 851, 852 or similar. Run "help mode" for more
 information on how to change Windows console code page.
 
-
-
 Methods
-=======
++++++++
 
 getWidth
 --------
@@ -106,12 +103,12 @@ clearLine
 setCharset
 ----------
 
-.. function:: setCharset($charset)
+.. function:: setCharset()
 
 
     Set Console charset to use.
 
-    :param CharsetInterface $charset: 
+    :param CharsetInterface: 
 
 
 
@@ -140,25 +137,16 @@ getDefaultCharset
 readChar
 --------
 
-.. function:: readChar([$mask = false])
+.. function:: readChar()
 
 
     Read a single character from the console input
 
-    :param string|null $mask: A list of allowed chars
+    :param string|null: A list of allowed chars
 
     :rtype: string 
 
     :throws: Exception\RuntimeException 
-
-
-
-$char
------
-
-.. function:: $char()
-
-
 
 
 

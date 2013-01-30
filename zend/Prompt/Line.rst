@@ -1,28 +1,23 @@
-.. /Console/Prompt/Line.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/Line.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\Line
-***************************
-
-
-@category   Zend
-
-
+===========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$promptText = "Please enter value: ", [$allowEmpty = false, [$maxLength = 2048]]])
+.. function:: __construct()
 
 
     Ask the user for an answer (a line of text)
 
-    :param string $promptText: The prompt text to display in console
-    :param bool $allowEmpty: Is empty response allowed?
-    :param int $maxLength: Maximum response length
+    :param string: The prompt text to display in console
+    :param bool: Is empty response allowed?
+    :param int: Maximum response length
 
 
 
@@ -41,7 +36,7 @@ show
 setAllowEmpty
 -------------
 
-.. function:: setAllowEmpty($allowEmpty)
+.. function:: setAllowEmpty()
 
 
     @param  bool $allowEmpty
@@ -61,7 +56,7 @@ getAllowEmpty
 setMaxLength
 ------------
 
-.. function:: setMaxLength($maxLength)
+.. function:: setMaxLength()
 
 
     @param int $maxLength
@@ -81,7 +76,7 @@ getMaxLength
 setPromptText
 -------------
 
-.. function:: setPromptText($promptText)
+.. function:: setPromptText()
 
 
     @param string $promptText
@@ -95,8 +90,6 @@ getPromptText
 
 
     @return string
-
-
 
 
 

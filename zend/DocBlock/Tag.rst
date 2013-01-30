@@ -1,36 +1,31 @@
-.. /Code/Generator/DocBlock/Tag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/DocBlock/Tag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\DocBlock\\Tag
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
-    @param array $options
+    @param  array $options
 
 
 
 fromReflection
 --------------
 
-.. function:: fromReflection($reflectionTag)
+.. function:: fromReflection()
 
 
     Build a Tag generator object from a reflection object
 
-    :param ReflectionDocBlockTag $reflectionTag: 
+    :param ReflectionDocBlockTag: 
 
     :rtype: Tag 
 
@@ -39,7 +34,7 @@ fromReflection
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     @param  string $name
@@ -61,7 +56,7 @@ getName
 setDescription
 --------------
 
-.. function:: setDescription($description)
+.. function:: setDescription()
 
 
     @param  string $description
@@ -87,8 +82,6 @@ generate
 
 
     @return string
-
-
 
 
 

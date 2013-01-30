@@ -1,17 +1,14 @@
-.. /Http/Client/Adapter/Socket.php generated using docpx on 01/15/13 05:29pm
+.. Http/Client/Adapter/Socket.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\Client\\Adapter\\Socket
-***********************************
-
+===================================
 
 A sockets based (stream\socket\client) adapter class for Zend\Http\Client. Can be used
 on almost every PHP environment, and does not require any special extensions.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -26,12 +23,12 @@ __construct
 setOptions
 ----------
 
-.. function:: setOptions([$options = false])
+.. function:: setOptions()
 
 
     Set the configuration array for the adapter
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws AdapterException\InvalidArgumentException: 
 
@@ -52,7 +49,7 @@ getConfig
 setStreamContext
 ----------------
 
-.. function:: setStreamContext($context)
+.. function:: setStreamContext()
 
 
     Set the stream context for the TCP connection to the server
@@ -63,11 +60,7 @@ setStreamContext
     will be created using the passed options.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $context: Stream context or array of context options
+    :param mixed: Stream context or array of context options
 
     :throws Exception\InvalidArgumentException: 
 
@@ -92,14 +85,14 @@ getStreamContext
 connect
 -------
 
-.. function:: connect($host, [$port = 80, [$secure = false]])
+.. function:: connect()
 
 
     Connect to the remote server
 
-    :param string $host: 
-    :param int $port: 
-    :param bool $secure: 
+    :param string: 
+    :param int: 
+    :param bool: 
 
     :throws AdapterException\RuntimeException: 
 
@@ -108,16 +101,16 @@ connect
 write
 -----
 
-.. function:: write($method, $uri, [$httpVer = "1.1", [$headers = false, [$body = false]]])
+.. function:: write()
 
 
     Send request to the remote server
 
-    :param string $method: 
-    :param \Zend\Uri\Uri $uri: 
-    :param string $httpVer: 
-    :param array $headers: 
-    :param string $body: 
+    :param string: 
+    :param \Zend\Uri\Uri: 
+    :param string: 
+    :param array: 
+    :param string: 
 
     :throws AdapterException\RuntimeException: 
 
@@ -163,12 +156,12 @@ _checkSocketReadTimeout
 setOutputStream
 ---------------
 
-.. function:: setOutputStream($stream)
+.. function:: setOutputStream()
 
 
     Set output stream for the response
 
-    :param resource $stream: 
+    :param resource: 
 
     :rtype: \Zend\Http\Client\Adapter\Socket 
 
@@ -183,8 +176,6 @@ __destruct
     Destructor: make sure the socket is disconnected
     
     If we are in persistent TCP mode, will not close the connection
-
-
 
 
 

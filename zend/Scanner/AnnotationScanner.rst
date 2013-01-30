@@ -1,24 +1,22 @@
-.. /Code/Scanner/AnnotationScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/AnnotationScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\AnnotationScanner
-**************************************
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($annotationManager, $docComment, [$nameInformation = false])
+.. function:: __construct()
 
 
-    @param AnnotationManager $annotationManager
+    @param  AnnotationManager $annotationManager
 
-    :param string $docComment: 
-    :param NameInformation $nameInformation: 
+    :param string: 
+    :param NameInformation: 
 
     :rtype: AnnotationScanner 
 
@@ -27,14 +25,20 @@ __construct
 setNameInformation
 ------------------
 
-.. function:: setNameInformation($nameInformation)
+.. function:: setNameInformation()
+
+
+    @param NameInformation $nameInformation
 
 
 
 scan
 ----
 
-.. function:: scan($tokens)
+.. function:: scan()
+
+
+    @param  array $tokens
 
 
 
@@ -44,69 +48,7 @@ tokenize
 .. function:: tokenize()
 
 
-
-$positionsForward
------------------
-
-.. function:: $positionsForward()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-$type
------
-
-.. function:: $type()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-$which
-------
-
-.. function:: $which()
-
-
+    @return array
 
 
 

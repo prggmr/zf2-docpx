@@ -1,35 +1,28 @@
-.. /Filter/File/LowerCase.php generated using docpx on 01/15/13 05:29pm
+.. Filter/File/LowerCase.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\File\\LowerCase
-*****************************
-
-
-@category   Zend
-
-
+=============================
 
 Methods
-=======
++++++++
 
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\Filter
     
     Does a lowercase on the content of the given file
 
-    :param string $value: Full path of file to change
+    :param string|array: Full path of file to change or $_FILES data array
 
-    :rtype: string The given $value
+    :rtype: string|array The given $value
 
     :throws: Exception\InvalidArgumentException 
     :throws: Exception\RuntimeException 
-
-
 
 
 

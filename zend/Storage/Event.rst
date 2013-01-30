@@ -1,70 +1,57 @@
-.. /Cache/Storage/Event.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Event.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Event
-***************************
-
-
-@category   Zend
-
-
+===========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name, $storage, $params)
+.. function:: __construct()
 
 
     Constructor
     
     Accept a storage adapter and its parameters.
 
-    :param string $name: Event name
-    :param StorageInterface $storage: 
-    :param ArrayObject $params: 
+    :param string: Event name
+    :param StorageInterface: 
+    :param ArrayObject: 
 
 
 
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Set the event target/context
 
-    :param StorageInterface $target: 
+    :param StorageInterface: 
 
     :rtype: Event 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: Z Z
+    :see:  
 
 
 
 setStorage
 ----------
 
-.. function:: setStorage($storage)
+.. function:: setStorage()
 
 
     Alias of setTarget
 
-    :param StorageInterface $storage: 
+    :param StorageInterface: 
 
     :rtype: Event 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: Z Z
+    :see:  
 
 
 
@@ -77,8 +64,6 @@ getStorage
     Alias of getTarget
 
     :rtype: StorageInterface 
-
-
 
 
 

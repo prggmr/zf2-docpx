@@ -1,16 +1,11 @@
-.. /Feed/Reader/Extension/Syndication/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/Syndication/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\Syndication\\Feed
-************************************************
-
-
-@category   Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 getUpdatePeriod
 ---------------
@@ -65,13 +60,13 @@ getUpdateBase
 _getData
 --------
 
-.. function:: _getData($name, [$type = "string"])
+.. function:: _getData()
 
 
     Get the entry data specified by name
 
-    :param string $name: 
-    :param string $type: 
+    :param string: 
+    :param string: 
 
     :rtype: mixed|null 
 
@@ -86,8 +81,6 @@ registerNamespaces
     Register Syndication namespaces
 
     :rtype: void 
-
-
 
 
 

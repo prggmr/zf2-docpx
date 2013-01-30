@@ -1,27 +1,22 @@
-.. /Crypt/Hash.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/Hash.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\Hash
-*****************
-
-
-@category   Zend
-
-
+=================
 
 Methods
-=======
++++++++
 
 compute
 -------
 
-.. function:: compute($hash, $data, [$output = false])
+.. function:: compute()
 
 
     @param  string  $hash
 
-    :param string $data: 
-    :param bool $output: 
+    :param string: 
+    :param bool: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -32,13 +27,13 @@ compute
 getOutputSize
 -------------
 
-.. function:: getOutputSize($hash, [$output = false])
+.. function:: getOutputSize()
 
 
     Get the output size according to the hash algorithm and the output format
 
-    :param string $hash: 
-    :param bool $output: 
+    :param string: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -59,12 +54,12 @@ getSupportedAlgorithms
 isSupported
 -----------
 
-.. function:: isSupported($algorithm)
+.. function:: isSupported()
 
 
     Is the hash algorithm supported?
 
-    :param string $algorithm: 
+    :param string: 
 
     :rtype: bool 
 
@@ -83,11 +78,11 @@ clearLastAlgorithmCache
 
 
 Constants
----------
++++++++++
 
 OUTPUT_STRING
-+++++++++++++
+=============
 
 OUTPUT_BINARY
-+++++++++++++
+=============
 

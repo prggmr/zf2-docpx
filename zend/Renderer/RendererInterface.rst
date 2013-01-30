@@ -1,140 +1,48 @@
-.. /Feed/Writer/Renderer/RendererInterface.php generated using docpx on 01/15/13 05:29pm
+.. View/Renderer/RendererInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Feed\\Writer\\Renderer\\render
-====================================
+Zend\\View\\Renderer\\getEngine
+===============================
 
-.. function:: Zend\Feed\Writer\Renderer\render()
-
-
-    Render feed/entry
-
-    :rtype: void 
+.. function:: Zend\View\Renderer\getEngine()
 
 
-
-Zend\\Feed\\Writer\\Renderer\\saveXml
-=====================================
-
-.. function:: Zend\Feed\Writer\Renderer\saveXml()
-
-
-    Save feed and/or entry to XML and return string
-
-    :rtype: string 
-
-
-
-Zend\\Feed\\Writer\\Renderer\\getDomDocument
-============================================
-
-.. function:: Zend\Feed\Writer\Renderer\getDomDocument()
-
-
-    Get DOM document
-
-    :rtype: DOMDocument 
-
-
-
-Zend\\Feed\\Writer\\Renderer\\getElement
-========================================
-
-.. function:: Zend\Feed\Writer\Renderer\getElement()
-
-
-    Get document element from DOM
-
-    :rtype: DOMElement 
-
-
-
-Zend\\Feed\\Writer\\Renderer\\getDataContainer
-==============================================
-
-.. function:: Zend\Feed\Writer\Renderer\getDataContainer()
-
-
-    Get data container containing feed items
+    Return the template engine object, if any
+    
+    If using a third-party template engine, such as Smarty, patTemplate,
+    phplib, etc, return the template engine object. Useful for calling
+    methods on these objects, such as for setting filters, modifiers, etc.
 
     :rtype: mixed 
 
 
 
-Zend\\Feed\\Writer\\Renderer\\ignoreExceptions
-==============================================
+Zend\\View\\Renderer\\setResolver
+=================================
 
-.. function:: Zend\Feed\Writer\Renderer\ignoreExceptions()
-
-
-    Should exceptions be ignored?
-
-    :rtype: mixed 
+.. function:: Zend\View\Renderer\setResolver()
 
 
+    Set the resolver used to map a template name to a resource the renderer may consume.
 
-Zend\\Feed\\Writer\\Renderer\\getExceptions
-===========================================
+    :param ResolverInterface: 
 
-.. function:: Zend\Feed\Writer\Renderer\getExceptions()
-
-
-    Get list of thrown exceptions
-
-    :rtype: array 
+    :rtype: RendererInterface 
 
 
 
-Zend\\Feed\\Writer\\Renderer\\setType
-=====================================
+Zend\\View\\Renderer\\render
+============================
 
-.. function:: Zend\Feed\Writer\Renderer\setType()
-
-
-    Set the current feed type being exported to "rss" or "atom". This allows
-    other objects to gracefully choose whether to execute or not, depending
-    on their appropriateness for the current type, e.g. renderers.
-
-    :param string $type: 
+.. function:: Zend\View\Renderer\render()
 
 
+    Processes a view script and returns the output.
 
-Zend\\Feed\\Writer\\Renderer\\getType
-=====================================
+    :param string|ModelInterface: The script/resource process, or a view model
+    :param null|array|\ArrayAccess: Values to use during rendering
 
-.. function:: Zend\Feed\Writer\Renderer\getType()
-
-
-    Retrieve the current or last feed type exported.
-
-    :rtype: string Value will be "rss" or "atom"
-
-
-
-Zend\\Feed\\Writer\\Renderer\\setRootElement
-============================================
-
-.. function:: Zend\Feed\Writer\Renderer\setRootElement()
-
-
-    Sets the absolute root element for the XML feed being generated. This
-    helps simplify the appending of namespace declarations, but also ensures
-    namespaces are added to the root element - not scattered across the entire
-    XML file - may assist namespace unsafe parsers and looks pretty ;).
-
-    :param DOMElement $root: 
-
-
-
-Zend\\Feed\\Writer\\Renderer\\getRootElement
-============================================
-
-.. function:: Zend\Feed\Writer\Renderer\getRootElement()
-
-
-    Retrieve the absolute root element for the XML feed being generated.
-
-    :rtype: DOMElement 
+    :rtype: string The script output.
 
 
 

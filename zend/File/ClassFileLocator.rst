@@ -1,21 +1,18 @@
-.. /File/ClassFileLocator.php generated using docpx on 01/15/13 05:29pm
+.. File/ClassFileLocator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\File\\ClassFileLocator
-****************************
-
+============================
 
 Locate files containing PHP classes, interfaces, abstracts or traits
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$dirOrIterator = "."])
+.. function:: __construct()
 
 
     Create an instance of the locator iterator
@@ -23,7 +20,7 @@ __construct
     Expects either a directory, or a DirectoryIterator (or its recursive variant)
     instance.
 
-    :param string|DirectoryIterator $dirOrIterator: 
+    :param string|DirectoryIterator: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -38,8 +35,6 @@ accept
     Filter for files containing PHP classes, interfaces, or abstracts
 
     :rtype: bool 
-
-
 
 
 

@@ -1,13 +1,6 @@
-.. /Db/Metadata/Object/TableObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/TableObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\TableObject
-***************************************
-
-
-@category   Zend
-
-
-
-
+=======================================
 

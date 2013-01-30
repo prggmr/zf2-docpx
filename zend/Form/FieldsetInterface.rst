@@ -1,4 +1,4 @@
-.. /Form/FieldsetInterface.php generated using docpx on 01/15/13 05:29pm
+.. Form/FieldsetInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\add
@@ -12,10 +12,10 @@ Zend\\Form\\add
     $flags could contain metadata such as the alias under which to register
     the element or fieldset, order in which to prioritize it, etc.
 
-    :param array|\Traversable|ElementInterface $elementOrFieldset: Typically, only allow objects implementing ElementInterface;
+    :param array|\Traversable|ElementInterface: Typically, only allow objects implementing ElementInterface;
                                                                however, keeping it flexible to allow a factory-based form
                                                                implementation as well
-    :param array $flags: 
+    :param array: 
 
     :rtype: FieldsetInterface 
 
@@ -29,7 +29,7 @@ Zend\\Form\\has
 
     Does the fieldset have an element/fieldset by the given name?
 
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: bool 
 
@@ -43,7 +43,7 @@ Zend\\Form\\get
 
     Retrieve a named element or fieldset
 
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: ElementInterface 
 
@@ -57,7 +57,7 @@ Zend\\Form\\remove
 
     Remove a named element or fieldset
 
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: FieldsetInterface 
 
@@ -71,8 +71,8 @@ Zend\\Form\\setPriority
 
     Set/change the priority of an element or fieldset
 
-    :param string $elementOrFieldset: 
-    :param int $priority: 
+    :param string: 
+    :param int: 
 
     :rtype: FieldsetInterface 
 
@@ -114,7 +114,7 @@ Zend\\Form\\populateValues
 
     Recursively populate value attributes of elements
 
-    :param array|\Traversable $data: 
+    :param array|\Traversable: 
 
     :rtype: void 
 
@@ -168,7 +168,7 @@ Zend\\Form\\setHydrator
 
     Set the hydrator to use when binding an object to the element
 
-    :param HydratorInterface $hydrator: 
+    :param HydratorInterface: 
 
     :rtype: FieldsetInterface 
 
@@ -194,7 +194,7 @@ Zend\\Form\\bindValues
 
     Bind values to the bound object
 
-    :param array $values: 
+    :param array: 
 
     :rtype: mixed 
 

@@ -1,9 +1,8 @@
-.. /Form/Annotation/ComposedObject.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/ComposedObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\ComposedObject
-**************************************
-
+======================================
 
 ComposedObject annotation
 
@@ -12,10 +11,8 @@ which you can then add to the form as a fieldset. The value should be a
 string indicating the fully qualified class name of the composed object
 to use.
 
-
-
 Methods
-=======
++++++++
 
 getComposedObject
 -----------------
@@ -26,8 +23,6 @@ getComposedObject
     Retrieve the composed object classname
 
     :rtype: null|string 
-
-
 
 
 

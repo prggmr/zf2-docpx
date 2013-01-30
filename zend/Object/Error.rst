@@ -1,26 +1,23 @@
-.. /Barcode/Object/Error.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Error.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Error
-****************************
-
+============================
 
 Class for generate Barcode
 
-
-
 Methods
-=======
++++++++
 
 validateText
 ------------
 
-.. function:: validateText($value)
+.. function:: validateText()
 
 
     All texts are accepted
 
-    :param string $value: 
+    :param string: 
 
     :rtype: bool 
 
@@ -29,12 +26,12 @@ validateText
 getHeight
 ---------
 
-.. function:: getHeight([$recalculate = false])
+.. function:: getHeight()
 
 
     Height is forced
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -43,12 +40,12 @@ getHeight
 getWidth
 --------
 
-.. function:: getWidth([$recalculate = false])
+.. function:: getWidth()
 
 
     Width is forced
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -100,8 +97,6 @@ calculateBarcodeWidth
     For compatibility reason
 
     :rtype: void 
-
-
 
 
 

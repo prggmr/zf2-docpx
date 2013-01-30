@@ -1,26 +1,34 @@
-.. /Code/Generator/PropertyGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/PropertyGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\PropertyGenerator
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 fromReflection
 --------------
 
-.. function:: fromReflection($reflectionProperty)
+.. function:: fromReflection()
 
 
-    fromReflection()
+    @param  PropertyReflection $reflectionProperty
 
-    :param PropertyReflection $reflectionProperty: 
+    :rtype: PropertyGenerator 
+
+
+
+fromArray
+---------
+
+.. function:: fromArray()
+
+
+    Generate from array
+
+
+    :param array: 
 
     :rtype: PropertyGenerator 
 
@@ -29,19 +37,23 @@ fromReflection
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$defaultValue = false, [$flags = 16]]])
+.. function:: __construct()
+
+
+    @param  string $name
+
+    :param PropertyValueGenerator|string|array: 
+    :param int|array: 
 
 
 
 setConst
 --------
 
-.. function:: setConst($const)
+.. function:: setConst()
 
 
-    setConst()
-
-    :param bool $const: 
+    @param  bool $const
 
     :rtype: PropertyGenerator 
 
@@ -53,21 +65,17 @@ isConst
 .. function:: isConst()
 
 
-    isConst()
-
-    :rtype: bool 
+    @return bool
 
 
 
 setDefaultValue
 ---------------
 
-.. function:: setDefaultValue($defaultValue)
+.. function:: setDefaultValue()
 
 
-    setDefaultValue()
-
-    :param PropertyValueGenerator|string|array $defaultValue: 
+    @param  PropertyValueGenerator|string|array $defaultValue
 
     :rtype: PropertyGenerator 
 
@@ -79,9 +87,7 @@ getDefaultValue
 .. function:: getDefaultValue()
 
 
-    getDefaultValue()
-
-    :rtype: PropertyValueGenerator 
+    @return PropertyValueGenerator
 
 
 
@@ -91,8 +97,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
+    @throws Exception\RuntimeException
 
     :rtype: string 
 
@@ -101,8 +106,8 @@ generate
 
 
 Constants
----------
++++++++++
 
 FLAG_CONSTANT
-+++++++++++++
+=============
 

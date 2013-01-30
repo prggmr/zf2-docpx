@@ -1,26 +1,21 @@
-.. /Cache/Pattern/ClassCache.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/ClassCache.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\ClassCache
-********************************
-
-
-@category   Zend
-
-
+================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param PatternOptions $options: 
+    :param PatternOptions: 
 
     :rtype: ClassCache 
 
@@ -31,13 +26,13 @@ setOptions
 call
 ----
 
-.. function:: call($method, [$args = false])
+.. function:: call()
 
 
     Call and cache a class method
 
-    :param string $method: Method name to call
-    :param array $args: Method arguments
+    :param string: Method name to call
+    :param array: Method arguments
 
     :rtype: mixed 
 
@@ -49,14 +44,14 @@ call
 generateKey
 -----------
 
-.. function:: generateKey($method, [$args = false])
+.. function:: generateKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param string $method: The method
-    :param array $args: Callback arguments
+    :param string: The method
+    :param array: Callback arguments
 
     :rtype: string 
 
@@ -67,14 +62,14 @@ generateKey
 generateCallbackKey
 -------------------
 
-.. function:: generateCallbackKey($callback, $args)
+.. function:: generateCallbackKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param callable $callback: A valid callback
-    :param array $args: Callback arguments
+    :param callable: A valid callback
+    :param array: Callback arguments
 
     :rtype: string 
 
@@ -85,13 +80,13 @@ generateCallbackKey
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
     Calling a method of the entity.
 
-    :param string $method: Method name to call
-    :param array $args: Method arguments
+    :param string: Method name to call
+    :param array: Method arguments
 
     :rtype: mixed 
 
@@ -103,53 +98,45 @@ __call
 __set
 -----
 
-.. function:: __set($name, $value)
+.. function:: __set()
 
 
     Set a static property
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: void 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Get a static property
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
 __isset
 -------
 
-.. function:: __isset($name)
+.. function:: __isset()
 
 
     Is a static property exists.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -158,16 +145,14 @@ __isset
 __unset
 -------
 
-.. function:: __unset($name)
+.. function:: __unset()
 
 
     Unset a static property
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
-
-
 
 
 

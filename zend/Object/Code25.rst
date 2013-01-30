@@ -1,16 +1,13 @@
-.. /Barcode/Object/Code25.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Code25.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Code25
-*****************************
-
+=============================
 
 Class for generate Interleaved 2 of 5 barcode
 
-
-
 Methods
-=======
++++++++
 
 calculateBarcodeWidth
 ---------------------
@@ -51,16 +48,14 @@ prepareBarcode
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
-
-
 
 
 

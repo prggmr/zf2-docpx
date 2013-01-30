@@ -1,34 +1,25 @@
-.. /Cache/Storage/Adapter/Memory.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/Memory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\Memory
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options.
 
-    :param array|\Traversable|MemoryOptions $options: 
+    :param array|\Traversable|MemoryOptions: 
 
     :rtype: Memory 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
+    :see:  
 
 
 
@@ -42,11 +33,7 @@ getOptions
 
     :rtype: MemoryOptions 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
 
 
 
@@ -110,15 +97,22 @@ clearExpired
 
 
 
+clearByNamespace
+----------------
+
+.. function:: clearByNamespace()
+
+
+
 clearByPrefix
 -------------
 
-.. function:: clearByPrefix($prefix)
+.. function:: clearByPrefix()
 
 
     Remove items matching given prefix
 
-    :param string $prefix: 
+    :param string: 
 
     :rtype: bool 
 
@@ -127,14 +121,14 @@ clearByPrefix
 setTags
 -------
 
-.. function:: setTags($key, $tags)
+.. function:: setTags()
 
 
     Set tags to an item by given key.
     An empty array will remove all tags.
 
-    :param string $key: 
-    :param string[] $tags: 
+    :param string: 
+    :param string[]: 
 
     :rtype: bool 
 
@@ -143,12 +137,12 @@ setTags
 getTags
 -------
 
-.. function:: getTags($key)
+.. function:: getTags()
 
 
     Get tags of an item by given key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: string[]|FALSE 
 
@@ -157,7 +151,7 @@ getTags
 clearByTags
 -----------
 
-.. function:: clearByTags($tags, [$disjunction = false])
+.. function:: clearByTags()
 
 
     Remove items matching given tags.
@@ -165,8 +159,8 @@ clearByTags
     If $disjunction only one of the given tags must match
     else all given tags must match.
 
-    :param string[] $tags: 
-    :param bool $disjunction: 
+    :param string[]: 
+    :param bool: 
 
     :rtype: bool 
 
@@ -175,14 +169,14 @@ clearByTags
 internalGetItem
 ---------------
 
-.. function:: internalGetItem($normalizedKey, [$success = false, [$casToken = false]])
+.. function:: internalGetItem()
 
 
     Internal method to get an item.
 
-    :param string $normalizedKey: 
-    :param bool $success: 
-    :param mixed $casToken: 
+    :param string: 
+    :param bool: 
+    :param mixed: 
 
     :rtype: mixed Data on success, null on failure
 
@@ -193,12 +187,12 @@ internalGetItem
 internalGetItems
 ----------------
 
-.. function:: internalGetItems($normalizedKeys)
+.. function:: internalGetItems()
 
 
     Internal method to get multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Associative array of keys and values
 
@@ -209,12 +203,12 @@ internalGetItems
 internalHasItem
 ---------------
 
-.. function:: internalHasItem($normalizedKey)
+.. function:: internalHasItem()
 
 
     Internal method to test if an item exists.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -223,12 +217,12 @@ internalHasItem
 internalHasItems
 ----------------
 
-.. function:: internalHasItems($normalizedKeys)
+.. function:: internalHasItems()
 
 
     Internal method to test multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Array of found keys
 
@@ -237,12 +231,12 @@ internalHasItems
 internalGetMetadata
 -------------------
 
-.. function:: internalGetMetadata($normalizedKey)
+.. function:: internalGetMetadata()
 
 
     Get metadata of an item.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: array|bool Metadata on success, false on failure
 
@@ -255,13 +249,13 @@ internalGetMetadata
 internalSetItem
 ---------------
 
-.. function:: internalSetItem($normalizedKey, $value)
+.. function:: internalSetItem()
 
 
     Internal method to store an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -272,12 +266,12 @@ internalSetItem
 internalSetItems
 ----------------
 
-.. function:: internalSetItems($normalizedKeyValuePairs)
+.. function:: internalSetItems()
 
 
     Internal method to store multiple items.
 
-    :param array $normalizedKeyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -288,13 +282,13 @@ internalSetItems
 internalAddItem
 ---------------
 
-.. function:: internalAddItem($normalizedKey, $value)
+.. function:: internalAddItem()
 
 
     Add an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -305,12 +299,12 @@ internalAddItem
 internalAddItems
 ----------------
 
-.. function:: internalAddItems($normalizedKeyValuePairs)
+.. function:: internalAddItems()
 
 
     Internal method to add multiple items.
 
-    :param array $normalizedKeyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -321,13 +315,13 @@ internalAddItems
 internalReplaceItem
 -------------------
 
-.. function:: internalReplaceItem($normalizedKey, $value)
+.. function:: internalReplaceItem()
 
 
     Internal method to replace an existing item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -338,12 +332,12 @@ internalReplaceItem
 internalReplaceItems
 --------------------
 
-.. function:: internalReplaceItems($normalizedKeyValuePairs)
+.. function:: internalReplaceItems()
 
 
     Internal method to replace multiple existing items.
 
-    :param array $normalizedKeyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -354,12 +348,12 @@ internalReplaceItems
 internalTouchItem
 -----------------
 
-.. function:: internalTouchItem($normalizedKey)
+.. function:: internalTouchItem()
 
 
     Internal method to reset lifetime of an item
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -370,12 +364,12 @@ internalTouchItem
 internalRemoveItem
 ------------------
 
-.. function:: internalRemoveItem($normalizedKey)
+.. function:: internalRemoveItem()
 
 
     Internal method to remove an item.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -386,13 +380,13 @@ internalRemoveItem
 internalIncrementItem
 ---------------------
 
-.. function:: internalIncrementItem($normalizedKey, $value)
+.. function:: internalIncrementItem()
 
 
     Internal method to increment an item.
 
-    :param string $normalizedKey: 
-    :param int $value: 
+    :param string: 
+    :param int: 
 
     :rtype: int|bool The new value on success, false on failure
 
@@ -403,13 +397,13 @@ internalIncrementItem
 internalDecrementItem
 ---------------------
 
-.. function:: internalDecrementItem($normalizedKey, $value)
+.. function:: internalDecrementItem()
 
 
     Internal method to decrement an item.
 
-    :param string $normalizedKey: 
-    :param int $value: 
+    :param string: 
+    :param int: 
 
     :rtype: int|bool The new value on success, false on failure
 
@@ -438,8 +432,6 @@ hasAvailableSpace
     Has space available to store items?
 
     :rtype: bool 
-
-
 
 
 

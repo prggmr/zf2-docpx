@@ -1,28 +1,21 @@
-.. /Filter/Word/UnderscoreToSeparator.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Word/UnderscoreToSeparator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Word\\UnderscoreToSeparator
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$replacementSeparator = " "])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $replacementSeparator: Space by default
-
-
+    :param string: Space by default
 
 
 

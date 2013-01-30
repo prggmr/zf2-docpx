@@ -1,28 +1,23 @@
-.. /Cache/Storage/Adapter/FilesystemIterator.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/FilesystemIterator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\FilesystemIterator
-*************************************************
-
-
-@category   Zend
-
-
+=================================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($storage, $path, $prefix)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Filesystem $storage: 
-    :param string $path: 
-    :param string $prefix: 
+    :param Filesystem: 
+    :param string: 
+    :param string: 
 
 
 
@@ -53,12 +48,12 @@ getMode
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Set iterator mode
 
-    :param int $mode: 
+    :param int: 
 
     :rtype: ApcIterator Fluent interface
 
@@ -121,8 +116,6 @@ rewind
     Rewind the Iterator to the first element.
 
     :rtype: void 
-
-
 
 
 

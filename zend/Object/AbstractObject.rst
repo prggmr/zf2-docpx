@@ -1,26 +1,23 @@
-.. /Barcode/Object/AbstractObject.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/AbstractObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\AbstractObject
-*************************************
-
+=====================================
 
 Class for generate Barcode
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
 
 
@@ -39,12 +36,12 @@ getDefaultOptions
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set barcode state from options array
 
-    :param array $options: 
+    :param array: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -53,12 +50,12 @@ setOptions
 setBarcodeNamespace
 -------------------
 
-.. function:: setBarcodeNamespace($namespace)
+.. function:: setBarcodeNamespace()
 
 
     Set barcode namespace for autoloading
 
-    :param string $namespace: 
+    :param string: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -91,12 +88,12 @@ getType
 setBarHeight
 ------------
 
-.. function:: setBarHeight($value)
+.. function:: setBarHeight()
 
 
     Set height of the barcode bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -117,12 +114,12 @@ getBarHeight
 setBarThinWidth
 ---------------
 
-.. function:: setBarThinWidth($value)
+.. function:: setBarThinWidth()
 
 
     Set thickness of thin bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -143,12 +140,12 @@ getBarThinWidth
 setBarThickWidth
 ----------------
 
-.. function:: setBarThickWidth($value)
+.. function:: setBarThickWidth()
 
 
     Set thickness of thick bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -169,13 +166,13 @@ getBarThickWidth
 setFactor
 ---------
 
-.. function:: setFactor($value)
+.. function:: setFactor()
 
 
     Set factor applying to
     thinBarWidth - thickBarWidth - barHeight - fontSize
 
-    :param float $value: 
+    :param float: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -197,12 +194,12 @@ getFactor
 setForeColor
 ------------
 
-.. function:: setForeColor($value)
+.. function:: setForeColor()
 
 
     Set color of the barcode and text
 
-    :param string $value: 
+    :param string: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -223,12 +220,12 @@ getForeColor
 setBackgroundColor
 ------------------
 
-.. function:: setBackgroundColor($value)
+.. function:: setBackgroundColor()
 
 
     Set the color of the background
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -249,12 +246,12 @@ getBackgroundColor
 setWithBorder
 -------------
 
-.. function:: setWithBorder($value)
+.. function:: setWithBorder()
 
 
     Activate/deactivate drawing of the bar
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -275,12 +272,12 @@ getWithBorder
 setWithQuietZones
 -----------------
 
-.. function:: setWithQuietZones($value)
+.. function:: setWithQuietZones()
 
 
     Activate/deactivate drawing of the quiet zones
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: AbstractObject 
 
@@ -313,12 +310,12 @@ setReverseColor
 setOrientation
 --------------
 
-.. function:: setOrientation($value)
+.. function:: setOrientation()
 
 
     Set orientation of barcode and text
 
-    :param float $value: 
+    :param float: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -339,12 +336,12 @@ getOrientation
 setText
 -------
 
-.. function:: setText($value)
+.. function:: setText()
 
 
     Set text to encode
 
-    :param string $value: 
+    :param string: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -365,13 +362,13 @@ getText
 addLeadingZeros
 ---------------
 
-.. function:: addLeadingZeros($text, [$withoutChecksum = false])
+.. function:: addLeadingZeros()
 
 
     Automatically add leading zeros if barcode length is fixed
 
-    :param string $text: 
-    :param bool $withoutChecksum: 
+    :param string: 
+    :param bool: 
 
     :rtype: string 
 
@@ -404,12 +401,12 @@ getTextToDisplay
 setDrawText
 -----------
 
-.. function:: setDrawText($value)
+.. function:: setDrawText()
 
 
     Activate/deactivate drawing of text to encode
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -430,13 +427,13 @@ getDrawText
 setStretchText
 --------------
 
-.. function:: setStretchText($value)
+.. function:: setStretchText()
 
 
     Activate/deactivate the adjustment of the position
     of the characters to the position of the bars
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -458,14 +455,14 @@ getStretchText
 setWithChecksum
 ---------------
 
-.. function:: setWithChecksum($value)
+.. function:: setWithChecksum()
 
 
     Activate/deactivate the automatic generation
     of the checksum character
     added to the barcode text
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface 
 
@@ -487,14 +484,14 @@ getWithChecksum
 setWithChecksumInText
 ---------------------
 
-.. function:: setWithChecksumInText($value)
+.. function:: setWithChecksumInText()
 
 
     Activate/deactivate the automatic generation
     of the checksum character
     added to the barcode text
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -516,14 +513,14 @@ getWithChecksumInText
 setFont
 -------
 
-.. function:: setFont($value)
+.. function:: setFont()
 
 
     Set the font:
      - if integer between 1 and 5, use gd built-in fonts
      - if string, $value is assumed to be the path to a TTF font
 
-    :param integer|string $value: 
+    :param integer|string: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -544,12 +541,12 @@ getFont
 setFontSize
 -----------
 
-.. function:: setFontSize($value)
+.. function:: setFontSize()
 
 
     Set the size of the font in case of TTF
 
-    :param float $value: 
+    :param float: 
 
     :rtype: \Zend\Barcode\Object\ObjectInterface @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -583,12 +580,12 @@ getQuietZone
 addInstruction
 --------------
 
-.. function:: addInstruction($instruction)
+.. function:: addInstruction()
 
 
     Add an instruction in the array of instructions
 
-    :param array $instruction: 
+    :param array: 
 
 
 
@@ -607,32 +604,32 @@ getInstructions
 addPolygon
 ----------
 
-.. function:: addPolygon($points, [$color = false, [$filled = true]])
+.. function:: addPolygon()
 
 
     Add a polygon drawing instruction in the set of instructions
 
-    :param array $points: 
-    :param integer $color: 
-    :param bool $filled: 
+    :param array: 
+    :param integer: 
+    :param bool: 
 
 
 
 addText
 -------
 
-.. function:: addText($text, $size, $position, $font, $color, [$alignment = "center", [$orientation = false]])
+.. function:: addText()
 
 
     Add a text drawing instruction in the set of instructions
 
-    :param string $text: 
-    :param float $size: 
-    :param array $position: 
-    :param string $font: 
-    :param integer $color: 
-    :param string $alignment: 
-    :param float $orientation: 
+    :param string: 
+    :param float: 
+    :param array: 
+    :param string: 
+    :param integer: 
+    :param string: 
+    :param float: 
 
 
 
@@ -651,7 +648,7 @@ checkParams
 checkText
 ---------
 
-.. function:: checkText([$value = false])
+.. function:: checkText()
 
 
     Check if a text is really provided to barcode
@@ -663,13 +660,13 @@ checkText
 checkRatio
 ----------
 
-.. function:: checkRatio([$min = 2, [$max = 3]])
+.. function:: checkRatio()
 
 
     Check the ratio between the thick and the thin bar
 
-    :param integer $min: 
-    :param integer $max: 
+    :param integer: 
+    :param integer: 
 
     :rtype: void @throw \Zend\Barcode\Object\Exception\ExceptionInterface
 
@@ -739,12 +736,12 @@ calculateBarcodeHeight
 getHeight
 ---------
 
-.. function:: getHeight([$recalculate = false])
+.. function:: getHeight()
 
 
     Get height of the result object
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -753,12 +750,12 @@ getHeight
 getWidth
 --------
 
-.. function:: getWidth([$recalculate = false])
+.. function:: getWidth()
 
 
     Get width of the result object
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -767,13 +764,13 @@ getWidth
 getOffsetLeft
 -------------
 
-.. function:: getOffsetLeft([$recalculate = false])
+.. function:: getOffsetLeft()
 
 
     Calculate the offset from the left of the object
     if an orientation is activated
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: float 
 
@@ -782,13 +779,13 @@ getOffsetLeft
 getOffsetTop
 ------------
 
-.. function:: getOffsetTop([$recalculate = false])
+.. function:: getOffsetTop()
 
 
     Calculate the offset from the top of the object
     if an orientation is activated
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: float 
 
@@ -797,13 +794,13 @@ getOffsetTop
 rotate
 ------
 
-.. function:: rotate($x1, $y1)
+.. function:: rotate()
 
 
     Apply rotation on a point in X/Y dimensions
 
-    :param float $x1: x-position before rotation
-    :param float $y1: y-position before rotation
+    :param float: x-position before rotation
+    :param float: y-position before rotation
 
     :rtype: array Array of two elements corresponding to the new XY point
 
@@ -860,12 +857,12 @@ drawText
 validateText
 ------------
 
-.. function:: validateText($value)
+.. function:: validateText()
 
 
     Check for invalid characters
 
-    :param string $value: Text to be checked
+    :param string: Text to be checked
 
     :rtype: void 
 
@@ -874,13 +871,13 @@ validateText
 validateSpecificText
 --------------------
 
-.. function:: validateSpecificText($value, [$options = false])
+.. function:: validateSpecificText()
 
 
     Standard validation for most of barcode objects
 
-    :param string $value: 
-    :param array $options: 
+    :param string: 
+    :param array: 
 
 
 
@@ -939,8 +936,6 @@ postDrawBarcode
     (ex: bearer bars in interleaved 2 of 5 code)
 
     :rtype: void 
-
-
 
 
 

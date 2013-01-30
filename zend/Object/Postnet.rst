@@ -1,16 +1,13 @@
-.. /Barcode/Object/Postnet.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Postnet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Postnet
-******************************
-
+==============================
 
 Class for generate Postnet barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -63,16 +60,14 @@ prepareBarcode
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
-
-
 
 
 

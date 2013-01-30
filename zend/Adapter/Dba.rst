@@ -1,23 +1,21 @@
-.. /Cache/Storage/Adapter/Dba.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/Dba.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\Dba
-**********************************
-
-
+==================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|array|Traversable|DbaOptions $options: 
+    :param null|array|Traversable|DbaOptions: 
 
     :throws Exception\ExceptionInterface: 
 
@@ -34,10 +32,6 @@ __destruct
     Closes an open dba resource
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: void 
 
 
@@ -45,20 +39,16 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options.
 
-    :param array|Traversable|DbaOptions $options: 
+    :param array|Traversable|DbaOptions: 
 
     :rtype: Apc 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
+    :see:  
 
 
 
@@ -72,11 +62,7 @@ getOptions
 
     :rtype: DbaOptions 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
 
 
 
@@ -89,13 +75,6 @@ getTotalSpace
     Get total space in bytes
 
     :rtype: int|float 
-
-
-
-$event
-------
-
-.. function:: $event()
 
 
 
@@ -126,12 +105,12 @@ flush
 clearByNamespace
 ----------------
 
-.. function:: clearByNamespace($namespace)
+.. function:: clearByNamespace()
 
 
     Remove items by given namespace
 
-    :param string $namespace: 
+    :param string: 
 
     :rtype: bool 
 
@@ -140,12 +119,12 @@ clearByNamespace
 clearByPrefix
 -------------
 
-.. function:: clearByPrefix($prefix)
+.. function:: clearByPrefix()
 
 
     Remove items matching given prefix
 
-    :param string $prefix: 
+    :param string: 
 
     :rtype: bool 
 
@@ -179,14 +158,14 @@ optimize
 internalGetItem
 ---------------
 
-.. function:: internalGetItem($normalizedKey, [$success = false, [$casToken = false]])
+.. function:: internalGetItem()
 
 
     Internal method to get an item.
 
-    :param string $normalizedKey: 
-    :param bool $success: 
-    :param mixed $casToken: 
+    :param string: 
+    :param bool: 
+    :param mixed: 
 
     :rtype: mixed Data on success, null on failure
 
@@ -197,12 +176,12 @@ internalGetItem
 internalHasItem
 ---------------
 
-.. function:: internalHasItem($normalizedKey)
+.. function:: internalHasItem()
 
 
     Internal method to test if an item exists.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -213,13 +192,13 @@ internalHasItem
 internalSetItem
 ---------------
 
-.. function:: internalSetItem($normalizedKey, $value)
+.. function:: internalSetItem()
 
 
     Internal method to store an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -230,13 +209,13 @@ internalSetItem
 internalAddItem
 ---------------
 
-.. function:: internalAddItem($normalizedKey, $value)
+.. function:: internalAddItem()
 
 
     Add an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -247,12 +226,12 @@ internalAddItem
 internalRemoveItem
 ------------------
 
-.. function:: internalRemoveItem($normalizedKey)
+.. function:: internalRemoveItem()
 
 
     Internal method to remove an item.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -269,13 +248,6 @@ internalGetCapabilities
     Internal method to get capabilities of this adapter
 
     :rtype: Capabilities 
-
-
-
-$event
-------
-
-.. function:: $event()
 
 
 
@@ -303,8 +275,6 @@ _close
     Close database file if opened
 
     :rtype: void 
-
-
 
 
 

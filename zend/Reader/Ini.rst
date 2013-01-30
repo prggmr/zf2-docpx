@@ -1,26 +1,23 @@
-.. /Config/Reader/Ini.php generated using docpx on 01/15/13 05:29pm
+.. Config/Reader/Ini.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Reader\\Ini
-*************************
-
+=========================
 
 XML config reader.
 
-
-
 Methods
-=======
++++++++
 
 setNestSeparator
 ----------------
 
-.. function:: setNestSeparator($separator)
+.. function:: setNestSeparator()
 
 
     Set nest separator.
 
-    :param string $separator: 
+    :param string: 
 
     :rtype: self 
 
@@ -41,17 +38,13 @@ getNestSeparator
 fromFile
 --------
 
-.. function:: fromFile($filename)
+.. function:: fromFile()
 
 
     fromFile(): defined by Reader interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $filename: 
+    :param string: 
 
     :rtype: array 
 
@@ -59,22 +52,15 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 
 
 
-$error
-------
-
-.. function:: $error()
-
-
-
 fromString
 ----------
 
-.. function:: fromString($string)
+.. function:: fromString()
 
 
     fromString(): defined by Reader interface.
 
-    :param string $string: 
+    :param string: 
 
     :rtype: array|bool 
 
@@ -82,22 +68,15 @@ fromString
 
 
 
-$error
-------
-
-.. function:: $error()
-
-
-
 process
 -------
 
-.. function:: process($data)
+.. function:: process()
 
 
     Process data from the parsed ini file.
 
-    :param array $data: 
+    :param array: 
 
     :rtype: array 
 
@@ -106,13 +85,13 @@ process
 buildNestedSection
 ------------------
 
-.. function:: buildNestedSection($sections, $value)
+.. function:: buildNestedSection()
 
 
     Process a nested section
 
-    :param array $sections: 
-    :param mixed $value: 
+    :param array: 
+    :param mixed: 
 
     :rtype: array 
 
@@ -121,12 +100,12 @@ buildNestedSection
 processSection
 --------------
 
-.. function:: processSection($section)
+.. function:: processSection()
 
 
     Process a section.
 
-    :param array $section: 
+    :param array: 
 
     :rtype: array 
 
@@ -135,20 +114,18 @@ processSection
 processKey
 ----------
 
-.. function:: processKey($key, $value, $config)
+.. function:: processKey()
 
 
     Process a key.
 
-    :param string $key: 
-    :param string $value: 
-    :param array $config: 
+    :param string: 
+    :param string: 
+    :param array: 
 
     :rtype: array 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

@@ -1,18 +1,16 @@
-.. /Db/TableGateway/Feature/FeatureSet.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/FeatureSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\FeatureSet
-*******************************************
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$features = false])
+.. function:: __construct()
 
 
     @var array
@@ -22,42 +20,42 @@ __construct
 setTableGateway
 ---------------
 
-.. function:: setTableGateway($tableGateway)
+.. function:: setTableGateway()
 
 
 
 getFeatureByClassName
 ---------------------
 
-.. function:: getFeatureByClassName($featureClassName)
+.. function:: getFeatureByClassName()
 
 
 
 addFeatures
 -----------
 
-.. function:: addFeatures($features)
+.. function:: addFeatures()
 
 
 
 addFeature
 ----------
 
-.. function:: addFeature($feature)
+.. function:: addFeature()
 
 
 
 apply
 -----
 
-.. function:: apply($method, $args)
+.. function:: apply()
 
 
 
 canCallMagicGet
 ---------------
 
-.. function:: canCallMagicGet($property)
+.. function:: canCallMagicGet()
 
 
     @param string $property
@@ -69,7 +67,7 @@ canCallMagicGet
 callMagicGet
 ------------
 
-.. function:: callMagicGet($property)
+.. function:: callMagicGet()
 
 
     @param string $property
@@ -81,7 +79,7 @@ callMagicGet
 canCallMagicSet
 ---------------
 
-.. function:: canCallMagicSet($property)
+.. function:: canCallMagicSet()
 
 
     @param string $property
@@ -93,7 +91,7 @@ canCallMagicSet
 callMagicSet
 ------------
 
-.. function:: callMagicSet($property, $value)
+.. function:: callMagicSet()
 
 
     @param $property
@@ -107,7 +105,7 @@ callMagicSet
 canCallMagicCall
 ----------------
 
-.. function:: canCallMagicCall($method)
+.. function:: canCallMagicCall()
 
 
     @param string $method
@@ -119,12 +117,12 @@ canCallMagicCall
 callMagicCall
 -------------
 
-.. function:: callMagicCall($method, $arguments)
+.. function:: callMagicCall()
 
 
     @param string $method
 
-    :param array $arguments: 
+    :param array: 
 
     :rtype: mixed 
 
@@ -133,8 +131,8 @@ callMagicCall
 
 
 Constants
----------
++++++++++
 
 APPLY_HALT
-++++++++++
+==========
 

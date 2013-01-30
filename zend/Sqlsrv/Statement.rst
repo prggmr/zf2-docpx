@@ -1,35 +1,52 @@
-.. /Db/Adapter/Driver/Sqlsrv/Statement.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Sqlsrv/Statement.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Sqlsrv\\Statement
-********************************************
-
-
-@category   Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Sqlsrv $driver: 
+    :param Sqlsrv: 
 
     :rtype: Statement 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Statement 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 initialize
 ----------
 
-.. function:: initialize($resource)
+.. function:: initialize()
 
 
     One of two resource types will be provided here:
@@ -37,7 +54,7 @@ initialize
     b) "SQL Server Statement" when a prepared statement has been already produced
     (there will need to already be a bound param set if it applies to this query)
 
-    :param resource $resource: 
+    :param resource: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -48,12 +65,12 @@ initialize
 setParameterContainer
 ---------------------
 
-.. function:: setParameterContainer($parameterContainer)
+.. function:: setParameterContainer()
 
 
     Set parameter container
 
-    :param ParameterContainer $parameterContainer: 
+    :param ParameterContainer: 
 
     :rtype: Statement 
 
@@ -72,7 +89,7 @@ getParameterContainer
 setResource
 -----------
 
-.. function:: setResource($resource)
+.. function:: setResource()
 
 
     @param $resource
@@ -96,7 +113,7 @@ getResource
 setSql
 ------
 
-.. function:: setSql($sql)
+.. function:: setSql()
 
 
     @param string $sql
@@ -120,7 +137,7 @@ getSql
 prepare
 -------
 
-.. function:: prepare([$sql = false])
+.. function:: prepare()
 
 
     @param string $sql
@@ -143,12 +160,12 @@ isPrepared
 execute
 -------
 
-.. function:: execute([$parameters = false])
+.. function:: execute()
 
 
     Execute
 
-    :param array|ParameterContainer $parameters: 
+    :param array|ParameterContainer: 
 
     :throws Exception\RuntimeException: 
 
@@ -163,8 +180,6 @@ bindParametersFromContainer
 
 
     Bind parameters from container
-
-
 
 
 

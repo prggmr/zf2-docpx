@@ -1,48 +1,36 @@
-.. /Cache/Pattern/CaptureCache.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/CaptureCache.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\CaptureCache
-**********************************
-
-
-@category   Zend
-
-
+==================================
 
 Methods
-=======
++++++++
 
 start
 -----
 
-.. function:: start([$pageId = false])
+.. function:: start()
 
 
     Start the cache
 
-    :param string $pageId: Page identifier
+    :param string: Page identifier
 
     :rtype: void 
-
-
-
-$content
---------
-
-.. function:: $content()
 
 
 
 set
 ---
 
-.. function:: set($content, [$pageId = false])
+.. function:: set()
 
 
     Write content to page identity
 
-    :param string $content: 
-    :param null|string $pageId: 
+    :param string: 
+    :param null|string: 
 
     :throws Exception\LogicException: 
 
@@ -51,12 +39,12 @@ set
 get
 ---
 
-.. function:: get([$pageId = false])
+.. function:: get()
 
 
     Get from cache
 
-    :param null|string $pageId: 
+    :param null|string: 
 
     :rtype: bool|string 
 
@@ -68,12 +56,12 @@ get
 has
 ---
 
-.. function:: has([$pageId = false])
+.. function:: has()
 
 
     Checks if a cache with given id exists
 
-    :param null|string $pageId: 
+    :param null|string: 
 
     :throws Exception\LogicException: 
 
@@ -84,12 +72,12 @@ has
 remove
 ------
 
-.. function:: remove([$pageId = false])
+.. function:: remove()
 
 
     Remove from cache
 
-    :param null|string $pageId: 
+    :param null|string: 
 
     :throws Exception\LogicException: 
     :throws Exception\RuntimeException: 
@@ -101,12 +89,12 @@ remove
 clearByGlob
 -----------
 
-.. function:: clearByGlob([$pattern = "**"])
+.. function:: clearByGlob()
 
 
     Clear cached pages matching glob pattern
 
-    :param string $pattern: 
+    :param string: 
 
     :throws Exception\LogicException: 
 
@@ -128,12 +116,12 @@ detectPageId
 pageId2Filename
 ---------------
 
-.. function:: pageId2Filename($pageId)
+.. function:: pageId2Filename()
 
 
     Get filename for page id
 
-    :param string $pageId: 
+    :param string: 
 
     :rtype: string 
 
@@ -142,12 +130,12 @@ pageId2Filename
 pageId2Path
 -----------
 
-.. function:: pageId2Path($pageId)
+.. function:: pageId2Path()
 
 
     Get path for page id
 
-    :param string $pageId: 
+    :param string: 
 
     :rtype: string 
 
@@ -156,13 +144,13 @@ pageId2Path
 putFileContent
 --------------
 
-.. function:: putFileContent($file, $data)
+.. function:: putFileContent()
 
 
     Write content to a file
 
-    :param string $file: File complete path
-    :param string $data: Data to write
+    :param string: File complete path
+    :param string: Data to write
 
     :rtype: void 
 
@@ -173,18 +161,16 @@ putFileContent
 createDirectoryStructure
 ------------------------
 
-.. function:: createDirectoryStructure($pathname)
+.. function:: createDirectoryStructure()
 
 
     Creates directory if not already done.
 
-    :param string $pathname: 
+    :param string: 
 
     :rtype: void 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

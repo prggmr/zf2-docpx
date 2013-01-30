@@ -1,40 +1,35 @@
-.. /Filter/Boolean.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Boolean.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Boolean
-*********************
-
-
-@category   Zend
-
-
+=====================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$typeOrOptions = false, [$casting = true, [$translations = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable|int|null $typeOrOptions: 
-    :param bool $casting: 
-    :param array $translations: 
+    :param array|Traversable|int|null: 
+    :param bool: 
+    :param array: 
 
 
 
 setType
 -------
 
-.. function:: setType([$type = false])
+.. function:: setType()
 
 
     Set boolean types
 
-    :param integer|array $type: 
+    :param integer|array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -57,12 +52,12 @@ getType
 setCasting
 ----------
 
-.. function:: setCasting([$flag = true])
+.. function:: setCasting()
 
 
     Set the working mode
 
-    :param bool $flag: When true this filter works like cast
+    :param bool: When true this filter works like cast
                       When false it recognises only true and false
                       and all other values are returned as is
 
@@ -85,7 +80,7 @@ getCasting
 setTranslations
 ---------------
 
-.. function:: setTranslations($translations)
+.. function:: setTranslations()
 
 
     @param  array|Traversable $translations
@@ -108,14 +103,14 @@ getTranslations
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Returns a boolean representation of $value
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
 
@@ -124,38 +119,38 @@ filter
 
 
 Constants
----------
-
-TYPE_BOOLEAN
-++++++++++++
-
-TYPE_INTEGER
-++++++++++++
-
-TYPE_FLOAT
-++++++++++
-
-TYPE_STRING
-+++++++++++
-
-TYPE_ZERO_STRING
-++++++++++++++++
-
-TYPE_EMPTY_ARRAY
-++++++++++++++++
-
-TYPE_NULL
 +++++++++
 
+TYPE_BOOLEAN
+============
+
+TYPE_INTEGER
+============
+
+TYPE_FLOAT
+==========
+
+TYPE_STRING
+===========
+
+TYPE_ZERO_STRING
+================
+
+TYPE_EMPTY_ARRAY
+================
+
+TYPE_NULL
+=========
+
 TYPE_PHP
-++++++++
+========
 
 TYPE_FALSE_STRING
-+++++++++++++++++
+=================
 
 TYPE_LOCALIZED
-++++++++++++++
+==============
 
 TYPE_ALL
-++++++++
+========
 

@@ -1,38 +1,33 @@
-.. /Db/Sql/Predicate/IsNull.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Predicate/IsNull.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Predicate\\IsNull
-********************************
-
-
-@category   Zend
-
-
+================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$identifier = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $identifier: 
+    :param string: 
 
 
 
 setIdentifier
 -------------
 
-.. function:: setIdentifier($identifier)
+.. function:: setIdentifier()
 
 
     Set identifier for comparison
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: IsNull 
 
@@ -53,12 +48,12 @@ getIdentifier
 setSpecification
 ----------------
 
-.. function:: setSpecification($specification)
+.. function:: setSpecification()
 
 
     Set specification string to use in forming SQL predicate
 
-    :param string $specification: 
+    :param string: 
 
     :rtype: IsNull 
 
@@ -85,8 +80,6 @@ getExpressionData
     Get parts for where statement
 
     :rtype: array 
-
-
 
 
 

@@ -1,28 +1,23 @@
-.. /Console/Prompt/Confirm.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/Confirm.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\Confirm
-******************************
-
-
-@category   Zend
-
-
+==============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$promptText = "Are you sure?", [$yesChar = "y", [$noChar = "n"]]])
+.. function:: __construct()
 
 
     Ask the user for a single key stroke
 
-    :param string $promptText: The prompt text to display in console
-    :param string $yesChar: The "yes" key (defaults to Y)
-    :param string $noChar: The "no" key (defaults to N)
+    :param string: The prompt text to display in console
+    :param string: The "yes" key (defaults to Y)
+    :param string: The "no" key (defaults to N)
 
 
 
@@ -41,7 +36,7 @@ show
 setNoChar
 ---------
 
-.. function:: setNoChar($noChar)
+.. function:: setNoChar()
 
 
     @param string $noChar
@@ -61,7 +56,7 @@ getNoChar
 setYesChar
 ----------
 
-.. function:: setYesChar($yesChar)
+.. function:: setYesChar()
 
 
     @param string $yesChar
@@ -75,8 +70,6 @@ getYesChar
 
 
     @return string
-
-
 
 
 

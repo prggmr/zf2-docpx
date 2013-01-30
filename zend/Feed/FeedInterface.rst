@@ -1,4 +1,4 @@
-.. /Feed/Reader/Feed/FeedInterface.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Feed/FeedInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Feed\\getAuthor
@@ -9,7 +9,7 @@ Zend\\Feed\\Reader\\Feed\\getAuthor
 
     Get a single author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 

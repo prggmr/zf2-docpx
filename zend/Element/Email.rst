@@ -1,16 +1,11 @@
-.. /Form/Element/Email.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Email.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Email
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 getValidator
 ------------
@@ -27,12 +22,12 @@ getValidator
 setValidator
 ------------
 
-.. function:: setValidator($validator)
+.. function:: setValidator()
 
 
     Sets the primary validator to use for this element
 
-    :param ValidatorInterface $validator: 
+    :param ValidatorInterface: 
 
     :rtype: Email 
 
@@ -68,13 +63,13 @@ getEmailValidator
 setEmailValidator
 -----------------
 
-.. function:: setEmailValidator($validator)
+.. function:: setEmailValidator()
 
 
     Sets the email validator to use for multiple or single
     email addresses.
 
-    :param ValidatorInterface $validator: 
+    :param ValidatorInterface: 
 
     :rtype: Email 
 
@@ -91,8 +86,6 @@ getInputSpecification
     Attaches an email validator.
 
     :rtype: array 
-
-
 
 
 

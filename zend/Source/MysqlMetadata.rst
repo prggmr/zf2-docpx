@@ -1,16 +1,11 @@
-.. /Db/Metadata/Source/MysqlMetadata.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Source/MysqlMetadata.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Source\\MysqlMetadata
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 loadSchemaData
 --------------
@@ -22,100 +17,49 @@ loadSchemaData
 loadTableNameData
 -----------------
 
-.. function:: loadTableNameData($schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadTableNameData()
 
 
 
 loadColumnData
 --------------
 
-.. function:: loadColumnData($table, $schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadColumnData()
 
 
 
 loadConstraintData
 ------------------
 
-.. function:: loadConstraintData($table, $schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadConstraintData()
 
 
 
 loadConstraintDataNames
 -----------------------
 
-.. function:: loadConstraintDataNames($schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadConstraintDataNames()
 
 
 
 loadConstraintDataKeys
 ----------------------
 
-.. function:: loadConstraintDataKeys($schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadConstraintDataKeys()
 
 
 
 loadConstraintReferences
 ------------------------
 
-.. function:: loadConstraintReferences($schema)
-
-
-
-$c
---
-
-.. function:: $c()
+.. function:: loadConstraintReferences()
 
 
 
 loadTriggerData
 ---------------
 
-.. function:: loadTriggerData($schema)
-
-
-
-$c
---
-
-.. function:: $c()
-
-
+.. function:: loadTriggerData()
 
 
 

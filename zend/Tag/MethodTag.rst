@@ -1,16 +1,11 @@
-.. /Code/Reflection/DocBlock/Tag/MethodTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/MethodTag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\MethodTag
-************************************************
-
-
-@category   Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -18,21 +13,19 @@ getName
 .. function:: getName()
 
 
-    Get tag name
-
-    :rtype: string 
+    @return string
 
 
 
 initialize
 ----------
 
-.. function:: initialize($tagDocblockLine)
+.. function:: initialize()
 
 
     Initializer
 
-    :param string $tagDocblockLine: 
+    :param string: 
 
 
 
@@ -44,7 +37,16 @@ getReturnType
 
     Get return value type
 
-    :rtype: string 
+    :rtype: null|string 
+
+    :deprecated:  
+
+
+
+getTypes
+--------
+
+.. function:: getTypes()
 
 
 
@@ -54,9 +56,7 @@ getMethodName
 .. function:: getMethodName()
 
 
-    Get method name
-
-    :rtype: string 
+    @return string
 
 
 
@@ -66,9 +66,7 @@ getDescription
 .. function:: getDescription()
 
 
-    Get method description
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -88,8 +86,6 @@ __toString
 ----------
 
 .. function:: __toString()
-
-
 
 
 

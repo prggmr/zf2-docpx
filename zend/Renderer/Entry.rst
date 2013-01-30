@@ -1,16 +1,13 @@
-.. /Feed/Writer/Extension/WellFormedWeb/Renderer/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/WellFormedWeb/Renderer/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\WellFormedWeb\\Renderer\\Entry
-*************************************************************
-
-
-@category Zend
+=============================================================
 
 
 
 Methods
-=======
++++++++
 
 render
 ------
@@ -39,17 +36,15 @@ _appendNamespaces
 _setCommentFeedLinks
 --------------------
 
-.. function:: _setCommentFeedLinks($dom, $root)
+.. function:: _setCommentFeedLinks()
 
 
     Set entry comment feed links
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

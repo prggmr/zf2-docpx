@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormLabel.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormLabel.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormLabel
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 openTag
 -------
 
-.. function:: openTag([$attributesOrElement = false])
+.. function:: openTag()
 
 
     Generate an opening label tag
 
-    :param null|array|ElementInterface $attributesOrElement: 
+    :param null|array|ElementInterface: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\DomainException: 
@@ -44,7 +39,7 @@ closeTag
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$labelContent = false, [$position = false]]])
+.. function:: __invoke()
 
 
     Generate a form label, optionally with content
@@ -52,9 +47,9 @@ __invoke
     Always generates a "for" statement, as we cannot assume the form input
     will be provided in the $labelContent.
 
-    :param ElementInterface $element: 
-    :param null|string $labelContent: 
-    :param string $position: 
+    :param ElementInterface: 
+    :param null|string: 
+    :param string: 
 
     :throws Exception\DomainException: 
 
@@ -65,11 +60,11 @@ __invoke
 
 
 Constants
----------
++++++++++
 
 APPEND
-++++++
+======
 
 PREPEND
-+++++++
+=======
 

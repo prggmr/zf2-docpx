@@ -1,39 +1,34 @@
-.. /Db/ResultSet/HydratingResultSet.php generated using docpx on 01/15/13 05:29pm
+.. Db/ResultSet/HydratingResultSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\ResultSet\\HydratingResultSet
-***************************************
-
-
-@category   Zend
-
-
+=======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$hydrator = false, [$objectPrototype = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|HydratorInterface $hydrator: 
-    :param null|object $objectPrototype: 
+    :param null|HydratorInterface: 
+    :param null|object: 
 
 
 
 setObjectPrototype
 ------------------
 
-.. function:: setObjectPrototype($objectPrototype)
+.. function:: setObjectPrototype()
 
 
     Set the row object prototype
 
-    :param object $objectPrototype: 
+    :param object: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -44,12 +39,12 @@ setObjectPrototype
 setHydrator
 -----------
 
-.. function:: setHydrator($hydrator)
+.. function:: setHydrator()
 
 
     Set the hydrator to use for each row object
 
-    :param HydratorInterface $hydrator: 
+    :param HydratorInterface: 
 
     :rtype: HydratingResultSet 
 
@@ -90,8 +85,6 @@ toArray
     :rtype: array 
 
     :throws: Exception\RuntimeException if any row is not castable to an array
-
-
 
 
 

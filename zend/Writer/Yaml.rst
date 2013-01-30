@@ -1,26 +1,21 @@
-.. /Config/Writer/Yaml.php generated using docpx on 01/15/13 05:29pm
+.. Config/Writer/Yaml.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Writer\\Yaml
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$yamlEncoder = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param callable|string|null $yamlEncoder: 
+    :param callable|string|null: 
 
 
 
@@ -39,12 +34,12 @@ getYamlEncoder
 setYamlEncoder
 --------------
 
-.. function:: setYamlEncoder($yamlEncoder)
+.. function:: setYamlEncoder()
 
 
     Set callback for decoding YAML
 
-    :param callable $yamlEncoder: the decoder to set
+    :param callable: the decoder to set
 
     :rtype: Yaml 
 
@@ -55,18 +50,16 @@ setYamlEncoder
 processConfig
 -------------
 
-.. function:: processConfig($config)
+.. function:: processConfig()
 
 
     processConfig(): defined by AbstractWriter.
 
-    :param array $config: 
+    :param array: 
 
     :rtype: string 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

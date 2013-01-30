@@ -1,24 +1,21 @@
-.. /Code/Scanner/FileScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/FileScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\FileScanner
-********************************
-
-
+================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($file, [$annotationManager = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  string $file
 
-    :param string $file: 
-    :param null|AnnotationManager $annotationManager: 
+    :param null|AnnotationManager: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -30,11 +27,7 @@ getFile
 .. function:: getFile()
 
 
-    Get file
-
-    :rtype: null|string 
-
-
+    @return null|string
 
 
 

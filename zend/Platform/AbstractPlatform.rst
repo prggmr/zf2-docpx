@@ -1,18 +1,16 @@
-.. /Db/Sql/Platform/AbstractPlatform.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Platform/AbstractPlatform.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Platform\\AbstractPlatform
-*****************************************
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 setSubject
 ----------
 
-.. function:: setSubject($subject)
+.. function:: setSubject()
 
 
     @param $subject
@@ -22,12 +20,12 @@ setSubject
 setTypeDecorator
 ----------------
 
-.. function:: setTypeDecorator($type, $decorator)
+.. function:: setTypeDecorator()
 
 
     @param $type
 
-    :param PlatformDecoratorInterface $decorator: 
+    :param PlatformDecoratorInterface: 
 
 
 
@@ -44,12 +42,12 @@ getDecorators
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
-    @param Adapter $adapter
+    @param AdapterInterface $adapter
 
-    :param StatementContainerInterface $statementContainer: 
+    :param StatementContainerInterface: 
 
     :throws Exception\RuntimeException: 
 
@@ -60,7 +58,7 @@ prepareStatement
 getSqlString
 ------------
 
-.. function:: getSqlString([$adapterPlatform = false])
+.. function:: getSqlString()
 
 
     @param null|\Zend\Db\Adapter\Platform\PlatformInterface $adapterPlatform
@@ -68,8 +66,6 @@ getSqlString
     :rtype: mixed 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

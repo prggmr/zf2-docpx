@@ -1,27 +1,24 @@
-.. /Crypt/PublicKey/Rsa/PublicKey.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/PublicKey/Rsa/PublicKey.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\PublicKey\\Rsa\\PublicKey
-**************************************
-
+======================================
 
 RSA public key
 
-
-
 Methods
-=======
++++++++
 
 fromFile
 --------
 
-.. function:: fromFile($pemOrCertificateFile)
+.. function:: fromFile()
 
 
     Create public key instance public key from PEM formatted key file
     or X.509 certificate file
 
-    :param string $pemOrCertificateFile: 
+    :param string: 
 
     :rtype: PublicKey 
 
@@ -32,12 +29,12 @@ fromFile
 __construct
 -----------
 
-.. function:: __construct($pemStringOrCertificate)
+.. function:: __construct()
 
 
     Construct public key with PEM formatted string or X.509 certificate
 
-    :param string $pemStringOrCertificate: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -46,12 +43,12 @@ __construct
 encrypt
 -------
 
-.. function:: encrypt($data)
+.. function:: encrypt()
 
 
     Encrypt using this key
 
-    :param string $data: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\RuntimeException: 
@@ -63,12 +60,12 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($data)
+.. function:: decrypt()
 
 
     Decrypt using this key
 
-    :param string $data: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\RuntimeException: 
@@ -106,8 +103,8 @@ toString
 
 
 Constants
----------
++++++++++
 
 CERT_START
-++++++++++
+==========
 

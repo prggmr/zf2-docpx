@@ -1,39 +1,36 @@
-.. /Feed/Writer/Renderer/Feed/AbstractAtom.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Feed/AbstractAtom.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\AbstractAtom
-************************************************
-
-
-@category Zend
+================================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\AbstractFeed $container: 
+    :param Writer\AbstractFeed: 
 
 
 
 _setLanguage
 ------------
 
-.. function:: _setLanguage($dom, $root)
+.. function:: _setLanguage()
 
 
     Set feed language
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -42,13 +39,13 @@ _setLanguage
 _setTitle
 ---------
 
-.. function:: _setTitle($dom, $root)
+.. function:: _setTitle()
 
 
     Set feed title
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -59,13 +56,13 @@ _setTitle
 _setDescription
 ---------------
 
-.. function:: _setDescription($dom, $root)
+.. function:: _setDescription()
 
 
     Set feed description
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -74,13 +71,13 @@ _setDescription
 _setDateModified
 ----------------
 
-.. function:: _setDateModified($dom, $root)
+.. function:: _setDateModified()
 
 
     Set date feed was last modified
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -91,13 +88,13 @@ _setDateModified
 _setGenerator
 -------------
 
-.. function:: _setGenerator($dom, $root)
+.. function:: _setGenerator()
 
 
     Set feed generator string
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -106,13 +103,13 @@ _setGenerator
 _setLink
 --------
 
-.. function:: _setLink($dom, $root)
+.. function:: _setLink()
 
 
     Set link to feed
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -121,13 +118,13 @@ _setLink
 _setFeedLinks
 -------------
 
-.. function:: _setFeedLinks($dom, $root)
+.. function:: _setFeedLinks()
 
 
     Set feed links
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -138,13 +135,13 @@ _setFeedLinks
 _setAuthors
 -----------
 
-.. function:: _setAuthors($dom, $root)
+.. function:: _setAuthors()
 
 
     Set feed authors
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -153,13 +150,13 @@ _setAuthors
 _setId
 ------
 
-.. function:: _setId($dom, $root)
+.. function:: _setId()
 
 
     Set feed identifier
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -170,13 +167,13 @@ _setId
 _setCopyright
 -------------
 
-.. function:: _setCopyright($dom, $root)
+.. function:: _setCopyright()
 
 
     Set feed copyright
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -185,13 +182,13 @@ _setCopyright
 _setImage
 ---------
 
-.. function:: _setImage($dom, $root)
+.. function:: _setImage()
 
 
     Set feed level logo (image)
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -200,13 +197,13 @@ _setImage
 _setDateCreated
 ---------------
 
-.. function:: _setDateCreated($dom, $root)
+.. function:: _setDateCreated()
 
 
     Set date feed was created
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -215,13 +212,13 @@ _setDateCreated
 _setBaseUrl
 -----------
 
-.. function:: _setBaseUrl($dom, $root)
+.. function:: _setBaseUrl()
 
 
     Set base URL to feed links
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -230,13 +227,13 @@ _setBaseUrl
 _setHubs
 --------
 
-.. function:: _setHubs($dom, $root)
+.. function:: _setHubs()
 
 
     Set hubs to which this feed pushes
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -245,17 +242,15 @@ _setHubs
 _setCategories
 --------------
 
-.. function:: _setCategories($dom, $root)
+.. function:: _setCategories()
 
 
     Set feed categories
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

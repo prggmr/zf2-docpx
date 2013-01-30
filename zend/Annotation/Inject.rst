@@ -1,26 +1,21 @@
-.. /Di/Definition/Annotation/Inject.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/Annotation/Inject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\Annotation\\Inject
-****************************************
-
+========================================
 
 Annotation for injection endpoints for dependencies
 
-
-
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($content)
+.. function:: initialize()
 
 
     {@inheritDoc}
-
-
 
 
 

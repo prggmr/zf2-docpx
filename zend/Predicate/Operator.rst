@@ -1,42 +1,37 @@
-.. /Db/Sql/Predicate/Operator.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Predicate/Operator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Predicate\\Operator
-**********************************
-
-
-@category   Zend
-
-
+==================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$left = false, [$operator = "=", [$right = false, [$leftType = "identifier", [$rightType = "value"]]]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param int|float|bool|string $left: 
-    :param string $operator: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
 
 
 setLeft
 -------
 
-.. function:: setLeft($left)
+.. function:: setLeft()
 
 
     Set left side of operator
 
-    :param int|float|bool|string $left: 
+    :param int|float|bool|string: 
 
     :rtype: Operator 
 
@@ -57,12 +52,12 @@ getLeft
 setLeftType
 -----------
 
-.. function:: setLeftType($type)
+.. function:: setLeftType()
 
 
     Set parameter type for left side of operator
 
-    :param string $type: TYPE_IDENTIFIER or TYPE_VALUE {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE {@see allowedTypes}
 
     :throws Exception\InvalidArgumentException: 
 
@@ -85,12 +80,12 @@ getLeftType
 setOperator
 -----------
 
-.. function:: setOperator($operator)
+.. function:: setOperator()
 
 
     Set operator string
 
-    :param string $operator: 
+    :param string: 
 
     :rtype: Operator 
 
@@ -111,12 +106,12 @@ getOperator
 setRight
 --------
 
-.. function:: setRight($value)
+.. function:: setRight()
 
 
     Set right side of operator
 
-    :param int|float|bool|string $value: 
+    :param int|float|bool|string: 
 
     :rtype: Operator 
 
@@ -137,12 +132,12 @@ getRight
 setRightType
 ------------
 
-.. function:: setRightType($type)
+.. function:: setRightType()
 
 
     Set parameter type for right side of operator
 
-    :param string $type: TYPE_IDENTIFIER or TYPE_VALUE {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE {@see allowedTypes}
 
     :throws Exception\InvalidArgumentException: 
 
@@ -177,41 +172,41 @@ getExpressionData
 
 
 Constants
----------
++++++++++
 
 OPERATOR_EQUAL_TO
-+++++++++++++++++
+=================
 
 OP_EQ
-+++++
+=====
 
 OPERATOR_NOT_EQUAL_TO
-+++++++++++++++++++++
+=====================
 
 OP_NE
-+++++
+=====
 
 OPERATOR_LESS_THAN
-++++++++++++++++++
+==================
 
 OP_LT
-+++++
+=====
 
 OPERATOR_LESS_THAN_OR_EQUAL_TO
-++++++++++++++++++++++++++++++
+==============================
 
 OP_LTE
-++++++
+======
 
 OPERATOR_GREATER_THAN
-+++++++++++++++++++++
+=====================
 
 OP_GT
-+++++
+=====
 
 OPERATOR_GREATER_THAN_OR_EQUAL_TO
-+++++++++++++++++++++++++++++++++
+=================================
 
 OP_GTE
-++++++
+======
 

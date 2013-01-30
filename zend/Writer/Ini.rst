@@ -1,26 +1,21 @@
-.. /Config/Writer/Ini.php generated using docpx on 01/15/13 05:29pm
+.. Config/Writer/Ini.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Writer\\Ini
-*************************
-
-
-@category   Zend
-
-
+=========================
 
 Methods
-=======
++++++++
 
 setNestSeparator
 ----------------
 
-.. function:: setNestSeparator($separator)
+.. function:: setNestSeparator()
 
 
     Set nest separator.
 
-    :param string $separator: 
+    :param string: 
 
     :rtype: self 
 
@@ -41,7 +36,7 @@ getNestSeparator
 setRenderWithoutSectionsFlags
 -----------------------------
 
-.. function:: setRenderWithoutSectionsFlags($withoutSections)
+.. function:: setRenderWithoutSectionsFlags()
 
 
     Set if rendering should occur without sections or not.
@@ -49,7 +44,7 @@ setRenderWithoutSectionsFlags
     If set to true, the INI file is rendered without sections completely
     into the global namespace of the INI file.
 
-    :param bool $withoutSections: 
+    :param bool: 
 
     :rtype: Ini 
 
@@ -70,12 +65,12 @@ shouldRenderWithoutSections
 processConfig
 -------------
 
-.. function:: processConfig($config)
+.. function:: processConfig()
 
 
     processConfig(): defined by AbstractWriter.
 
-    :param array $config: 
+    :param array: 
 
     :rtype: string 
 
@@ -84,13 +79,13 @@ processConfig
 addBranch
 ---------
 
-.. function:: addBranch($config, [$parents = false])
+.. function:: addBranch()
 
 
     Add a branch to an INI string recursively.
 
-    :param array $config: 
-    :param array $parents: 
+    :param array: 
+    :param array: 
 
     :rtype: string 
 
@@ -99,12 +94,12 @@ addBranch
 prepareValue
 ------------
 
-.. function:: prepareValue($value)
+.. function:: prepareValue()
 
 
     Prepare a value for INI.
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: string 
 
@@ -115,17 +110,15 @@ prepareValue
 sortRootElements
 ----------------
 
-.. function:: sortRootElements($config)
+.. function:: sortRootElements()
 
 
     Root elements that are not assigned to any section needs to be on the
     top of config.
 
-    :param array $config: 
+    :param array: 
 
     :rtype: array 
-
-
 
 
 

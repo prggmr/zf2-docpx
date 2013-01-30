@@ -1,16 +1,11 @@
-.. /Feed/Reader/Collection/Category.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Collection/Category.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Collection\\Category
-****************************************
-
-
-@category Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 getValues
 ---------
@@ -24,8 +19,6 @@ getValues
     merely return the most useful data - i.e. the category names.
 
     :rtype: array 
-
-
 
 
 

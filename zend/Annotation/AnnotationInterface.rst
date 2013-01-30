@@ -1,4 +1,4 @@
-.. /Code/Annotation/AnnotationInterface.php generated using docpx on 01/15/13 05:29pm
+.. Code/Annotation/AnnotationInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Annotation\\initialize
@@ -9,7 +9,7 @@ Zend\\Code\\Annotation\\initialize
 
     Initialize
 
-    :param $content: 
+    :param string: 
 
 
 

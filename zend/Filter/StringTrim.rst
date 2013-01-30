@@ -1,38 +1,33 @@
-.. /Filter/StringTrim.php generated using docpx on 01/15/13 05:29pm
+.. Filter/StringTrim.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\StringTrim
-************************
-
-
-@category   Zend
-
-
+========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$charlistOrOptions = false])
+.. function:: __construct()
 
 
     Sets filter options
 
-    :param string|array|Traversable $charlistOrOptions: 
+    :param string|array|Traversable: 
 
 
 
 setCharList
 -----------
 
-.. function:: setCharList($charList)
+.. function:: setCharList()
 
 
     Sets the charList option
 
-    :param string $charList: 
+    :param string: 
 
     :rtype: StringTrim Provides a fluent interface
 
@@ -53,14 +48,14 @@ getCharList
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Returns the string $value with characters stripped from the beginning and end
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
 
@@ -69,18 +64,16 @@ filter
 unicodeTrim
 -----------
 
-.. function:: unicodeTrim($value, [$charlist = "\\s"])
+.. function:: unicodeTrim()
 
 
     Unicode aware trim method
     Fixes a PHP problem
 
-    :param string $value: 
-    :param string $charlist: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

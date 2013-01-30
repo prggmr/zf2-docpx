@@ -1,4 +1,4 @@
-.. /Console/Prompt/PromptInterface.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/PromptInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\show
@@ -45,7 +45,7 @@ Zend\\Console\\Prompt\\setConsole
 
     Set console adapter to use when showing prompt.
 
-    :param ConsoleAdapter $adapter: 
+    :param ConsoleAdapter: 
 
 
 

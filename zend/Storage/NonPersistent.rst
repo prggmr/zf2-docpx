@@ -1,9 +1,8 @@
-.. /Authentication/Storage/NonPersistent.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Storage/NonPersistent.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Storage\\NonPersistent
-********************************************
-
+============================================
 
 Non-Persistent Authentication Storage
 
@@ -11,10 +10,8 @@ Since HTTP Authentication happens again on each request, this will always be
 re-populated. So there's no need to use sessions, this simple value class
 will hold the data for rest of the current request.
 
-
-
 Methods
-=======
++++++++
 
 isEmpty
 -------
@@ -44,12 +41,12 @@ read
 write
 -----
 
-.. function:: write($contents)
+.. function:: write()
 
 
     Writes $contents to storage
 
-    :param mixed $contents: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -64,8 +61,6 @@ clear
     Clears contents from storage
 
     :rtype: void 
-
-
 
 
 

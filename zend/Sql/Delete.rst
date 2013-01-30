@@ -1,38 +1,35 @@
-.. /Db/Sql/Delete.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Delete.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Delete
-*********************
+=====================
 
-
-@category   Zend
-
-
+@property Where $where
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$table = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|string $table: 
+    :param null|string|TableIdentifier: 
 
 
 
 from
 ----
 
-.. function:: from($table)
+.. function:: from()
 
 
     Create from statement
 
-    :param string $table: 
+    :param string|TableIdentifier: 
 
     :rtype: Delete 
 
@@ -41,20 +38,20 @@ from
 getRawState
 -----------
 
-.. function:: getRawState([$key = false])
+.. function:: getRawState()
 
 
 
 where
 -----
 
-.. function:: where($predicate, [$combination = "AND"])
+.. function:: where()
 
 
     Create where clause
 
-    :param Where|\Closure|string|array $predicate: 
-    :param string $combination: One of the OP_* constants from Predicate\PredicateSet
+    :param Where|\Closure|string|array: 
+    :param string: One of the OP_* constants from Predicate\PredicateSet
 
     :rtype: Delete 
 
@@ -63,13 +60,13 @@ where
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
     Prepare the delete statement
 
-    :param Adapter $adapter: 
-    :param StatementContainerInterface $statementContainer: 
+    :param AdapterInterface: 
+    :param StatementContainerInterface: 
 
     :rtype: void 
 
@@ -78,14 +75,14 @@ prepareStatement
 getSqlString
 ------------
 
-.. function:: getSqlString([$adapterPlatform = false])
+.. function:: getSqlString()
 
 
     Get the SQL string, based on the platform
     
     Platform defaults to Sql92 if none provided
 
-    :param null|PlatformInterface $adapterPlatform: 
+    :param null|PlatformInterface: 
 
     :rtype: string 
 
@@ -94,14 +91,14 @@ getSqlString
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Property overloading
     
     Overloads "where" only.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -110,11 +107,11 @@ __get
 
 
 Constants
----------
++++++++++
 
 SPECIFICATION_DELETE
-++++++++++++++++++++
+====================
 
 SPECIFICATION_WHERE
-+++++++++++++++++++
+===================
 

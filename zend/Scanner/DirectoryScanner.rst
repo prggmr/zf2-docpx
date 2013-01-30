@@ -1,35 +1,29 @@
-.. /Code/Scanner/DirectoryScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/DirectoryScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\DirectoryScanner
-*************************************
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$directory = false])
+.. function:: __construct()
 
 
-    Constructor
-
-    :param null|string|array $directory: 
+    @param null|string|array $directory
 
 
 
 addDirectory
 ------------
 
-.. function:: addDirectory($directory)
+.. function:: addDirectory()
 
 
-    Add directory
-
-    :param DirectoryScanner|string $directory: 
+    @param  DirectoryScanner|string $directory
 
     :rtype: void 
 
@@ -40,12 +34,10 @@ addDirectory
 addDirectoryScanner
 -------------------
 
-.. function:: addDirectoryScanner($directoryScanner)
+.. function:: addDirectoryScanner()
 
 
-    Add directory scanner
-
-    :param DirectoryScanner $directoryScanner: 
+    @param  DirectoryScanner $directoryScanner
 
     :rtype: void 
 
@@ -54,12 +46,10 @@ addDirectoryScanner
 addFileScanner
 --------------
 
-.. function:: addFileScanner($fileScanner)
+.. function:: addFileScanner()
 
 
-    Add file scanner
-
-    :param FileScanner $fileScanner: 
+    @param  FileScanner $fileScanner
 
     :rtype: void 
 
@@ -71,9 +61,7 @@ scan
 .. function:: scan()
 
 
-    Scan
-
-    :rtype: void 
+    @return void
 
 
 
@@ -83,24 +71,17 @@ getNamespaces
 .. function:: getNamespaces()
 
 
-    Get namespace
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
+    @todo implement method
 
 
 
 getFiles
 --------
 
-.. function:: getFiles([$returnFileScanners = false])
+.. function:: getFiles()
 
 
-    Get files
-
-    :param bool $returnFileScanners: 
+    @param  bool $returnFileScanners
 
     :rtype: array 
 
@@ -112,35 +93,29 @@ getClassNames
 .. function:: getClassNames()
 
 
-    Get class names
-
-    :rtype: string[] 
+    @return array
 
 
 
 getClasses
 ----------
 
-.. function:: getClasses([$returnDerivedScannerClass = false])
+.. function:: getClasses()
 
 
-    Get classes
+    @param  bool  $returnDerivedScannerClass
 
-    :param bool $returnDerivedScannerClass: 
-
-    :rtype: string[] 
+    :rtype: array 
 
 
 
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
-    Check for a class
-
-    :param string $class: 
+    @param  string $class
 
     :rtype: bool 
 
@@ -149,13 +124,12 @@ hasClass
 getClass
 --------
 
-.. function:: getClass($class, [$returnDerivedScannerClass = false])
+.. function:: getClass()
 
 
-    Get class
+    @param  string $class
 
-    :param string $class: 
-    :param bool $returnDerivedScannerClass: 
+    :param bool: 
 
     :rtype: ClassScanner|DerivedClassScanner 
 
@@ -184,10 +158,6 @@ export
     Export
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
 
 
 __toString
@@ -197,12 +167,6 @@ __toString
 
 
     __ToString
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
 
 
 

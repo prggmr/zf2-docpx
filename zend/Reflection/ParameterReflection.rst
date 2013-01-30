@@ -1,16 +1,11 @@
-.. /Code/Reflection/ParameterReflection.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/ParameterReflection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\ParameterReflection
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 getDeclaringClass
 -----------------
@@ -39,12 +34,10 @@ getClass
 getDeclaringFunction
 --------------------
 
-.. function:: getDeclaringFunction([$reflectionClass = false])
+.. function:: getDeclaringFunction()
 
 
     Get declaring function reflection object
-
-    :param string $reflectionClass: Reflection class to use
 
     :rtype: FunctionReflection|MethodReflection 
 
@@ -73,8 +66,6 @@ __toString
 ----------
 
 .. function:: __toString()
-
-
 
 
 

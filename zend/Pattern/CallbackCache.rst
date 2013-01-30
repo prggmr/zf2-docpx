@@ -1,26 +1,21 @@
-.. /Cache/Pattern/CallbackCache.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/CallbackCache.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\CallbackCache
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param PatternOptions $options: 
+    :param PatternOptions: 
 
     :rtype: CallbackCache 
 
@@ -31,13 +26,13 @@ setOptions
 call
 ----
 
-.. function:: call($callback, [$args = false])
+.. function:: call()
 
 
     Call the specified callback or get the result from cache
 
-    :param callable $callback: A valid callback
-    :param array $args: Callback arguments
+    :param callable: A valid callback
+    :param array: Callback arguments
 
     :rtype: mixed Result
 
@@ -49,13 +44,13 @@ call
 __call
 ------
 
-.. function:: __call($function, $args)
+.. function:: __call()
 
 
     function call handler
 
-    :param string $function: Function name to call
-    :param array $args: Function arguments
+    :param string: Function name to call
+    :param array: Function arguments
 
     :rtype: mixed 
 
@@ -67,14 +62,14 @@ __call
 generateKey
 -----------
 
-.. function:: generateKey($callback, [$args = false])
+.. function:: generateKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param callable $callback: A valid callback
-    :param array $args: Callback arguments
+    :param callable: A valid callback
+    :param array: Callback arguments
 
     :rtype: string 
 
@@ -86,14 +81,14 @@ generateKey
 generateCallbackKey
 -------------------
 
-.. function:: generateCallbackKey($callback, $args)
+.. function:: generateCallbackKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param callable $callback: A valid callback
-    :param array $args: Callback arguments
+    :param callable: A valid callback
+    :param array: Callback arguments
 
     :throws Exception\RuntimeException: if callback not serializable
     :throws Exception\InvalidArgumentException: if invalid callback
@@ -105,18 +100,16 @@ generateCallbackKey
 generateArgumentsKey
 --------------------
 
-.. function:: generateArgumentsKey($args)
+.. function:: generateArgumentsKey()
 
 
     Generate a unique key of the argument part.
 
-    :param array $args: 
+    :param array: 
 
     :throws Exception\RuntimeException: 
 
     :rtype: string 
-
-
 
 
 

@@ -1,26 +1,23 @@
-.. /Filter/Encrypt/BlockCipher.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Encrypt/BlockCipher.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Encrypt\\BlockCipher
-**********************************
-
+==================================
 
 Encryption adapter for Zend\Crypt\BlockCipher
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($options)
+.. function:: __construct()
 
 
     Class constructor
 
-    :param string|array|\Traversable $options: Encryption Options
+    :param string|array|\Traversable: Encryption Options
 
     :throws Exception\RuntimeException: 
     :throws Exception\InvalidArgumentException: 
@@ -42,12 +39,12 @@ getEncryption
 setEncryption
 -------------
 
-.. function:: setEncryption($options)
+.. function:: setEncryption()
 
 
     Sets new encryption options
 
-    :param string|array $options: Encryption options
+    :param string|array: Encryption options
 
     :rtype: BlockCipher 
 
@@ -70,16 +67,44 @@ getVector
 setVector
 ---------
 
-.. function:: setVector($vector)
+.. function:: setVector()
 
 
     Set the inizialization vector
 
-    :param string $vector: 
+    :param string: 
 
     :rtype: BlockCipher 
 
     :throws: Exception\InvalidArgumentException 
+
+
+
+setKey
+------
+
+.. function:: setKey()
+
+
+    Set the encryption key
+
+    :param string: 
+
+    :rtype: BlockCipher 
+
+    :throws: Exception\InvalidArgumentException 
+
+
+
+getKey
+------
+
+.. function:: getKey()
+
+
+    Get the encryption key
+
+    :rtype: string 
 
 
 
@@ -98,12 +123,12 @@ getCompression
 setCompression
 --------------
 
-.. function:: setCompression($compression)
+.. function:: setCompression()
 
 
     Sets a internal compression for values to encrypt
 
-    :param string|array $compression: 
+    :param string|array: 
 
     :rtype: BlockCipher 
 
@@ -112,14 +137,14 @@ setCompression
 encrypt
 -------
 
-.. function:: encrypt($value)
+.. function:: encrypt()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Encrypts $value with the defined settings
 
-    :param string $value: The content to encrypt
+    :param string: The content to encrypt
 
     :throws Exception\InvalidArgumentException: 
 
@@ -130,14 +155,14 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($value)
+.. function:: decrypt()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Decrypts $value with the defined settings
 
-    :param string $value: Content to decrypt
+    :param string: Content to decrypt
 
     :rtype: string The decrypted content
 
@@ -152,8 +177,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

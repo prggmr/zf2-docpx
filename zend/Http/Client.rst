@@ -1,39 +1,36 @@
-.. /Http/Client.php generated using docpx on 01/15/13 05:29pm
+.. Http/Client.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\Client
-******************
-
+==================
 
 Http client
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$uri = false, [$options = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $uri: 
-    :param array|Traversable $options: 
+    :param string: 
+    :param array|Traversable: 
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions([$options = false])
+.. function:: setOptions()
 
 
     Set configuration parameters for this HTTP client
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :rtype: Client 
 
@@ -44,7 +41,7 @@ setOptions
 setAdapter
 ----------
 
-.. function:: setAdapter($adapter)
+.. function:: setAdapter()
 
 
     Load the connection adapter
@@ -52,7 +49,7 @@ setAdapter
     While this method is not called more than one for a client, it is
     separated from ->request() to preserve logic and readability
 
-    :param Client\Adapter\AdapterInterface|string $adapter: 
+    :param Client\Adapter\AdapterInterface|string: 
 
     :rtype: Client 
 
@@ -75,12 +72,12 @@ getAdapter
 setRequest
 ----------
 
-.. function:: setRequest($request)
+.. function:: setRequest()
 
 
     Set request
 
-    :param Request $request: 
+    :param Request: 
 
     :rtype: Client 
 
@@ -101,12 +98,12 @@ getRequest
 setResponse
 -----------
 
-.. function:: setResponse($response)
+.. function:: setResponse()
 
 
     Set response
 
-    :param Response $response: 
+    :param Response: 
 
     :rtype: Client 
 
@@ -163,12 +160,12 @@ getRedirectionsCount
 setUri
 ------
 
-.. function:: setUri($uri)
+.. function:: setUri()
 
 
     Set Uri (to the request)
 
-    :param string|Http $uri: 
+    :param string|Http: 
 
     :rtype: Client 
 
@@ -189,12 +186,12 @@ getUri
 setMethod
 ---------
 
-.. function:: setMethod($method)
+.. function:: setMethod()
 
 
     Set the HTTP method (to the request)
 
-    :param string $method: 
+    :param string: 
 
     :rtype: Client 
 
@@ -212,16 +209,42 @@ getMethod
 
 
 
+setArgSeparator
+---------------
+
+.. function:: setArgSeparator()
+
+
+    Set the query string argument separator
+
+    :param string: 
+
+    :rtype: Client 
+
+
+
+getArgSeparator
+---------------
+
+.. function:: getArgSeparator()
+
+
+    Get the query string argument separator
+
+    :rtype: string 
+
+
+
 setEncType
 ----------
 
-.. function:: setEncType($encType, [$boundary = false])
+.. function:: setEncType()
 
 
     Set the encoding type and the boundary (if any)
 
-    :param string $encType: 
-    :param string $boundary: 
+    :param string: 
+    :param string: 
 
     :rtype: Client 
 
@@ -242,12 +265,12 @@ getEncType
 setRawBody
 ----------
 
-.. function:: setRawBody($body)
+.. function:: setRawBody()
 
 
     Set raw body (for advanced use cases)
 
-    :param string $body: 
+    :param string: 
 
     :rtype: Client 
 
@@ -256,12 +279,12 @@ setRawBody
 setParameterPost
 ----------------
 
-.. function:: setParameterPost($post)
+.. function:: setParameterPost()
 
 
     Set the POST parameters
 
-    :param array $post: 
+    :param array: 
 
     :rtype: Client 
 
@@ -270,12 +293,12 @@ setParameterPost
 setParameterGet
 ---------------
 
-.. function:: setParameterGet($query)
+.. function:: setParameterGet()
 
 
     Set the GET parameters
 
-    :param array $query: 
+    :param array: 
 
     :rtype: Client 
 
@@ -296,12 +319,12 @@ getCookies
 getCookieId
 -----------
 
-.. function:: getCookieId($cookie)
+.. function:: getCookieId()
 
 
     Get the cookie Id (name+domain+path)
 
-    :param Header\SetCookie|Header\Cookie $cookie: 
+    :param Header\SetCookie|Header\Cookie: 
 
     :rtype: string|bool 
 
@@ -310,20 +333,20 @@ getCookieId
 addCookie
 ---------
 
-.. function:: addCookie($cookie, [$value = false, [$expire = false, [$path = false, [$domain = false, [$secure = false, [$httponly = true, [$maxAge = false, [$version = false]]]]]]]])
+.. function:: addCookie()
 
 
     Add a cookie
 
-    :param array|ArrayIterator|Header\SetCookie|string $cookie: 
-    :param string $value: 
-    :param string $expire: 
-    :param string $path: 
-    :param string $domain: 
-    :param bool $secure: 
-    :param bool $httponly: 
-    :param string $maxAge: 
-    :param string $version: 
+    :param array|ArrayIterator|Header\SetCookie|string: 
+    :param string: 
+    :param string: 
+    :param string: 
+    :param string: 
+    :param bool: 
+    :param bool: 
+    :param string: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -334,12 +357,12 @@ addCookie
 setCookies
 ----------
 
-.. function:: setCookies($cookies)
+.. function:: setCookies()
 
 
     Set an array of cookies
 
-    :param array $cookies: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -360,12 +383,12 @@ clearCookies
 setHeaders
 ----------
 
-.. function:: setHeaders($headers)
+.. function:: setHeaders()
 
 
     Set the headers (for the request)
 
-    :param Headers|array $headers: 
+    :param Headers|array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -376,12 +399,12 @@ setHeaders
 hasHeader
 ---------
 
-.. function:: hasHeader($name)
+.. function:: hasHeader()
 
 
     Check if exists the header type specified
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -390,12 +413,12 @@ hasHeader
 getHeader
 ---------
 
-.. function:: getHeader($name)
+.. function:: getHeader()
 
 
     Get the header value of the request
 
-    :param string $name: 
+    :param string: 
 
     :rtype: string|bool 
 
@@ -404,12 +427,12 @@ getHeader
 setStream
 ---------
 
-.. function:: setStream([$streamfile = true])
+.. function:: setStream()
 
 
     Set streaming for received data
 
-    :param string|bool $streamfile: Stream file, true for temp file, false/null for no streaming
+    :param string|bool: Stream file, true for temp file, false/null for no streaming
 
     :rtype: \Zend\Http\Client 
 
@@ -443,15 +466,15 @@ openTempStream
 setAuth
 -------
 
-.. function:: setAuth($user, $password, [$type = "basic"])
+.. function:: setAuth()
 
 
     Create a HTTP authentication "Authorization:" header according to the
     specified user, password and authentication method.
 
-    :param string $user: 
-    :param string $password: 
-    :param string $type: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -462,21 +485,17 @@ setAuth
 calcAuthDigest
 --------------
 
-.. function:: calcAuthDigest($user, $password, [$type = "basic", [$digest = false, [$entityBody = false]]])
+.. function:: calcAuthDigest()
 
 
     Calculate the response value according to the HTTP authentication type
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $user: 
-    :param string $password: 
-    :param string $type: 
-    :param array $digest: 
-    :param null|string $entityBody: 
+    :param string: 
+    :param string: 
+    :param string: 
+    :param array: 
+    :param null|string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -487,12 +506,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 resetParameters
 ---------------
 
-.. function:: resetParameters([$clearCookies = false])
+.. function:: resetParameters()
 
 
     Reset all the HTTP parameters (auth,cookies,request, response, etc)
 
-    :param bool $clearCookies: Also clear all valid cookies? (defaults to false)
+    :param bool: Also clear all valid cookies? (defaults to false)
 
     :rtype: Client 
 
@@ -501,13 +520,13 @@ resetParameters
 dispatch
 --------
 
-.. function:: dispatch($request, [$response = false])
+.. function:: dispatch()
 
 
     Dispatch
 
-    :param Stdlib\RequestInterface $request: 
-    :param Stdlib\ResponseInterface $response: 
+    :param Stdlib\RequestInterface: 
+    :param Stdlib\ResponseInterface: 
 
     :rtype: Stdlib\ResponseInterface 
 
@@ -516,12 +535,12 @@ dispatch
 send
 ----
 
-.. function:: send([$request = false])
+.. function:: send()
 
 
     Send HTTP request
 
-    :param Request $request: 
+    :param Request: 
 
     :rtype: Response 
 
@@ -533,7 +552,7 @@ send
 setFileUpload
 -------------
 
-.. function:: setFileUpload($filename, $formname, [$data = false, [$ctype = false]])
+.. function:: setFileUpload()
 
 
     Set a file to upload (using a POST request)
@@ -547,10 +566,10 @@ setFileUpload
     manually set the Content-Type ($ctype) or it will default to
     application/octet-stream.
 
-    :param string $filename: Name of file to upload, or name to save as
-    :param string $formname: Name of form element to send as
-    :param string $data: Data to send (if null, $filename is read and sent)
-    :param string $ctype: Content type to use (if $data is set and $ctype is
+    :param string: Name of file to upload, or name to save as
+    :param string: Name of form element to send as
+    :param string: Data to send (if null, $filename is read and sent)
+    :param string: Content type to use (if $data is set and $ctype is
                null, will be application/octet-stream)
 
     :rtype: Client 
@@ -562,12 +581,12 @@ setFileUpload
 removeFileUpload
 ----------------
 
-.. function:: removeFileUpload($filename)
+.. function:: removeFileUpload()
 
 
     Remove a file to upload
 
-    :param string $filename: 
+    :param string: 
 
     :rtype: bool 
 
@@ -576,14 +595,14 @@ removeFileUpload
 prepareCookies
 --------------
 
-.. function:: prepareCookies($domain, $path, $secure)
+.. function:: prepareCookies()
 
 
     Prepare Cookies
 
-    :param string $domain: 
-    :param string $path: 
-    :param boolean $secure: 
+    :param string: 
+    :param string: 
+    :param boolean: 
 
     :rtype: Header\Cookie|bool 
 
@@ -592,13 +611,13 @@ prepareCookies
 prepareHeaders
 --------------
 
-.. function:: prepareHeaders($body, $uri)
+.. function:: prepareHeaders()
 
 
     Prepare the request headers
 
-    :param resource|string $body: 
-    :param Http $uri: 
+    :param resource|string: 
+    :param Http: 
 
     :throws Exception\RuntimeException: 
 
@@ -623,7 +642,7 @@ prepareBody
 detectFileMimeType
 ------------------
 
-.. function:: detectFileMimeType($file)
+.. function:: detectFileMimeType()
 
 
     Attempt to detect the MIME type of a file using available extensions
@@ -636,7 +655,7 @@ detectFileMimeType
     If neither extension is available, the default application/octet-stream
     MIME type will be returned
 
-    :param string $file: File path
+    :param string: File path
 
     :rtype: string MIME type
 
@@ -645,16 +664,16 @@ detectFileMimeType
 encodeFormData
 --------------
 
-.. function:: encodeFormData($boundary, $name, $value, [$filename = false, [$headers = false]])
+.. function:: encodeFormData()
 
 
     Encode data to a multipart/form-data part suitable for a POST request.
 
-    :param string $boundary: 
-    :param string $name: 
-    :param mixed $value: 
-    :param string $filename: 
-    :param array $headers: Associative array of optional headers @example ("Content-Transfer-Encoding" => "binary")
+    :param string: 
+    :param string: 
+    :param mixed: 
+    :param string: 
+    :param array: Associative array of optional headers @example ("Content-Transfer-Encoding" => "binary")
 
     :rtype: string 
 
@@ -663,7 +682,7 @@ encodeFormData
 flattenParametersArray
 ----------------------
 
-.. function:: flattenParametersArray($parray, [$prefix = false])
+.. function:: flattenParametersArray()
 
 
     Convert an array of parameters into a flat array of (key, value) pairs
@@ -674,12 +693,8 @@ flattenParametersArray
     key to indicate an array.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array $parray: 
-    :param string $prefix: 
+    :param array: 
+    :param string: 
 
     :rtype: array 
 
@@ -688,17 +703,17 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 doRequest
 ---------
 
-.. function:: doRequest($uri, $method, [$secure = false, [$headers = false, [$body = false]]])
+.. function:: doRequest()
 
 
     Separating this from send method allows subclasses to wrap
     the interaction with the adapter
 
-    :param Http $uri: 
-    :param string $method: 
-    :param bool $secure: 
-    :param array $headers: 
-    :param string $body: 
+    :param Http: 
+    :param string: 
+    :param bool: 
+    :param array: 
+    :param string: 
 
     :rtype: string the raw response
 
@@ -709,20 +724,16 @@ doRequest
 encodeAuthHeader
 ----------------
 
-.. function:: encodeAuthHeader($user, $password, [$type = "basic"])
+.. function:: encodeAuthHeader()
 
 
     Create a HTTP authentication "Authorization:" header according to the
     specified user, password and authentication method.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $user: 
-    :param string $password: 
-    :param string $type: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
 
@@ -733,41 +744,41 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 
 
 Constants
----------
++++++++++
 
 AUTH_BASIC
-++++++++++
+==========
 
 @const string Supported HTTP Authentication methods
 
 AUTH_DIGEST
-+++++++++++
+===========
 
 ENC_URLENCODED
-++++++++++++++
+==============
 
 @const string POST data encoding methods
 
 ENC_FORMDATA
-++++++++++++
+============
 
 DIGEST_REALM
-++++++++++++
+============
 
 @const string DIGEST Authentication
 
 DIGEST_QOP
-++++++++++
+==========
 
 DIGEST_NONCE
-++++++++++++
+============
 
 DIGEST_OPAQUE
-+++++++++++++
+=============
 
 DIGEST_NC
-+++++++++
+=========
 
 DIGEST_CNONCE
-+++++++++++++
+=============
 

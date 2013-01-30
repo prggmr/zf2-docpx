@@ -1,40 +1,37 @@
-.. /Di/Di.php generated using docpx on 01/15/13 05:29pm
+.. Di/Di.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Di
-************
-
+============
 
 Dependency injector that can generate instances using class definitions and configured instance parameters
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$definitions = false, [$instanceManager = false, [$config = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|DefinitionList $definitions: 
-    :param null|InstanceManager $instanceManager: 
-    :param null|Config $config: 
+    :param null|DefinitionList: 
+    :param null|InstanceManager: 
+    :param null|Config: 
 
 
 
 configure
 ---------
 
-.. function:: configure($config)
+.. function:: configure()
 
 
     Provide a configuration object to configure this instance
 
-    :param Config $config: 
+    :param Config: 
 
     :rtype: void 
 
@@ -43,7 +40,7 @@ configure
 setDefinitionList
 -----------------
 
-.. function:: setDefinitionList($definitions)
+.. function:: setDefinitionList()
 
 
     @param  DefinitionList $definitions
@@ -65,12 +62,12 @@ definitions
 setInstanceManager
 ------------------
 
-.. function:: setInstanceManager($instanceManager)
+.. function:: setInstanceManager()
 
 
     Set the instance manager
 
-    :param InstanceManager $instanceManager: 
+    :param InstanceManager: 
 
     :rtype: Di 
 
@@ -89,13 +86,13 @@ instanceManager
 getCallParameters
 -----------------
 
-.. function:: getCallParameters($name, $params, [$method = "__construct"])
+.. function:: getCallParameters()
 
 
     @param $name
 
-    :param array $params: 
-    :param string $method: 
+    :param array: 
+    :param string: 
 
     :rtype: array 
 
@@ -104,7 +101,7 @@ getCallParameters
 get
 ---
 
-.. function:: get($name, [$params = false])
+.. function:: get()
 
 
     Lazy-load a class
@@ -113,8 +110,8 @@ get
     loaded before, the previous instance will be returned (unless the service
     definition indicates shared instances should not be used).
 
-    :param string $name: Class name or service alias
-    :param null|array $params: Parameters to pass to the constructor
+    :param string: Class name or service alias
+    :param null|array: Parameters to pass to the constructor
 
     :rtype: object|null 
 
@@ -123,7 +120,7 @@ get
 newInstance
 -----------
 
-.. function:: newInstance($name, [$params = false, [$isShared = true]])
+.. function:: newInstance()
 
 
     Retrieve a new instance of a class
@@ -131,9 +128,9 @@ newInstance
     Forces retrieval of a discrete instance of the given class, using the
     constructor parameters provided.
 
-    :param mixed $name: Class name or service alias
-    :param array $params: Parameters to pass to the constructor
-    :param bool $isShared: 
+    :param mixed: Class name or service alias
+    :param array: Parameters to pass to the constructor
+    :param bool: 
 
     :rtype: object|null 
 
@@ -145,13 +142,13 @@ newInstance
 injectDependencies
 ------------------
 
-.. function:: injectDependencies($instance, [$params = false])
+.. function:: injectDependencies()
 
 
     Inject dependencies
 
-    :param object $instance: 
-    :param array $params: 
+    :param object: 
+    :param array: 
 
     :rtype: void 
 
@@ -160,16 +157,16 @@ injectDependencies
 handleInjectDependencies
 ------------------------
 
-.. function:: handleInjectDependencies($instance, $injectionMethods, $params, $instanceClass, $instanceAlias, $requestedName)
+.. function:: handleInjectDependencies()
 
 
     @param object      $instance
 
-    :param array $injectionMethods: 
-    :param array $params: 
-    :param string|null $instanceClass: 
+    :param array: 
+    :param array: 
+    :param string|null: 
     :param string|null$instanceAlias: 
-    :param string $requestedName: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -178,7 +175,7 @@ handleInjectDependencies
 createInstanceViaConstructor
 ----------------------------
 
-.. function:: createInstanceViaConstructor($class, $params, [$alias = false])
+.. function:: createInstanceViaConstructor()
 
 
     Retrieve a class instance based on class name
@@ -187,9 +184,9 @@ createInstanceViaConstructor
     given parameter is a DependencyReference object, it will be fetched
     from the container so that the instance may be injected.
 
-    :param string $class: 
-    :param array $params: 
-    :param string|null $alias: 
+    :param string: 
+    :param array: 
+    :param string|null: 
 
     :rtype: object 
 
@@ -198,14 +195,14 @@ createInstanceViaConstructor
 createInstanceViaCallback
 -------------------------
 
-.. function:: createInstanceViaCallback($callback, $params, $alias)
+.. function:: createInstanceViaCallback()
 
 
     Get an object instance from the defined callback
 
-    :param callable $callback: 
-    :param array $params: 
-    :param string $alias: 
+    :param callable: 
+    :param array: 
+    :param string: 
 
     :rtype: object 
 
@@ -217,18 +214,18 @@ createInstanceViaCallback
 resolveAndCallInjectionMethodForInstance
 ----------------------------------------
 
-.. function:: resolveAndCallInjectionMethodForInstance($instance, $method, $params, $alias, $methodIsRequired, [$methodClass = false])
+.. function:: resolveAndCallInjectionMethodForInstance()
 
 
     This parameter will handle any injection methods and resolution of
     dependencies for such methods
 
-    :param object $instance: 
-    :param string $method: 
-    :param array $params: 
-    :param string $alias: 
-    :param bool $methodIsRequired: 
-    :param string|null $methodClass: 
+    :param object: 
+    :param string: 
+    :param array: 
+    :param string: 
+    :param bool: 
+    :param string|null: 
 
     :rtype: bool 
 
@@ -237,17 +234,17 @@ resolveAndCallInjectionMethodForInstance
 resolveMethodParameters
 -----------------------
 
-.. function:: resolveMethodParameters($class, $method, $callTimeUserParams, $alias, $methodIsRequired, [$isInstantiator = false])
+.. function:: resolveMethodParameters()
 
 
     Resolve parameters referencing other services
 
-    :param string $class: 
-    :param string $method: 
-    :param array $callTimeUserParams: 
-    :param string $alias: 
-    :param bool $methodIsRequired: 
-    :param bool $isInstantiator: 
+    :param string: 
+    :param string: 
+    :param array: 
+    :param string: 
+    :param bool: 
+    :param bool: 
 
     :throws Exception\MissingPropertyException: 
     :throws Exception\CircularDependencyException: 
@@ -259,18 +256,14 @@ resolveMethodParameters
 getClass
 --------
 
-.. function:: getClass($instance)
+.. function:: getClass()
 
 
     Utility method used to retrieve the class of a particular instance. This is here to allow extending classes to
     override how class names are resolved
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param Object $instance: 
+    :param Object: 
 
     :rtype: string 
 
@@ -279,26 +272,16 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 isSubclassOf
 ------------
 
-.. function:: isSubclassOf($className, $type)
+.. function:: isSubclassOf()
 
 
     Checks if the object has this class as one of its parents
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $className: 
+    :param string: 
     :param $type: 
 
     :rtype: bool 
-
-
 
 
 

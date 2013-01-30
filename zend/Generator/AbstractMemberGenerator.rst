@@ -1,26 +1,19 @@
-.. /Code/Generator/AbstractMemberGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/AbstractMemberGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\AbstractMemberGenerator
-**********************************************
-
-
-@category   Zend
-
-
+==============================================
 
 Methods
-=======
++++++++
 
 setFlags
 --------
 
-.. function:: setFlags($flags)
+.. function:: setFlags()
 
 
-    Set flags
-
-    :param int|array $flags: 
+    @param  int|array $flags
 
     :rtype: AbstractMemberGenerator 
 
@@ -29,12 +22,10 @@ setFlags
 addFlag
 -------
 
-.. function:: addFlag($flag)
+.. function:: addFlag()
 
 
-    Add flag
-
-    :param int $flag: 
+    @param  int $flag
 
     :rtype: AbstractMemberGenerator 
 
@@ -43,54 +34,22 @@ addFlag
 removeFlag
 ----------
 
-.. function:: removeFlag($flag)
+.. function:: removeFlag()
 
 
-    Remove flag
-
-    :param int $flag: 
+    @param  int $flag
 
     :rtype: AbstractMemberGenerator 
-
-
-
-setDocBlock
------------
-
-.. function:: setDocBlock($docBlock)
-
-
-    Set the DocBlock
-
-    :param DocBlockGenerator|string $docBlock: 
-
-    :throws Exception\InvalidArgumentException: 
-
-    :rtype: AbstractMemberGenerator 
-
-
-
-getDocBlock
------------
-
-.. function:: getDocBlock()
-
-
-    getDocBlock()
-
-    :rtype: DocBlockGenerator 
 
 
 
 setAbstract
 -----------
 
-.. function:: setAbstract($isAbstract)
+.. function:: setAbstract()
 
 
-    setAbstract()
-
-    :param bool $isAbstract: 
+    @param  bool $isAbstract
 
     :rtype: AbstractMemberGenerator 
 
@@ -102,21 +61,17 @@ isAbstract
 .. function:: isAbstract()
 
 
-    isAbstract()
-
-    :rtype: bool 
+    @return bool
 
 
 
 setFinal
 --------
 
-.. function:: setFinal($isFinal)
+.. function:: setFinal()
 
 
-    setFinal()
-
-    :param bool $isFinal: 
+    @param  bool $isFinal
 
     :rtype: AbstractMemberGenerator 
 
@@ -128,21 +83,17 @@ isFinal
 .. function:: isFinal()
 
 
-    isFinal()
-
-    :rtype: bool 
+    @return bool
 
 
 
 setStatic
 ---------
 
-.. function:: setStatic($isStatic)
+.. function:: setStatic()
 
 
-    setStatic()
-
-    :param bool $isStatic: 
+    @param  bool $isStatic
 
     :rtype: AbstractMemberGenerator 
 
@@ -154,21 +105,17 @@ isStatic
 .. function:: isStatic()
 
 
-    isStatic()
-
-    :rtype: bool 
+    @return bool
 
 
 
 setVisibility
 -------------
 
-.. function:: setVisibility($visibility)
+.. function:: setVisibility()
 
 
-    setVisibility()
-
-    :param string $visibility: 
+    @param  string $visibility
 
     :rtype: AbstractMemberGenerator 
 
@@ -180,21 +127,17 @@ getVisibility
 .. function:: getVisibility()
 
 
-    getVisibility()
-
-    :rtype: string 
+    @return string
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
-    setName()
-
-    :param string $name: 
+    @param  string $name
 
     :rtype: AbstractMemberGenerator 
 
@@ -206,41 +149,62 @@ getName
 .. function:: getName()
 
 
-    getName()
+    @return string
 
-    :rtype: string 
+
+
+setDocBlock
+-----------
+
+.. function:: setDocBlock()
+
+
+    @param  DocBlockGenerator|string $docBlock
+
+
+    :rtype: AbstractMemberGenerator 
+
+
+
+getDocBlock
+-----------
+
+.. function:: getDocBlock()
+
+
+    @return DocBlockGenerator
 
 
 
 
 
 Constants
----------
++++++++++
 
 FLAG_ABSTRACT
-+++++++++++++
+=============
 
 FLAG_FINAL
-++++++++++
+==========
 
 FLAG_STATIC
-+++++++++++
+===========
 
 FLAG_PUBLIC
-+++++++++++
+===========
 
 FLAG_PROTECTED
-++++++++++++++
+==============
 
 FLAG_PRIVATE
-++++++++++++
+============
 
 VISIBILITY_PUBLIC
-+++++++++++++++++
+=================
 
 VISIBILITY_PROTECTED
-++++++++++++++++++++
+====================
 
 VISIBILITY_PRIVATE
-++++++++++++++++++
+==================
 

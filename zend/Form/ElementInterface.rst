@@ -1,4 +1,4 @@
-.. /Form/ElementInterface.php generated using docpx on 01/15/13 05:29pm
+.. Form/ElementInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\setName
@@ -12,7 +12,7 @@ Zend\\Form\\setName
     In most cases, this will proxy to the attributes for storage, but is
     present to indicate that elements are generally named.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: ElementInterface 
 
@@ -38,7 +38,7 @@ Zend\\Form\\setOptions
 
     Set options for an element
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: ElementInterface 
 
@@ -64,7 +64,7 @@ Zend\\Form\\getOption
 
     return the specified option
 
-    :param string $option: 
+    :param string: 
 
     :rtype: null|mixed 
 
@@ -78,8 +78,8 @@ Zend\\Form\\setAttribute
 
     Set a single element attribute
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: ElementInterface 
 
@@ -93,7 +93,7 @@ Zend\\Form\\getAttribute
 
     Retrieve a single element attribute
 
-    :param string $key: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -107,7 +107,7 @@ Zend\\Form\\hasAttribute
 
     Return true if a specific attribute is set
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -123,7 +123,7 @@ Zend\\Form\\setAttributes
     
     Implementation will decide if this will overwrite or merge.
 
-    :param array|\Traversable $arrayOrTraversable: 
+    :param array|\Traversable: 
 
     :rtype: ElementInterface 
 
@@ -149,7 +149,7 @@ Zend\\Form\\setValue
 
     Set the value of the element
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: ElementInterface 
 
@@ -201,7 +201,7 @@ Zend\\Form\\setMessages
 
     Set a list of messages to report when validation fails
 
-    :param array|\Traversable $messages: 
+    :param array|\Traversable: 
 
     :rtype: ElementInterface 
 

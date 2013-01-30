@@ -1,23 +1,21 @@
-.. /Code/Scanner/TokenArrayScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/TokenArrayScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\TokenArrayScanner
-**************************************
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($tokens, [$annotationManager = false])
+.. function:: __construct()
 
 
-    @param null|array             $tokens
+    @param null|array $tokens
 
-    :param null|AnnotationManager $annotationManager: 
+    :param null|AnnotationManager: 
 
 
 
@@ -27,6 +25,9 @@ getAnnotationManager
 .. function:: getAnnotationManager()
 
 
+    @return AnnotationManager
+
+
 
 getDocComment
 -------------
@@ -34,8 +35,10 @@ getDocComment
 .. function:: getDocComment()
 
 
-    @todo Assignment of $this->docComment should probably be done in scan()
-          and then $this->getDocComment() just retrieves it.
+    Get doc comment
+
+
+    :rtype: string 
 
 
 
@@ -45,16 +48,17 @@ getNamespaces
 .. function:: getNamespaces()
 
 
+    @return array
+
+
 
 getUses
 -------
 
-.. function:: getUses([$namespace = false])
+.. function:: getUses()
 
 
-    Get uses
-
-    :param null|string $namespace: 
+    @param  null|string $namespace
 
     :rtype: array|null 
 
@@ -66,6 +70,9 @@ getIncludes
 .. function:: getIncludes()
 
 
+    @return array
+
+
 
 getClassNames
 -------------
@@ -73,9 +80,7 @@ getClassNames
 .. function:: getClassNames()
 
 
-    Get class names
-
-    :rtype: string[] 
+    @return array
 
 
 
@@ -85,21 +90,19 @@ getClasses
 .. function:: getClasses()
 
 
-    Get classes
-
-    :rtype: ClassScanner[] 
+    @return ClassScanner[]
 
 
 
 getClass
 --------
 
-.. function:: getClass($name)
+.. function:: getClass()
 
 
     Return the class object from this scanner
 
-    :param string|int $name: 
+    :param string|int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -110,12 +113,10 @@ getClass
 getClassNameInformation
 -----------------------
 
-.. function:: getClassNameInformation($className)
+.. function:: getClassNameInformation()
 
 
-    Get class name information
-
-    :param string $className: 
+    @param  string $className
 
     :rtype: bool|null|NameInformation 
 
@@ -127,9 +128,7 @@ getFunctionNames
 .. function:: getFunctionNames()
 
 
-    Get function names
-
-    :rtype: string[] 
+    @return array
 
 
 
@@ -139,11 +138,19 @@ getFunctions
 .. function:: getFunctions()
 
 
+    @return array
+
+
 
 export
 ------
 
-.. function:: export($tokens)
+.. function:: export()
+
+
+    Export
+
+    :param $tokens: 
 
 
 
@@ -160,59 +167,37 @@ scan
 .. function:: scan()
 
 
-    @todo: $this->docComment should be assigned for valid docblock during
-           the scan instead of $this->getDocComment() (starting with
-           T_DOC_COMMENT case)
+    Scan
 
 
 
-use
----
-
-.. function:: use()
 
 
-    Variables & Setup
+hasNamespace
+------------
+
+.. function:: hasNamespace()
 
 
+    Check for namespace
 
-use
----
+    :param string: 
 
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
+    :rtype: bool 
 
 
 
 getUsesNoScan
 -------------
 
-.. function:: getUsesNoScan($namespace)
+.. function:: getUsesNoScan()
 
 
-    END FINITE STATE MACHINE FOR SCANNING TOKENS
+    @param  string $namespace
 
+    :rtype: null|array 
 
+    :throws: Exception\InvalidArgumentException 
 
 
 

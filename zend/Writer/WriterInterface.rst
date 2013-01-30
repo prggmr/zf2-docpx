@@ -1,33 +1,57 @@
-.. /Config/Writer/WriterInterface.php generated using docpx on 01/15/13 05:29pm
+.. Log/Writer/WriterInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Config\\Writer\\toFile
+Zend\\Log\\Writer\\addFilter
 ============================
 
-.. function:: Zend\Config\Writer\toFile()
+.. function:: Zend\Log\Writer\addFilter()
 
 
-    Write a config object to a file.
+    Add a log filter to the writer
 
-    :param string $filename: 
-    :param mixed $config: 
-    :param bool $exclusiveLock: 
+    :param int|string|Filter: 
+
+    :rtype: WriterInterface 
+
+
+
+Zend\\Log\\Writer\\setFormatter
+===============================
+
+.. function:: Zend\Log\Writer\setFormatter()
+
+
+    Set a message formatter for the writer
+
+    :param string|Formatter: 
+
+    :rtype: WriterInterface 
+
+
+
+Zend\\Log\\Writer\\write
+========================
+
+.. function:: Zend\Log\Writer\write()
+
+
+    Write a log message
+
+    :param array: 
+
+    :rtype: WriterInterface 
+
+
+
+Zend\\Log\\Writer\\shutdown
+===========================
+
+.. function:: Zend\Log\Writer\shutdown()
+
+
+    Perform shutdown activities
 
     :rtype: void 
-
-
-
-Zend\\Config\\Writer\\toString
-==============================
-
-.. function:: Zend\Config\Writer\toString()
-
-
-    Write a config object to a string.
-
-    :param mixed $config: 
-
-    :rtype: string 
 
 
 

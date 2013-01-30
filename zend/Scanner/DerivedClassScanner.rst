@@ -1,24 +1,21 @@
-.. /Code/Scanner/DerivedClassScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/DerivedClassScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\DerivedClassScanner
-****************************************
-
-
+========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($classScanner, $directoryScanner)
+.. function:: __construct()
 
 
-    Constructor
+    @param ClassScanner $classScanner
 
-    :param ClassScanner $classScanner: 
-    :param DirectoryScanner $directoryScanner: 
+    :param DirectoryScanner: 
 
 
 
@@ -28,9 +25,7 @@ getName
 .. function:: getName()
 
 
-    Get name
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -40,9 +35,7 @@ getShortName
 .. function:: getShortName()
 
 
-    Get short name
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -52,9 +45,7 @@ isInstantiable
 .. function:: isInstantiable()
 
 
-    Check if instantiable
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -64,9 +55,7 @@ isFinal
 .. function:: isFinal()
 
 
-    Check if final
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -76,9 +65,7 @@ isAbstract
 .. function:: isAbstract()
 
 
-    Check if is abstract
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -88,9 +75,7 @@ isInterface
 .. function:: isInterface()
 
 
-    Check if is interface
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -100,9 +85,7 @@ getParentClasses
 .. function:: getParentClasses()
 
 
-    Get parent classes
-
-    :rtype: array 
+    @return array
 
 
 
@@ -112,9 +95,7 @@ hasParentClass
 .. function:: hasParentClass()
 
 
-    Check for parent class
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -124,21 +105,17 @@ getParentClass
 .. function:: getParentClass()
 
 
-    Get parent class
-
-    :rtype: null|string 
+    @return null|string
 
 
 
 getInterfaces
 -------------
 
-.. function:: getInterfaces([$returnClassScanners = false])
+.. function:: getInterfaces()
 
 
-    Get interfaces
-
-    :param bool $returnClassScanners: 
+    @param  bool $returnClassScanners
 
     :rtype: array 
 
@@ -150,21 +127,17 @@ getConstants
 .. function:: getConstants()
 
 
-    Get constants
-
-    :rtype: array 
+    @return array
 
 
 
 getProperties
 -------------
 
-.. function:: getProperties([$returnScannerProperty = false])
+.. function:: getProperties()
 
 
-    Get properties
-
-    :param bool $returnScannerProperty: 
+    @param  bool $returnScannerProperty
 
     :rtype: array 
 
@@ -176,9 +149,7 @@ getMethodNames
 .. function:: getMethodNames()
 
 
-    Get method names
-
-    :rtype: array 
+    @return array
 
 
 
@@ -188,21 +159,17 @@ getMethods
 .. function:: getMethods()
 
 
-    Get methods
-
-    :rtype: MethodScanner[] 
+    @return MethodScanner[]
 
 
 
 getMethod
 ---------
 
-.. function:: getMethod($methodNameOrInfoIndex)
+.. function:: getMethod()
 
 
-    Get method
-
-    :param int|string $methodNameOrInfoIndex: 
+    @param  int|string $methodNameOrInfoIndex
 
     :rtype: MethodScanner 
 
@@ -213,16 +180,12 @@ getMethod
 hasMethod
 ---------
 
-.. function:: hasMethod($name)
+.. function:: hasMethod()
 
 
-    Check for method
-
-    :param string $name: 
+    @param  string $name
 
     :rtype: bool 
-
-
 
 
 

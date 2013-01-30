@@ -1,16 +1,11 @@
-.. /Code/Generator/PropertyValueGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/PropertyValueGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\PropertyValueGenerator
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 generate
 --------
@@ -18,11 +13,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
-    :rtype: string 
-
-
+    @return string
 
 
 

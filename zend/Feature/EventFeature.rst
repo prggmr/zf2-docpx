@@ -1,26 +1,21 @@
-.. /Db/TableGateway/Feature/EventFeature.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/EventFeature.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\EventFeature
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$eventManager = false, [$tableGatewayEvent = false]])
+.. function:: __construct()
 
 
     @param EventManagerInterface $eventManager
 
-    :param EventFeature\TableGatewayEvent $tableGatewayEvent: 
+    :param EventFeature\TableGatewayEvent: 
 
 
 
@@ -79,7 +74,7 @@ postInitialize
 preSelect
 ---------
 
-.. function:: preSelect($select)
+.. function:: preSelect()
 
 
     Trigger the "preSelect" event
@@ -87,7 +82,7 @@ preSelect
     Triggers the "preSelect" event mapping the following parameters:
     - $select as "select"
 
-    :param Select $select: 
+    :param Select: 
 
     :rtype: void 
 
@@ -96,7 +91,7 @@ preSelect
 postSelect
 ----------
 
-.. function:: postSelect($statement, $result, $resultSet)
+.. function:: postSelect()
 
 
     Trigger the "postSelect" event
@@ -106,9 +101,9 @@ postSelect
     - $result as "result"
     - $resultSet as "result_set"
 
-    :param StatementInterface $statement: 
-    :param ResultInterface $result: 
-    :param ResultSetInterface $resultSet: 
+    :param StatementInterface: 
+    :param ResultInterface: 
+    :param ResultSetInterface: 
 
     :rtype: void 
 
@@ -117,7 +112,7 @@ postSelect
 preInsert
 ---------
 
-.. function:: preInsert($insert)
+.. function:: preInsert()
 
 
     Trigger the "preInsert" event
@@ -125,7 +120,7 @@ preInsert
     Triggers the "preInsert" event mapping the following parameters:
     - $insert as "insert"
 
-    :param Insert $insert: 
+    :param Insert: 
 
     :rtype: void 
 
@@ -134,7 +129,7 @@ preInsert
 postInsert
 ----------
 
-.. function:: postInsert($statement, $result)
+.. function:: postInsert()
 
 
     Trigger the "postInsert" event
@@ -143,8 +138,8 @@ postInsert
     - $statement as "statement"
     - $result as "result"
 
-    :param StatementInterface $statement: 
-    :param ResultInterface $result: 
+    :param StatementInterface: 
+    :param ResultInterface: 
 
     :rtype: void 
 
@@ -153,7 +148,7 @@ postInsert
 preUpdate
 ---------
 
-.. function:: preUpdate($update)
+.. function:: preUpdate()
 
 
     Trigger the "preUpdate" event
@@ -161,7 +156,7 @@ preUpdate
     Triggers the "preUpdate" event mapping the following parameters:
     - $update as "update"
 
-    :param Update $update: 
+    :param Update: 
 
     :rtype: void 
 
@@ -170,7 +165,7 @@ preUpdate
 postUpdate
 ----------
 
-.. function:: postUpdate($statement, $result)
+.. function:: postUpdate()
 
 
     Trigger the "postUpdate" event
@@ -179,8 +174,8 @@ postUpdate
     - $statement as "statement"
     - $result as "result"
 
-    :param StatementInterface $statement: 
-    :param ResultInterface $result: 
+    :param StatementInterface: 
+    :param ResultInterface: 
 
     :rtype: void 
 
@@ -189,7 +184,7 @@ postUpdate
 preDelete
 ---------
 
-.. function:: preDelete($delete)
+.. function:: preDelete()
 
 
     Trigger the "preDelete" event
@@ -197,7 +192,7 @@ preDelete
     Triggers the "preDelete" event mapping the following parameters:
     - $delete as "delete"
 
-    :param Delete $delete: 
+    :param Delete: 
 
     :rtype: void 
 
@@ -206,7 +201,7 @@ preDelete
 postDelete
 ----------
 
-.. function:: postDelete($statement, $result)
+.. function:: postDelete()
 
 
     Trigger the "postDelete" event
@@ -215,12 +210,10 @@ postDelete
     - $statement as "statement"
     - $result as "result"
 
-    :param StatementInterface $statement: 
-    :param ResultInterface $result: 
+    :param StatementInterface: 
+    :param ResultInterface: 
 
     :rtype: void 
-
-
 
 
 

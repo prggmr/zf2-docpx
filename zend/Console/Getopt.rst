@@ -1,9 +1,8 @@
-.. /Console/Getopt.php generated using docpx on 01/15/13 05:29pm
+.. Console/Getopt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Getopt
-*********************
-
+=====================
 
 Getopt is a class to parse options for command-line
 applications.
@@ -62,15 +61,13 @@ getopt format.
 Example:  'abc:' means options '-a', '-b', and '-c'
 are legal, and the latter requires a string parameter.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($rules, [$argv = false, [$getoptConfig = false]])
+.. function:: __construct()
 
 
     The constructor takes one to three parameters.
@@ -84,9 +81,9 @@ __construct
     The third parameter is an array of configuration parameters
     to control the behavior of this instance of Getopt; it is optional.
 
-    :param array $rules: 
-    :param array $argv: 
-    :param array $getoptConfig: 
+    :param array: 
+    :param array: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -95,7 +92,7 @@ __construct
 __get
 -----
 
-.. function:: __get($key)
+.. function:: __get()
 
 
     Return the state of the option seen on the command line of the
@@ -106,7 +103,7 @@ __get
     The magic __get method works in the context of naming the option
     as a virtual member of this class.
 
-    :param string $key: 
+    :param string: 
 
     :rtype: string 
 
@@ -115,12 +112,12 @@ __get
 __isset
 -------
 
-.. function:: __isset($key)
+.. function:: __isset()
 
 
     Test whether a given option has been seen.
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -129,13 +126,13 @@ __isset
 __set
 -----
 
-.. function:: __set($key, $value)
+.. function:: __set()
 
 
     Set the value for a given option.
 
-    :param string $key: 
-    :param string $value: 
+    :param string: 
+    :param string: 
 
     :rtype: void 
 
@@ -156,12 +153,12 @@ __toString
 __unset
 -------
 
-.. function:: __unset($key)
+.. function:: __unset()
 
 
     Unset an option.
 
-    :param string $key: 
+    :param string: 
 
     :rtype: void 
 
@@ -170,13 +167,13 @@ __unset
 addArguments
 ------------
 
-.. function:: addArguments($argv)
+.. function:: addArguments()
 
 
     Define additional command-line arguments.
     These are appended to those defined when the constructor was called.
 
-    :param array $argv: 
+    :param array: 
 
     :throws \Zend\Console\Exception\InvalidArgumentException: When not given an array as parameter
 
@@ -187,13 +184,13 @@ addArguments
 setArguments
 ------------
 
-.. function:: setArguments($argv)
+.. function:: setArguments()
 
 
     Define full set of command-line arguments.
     These replace any currently defined.
 
-    :param array $argv: 
+    :param array: 
 
     :throws \Zend\Console\Exception\InvalidArgumentException: When not given an array as parameter
 
@@ -204,14 +201,14 @@ setArguments
 setOptions
 ----------
 
-.. function:: setOptions($getoptConfig)
+.. function:: setOptions()
 
 
     Define multiple configuration options from an associative array.
     These are not program options, but properties to configure
     the behavior of Zend_Console_Getopt.
 
-    :param array $getoptConfig: 
+    :param array: 
 
     :rtype: \Zend\Console\Getopt Provides a fluent interface
 
@@ -220,15 +217,15 @@ setOptions
 setOption
 ---------
 
-.. function:: setOption($configKey, $configValue)
+.. function:: setOption()
 
 
     Define one configuration option as a key/value pair.
     These are not program options, but properties to configure
     the behavior of Zend_Console_Getopt.
 
-    :param string $configKey: 
-    :param string $configValue: 
+    :param string: 
+    :param string: 
 
     :rtype: \Zend\Console\Getopt Provides a fluent interface
 
@@ -237,13 +234,13 @@ setOption
 addRules
 --------
 
-.. function:: addRules($rules)
+.. function:: addRules()
 
 
     Define additional option rules.
     These are appended to the rules defined when the constructor was called.
 
-    :param array $rules: 
+    :param array: 
 
     :rtype: \Zend\Console\Getopt Provides a fluent interface
 
@@ -316,7 +313,7 @@ getOptions
 getOption
 ---------
 
-.. function:: getOption($flag)
+.. function:: getOption()
 
 
     Return the state of the option seen on the command line of the
@@ -325,7 +322,7 @@ getOption
     This function returns true, or the parameter value to the option, if any.
     If the option was not given, this function returns false.
 
-    :param string $flag: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -369,7 +366,7 @@ getUsageMessage
 setAliases
 ----------
 
-.. function:: setAliases($aliasMap)
+.. function:: setAliases()
 
 
     Define aliases for options.
@@ -377,7 +374,7 @@ setAliases
     The parameter $aliasMap is an associative array
     mapping option name (short or long) to an alias.
 
-    :param array $aliasMap: 
+    :param array: 
 
     :throws \Zend\Console\Exception\ExceptionInterface: 
 
@@ -388,7 +385,7 @@ setAliases
 setHelp
 -------
 
-.. function:: setHelp($helpMap)
+.. function:: setHelp()
 
 
     Define help messages for options.
@@ -396,7 +393,7 @@ setHelp
     The parameter $helpMap is an associative array
     mapping option name (short or long) to the help string.
 
-    :param array $helpMap: 
+    :param array: 
 
     :rtype: \Zend\Console\Getopt Provides a fluent interface
 
@@ -421,14 +418,14 @@ parse
 _parseLongOption
 ----------------
 
-.. function:: _parseLongOption($argv)
+.. function:: _parseLongOption()
 
 
     Parse command-line arguments for a single long option.
     A long option is preceded by a double '--' character.
     Long options may not be clustered.
 
-    :param mixed &$argv: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -437,14 +434,14 @@ _parseLongOption
 _parseShortOptionCluster
 ------------------------
 
-.. function:: _parseShortOptionCluster($argv)
+.. function:: _parseShortOptionCluster()
 
 
     Parse command-line arguments for short options.
     Short options are those preceded by a single '-' character.
     Short options may be clustered.
 
-    :param mixed &$argv: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -453,13 +450,13 @@ _parseShortOptionCluster
 _parseSingleOption
 ------------------
 
-.. function:: _parseSingleOption($flag, $argv)
+.. function:: _parseSingleOption()
 
 
     Parse command-line arguments for a single option.
 
-    :param string $flag: 
-    :param mixed $argv: 
+    :param string: 
+    :param mixed: 
 
     :throws \Zend\Console\Exception\ExceptionInterface: 
 
@@ -470,7 +467,7 @@ _parseSingleOption
 _setNumericOptionValue
 ----------------------
 
-.. function:: _setNumericOptionValue($value)
+.. function:: _setNumericOptionValue()
 
 
     Set given value as value of numeric option
@@ -478,7 +475,7 @@ _setNumericOptionValue
     Throw runtime exception if this action is deny by configuration
     or no one numeric option handlers is defined
 
-    :param int $value: 
+    :param int: 
 
     :throws Exception\RuntimeException: 
 
@@ -489,7 +486,7 @@ _setNumericOptionValue
 _setSingleOptionValue
 ---------------------
 
-.. function:: _setSingleOptionValue($flag, $value)
+.. function:: _setSingleOptionValue()
 
 
     Add relative to options' flag value
@@ -498,8 +495,8 @@ _setSingleOptionValue
     and parser should follow cumulative params by configuration,
     we should to add new param to array, not to overwrite
 
-    :param string $flag: 
-    :param string $value: 
+    :param string: 
+    :param string: 
 
     :rtype: null 
 
@@ -508,13 +505,13 @@ _setSingleOptionValue
 _setBooleanFlagValue
 --------------------
 
-.. function:: _setBooleanFlagValue($flag)
+.. function:: _setBooleanFlagValue()
 
 
     Set TRUE value to given flag, if this option does not exist yet
     In other case increase value to show count of flags' usage
 
-    :param string $flag: 
+    :param string: 
 
     :rtype: null 
 
@@ -523,15 +520,15 @@ _setBooleanFlagValue
 _checkParameterType
 -------------------
 
-.. function:: _checkParameterType($flag, $param)
+.. function:: _checkParameterType()
 
 
     Return true if the parameter is in a valid format for
     the option $flag.
     Throw an exception in most other cases.
 
-    :param string $flag: 
-    :param string $param: 
+    :param string: 
+    :param string: 
 
     :throws \Zend\Console\Exception\ExceptionInterface: 
 
@@ -542,12 +539,12 @@ _checkParameterType
 _addRulesModeGnu
 ----------------
 
-.. function:: _addRulesModeGnu($rules)
+.. function:: _addRulesModeGnu()
 
 
     Define legal options using the gnu-style format.
 
-    :param string $rules: 
+    :param string: 
 
     :rtype: void 
 
@@ -556,12 +553,12 @@ _addRulesModeGnu
 _addRulesModeZend
 -----------------
 
-.. function:: _addRulesModeZend($rules)
+.. function:: _addRulesModeZend()
 
 
     Define legal options using the Zend-style format.
 
-    :param array $rules: 
+    :param array: 
 
     :throws \Zend\Console\Exception\ExceptionInterface: 
 
@@ -572,41 +569,41 @@ _addRulesModeZend
 
 
 Constants
----------
++++++++++
 
 MODE_ZEND
-+++++++++
+=========
 
 The options for a given application can be in multiple formats.
 modeGnu is for traditional 'ab:c:' style getopt format.
 modeZend is for a more structured format.
 
 MODE_GNU
-++++++++
+========
 
 PARAM_REQUIRED
-++++++++++++++
+==============
 
 Constant tokens for various symbols used in the mode_zend
 rule format.
 
 PARAM_OPTIONAL
-++++++++++++++
+==============
 
 TYPE_STRING
-+++++++++++
+===========
 
 TYPE_WORD
-+++++++++
+=========
 
 TYPE_INTEGER
-++++++++++++
+============
 
 TYPE_NUMERIC_FLAG
-+++++++++++++++++
+=================
 
 CONFIG_RULEMODE
-+++++++++++++++
+===============
 
 These are constants for optional behavior of this class.
 ruleMode is either 'zend' or 'gnu' or a user-defined mode.
@@ -616,26 +613,26 @@ parseAll is true if all options on the command line should be parsed, regardless
 whether an argument appears before them.
 
 CONFIG_DASHDASH
-+++++++++++++++
+===============
 
 CONFIG_IGNORECASE
-+++++++++++++++++
+=================
 
 CONFIG_PARSEALL
-+++++++++++++++
+===============
 
 CONFIG_CUMULATIVE_PARAMETERS
-++++++++++++++++++++++++++++
+============================
 
 CONFIG_CUMULATIVE_FLAGS
-+++++++++++++++++++++++
+=======================
 
 CONFIG_PARAMETER_SEPARATOR
-++++++++++++++++++++++++++
+==========================
 
 CONFIG_FREEFORM_FLAGS
-+++++++++++++++++++++
+=====================
 
 CONFIG_NUMERIC_FLAGS
-++++++++++++++++++++
+====================
 

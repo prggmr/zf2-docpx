@@ -1,27 +1,24 @@
-.. /Di/Definition/IntrospectionStrategy.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/IntrospectionStrategy.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\IntrospectionStrategy
-*******************************************
-
+===========================================
 
 Strategy used to discover methods to be considered as endpoints for dependency injection based on implemented
 interfaces, annotations and method names
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$annotationManager = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|AnnotationManager $annotationManager: 
+    :param null|AnnotationManager: 
 
 
 
@@ -52,12 +49,12 @@ createDefaultAnnotationManager
 setUseAnnotations
 -----------------
 
-.. function:: setUseAnnotations($useAnnotations)
+.. function:: setUseAnnotations()
 
 
     set use annotations
 
-    :param bool $useAnnotations: 
+    :param bool: 
 
 
 
@@ -76,12 +73,12 @@ getUseAnnotations
 setMethodNameInclusionPatterns
 ------------------------------
 
-.. function:: setMethodNameInclusionPatterns($methodNameInclusionPatterns)
+.. function:: setMethodNameInclusionPatterns()
 
 
     Set method name inclusion pattern
 
-    :param array $methodNameInclusionPatterns: 
+    :param array: 
 
 
 
@@ -100,12 +97,12 @@ getMethodNameInclusionPatterns
 setInterfaceInjectionInclusionPatterns
 --------------------------------------
 
-.. function:: setInterfaceInjectionInclusionPatterns($interfaceInjectionInclusionPatterns)
+.. function:: setInterfaceInjectionInclusionPatterns()
 
 
     Set interface injection inclusion patterns
 
-    :param array $interfaceInjectionInclusionPatterns: 
+    :param array: 
 
 
 
@@ -118,8 +115,6 @@ getInterfaceInjectionInclusionPatterns
     Get interface injection inclusion patterns
 
     :rtype: array 
-
-
 
 
 

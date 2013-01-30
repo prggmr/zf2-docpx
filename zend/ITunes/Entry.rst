@@ -1,26 +1,34 @@
-.. /Feed/Writer/Extension/ITunes/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/ITunes/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\ITunes\\Entry
-********************************************
-
-
-@category Zend
+============================================
 
 
 
 Methods
-=======
++++++++
+
+__construct
+-----------
+
+.. function:: __construct()
+
+
+    The used string wrapper supporting encoding
+
+
+
 
 setEncoding
 -----------
 
-.. function:: setEncoding($enc)
+.. function:: setEncoding()
 
 
     Set feed encoding
 
-    :param string $enc: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -41,7 +49,7 @@ getEncoding
 setItunesBlock
 --------------
 
-.. function:: setItunesBlock($value)
+.. function:: setItunesBlock()
 
 
     Set a block value of "yes" or "no". You may also set an empty string.
@@ -57,12 +65,12 @@ setItunesBlock
 addItunesAuthors
 ----------------
 
-.. function:: addItunesAuthors($values)
+.. function:: addItunesAuthors()
 
 
     Add authors to itunes entry
 
-    :param array $values: 
+    :param array: 
 
     :rtype: Entry 
 
@@ -71,12 +79,12 @@ addItunesAuthors
 addItunesAuthor
 ---------------
 
-.. function:: addItunesAuthor($value)
+.. function:: addItunesAuthor()
 
 
     Add author to itunes entry
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -87,12 +95,12 @@ addItunesAuthor
 setItunesDuration
 -----------------
 
-.. function:: setItunesDuration($value)
+.. function:: setItunesDuration()
 
 
     Set duration
 
-    :param int $value: 
+    :param int: 
 
     :rtype: Entry 
 
@@ -103,12 +111,12 @@ setItunesDuration
 setItunesExplicit
 -----------------
 
-.. function:: setItunesExplicit($value)
+.. function:: setItunesExplicit()
 
 
     Set "explicit" flag
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: Entry 
 
@@ -119,12 +127,12 @@ setItunesExplicit
 setItunesKeywords
 -----------------
 
-.. function:: setItunesKeywords($value)
+.. function:: setItunesKeywords()
 
 
     Set keywords
 
-    :param array $value: 
+    :param array: 
 
     :rtype: Entry 
 
@@ -135,12 +143,12 @@ setItunesKeywords
 setItunesSubtitle
 -----------------
 
-.. function:: setItunesSubtitle($value)
+.. function:: setItunesSubtitle()
 
 
     Set subtitle
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -151,12 +159,12 @@ setItunesSubtitle
 setItunesSummary
 ----------------
 
-.. function:: setItunesSummary($value)
+.. function:: setItunesSummary()
 
 
     Set summary
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -167,19 +175,17 @@ setItunesSummary
 __call
 ------
 
-.. function:: __call($method, $params)
+.. function:: __call()
 
 
     Overloading to itunes specific setters
 
-    :param string $method: 
-    :param array $params: 
+    :param string: 
+    :param array: 
 
     :throws Writer\Exception\BadMethodCallException: 
 
     :rtype: mixed 
-
-
 
 
 

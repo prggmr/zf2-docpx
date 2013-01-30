@@ -1,38 +1,35 @@
-.. /Config/Reader/Yaml.php generated using docpx on 01/15/13 05:29pm
+.. Config/Reader/Yaml.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Reader\\Yaml
-**************************
-
+==========================
 
 YAML config reader.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$yamlDecoder = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param callable $yamlDecoder: 
+    :param callable: 
 
 
 
 setYamlDecoder
 --------------
 
-.. function:: setYamlDecoder($yamlDecoder)
+.. function:: setYamlDecoder()
 
 
     Set callback for decoding YAML
 
-    :param string|callable $yamlDecoder: the decoder to set
+    :param string|callable: the decoder to set
 
     :rtype: Yaml 
 
@@ -55,17 +52,13 @@ getYamlDecoder
 fromFile
 --------
 
-.. function:: fromFile($filename)
+.. function:: fromFile()
 
 
     fromFile(): defined by Reader interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $filename: 
+    :param string: 
 
     :rtype: array 
 
@@ -76,17 +69,13 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 fromString
 ----------
 
-.. function:: fromString($string)
+.. function:: fromString()
 
 
     fromString(): defined by Reader interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $string: 
+    :param string: 
 
     :rtype: array|bool 
 
@@ -97,18 +86,16 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 process
 -------
 
-.. function:: process($data)
+.. function:: process()
 
 
     Process the array for @include
 
-    :param array $data: 
+    :param array: 
 
     :rtype: array 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

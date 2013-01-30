@@ -1,26 +1,21 @@
-.. /Feed/PubSubHubbub/Model/Subscription.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/Model/Subscription.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\Model\\Subscription
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 setSubscription
 ---------------
 
-.. function:: setSubscription($data)
+.. function:: setSubscription()
 
 
     Save subscription to RDMBS
 
-    :param array $data: 
+    :param array: 
 
     :rtype: bool 
 
@@ -31,12 +26,12 @@ setSubscription
 getSubscription
 ---------------
 
-.. function:: getSubscription($key)
+.. function:: getSubscription()
 
 
     Get subscription by ID/key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: array 
 
@@ -47,12 +42,12 @@ getSubscription
 hasSubscription
 ---------------
 
-.. function:: hasSubscription($key)
+.. function:: hasSubscription()
 
 
     Determine if a subscription matching the key exists
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -63,12 +58,12 @@ hasSubscription
 deleteSubscription
 ------------------
 
-.. function:: deleteSubscription($key)
+.. function:: deleteSubscription()
 
 
     Delete a subscription
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -89,16 +84,14 @@ getNow
 setNow
 ------
 
-.. function:: setNow($now)
+.. function:: setNow()
 
 
     Set a DateTime instance for assisting with unit testing
 
-    :param DateTime $now: 
+    :param DateTime: 
 
     :rtype: Subscription 
-
-
 
 
 

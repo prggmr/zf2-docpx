@@ -1,27 +1,22 @@
-.. /Console/Request.php generated using docpx on 01/15/13 05:29pm
+.. Console/Request.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Request
-**********************
-
-
-@category   Zend
-
-
+======================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$args = false, [$env = false]])
+.. function:: __construct()
 
 
     Create a new CLI request
 
-    :param array|null $args: Console arguments. If not supplied, $_SERVER['argv'] will be used
-    :param array|null $env: Environment data. If not supplied, $_ENV will be used
+    :param array|null: Console arguments. If not supplied, $_SERVER['argv'] will be used
+    :param array|null: Environment data. If not supplied, $_ENV will be used
 
     :throws Exception\RuntimeException: 
 
@@ -30,12 +25,12 @@ __construct
 setParams
 ---------
 
-.. function:: setParams($params)
+.. function:: setParams()
 
 
     Exchange parameters object
 
-    :param \Zend\Stdlib\Parameters $params: 
+    :param \Zend\Stdlib\Parameters: 
 
     :rtype: Request 
 
@@ -56,14 +51,14 @@ getParams
 getParam
 --------
 
-.. function:: getParam($name, [$default = false])
+.. function:: getParam()
 
 
     Return a single parameter.
     Shortcut for $request->params()->get()
 
-    :param string $name: Parameter name
-    :param string $default: (optional) default value in case the parameter does not exist
+    :param string: Parameter name
+    :param string: (optional) default value in case the parameter does not exist
 
     :rtype: mixed 
 
@@ -84,13 +79,13 @@ params
 setEnv
 ------
 
-.. function:: setEnv($env)
+.. function:: setEnv()
 
 
     Provide an alternate Parameter Container implementation for env parameters in this object, (this is NOT the
     primary API for value setting, for that see env())
 
-    :param \Zend\Stdlib\Parameters $env: 
+    :param \Zend\Stdlib\Parameters: 
 
     :rtype: \Zend\Console\Request 
 
@@ -133,7 +128,7 @@ __toString
 setScriptName
 -------------
 
-.. function:: setScriptName($scriptName)
+.. function:: setScriptName()
 
 
     @param string $scriptName
@@ -147,8 +142,6 @@ getScriptName
 
 
     @return string
-
-
 
 
 

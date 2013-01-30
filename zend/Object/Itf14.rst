@@ -1,16 +1,13 @@
-.. /Barcode/Object/Itf14.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Itf14.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Itf14
-****************************
-
+============================
 
 Class for generate Itf14 barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -21,8 +18,6 @@ getDefaultOptions
     Default options for Identcode barcode
 
     :rtype: void 
-
-
 
 
 

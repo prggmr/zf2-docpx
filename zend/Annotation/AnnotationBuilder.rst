@@ -1,27 +1,24 @@
-.. /Form/Annotation/AnnotationBuilder.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/AnnotationBuilder.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\AnnotationBuilder
-*****************************************
-
+=========================================
 
 Parses a class' properties for annotations in order to create a form and
 input filter definition.
 
-
-
 Methods
-=======
++++++++
 
 setFormFactory
 --------------
 
-.. function:: setFormFactory($formFactory)
+.. function:: setFormFactory()
 
 
     Set form factory to use when building form from annotations
 
-    :param Factory $formFactory: 
+    :param Factory: 
 
     :rtype: AnnotationBuilder 
 
@@ -30,12 +27,12 @@ setFormFactory
 setAnnotationManager
 --------------------
 
-.. function:: setAnnotationManager($annotationManager)
+.. function:: setAnnotationManager()
 
 
     Set annotation manager to use when building form from annotations
 
-    :param AnnotationManager $annotationManager: 
+    :param AnnotationManager: 
 
     :rtype: AnnotationBuilder 
 
@@ -44,12 +41,12 @@ setAnnotationManager
 setEventManager
 ---------------
 
-.. function:: setEventManager($events)
+.. function:: setEventManager()
 
 
     Set event manager instance
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: AnnotationBuilder 
 
@@ -98,7 +95,7 @@ getEventManager
 getFormSpecification
 --------------------
 
-.. function:: getFormSpecification($entity)
+.. function:: getFormSpecification()
 
 
     Creates and returns a form specification for use with a factory
@@ -107,7 +104,7 @@ getFormSpecification
     all properties. Information from annotations is then used to create
     specifications for a form, its elements, and its input filter.
 
-    :param string|object $entity: Either an instance or a valid class name for an entity
+    :param string|object: Either an instance or a valid class name for an entity
 
     :throws Exception\InvalidArgumentException: if $entity is not an object or class name
 
@@ -118,12 +115,12 @@ getFormSpecification
 createForm
 ----------
 
-.. function:: createForm($entity)
+.. function:: createForm()
 
 
     Create a form from an object.
 
-    :param string|object $entity: 
+    :param string|object: 
 
     :rtype: \Zend\Form\Form 
 
@@ -144,15 +141,15 @@ getEntity
 configureForm
 -------------
 
-.. function:: configureForm($annotations, $reflection, $formSpec, $filterSpec)
+.. function:: configureForm()
 
 
     Configure the form specification from annotations
 
-    :param AnnotationCollection $annotations: 
-    :param ClassReflection $reflection: 
-    :param ArrayObject $formSpec: 
-    :param ArrayObject $filterSpec: 
+    :param AnnotationCollection: 
+    :param ClassReflection: 
+    :param ArrayObject: 
+    :param ArrayObject: 
 
     :rtype: void @triggers discoverName
 @triggers configureForm
@@ -162,15 +159,15 @@ configureForm
 configureElement
 ----------------
 
-.. function:: configureElement($annotations, $reflection, $formSpec, $filterSpec)
+.. function:: configureElement()
 
 
     Configure an element from annotations
 
-    :param AnnotationCollection $annotations: 
-    :param \Zend\Code\Reflection\PropertyReflection $reflection: 
-    :param ArrayObject $formSpec: 
-    :param ArrayObject $filterSpec: 
+    :param AnnotationCollection: 
+    :param \Zend\Code\Reflection\PropertyReflection: 
+    :param ArrayObject: 
+    :param ArrayObject: 
 
     :rtype: void @triggers checkForExclude
 @triggers discoverName
@@ -181,69 +178,45 @@ configureElement
 discoverName
 ------------
 
-.. function:: discoverName($annotations, $reflection)
+.. function:: discoverName()
 
 
     Discover the name of the given form or element
 
-    :param AnnotationCollection $annotations: 
-    :param \Reflector $reflection: 
+    :param AnnotationCollection: 
+    :param \Reflector: 
 
     :rtype: string 
-
-
-
-$r
---
-
-.. function:: $r()
 
 
 
 checkForExclude
 ---------------
 
-.. function:: checkForExclude($annotations)
+.. function:: checkForExclude()
 
 
     Determine if an element is marked to exclude from the definitions
 
-    :param AnnotationCollection $annotations: 
+    :param AnnotationCollection: 
 
     :rtype: true|false 
-
-
-
-$r
---
-
-.. function:: $r()
 
 
 
 isSubclassOf
 ------------
 
-.. function:: isSubclassOf($className, $type)
+.. function:: isSubclassOf()
 
 
     Checks if the object has this class as one of its parents
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $className: 
-    :param string $type: 
+    :param string: 
+    :param string: 
 
     :rtype: bool 
-
-
 
 
 

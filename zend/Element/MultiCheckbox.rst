@@ -1,16 +1,11 @@
-.. /Form/Element/MultiCheckbox.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/MultiCheckbox.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\MultiCheckbox
-**********************************
-
-
-@category   Zend
-
-
+==================================
 
 Methods
-=======
++++++++
 
 getValueOptions
 ---------------
@@ -25,7 +20,7 @@ getValueOptions
 setValueOptions
 ---------------
 
-.. function:: setValueOptions($options)
+.. function:: setValueOptions()
 
 
     @param  array $options
@@ -37,7 +32,7 @@ setValueOptions
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options for an element. Accepted options are:
@@ -45,7 +40,7 @@ setOptions
     - label_attributes: attributes to use when the label is rendered
     - value_options: list of values and labels for the select options
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: MultiCheckbox|ElementInterface 
 
@@ -56,13 +51,13 @@ setOptions
 setAttribute
 ------------
 
-.. function:: setAttribute($key, $value)
+.. function:: setAttribute()
 
 
     Set a single element attribute
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: MultiCheckbox|ElementInterface 
 
@@ -95,16 +90,14 @@ getValueOptionsValues
 setValue
 --------
 
-.. function:: setValue($value)
+.. function:: setValue()
 
 
     Sets the value that should be selected.
 
-    :param mixed $value: The value to set.
+    :param mixed: The value to set.
 
     :rtype: MultiCheckbox 
-
-
 
 
 

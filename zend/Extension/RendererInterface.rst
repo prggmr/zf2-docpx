@@ -1,4 +1,4 @@
-.. /Feed/Writer/Extension/RendererInterface.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/RendererInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\setDataContainer
@@ -9,7 +9,7 @@ Zend\\Feed\\Writer\\Extension\\setDataContainer
 
     Set the data container
 
-    :param mixed $container: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -35,8 +35,8 @@ Zend\\Feed\\Writer\\Extension\\setDomDocument
 
     Set DOMDocument and DOMElement on which to operate
 
-    :param DOMDocument $dom: 
-    :param DOMElement $base: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 

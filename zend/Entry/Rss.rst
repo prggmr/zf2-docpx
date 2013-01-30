@@ -1,26 +1,23 @@
-.. /Feed/Writer/Renderer/Entry/Rss.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Entry/Rss.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Entry\\Rss
-****************************************
-
-
-@category Zend
+========================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\Entry $container: 
+    :param Writer\Entry: 
 
 
 
@@ -39,13 +36,13 @@ render
 _setTitle
 ---------
 
-.. function:: _setTitle($dom, $root)
+.. function:: _setTitle()
 
 
     Set entry title
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -56,13 +53,13 @@ _setTitle
 _setDescription
 ---------------
 
-.. function:: _setDescription($dom, $root)
+.. function:: _setDescription()
 
 
     Set entry description
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -73,13 +70,13 @@ _setDescription
 _setDateModified
 ----------------
 
-.. function:: _setDateModified($dom, $root)
+.. function:: _setDateModified()
 
 
     Set date entry was last modified
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -88,13 +85,13 @@ _setDateModified
 _setDateCreated
 ---------------
 
-.. function:: _setDateCreated($dom, $root)
+.. function:: _setDateCreated()
 
 
     Set date entry was created
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -103,13 +100,13 @@ _setDateCreated
 _setAuthors
 -----------
 
-.. function:: _setAuthors($dom, $root)
+.. function:: _setAuthors()
 
 
     Set entry authors
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -118,13 +115,13 @@ _setAuthors
 _setEnclosure
 -------------
 
-.. function:: _setEnclosure($dom, $root)
+.. function:: _setEnclosure()
 
 
     Set entry enclosure
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -135,13 +132,13 @@ _setEnclosure
 _setLink
 --------
 
-.. function:: _setLink($dom, $root)
+.. function:: _setLink()
 
 
     Set link to entry
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -150,13 +147,13 @@ _setLink
 _setId
 ------
 
-.. function:: _setId($dom, $root)
+.. function:: _setId()
 
 
     Set entry identifier
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -165,13 +162,13 @@ _setId
 _setCommentLink
 ---------------
 
-.. function:: _setCommentLink($dom, $root)
+.. function:: _setCommentLink()
 
 
     Set link to entry comments
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -180,17 +177,15 @@ _setCommentLink
 _setCategories
 --------------
 
-.. function:: _setCategories($dom, $root)
+.. function:: _setCategories()
 
 
     Set entry categories
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

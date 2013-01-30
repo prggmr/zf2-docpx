@@ -1,21 +1,16 @@
-.. /Db/Adapter/Driver/Mysqli/Statement.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Mysqli/Statement.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Mysqli\\Statement
-********************************************
-
-
-@category   Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$bufferResults = false])
+.. function:: __construct()
 
 
     @param  bool $bufferResults
@@ -25,26 +20,48 @@ __construct
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Mysqli $driver: 
+    :param Mysqli: 
 
     :rtype: Statement 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Statement 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 initialize
 ----------
 
-.. function:: initialize($mysqli)
+.. function:: initialize()
 
 
     Initialize
 
-    :param \mysqli $mysqli: 
+    :param \mysqli: 
 
     :rtype: Statement 
 
@@ -53,12 +70,12 @@ initialize
 setSql
 ------
 
-.. function:: setSql($sql)
+.. function:: setSql()
 
 
     Set sql
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: Statement 
 
@@ -67,12 +84,12 @@ setSql
 setParameterContainer
 ---------------------
 
-.. function:: setParameterContainer($parameterContainer)
+.. function:: setParameterContainer()
 
 
     Set Parameter container
 
-    :param ParameterContainer $parameterContainer: 
+    :param ParameterContainer: 
 
     :rtype: Statement 
 
@@ -93,12 +110,12 @@ getResource
 setResource
 -----------
 
-.. function:: setResource($mysqliStatement)
+.. function:: setResource()
 
 
     Set resource
 
-    :param \mysqli_stmt $mysqliStatement: 
+    :param \mysqli_stmt: 
 
     :rtype: Statement 
 
@@ -143,12 +160,12 @@ isPrepared
 prepare
 -------
 
-.. function:: prepare([$sql = false])
+.. function:: prepare()
 
 
     Prepare
 
-    :param string $sql: 
+    :param string: 
 
     :throws Exception\InvalidQueryException: 
     :throws Exception\RuntimeException: 
@@ -160,12 +177,12 @@ prepare
 execute
 -------
 
-.. function:: execute([$parameters = false])
+.. function:: execute()
 
 
     Execute
 
-    :param ParameterContainer $parameters: 
+    :param ParameterContainer: 
 
     :throws Exception\RuntimeException: 
 
@@ -182,8 +199,6 @@ bindParametersFromContainer
     Bind parameters from container
 
     :rtype: void 
-
-
 
 
 

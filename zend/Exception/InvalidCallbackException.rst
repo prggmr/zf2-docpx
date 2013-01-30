@@ -1,13 +1,8 @@
-.. /EventManager/Exception/InvalidCallbackException.php generated using docpx on 01/15/13 05:29pm
+.. Stdlib/Exception/InvalidCallbackException.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\EventManager\\Exception\\InvalidCallbackException
-*******************************************************
-
+Zend\\Stdlib\\Exception\\InvalidCallbackException
+=================================================
 
 Invalid callback exception
-
-
-
-
 

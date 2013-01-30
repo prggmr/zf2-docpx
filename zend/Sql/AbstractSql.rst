@@ -1,28 +1,26 @@
-.. /Db/Sql/AbstractSql.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/AbstractSql.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\AbstractSql
-**************************
-
-
+==========================
 
 Methods
-=======
++++++++
 
 processExpression
 -----------------
 
-.. function:: processExpression($expression, $platform, [$adapter = false, [$namedParameterPrefix = false]])
+.. function:: processExpression()
 
 
-    @var string
+    @var array
 
 
 
 createSqlFromSpecificationAndParameters
 ---------------------------------------
 
-.. function:: createSqlFromSpecificationAndParameters($specification, $parameters)
+.. function:: createSqlFromSpecificationAndParameters()
 
 
     @param $specification
@@ -38,9 +36,7 @@ createSqlFromSpecificationAndParameters
 processSubSelect
 ----------------
 
-.. function:: processSubSelect($subselect, $platform, [$adapter = false, [$parameterContainer = false]])
-
-
+.. function:: processSubSelect()
 
 
 

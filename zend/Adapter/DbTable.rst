@@ -1,30 +1,25 @@
-.. /Authentication/Adapter/DbTable.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Adapter/DbTable.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Adapter\\DbTable
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($zendDb, [$tableName = false, [$identityColumn = false, [$credentialColumn = false, [$credentialTreatment = false]]]])
+.. function:: __construct()
 
 
     __construct() - Sets configuration options
 
-    :param DbAdapter $zendDb: 
-    :param string $tableName: Optional
-    :param string $identityColumn: Optional
-    :param string $credentialColumn: Optional
-    :param string $credentialTreatment: Optional
+    :param DbAdapter: 
+    :param string: Optional
+    :param string: Optional
+    :param string: Optional
+    :param string: Optional
 
     :rtype: \Zend\Authentication\Adapter\DbTable 
 
@@ -33,12 +28,12 @@ __construct
 setTableName
 ------------
 
-.. function:: setTableName($tableName)
+.. function:: setTableName()
 
 
     setTableName() - set the table name to be used in the select query
 
-    :param string $tableName: 
+    :param string: 
 
     :rtype: DbTable Provides a fluent interface
 
@@ -47,12 +42,12 @@ setTableName
 setIdentityColumn
 -----------------
 
-.. function:: setIdentityColumn($identityColumn)
+.. function:: setIdentityColumn()
 
 
     setIdentityColumn() - set the column name to be used as the identity column
 
-    :param string $identityColumn: 
+    :param string: 
 
     :rtype: DbTable Provides a fluent interface
 
@@ -61,12 +56,12 @@ setIdentityColumn
 setCredentialColumn
 -------------------
 
-.. function:: setCredentialColumn($credentialColumn)
+.. function:: setCredentialColumn()
 
 
     setCredentialColumn() - set the column name to be used as the credential column
 
-    :param string $credentialColumn: 
+    :param string: 
 
     :rtype: DbTable Provides a fluent interface
 
@@ -75,7 +70,7 @@ setCredentialColumn
 setCredentialTreatment
 ----------------------
 
-.. function:: setCredentialTreatment($treatment)
+.. function:: setCredentialTreatment()
 
 
     setCredentialTreatment() - allows the developer to pass a parametrized string that is
@@ -91,36 +86,7 @@ setCredentialTreatment
      'PASSWORD(?)'
      'MD5(?)'
 
-    :param string $treatment: 
-
-    :rtype: DbTable Provides a fluent interface
-
-
-
-setIdentity
------------
-
-.. function:: setIdentity($value)
-
-
-    setIdentity() - set the value to be used as the identity
-
-    :param string $value: 
-
-    :rtype: DbTable Provides a fluent interface
-
-
-
-setCredential
--------------
-
-.. function:: setCredential($credential)
-
-
-    setCredential() - set the credential value to be used, optionally can specify a treatment
-    to be used, should be supplied in parametrized form, such as 'MD5(?)' or 'PASSWORD(?)'
-
-    :param string $credential: 
+    :param string: 
 
     :rtype: DbTable Provides a fluent interface
 
@@ -129,14 +95,14 @@ setCredential
 setAmbiguityIdentity
 --------------------
 
-.. function:: setAmbiguityIdentity($flag)
+.. function:: setAmbiguityIdentity()
 
 
     setAmbiguityIdentity() - sets a flag for usage of identical identities
     with unique credentials. It accepts integers (0, 1) or boolean (true,
     false) parameters. Default is false.
 
-    :param int|bool $flag: 
+    :param int|bool: 
 
     :rtype: DbTable Provides a fluent interface
 
@@ -170,13 +136,13 @@ getDbSelect
 getResultRowObject
 ------------------
 
-.. function:: getResultRowObject([$returnColumns = false, [$omitColumns = false]])
+.. function:: getResultRowObject()
 
 
     getResultRowObject() - Returns the result row as a stdClass object
 
-    :param string|array $returnColumns: 
-    :param string|array $omitColumns: 
+    :param string|array: 
+    :param string|array: 
 
     :rtype: stdClass|bool 
 
@@ -229,13 +195,13 @@ _authenticateCreateSelect
 _authenticateQuerySelect
 ------------------------
 
-.. function:: _authenticateQuerySelect($dbSelect)
+.. function:: _authenticateQuerySelect()
 
 
     _authenticateQuerySelect() - This method accepts a Zend\Db\Sql\Select object and
     performs a query against the database with that object.
 
-    :param DbSelect $dbSelect: 
+    :param DbSelect: 
 
     :throws Exception\RuntimeException: when an invalid select object is encountered
 
@@ -246,13 +212,13 @@ _authenticateQuerySelect
 _authenticateValidateResultSet
 ------------------------------
 
-.. function:: _authenticateValidateResultSet($resultIdentities)
+.. function:: _authenticateValidateResultSet()
 
 
     _authenticateValidateResultSet() - This method attempts to make
     certain that only one record was returned in the resultset
 
-    :param array $resultIdentities: 
+    :param array: 
 
     :rtype: bool|\Zend\Authentication\Result 
 
@@ -261,14 +227,14 @@ _authenticateValidateResultSet
 _authenticateValidateResult
 ---------------------------
 
-.. function:: _authenticateValidateResult($resultIdentity)
+.. function:: _authenticateValidateResult()
 
 
     _authenticateValidateResult() - This method attempts to validate that
     the record in the resultset is indeed a record that matched the
     identity provided to this adapter.
 
-    :param array $resultIdentity: 
+    :param array: 
 
     :rtype: AuthenticationResult 
 
@@ -284,8 +250,6 @@ _authenticateCreateAuthResult
     has been collected during the authenticate() attempt.
 
     :rtype: AuthenticationResult 
-
-
 
 
 

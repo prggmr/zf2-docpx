@@ -1,13 +1,11 @@
-.. /Db/TableGateway/Feature/AbstractFeature.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/AbstractFeature.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\AbstractFeature
-************************************************
-
-
+================================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -22,7 +20,7 @@ getName
 setTableGateway
 ---------------
 
-.. function:: setTableGateway($tableGateway)
+.. function:: setTableGateway()
 
 
 
@@ -37,8 +35,6 @@ getMagicMethodSpecifications
 ----------------------------
 
 .. function:: getMagicMethodSpecifications()
-
-
 
 
 

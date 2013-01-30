@@ -1,19 +1,18 @@
-.. /Filter/FilterInterface.php generated using docpx on 01/15/13 05:29pm
+.. Stdlib/Hydrator/Filter/FilterInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Filter\\filter
-====================
+Zend\\Stdlib\\Hydrator\\Filter\\filter
+======================================
 
-.. function:: Zend\Filter\filter()
+.. function:: Zend\Stdlib\Hydrator\Filter\filter()
 
 
-    Returns the result of filtering $value
+    Should return true, if the given filter
+    does not match
 
-    :param mixed $value: 
+    :param string: The name of the property
 
-    :throws Exception\RuntimeException: If filtering $value is impossible
-
-    :rtype: mixed 
+    :rtype: bool 
 
 
 

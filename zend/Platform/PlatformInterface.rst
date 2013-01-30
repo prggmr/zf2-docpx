@@ -1,4 +1,4 @@
-.. /Db/Adapter/Platform/PlatformInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Platform/PlatformInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Platform\\getName
@@ -33,7 +33,7 @@ Zend\\Db\\Adapter\\Platform\\quoteIdentifier
 
     Quote identifier
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: string 
 
@@ -47,7 +47,7 @@ Zend\\Db\\Adapter\\Platform\\quoteIdentifierChain
 
     Quote identifier chain
 
-    :param string|string[] $identifierChain: 
+    :param string|string[]: 
 
     :rtype: string 
 
@@ -73,7 +73,7 @@ Zend\\Db\\Adapter\\Platform\\quoteValue
 
     Quote value
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
 
@@ -87,7 +87,7 @@ Zend\\Db\\Adapter\\Platform\\quoteValueList
 
     Quote value list
 
-    :param string|string[] $valueList: 
+    :param string|string[]: 
 
     :rtype: string 
 
@@ -113,8 +113,8 @@ Zend\\Db\\Adapter\\Platform\\quoteIdentifierInFragment
 
     Quote identifier in fragment
 
-    :param string $identifier: 
-    :param array $safeWords: 
+    :param string: 
+    :param array: 
 
     :rtype: string 
 

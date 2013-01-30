@@ -1,16 +1,13 @@
-.. /Barcode/Object/Ean13.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Ean13.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Ean13
-****************************
-
+============================
 
 Class for generate Ean13 barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -63,12 +60,12 @@ prepareBarcode
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
 
@@ -90,8 +87,6 @@ drawEan13Text
 -------------
 
 .. function:: drawEan13Text()
-
-
 
 
 

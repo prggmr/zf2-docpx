@@ -1,26 +1,23 @@
-.. /Feed/Writer/Renderer/Entry/AtomDeleted.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Entry/AtomDeleted.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Entry\\AtomDeleted
-************************************************
-
-
-@category Zend
+================================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\Deleted $container: 
+    :param Writer\Deleted: 
 
 
 
@@ -39,13 +36,13 @@ render
 _setComment
 -----------
 
-.. function:: _setComment($dom, $root)
+.. function:: _setComment()
 
 
     Set tombstone comment
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -54,17 +51,15 @@ _setComment
 _setBy
 ------
 
-.. function:: _setBy($dom, $root)
+.. function:: _setBy()
 
 
     Set entry authors
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

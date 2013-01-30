@@ -1,9 +1,8 @@
-.. /Form/Annotation/ElementAnnotationsListener.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/ElementAnnotationsListener.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\ElementAnnotationsListener
-**************************************************
-
+==================================================
 
 Default listeners for element annotations
 
@@ -26,20 +25,18 @@ See the individual annotation classes for more details. The handlers registered
 work with the annotation values, as well as the element and input specification
 passed in the event object.
 
-
-
 Methods
-=======
++++++++
 
 attach
 ------
 
-.. function:: attach($events)
+.. function:: attach()
 
 
     Attach listeners
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: void 
 
@@ -48,14 +45,14 @@ attach
 handleAllowEmptyAnnotation
 --------------------------
 
-.. function:: handleAllowEmptyAnnotation($e)
+.. function:: handleAllowEmptyAnnotation()
 
 
     Handle the AllowEmpty annotation
     
     Sets the allow_empty flag on the input specification array.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -64,14 +61,14 @@ handleAllowEmptyAnnotation
 handleAttributesAnnotation
 --------------------------
 
-.. function:: handleAttributesAnnotation($e)
+.. function:: handleAttributesAnnotation()
 
 
     Handle the Attributes annotation
     
     Sets the attributes array of the element specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -80,12 +77,12 @@ handleAttributesAnnotation
 handleComposedObjectAnnotation
 ------------------------------
 
-.. function:: handleComposedObjectAnnotation($e)
+.. function:: handleComposedObjectAnnotation()
 
 
     Allow creating fieldsets from composed entity properties
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -94,14 +91,14 @@ handleComposedObjectAnnotation
 handleErrorMessageAnnotation
 ----------------------------
 
-.. function:: handleErrorMessageAnnotation($e)
+.. function:: handleErrorMessageAnnotation()
 
 
     Handle the ErrorMessage annotation
     
     Sets the error_message of the input specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -110,12 +107,12 @@ handleErrorMessageAnnotation
 handleExcludeAnnotation
 -----------------------
 
-.. function:: handleExcludeAnnotation($e)
+.. function:: handleExcludeAnnotation()
 
 
     Determine if the element has been marked to exclude from the definition
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: bool 
 
@@ -124,14 +121,14 @@ handleExcludeAnnotation
 handleFilterAnnotation
 ----------------------
 
-.. function:: handleFilterAnnotation($e)
+.. function:: handleFilterAnnotation()
 
 
     Handle the Filter annotation
     
     Adds a filter to the filter chain specification for the input.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -140,7 +137,7 @@ handleFilterAnnotation
 handleFlagsAnnotation
 ---------------------
 
-.. function:: handleFlagsAnnotation($e)
+.. function:: handleFlagsAnnotation()
 
 
     Handle the Flags annotation
@@ -148,7 +145,7 @@ handleFlagsAnnotation
     Sets the element flags in the specification (used typically for setting
     priority).
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -157,14 +154,14 @@ handleFlagsAnnotation
 handleHydratorAnnotation
 ------------------------
 
-.. function:: handleHydratorAnnotation($e)
+.. function:: handleHydratorAnnotation()
 
 
     Handle the Hydrator annotation
     
     Sets the hydrator class to use in the fieldset specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -173,7 +170,7 @@ handleHydratorAnnotation
 handleInputAnnotation
 ---------------------
 
-.. function:: handleInputAnnotation($e)
+.. function:: handleInputAnnotation()
 
 
     Handle the Input annotation
@@ -181,7 +178,7 @@ handleInputAnnotation
     Sets the filter specification for the current element to the specified
     input class name.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -190,14 +187,14 @@ handleInputAnnotation
 handleObjectAnnotation
 ----------------------
 
-.. function:: handleObjectAnnotation($e)
+.. function:: handleObjectAnnotation()
 
 
     Handle the Object annotation
     
     Sets the object to bind to the form or fieldset
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -206,14 +203,14 @@ handleObjectAnnotation
 handleOptionsAnnotation
 -----------------------
 
-.. function:: handleOptionsAnnotation($e)
+.. function:: handleOptionsAnnotation()
 
 
     Handle the Options annotation
     
     Sets the element options in the specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -222,14 +219,14 @@ handleOptionsAnnotation
 handleRequiredAnnotation
 ------------------------
 
-.. function:: handleRequiredAnnotation($e)
+.. function:: handleRequiredAnnotation()
 
 
     Handle the Required annotation
     
     Sets the required flag on the input based on the annotation value.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -238,14 +235,14 @@ handleRequiredAnnotation
 handleTypeAnnotation
 --------------------
 
-.. function:: handleTypeAnnotation($e)
+.. function:: handleTypeAnnotation()
 
 
     Handle the Type annotation
     
     Sets the element class type to use in the element specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -254,18 +251,16 @@ handleTypeAnnotation
 handleValidatorAnnotation
 -------------------------
 
-.. function:: handleValidatorAnnotation($e)
+.. function:: handleValidatorAnnotation()
 
 
     Handle the Validator annotation
     
     Adds a validator to the validator chain of the input specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
-
-
 
 
 

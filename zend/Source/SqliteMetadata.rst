@@ -1,16 +1,11 @@
-.. /Db/Metadata/Source/SqliteMetadata.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Source/SqliteMetadata.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Source\\SqliteMetadata
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 loadSchemaData
 --------------
@@ -22,56 +17,56 @@ loadSchemaData
 loadTableNameData
 -----------------
 
-.. function:: loadTableNameData($schema)
+.. function:: loadTableNameData()
 
 
 
 loadColumnData
 --------------
 
-.. function:: loadColumnData($table, $schema)
+.. function:: loadColumnData()
 
 
 
 loadConstraintData
 ------------------
 
-.. function:: loadConstraintData($table, $schema)
+.. function:: loadConstraintData()
 
 
 
 loadTriggerData
 ---------------
 
-.. function:: loadTriggerData($schema)
+.. function:: loadTriggerData()
 
 
 
 fetchPragma
 -----------
 
-.. function:: fetchPragma($name, [$value = false, [$schema = false]])
+.. function:: fetchPragma()
 
 
 
 parseView
 ---------
 
-.. function:: parseView($sql)
+.. function:: parseView()
 
 
 
 parseTrigger
 ------------
 
-.. function:: parseTrigger($sql)
+.. function:: parseTrigger()
 
 
 
 buildRegularExpression
 ----------------------
 
-.. function:: buildRegularExpression($re)
+.. function:: buildRegularExpression()
 
 
 
@@ -93,8 +88,6 @@ getIdentifierListRegularExpression
 ----------------------------------
 
 .. function:: getIdentifierListRegularExpression()
-
-
 
 
 

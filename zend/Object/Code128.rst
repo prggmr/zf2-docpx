@@ -1,16 +1,13 @@
-.. /Barcode/Object/Code128.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Code128.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Code128
-******************************
-
+==============================
 
 Class for generate Code128 barcode
 
-
-
 Methods
-=======
++++++++
 
 calculateBarcodeWidth
 ---------------------
@@ -51,15 +48,15 @@ prepareBarcode
 _isDigit
 --------
 
-.. function:: _isDigit($string, $pos, [$length = 2])
+.. function:: _isDigit()
 
 
     Checks if the next $length chars of $string starting at $pos are numeric.
     Returns false if the end of the string is reached.
 
-    :param string $string: String to search
-    :param int $pos: Starting position
-    :param int $length: Length to search
+    :param string: String to search
+    :param int: Starting position
+    :param int: Length to search
 
     :rtype: bool 
 
@@ -68,12 +65,12 @@ _isDigit
 convertToBarcodeChars
 ---------------------
 
-.. function:: convertToBarcodeChars($string)
+.. function:: convertToBarcodeChars()
 
 
     Convert string to barcode string
 
-    :param string $string: 
+    :param string: 
 
     :rtype: array 
 
@@ -82,12 +79,12 @@ convertToBarcodeChars
 setText
 -------
 
-.. function:: setText($value)
+.. function:: setText()
 
 
     Set text to encode
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Code128 
 
@@ -108,16 +105,14 @@ getText
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
-
-
 
 
 

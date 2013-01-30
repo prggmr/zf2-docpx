@@ -1,16 +1,11 @@
-.. /Code/Reflection/DocBlockReflection.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlockReflection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlockReflection
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 export
 ------
@@ -23,10 +18,6 @@ export
     Required by the Reflector interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: void 
 
 
@@ -34,13 +25,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 __construct
 -----------
 
-.. function:: __construct($commentOrReflector, [$tagManager = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  Reflector|string $commentOrReflector
 
-    :param Reflector|string $commentOrReflector: 
-    :param null|\Zend\Code\Reflection\DocBlock\TagManager $tagManager: 
+    :param null|DocBlockTagManager: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -111,12 +101,12 @@ getLongDescription
 hasTag
 ------
 
-.. function:: hasTag($name)
+.. function:: hasTag()
 
 
     Does the DocBlock contain the given annotation tag?
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -125,28 +115,28 @@ hasTag
 getTag
 ------
 
-.. function:: getTag($name)
+.. function:: getTag()
 
 
     Retrieve the given DocBlock tag
 
-    :param string $name: 
+    :param string: 
 
-    :rtype: DocBlock\Tag\TagInterface|false 
+    :rtype: DocBlockTagInterface|false 
 
 
 
 getTags
 -------
 
-.. function:: getTags([$filter = false])
+.. function:: getTags()
 
 
     Get all DocBlock annotation tags
 
-    :param string $filter: 
+    :param string: 
 
-    :rtype: array Array of \Zend\Code\Reflection\ReflectionDocBlockTag
+    :rtype: DocBlockTagInterface[] 
 
 
 
@@ -180,8 +170,6 @@ __toString
     Required by the Reflector interface
 
     :rtype: string 
-
-
 
 
 

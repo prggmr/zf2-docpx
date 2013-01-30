@@ -1,32 +1,25 @@
-.. /Form/View/Helper/FormSubmit.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormSubmit.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormSubmit
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 getType
 -------
 
-.. function:: getType($element)
+.. function:: getType()
 
 
     Determine input type to use
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
     :rtype: string 
-
-
 
 
 

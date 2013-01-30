@@ -1,26 +1,21 @@
-.. /Cache/Pattern/PatternOptions.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/PatternOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\PatternOptions
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable|null $options: 
+    :param array|Traversable|null: 
 
     :rtype: PatternOptions 
 
@@ -31,7 +26,7 @@ __construct
 setCacheByDefault
 -----------------
 
-.. function:: setCacheByDefault($cacheByDefault)
+.. function:: setCacheByDefault()
 
 
     Set flag indicating whether or not to cache by default
@@ -40,7 +35,7 @@ setCacheByDefault
     - ClassCache
     - ObjectCache
 
-    :param bool $cacheByDefault: 
+    :param bool: 
 
     :rtype: PatternOptions 
 
@@ -65,7 +60,7 @@ getCacheByDefault
 setCacheOutput
 --------------
 
-.. function:: setCacheOutput($cacheOutput)
+.. function:: setCacheOutput()
 
 
     Set whether or not to cache output
@@ -75,7 +70,7 @@ setCacheOutput
     - ClassCache
     - ObjectCache
 
-    :param bool $cacheOutput: 
+    :param bool: 
 
     :rtype: PatternOptions 
 
@@ -101,7 +96,7 @@ getCacheOutput
 setClass
 --------
 
-.. function:: setClass($class)
+.. function:: setClass()
 
 
     Set class name
@@ -109,7 +104,7 @@ setClass
     Used by:
     - ClassCache
 
-    :param string $class: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -135,7 +130,7 @@ getClass
 setClassCacheMethods
 --------------------
 
-.. function:: setClassCacheMethods($classCacheMethods)
+.. function:: setClassCacheMethods()
 
 
     Set list of method return values to cache
@@ -143,7 +138,7 @@ setClassCacheMethods
     Used by:
     - ClassCache
 
-    :param array $classCacheMethods: 
+    :param array: 
 
     :rtype: PatternOptions 
 
@@ -167,7 +162,7 @@ getClassCacheMethods
 setClassNonCacheMethods
 -----------------------
 
-.. function:: setClassNonCacheMethods($classNonCacheMethods)
+.. function:: setClassNonCacheMethods()
 
 
     Set list of method return values NOT to cache
@@ -175,7 +170,7 @@ setClassNonCacheMethods
     Used by:
     - ClassCache
 
-    :param array $classNonCacheMethods: 
+    :param array: 
 
     :rtype: PatternOptions 
 
@@ -199,12 +194,12 @@ getClassNonCacheMethods
 setDirPermission
 ----------------
 
-.. function:: setDirPermission($dirPermission)
+.. function:: setDirPermission()
 
 
     Set directory permission
 
-    :param false|int $dirPermission: 
+    :param false|int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -227,7 +222,7 @@ getDirPermission
 setUmask
 --------
 
-.. function:: setUmask($umask)
+.. function:: setUmask()
 
 
     Set umask
@@ -235,7 +230,7 @@ setUmask
     Used by:
     - CaptureCache
 
-    :param false|int $umask: 
+    :param false|int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -261,7 +256,7 @@ getUmask
 setFileLocking
 --------------
 
-.. function:: setFileLocking($fileLocking)
+.. function:: setFileLocking()
 
 
     Set whether or not file locking should be used
@@ -269,7 +264,7 @@ setFileLocking
     Used by:
     - CaptureCache
 
-    :param bool $fileLocking: 
+    :param bool: 
 
     :rtype: PatternOptions 
 
@@ -293,12 +288,12 @@ getFileLocking
 setFilePermission
 -----------------
 
-.. function:: setFilePermission($filePermission)
+.. function:: setFilePermission()
 
 
     Set file permission
 
-    :param false|int $filePermission: 
+    :param false|int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -321,12 +316,12 @@ getFilePermission
 setIndexFilename
 ----------------
 
-.. function:: setIndexFilename($indexFilename)
+.. function:: setIndexFilename()
 
 
     Set value for index filename
 
-    :param string $indexFilename: 
+    :param string: 
 
     :rtype: PatternOptions 
 
@@ -347,12 +342,12 @@ getIndexFilename
 setObject
 ---------
 
-.. function:: setObject($object)
+.. function:: setObject()
 
 
     Set object to cache
 
-    :param mixed $object: 
+    :param mixed: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -375,7 +370,7 @@ getObject
 setObjectCacheMagicProperties
 -----------------------------
 
-.. function:: setObjectCacheMagicProperties($objectCacheMagicProperties)
+.. function:: setObjectCacheMagicProperties()
 
 
     Set flag indicating whether or not to cache magic properties
@@ -383,7 +378,7 @@ setObjectCacheMagicProperties
     Used by:
     - ObjectCache
 
-    :param bool $objectCacheMagicProperties: 
+    :param bool: 
 
     :rtype: PatternOptions 
 
@@ -407,12 +402,12 @@ getObjectCacheMagicProperties
 setObjectCacheMethods
 ---------------------
 
-.. function:: setObjectCacheMethods($objectCacheMethods)
+.. function:: setObjectCacheMethods()
 
 
     Set list of object methods for which to cache return values
 
-    :param array $objectCacheMethods: 
+    :param array: 
 
     :rtype: PatternOptions 
 
@@ -435,7 +430,7 @@ getObjectCacheMethods
 setObjectKey
 ------------
 
-.. function:: setObjectKey($objectKey)
+.. function:: setObjectKey()
 
 
     Set the object key part.
@@ -445,7 +440,7 @@ setObjectKey
     Used by:
     - ObjectCache
 
-    :param mixed $objectKey: 
+    :param mixed: 
 
     :rtype: $this 
 
@@ -469,12 +464,12 @@ getObjectKey
 setObjectNonCacheMethods
 ------------------------
 
-.. function:: setObjectNonCacheMethods($objectNonCacheMethods)
+.. function:: setObjectNonCacheMethods()
 
 
     Set list of object methods for which NOT to cache return values
 
-    :param array $objectNonCacheMethods: 
+    :param array: 
 
     :rtype: PatternOptions 
 
@@ -497,7 +492,7 @@ getObjectNonCacheMethods
 setPublicDir
 ------------
 
-.. function:: setPublicDir($publicDir)
+.. function:: setPublicDir()
 
 
     Set location of public directory
@@ -505,7 +500,7 @@ setPublicDir
     Used by:
     - CaptureCache
 
-    :param string $publicDir: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -531,7 +526,7 @@ getPublicDir
 setStorage
 ----------
 
-.. function:: setStorage($storage)
+.. function:: setStorage()
 
 
     Set storage adapter
@@ -542,7 +537,7 @@ setStorage
     - ObjectCache
     - OutputCache
 
-    :param string|array|Storage $storage: 
+    :param string|array|Storage: 
 
     :rtype: PatternOptions 
 
@@ -569,13 +564,13 @@ getStorage
 recursiveStrtolower
 -------------------
 
-.. function:: recursiveStrtolower($array)
+.. function:: recursiveStrtolower()
 
 
     Recursively apply strtolower on all values of an array, and return as a
     list of unique values
 
-    :param array $array: 
+    :param array: 
 
     :rtype: array 
 
@@ -584,7 +579,7 @@ recursiveStrtolower
 normalizeObjectMethods
 ----------------------
 
-.. function:: normalizeObjectMethods($methods)
+.. function:: normalizeObjectMethods()
 
 
     Normalize object methods
@@ -592,7 +587,7 @@ normalizeObjectMethods
     Recursively casts values to lowercase, then determines if any are in a
     list of methods not handled, raising an exception if so.
 
-    :param array $methods: 
+    :param array: 
 
     :rtype: array 
 
@@ -603,18 +598,16 @@ normalizeObjectMethods
 storageFactory
 --------------
 
-.. function:: storageFactory($storage)
+.. function:: storageFactory()
 
 
     Create a storage object from a given specification
 
-    :param array|string|Storage $storage: 
+    :param array|string|Storage: 
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: Storage 
-
-
 
 
 

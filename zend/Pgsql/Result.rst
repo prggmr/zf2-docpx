@@ -1,21 +1,16 @@
-.. /Db/Adapter/Driver/Pgsql/Result.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pgsql/Result.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pgsql\\Result
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($resource, $generatedValue)
+.. function:: initialize()
 
 
     Initialize
@@ -171,10 +166,6 @@ count
     Count elements of an object
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: int The custom count as an integer.
 </p>
 <p>
@@ -191,8 +182,6 @@ getFieldCount
     Get field count
 
     :rtype: int 
-
-
 
 
 

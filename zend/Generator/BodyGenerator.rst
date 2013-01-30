@@ -1,26 +1,19 @@
-.. /Code/Generator/BodyGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/BodyGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\BodyGenerator
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 setContent
 ----------
 
-.. function:: setContent($content)
+.. function:: setContent()
 
 
-    setContent()
-
-    :param string $content: 
+    @param  string $content
 
     :rtype: BodyGenerator 
 
@@ -32,9 +25,7 @@ getContent
 .. function:: getContent()
 
 
-    getContent()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -44,11 +35,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
-    :rtype: string 
-
-
+    @return string
 
 
 

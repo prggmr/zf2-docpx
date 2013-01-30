@@ -1,26 +1,23 @@
-.. /Di/Definition/BuilderDefinition.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/BuilderDefinition.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\BuilderDefinition
-***************************************
-
+=======================================
 
 Class definitions based on a configuration array
 
-
-
 Methods
-=======
++++++++
 
 createClassesFromArray
 ----------------------
 
-.. function:: createClassesFromArray($builderData)
+.. function:: createClassesFromArray()
 
 
     Create classes from array
 
-    :param array $builderData: 
+    :param array: 
 
     :rtype: void 
 
@@ -29,12 +26,12 @@ createClassesFromArray
 addClass
 --------
 
-.. function:: addClass($phpClass)
+.. function:: addClass()
 
 
     Add class
 
-    :param Builder\PhpClass $phpClass: 
+    :param Builder\PhpClass: 
 
     :rtype: BuilderDefinition 
 
@@ -43,14 +40,14 @@ addClass
 createClass
 -----------
 
-.. function:: createClass([$name = false])
+.. function:: createClass()
 
 
     Create a class builder object using default class builder class
     
     This method is a factory that can be used in place of addClass().
 
-    :param null|string $name: Optional name of class to assign
+    :param null|string: Optional name of class to assign
 
     :rtype: Builder\PhpClass 
 
@@ -59,12 +56,12 @@ createClass
 setClassBuilder
 ---------------
 
-.. function:: setClassBuilder($class)
+.. function:: setClassBuilder()
 
 
     Set the class to use with {@link createClass()}
 
-    :param string $class: 
+    :param string: 
 
     :rtype: BuilderDefinition 
 
@@ -98,7 +95,7 @@ getClasses
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
     {@inheritDoc}
@@ -108,7 +105,7 @@ hasClass
 getClass
 --------
 
-.. function:: getClass($name)
+.. function:: getClass()
 
 
     @param  string                $name
@@ -120,7 +117,7 @@ getClass
 getClassSupertypes
 ------------------
 
-.. function:: getClassSupertypes($class)
+.. function:: getClassSupertypes()
 
 
     {@inheritDoc}
@@ -131,7 +128,7 @@ getClassSupertypes
 getInstantiator
 ---------------
 
-.. function:: getInstantiator($class)
+.. function:: getInstantiator()
 
 
     {@inheritDoc}
@@ -142,7 +139,7 @@ getInstantiator
 hasMethods
 ----------
 
-.. function:: hasMethods($class)
+.. function:: hasMethods()
 
 
     {@inheritDoc}
@@ -153,7 +150,7 @@ hasMethods
 getMethods
 ----------
 
-.. function:: getMethods($class)
+.. function:: getMethods()
 
 
     {@inheritDoc}
@@ -164,7 +161,7 @@ getMethods
 hasMethod
 ---------
 
-.. function:: hasMethod($class, $method)
+.. function:: hasMethod()
 
 
     {@inheritDoc}
@@ -175,7 +172,7 @@ hasMethod
 hasMethodParameters
 -------------------
 
-.. function:: hasMethodParameters($class, $method)
+.. function:: hasMethodParameters()
 
 
     {@inheritDoc}
@@ -185,12 +182,10 @@ hasMethodParameters
 getMethodParameters
 -------------------
 
-.. function:: getMethodParameters($class, $method)
+.. function:: getMethodParameters()
 
 
     {@inheritDoc}
-
-
 
 
 

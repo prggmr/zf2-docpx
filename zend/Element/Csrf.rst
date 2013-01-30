@@ -1,27 +1,22 @@
-.. /Form/Element/Csrf.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Csrf.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Csrf
-*************************
-
-
-@category   Zend
-
-
+=========================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Accepted options for Csrf:
     - csrf_options: an array used in the Csrf
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Csrf 
 
@@ -40,7 +35,7 @@ getCsrfValidatorOptions
 setCsrfValidatorOptions
 -----------------------
 
-.. function:: setCsrfValidatorOptions($options)
+.. function:: setCsrfValidatorOptions()
 
 
     @param  array $options
@@ -64,7 +59,7 @@ getCsrfValidator
 setCsrfValidator
 ----------------
 
-.. function:: setCsrfValidator($validator)
+.. function:: setCsrfValidator()
 
 
     @param  \Zend\Validator\Csrf $validator
@@ -118,12 +113,10 @@ getInputSpecification
 prepareElement
 --------------
 
-.. function:: prepareElement($form)
+.. function:: prepareElement()
 
 
     Prepare the form element
-
-
 
 
 

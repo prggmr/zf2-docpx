@@ -1,32 +1,25 @@
-.. /Filter/Digits.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Digits.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Digits
-********************
-
-
-@category   Zend
-
-
+====================
 
 Methods
-=======
++++++++
 
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Returns the string $value, removing all but digit characters
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

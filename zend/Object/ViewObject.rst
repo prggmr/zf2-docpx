@@ -1,16 +1,11 @@
-.. /Db/Metadata/Object/ViewObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/ViewObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\ViewObject
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 getViewDefinition
 -----------------
@@ -25,7 +20,7 @@ getViewDefinition
 setViewDefinition
 -----------------
 
-.. function:: setViewDefinition($viewDefinition)
+.. function:: setViewDefinition()
 
 
     @param string $viewDefinition to set
@@ -47,7 +42,7 @@ getCheckOption
 setCheckOption
 --------------
 
-.. function:: setCheckOption($checkOption)
+.. function:: setCheckOption()
 
 
     @param string $checkOption to set
@@ -69,7 +64,7 @@ getIsUpdatable
 setIsUpdatable
 --------------
 
-.. function:: setIsUpdatable($isUpdatable)
+.. function:: setIsUpdatable()
 
 
     @param bool $isUpdatable to set
@@ -82,8 +77,6 @@ isUpdatable
 -----------
 
 .. function:: isUpdatable()
-
-
 
 
 

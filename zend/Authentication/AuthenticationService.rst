@@ -1,27 +1,22 @@
-.. /Authentication/AuthenticationService.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/AuthenticationService.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\AuthenticationService
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$storage = false, [$adapter = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param Storage\StorageInterface $storage: 
-    :param Adapter\AdapterInterface $adapter: 
+    :param Storage\StorageInterface: 
+    :param Adapter\AdapterInterface: 
 
 
 
@@ -42,12 +37,12 @@ getAdapter
 setAdapter
 ----------
 
-.. function:: setAdapter($adapter)
+.. function:: setAdapter()
 
 
     Sets the authentication adapter
 
-    :param Adapter\AdapterInterface $adapter: 
+    :param Adapter\AdapterInterface: 
 
     :rtype: AuthenticationService Provides a fluent interface
 
@@ -70,12 +65,12 @@ getStorage
 setStorage
 ----------
 
-.. function:: setStorage($storage)
+.. function:: setStorage()
 
 
     Sets the persistent storage handler
 
-    :param Storage\StorageInterface $storage: 
+    :param Storage\StorageInterface: 
 
     :rtype: AuthenticationService Provides a fluent interface
 
@@ -84,12 +79,12 @@ setStorage
 authenticate
 ------------
 
-.. function:: authenticate([$adapter = false])
+.. function:: authenticate()
 
 
     Authenticates against the supplied adapter
 
-    :param Adapter\AdapterInterface $adapter: 
+    :param Adapter\AdapterInterface: 
 
     :rtype: Result 
 
@@ -130,8 +125,6 @@ clearIdentity
     Clears the identity from persistent storage
 
     :rtype: void 
-
-
 
 
 

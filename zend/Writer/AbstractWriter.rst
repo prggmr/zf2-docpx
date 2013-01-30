@@ -1,80 +1,200 @@
-.. /Config/Writer/AbstractWriter.php generated using docpx on 01/15/13 05:29pm
+.. Log/Writer/AbstractWriter.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Config\\Writer\\AbstractWriter
-************************************
-
-
-@category   Zend
-
-
+Zend\\Log\\Writer\\AbstractWriter
+=================================
 
 Methods
-=======
++++++++
 
-toFile
-------
+__construct
+-----------
 
-.. function:: toFile($filename, $config, [$exclusiveLock = true])
-
-
-    toFile(): defined by Writer interface.
+.. function:: __construct()
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
+    Constructor
+    
+    Set options for an writer. Accepted options are:
+    - filters: array of filters to add to this filter
+    - formatter: formatter for this writer
 
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
+    :param array|\Traversable: 
 
-    :param string $filename: 
-    :param mixed $config: 
-    :param bool $exclusiveLock: 
+    :rtype: Logger 
+
+    :throws: Exception\InvalidArgumentException 
+
+
+
+addFilter
+---------
+
+.. function:: addFilter()
+
+
+    Add a filter specific to this writer.
+
+    :param int|string|Filter\FilterInterface: 
+    :param array|null: 
+
+    :rtype: AbstractWriter 
+
+    :throws: Exception\InvalidArgumentException 
+
+
+
+getFilterPluginManager
+----------------------
+
+.. function:: getFilterPluginManager()
+
+
+    Get filter plugin manager
+
+    :rtype: FilterPluginManager 
+
+
+
+setFilterPluginManager
+----------------------
+
+.. function:: setFilterPluginManager()
+
+
+    Set filter plugin manager
+
+    :param string|FilterPluginManager: 
+
+    :rtype: self 
+
+    :throws: Exception\InvalidArgumentException 
+
+
+
+filterPlugin
+------------
+
+.. function:: filterPlugin()
+
+
+    Get filter instance
+
+    :param string: 
+    :param array|null: 
+
+    :rtype: Filter\FilterInterface 
+
+
+
+getFormatterPluginManager
+-------------------------
+
+.. function:: getFormatterPluginManager()
+
+
+    Get formatter plugin manager
+
+    :rtype: FormatterPluginManager 
+
+
+
+setFormatterPluginManager
+-------------------------
+
+.. function:: setFormatterPluginManager()
+
+
+    Set formatter plugin manager
+
+    :param string|FormatterPluginManager: 
+
+    :rtype: self 
+
+    :throws: Exception\InvalidArgumentException 
+
+
+
+formatterPlugin
+---------------
+
+.. function:: formatterPlugin()
+
+
+    Get formatter instance
+
+    :param string: 
+    :param array|null: 
+
+    :rtype: Formatter\FormatterInterface 
+
+
+
+write
+-----
+
+.. function:: write()
+
+
+    Log a message to this writer.
+
+    :param array: log data event
 
     :rtype: void 
 
+
+
+setFormatter
+------------
+
+.. function:: setFormatter()
+
+
+    Set a new formatter for this writer
+
+    :param string|Formatter\FormatterInterface: 
+
+    :rtype: self 
+
     :throws: Exception\InvalidArgumentException 
-    :throws: Exception\RuntimeException 
 
 
 
-$error
-------
+setConvertWriteErrorsToExceptions
+---------------------------------
 
-.. function:: $error()
+.. function:: setConvertWriteErrorsToExceptions()
+
+
+    Set convert write errors to exception flag
+
+    :param bool: 
 
 
 
-toString
+shutdown
 --------
 
-.. function:: toString($config)
+.. function:: shutdown()
 
 
-    toString(): defined by Writer interface.
+    Perform shutdown activities such as closing open resources
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $config: 
-
-    :rtype: string 
-
-    :throws: Exception\InvalidArgumentException 
+    :rtype: void 
 
 
 
-processConfig
--------------
+doWrite
+-------
 
-.. function:: processConfig($config)
-
-
-    @param array $config
-
-    :rtype: string 
+.. function:: doWrite()
 
 
+    Write a message to the log
+
+    :param array: log data event
+
+    :rtype: void 
 
 
 

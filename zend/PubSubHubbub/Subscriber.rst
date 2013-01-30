@@ -1,40 +1,35 @@
-.. /Feed/PubSubHubbub/Subscriber.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/Subscriber.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\Subscriber
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor; accepts an array or Traversable instance to preset
     options for the Subscriber without calling all supported setter
     methods in turn.
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Process any injected configuration options
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :rtype: Subscriber 
 
@@ -45,13 +40,13 @@ setOptions
 setTopicUrl
 -----------
 
-.. function:: setTopicUrl($url)
+.. function:: setTopicUrl()
 
 
     Set the topic URL (RSS or Atom feed) to which the intended (un)subscribe
     event will relate
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Subscriber 
 
@@ -77,12 +72,12 @@ getTopicUrl
 setLeaseSeconds
 ---------------
 
-.. function:: setLeaseSeconds($seconds)
+.. function:: setLeaseSeconds()
 
 
     Set the number of seconds for which any subscription will remain valid
 
-    :param int $seconds: 
+    :param int: 
 
     :rtype: Subscriber 
 
@@ -105,13 +100,13 @@ getLeaseSeconds
 setCallbackUrl
 --------------
 
-.. function:: setCallbackUrl($url)
+.. function:: setCallbackUrl()
 
 
     Set the callback URL to be used by Hub Servers when communicating with
     this Subscriber
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Subscriber 
 
@@ -137,7 +132,7 @@ getCallbackUrl
 setPreferredVerificationMode
 ----------------------------
 
-.. function:: setPreferredVerificationMode($mode)
+.. function:: setPreferredVerificationMode()
 
 
     Set preferred verification mode (sync or async). By default, this
@@ -147,7 +142,7 @@ setPreferredVerificationMode
     Zend\Feed\Pubsubhubbub\Subscriber will always send both modes, whose
     order of occurrence in the parameter list determines this preference.
 
-    :param string $mode: Should be 'sync' or 'async'
+    :param string: Should be 'sync' or 'async'
 
     :rtype: Subscriber 
 
@@ -170,12 +165,12 @@ getPreferredVerificationMode
 addHubUrl
 ---------
 
-.. function:: addHubUrl($url)
+.. function:: addHubUrl()
 
 
     Add a Hub Server URL supported by Publisher
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Subscriber 
 
@@ -186,12 +181,12 @@ addHubUrl
 addHubUrls
 ----------
 
-.. function:: addHubUrls($urls)
+.. function:: addHubUrls()
 
 
     Add an array of Hub Server URLs supported by Publisher
 
-    :param array $urls: 
+    :param array: 
 
     :rtype: Subscriber 
 
@@ -200,12 +195,12 @@ addHubUrls
 removeHubUrl
 ------------
 
-.. function:: removeHubUrl($url)
+.. function:: removeHubUrl()
 
 
     Remove a Hub Server URL
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Subscriber 
 
@@ -226,13 +221,13 @@ getHubUrls
 addAuthentication
 -----------------
 
-.. function:: addAuthentication($url, $authentication)
+.. function:: addAuthentication()
 
 
     Add authentication credentials for a given URL
 
-    :param string $url: 
-    :param array $authentication: 
+    :param string: 
+    :param array: 
 
     :rtype: Subscriber 
 
@@ -243,12 +238,12 @@ addAuthentication
 addAuthentications
 ------------------
 
-.. function:: addAuthentications($authentications)
+.. function:: addAuthentications()
 
 
     Add authentication credentials for hub URLs
 
-    :param array $authentications: 
+    :param array: 
 
     :rtype: Subscriber 
 
@@ -269,12 +264,12 @@ getAuthentications
 usePathParameter
 ----------------
 
-.. function:: usePathParameter([$bool = true])
+.. function:: usePathParameter()
 
 
     Set flag indicating whether or not to use a path parameter
 
-    :param bool $bool: 
+    :param bool: 
 
     :rtype: Subscriber 
 
@@ -283,13 +278,13 @@ usePathParameter
 setParameter
 ------------
 
-.. function:: setParameter($name, [$value = false])
+.. function:: setParameter()
 
 
     Add an optional parameter to the (un)subscribe requests
 
-    :param string $name: 
-    :param string|null $value: 
+    :param string: 
+    :param string|null: 
 
     :rtype: Subscriber 
 
@@ -300,12 +295,12 @@ setParameter
 setParameters
 -------------
 
-.. function:: setParameters($parameters)
+.. function:: setParameters()
 
 
     Add an optional parameter to the (un)subscribe requests
 
-    :param array $parameters: 
+    :param array: 
 
     :rtype: Subscriber 
 
@@ -314,12 +309,12 @@ setParameters
 removeParameter
 ---------------
 
-.. function:: removeParameter($name)
+.. function:: removeParameter()
 
 
     Remove an optional parameter for the (un)subscribe requests
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Subscriber 
 
@@ -342,13 +337,13 @@ getParameters
 setStorage
 ----------
 
-.. function:: setStorage($storage)
+.. function:: setStorage()
 
 
     Sets an instance of Zend\Feed\Pubsubhubbub\Model\SubscriptionPersistence used to background
     save any verification tokens associated with a subscription or other.
 
-    :param Model\SubscriptionPersistenceInterface $storage: 
+    :param Model\SubscriptionPersistenceInterface: 
 
     :rtype: Subscriber 
 
@@ -441,12 +436,12 @@ getAsyncHubs
 _doRequest
 ----------
 
-.. function:: _doRequest($mode)
+.. function:: _doRequest()
 
 
     Executes an (un)subscribe request
 
-    :param string $mode: 
+    :param string: 
 
     :rtype: void 
 
@@ -469,14 +464,14 @@ _getHttpClient
 _getRequestParameters
 ---------------------
 
-.. function:: _getRequestParameters($hubUrl, $mode)
+.. function:: _getRequestParameters()
 
 
     Return a list of standard protocol/optional parameters for addition to
     client's POST body that are specific to the current Hub Server URL
 
-    :param string $hubUrl: 
-    :param string $mode: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
 
@@ -501,14 +496,14 @@ _generateVerifyToken
 _generateSubscriptionKey
 ------------------------
 
-.. function:: _generateSubscriptionKey($params, $hubUrl)
+.. function:: _generateSubscriptionKey()
 
 
     Simple helper to generate a verification token used in (un)subscribe
     requests to a Hub Server.
 
-    :param array $params: 
-    :param string $hubUrl: The Hub Server URL for which this token will apply
+    :param array: 
+    :param string: The Hub Server URL for which this token will apply
 
     :rtype: string 
 
@@ -517,12 +512,12 @@ _generateSubscriptionKey
 _urlEncode
 ----------
 
-.. function:: _urlEncode($params)
+.. function:: _urlEncode()
 
 
     URL Encode an array of parameters
 
-    :param array $params: 
+    :param array: 
 
     :rtype: array 
 
@@ -531,12 +526,12 @@ _urlEncode
 _toByteValueOrderedString
 -------------------------
 
-.. function:: _toByteValueOrderedString($params)
+.. function:: _toByteValueOrderedString()
 
 
     Order outgoing parameters
 
-    :param array $params: 
+    :param array: 
 
     :rtype: array 
 
@@ -545,12 +540,10 @@ _toByteValueOrderedString
 setTestStaticToken
 ------------------
 
-.. function:: setTestStaticToken($token)
+.. function:: setTestStaticToken()
 
 
     This is STRICTLY for testing purposes only...
-
-
 
 
 

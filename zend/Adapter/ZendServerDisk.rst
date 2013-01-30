@@ -1,26 +1,21 @@
-.. /Cache/Storage/Adapter/ZendServerDisk.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/ZendServerDisk.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\ZendServerDisk
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|array|\Traversable|AdapterOptions $options: 
+    :param null|array|\Traversable|AdapterOptions: 
 
     :throws Exception\ExtensionNotLoadedException: 
 
@@ -41,12 +36,12 @@ flush
 clearByNamespace
 ----------------
 
-.. function:: clearByNamespace($namespace)
+.. function:: clearByNamespace()
 
 
     Remove items of given namespace
 
-    :param string $namespace: 
+    :param string: 
 
     :rtype: bool 
 
@@ -81,14 +76,14 @@ getAvailableSpace
 zdcStore
 --------
 
-.. function:: zdcStore($internalKey, $value, $ttl)
+.. function:: zdcStore()
 
 
     Store data into Zend Data Disk Cache
 
-    :param string $internalKey: 
-    :param mixed $value: 
-    :param int $ttl: 
+    :param string: 
+    :param mixed: 
+    :param int: 
 
     :rtype: void 
 
@@ -99,12 +94,12 @@ zdcStore
 zdcFetch
 --------
 
-.. function:: zdcFetch($internalKey)
+.. function:: zdcFetch()
 
 
     Fetch a single item from Zend Data Disk Cache
 
-    :param string $internalKey: 
+    :param string: 
 
     :rtype: mixed The stored value or FALSE if item wasn't found
 
@@ -115,12 +110,12 @@ zdcFetch
 zdcFetchMulti
 -------------
 
-.. function:: zdcFetchMulti($internalKeys)
+.. function:: zdcFetchMulti()
 
 
     Fetch multiple items from Zend Data Disk Cache
 
-    :param array $internalKeys: 
+    :param array: 
 
     :rtype: array All found items
 
@@ -131,18 +126,16 @@ zdcFetchMulti
 zdcDelete
 ---------
 
-.. function:: zdcDelete($internalKey)
+.. function:: zdcDelete()
 
 
     Delete data from Zend Data Disk Cache
 
-    :param string $internalKey: 
+    :param string: 
 
     :rtype: bool 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

@@ -1,45 +1,42 @@
-.. /Di/Definition/CompilerDefinition.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/CompilerDefinition.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\CompilerDefinition
-****************************************
-
+========================================
 
 Class definitions based on a set of directories to be scanned
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$introspectionStrategy = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|IntrospectionStrategy $introspectionStrategy: 
+    :param null|IntrospectionStrategy: 
 
 
 
 setIntrospectionStrategy
 ------------------------
 
-.. function:: setIntrospectionStrategy($introspectionStrategy)
+.. function:: setIntrospectionStrategy()
 
 
     Set introspection strategy
 
-    :param IntrospectionStrategy $introspectionStrategy: 
+    :param IntrospectionStrategy: 
 
 
 
 setAllowReflectionExceptions
 ----------------------------
 
-.. function:: setAllowReflectionExceptions([$allowReflectionExceptions = true])
+.. function:: setAllowReflectionExceptions()
 
 
     @param bool $allowReflectionExceptions
@@ -61,36 +58,36 @@ getIntrospectionStrategy
 addDirectory
 ------------
 
-.. function:: addDirectory($directory)
+.. function:: addDirectory()
 
 
     Add directory
 
-    :param string $directory: 
+    :param string: 
 
 
 
 addDirectoryScanner
 -------------------
 
-.. function:: addDirectoryScanner($directoryScanner)
+.. function:: addDirectoryScanner()
 
 
     Add directory scanner
 
-    :param DirectoryScanner $directoryScanner: 
+    :param DirectoryScanner: 
 
 
 
 addCodeScannerFile
 ------------------
 
-.. function:: addCodeScannerFile($fileScanner)
+.. function:: addCodeScannerFile()
 
 
     Add code scanner file
 
-    :param FileScanner $fileScanner: 
+    :param FileScanner: 
 
 
 
@@ -119,7 +116,7 @@ toArrayDefinition
 processClass
 ------------
 
-.. function:: processClass($class)
+.. function:: processClass()
 
 
     @param  string               $class
@@ -130,13 +127,13 @@ processClass
 processParams
 -------------
 
-.. function:: processParams($def, $rClass, $rMethod)
+.. function:: processParams()
 
 
     @param array                                  $def
 
-    :param \Zend\Code\Reflection\ClassReflection $rClass: 
-    :param \Zend\Code\Reflection\MethodReflection $rMethod: 
+    :param \Zend\Code\Reflection\ClassReflection: 
+    :param \Zend\Code\Reflection\MethodReflection: 
 
 
 
@@ -153,7 +150,7 @@ getClasses
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
     {@inheritDoc}
@@ -163,7 +160,7 @@ hasClass
 getClassSupertypes
 ------------------
 
-.. function:: getClassSupertypes($class)
+.. function:: getClassSupertypes()
 
 
     {@inheritDoc}
@@ -173,7 +170,7 @@ getClassSupertypes
 getInstantiator
 ---------------
 
-.. function:: getInstantiator($class)
+.. function:: getInstantiator()
 
 
     {@inheritDoc}
@@ -183,7 +180,7 @@ getInstantiator
 hasMethods
 ----------
 
-.. function:: hasMethods($class)
+.. function:: hasMethods()
 
 
     {@inheritDoc}
@@ -193,7 +190,7 @@ hasMethods
 hasMethod
 ---------
 
-.. function:: hasMethod($class, $method)
+.. function:: hasMethod()
 
 
     {@inheritDoc}
@@ -203,7 +200,7 @@ hasMethod
 getMethods
 ----------
 
-.. function:: getMethods($class)
+.. function:: getMethods()
 
 
     {@inheritDoc}
@@ -213,7 +210,7 @@ getMethods
 hasMethodParameters
 -------------------
 
-.. function:: hasMethodParameters($class, $method)
+.. function:: hasMethodParameters()
 
 
     {@inheritDoc}
@@ -223,12 +220,10 @@ hasMethodParameters
 getMethodParameters
 -------------------
 
-.. function:: getMethodParameters($class, $method)
+.. function:: getMethodParameters()
 
 
     {@inheritDoc}
-
-
 
 
 

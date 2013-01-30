@@ -1,26 +1,23 @@
-.. /Filter/Compress/Zip.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/Zip.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\Zip
-***************************
-
+===========================
 
 Compression adapter for zip
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param null|array|\Traversable $options: (Optional) Options to set
+    :param null|array|\Traversable: (Optional) Options to set
 
     :throws Exception\ExtensionNotLoadedException: if zip extension not loaded
 
@@ -41,12 +38,12 @@ getArchive
 setArchive
 ----------
 
-.. function:: setArchive($archive)
+.. function:: setArchive()
 
 
     Sets the archive to use for de-/compression
 
-    :param string $archive: Archive to use
+    :param string: Archive to use
 
     :rtype: Zip 
 
@@ -67,12 +64,12 @@ getTarget
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Sets the target to use
 
-    :param string $target: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -83,12 +80,12 @@ setTarget
 compress
 --------
 
-.. function:: compress($content)
+.. function:: compress()
 
 
     Compresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string Compressed archive
 
@@ -99,12 +96,12 @@ compress
 decompress
 ----------
 
-.. function:: decompress($content)
+.. function:: decompress()
 
 
     Decompresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -116,12 +113,12 @@ decompress
 errorString
 -----------
 
-.. function:: errorString($error)
+.. function:: errorString()
 
 
     Returns the proper string based on the given error constant
 
-    :param string $error: 
+    :param string: 
 
     :rtype: string 
 
@@ -136,8 +133,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

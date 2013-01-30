@@ -1,16 +1,11 @@
-.. /Form/Element/Radio.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Radio.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Radio
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 getValidator
 ------------
@@ -21,8 +16,6 @@ getValidator
     Get validator
 
     :rtype: \Zend\Validator\ValidatorInterface 
-
-
 
 
 

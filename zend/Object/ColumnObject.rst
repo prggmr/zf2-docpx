@@ -1,40 +1,35 @@
-.. /Db/Metadata/Object/ColumnObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/ColumnObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\ColumnObject
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name, $tableName, [$schemaName = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $name: 
-    :param string $tableName: 
-    :param string $schemaName: 
+    :param string: 
+    :param string: 
+    :param string: 
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set name
 
-    :param string $name: 
+    :param string: 
 
 
 
@@ -65,12 +60,12 @@ getTableName
 setTableName
 ------------
 
-.. function:: setTableName($tableName)
+.. function:: setTableName()
 
 
     Set table name
 
-    :param string $tableName: 
+    :param string: 
 
     :rtype: ColumnObject 
 
@@ -79,12 +74,12 @@ setTableName
 setSchemaName
 -------------
 
-.. function:: setSchemaName($schemaName)
+.. function:: setSchemaName()
 
 
     Set schema name
 
-    :param string $schemaName: 
+    :param string: 
 
 
 
@@ -113,7 +108,7 @@ getOrdinalPosition
 setOrdinalPosition
 ------------------
 
-.. function:: setOrdinalPosition($ordinalPosition)
+.. function:: setOrdinalPosition()
 
 
     @param int $ordinalPosition to set
@@ -135,7 +130,7 @@ getColumnDefault
 setColumnDefault
 ----------------
 
-.. function:: setColumnDefault($columnDefault)
+.. function:: setColumnDefault()
 
 
     @param mixed $columnDefault to set
@@ -157,7 +152,7 @@ getIsNullable
 setIsNullable
 -------------
 
-.. function:: setIsNullable($isNullable)
+.. function:: setIsNullable()
 
 
     @param bool $isNullable to set
@@ -189,7 +184,7 @@ getDataType
 setDataType
 -----------
 
-.. function:: setDataType($dataType)
+.. function:: setDataType()
 
 
     @param string $dataType the $dataType to set
@@ -211,7 +206,7 @@ getCharacterMaximumLength
 setCharacterMaximumLength
 -------------------------
 
-.. function:: setCharacterMaximumLength($characterMaximumLength)
+.. function:: setCharacterMaximumLength()
 
 
     @param int $characterMaximumLength the $characterMaximumLength to set
@@ -233,7 +228,7 @@ getCharacterOctetLength
 setCharacterOctetLength
 -----------------------
 
-.. function:: setCharacterOctetLength($characterOctetLength)
+.. function:: setCharacterOctetLength()
 
 
     @param int $characterOctetLength the $characterOctetLength to set
@@ -255,7 +250,7 @@ getNumericPrecision
 setNumericPrecision
 -------------------
 
-.. function:: setNumericPrecision($numericPrecision)
+.. function:: setNumericPrecision()
 
 
     @param int $numericPrecision the $numericPrevision to set
@@ -277,7 +272,7 @@ getNumericScale
 setNumericScale
 ---------------
 
-.. function:: setNumericScale($numericScale)
+.. function:: setNumericScale()
 
 
     @param int $numericScale the $numericScale to set
@@ -299,7 +294,7 @@ getNumericUnsigned
 setNumericUnsigned
 ------------------
 
-.. function:: setNumericUnsigned($numericUnsigned)
+.. function:: setNumericUnsigned()
 
 
     @param  bool $numericUnsigned
@@ -331,7 +326,7 @@ getErratas
 setErratas
 ----------
 
-.. function:: setErratas($erratas)
+.. function:: setErratas()
 
 
     @param array $erratas
@@ -343,7 +338,7 @@ setErratas
 getErrata
 ---------
 
-.. function:: getErrata($errataName)
+.. function:: getErrata()
 
 
     @param string $errataName
@@ -355,16 +350,14 @@ getErrata
 setErrata
 ---------
 
-.. function:: setErrata($errataName, $errataValue)
+.. function:: setErrata()
 
 
     @param string $errataName
 
-    :param mixed $errataValue: 
+    :param mixed: 
 
     :rtype: ColumnObject 
-
-
 
 
 

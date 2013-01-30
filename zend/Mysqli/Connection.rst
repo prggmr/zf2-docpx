@@ -1,26 +1,21 @@
-.. /Db/Adapter/Driver/Mysqli/Connection.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Mysqli/Connection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Mysqli\\Connection
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$connectionInfo = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|mysqli|null $connectionInfo: 
+    :param array|mysqli|null: 
 
     :throws \Zend\Db\Adapter\Exception\InvalidArgumentException: 
 
@@ -29,7 +24,7 @@ __construct
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     @param Mysqli $driver
@@ -38,15 +33,37 @@ setDriver
 
 
 
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Connection 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
+
+
+
 setConnectionParameters
 -----------------------
 
-.. function:: setConnectionParameters($connectionParameters)
+.. function:: setConnectionParameters()
 
 
     Set connection parameters
 
-    :param array $connectionParameters: 
+    :param array: 
 
     :rtype: Connection 
 
@@ -79,12 +96,12 @@ getCurrentSchema
 setResource
 -----------
 
-.. function:: setResource($resource)
+.. function:: setResource()
 
 
     Set resource
 
-    :param mysqli $resource: 
+    :param mysqli: 
 
     :rtype: Connection 
 
@@ -186,12 +203,12 @@ rollback
 execute
 -------
 
-.. function:: execute($sql)
+.. function:: execute()
 
 
     Execute
 
-    :param string $sql: 
+    :param string: 
 
     :throws Exception\InvalidQueryException: 
 
@@ -202,16 +219,14 @@ execute
 getLastGeneratedValue
 ---------------------
 
-.. function:: getLastGeneratedValue([$name = false])
+.. function:: getLastGeneratedValue()
 
 
     Get last generated id
 
-    :param null $name: Ignored
+    :param null: Ignored
 
     :rtype: integer 
-
-
 
 
 

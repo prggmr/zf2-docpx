@@ -1,38 +1,33 @@
-.. /Filter/Word/AbstractSeparator.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Word/AbstractSeparator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Word\\AbstractSeparator
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$separator = " "])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $separator: Space by default
+    :param string: Space by default
 
 
 
 setSeparator
 ------------
 
-.. function:: setSeparator($separator)
+.. function:: setSeparator()
 
 
     Sets a new separator
 
-    :param string $separator: Separator
+    :param string: Separator
 
     :rtype: AbstractSeparator 
 
@@ -49,8 +44,6 @@ getSeparator
     Returns the actual set separator
 
     :rtype: string 
-
-
 
 
 

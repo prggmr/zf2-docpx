@@ -1,16 +1,13 @@
-.. /Form/Element/Select.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Select.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Select
-***************************
+===========================
 
-
-@category   Zend
-
-
+@copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-=======
++++++++
 
 getValueOptions
 ---------------
@@ -25,7 +22,7 @@ getValueOptions
 setValueOptions
 ---------------
 
-.. function:: setValueOptions($options)
+.. function:: setValueOptions()
 
 
     @param  array $options
@@ -37,7 +34,7 @@ setValueOptions
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options for an element. Accepted options are:
@@ -46,7 +43,7 @@ setOptions
     - value_options: list of values and labels for the select options
     _ empty_option: should an empty option be prepended to the options ?
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Select|ElementInterface 
 
@@ -57,13 +54,13 @@ setOptions
 setAttribute
 ------------
 
-.. function:: setAttribute($key, $value)
+.. function:: setAttribute()
 
 
     Set a single element attribute
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Select|ElementInterface 
 
@@ -72,12 +69,12 @@ setAttribute
 setEmptyOption
 --------------
 
-.. function:: setEmptyOption($emptyOption)
+.. function:: setEmptyOption()
 
 
     Set the string for an empty option (can be empty string). If set to null, no option will be added
 
-    :param string|null $emptyOption: 
+    :param string|null: 
 
     :rtype: Select 
 
@@ -136,9 +133,7 @@ getValueOptionsValues
 getOptionValue
 --------------
 
-.. function:: getOptionValue($key, $optionSpec)
-
-
+.. function:: getOptionValue()
 
 
 

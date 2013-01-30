@@ -1,26 +1,23 @@
-.. /Filter/Inflector.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Inflector.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Inflector
-***********************
-
+=======================
 
 Filter chain for string inflection
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string|array|Traversable $options: Options to set
+    :param string|array|Traversable: Options to set
 
 
 
@@ -39,12 +36,12 @@ getPluginManager
 setPluginManager
 ----------------
 
-.. function:: setPluginManager($manager)
+.. function:: setPluginManager()
 
 
     Set plugin manager
 
-    :param FilterPluginManager $manager: 
+    :param FilterPluginManager: 
 
     :rtype: Inflector 
 
@@ -53,12 +50,12 @@ setPluginManager
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :rtype: Inflector 
 
@@ -67,13 +64,13 @@ setOptions
 setThrowTargetExceptionsOn
 --------------------------
 
-.. function:: setThrowTargetExceptionsOn($throwTargetExceptionsOn)
+.. function:: setThrowTargetExceptionsOn()
 
 
     Set Whether or not the inflector should throw an exception when a replacement
     identifier is still found within an inflected target.
 
-    :param bool $throwTargetExceptionsOn: 
+    :param bool: 
 
     :rtype: Inflector 
 
@@ -94,12 +91,12 @@ isThrowTargetExceptionsOn
 setTargetReplacementIdentifier
 ------------------------------
 
-.. function:: setTargetReplacementIdentifier($targetReplacementIdentifier)
+.. function:: setTargetReplacementIdentifier()
 
 
     Set the Target Replacement Identifier, by default ':'
 
-    :param string $targetReplacementIdentifier: 
+    :param string: 
 
     :rtype: Inflector 
 
@@ -120,7 +117,7 @@ getTargetReplacementIdentifier
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Set a Target
@@ -147,12 +144,12 @@ getTarget
 setTargetReference
 ------------------
 
-.. function:: setTargetReference($target)
+.. function:: setTargetReference()
 
 
     Set Target Reference
 
-    :param reference $target: 
+    :param reference: 
 
     :rtype: Inflector 
 
@@ -161,13 +158,13 @@ setTargetReference
 setRules
 --------
 
-.. function:: setRules($rules)
+.. function:: setRules()
 
 
     SetRules() is the same as calling addRules() with the exception that it
     clears the rules before adding them.
 
-    :param array $rules: 
+    :param array: 
 
     :rtype: Inflector 
 
@@ -176,7 +173,7 @@ setRules
 addRules
 --------
 
-.. function:: addRules($rules)
+.. function:: addRules()
 
 
     AddRules(): multi-call to setting filter rules.
@@ -200,7 +197,7 @@ addRules
 getRules
 --------
 
-.. function:: getRules([$spec = false])
+.. function:: getRules()
 
 
     Get rules
@@ -208,7 +205,7 @@ getRules
     By default, returns all rules. If a $spec is provided, will return those
     rules if found, false otherwise.
 
-    :param string $spec: 
+    :param string: 
 
     :rtype: array|false 
 
@@ -217,13 +214,13 @@ getRules
 getRule
 -------
 
-.. function:: getRule($spec, $index)
+.. function:: getRule()
 
 
     getRule() returns a rule set by setFilterRule(), a numeric index must be provided
 
-    :param string $spec: 
-    :param int $index: 
+    :param string: 
+    :param int: 
 
     :rtype: FilterInterface|false 
 
@@ -244,14 +241,14 @@ clearRules
 setFilterRule
 -------------
 
-.. function:: setFilterRule($spec, $ruleSet)
+.. function:: setFilterRule()
 
 
     Set a filtering rule for a spec.  $ruleSet can be a string, Filter object
     or an array of strings or filter objects.
 
-    :param string $spec: 
-    :param array|string|\Zend\Filter\FilterInterface $ruleSet: 
+    :param string: 
+    :param array|string|\Zend\Filter\FilterInterface: 
 
     :rtype: Inflector 
 
@@ -260,13 +257,13 @@ setFilterRule
 addFilterRule
 -------------
 
-.. function:: addFilterRule($spec, $ruleSet)
+.. function:: addFilterRule()
 
 
     Add a filter rule for a spec
 
-    :param mixed $spec: 
-    :param mixed $ruleSet: 
+    :param mixed: 
+    :param mixed: 
 
     :rtype: Inflector 
 
@@ -275,13 +272,13 @@ addFilterRule
 setStaticRule
 -------------
 
-.. function:: setStaticRule($name, $value)
+.. function:: setStaticRule()
 
 
     Set a static rule for a spec.  This is a single string value
 
-    :param string $name: 
-    :param string $value: 
+    :param string: 
+    :param string: 
 
     :rtype: Inflector 
 
@@ -290,7 +287,7 @@ setStaticRule
 setStaticRuleReference
 ----------------------
 
-.. function:: setStaticRuleReference($name, $reference)
+.. function:: setStaticRuleReference()
 
 
     Set Static Rule Reference.
@@ -299,8 +296,8 @@ setStaticRuleReference
     in to be referenced when its time to build the output string from the
     target.
 
-    :param string $name: 
-    :param mixed $reference: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Inflector 
 
@@ -309,12 +306,12 @@ setStaticRuleReference
 filter
 ------
 
-.. function:: filter($source)
+.. function:: filter()
 
 
     Inflect
 
-    :param string|array $source: 
+    :param string|array: 
 
     :throws Exception\RuntimeException: 
 
@@ -325,12 +322,12 @@ filter
 _normalizeSpec
 --------------
 
-.. function:: _normalizeSpec($spec)
+.. function:: _normalizeSpec()
 
 
     Normalize spec string
 
-    :param string $spec: 
+    :param string: 
 
     :rtype: string 
 
@@ -339,16 +336,14 @@ _normalizeSpec
 _getRule
 --------
 
-.. function:: _getRule($rule)
+.. function:: _getRule()
 
 
     Resolve named filters and convert them to filter objects.
 
-    :param string $rule: 
+    :param string: 
 
     :rtype: FilterInterface 
-
-
 
 
 

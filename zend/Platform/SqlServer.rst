@@ -1,16 +1,11 @@
-.. /Db/Adapter/Platform/SqlServer.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Platform/SqlServer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Platform\\SqlServer
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -39,12 +34,12 @@ getQuoteIdentifierSymbol
 quoteIdentifier
 ---------------
 
-.. function:: quoteIdentifier($identifier)
+.. function:: quoteIdentifier()
 
 
     Quote identifier
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: string 
 
@@ -53,12 +48,12 @@ quoteIdentifier
 quoteIdentifierChain
 --------------------
 
-.. function:: quoteIdentifierChain($identifierChain)
+.. function:: quoteIdentifierChain()
 
 
     Quote identifier chain
 
-    :param string|string[] $identifierChain: 
+    :param string|string[]: 
 
     :rtype: string 
 
@@ -79,12 +74,12 @@ getQuoteValueSymbol
 quoteValue
 ----------
 
-.. function:: quoteValue($value)
+.. function:: quoteValue()
 
 
     Quote value
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
 
@@ -93,12 +88,12 @@ quoteValue
 quoteValueList
 --------------
 
-.. function:: quoteValueList($valueList)
+.. function:: quoteValueList()
 
 
     Quote value list
 
-    :param string|string[] $valueList: 
+    :param string|string[]: 
 
     :rtype: string 
 
@@ -119,17 +114,15 @@ getIdentifierSeparator
 quoteIdentifierInFragment
 -------------------------
 
-.. function:: quoteIdentifierInFragment($identifier, [$safeWords = false])
+.. function:: quoteIdentifierInFragment()
 
 
     Quote identifier in fragment
 
-    :param string $identifier: 
-    :param array $safeWords: 
+    :param string: 
+    :param array: 
 
     :rtype: string 
-
-
 
 
 

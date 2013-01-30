@@ -1,26 +1,21 @@
-.. /Form/View/Helper/Captcha/AbstractWord.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/Captcha/AbstractWord.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\Captcha\\AbstractWord
-***********************************************
-
-
-@category   Zend
-
-
+===============================================
 
 Methods
-=======
++++++++
 
 setCaptchaPosition
 ------------------
 
-.. function:: setCaptchaPosition($captchaPosition)
+.. function:: setCaptchaPosition()
 
 
     Set value for captchaPosition
 
-    :param mixed $captchaPosition: 
+    :param mixed: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -43,12 +38,12 @@ getCaptchaPosition
 setSeparator
 ------------
 
-.. function:: setSeparator($separator)
+.. function:: setSeparator()
 
 
     Set separator string for captcha and inputs
 
-    :param string $separator: 
+    :param string: 
 
     :rtype: AbstractWord 
 
@@ -69,7 +64,7 @@ getSeparator
 renderCaptchaInputs
 -------------------
 
-.. function:: renderCaptchaInputs($element)
+.. function:: renderCaptchaInputs()
 
 
     Render captcha form elements for the given element
@@ -80,7 +75,7 @@ renderCaptchaInputs
     
     More specific renderers will consume this and render it.
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
@@ -91,14 +86,14 @@ renderCaptchaInputs
 __invoke
 --------
 
-.. function:: __invoke([$element = false])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
 
@@ -107,13 +102,13 @@ __invoke
 renderCaptchaHidden
 -------------------
 
-.. function:: renderCaptchaHidden($captcha, $attributes)
+.. function:: renderCaptchaHidden()
 
 
     Render the hidden input with the captcha identifier
 
-    :param CaptchaAdapter $captcha: 
-    :param array $attributes: 
+    :param CaptchaAdapter: 
+    :param array: 
 
     :rtype: string 
 
@@ -122,13 +117,13 @@ renderCaptchaHidden
 renderCaptchaInput
 ------------------
 
-.. function:: renderCaptchaInput($captcha, $attributes)
+.. function:: renderCaptchaInput()
 
 
     Render the input for capturing the captcha value from the client
 
-    :param CaptchaAdapter $captcha: 
-    :param array $attributes: 
+    :param CaptchaAdapter: 
+    :param array: 
 
     :rtype: string 
 
@@ -137,11 +132,11 @@ renderCaptchaInput
 
 
 Constants
----------
++++++++++
 
 CAPTCHA_APPEND
-++++++++++++++
+==============
 
 CAPTCHA_PREPEND
-+++++++++++++++
+===============
 

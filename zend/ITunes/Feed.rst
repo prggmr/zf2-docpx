@@ -1,26 +1,33 @@
-.. /Feed/Writer/Extension/ITunes/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/ITunes/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\ITunes\\Feed
-*******************************************
-
-
-@category Zend
+===========================================
 
 
 
 Methods
-=======
++++++++
+
+__construct
+-----------
+
+.. function:: __construct()
+
+
+    Constructor
+
+
 
 setEncoding
 -----------
 
-.. function:: setEncoding($enc)
+.. function:: setEncoding()
 
 
     Set feed encoding
 
-    :param string $enc: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -41,7 +48,7 @@ getEncoding
 setItunesBlock
 --------------
 
-.. function:: setItunesBlock($value)
+.. function:: setItunesBlock()
 
 
     Set a block value of "yes" or "no". You may also set an empty string.
@@ -57,12 +64,12 @@ setItunesBlock
 addItunesAuthors
 ----------------
 
-.. function:: addItunesAuthors($values)
+.. function:: addItunesAuthors()
 
 
     Add feed authors
 
-    :param array $values: 
+    :param array: 
 
     :rtype: Feed 
 
@@ -71,12 +78,12 @@ addItunesAuthors
 addItunesAuthor
 ---------------
 
-.. function:: addItunesAuthor($value)
+.. function:: addItunesAuthor()
 
 
     Add feed author
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -87,12 +94,12 @@ addItunesAuthor
 setItunesCategories
 -------------------
 
-.. function:: setItunesCategories($values)
+.. function:: setItunesCategories()
 
 
     Set feed categories
 
-    :param array $values: 
+    :param array: 
 
     :rtype: Feed 
 
@@ -103,12 +110,12 @@ setItunesCategories
 setItunesImage
 --------------
 
-.. function:: setItunesImage($value)
+.. function:: setItunesImage()
 
 
     Set feed image (icon)
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -119,12 +126,12 @@ setItunesImage
 setItunesDuration
 -----------------
 
-.. function:: setItunesDuration($value)
+.. function:: setItunesDuration()
 
 
     Set feed cumulative duration
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -135,12 +142,12 @@ setItunesDuration
 setItunesExplicit
 -----------------
 
-.. function:: setItunesExplicit($value)
+.. function:: setItunesExplicit()
 
 
     Set "explicit" flag
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: Feed 
 
@@ -151,12 +158,12 @@ setItunesExplicit
 setItunesKeywords
 -----------------
 
-.. function:: setItunesKeywords($value)
+.. function:: setItunesKeywords()
 
 
     Set feed keywords
 
-    :param array $value: 
+    :param array: 
 
     :rtype: Feed 
 
@@ -167,12 +174,12 @@ setItunesKeywords
 setItunesNewFeedUrl
 -------------------
 
-.. function:: setItunesNewFeedUrl($value)
+.. function:: setItunesNewFeedUrl()
 
 
     Set new feed URL
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -183,12 +190,12 @@ setItunesNewFeedUrl
 addItunesOwners
 ---------------
 
-.. function:: addItunesOwners($values)
+.. function:: addItunesOwners()
 
 
     Add feed owners
 
-    :param array $values: 
+    :param array: 
 
     :rtype: Feed 
 
@@ -197,12 +204,12 @@ addItunesOwners
 addItunesOwner
 --------------
 
-.. function:: addItunesOwner($value)
+.. function:: addItunesOwner()
 
 
     Add feed owner
 
-    :param array $value: 
+    :param array: 
 
     :rtype: Feed 
 
@@ -213,12 +220,12 @@ addItunesOwner
 setItunesSubtitle
 -----------------
 
-.. function:: setItunesSubtitle($value)
+.. function:: setItunesSubtitle()
 
 
     Set feed subtitle
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -229,12 +236,12 @@ setItunesSubtitle
 setItunesSummary
 ----------------
 
-.. function:: setItunesSummary($value)
+.. function:: setItunesSummary()
 
 
     Set feed summary
 
-    :param string $value: 
+    :param string: 
 
     :rtype: Feed 
 
@@ -245,19 +252,17 @@ setItunesSummary
 __call
 ------
 
-.. function:: __call($method, $params)
+.. function:: __call()
 
 
     Overloading: proxy to internal setters
 
-    :param string $method: 
-    :param array $params: 
+    :param string: 
+    :param array: 
 
     :rtype: mixed 
 
     :throws: Writer\Exception\BadMethodCallException 
-
-
 
 
 

@@ -1,24 +1,21 @@
-.. /Code/Scanner/CachingFileScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/CachingFileScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\CachingFileScanner
-***************************************
-
-
+=======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($file, [$annotationManager = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  array|null $file
 
-    :param array|null $file: 
-    :param AnnotationManager $annotationManager: 
+    :param AnnotationManager: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -30,9 +27,7 @@ clearCache
 .. function:: clearCache()
 
 
-    Clear cache
-
-    :rtype: void 
+    @return void
 
 
 
@@ -42,9 +37,7 @@ getAnnotationManager
 .. function:: getAnnotationManager()
 
 
-    Get annotation manager
-
-    :rtype: AnnotationManager 
+    @return AnnotationManager
 
 
 
@@ -54,9 +47,7 @@ getFile
 .. function:: getFile()
 
 
-    Get file
-
-    :rtype: array|null|string 
+    @return array|null|string
 
 
 
@@ -66,9 +57,7 @@ getDocComment
 .. function:: getDocComment()
 
 
-    Get doc comment
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -78,21 +67,17 @@ getNamespaces
 .. function:: getNamespaces()
 
 
-    Get namespaces
-
-    :rtype: string[] 
+    @return array
 
 
 
 getUses
 -------
 
-.. function:: getUses([$namespace = false])
+.. function:: getUses()
 
 
-    Get uses
-
-    :param null|string $namespace: 
+    @param  null|string $namespace
 
     :rtype: array|null 
 
@@ -104,7 +89,7 @@ getIncludes
 .. function:: getIncludes()
 
 
-    Get includes
+    @return array
 
 
 
@@ -114,9 +99,7 @@ getClassNames
 .. function:: getClassNames()
 
 
-    Get class names
-
-    :rtype: array 
+    @return array
 
 
 
@@ -126,21 +109,17 @@ getClasses
 .. function:: getClasses()
 
 
-    Get classes
-
-    :rtype: string[] 
+    @return array
 
 
 
 getClass
 --------
 
-.. function:: getClass($className)
+.. function:: getClass()
 
 
-    Get class
-
-    :param int|string $className: 
+    @param  int|string $className
 
     :rtype: ClassScanner 
 
@@ -149,12 +128,10 @@ getClass
 getClassNameInformation
 -----------------------
 
-.. function:: getClassNameInformation($className)
+.. function:: getClassNameInformation()
 
 
-    Get class name information
-
-    :param string $className: 
+    @param  string $className
 
     :rtype: bool|null|NameInformation 
 
@@ -166,9 +143,7 @@ getFunctionNames
 .. function:: getFunctionNames()
 
 
-    Get function names
-
-    :rtype: string[] 
+    @return array
 
 
 
@@ -178,11 +153,7 @@ getFunctions
 .. function:: getFunctions()
 
 
-    Get functions
-
-    :rtype: string[] 
-
-
+    @return array
 
 
 

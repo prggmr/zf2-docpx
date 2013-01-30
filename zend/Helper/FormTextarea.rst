@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormTextarea.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormTextarea.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormTextarea
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a form <textarea> element from the provided $element
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
@@ -31,18 +26,16 @@ render
 __invoke
 --------
 
-.. function:: __invoke([$element = false])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface|null $element: 
+    :param ElementInterface|null: 
 
     :rtype: string|FormTextarea 
-
-
 
 
 

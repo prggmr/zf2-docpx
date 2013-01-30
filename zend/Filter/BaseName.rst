@@ -1,32 +1,25 @@
-.. /Filter/BaseName.php generated using docpx on 01/15/13 05:29pm
+.. Filter/BaseName.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\BaseName
-**********************
-
-
-@category   Zend
-
-
+======================
 
 Methods
-=======
++++++++
 
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Returns basename($value)
 
-    :param string $value: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

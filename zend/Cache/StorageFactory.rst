@@ -1,27 +1,22 @@
-.. /Cache/StorageFactory.php generated using docpx on 01/15/13 05:29pm
+.. Cache/StorageFactory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\StorageFactory
-***************************
-
-
-@category   Zend
-
-
+===========================
 
 Methods
-=======
++++++++
 
 factory
 -------
 
-.. function:: factory($cfg)
+.. function:: factory()
 
 
     The storage factory
     This can instantiate storage adapters and plugins.
 
-    :param array|Traversable $cfg: 
+    :param array|Traversable: 
 
     :rtype: Storage\StorageInterface 
 
@@ -32,13 +27,13 @@ factory
 adapterFactory
 --------------
 
-.. function:: adapterFactory($adapterName, [$options = false])
+.. function:: adapterFactory()
 
 
     Instantiate a storage adapter
 
-    :param string|Storage\StorageInterface $adapterName: 
-    :param array|Traversable|Storage\Adapter\AdapterOptions $options: 
+    :param string|Storage\StorageInterface: 
+    :param array|Traversable|Storage\Adapter\AdapterOptions: 
 
     :rtype: Storage\StorageInterface 
 
@@ -61,12 +56,12 @@ getAdapterPluginManager
 setAdapterPluginManager
 -----------------------
 
-.. function:: setAdapterPluginManager($adapters)
+.. function:: setAdapterPluginManager()
 
 
     Change the adapter plugin manager
 
-    :param Storage\AdapterPluginManager $adapters: 
+    :param Storage\AdapterPluginManager: 
 
     :rtype: void 
 
@@ -87,13 +82,13 @@ resetAdapterPluginManager
 pluginFactory
 -------------
 
-.. function:: pluginFactory($pluginName, [$options = false])
+.. function:: pluginFactory()
 
 
     Instantiate a storage plugin
 
-    :param string|Storage\Plugin\PluginInterface $pluginName: 
-    :param array|Traversable|Storage\Plugin\PluginOptions $options: 
+    :param string|Storage\Plugin\PluginInterface: 
+    :param array|Traversable|Storage\Plugin\PluginOptions: 
 
     :rtype: Storage\Plugin\PluginInterface 
 
@@ -116,12 +111,12 @@ getPluginManager
 setPluginManager
 ----------------
 
-.. function:: setPluginManager($plugins)
+.. function:: setPluginManager()
 
 
     Change the plugin manager
 
-    :param Storage\PluginManager $plugins: 
+    :param Storage\PluginManager: 
 
     :rtype: void 
 
@@ -136,8 +131,6 @@ resetPluginManager
     Resets the internal plugin manager
 
     :rtype: void 
-
-
 
 
 

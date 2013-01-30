@@ -1,28 +1,21 @@
-.. /Filter/Word/SeparatorToDash.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Word/SeparatorToDash.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Word\\SeparatorToDash
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$searchSeparator = " "])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $searchSeparator: Separator to search for change
-
-
+    :param string: Separator to search for change
 
 
 

@@ -1,4 +1,4 @@
-.. /Db/ResultSet/ResultSetInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/ResultSet/ResultSetInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\ResultSet\\initialize
@@ -9,10 +9,6 @@ Zend\\Db\\ResultSet\\initialize
 
     Can be anything traversable|array
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :param $dataSource: 
 
@@ -30,10 +26,6 @@ Zend\\Db\\ResultSet\\getFieldCount
     from the database might be a column, and/or the result of an
     operation or intersection of some data
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :rtype: mixed 
 

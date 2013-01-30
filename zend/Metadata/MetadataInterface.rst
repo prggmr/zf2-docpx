@@ -1,23 +1,10 @@
-.. /Db/Metadata/MetadataInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/MetadataInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\getSchemas
 ==============================
 
 .. function:: Zend\Db\Metadata\getSchemas()
-
-
-    @category   Zend
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
 
 

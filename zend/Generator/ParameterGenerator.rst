@@ -1,26 +1,36 @@
-.. /Code/Generator/ParameterGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/ParameterGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\ParameterGenerator
-*****************************************
-
-
-@category   Zend
+=========================================
 
 
 
 Methods
-=======
++++++++
 
 fromReflection
 --------------
 
-.. function:: fromReflection($reflectionParameter)
+.. function:: fromReflection()
 
 
-    fromReflection()
+    @param  ParameterReflection $reflectionParameter
 
-    :param ParameterReflection $reflectionParameter: 
+    :rtype: ParameterGenerator 
+
+
+
+fromArray
+---------
+
+.. function:: fromArray()
+
+
+    Generate from array
+
+
+    :param array: 
 
     :rtype: ParameterGenerator 
 
@@ -29,19 +39,25 @@ fromReflection
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$type = false, [$defaultValue = false, [$position = false, [$passByReference = false]]]]])
+.. function:: __construct()
+
+
+    @param  string $name
+
+    :param string: 
+    :param mixed: 
+    :param int: 
+    :param bool: 
 
 
 
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
-    setType()
-
-    :param string $type: 
+    @param  string $type
 
     :rtype: ParameterGenerator 
 
@@ -53,21 +69,17 @@ getType
 .. function:: getType()
 
 
-    getType()
-
-    :rtype: string 
+    @return string
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
-    setName()
-
-    :param string $name: 
+    @param  string $name
 
     :rtype: ParameterGenerator 
 
@@ -79,23 +91,21 @@ getName
 .. function:: getName()
 
 
-    getName()
-
-    :rtype: string 
+    @return string
 
 
 
 setDefaultValue
 ---------------
 
-.. function:: setDefaultValue($defaultValue)
+.. function:: setDefaultValue()
 
 
     Set the default value of the parameter.
     
     Certain variables are difficult to express
 
-    :param null|bool|string|int|float|array|ValueGenerator $defaultValue: 
+    :param null|bool|string|int|float|array|ValueGenerator: 
 
     :rtype: ParameterGenerator 
 
@@ -107,21 +117,17 @@ getDefaultValue
 .. function:: getDefaultValue()
 
 
-    getDefaultValue()
-
-    :rtype: string 
+    @return string
 
 
 
 setPosition
 -----------
 
-.. function:: setPosition($position)
+.. function:: setPosition()
 
 
-    setPosition()
-
-    :param int $position: 
+    @param  int $position
 
     :rtype: ParameterGenerator 
 
@@ -133,9 +139,7 @@ getPosition
 .. function:: getPosition()
 
 
-    getPosition()
-
-    :rtype: int 
+    @return int
 
 
 
@@ -152,10 +156,10 @@ getPassedByReference
 setPassedByReference
 --------------------
 
-.. function:: setPassedByReference($passedByReference)
+.. function:: setPassedByReference()
 
 
-    @param bool $passedByReference
+    @param  bool $passedByReference
 
     :rtype: ParameterGenerator 
 
@@ -167,11 +171,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
-    :rtype: string 
-
-
+    @return string
 
 
 

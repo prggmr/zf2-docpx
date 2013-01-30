@@ -1,26 +1,23 @@
-.. /Feed/Writer/Renderer/AbstractRenderer.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/AbstractRenderer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\AbstractRenderer
-**********************************************
-
-
-@category Zend
+==============================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\AbstractFeed $container: 
+    :param Writer\AbstractFeed: 
 
 
 
@@ -75,12 +72,12 @@ getDataContainer
 setEncoding
 -----------
 
-.. function:: setEncoding($enc)
+.. function:: setEncoding()
 
 
     Set feed encoding
 
-    :param string $enc: 
+    :param string: 
 
     :rtype: AbstractRenderer 
 
@@ -101,12 +98,12 @@ getEncoding
 ignoreExceptions
 ----------------
 
-.. function:: ignoreExceptions([$bool = true])
+.. function:: ignoreExceptions()
 
 
     Indicate whether or not to ignore exceptions
 
-    :param bool $bool: 
+    :param bool: 
 
     :rtype: AbstractRenderer 
 
@@ -129,14 +126,14 @@ getExceptions
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the current feed type being exported to "rss" or "atom". This allows
     other objects to gracefully choose whether to execute or not, depending
     on their appropriateness for the current type, e.g. renderers.
 
-    :param string $type: 
+    :param string: 
 
 
 
@@ -155,7 +152,7 @@ getType
 setRootElement
 --------------
 
-.. function:: setRootElement($root)
+.. function:: setRootElement()
 
 
     Sets the absolute root element for the XML feed being generated. This
@@ -163,7 +160,7 @@ setRootElement
     namespaces are added to the root element - not scattered across the entire
     XML file - may assist namespace unsafe parsers and looks pretty ;).
 
-    :param DOMElement $root: 
+    :param DOMElement: 
 
 
 
@@ -188,8 +185,6 @@ _loadExtensions
     Load extensions from Zend_Feed_Writer
 
     :rtype: void 
-
-
 
 
 

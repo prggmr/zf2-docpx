@@ -1,26 +1,23 @@
-.. /Crypt/PublicKey/RsaOptions.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/PublicKey/RsaOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\PublicKey\\RsaOptions
-**********************************
-
+==================================
 
 RSA instance options
 
-
-
 Methods
-=======
++++++++
 
 setPrivateKey
 -------------
 
-.. function:: setPrivateKey($key)
+.. function:: setPrivateKey()
 
 
     Set private key
 
-    :param Rsa\PrivateKey $key: 
+    :param Rsa\PrivateKey: 
 
     :rtype: RsaOptions 
 
@@ -41,12 +38,12 @@ getPrivateKey
 setPublicKey
 ------------
 
-.. function:: setPublicKey($key)
+.. function:: setPublicKey()
 
 
     Set public key
 
-    :param Rsa\PublicKey $key: 
+    :param Rsa\PublicKey: 
 
     :rtype: RsaOptions 
 
@@ -67,12 +64,12 @@ getPublicKey
 setPassPhrase
 -------------
 
-.. function:: setPassPhrase($phrase)
+.. function:: setPassPhrase()
 
 
     Set pass phrase
 
-    :param string $phrase: 
+    :param string: 
 
     :rtype: RsaOptions 
 
@@ -93,12 +90,12 @@ getPassPhrase
 setHashAlgorithm
 ----------------
 
-.. function:: setHashAlgorithm($hash)
+.. function:: setHashAlgorithm()
 
 
     Set hash algorithm
 
-    :param string $hash: 
+    :param string: 
 
     :rtype: RsaOptions 
 
@@ -129,12 +126,12 @@ getOpensslSignatureAlgorithm
 setBinaryOutput
 ---------------
 
-.. function:: setBinaryOutput($value)
+.. function:: setBinaryOutput()
 
 
     Enable/disable the binary output
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: RsaOptions 
 
@@ -155,18 +152,16 @@ getBinaryOutput
 generateKeys
 ------------
 
-.. function:: generateKeys([$opensslConfig = false])
+.. function:: generateKeys()
 
 
     Generate new private/public key pair
 
-    :param array $opensslConfig: 
+    :param array: 
 
     :rtype: RsaOptions 
 
     :throws: Rsa\Exception\RuntimeException 
-
-
 
 
 

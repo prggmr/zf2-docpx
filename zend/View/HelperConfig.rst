@@ -1,33 +1,36 @@
-.. /Form/View/HelperConfig.php generated using docpx on 01/15/13 05:29pm
+.. Navigation/View/HelperConfig.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Form\\View\\HelperConfig
-******************************
+Zend\\Navigation\\View\\HelperConfig
+====================================
 
-
-Service manager configuration for form view helpers
-
-
+Service manager configuration for navigation view helpers
 
 Methods
-=======
++++++++
 
 configureServiceManager
 -----------------------
 
-.. function:: configureServiceManager($serviceManager)
+.. function:: configureServiceManager()
 
 
     Configure the provided service manager instance with the configuration
     in this class.
     
-    Adds the invokables defined in this class to the SM managing helpers.
+    Simply adds a factory for the navigation helper, and has it inject the helper
+    with the service locator instance.
 
-    :param ServiceManager $serviceManager: 
+    :param ServiceManager: 
 
     :rtype: void 
 
 
+
+HelperPluginManager
+-------------------
+
+.. function:: HelperPluginManager()
 
 
 

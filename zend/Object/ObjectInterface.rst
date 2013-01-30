@@ -1,4 +1,4 @@
-.. /Barcode/Object/ObjectInterface.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/ObjectInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\__construct
@@ -9,7 +9,7 @@ Zend\\Barcode\\Object\\__construct
 
     Constructor
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
 
 
@@ -21,7 +21,7 @@ Zend\\Barcode\\Object\\setOptions
 
     Set barcode state from options array
 
-    :param array $options: 
+    :param array: 
 
     :rtype: ObjectInterface 
 
@@ -35,7 +35,7 @@ Zend\\Barcode\\Object\\setBarcodeNamespace
 
     Set barcode namespace for autoloading
 
-    :param string $namespace: 
+    :param string: 
 
     :rtype: ObjectInterface 
 
@@ -73,7 +73,7 @@ Zend\\Barcode\\Object\\setBarHeight
 
     Set height of the barcode bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: ObjectInterface 
 
@@ -99,7 +99,7 @@ Zend\\Barcode\\Object\\setBarThinWidth
 
     Set thickness of thin bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: ObjectInterface 
 
@@ -125,7 +125,7 @@ Zend\\Barcode\\Object\\setBarThickWidth
 
     Set thickness of thick bar
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: ObjectInterface 
 
@@ -152,7 +152,7 @@ Zend\\Barcode\\Object\\setFactor
     Set factor applying to
     thinBarWidth - thickBarWidth - barHeight - fontSize
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: ObjectInterface 
 
@@ -179,7 +179,7 @@ Zend\\Barcode\\Object\\setForeColor
 
     Set color of the barcode and text
 
-    :param string $value: 
+    :param string: 
 
     :rtype: ObjectInterface 
 
@@ -205,7 +205,7 @@ Zend\\Barcode\\Object\\setBackgroundColor
 
     Set the color of the background
 
-    :param integer $value: 
+    :param integer: 
 
     :rtype: ObjectInterface 
 
@@ -231,7 +231,7 @@ Zend\\Barcode\\Object\\setWithBorder
 
     Activate/deactivate drawing of the bar
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: ObjectInterface 
 
@@ -269,7 +269,7 @@ Zend\\Barcode\\Object\\setOrientation
 
     Set orientation of barcode and text
 
-    :param float $value: 
+    :param float: 
 
     :rtype: ObjectInterface 
 
@@ -295,7 +295,7 @@ Zend\\Barcode\\Object\\setText
 
     Set text to encode
 
-    :param string $value: 
+    :param string: 
 
     :rtype: ObjectInterface 
 
@@ -345,7 +345,7 @@ Zend\\Barcode\\Object\\setDrawText
 
     Activate/deactivate drawing of text to encode
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: ObjectInterface 
 
@@ -372,7 +372,7 @@ Zend\\Barcode\\Object\\setStretchText
     Activate/deactivate the adjustment of the position
     of the characters to the position of the bars
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: ObjectInterface 
 
@@ -401,7 +401,7 @@ Zend\\Barcode\\Object\\setWithChecksum
     of the checksum character
     added to the barcode text
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: ObjectInterface 
 
@@ -430,7 +430,7 @@ Zend\\Barcode\\Object\\setWithChecksumInText
     of the checksum character
     added to the barcode text
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: ObjectInterface 
 
@@ -459,7 +459,7 @@ Zend\\Barcode\\Object\\setFont
      - if integer between 1 and 5, use gd built-in fonts
      - if string, $value is assumed to be the path to a TTF font
 
-    :param integer|string $value: 
+    :param integer|string: 
 
     :rtype: ObjectInterface 
 
@@ -485,7 +485,7 @@ Zend\\Barcode\\Object\\setFontSize
 
     Set the size of the font in case of TTF
 
-    :param float $value: 
+    :param float: 
 
     :rtype: ObjectInterface 
 
@@ -548,7 +548,7 @@ Zend\\Barcode\\Object\\getHeight
 
     Get height of the result object
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -562,7 +562,7 @@ Zend\\Barcode\\Object\\getWidth
 
     Get width of the result object
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: integer 
 
@@ -577,7 +577,7 @@ Zend\\Barcode\\Object\\getOffsetLeft
     Calculate the offset from the left of the object
     if an orientation is activated
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: float 
 
@@ -592,7 +592,7 @@ Zend\\Barcode\\Object\\getOffsetTop
     Calculate the offset from the top of the object
     if an orientation is activated
 
-    :param bool $recalculate: 
+    :param bool: 
 
     :rtype: float 
 
@@ -618,7 +618,7 @@ Zend\\Barcode\\Object\\validateText
 
     Check for invalid characters
 
-    :param string $value: Text to be checked
+    :param string: Text to be checked
 
     :rtype: void 
 

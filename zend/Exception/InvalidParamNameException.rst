@@ -1,13 +1,6 @@
-.. /Di/Exception/InvalidParamNameException.php generated using docpx on 01/15/13 05:29pm
+.. Di/Exception/InvalidParamNameException.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Exception\\InvalidParamNameException
-**********************************************
-
-
-@category   Zend
-
-
-
-
+==============================================
 

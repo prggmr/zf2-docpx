@@ -1,26 +1,21 @@
-.. /Cache/Pattern/OutputCache.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/OutputCache.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\OutputCache
-*********************************
-
-
-@category   Zend
-
-
+=================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param PatternOptions $options: 
+    :param PatternOptions: 
 
     :rtype: OutputCache 
 
@@ -31,13 +26,13 @@ setOptions
 start
 -----
 
-.. function:: start($key)
+.. function:: start()
 
 
     if there is a cached item with the given key display it's data and return true
     else start buffering output until end() is called or the script ends.
 
-    :param string $key: Key
+    :param string: Key
 
     :throws Exception\MissingKeyException: if key is missing
 
@@ -56,8 +51,6 @@ end
 
 
     :rtype: bool TRUE on success, FALSE on failure writing to cache
-
-
 
 
 

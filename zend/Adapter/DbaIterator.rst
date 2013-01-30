@@ -1,28 +1,23 @@
-.. /Cache/Storage/Adapter/DbaIterator.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/DbaIterator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\DbaIterator
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($storage, $handle, $prefix)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Dba $storage: 
-    :param resource $handle: 
-    :param string $prefix: 
+    :param Dba: 
+    :param resource: 
+    :param string: 
 
 
 
@@ -53,12 +48,12 @@ getMode
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Set iterator mode
 
-    :param int $mode: 
+    :param int: 
 
     :rtype: ApcIterator Fluent interface
 
@@ -129,8 +124,6 @@ rewind
     :rtype: void 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

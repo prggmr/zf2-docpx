@@ -1,4 +1,4 @@
-.. /Db/Adapter/Driver/StatementInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/StatementInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\getResource
@@ -21,7 +21,7 @@ Zend\\Db\\Adapter\\Driver\\prepare
 
     Prepare sql
 
-    :param string $sql: 
+    :param string: 
 
 
 
@@ -45,7 +45,7 @@ Zend\\Db\\Adapter\\Driver\\execute
 
     Execute
 
-    :param null $parameters: 
+    :param null: 
 
     :rtype: ResultInterface 
 

@@ -1,13 +1,6 @@
-.. /Http/Client/Exception/RuntimeException.php generated using docpx on 01/15/13 05:29pm
+.. XmlRpc/Server/Exception/RuntimeException.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Http\\Client\\Exception\\RuntimeException
-***********************************************
-
-
-@category  Zend
-
-
-
-
+Zend\\XmlRpc\\Server\\Exception\\RuntimeException
+=================================================
 

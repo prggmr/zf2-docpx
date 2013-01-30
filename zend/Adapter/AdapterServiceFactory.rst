@@ -1,30 +1,23 @@
-.. /Db/Adapter/AdapterServiceFactory.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/AdapterServiceFactory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\AdapterServiceFactory
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 createService
 -------------
 
-.. function:: createService($serviceLocator)
+.. function:: createService()
 
 
     Create db adapter service
 
-    :param ServiceLocatorInterface $serviceLocator: 
+    :param ServiceLocatorInterface: 
 
     :rtype: Adapter 
-
-
 
 
 

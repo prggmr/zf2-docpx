@@ -1,9 +1,8 @@
-.. /Http/Client/Adapter/Test.php generated using docpx on 01/15/13 05:29pm
+.. Http/Client/Adapter/Test.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\Client\\Adapter\\Test
-*********************************
-
+=================================
 
 A testing-purposes adapter.
 
@@ -12,10 +11,8 @@ without actually performing an HTTP request. You should instantiate this
 object manually, and then set it as the client's adapter. Then, you can
 set the expected response using the setResponse() method.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -30,12 +27,12 @@ __construct
 setNextRequestWillFail
 ----------------------
 
-.. function:: setNextRequestWillFail($flag)
+.. function:: setNextRequestWillFail()
 
 
     Set the nextRequestWillFail flag
 
-    :param bool $flag: 
+    :param bool: 
 
     :rtype: \Zend\Http\Client\Adapter\Test 
 
@@ -44,12 +41,12 @@ setNextRequestWillFail
 setOptions
 ----------
 
-.. function:: setOptions([$options = false])
+.. function:: setOptions()
 
 
     Set the configuration array for the adapter
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -58,15 +55,15 @@ setOptions
 connect
 -------
 
-.. function:: connect($host, [$port = 80, [$secure = false]])
+.. function:: connect()
 
 
     Connect to the remote server
 
-    :param string $host: 
-    :param int $port: 
-    :param bool $secure: 
-    :param int $timeout: 
+    :param string: 
+    :param int: 
+    :param bool: 
+    :param int: 
 
     :throws Exception\RuntimeException: 
 
@@ -75,16 +72,16 @@ connect
 write
 -----
 
-.. function:: write($method, $uri, [$httpVer = "1.1", [$headers = false, [$body = false]]])
+.. function:: write()
 
 
     Send request to the remote server
 
-    :param string $method: 
-    :param \Zend\Uri\Uri $uri: 
-    :param string $httpVer: 
-    :param array $headers: 
-    :param string $body: 
+    :param string: 
+    :param \Zend\Uri\Uri: 
+    :param string: 
+    :param array: 
+    :param string: 
 
     :rtype: string Request as string
 
@@ -115,41 +112,39 @@ close
 setResponse
 -----------
 
-.. function:: setResponse($response)
+.. function:: setResponse()
 
 
     Set the HTTP response(s) to be returned by this adapter
 
-    :param \Zend\Http\Response|array|string $response: 
+    :param \Zend\Http\Response|array|string: 
 
 
 
 addResponse
 -----------
 
-.. function:: addResponse($response)
+.. function:: addResponse()
 
 
     Add another response to the response buffer.
 
-    :param string|Response $response: 
+    :param string|Response: 
 
 
 
 setResponseIndex
 ----------------
 
-.. function:: setResponseIndex($index)
+.. function:: setResponseIndex()
 
 
     Sets the position of the response buffer.  Selects which
     response will be returned on the next call to read().
 
-    :param integer $index: 
+    :param integer: 
 
     :throws Exception\OutOfRangeException: 
-
-
 
 
 

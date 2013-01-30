@@ -1,4 +1,4 @@
-.. /Config/Reader/ReaderInterface.php generated using docpx on 01/15/13 05:29pm
+.. Config/Reader/ReaderInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Reader\\fromFile
@@ -9,7 +9,7 @@ Zend\\Config\\Reader\\fromFile
 
     Read from a file and create an array
 
-    :param string $filename: 
+    :param string: 
 
     :rtype: array 
 
@@ -23,7 +23,7 @@ Zend\\Config\\Reader\\fromString
 
     Read from a string and create an array
 
-    :param string $string: 
+    :param string: 
 
     :rtype: array|bool 
 

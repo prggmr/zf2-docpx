@@ -1,16 +1,11 @@
-.. /Console/Response.php generated using docpx on 01/15/13 05:29pm
+.. Console/Response.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Response
-***********************
-
-
-@category   Zend
-
-
+=======================
 
 Methods
-=======
++++++++
 
 contentSent
 -----------
@@ -18,16 +13,23 @@ contentSent
 .. function:: contentSent()
 
 
+    Check if content was sent
+
+    :rtype: bool 
+
+    :deprecated:  
+
+
 
 setErrorLevel
 -------------
 
-.. function:: setErrorLevel($errorLevel)
+.. function:: setErrorLevel()
 
 
     Set the error level that will be returned to shell.
 
-    :param integer $errorLevel: 
+    :param integer: 
 
     :rtype: Response 
 
@@ -51,6 +53,13 @@ sendContent
 .. function:: sendContent()
 
 
+    Send content
+
+    :rtype: Response 
+
+    :deprecated:  
+
+
 
 send
 ----
@@ -58,6 +67,7 @@ send
 .. function:: send()
 
 
+    @deprecated
 
 
 

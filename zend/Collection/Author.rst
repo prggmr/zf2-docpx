@@ -1,16 +1,11 @@
-.. /Feed/Reader/Collection/Author.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Collection/Author.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Collection\\Author
-**************************************
-
-
-@category Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 getValues
 ---------
@@ -22,8 +17,6 @@ getValues
     the author values, i.e. all author names.
 
     :rtype: array 
-
-
 
 
 

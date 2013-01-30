@@ -1,26 +1,21 @@
-.. /Filter/StaticFilter.php generated using docpx on 01/15/13 05:29pm
+.. Filter/StaticFilter.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\StaticFilter
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 setPluginManager
 ----------------
 
-.. function:: setPluginManager([$manager = false])
+.. function:: setPluginManager()
 
 
     Set plugin manager for resolving filter classes
 
-    :param FilterPluginManager $manager: 
+    :param FilterPluginManager: 
 
     :rtype: void 
 
@@ -41,7 +36,7 @@ getPluginManager
 execute
 -------
 
-.. function:: execute($value, $classBaseName, [$args = false])
+.. function:: execute()
 
 
     Returns a value filtered through a specified filter class, without requiring separate
@@ -53,15 +48,13 @@ execute
     creates an instance, and applies the filter() method to the data input. You can also pass
     an array of constructor arguments, if they are needed for the filter class.
 
-    :param mixed $value: 
-    :param string $classBaseName: 
-    :param array $args: OPTIONAL
+    :param mixed: 
+    :param string: 
+    :param array: OPTIONAL
 
     :rtype: mixed 
 
     :throws: Exception\ExceptionInterface 
-
-
 
 
 

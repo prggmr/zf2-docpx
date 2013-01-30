@@ -1,19 +1,5 @@
-.. /Db/Adapter/Driver/DriverInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/DriverInterface.php generated using docpx on 01/30/13 03:32am
 
-
-PARAMETERIZATION_POSITIONAL
-+++++++++++++++++++++++++++
-
-@category   Zend
-
-PARAMETERIZATION_NAMED
-++++++++++++++++++++++
-
-NAME_FORMAT_CAMELCASE
-+++++++++++++++++++++
-
-NAME_FORMAT_NATURAL
-+++++++++++++++++++
 
 Zend\\Db\\Adapter\\Driver\\getDatabasePlatformName
 ==================================================
@@ -23,7 +9,7 @@ Zend\\Db\\Adapter\\Driver\\getDatabasePlatformName
 
     Get database platform name
 
-    :param string $nameFormat: 
+    :param string: 
 
     :rtype: string 
 
@@ -61,7 +47,7 @@ Zend\\Db\\Adapter\\Driver\\createStatement
 
     Create statement
 
-    :param string|resource $sqlOrResource: 
+    :param string|resource: 
 
     :rtype: StatementInterface 
 
@@ -75,7 +61,7 @@ Zend\\Db\\Adapter\\Driver\\createResult
 
     Create result
 
-    :param resource $resource: 
+    :param resource: 
 
     :rtype: ResultInterface 
 
@@ -101,8 +87,8 @@ Zend\\Db\\Adapter\\Driver\\formatParameterName
 
     Format parameter name
 
-    :param string $name: 
-    :param mixed $type: 
+    :param string: 
+    :param mixed: 
 
     :rtype: string 
 
@@ -119,4 +105,16 @@ Zend\\Db\\Adapter\\Driver\\getLastGeneratedValue
     :rtype: mixed 
 
 
+
+PARAMETERIZATION_POSITIONAL
+===========================
+
+PARAMETERIZATION_NAMED
+======================
+
+NAME_FORMAT_CAMELCASE
+=====================
+
+NAME_FORMAT_NATURAL
+===================
 

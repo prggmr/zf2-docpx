@@ -1,26 +1,21 @@
-.. /Config/Processor/Queue.php generated using docpx on 01/15/13 05:29pm
+.. Config/Processor/Queue.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Processor\\Queue
-******************************
-
-
-@category   Zend
-
-
+==============================
 
 Methods
-=======
++++++++
 
 process
 -------
 
-.. function:: process($config)
+.. function:: process()
 
 
     Process the whole config structure with each parser in the queue.
 
-    :param Config $config: 
+    :param Config: 
 
     :rtype: Config 
 
@@ -31,16 +26,14 @@ process
 processValue
 ------------
 
-.. function:: processValue($value)
+.. function:: processValue()
 
 
     Process a single value
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: mixed 
-
-
 
 
 

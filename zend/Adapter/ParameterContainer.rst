@@ -1,38 +1,33 @@
-.. /Db/Adapter/ParameterContainer.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/ParameterContainer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\ParameterContainer
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$data = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array $data: 
+    :param array: 
 
 
 
 offsetExists
 ------------
 
-.. function:: offsetExists($name)
+.. function:: offsetExists()
 
 
     Offset exists
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -41,12 +36,12 @@ offsetExists
 offsetGet
 ---------
 
-.. function:: offsetGet($name)
+.. function:: offsetGet()
 
 
     Offset get
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -55,7 +50,7 @@ offsetGet
 offsetSetReference
 ------------------
 
-.. function:: offsetSetReference($name, $from)
+.. function:: offsetSetReference()
 
 
     @param $name
@@ -67,26 +62,26 @@ offsetSetReference
 offsetSet
 ---------
 
-.. function:: offsetSet($name, $value, [$errata = false])
+.. function:: offsetSet()
 
 
     Offset set
 
-    :param string|integer $name: 
-    :param mixed $value: 
-    :param mixed $errata: 
+    :param string|integer: 
+    :param mixed: 
+    :param mixed: 
 
 
 
 offsetUnset
 -----------
 
-.. function:: offsetUnset($name)
+.. function:: offsetUnset()
 
 
     Offset unset
 
-    :param string $name: 
+    :param string: 
 
     :rtype: ParameterContainer 
 
@@ -95,12 +90,12 @@ offsetUnset
 setFromArray
 ------------
 
-.. function:: setFromArray($data)
+.. function:: setFromArray()
 
 
     Set from array
 
-    :param array $data: 
+    :param array: 
 
     :rtype: ParameterContainer 
 
@@ -109,25 +104,25 @@ setFromArray
 offsetSetErrata
 ---------------
 
-.. function:: offsetSetErrata($name, $errata)
+.. function:: offsetSetErrata()
 
 
     Offset set errata
 
-    :param string|integer $name: 
-    :param mixed $errata: 
+    :param string|integer: 
+    :param mixed: 
 
 
 
 offsetGetErrata
 ---------------
 
-.. function:: offsetGetErrata($name)
+.. function:: offsetGetErrata()
 
 
     Offset get errata
 
-    :param string|integer $name: 
+    :param string|integer: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -138,12 +133,12 @@ offsetGetErrata
 offsetHasErrata
 ---------------
 
-.. function:: offsetHasErrata($name)
+.. function:: offsetHasErrata()
 
 
     Offset has errata
 
-    :param string|integer $name: 
+    :param string|integer: 
 
     :rtype: bool 
 
@@ -152,12 +147,12 @@ offsetHasErrata
 offsetUnsetErrata
 -----------------
 
-.. function:: offsetUnsetErrata($name)
+.. function:: offsetUnsetErrata()
 
 
     Offset unset errata
 
-    :param string|integer $name: 
+    :param string|integer: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -272,7 +267,7 @@ rewind
 merge
 -----
 
-.. function:: merge($parameters)
+.. function:: merge()
 
 
     @param array|ParameterContainer $parameters
@@ -285,23 +280,23 @@ merge
 
 
 Constants
----------
++++++++++
 
 TYPE_AUTO
-+++++++++
+=========
 
 TYPE_NULL
-+++++++++
+=========
 
 TYPE_DOUBLE
-+++++++++++
+===========
 
 TYPE_INTEGER
-++++++++++++
+============
 
 TYPE_STRING
-+++++++++++
+===========
 
 TYPE_LOB
-++++++++
+========
 

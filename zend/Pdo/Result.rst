@@ -1,28 +1,23 @@
-.. /Db/Adapter/Driver/Pdo/Result.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pdo/Result.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Result
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($resource, $generatedValue, [$rowCount = false])
+.. function:: initialize()
 
 
     Initialize
 
-    :param PDOStatement $resource: 
+    :param PDOStatement: 
     :param $generatedValue: 
-    :param int $rowCount: 
+    :param int: 
 
     :rtype: Result 
 
@@ -179,11 +174,11 @@ getGeneratedValue
 
 
 Constants
----------
++++++++++
 
 STATEMENT_MODE_SCROLLABLE
-+++++++++++++++++++++++++
+=========================
 
 STATEMENT_MODE_FORWARD
-++++++++++++++++++++++
+======================
 

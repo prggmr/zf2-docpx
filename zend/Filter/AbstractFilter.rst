@@ -1,82 +1,116 @@
-.. /Filter/AbstractFilter.php generated using docpx on 01/15/13 05:29pm
+.. Ldap/Filter/AbstractFilter.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Filter\\AbstractFilter
-****************************
+Zend\\Ldap\\Filter\\AbstractFilter
+==================================
 
-
-@category   Zend
-
-
+Zend\Ldap\Filter\AbstractFilter provides a base implementation for filters.
 
 Methods
-=======
++++++++
 
-hasPcreUnicodeSupport
----------------------
+toString
+--------
 
-.. function:: hasPcreUnicodeSupport()
-
-
-    @return bool
+.. function:: toString()
 
 
+    Returns a string representation of the filter.
 
-setOptions
+    :rtype: string 
+
+
+
+__toString
 ----------
 
-.. function:: setOptions($options)
+.. function:: __toString()
 
 
-    @param  array|Traversable $options
+    Returns a string representation of the filter.
+
+
+    :rtype: string 
+
+
+
+negate
+------
+
+.. function:: negate()
+
+
+    Negates the filter.
 
     :rtype: AbstractFilter 
 
-    :throws: Exception\InvalidArgumentException 
+
+
+addAnd
+------
+
+.. function:: addAnd()
+
+
+    Creates an 'and' filter.
+
+    :param AbstractFilter: 
+
+    :rtype: AndFilter 
 
 
 
-getOptions
-----------
+addOr
+-----
 
-.. function:: getOptions()
-
-
-    Retrieve options representing object state
-
-    :rtype: array 
+.. function:: addOr()
 
 
+    Creates an 'or' filter.
 
-__invoke
---------
+    :param AbstractFilter: 
 
-.. function:: __invoke($value)
+    :rtype: OrFilter 
 
 
-    Invoke filter as a command
+
+escapeValue
+-----------
+
+.. function:: escapeValue()
+
+
+    Escapes the given VALUES according to RFC 2254 so that they can be safely used in LDAP filters.
     
-    Proxies to {@link filter()}
-
-    :param mixed $value: 
-
-    :throws Exception\ExceptionInterface: If filtering $value is impossible
-
-    :rtype: mixed 
+    Any control characters with an ACII code < 32 as well as the characters with special meaning in
+    LDAP filters "*", "(", ")", and "\" (the backslash) are converted into the representation of a
+    backslash followed by two hex digits representing the hexadecimal value of the character.
 
 
 
-isOptions
----------
 
-.. function:: isOptions($options)
+    :param string|array: Array of values to escape
 
-
-    @param  mixed $options
-
-    :rtype: bool 
+    :rtype: array Array $values, but escaped
 
 
+
+unescapeValue
+-------------
+
+.. function:: unescapeValue()
+
+
+    Undoes the conversion done by {@link escapeValue()}.
+    
+    Converts any sequences of a backslash followed by two hex digits into the corresponding character.
+
+
+
+
+    :param string|array: Array of values to escape
+
+    :rtype: array Array $values, but unescaped
 
 
 

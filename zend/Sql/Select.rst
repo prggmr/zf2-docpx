@@ -1,38 +1,35 @@
-.. /Db/Sql/Select.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Select.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Select
-*********************
+=====================
 
-
-@category   Zend
-
-
+@property Where $where
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$table = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|string $table: 
+    :param null|string: 
 
 
 
 from
 ----
 
-.. function:: from($table)
+.. function:: from()
 
 
     Create from clause
 
-    :param string|array|TableIdentifier $table: 
+    :param string|array|TableIdentifier: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -43,7 +40,7 @@ from
 columns
 -------
 
-.. function:: columns($columns, [$prefixColumnsWithTable = true])
+.. function:: columns()
 
 
     Specify columns from which to select
@@ -59,8 +56,8 @@ columns
         key string will be use as alias,
         value can be string or Expression objects
 
-    :param array $columns: 
-    :param bool $prefixColumnsWithTable: 
+    :param array: 
+    :param bool: 
 
     :rtype: Select 
 
@@ -69,15 +66,15 @@ columns
 join
 ----
 
-.. function:: join($name, $on, [$columns = "*", [$type = "inner"]])
+.. function:: join()
 
 
     Create join clause
 
-    :param string|array $name: 
-    :param string $on: 
-    :param string|array $columns: 
-    :param string $type: one of the JOIN_* constants
+    :param string|array: 
+    :param string: 
+    :param string|array: 
+    :param string: one of the JOIN_* constants
 
     :throws Exception\InvalidArgumentException: 
 
@@ -88,13 +85,13 @@ join
 where
 -----
 
-.. function:: where($predicate, [$combination = "AND"])
+.. function:: where()
 
 
     Create where clause
 
-    :param Where|\Closure|string|array $predicate: 
-    :param string $combination: One of the OP_* constants from Predicate\PredicateSet
+    :param Where|\Closure|string|array|Predicate\PredicateInterface: 
+    :param string: One of the OP_* constants from Predicate\PredicateSet
 
     :rtype: Select 
 
@@ -103,20 +100,20 @@ where
 group
 -----
 
-.. function:: group($group)
+.. function:: group()
 
 
 
 having
 ------
 
-.. function:: having($predicate, [$combination = "AND"])
+.. function:: having()
 
 
     Create where clause
 
-    :param Where|\Closure|string|array $predicate: 
-    :param string $combination: One of the OP_* constants from Predicate\PredicateSet
+    :param Where|\Closure|string|array: 
+    :param string: One of the OP_* constants from Predicate\PredicateSet
 
     :rtype: Select 
 
@@ -125,7 +122,7 @@ having
 order
 -----
 
-.. function:: order($order)
+.. function:: order()
 
 
     @param string|array $order
@@ -137,7 +134,7 @@ order
 limit
 -----
 
-.. function:: limit($limit)
+.. function:: limit()
 
 
     @param int $limit
@@ -149,7 +146,7 @@ limit
 offset
 ------
 
-.. function:: offset($offset)
+.. function:: offset()
 
 
     @param int $offset
@@ -161,7 +158,7 @@ offset
 reset
 -----
 
-.. function:: reset($part)
+.. function:: reset()
 
 
     @param string $part
@@ -175,27 +172,27 @@ reset
 setSpecification
 ----------------
 
-.. function:: setSpecification($index, $specification)
+.. function:: setSpecification()
 
 
 
 getRawState
 -----------
 
-.. function:: getRawState([$key = false])
+.. function:: getRawState()
 
 
 
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
     Prepare statement
 
-    :param Adapter $adapter: 
-    :param StatementContainerInterface $statementContainer: 
+    :param AdapterInterface: 
+    :param StatementContainerInterface: 
 
     :rtype: void 
 
@@ -204,63 +201,75 @@ prepareStatement
 getSqlString
 ------------
 
-.. function:: getSqlString([$adapterPlatform = false])
+.. function:: getSqlString()
 
 
     Get SQL string for statement
 
-    :param null|PlatformInterface $adapterPlatform: If null, defaults to Sql92
+    :param null|PlatformInterface: If null, defaults to Sql92
 
     :rtype: string 
+
+
+
+isTableReadOnly
+---------------
+
+.. function:: isTableReadOnly()
+
+
+    Returns whether the table is read only or not.
+
+    :rtype: boolean 
 
 
 
 processSelect
 -------------
 
-.. function:: processSelect($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processSelect()
 
 
 
 processJoins
 ------------
 
-.. function:: processJoins($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processJoins()
 
 
 
 processWhere
 ------------
 
-.. function:: processWhere($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processWhere()
 
 
 
 processGroup
 ------------
 
-.. function:: processGroup($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processGroup()
 
 
 
 processHaving
 -------------
 
-.. function:: processHaving($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processHaving()
 
 
 
 processOrder
 ------------
 
-.. function:: processOrder($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processOrder()
 
 
 
 processLimit
 ------------
 
-.. function:: processLimit($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processLimit()
 
 
     @var $orderParts \Zend\Db\Adapter\StatementContainer */
@@ -270,19 +279,19 @@ processLimit
 processOffset
 -------------
 
-.. function:: processOffset($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processOffset()
 
 
 
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Variable overloading
 
-    :param string $name: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -307,56 +316,56 @@ __clone
 
 
 Constants
----------
-
-SELECT
-++++++
-
-COLUMNS
-+++++++
-
-TABLE
-+++++
-
-JOINS
-+++++
-
-WHERE
-+++++
-
-GROUP
-+++++
-
-HAVING
-++++++
-
-ORDER
-+++++
-
-LIMIT
-+++++
-
-OFFSET
-++++++
-
-JOIN_INNER
-++++++++++
-
-JOIN_OUTER
-++++++++++
-
-JOIN_LEFT
 +++++++++
 
+SELECT
+======
+
+COLUMNS
+=======
+
+TABLE
+=====
+
+JOINS
+=====
+
+WHERE
+=====
+
+GROUP
+=====
+
+HAVING
+======
+
+ORDER
+=====
+
+LIMIT
+=====
+
+OFFSET
+======
+
+JOIN_INNER
+==========
+
+JOIN_OUTER
+==========
+
+JOIN_LEFT
+=========
+
 JOIN_RIGHT
-++++++++++
+==========
 
 SQL_STAR
-++++++++
+========
 
 ORDER_ASCENDING
-+++++++++++++++
+===============
 
 ORDER_DESCENDING
-++++++++++++++++
+================
 

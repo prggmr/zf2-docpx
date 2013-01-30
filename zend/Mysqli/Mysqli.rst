@@ -1,41 +1,58 @@
-.. /Db/Adapter/Driver/Mysqli/Mysqli.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Mysqli/Mysqli.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Mysqli\\Mysqli
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($connection, [$statementPrototype = false, [$resultPrototype = false, [$options = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Connection|\mysqli $connection: 
-    :param null|Statement $statementPrototype: 
-    :param null|Result $resultPrototype: 
-    :param array $options: 
+    :param array|Connection|\mysqli: 
+    :param null|Statement: 
+    :param null|Result: 
+    :param array: 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Mysqli 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 registerConnection
 ------------------
 
-.. function:: registerConnection($connection)
+.. function:: registerConnection()
 
 
     Register connection
 
-    :param Connection $connection: 
+    :param Connection: 
 
     :rtype: Mysqli 
 
@@ -44,12 +61,12 @@ registerConnection
 registerStatementPrototype
 --------------------------
 
-.. function:: registerStatementPrototype($statementPrototype)
+.. function:: registerStatementPrototype()
 
 
     Register statement prototype
 
-    :param Statement $statementPrototype: 
+    :param Statement: 
 
 
 
@@ -68,12 +85,12 @@ getStatementPrototype
 registerResultPrototype
 -----------------------
 
-.. function:: registerResultPrototype($resultPrototype)
+.. function:: registerResultPrototype()
 
 
     Register result prototype
 
-    :param Result $resultPrototype: 
+    :param Result: 
 
 
 
@@ -90,12 +107,12 @@ getResultPrototype
 getDatabasePlatformName
 -----------------------
 
-.. function:: getDatabasePlatformName([$nameFormat = "camelCase"])
+.. function:: getDatabasePlatformName()
 
 
     Get database platform name
 
-    :param string $nameFormat: 
+    :param string: 
 
     :rtype: string 
 
@@ -129,12 +146,12 @@ getConnection
 createStatement
 ---------------
 
-.. function:: createStatement([$sqlOrResource = false])
+.. function:: createStatement()
 
 
     Create statement
 
-    :param string $sqlOrResource: 
+    :param string: 
 
     :rtype: Statement 
 
@@ -143,13 +160,13 @@ createStatement
 createResult
 ------------
 
-.. function:: createResult($resource, [$isBuffered = false])
+.. function:: createResult()
 
 
     Create result
 
-    :param resource $resource: 
-    :param null|bool $isBuffered: 
+    :param resource: 
+    :param null|bool: 
 
     :rtype: Result 
 
@@ -170,13 +187,13 @@ getPrepareType
 formatParameterName
 -------------------
 
-.. function:: formatParameterName($name, [$type = false])
+.. function:: formatParameterName()
 
 
     Format parameter name
 
-    :param string $name: 
-    :param mixed $type: 
+    :param string: 
+    :param mixed: 
 
     :rtype: string 
 
@@ -191,8 +208,6 @@ getLastGeneratedValue
     Get last generated value
 
     :rtype: mixed 
-
-
 
 
 

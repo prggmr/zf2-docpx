@@ -1,21 +1,18 @@
-.. /Di/Definition/ClassDefinition.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/ClassDefinition.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\ClassDefinition
-*************************************
-
+=====================================
 
 Class definitions for a single class
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($class)
+.. function:: __construct()
 
 
     @param string $class
@@ -25,7 +22,7 @@ __construct
 setInstantiator
 ---------------
 
-.. function:: setInstantiator($instantiator)
+.. function:: setInstantiator()
 
 
     @param  null|\Callable|array|string $instantiator
@@ -37,7 +34,7 @@ setInstantiator
 setSupertypes
 -------------
 
-.. function:: setSupertypes($supertypes)
+.. function:: setSupertypes()
 
 
     @param  string[] $supertypes
@@ -49,12 +46,12 @@ setSupertypes
 addMethod
 ---------
 
-.. function:: addMethod($method, [$isRequired = false])
+.. function:: addMethod()
 
 
     @param  string    $method
 
-    :param bool|null $isRequired: 
+    :param bool|null: 
 
     :rtype: self 
 
@@ -63,13 +60,13 @@ addMethod
 addMethodParameter
 ------------------
 
-.. function:: addMethodParameter($method, $parameterName, $parameterInfo)
+.. function:: addMethodParameter()
 
 
     @param $method
 
     :param $parameterName: 
-    :param array $parameterInfo: (keys: required, type)
+    :param array: (keys: required, type)
 
     :rtype: ClassDefinition 
 
@@ -88,7 +85,7 @@ getClasses
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
     {@inheritDoc}
@@ -98,7 +95,7 @@ hasClass
 getClassSupertypes
 ------------------
 
-.. function:: getClassSupertypes($class)
+.. function:: getClassSupertypes()
 
 
     {@inheritDoc}
@@ -108,7 +105,7 @@ getClassSupertypes
 getInstantiator
 ---------------
 
-.. function:: getInstantiator($class)
+.. function:: getInstantiator()
 
 
     {@inheritDoc}
@@ -118,7 +115,7 @@ getInstantiator
 hasMethods
 ----------
 
-.. function:: hasMethods($class)
+.. function:: hasMethods()
 
 
     {@inheritDoc}
@@ -128,7 +125,7 @@ hasMethods
 getMethods
 ----------
 
-.. function:: getMethods($class)
+.. function:: getMethods()
 
 
     {@inheritDoc}
@@ -138,7 +135,7 @@ getMethods
 hasMethod
 ---------
 
-.. function:: hasMethod($class, $method)
+.. function:: hasMethod()
 
 
     {@inheritDoc}
@@ -148,7 +145,7 @@ hasMethod
 hasMethodParameters
 -------------------
 
-.. function:: hasMethodParameters($class, $method)
+.. function:: hasMethodParameters()
 
 
     {@inheritDoc}
@@ -158,12 +155,10 @@ hasMethodParameters
 getMethodParameters
 -------------------
 
-.. function:: getMethodParameters($class, $method)
+.. function:: getMethodParameters()
 
 
     {@inheritDoc}
-
-
 
 
 

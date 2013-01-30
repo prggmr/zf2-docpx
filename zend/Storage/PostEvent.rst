@@ -1,43 +1,38 @@
-.. /Cache/Storage/PostEvent.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/PostEvent.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\PostEvent
-*******************************
-
-
-@category   Zend
-
-
+===============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name, $storage, $params, $result)
+.. function:: __construct()
 
 
     Constructor
     
     Accept a target and its parameters.
 
-    :param string $name: 
-    :param StorageInterface $storage: 
-    :param ArrayObject $params: 
-    :param mixed $result: 
+    :param string: 
+    :param StorageInterface: 
+    :param ArrayObject: 
+    :param mixed: 
 
 
 
 setResult
 ---------
 
-.. function:: setResult($value)
+.. function:: setResult()
 
 
     Set the result/return value
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: PostEvent 
 
@@ -52,8 +47,6 @@ getResult
     Get the result/return value
 
     :rtype: mixed 
-
-
 
 
 

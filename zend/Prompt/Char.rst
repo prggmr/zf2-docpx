@@ -1,30 +1,25 @@
-.. /Console/Prompt/Char.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/Char.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\Char
-***************************
-
-
-@category   Zend
-
-
+===========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$promptText = "Please hit a key", [$allowedChars = "abc", [$ignoreCase = true, [$allowEmpty = false, [$echo = true]]]]])
+.. function:: __construct()
 
 
     Ask the user for a single key stroke
 
-    :param string $promptText: The prompt text to display in console
-    :param string $allowedChars: A list of allowed chars (i.e. "abc12345")
-    :param bool $ignoreCase: If true, case will be ignored and prompt will always return lower-cased response
-    :param bool $allowEmpty: Is empty response allowed?
-    :param bool $echo: Display the selection after user presses key
+    :param string: The prompt text to display in console
+    :param string: A list of allowed chars (i.e. "abc12345")
+    :param bool: If true, case will be ignored and prompt will always return lower-cased response
+    :param bool: Is empty response allowed?
+    :param bool: Display the selection after user presses key
 
 
 
@@ -43,7 +38,7 @@ show
 setAllowEmpty
 -------------
 
-.. function:: setAllowEmpty($allowEmpty)
+.. function:: setAllowEmpty()
 
 
     @param  bool $allowEmpty
@@ -63,7 +58,7 @@ getAllowEmpty
 setPromptText
 -------------
 
-.. function:: setPromptText($promptText)
+.. function:: setPromptText()
 
 
     @param string $promptText
@@ -83,7 +78,7 @@ getPromptText
 setAllowedChars
 ---------------
 
-.. function:: setAllowedChars($allowedChars)
+.. function:: setAllowedChars()
 
 
     @param string $allowedChars
@@ -103,7 +98,7 @@ getAllowedChars
 setIgnoreCase
 -------------
 
-.. function:: setIgnoreCase($ignoreCase)
+.. function:: setIgnoreCase()
 
 
     @param  bool $ignoreCase
@@ -123,7 +118,7 @@ getIgnoreCase
 setEcho
 -------
 
-.. function:: setEcho($echo)
+.. function:: setEcho()
 
 
     @param  bool $echo
@@ -137,8 +132,6 @@ getEcho
 
 
     @return bool
-
-
 
 
 

@@ -1,42 +1,35 @@
-.. /Cache/Storage/Plugin/AbstractPlugin.php generated using docpx on 01/15/13 05:29pm
+.. Mvc/Controller/Plugin/AbstractPlugin.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Cache\\Storage\\Plugin\\AbstractPlugin
-********************************************
-
-
-@category   Zend
-
-
+Zend\\Mvc\\Controller\\Plugin\\AbstractPlugin
+=============================================
 
 Methods
-=======
++++++++
 
-setOptions
-----------
+setController
+-------------
 
-.. function:: setOptions($options)
-
-
-    Set pattern options
-
-    :param PluginOptions $options: 
-
-    :rtype: AbstractPlugin 
+.. function:: setController()
 
 
+    Set the current controller instance
 
-getOptions
-----------
+    :param Dispatchable: 
 
-.. function:: getOptions()
-
-
-    Get all pattern options
-
-    :rtype: PluginOptions 
+    :rtype: void 
 
 
+
+getController
+-------------
+
+.. function:: getController()
+
+
+    Get the current controller instance
+
+    :rtype: null|Dispatchable 
 
 
 

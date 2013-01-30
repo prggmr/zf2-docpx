@@ -1,30 +1,20 @@
-.. /Code/Reflection/FileReflection.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/FileReflection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\FileReflection
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($filename)
+.. function:: __construct()
 
 
-    Constructor
+    @param  string $filename
 
-    :param string $filename: 
-
-    :throws Exception\RuntimeException: 
-
-    :rtype: FileReflection 
 
 
 
@@ -34,14 +24,8 @@ export
 .. function:: export()
 
 
-    Export
-    
     Required by the Reflector interface.
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :rtype: null 
 
@@ -89,9 +73,7 @@ getDocComment
 .. function:: getDocComment()
 
 
-    Return the doc comment
-
-    :rtype: string 
+    @return string
 
 
 
@@ -101,9 +83,7 @@ getDocBlock
 .. function:: getDocBlock()
 
 
-    Return the DocBlock
-
-    :rtype: DocBlockReflection 
+    @return DocBlockReflection
 
 
 
@@ -113,6 +93,9 @@ getNamespaces
 .. function:: getNamespaces()
 
 
+    @return array
+
+
 
 getNamespace
 ------------
@@ -120,9 +103,7 @@ getNamespace
 .. function:: getNamespace()
 
 
-    getNamespace()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -132,9 +113,7 @@ getUses
 .. function:: getUses()
 
 
-    getUses()
-
-    :rtype: string[] 
+    @return array
 
 
 
@@ -146,7 +125,7 @@ getClasses
 
     Return the reflection classes of the classes found inside this file
 
-    :rtype: array Array of \Zend\Code\Reflection\ReflectionClass instances
+    :rtype: ClassReflection[] 
 
 
 
@@ -158,19 +137,19 @@ getFunctions
 
     Return the reflection functions of the functions found inside this file
 
-    :rtype: array Array of Zend_Reflection_Functions
+    :rtype: FunctionReflection[] 
 
 
 
 getClass
 --------
 
-.. function:: getClass([$name = false])
+.. function:: getClass()
 
 
     Retrieve the reflection class of a given class found in this file
 
-    :param null|string $name: 
+    :param null|string: 
 
     :rtype: ClassReflection 
 
@@ -208,10 +187,6 @@ __toString
     Required by the Reflector interface
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: string 
 
 
@@ -233,16 +208,14 @@ reflect
 checkFileDocBlock
 -----------------
 
-.. function:: checkFileDocBlock($tokens)
+.. function:: checkFileDocBlock()
 
 
     Validate / check a file level DocBlock
 
-    :param array $tokens: Array of tokenizer tokens
+    :param array: Array of tokenizer tokens
 
     :rtype: void 
-
-
 
 
 

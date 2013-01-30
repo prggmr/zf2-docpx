@@ -1,29 +1,24 @@
-.. /Console/Prompt/Select.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/Select.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\Select
-*****************************
-
-
-@category   Zend
-
-
+=============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$promptText = "Please select one option", [$options = false, [$allowEmpty = false, [$echo = false]]]])
+.. function:: __construct()
 
 
     Ask the user to select one of pre-defined options
 
-    :param string $promptText: The prompt text to display in console
-    :param array $options: Allowed options
-    :param bool $allowEmpty: Allow empty (no) selection?
-    :param bool $echo: True to display selected option?
+    :param string: The prompt text to display in console
+    :param array: Allowed options
+    :param bool: Allow empty (no) selection?
+    :param bool: True to display selected option?
 
     :throws Exception\BadMethodCallException: if no options available
 
@@ -44,12 +39,12 @@ show
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set allowed options
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :throws Exception\BadMethodCallException: 
 
@@ -62,8 +57,6 @@ getOptions
 
 
     @return array
-
-
 
 
 

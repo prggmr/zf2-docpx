@@ -1,9 +1,8 @@
-.. /Form/Annotation/Filter.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/Filter.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\Filter
-******************************
-
+==============================
 
 Filter annotation
 
@@ -15,10 +14,8 @@ of options to pass to the filter constructor.
 This annotation may be specified multiple times; filters will be added
 to the filter chain in the order specified.
 
-
-
 Methods
-=======
++++++++
 
 getFilter
 ---------
@@ -29,8 +26,6 @@ getFilter
     Retrieve the filter specification
 
     :rtype: null|array 
-
-
 
 
 

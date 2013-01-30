@@ -1,16 +1,13 @@
-.. /Barcode/Object/Ean8.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Ean8.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Ean8
-***************************
-
+===========================
 
 Class for generate Ean8 barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -63,18 +60,16 @@ drawText
 validateSpecificText
 --------------------
 
-.. function:: validateSpecificText($value, [$options = false])
+.. function:: validateSpecificText()
 
 
     Particular validation for Ean8 barcode objects
     (to suppress checksum character substitution)
 
-    :param string $value: 
-    :param array $options: 
+    :param string: 
+    :param array: 
 
     :throws Exception\BarcodeValidationException: 
-
-
 
 
 

@@ -1,9 +1,8 @@
-.. /Form/Annotation/Options.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/Options.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\Options
-*******************************
-
+===============================
 
 Options annotation
 
@@ -12,10 +11,8 @@ Options are used to alter the behavior of the object they address.
 
 The value should be an associative array.
 
-
-
 Methods
-=======
++++++++
 
 getOptions
 ----------
@@ -26,8 +23,6 @@ getOptions
     Retrieve the options
 
     :rtype: null|array 
-
-
 
 
 

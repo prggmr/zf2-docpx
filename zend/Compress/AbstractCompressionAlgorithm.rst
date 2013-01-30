@@ -1,38 +1,35 @@
-.. /Filter/Compress/AbstractCompressionAlgorithm.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/AbstractCompressionAlgorithm.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\AbstractCompressionAlgorithm
-****************************************************
-
+====================================================
 
 Abstract compression adapter
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param null|array|Traversable $options: (Optional) Options to set
+    :param null|array|Traversable: (Optional) Options to set
 
 
 
 getOptions
 ----------
 
-.. function:: getOptions([$option = false])
+.. function:: getOptions()
 
 
     Returns one or all set options
 
-    :param string $option: (Optional) Option to return
+    :param string: (Optional) Option to return
 
     :rtype: mixed 
 
@@ -41,16 +38,14 @@ getOptions
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Sets all or one option
 
-    :param array $options: 
+    :param array: 
 
     :rtype: AbstractCompressionAlgorithm 
-
-
 
 
 

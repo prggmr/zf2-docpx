@@ -1,26 +1,21 @@
-.. /Db/TableGateway/Feature/MetadataFeature.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/MetadataFeature.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\MetadataFeature
-************************************************
-
-
-@category   Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$metadata = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param MetadataInterface $metadata: 
+    :param MetadataInterface: 
 
 
 
@@ -28,8 +23,6 @@ postInitialize
 --------------
 
 .. function:: postInitialize()
-
-
 
 
 

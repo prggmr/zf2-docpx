@@ -1,4 +1,4 @@
-.. /EventManager/ListenerAggregateInterface.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/ListenerAggregateInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\attach
@@ -12,7 +12,7 @@ Zend\\EventManager\\attach
     Implementors may add an optional $priority argument; the EventManager
     implementation will pass this to the aggregate.
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
 
 
@@ -24,7 +24,7 @@ Zend\\EventManager\\detach
 
     Detach all previously attached listeners
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
 
 

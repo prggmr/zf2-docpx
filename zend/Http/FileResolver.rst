@@ -1,38 +1,35 @@
-.. /Authentication/Adapter/Http/FileResolver.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Adapter/Http/FileResolver.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Adapter\\Http\\FileResolver
-*************************************************
-
+=================================================
 
 HTTP Authentication File Resolver
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$path = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $path: Complete filename where the credentials are stored
+    :param string: Complete filename where the credentials are stored
 
 
 
 setFile
 -------
 
-.. function:: setFile($path)
+.. function:: setFile()
 
 
     Set the path to the credentials file
 
-    :param string $path: 
+    :param string: 
 
     :rtype: FileResolver Provides a fluent interface
 
@@ -55,7 +52,7 @@ getFile
 resolve
 -------
 
-.. function:: resolve($username, $realm, [$password = false])
+.. function:: resolve()
 
 
     Resolve credentials
@@ -72,15 +69,13 @@ resolve
     authentication realm, and the password or hash, each delimited by
     colons.
 
-    :param string $username: Username
-    :param string $realm: Authentication Realm
+    :param string: Username
+    :param string: Authentication Realm
 
     :rtype: string|false User's shared secret, if the user is found in the
         realm, false otherwise.
 
     :throws: Exception\ExceptionInterface 
-
-
 
 
 

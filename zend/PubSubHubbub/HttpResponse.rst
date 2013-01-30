@@ -1,16 +1,11 @@
-.. /Feed/PubSubHubbub/HttpResponse.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/HttpResponse.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\HttpResponse
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 send
 ----
@@ -42,7 +37,7 @@ sendHeaders
 setHeader
 ---------
 
-.. function:: setHeader($name, $value, [$replace = false])
+.. function:: setHeader()
 
 
     Set a header
@@ -50,9 +45,9 @@ setHeader
     If $replace is true, replaces any headers already defined with that
     $name.
 
-    :param string $name: 
-    :param string $value: 
-    :param bool $replace: 
+    :param string: 
+    :param string: 
+    :param bool: 
 
     :rtype: \Zend\Feed\PubSubHubbub\HttpResponse 
 
@@ -61,12 +56,12 @@ setHeader
 getHeader
 ---------
 
-.. function:: getHeader($name)
+.. function:: getHeader()
 
 
     Check if a specific Header is set and return its value
 
-    :param string $name: 
+    :param string: 
 
     :rtype: string|null 
 
@@ -87,12 +82,12 @@ getHeaders
 canSendHeaders
 --------------
 
-.. function:: canSendHeaders([$throw = false])
+.. function:: canSendHeaders()
 
 
     Can we send headers?
 
-    :param bool $throw: Whether or not to throw an exception if headers have been sent; defaults to false
+    :param bool: Whether or not to throw an exception if headers have been sent; defaults to false
 
     :rtype: HttpResponse 
 
@@ -103,12 +98,12 @@ canSendHeaders
 setStatusCode
 -------------
 
-.. function:: setStatusCode($code)
+.. function:: setStatusCode()
 
 
     Set HTTP response code to use with headers
 
-    :param int $code: 
+    :param int: 
 
     :rtype: HttpResponse 
 
@@ -131,12 +126,12 @@ getStatusCode
 setContent
 ----------
 
-.. function:: setContent($content)
+.. function:: setContent()
 
 
     Set body content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: \Zend\Feed\PubSubHubbub\HttpResponse 
 
@@ -157,16 +152,14 @@ getContent
 _normalizeHeader
 ----------------
 
-.. function:: _normalizeHeader($name)
+.. function:: _normalizeHeader()
 
 
     Normalizes a header name to X-Capitalized-Names
 
-    :param string $name: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

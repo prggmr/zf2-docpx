@@ -1,4 +1,4 @@
-.. /Db/Adapter/Driver/ResultInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/ResultInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\buffer

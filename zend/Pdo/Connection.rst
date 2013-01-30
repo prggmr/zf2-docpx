@@ -1,26 +1,21 @@
-.. /Db/Adapter/Driver/Pdo/Connection.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pdo/Connection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Connection
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$connectionParameters = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|\PDO|null $connectionParameters: 
+    :param array|\PDO|null: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -29,14 +24,36 @@ __construct
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Pdo $driver: 
+    :param Pdo: 
 
     :rtype: Connection 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Connection 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
@@ -55,12 +72,12 @@ getDriverName
 setConnectionParameters
 -----------------------
 
-.. function:: setConnectionParameters($connectionParameters)
+.. function:: setConnectionParameters()
 
 
     Set connection parameters
 
-    :param array $connectionParameters: 
+    :param array: 
 
     :rtype: void 
 
@@ -93,12 +110,12 @@ getCurrentSchema
 setResource
 -----------
 
-.. function:: setResource($resource)
+.. function:: setResource()
 
 
     Set resource
 
-    :param \PDO $resource: 
+    :param \PDO: 
 
     :rtype: Connection 
 
@@ -196,7 +213,7 @@ rollback
 execute
 -------
 
-.. function:: execute($sql)
+.. function:: execute()
 
 
     Execute
@@ -212,12 +229,12 @@ execute
 prepare
 -------
 
-.. function:: prepare($sql)
+.. function:: prepare()
 
 
     Prepare
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: Statement 
 
@@ -226,16 +243,14 @@ prepare
 getLastGeneratedValue
 ---------------------
 
-.. function:: getLastGeneratedValue([$name = false])
+.. function:: getLastGeneratedValue()
 
 
     Get last generated id
 
-    :param string $name: 
+    :param string: 
 
     :rtype: integer|null|false 
-
-
 
 
 

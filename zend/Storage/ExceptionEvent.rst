@@ -1,44 +1,39 @@
-.. /Cache/Storage/ExceptionEvent.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/ExceptionEvent.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\ExceptionEvent
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($name, $storage, $params, $result, $exception)
+.. function:: __construct()
 
 
     Constructor
     
     Accept a target and its parameters.
 
-    :param string $name: 
-    :param StorageInterface $storage: 
-    :param ArrayObject $params: 
-    :param mixed $result: 
-    :param Exception $exception: 
+    :param string: 
+    :param StorageInterface: 
+    :param ArrayObject: 
+    :param mixed: 
+    :param Exception: 
 
 
 
 setException
 ------------
 
-.. function:: setException($exception)
+.. function:: setException()
 
 
     Set the exception to be thrown
 
-    :param Exception $exception: 
+    :param Exception: 
 
     :rtype: ExceptionEvent 
 
@@ -59,12 +54,12 @@ getException
 setThrowException
 -----------------
 
-.. function:: setThrowException($flag)
+.. function:: setThrowException()
 
 
     Throw the exception or use the result
 
-    :param bool $flag: 
+    :param bool: 
 
     :rtype: ExceptionEvent 
 
@@ -79,8 +74,6 @@ getThrowException
     Throw the exception or use the result
 
     :rtype: bool 
-
-
 
 
 

@@ -1,21 +1,31 @@
-.. /Form/Element/DateTime.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/DateTime.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\DateTime
-*****************************
-
-
-@category   Zend
-
-
+=============================
 
 Methods
-=======
++++++++
+
+setOptions
+----------
+
+.. function:: setOptions()
+
+
+    Accepted options for DateTime:
+    - format: A \DateTime compatible string
+
+    :param array|\Traversable: 
+
+    :rtype: DateTime 
+
+
 
 getValue
 --------
 
-.. function:: getValue([$returnFormattedValue = true])
+.. function:: getValue()
 
 
     Retrieve the element value
@@ -27,7 +37,7 @@ getValue
     If $returnFormattedValue is false, the original value will be
     returned, regardless of type.
 
-    :param bool $returnFormattedValue: 
+    :param bool: 
 
     :rtype: mixed 
 
@@ -36,12 +46,12 @@ getValue
 setFormat
 ---------
 
-.. function:: setFormat($format)
+.. function:: setFormat()
 
 
     Set value for format
 
-    :param string $format: 
+    :param string: 
 
     :rtype: DateTime 
 
@@ -112,8 +122,8 @@ getInputSpecification
 
 
 Constants
----------
++++++++++
 
 DATETIME_FORMAT
-+++++++++++++++
+===============
 

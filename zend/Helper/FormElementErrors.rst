@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormElementErrors.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormElementErrors.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormElementErrors
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 setMessageCloseString
 ---------------------
 
-.. function:: setMessageCloseString($messageCloseString)
+.. function:: setMessageCloseString()
 
 
     Set the string used to close message representation
 
-    :param string $messageCloseString: 
+    :param string: 
 
     :rtype: FormElementErrors 
 
@@ -41,12 +36,12 @@ getMessageCloseString
 setMessageOpenFormat
 --------------------
 
-.. function:: setMessageOpenFormat($messageOpenFormat)
+.. function:: setMessageOpenFormat()
 
 
     Set the formatted string used to open message representation
 
-    :param string $messageOpenFormat: 
+    :param string: 
 
     :rtype: FormElementErrors 
 
@@ -67,12 +62,12 @@ getMessageOpenFormat
 setMessageSeparatorString
 -------------------------
 
-.. function:: setMessageSeparatorString($messageSeparatorString)
+.. function:: setMessageSeparatorString()
 
 
     Set the string used to separate messages
 
-    :param string $messageSeparatorString: 
+    :param string: 
 
     :rtype: FormElementErrors 
 
@@ -93,12 +88,12 @@ getMessageSeparatorString
 setAttributes
 -------------
 
-.. function:: setAttributes($attributes)
+.. function:: setAttributes()
 
 
     Set the attributes that will go on the message open format
 
-    :param array $attributes: key value pairs of attributes
+    :param array: key value pairs of attributes
 
     :rtype: FormElementErrors 
 
@@ -119,13 +114,13 @@ getAttributes
 render
 ------
 
-.. function:: render($element, [$attributes = false])
+.. function:: render()
 
 
     Render validation errors for the provided $element
 
-    :param ElementInterface $element: 
-    :param array $attributes: 
+    :param ElementInterface: 
+    :param array: 
 
     :throws Exception\DomainException: 
 
@@ -133,29 +128,20 @@ render
 
 
 
-$item
------
-
-.. function:: $item()
-
-
-
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$attributes = false]])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()} if an element is passed.
 
-    :param ElementInterface $element: 
-    :param array $attributes: 
+    :param ElementInterface: 
+    :param array: 
 
     :rtype: string|FormElementErrors 
-
-
 
 
 

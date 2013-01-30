@@ -1,16 +1,13 @@
-.. /Barcode/Object/Ean5.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Ean5.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Ean5
-***************************
-
+===========================
 
 Class for generate Ean5 barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -51,12 +48,12 @@ prepareBarcode
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
 
@@ -65,7 +62,7 @@ getChecksum
 getParity
 ---------
 
-.. function:: getParity($i)
+.. function:: getParity()
 
 
 
@@ -78,8 +75,6 @@ getText
     Retrieve text to encode
 
     :rtype: string 
-
-
 
 
 

@@ -1,21 +1,16 @@
-.. /Cache/Storage/Plugin/PluginOptions.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Plugin/PluginOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Plugin\\PluginOptions
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 setClearingFactor
 -----------------
 
-.. function:: setClearingFactor($clearingFactor)
+.. function:: setClearingFactor()
 
 
     Set automatic clearing factor
@@ -23,7 +18,7 @@ setClearingFactor
     Used by:
     - ClearExpiredByFactor
 
-    :param int $clearingFactor: 
+    :param int: 
 
     :rtype: PluginOptions 
 
@@ -47,7 +42,7 @@ getClearingFactor
 setExceptionCallback
 --------------------
 
-.. function:: setExceptionCallback($exceptionCallback)
+.. function:: setExceptionCallback()
 
 
     Set callback to call on intercepted exception
@@ -55,7 +50,7 @@ setExceptionCallback
     Used by:
     - ExceptionHandler
 
-    :param callable $exceptionCallback: 
+    :param callable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -81,12 +76,12 @@ getExceptionCallback
 setExitOnAbort
 --------------
 
-.. function:: setExitOnAbort($exitOnAbort)
+.. function:: setExitOnAbort()
 
 
     Exit if connection aborted and ignore_user_abort is disabled.
 
-    :param bool $exitOnAbort: 
+    :param bool: 
 
     :rtype: PluginOptions 
 
@@ -107,7 +102,7 @@ getExitOnAbort
 setOptimizingFactor
 -------------------
 
-.. function:: setOptimizingFactor($optimizingFactor)
+.. function:: setOptimizingFactor()
 
 
     Set automatic optimizing factor
@@ -115,7 +110,7 @@ setOptimizingFactor
     Used by:
     - OptimizeByFactor
 
-    :param int $optimizingFactor: 
+    :param int: 
 
     :rtype: PluginOptions 
 
@@ -139,7 +134,7 @@ getOptimizingFactor
 setSerializer
 -------------
 
-.. function:: setSerializer($serializer)
+.. function:: setSerializer()
 
 
     Set serializer
@@ -147,7 +142,7 @@ setSerializer
     Used by:
     - Serializer
 
-    :param string|SerializerAdapter $serializer: 
+    :param string|SerializerAdapter: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -173,7 +168,7 @@ getSerializer
 setSerializerOptions
 --------------------
 
-.. function:: setSerializerOptions($serializerOptions)
+.. function:: setSerializerOptions()
 
 
     Set configuration options for instantiating a serializer adapter
@@ -181,7 +176,7 @@ setSerializerOptions
     Used by:
     - Serializer
 
-    :param mixed $serializerOptions: 
+    :param mixed: 
 
     :rtype: PluginOptions 
 
@@ -205,7 +200,7 @@ getSerializerOptions
 setThrowExceptions
 ------------------
 
-.. function:: setThrowExceptions($throwExceptions)
+.. function:: setThrowExceptions()
 
 
     Set flag indicating we should re-throw exceptions
@@ -213,7 +208,7 @@ setThrowExceptions
     Used by:
     - ExceptionHandler
 
-    :param bool $throwExceptions: 
+    :param bool: 
 
     :rtype: PluginOptions 
 
@@ -237,20 +232,18 @@ getThrowExceptions
 normalizeFactor
 ---------------
 
-.. function:: normalizeFactor($factor)
+.. function:: normalizeFactor()
 
 
     Normalize a factor
     
     Cast to int and ensure we have a value greater than zero.
 
-    :param int $factor: 
+    :param int: 
 
     :rtype: int 
 
     :throws: Exception\InvalidArgumentException 
-
-
 
 
 

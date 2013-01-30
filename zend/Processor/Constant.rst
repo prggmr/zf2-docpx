@@ -1,29 +1,24 @@
-.. /Config/Processor/Constant.php generated using docpx on 01/15/13 05:29pm
+.. Config/Processor/Constant.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Processor\\Constant
-*********************************
-
-
-@category   Zend
-
-
+=================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$userOnly = true, [$prefix = false, [$suffix = false]]])
+.. function:: __construct()
 
 
     Constant Processor walks through a Config structure and replaces all
     PHP constants with their respective values
 
-    :param bool $userOnly: True to process only user-defined constants, false to process all PHP constants
-    :param string $prefix: Optional prefix
-    :param string $suffix: Optional suffix
+    :param bool: True to process only user-defined constants, false to process all PHP constants
+    :param string: Optional prefix
+    :param string: Optional suffix
 
     :rtype: \Zend\Config\Processor\Constant 
 
@@ -42,12 +37,12 @@ getUserOnly
 setUserOnly
 -----------
 
-.. function:: setUserOnly($userOnly)
+.. function:: setUserOnly()
 
 
     Should we use only user-defined constants?
 
-    :param bool $userOnly: 
+    :param bool: 
 
     :rtype: Constant 
 
@@ -74,8 +69,6 @@ getTokens
     Get current token registry.
 
     :rtype: array 
-
-
 
 
 

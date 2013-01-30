@@ -1,16 +1,13 @@
-.. /Barcode/Object/Codabar.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Codabar.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Codabar
-******************************
-
+==============================
 
 Class for generate Codabar barcode
 
-
-
 Methods
-=======
++++++++
 
 calculateBarcodeWidth
 ---------------------
@@ -45,8 +42,6 @@ prepareBarcode
     Prepare array to draw barcode
 
     :rtype: array 
-
-
 
 
 

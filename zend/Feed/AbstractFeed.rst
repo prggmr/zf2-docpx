@@ -1,41 +1,38 @@
-.. /Feed/Reader/Feed/AbstractFeed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Feed/AbstractFeed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Feed\\AbstractFeed
-**************************************
-
-
-@category Zend
+======================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($domDocument, [$type = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param DOMDocument $domDocument: The DOM object for the feed's XML
-    :param string $type: Feed type
+    :param DOMDocument: The DOM object for the feed's XML
+    :param string: Feed type
 
 
 
 setOriginalSourceUri
 --------------------
 
-.. function:: setOriginalSourceUri($uri)
+.. function:: setOriginalSourceUri()
 
 
     Set an original source URI for the feed being parsed. This value
     is returned from getFeedLink() method if the feed does not carry
     a self-referencing URI.
 
-    :param string $uri: 
+    :param string: 
 
 
 
@@ -203,19 +200,19 @@ getExtensions
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
 
 getExtension
 ------------
 
-.. function:: getExtension($name)
+.. function:: getExtension()
 
 
     Return an Extension object with the matching name (postfixed with _Feed)
 
-    :param string $name: 
+    :param string: 
 
     :rtype: \Zend\Feed\Reader\Extension\AbstractFeed 
 
@@ -245,8 +242,6 @@ registerNamespaces
 
 
     Register the default namespaces for the current feed format
-
-
 
 
 

@@ -1,39 +1,36 @@
-.. /Dom/Query.php generated using docpx on 01/15/13 05:29pm
+.. Dom/Query.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Dom\\Query
-****************
-
+================
 
 Query DOM structures based on CSS selectors and/or XPath
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$document = false, [$encoding = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|string $document: 
-    :param null|string $encoding: 
+    :param null|string: 
+    :param null|string: 
 
 
 
 setEncoding
 -----------
 
-.. function:: setEncoding($encoding)
+.. function:: setEncoding()
 
 
     Set document encoding
 
-    :param string $encoding: 
+    :param string: 
 
     :rtype: Query 
 
@@ -54,13 +51,13 @@ getEncoding
 setDocument
 -----------
 
-.. function:: setDocument($document, [$encoding = false])
+.. function:: setDocument()
 
 
     Set document to query
 
-    :param string $document: 
-    :param null|string $encoding: Document encoding
+    :param string: 
+    :param null|string: Document encoding
 
     :rtype: Query 
 
@@ -69,13 +66,13 @@ setDocument
 setDocumentHtml
 ---------------
 
-.. function:: setDocumentHtml($document, [$encoding = false])
+.. function:: setDocumentHtml()
 
 
     Register HTML document
 
-    :param string $document: 
-    :param null|string $encoding: Document encoding
+    :param string: 
+    :param null|string: Document encoding
 
     :rtype: Query 
 
@@ -84,13 +81,13 @@ setDocumentHtml
 setDocumentXhtml
 ----------------
 
-.. function:: setDocumentXhtml($document, [$encoding = false])
+.. function:: setDocumentXhtml()
 
 
     Register XHTML document
 
-    :param string $document: 
-    :param null|string $encoding: Document encoding
+    :param string: 
+    :param null|string: Document encoding
 
     :rtype: Query 
 
@@ -99,13 +96,13 @@ setDocumentXhtml
 setDocumentXml
 --------------
 
-.. function:: setDocumentXml($document, [$encoding = false])
+.. function:: setDocumentXml()
 
 
     Register XML document
 
-    :param string $document: 
-    :param null|string $encoding: Document encoding
+    :param string: 
+    :param null|string: Document encoding
 
     :rtype: Query 
 
@@ -150,12 +147,12 @@ getDocumentErrors
 execute
 -------
 
-.. function:: execute($query)
+.. function:: execute()
 
 
     Perform a CSS selector query
 
-    :param string $query: 
+    :param string: 
 
     :rtype: NodeList 
 
@@ -164,13 +161,13 @@ execute
 queryXpath
 ----------
 
-.. function:: queryXpath($xpathQuery, [$query = false])
+.. function:: queryXpath()
 
 
     Perform an XPath query
 
-    :param string|array $xpathQuery: 
-    :param string|null $query: CSS selector query
+    :param string|array: 
+    :param string|null: CSS selector query
 
     :throws Exception\RuntimeException: 
 
@@ -181,12 +178,12 @@ queryXpath
 registerXpathNamespaces
 -----------------------
 
-.. function:: registerXpathNamespaces($xpathNamespaces)
+.. function:: registerXpathNamespaces()
 
 
     Register XPath namespaces
 
-    :param array $xpathNamespaces: 
+    :param array: 
 
     :rtype: void 
 
@@ -195,12 +192,12 @@ registerXpathNamespaces
 registerXpathPhpFunctions
 -------------------------
 
-.. function:: registerXpathPhpFunctions([$xpathPhpFunctions = true])
+.. function:: registerXpathPhpFunctions()
 
 
     Register PHP Functions to use in internal DOMXPath
 
-    :param bool $xpathPhpFunctions: 
+    :param bool: 
 
     :rtype: void 
 
@@ -209,13 +206,13 @@ registerXpathPhpFunctions
 getNodeList
 -----------
 
-.. function:: getNodeList($document, $xpathQuery)
+.. function:: getNodeList()
 
 
     Prepare node list
 
-    :param DOMDocument $document: 
-    :param string|array $xpathQuery: 
+    :param DOMDocument: 
+    :param string|array: 
 
     :rtype: array 
 
@@ -224,14 +221,14 @@ getNodeList
 
 
 Constants
----------
++++++++++
 
 DOC_XML
-+++++++
+=======
 
 DOC_HTML
-++++++++
+========
 
 DOC_XHTML
-+++++++++
+=========
 

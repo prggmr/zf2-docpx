@@ -1,21 +1,16 @@
-.. /Feed/PubSubHubbub/PubSubHubbub.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/PubSubHubbub.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\PubSubHubbub
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 detectHubs
 ----------
 
-.. function:: detectHubs($source)
+.. function:: detectHubs()
 
 
     Simple utility function which imports any feed URL and
@@ -23,7 +18,7 @@ detectHubs
     best if directly given an instance of Zend_Feed_Reader_Atom|Rss
     to leverage off.
 
-    :param \Zend\Feed\Reader\Feed\AbstractFeed|string $source: 
+    :param \Zend\Feed\Reader\Feed\AbstractFeed|string: 
 
     :rtype: array 
 
@@ -34,13 +29,13 @@ detectHubs
 setHttpClient
 -------------
 
-.. function:: setHttpClient($httpClient)
+.. function:: setHttpClient()
 
 
     Allows the external environment to make Zend_Oauth use a specific
     Client instance.
 
-    :param Http\Client $httpClient: 
+    :param Http\Client: 
 
     :rtype: void 
 
@@ -76,14 +71,14 @@ clearHttpClient
 setEscaper
 ----------
 
-.. function:: setEscaper([$escaper = false])
+.. function:: setEscaper()
 
 
     Set the Escaper instance
     
     If null, resets the instance
 
-    :param null|Escaper $escaper: 
+    :param null|Escaper: 
 
 
 
@@ -104,12 +99,12 @@ getEscaper
 urlencode
 ---------
 
-.. function:: urlencode($string)
+.. function:: urlencode()
 
 
     RFC 3986 safe url encoding method
 
-    :param string $string: 
+    :param string: 
 
     :rtype: string 
 
@@ -118,24 +113,24 @@ urlencode
 
 
 Constants
----------
++++++++++
 
 VERIFICATION_MODE_SYNC
-++++++++++++++++++++++
+======================
 
 Verification Modes
 
 VERIFICATION_MODE_ASYNC
-+++++++++++++++++++++++
+=======================
 
 SUBSCRIPTION_VERIFIED
-+++++++++++++++++++++
+=====================
 
 Subscription States
 
 SUBSCRIPTION_NOTVERIFIED
-++++++++++++++++++++++++
+========================
 
 SUBSCRIPTION_TODELETE
-+++++++++++++++++++++
+=====================
 

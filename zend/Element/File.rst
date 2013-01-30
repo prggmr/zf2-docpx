@@ -1,30 +1,38 @@
-.. /Form/Element/File.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/File.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\File
-*************************
+=========================
 
-
-@category   Zend
-
-
+@copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-=======
++++++++
 
 prepareElement
 --------------
 
-.. function:: prepareElement($form)
+.. function:: prepareElement()
 
 
     Prepare the form element (mostly used for rendering purposes)
 
-    :param Form $form: 
+    :param FormInterface: 
 
     :rtype: mixed 
 
 
+
+getInputSpecification
+---------------------
+
+.. function:: getInputSpecification()
+
+
+    Should return an array specification compatible with
+    {@link Zend\InputFilter\Factory::createInput()}.
+
+    :rtype: array 
 
 
 

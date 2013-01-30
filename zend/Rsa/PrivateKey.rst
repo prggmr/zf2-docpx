@@ -1,27 +1,24 @@
-.. /Crypt/PublicKey/Rsa/PrivateKey.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/PublicKey/Rsa/PrivateKey.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\PublicKey\\Rsa\\PrivateKey
-***************************************
-
+=======================================
 
 RSA private key
 
-
-
 Methods
-=======
++++++++
 
 fromFile
 --------
 
-.. function:: fromFile($pemFile, [$passPhrase = false])
+.. function:: fromFile()
 
 
     Create private key instance from PEM formatted key file
 
-    :param string $pemFile: 
-    :param string|null $passPhrase: 
+    :param string: 
+    :param string|null: 
 
     :rtype: PrivateKey 
 
@@ -32,13 +29,13 @@ fromFile
 __construct
 -----------
 
-.. function:: __construct($pemString, [$passPhrase = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $pemString: 
-    :param string $passPhrase: 
+    :param string: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -59,12 +56,12 @@ getPublicKey
 encrypt
 -------
 
-.. function:: encrypt($data)
+.. function:: encrypt()
 
 
     Encrypt using this key
 
-    :param string $data: 
+    :param string: 
 
     :rtype: string 
 
@@ -76,12 +73,12 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($data)
+.. function:: decrypt()
 
 
     Decrypt using this key
 
-    :param string $data: 
+    :param string: 
 
     :rtype: string 
 
@@ -97,8 +94,6 @@ toString
 
 
     @return string
-
-
 
 
 

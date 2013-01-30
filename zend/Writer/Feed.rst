@@ -1,16 +1,13 @@
-.. /Feed/Writer/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Feed
-************************
-
-
-@category Zend
+========================
 
 
 
 Methods
-=======
++++++++
 
 createEntry
 -----------
@@ -29,13 +26,13 @@ createEntry
 addTombstone
 ------------
 
-.. function:: addTombstone($deleted)
+.. function:: addTombstone()
 
 
     Appends a Zend\Feed\Writer\Deleted object representing a new entry tombstone
     to the feed data container's internal group of entries.
 
-    :param Deleted $deleted: 
+    :param Deleted: 
 
     :rtype: void 
 
@@ -58,13 +55,13 @@ createTombstone
 addEntry
 --------
 
-.. function:: addEntry($entry)
+.. function:: addEntry()
 
 
     Appends a Zend\Feed\Writer\Entry object representing a new entry/item
     the feed data container's internal group of entries.
 
-    :param Entry $entry: 
+    :param Entry: 
 
     :rtype: Feed 
 
@@ -73,13 +70,13 @@ addEntry
 removeEntry
 -----------
 
-.. function:: removeEntry($index)
+.. function:: removeEntry()
 
 
     Removes a specific indexed entry from the internal queue. Entries must be
     added to a feed container in order to be indexed.
 
-    :param int $index: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -90,13 +87,13 @@ removeEntry
 getEntry
 --------
 
-.. function:: getEntry([$index = false])
+.. function:: getEntry()
 
 
     Retrieve a specific indexed entry from the internal queue. Entries must be
     added to a feed container in order to be indexed.
 
-    :param int $index: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -194,19 +191,17 @@ valid
 export
 ------
 
-.. function:: export($type, [$ignoreExceptions = false])
+.. function:: export()
 
 
     Attempt to build and return the feed resulting from the data set
 
-    :param string $type: The feed type "rss" or "atom" to export as
-    :param bool $ignoreExceptions: 
+    :param string: The feed type "rss" or "atom" to export as
+    :param bool: 
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: string 
-
-
 
 
 

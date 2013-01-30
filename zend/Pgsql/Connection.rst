@@ -1,38 +1,33 @@
-.. /Db/Adapter/Driver/Pgsql/Connection.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pgsql/Connection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pgsql\\Connection
-********************************************
-
-
-@category   Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$connectionInfo = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param resource|array|null $connectionInfo: 
+    :param resource|array|null: 
 
 
 
 setConnectionParameters
 -----------------------
 
-.. function:: setConnectionParameters($connectionParameters)
+.. function:: setConnectionParameters()
 
 
     Set connection parameters
 
-    :param array $connectionParameters: 
+    :param array: 
 
     :rtype: Connection 
 
@@ -41,26 +36,48 @@ setConnectionParameters
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Pgsql $driver: 
+    :param Pgsql: 
 
     :rtype: Connection 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Connection 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 setResource
 -----------
 
-.. function:: setResource($resource)
+.. function:: setResource()
 
 
     Set resource
 
-    :param resource $resource: 
+    :param resource: 
 
     :rtype: Connection 
 
@@ -164,7 +181,7 @@ rollback
 execute
 -------
 
-.. function:: execute($sql)
+.. function:: execute()
 
 
     @param  string $sql
@@ -177,14 +194,12 @@ execute
 getLastGeneratedValue
 ---------------------
 
-.. function:: getLastGeneratedValue([$name = false])
+.. function:: getLastGeneratedValue()
 
 
     @param  null $name Ignored
 
     :rtype: string 
-
-
 
 
 

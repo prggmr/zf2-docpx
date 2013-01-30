@@ -1,16 +1,13 @@
-.. /Db/Sql/Predicate/Predicate.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Predicate/Predicate.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Predicate\\Predicate
-***********************************
-
+===================================
 
 @property Predicate $and
 
-
-
 Methods
-=======
++++++++
 
 nest
 ----
@@ -27,12 +24,12 @@ nest
 setUnnest
 ---------
 
-.. function:: setUnnest($predicate)
+.. function:: setUnnest()
 
 
     Indicate what predicate will be unnested
 
-    :param Predicate $predicate: 
+    :param Predicate: 
 
     :rtype: void 
 
@@ -55,17 +52,17 @@ unnest
 equalTo
 -------
 
-.. function:: equalTo($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: equalTo()
 
 
     Create "Equal To" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -74,17 +71,17 @@ equalTo
 notEqualTo
 ----------
 
-.. function:: notEqualTo($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: notEqualTo()
 
 
     Create "Not Equal To" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -93,17 +90,17 @@ notEqualTo
 lessThan
 --------
 
-.. function:: lessThan($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: lessThan()
 
 
     Create "Less Than" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -112,17 +109,17 @@ lessThan
 greaterThan
 -----------
 
-.. function:: greaterThan($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: greaterThan()
 
 
     Create "Greater Than" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -131,17 +128,17 @@ greaterThan
 lessThanOrEqualTo
 -----------------
 
-.. function:: lessThanOrEqualTo($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: lessThanOrEqualTo()
 
 
     Create "Less Than Or Equal To" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -150,17 +147,17 @@ lessThanOrEqualTo
 greaterThanOrEqualTo
 --------------------
 
-.. function:: greaterThanOrEqualTo($left, $right, [$leftType = "identifier", [$rightType = "value"]])
+.. function:: greaterThanOrEqualTo()
 
 
     Create "Greater Than Or Equal To" predicate
     
     Utilizes Operator predicate
 
-    :param int|float|bool|string $left: 
-    :param int|float|bool|string $right: 
-    :param string $leftType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
-    :param string $rightType: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
+    :param int|float|bool|string: 
+    :param int|float|bool|string: 
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_IDENTIFIER {@see allowedTypes}
+    :param string: TYPE_IDENTIFIER or TYPE_VALUE by default TYPE_VALUE {@see allowedTypes}
 
     :rtype: Predicate 
 
@@ -169,32 +166,39 @@ greaterThanOrEqualTo
 like
 ----
 
-.. function:: like($identifier, $like)
+.. function:: like()
 
 
     Create "Like" predicate
     
     Utilizes Like predicate
 
-    :param string $identifier: 
-    :param string $like: 
+    :param string: 
+    :param string: 
 
     :rtype: Predicate 
+
+
+
+expression
+----------
+
+.. function:: expression()
 
 
 
 literal
 -------
 
-.. function:: literal($literal, $parameter)
+.. function:: literal()
 
 
     Create "Literal" predicate
     
     Utilizes Like predicate
 
-    :param string $literal: 
-    :param int|float|bool|string|array $parameter: 
+    :param string: 
+    :param int|float|bool|string|array: 
 
     :rtype: Predicate 
 
@@ -203,14 +207,14 @@ literal
 isNull
 ------
 
-.. function:: isNull($identifier)
+.. function:: isNull()
 
 
     Create "IS NULL" predicate
     
     Utilizes IsNull predicate
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: Predicate 
 
@@ -219,14 +223,14 @@ isNull
 isNotNull
 ---------
 
-.. function:: isNotNull($identifier)
+.. function:: isNotNull()
 
 
     Create "IS NOT NULL" predicate
     
     Utilizes IsNotNull predicate
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: Predicate 
 
@@ -235,15 +239,15 @@ isNotNull
 in
 --
 
-.. function:: in($identifier, [$valueSet = false])
+.. function:: in()
 
 
     Create "in" predicate
     
     Utilizes In predicate
 
-    :param string $identifier: 
-    :param array|Select $valueSet: 
+    :param string: 
+    :param array|Select: 
 
     :rtype: Predicate 
 
@@ -252,16 +256,16 @@ in
 between
 -------
 
-.. function:: between($identifier, $minValue, $maxValue)
+.. function:: between()
 
 
     Create "between" predicate
     
     Utilizes Between predicate
 
-    :param string $identifier: 
-    :param int|float|string $minValue: 
-    :param int|float|string $maxValue: 
+    :param string: 
+    :param int|float|string: 
+    :param int|float|string: 
 
     :rtype: Predicate 
 
@@ -270,18 +274,16 @@ between
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Overloading
     
     Overloads "or", "and", "nest", and "unnest"
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Predicate 
-
-
 
 
 

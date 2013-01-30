@@ -1,16 +1,11 @@
-.. /Code/Reflection/DocBlock/Tag/PropertyTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/PropertyTag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\PropertyTag
-**************************************************
-
-
-@category   Zend
-
-
+==================================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -25,12 +20,12 @@ getName
 initialize
 ----------
 
-.. function:: initialize($tagDocblockLine)
+.. function:: initialize()
 
 
     Initializer
 
-    :param string $tagDocblockLine: 
+    :param string: 
 
 
 
@@ -40,9 +35,15 @@ getType
 .. function:: getType()
 
 
-    Get property variable type
+    @return null|string
 
-    :rtype: null|string 
+
+
+
+getTypes
+--------
+
+.. function:: getTypes()
 
 
 
@@ -52,9 +53,7 @@ getPropertyName
 .. function:: getPropertyName()
 
 
-    Get property name
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -64,9 +63,7 @@ getDescription
 .. function:: getDescription()
 
 
-    Get property description
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -74,8 +71,6 @@ __toString
 ----------
 
 .. function:: __toString()
-
-
 
 
 

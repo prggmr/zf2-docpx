@@ -1,29 +1,24 @@
-.. /Cache/Storage/Capabilities.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Capabilities.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Capabilities
-**********************************
-
-
-@category   Zend
-
-
+==================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($storage, $marker, [$capabilities = false, [$baseCapabilities = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param StorageInterface $storage: 
-    :param stdClass $marker: 
-    :param array $capabilities: 
-    :param null|Capabilities $baseCapabilities: 
+    :param StorageInterface: 
+    :param stdClass: 
+    :param array: 
+    :param null|Capabilities: 
 
 
 
@@ -54,13 +49,13 @@ getSupportedDatatypes
 setSupportedDatatypes
 ---------------------
 
-.. function:: setSupportedDatatypes($marker, $datatypes)
+.. function:: setSupportedDatatypes()
 
 
     Set supported datatypes
 
-    :param stdClass $marker: 
-    :param array $datatypes: 
+    :param stdClass: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -83,13 +78,13 @@ getSupportedMetadata
 setSupportedMetadata
 --------------------
 
-.. function:: setSupportedMetadata($marker, $metadata)
+.. function:: setSupportedMetadata()
 
 
     Set supported metadata
 
-    :param stdClass $marker: 
-    :param string[] $metadata: 
+    :param stdClass: 
+    :param string[]: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -112,13 +107,13 @@ getMinTtl
 setMinTtl
 ---------
 
-.. function:: setMinTtl($marker, $minTtl)
+.. function:: setMinTtl()
 
 
     Set minimum supported time-to-live
 
-    :param stdClass $marker: 
-    :param int $minTtl: 
+    :param stdClass: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -141,13 +136,13 @@ getMaxTtl
 setMaxTtl
 ---------
 
-.. function:: setMaxTtl($marker, $maxTtl)
+.. function:: setMaxTtl()
 
 
     Set maximum supported time-to-live
 
-    :param stdClass $marker: 
-    :param int $maxTtl: 
+    :param stdClass: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -171,13 +166,13 @@ getStaticTtl
 setStaticTtl
 ------------
 
-.. function:: setStaticTtl($marker, $flag)
+.. function:: setStaticTtl()
 
 
     Set if the time-to-live handled static (on write) or dynamic (on read)
 
-    :param stdClass $marker: 
-    :param bool $flag: 
+    :param stdClass: 
+    :param bool: 
 
     :rtype: Capabilities Fluent interface
 
@@ -198,13 +193,13 @@ getTtlPrecision
 setTtlPrecision
 ---------------
 
-.. function:: setTtlPrecision($marker, $ttlPrecision)
+.. function:: setTtlPrecision()
 
 
     Set time-to-live precision
 
-    :param stdClass $marker: 
-    :param float $ttlPrecision: 
+    :param stdClass: 
+    :param float: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -227,13 +222,13 @@ getUseRequestTime
 setUseRequestTime
 -----------------
 
-.. function:: setUseRequestTime($marker, $flag)
+.. function:: setUseRequestTime()
 
 
     Set use request time
 
-    :param stdClass $marker: 
-    :param bool $flag: 
+    :param stdClass: 
+    :param bool: 
 
     :rtype: Capabilities Fluent interface
 
@@ -254,13 +249,13 @@ getExpiredRead
 setExpiredRead
 --------------
 
-.. function:: setExpiredRead($marker, $flag)
+.. function:: setExpiredRead()
 
 
     Set if expired items are readable
 
-    :param stdClass $marker: 
-    :param bool $flag: 
+    :param stdClass: 
+    :param bool: 
 
     :rtype: Capabilities Fluent interface
 
@@ -281,13 +276,13 @@ getMaxKeyLength
 setMaxKeyLength
 ---------------
 
-.. function:: setMaxKeyLength($marker, $maxKeyLength)
+.. function:: setMaxKeyLength()
 
 
     Set maximum key length
 
-    :param stdClass $marker: 
-    :param int $maxKeyLength: 
+    :param stdClass: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -310,13 +305,13 @@ getNamespaceIsPrefix
 setNamespaceIsPrefix
 --------------------
 
-.. function:: setNamespaceIsPrefix($marker, $flag)
+.. function:: setNamespaceIsPrefix()
 
 
     Set if namespace support is implemented as prefix
 
-    :param stdClass $marker: 
-    :param bool $flag: 
+    :param stdClass: 
+    :param bool: 
 
     :rtype: Capabilities Fluent interface
 
@@ -337,13 +332,13 @@ getNamespaceSeparator
 setNamespaceSeparator
 ---------------------
 
-.. function:: setNamespaceSeparator($marker, $separator)
+.. function:: setNamespaceSeparator()
 
 
     Set the namespace separator if namespace is implemented as prefix
 
-    :param stdClass $marker: 
-    :param string $separator: 
+    :param stdClass: 
+    :param string: 
 
     :rtype: Capabilities Fluent interface
 
@@ -352,13 +347,13 @@ setNamespaceSeparator
 getCapability
 -------------
 
-.. function:: getCapability($property, [$default = false])
+.. function:: getCapability()
 
 
     Get a capability
 
-    :param string $property: 
-    :param mixed $default: 
+    :param string: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -367,20 +362,18 @@ getCapability
 setCapability
 -------------
 
-.. function:: setCapability($marker, $property, $value)
+.. function:: setCapability()
 
 
     Change a capability
 
-    :param stdClass $marker: 
-    :param string $property: 
-    :param mixed $value: 
+    :param stdClass: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Capabilities Fluent interface
 
     :throws: Exception\InvalidArgumentException 
-
-
 
 
 

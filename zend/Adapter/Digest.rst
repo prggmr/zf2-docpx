@@ -1,29 +1,24 @@
-.. /Authentication/Adapter/Digest.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Adapter/Digest.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Adapter\\Digest
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$filename = false, [$realm = false, [$username = false, [$password = false]]]])
+.. function:: __construct()
 
 
     Sets adapter options
 
-    :param mixed $filename: 
-    :param mixed $realm: 
-    :param mixed $username: 
-    :param mixed $password: 
+    :param mixed: 
+    :param mixed: 
+    :param mixed: 
+    :param mixed: 
 
 
 
@@ -42,12 +37,12 @@ getFilename
 setFilename
 -----------
 
-.. function:: setFilename($filename)
+.. function:: setFilename()
 
 
     Sets the filename option value
 
-    :param mixed $filename: 
+    :param mixed: 
 
     :rtype: Digest Provides a fluent interface
 
@@ -68,12 +63,12 @@ getRealm
 setRealm
 --------
 
-.. function:: setRealm($realm)
+.. function:: setRealm()
 
 
     Sets the realm option value
 
-    :param mixed $realm: 
+    :param mixed: 
 
     :rtype: Digest Provides a fluent interface
 
@@ -94,12 +89,12 @@ getUsername
 setUsername
 -----------
 
-.. function:: setUsername($username)
+.. function:: setUsername()
 
 
     Sets the username option value
 
-    :param mixed $username: 
+    :param mixed: 
 
     :rtype: Digest Provides a fluent interface
 
@@ -120,12 +115,12 @@ getPassword
 setPassword
 -----------
 
-.. function:: setPassword($password)
+.. function:: setPassword()
 
 
     Sets the password option value
 
-    :param mixed $password: 
+    :param mixed: 
 
     :rtype: Digest Provides a fluent interface
 
@@ -147,7 +142,7 @@ authenticate
 _secureStringCompare
 --------------------
 
-.. function:: _secureStringCompare($a, $b)
+.. function:: _secureStringCompare()
 
 
     Securely compare two strings for equality while avoided C level memcmp()
@@ -155,12 +150,10 @@ _secureStringCompare
     attempting to iteratively guess the unknown string (e.g. password) being
     compared against.
 
-    :param string $a: 
-    :param string $b: 
+    :param string: 
+    :param string: 
 
     :rtype: bool 
-
-
 
 
 

@@ -1,39 +1,36 @@
-.. /Crypt/BlockCipher.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/BlockCipher.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\BlockCipher
-************************
-
+========================
 
 Encrypt using a symmetric cipher then authenticate using HMAC (SHA-256)
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($cipher)
+.. function:: __construct()
 
 
     Constructor
 
-    :param SymmetricInterface $cipher: 
+    :param SymmetricInterface: 
 
 
 
 factory
 -------
 
-.. function:: factory($adapter, [$options = false])
+.. function:: factory()
 
 
     Factory.
 
-    :param string $adapter: 
-    :param array $options: 
+    :param string: 
+    :param array: 
 
     :rtype: BlockCipher 
 
@@ -54,12 +51,12 @@ getSymmetricPluginManager
 setSymmetricPluginManager
 -------------------------
 
-.. function:: setSymmetricPluginManager($plugins)
+.. function:: setSymmetricPluginManager()
 
 
     Set the symmetric cipher plugin manager
 
-    :param string|SymmetricPluginManager $plugins: 
+    :param string|SymmetricPluginManager: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -68,12 +65,12 @@ setSymmetricPluginManager
 setCipher
 ---------
 
-.. function:: setCipher($cipher)
+.. function:: setCipher()
 
 
     Set the symmetric cipher
 
-    :param SymmetricInterface $cipher: 
+    :param SymmetricInterface: 
 
     :rtype: BlockCipher 
 
@@ -94,12 +91,12 @@ getCipher
 setKeyIteration
 ---------------
 
-.. function:: setKeyIteration($num)
+.. function:: setKeyIteration()
 
 
     Set the number of iterations for Pbkdf2
 
-    :param integer $num: 
+    :param integer: 
 
     :rtype: BlockCipher 
 
@@ -120,12 +117,12 @@ getKeyIteration
 setSalt
 -------
 
-.. function:: setSalt($salt)
+.. function:: setSalt()
 
 
     Set the salt (IV)
 
-    :param string $salt: 
+    :param string: 
 
     :rtype: BlockCipher 
 
@@ -139,21 +136,33 @@ getSalt
 .. function:: getSalt()
 
 
-    Get the salt (IV)
+    Get the salt (IV) according to the size requested by the algorithm
 
     :rtype: string 
+
+
+
+getOriginalSalt
+---------------
+
+.. function:: getOriginalSalt()
+
+
+    Get the original salt value
+
+    :rtype: type 
 
 
 
 setBinaryOutput
 ---------------
 
-.. function:: setBinaryOutput($value)
+.. function:: setBinaryOutput()
 
 
     Enable/disable the binary output
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: BlockCipher 
 
@@ -174,12 +183,12 @@ getBinaryOutput
 setKey
 ------
 
-.. function:: setKey($key)
+.. function:: setKey()
 
 
     Set the encryption/decryption key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: BlockCipher 
 
@@ -202,12 +211,12 @@ getKey
 setCipherAlgorithm
 ------------------
 
-.. function:: setCipherAlgorithm($algo)
+.. function:: setCipherAlgorithm()
 
 
     Set algorithm of the symmetric cipher
 
-    :param string $algo: 
+    :param string: 
 
     :rtype: BlockCipher 
 
@@ -242,12 +251,12 @@ getCipherSupportedAlgorithms
 setHashAlgorithm
 ----------------
 
-.. function:: setHashAlgorithm($hash)
+.. function:: setHashAlgorithm()
 
 
     Set the hash algorithm for HMAC authentication
 
-    :param string $hash: 
+    :param string: 
 
     :rtype: BlockCipher 
 
@@ -270,12 +279,12 @@ getHashAlgorithm
 encrypt
 -------
 
-.. function:: encrypt($data)
+.. function:: encrypt()
 
 
     Encrypt then authenticate using HMAC
 
-    :param string $data: 
+    :param string: 
 
     :rtype: string 
 
@@ -286,12 +295,12 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($data)
+.. function:: decrypt()
 
 
     Decrypt
 
-    :param string $data: 
+    :param string: 
 
     :rtype: string|bool 
 
@@ -302,8 +311,8 @@ decrypt
 
 
 Constants
----------
++++++++++
 
 KEY_DERIV_HMAC
-++++++++++++++
+==============
 

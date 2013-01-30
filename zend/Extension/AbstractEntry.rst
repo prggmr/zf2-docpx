@@ -1,28 +1,23 @@
-.. /Feed/Reader/Extension/AbstractEntry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/AbstractEntry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\AbstractEntry
-********************************************
-
-
-@category Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 setEntryElement
 ---------------
 
-.. function:: setEntryElement($entry)
+.. function:: setEntryElement()
 
 
     Set the entry DOMElement
     
     Has side effect of setting the DOMDocument for the entry.
 
-    :param DOMElement $entry: 
+    :param DOMElement: 
 
     :rtype: AbstractEntry 
 
@@ -43,12 +38,12 @@ getEntryElement
 setEntryKey
 -----------
 
-.. function:: setEntryKey($entryKey)
+.. function:: setEntryKey()
 
 
     Set the entry key
 
-    :param string $entryKey: 
+    :param string: 
 
     :rtype: AbstractEntry 
 
@@ -81,14 +76,14 @@ getEncoding
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the entry type
     
     Has side effect of setting xpath prefix
 
-    :param string $type: 
+    :param string: 
 
     :rtype: AbstractEntry 
 
@@ -109,12 +104,12 @@ getType
 setXpath
 --------
 
-.. function:: setXpath($xpath)
+.. function:: setXpath()
 
 
     Set the XPath query
 
-    :param DOMXPath $xpath: 
+    :param DOMXPath: 
 
     :rtype: AbstractEntry 
 
@@ -159,12 +154,12 @@ getXpathPrefix
 setXpathPrefix
 --------------
 
-.. function:: setXpathPrefix($prefix)
+.. function:: setXpathPrefix()
 
 
     Set the XPath prefix
 
-    :param string $prefix: 
+    :param string: 
 
     :rtype: AbstractEntry 
 
@@ -179,8 +174,6 @@ registerNamespaces
     Register XML namespaces
 
     :rtype: void 
-
-
 
 
 

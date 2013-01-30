@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormButton.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormButton.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormButton
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 openTag
 -------
 
-.. function:: openTag([$attributesOrElement = false])
+.. function:: openTag()
 
 
     Generate an opening button tag
 
-    :param null|array|ElementInterface $attributesOrElement: 
+    :param null|array|ElementInterface: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\DomainException: 
@@ -44,14 +39,14 @@ closeTag
 render
 ------
 
-.. function:: render($element, [$buttonContent = false])
+.. function:: render()
 
 
     Render a form <button> element from the provided $element,
     using content from $buttonContent or the element's "label" attribute
 
-    :param ElementInterface $element: 
-    :param null|string $buttonContent: 
+    :param ElementInterface: 
+    :param null|string: 
 
     :throws Exception\DomainException: 
 
@@ -62,15 +57,15 @@ render
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$buttonContent = false]])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface|null $element: 
-    :param null|string $buttonContent: 
+    :param ElementInterface|null: 
+    :param null|string: 
 
     :rtype: string|FormButton 
 
@@ -79,16 +74,14 @@ __invoke
 getType
 -------
 
-.. function:: getType($element)
+.. function:: getType()
 
 
     Determine button type to use
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
-
-
 
 
 

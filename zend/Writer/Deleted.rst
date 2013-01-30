@@ -1,21 +1,18 @@
-.. /Feed/Writer/Deleted.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Deleted.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Deleted
-***************************
-
-
-@category Zend
+===========================
 
 
 
 Methods
-=======
++++++++
 
 setEncoding
 -----------
 
-.. function:: setEncoding($encoding)
+.. function:: setEncoding()
 
 
     Set the feed character encoding
@@ -44,12 +41,12 @@ getEncoding
 remove
 ------
 
-.. function:: remove($name)
+.. function:: remove()
 
 
     Unset a specific data point
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Deleted 
 
@@ -58,14 +55,14 @@ remove
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the current feed type being exported to "rss" or "atom". This allows
     other objects to gracefully choose whether to execute or not, depending
     on their appropriateness for the current type, e.g. renderers.
 
-    :param string $type: 
+    :param string: 
 
     :rtype: Deleted 
 
@@ -86,7 +83,7 @@ getType
 setReference
 ------------
 
-.. function:: setReference($reference)
+.. function:: setReference()
 
 
     Set reference
@@ -112,12 +109,12 @@ getReference
 setWhen
 -------
 
-.. function:: setWhen([$date = false])
+.. function:: setWhen()
 
 
     Set when
 
-    :param null|string|DateTime $date: 
+    :param null|string|DateTime: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -138,12 +135,12 @@ getWhen
 setBy
 -----
 
-.. function:: setBy($by)
+.. function:: setBy()
 
 
     Set by
 
-    :param array $by: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -164,7 +161,7 @@ getBy
 setComment
 ----------
 
-.. function:: setComment($comment)
+.. function:: setComment()
 
 
     @param string $comment
@@ -180,8 +177,6 @@ getComment
 
 
     @return string
-
-
 
 
 

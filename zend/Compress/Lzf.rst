@@ -1,26 +1,23 @@
-.. /Filter/Compress/Lzf.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/Lzf.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\Lzf
-***************************
-
+===========================
 
 Compression adapter for Lzf
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param null $options: 
+    :param null: 
 
     :throws Exception\ExtensionNotLoadedException: if lzf extension missing
 
@@ -29,12 +26,12 @@ __construct
 compress
 --------
 
-.. function:: compress($content)
+.. function:: compress()
 
 
     Compresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -45,12 +42,12 @@ compress
 decompress
 ----------
 
-.. function:: decompress($content)
+.. function:: decompress()
 
 
     Decompresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -67,8 +64,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

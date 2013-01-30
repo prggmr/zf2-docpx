@@ -1,26 +1,21 @@
-.. /Db/Adapter/Driver/Sqlsrv/Connection.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Sqlsrv/Connection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Sqlsrv\\Connection
-*********************************************
-
-
-@category   Zend
-
-
+=============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($connectionInfo)
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|resource $connectionInfo: 
+    :param array|resource: 
 
     :throws \Zend\Db\Adapter\Exception\InvalidArgumentException: 
 
@@ -29,26 +24,48 @@ __construct
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     Set driver
 
-    :param Sqlsrv $driver: 
+    :param Sqlsrv: 
 
     :rtype: Connection 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Connection 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 setConnectionParameters
 -----------------------
 
-.. function:: setConnectionParameters($connectionParameters)
+.. function:: setConnectionParameters()
 
 
     Set connection parameters
 
-    :param array $connectionParameters: 
+    :param array: 
 
     :rtype: Connection 
 
@@ -81,12 +98,12 @@ getCurrentSchema
 setResource
 -----------
 
-.. function:: setResource($resource)
+.. function:: setResource()
 
 
     Set resource
 
-    :param resource $resource: 
+    :param resource: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -172,12 +189,12 @@ rollback
 execute
 -------
 
-.. function:: execute($sql)
+.. function:: execute()
 
 
     Execute
 
-    :param string $sql: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -188,12 +205,12 @@ execute
 prepare
 -------
 
-.. function:: prepare($sql)
+.. function:: prepare()
 
 
     Prepare
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: string 
 
@@ -202,16 +219,14 @@ prepare
 getLastGeneratedValue
 ---------------------
 
-.. function:: getLastGeneratedValue([$name = false])
+.. function:: getLastGeneratedValue()
 
 
     Get last generated id
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
-
-
 
 
 

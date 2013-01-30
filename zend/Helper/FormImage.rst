@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormImage.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormImage.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormImage
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a form <input> element from the provided $element
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
@@ -31,16 +26,14 @@ render
 getType
 -------
 
-.. function:: getType($element)
+.. function:: getType()
 
 
     Determine input type to use
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
-
-
 
 
 

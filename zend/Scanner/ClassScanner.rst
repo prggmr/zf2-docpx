@@ -1,24 +1,21 @@
-.. /Code/Scanner/ClassScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/ClassScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\ClassScanner
-*********************************
-
-
+=================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($classTokens, [$nameInformation = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  array $classTokens
 
-    :param array $classTokens: 
-    :param NameInformation|null $nameInformation: 
+    :param NameInformation|null: 
 
     :rtype: ClassScanner 
 
@@ -32,7 +29,9 @@ getAnnotations
 
     Get annotations
 
-    :rtype: array 
+    :param Annotation\AnnotationManager: 
+
+    :rtype: Annotation\AnnotationCollection 
 
 
 
@@ -42,9 +41,7 @@ getDocComment
 .. function:: getDocComment()
 
 
-    Get doc comment
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -54,9 +51,7 @@ getDocBlock
 .. function:: getDocBlock()
 
 
-    Get doc block
-
-    :rtype: false|DocBlockScanner 
+    @return false|DocBlockScanner
 
 
 
@@ -66,9 +61,7 @@ getName
 .. function:: getName()
 
 
-    Get name
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -78,9 +71,7 @@ getShortName
 .. function:: getShortName()
 
 
-    Get short name
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -90,9 +81,7 @@ getLineStart
 .. function:: getLineStart()
 
 
-    Get line start
-
-    :rtype: int|null 
+    @return int|null
 
 
 
@@ -102,9 +91,7 @@ getLineEnd
 .. function:: getLineEnd()
 
 
-    Get line end
-
-    :rtype: int|null 
+    @return int|null
 
 
 
@@ -114,9 +101,7 @@ isFinal
 .. function:: isFinal()
 
 
-    Check for final
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -126,9 +111,7 @@ isInstantiable
 .. function:: isInstantiable()
 
 
-    Check for instantiable
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -138,9 +121,7 @@ isAbstract
 .. function:: isAbstract()
 
 
-    Check for abstract
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -150,9 +131,7 @@ isInterface
 .. function:: isInterface()
 
 
-    Check for interface
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -162,9 +141,7 @@ hasParentClass
 .. function:: hasParentClass()
 
 
-    Has parent class
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -174,9 +151,7 @@ getParentClass
 .. function:: getParentClass()
 
 
-    Get parent class
-
-    :rtype: null|string 
+    @return null|string
 
 
 
@@ -186,9 +161,7 @@ getInterfaces
 .. function:: getInterfaces()
 
 
-    Get interfaces
-
-    :rtype: string[] 
+    @return array
 
 
 
@@ -198,9 +171,7 @@ getConstants
 .. function:: getConstants()
 
 
-    Get constants
-
-    :rtype: array 
+    @return array
 
 
 
@@ -210,7 +181,7 @@ getPropertyNames
 .. function:: getPropertyNames()
 
 
-    Get property names
+    Returns a list of property names
 
     :rtype: array 
 
@@ -222,9 +193,16 @@ getProperties
 .. function:: getProperties()
 
 
-    Get properties
+    Returns a list of properties
 
     :rtype: array 
+
+
+
+getProperty
+-----------
+
+.. function:: getProperty()
 
 
 
@@ -234,9 +212,7 @@ getMethodNames
 .. function:: getMethodNames()
 
 
-    Get method names
-
-    :rtype: array 
+    @return array
 
 
 
@@ -246,23 +222,18 @@ getMethods
 .. function:: getMethods()
 
 
-    Get methods
-
-    :rtype: MethodScanner[] 
+    @return MethodScanner[]
 
 
 
 getMethod
 ---------
 
-.. function:: getMethod($methodNameOrInfoIndex)
+.. function:: getMethod()
 
 
-    Get method
+    @param  string|int $methodNameOrInfoIndex
 
-    :param string|int $methodNameOrInfoIndex: 
-
-    :throws Exception\InvalidArgumentException: 
 
     :rtype: MethodScanner 
 
@@ -271,12 +242,10 @@ getMethod
 hasMethod
 ---------
 
-.. function:: hasMethod($name)
+.. function:: hasMethod()
 
 
-    Has method
-
-    :param string $name: 
+    @param  string $name
 
     :rtype: bool 
 
@@ -286,9 +255,6 @@ export
 ------
 
 .. function:: export()
-
-
-    Export
 
 
 
@@ -305,29 +271,7 @@ scan
 .. function:: scan()
 
 
-    Scan
-
-    :rtype: void 
-
-    :throws: Exception\RuntimeException 
-
-
-
-use
----
-
-.. function:: use()
-
-
-    Variables & Setup
-
-
-
-use
----
-
-.. function:: use()
-
+    @return void
 
 
 

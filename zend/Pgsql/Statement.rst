@@ -1,21 +1,16 @@
-.. /Db/Adapter/Driver/Pgsql/Statement.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pgsql/Statement.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pgsql\\Statement
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 setDriver
 ---------
 
-.. function:: setDriver($driver)
+.. function:: setDriver()
 
 
     @param  Pgsql $driver
@@ -24,15 +19,37 @@ setDriver
 
 
 
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Statement 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
+
+
+
 initialize
 ----------
 
-.. function:: initialize($pgsql)
+.. function:: initialize()
 
 
     Initialize
 
-    :param resource $pgsql: 
+    :param resource: 
 
     :rtype: void 
 
@@ -55,12 +72,12 @@ getResource
 setSql
 ------
 
-.. function:: setSql($sql)
+.. function:: setSql()
 
 
     Set sql
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: Statement 
 
@@ -81,12 +98,12 @@ getSql
 setParameterContainer
 ---------------------
 
-.. function:: setParameterContainer($parameterContainer)
+.. function:: setParameterContainer()
 
 
     Set parameter container
 
-    :param ParameterContainer $parameterContainer: 
+    :param ParameterContainer: 
 
     :rtype: Statement 
 
@@ -107,19 +124,12 @@ getParameterContainer
 prepare
 -------
 
-.. function:: prepare([$sql = false])
+.. function:: prepare()
 
 
     Prepare
 
-    :param string $sql: 
-
-
-
-$foo
-----
-
-.. function:: $foo()
+    :param string: 
 
 
 
@@ -138,18 +148,16 @@ isPrepared
 execute
 -------
 
-.. function:: execute([$parameters = false])
+.. function:: execute()
 
 
     Execute
 
-    :param ParameterContainer|null $parameters: 
+    :param ParameterContainer|null: 
 
     :throws Exception\InvalidQueryException: 
 
     :rtype: Result 
-
-
 
 
 

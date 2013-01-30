@@ -1,50 +1,43 @@
-.. /Crypt/PublicKey/DiffieHellman.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/PublicKey/DiffieHellman.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\PublicKey\\DiffieHellman
-*************************************
-
+=====================================
 
 PHP implementation of the Diffie-Hellman public key encryption algorithm.
 Allows two unassociated parties to establish a joint shared secret key
 to be used in encrypting subsequent communications.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($prime, $generator, [$privateKey = false, [$privateKeyFormat = "number"]])
+.. function:: __construct()
 
 
     Constructor; if set construct the object using the parameter array to
     set values for Prime, Generator and Private.
     If a Private Key is not set, one will be generated at random.
 
-    :param string $prime: 
-    :param string $generator: 
-    :param string $privateKey: 
-    :param string $privateKeyFormat: 
+    :param string: 
+    :param string: 
+    :param string: 
+    :param string: 
 
 
 
 useOpensslExtension
 -------------------
 
-.. function:: useOpensslExtension([$flag = true])
+.. function:: useOpensslExtension()
 
 
     Set whether to use openssl extension
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param bool $flag: 
+    :param bool: 
 
 
 
@@ -66,13 +59,13 @@ generateKeys
 setPublicKey
 ------------
 
-.. function:: setPublicKey($number, [$format = "number"])
+.. function:: setPublicKey()
 
 
     Setter for the value of the public number
 
-    :param string $number: 
-    :param string $format: 
+    :param string: 
+    :param string: 
 
     :rtype: DiffieHellman 
 
@@ -83,12 +76,12 @@ setPublicKey
 getPublicKey
 ------------
 
-.. function:: getPublicKey([$format = "number"])
+.. function:: getPublicKey()
 
 
     Returns own public key for communication to the second party to this transaction
 
-    :param string $format: 
+    :param string: 
 
     :rtype: string 
 
@@ -99,7 +92,7 @@ getPublicKey
 computeSecretKey
 ----------------
 
-.. function:: computeSecretKey($publicKey, [$publicKeyFormat = "number", [$secretKeyFormat = "number"]])
+.. function:: computeSecretKey()
 
 
     Compute the shared secret key based on the public key received from the
@@ -112,9 +105,9 @@ computeSecretKey
     If you need the binary form of the shared secret key, call
     getSharedSecretKey() with the optional parameter for Binary output.
 
-    :param string $publicKey: 
-    :param string $publicKeyFormat: 
-    :param string $secretKeyFormat: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
 
@@ -126,12 +119,12 @@ computeSecretKey
 getSharedSecretKey
 ------------------
 
-.. function:: getSharedSecretKey([$format = "number"])
+.. function:: getSharedSecretKey()
 
 
     Return the computed shared secret key from the DiffieHellman transaction
 
-    :param string $format: 
+    :param string: 
 
     :rtype: string 
 
@@ -142,12 +135,12 @@ getSharedSecretKey
 setPrime
 --------
 
-.. function:: setPrime($number)
+.. function:: setPrime()
 
 
     Setter for the value of the prime number
 
-    :param string $number: 
+    :param string: 
 
     :rtype: DiffieHellman 
 
@@ -158,12 +151,12 @@ setPrime
 getPrime
 --------
 
-.. function:: getPrime([$format = "number"])
+.. function:: getPrime()
 
 
     Getter for the value of the prime number
 
-    :param string $format: 
+    :param string: 
 
     :rtype: string 
 
@@ -174,12 +167,12 @@ getPrime
 setGenerator
 ------------
 
-.. function:: setGenerator($number)
+.. function:: setGenerator()
 
 
     Setter for the value of the generator number
 
-    :param string $number: 
+    :param string: 
 
     :rtype: DiffieHellman 
 
@@ -190,12 +183,12 @@ setGenerator
 getGenerator
 ------------
 
-.. function:: getGenerator([$format = "number"])
+.. function:: getGenerator()
 
 
     Getter for the value of the generator number
 
-    :param string $format: 
+    :param string: 
 
     :rtype: string 
 
@@ -206,13 +199,13 @@ getGenerator
 setPrivateKey
 -------------
 
-.. function:: setPrivateKey($number, [$format = "number"])
+.. function:: setPrivateKey()
 
 
     Setter for the value of the private number
 
-    :param string $number: 
-    :param string $format: 
+    :param string: 
+    :param string: 
 
     :rtype: DiffieHellman 
 
@@ -223,12 +216,12 @@ setPrivateKey
 getPrivateKey
 -------------
 
-.. function:: getPrivateKey([$format = "number"])
+.. function:: getPrivateKey()
 
 
     Getter for the value of the private number
 
-    :param string $format: 
+    :param string: 
 
     :rtype: string 
 
@@ -249,14 +242,14 @@ hasPrivateKey
 convert
 -------
 
-.. function:: convert($number, [$inputFormat = "number", [$outputFormat = "binary"]])
+.. function:: convert()
 
 
     Convert number between formats
 
     :param $number: 
-    :param string $inputFormat: 
-    :param string $outputFormat: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
 
@@ -281,19 +274,19 @@ generatePrivateKey
 
 
 Constants
----------
++++++++++
 
 DEFAULT_KEY_SIZE
-++++++++++++++++
+================
 
 FORMAT_BINARY
-+++++++++++++
+=============
 
 Key formats
 
 FORMAT_NUMBER
-+++++++++++++
+=============
 
 FORMAT_BTWOC
-++++++++++++
+============
 

@@ -1,31 +1,29 @@
-.. /Db/Sql/Expression.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Expression.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Expression
-*************************
-
-
+=========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$expression = false, [$parameters = false, [$types = false]]])
+.. function:: __construct()
 
 
     @param string $expression
 
-    :param string|array $parameters: 
-    :param array $types: 
+    :param string|array: 
+    :param array: 
 
 
 
 setExpression
 -------------
 
-.. function:: setExpression($expression)
+.. function:: setExpression()
 
 
     @param $expression
@@ -49,7 +47,7 @@ getExpression
 setParameters
 -------------
 
-.. function:: setParameters($parameters)
+.. function:: setParameters()
 
 
     @param $parameters
@@ -73,7 +71,7 @@ getParameters
 setTypes
 --------
 
-.. function:: setTypes($types)
+.. function:: setTypes()
 
 
     @param array $types
@@ -106,10 +104,10 @@ getExpressionData
 
 
 Constants
----------
++++++++++
 
 PLACEHOLDER
-+++++++++++
+===========
 
 @const
 

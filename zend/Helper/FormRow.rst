@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormRow.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormRow.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormRow
-*********************************
-
-
-@category   Zend
-
-
+=================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Utility form helper that renders a label (if it exists), an element and errors
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
 
@@ -31,16 +26,16 @@ render
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$labelPosition = false, [$renderErrors = false]]])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param null|ElementInterface $element: 
-    :param null|string $labelPosition: 
-    :param bool $renderErrors: 
+    :param null|ElementInterface: 
+    :param null|string: 
+    :param bool: 
 
     :rtype: string|FormRow 
 
@@ -49,7 +44,7 @@ __invoke
 setLabelPosition
 ----------------
 
-.. function:: setLabelPosition($labelPosition)
+.. function:: setLabelPosition()
 
 
     Set the label position
@@ -77,12 +72,12 @@ getLabelPosition
 setRenderErrors
 ---------------
 
-.. function:: setRenderErrors($renderErrors)
+.. function:: setRenderErrors()
 
 
     Are the errors rendered by this helper ?
 
-    :param bool $renderErrors: 
+    :param bool: 
 
     :rtype: FormRow 
 
@@ -101,12 +96,12 @@ getRenderErrors
 setLabelAttributes
 ------------------
 
-.. function:: setLabelAttributes($labelAttributes)
+.. function:: setLabelAttributes()
 
 
     Set the attributes for the row label
 
-    :param array $labelAttributes: 
+    :param array: 
 
     :rtype: FormRow 
 
@@ -127,12 +122,12 @@ getLabelAttributes
 setInputErrorClass
 ------------------
 
-.. function:: setInputErrorClass($inputErrorClass)
+.. function:: setInputErrorClass()
 
 
     Set the class that is added to element that have errors
 
-    :param string $inputErrorClass: 
+    :param string: 
 
     :rtype: FormRow 
 
@@ -189,11 +184,11 @@ getElementErrorsHelper
 
 
 Constants
----------
++++++++++
 
 LABEL_APPEND
-++++++++++++
+============
 
 LABEL_PREPEND
-+++++++++++++
+=============
 

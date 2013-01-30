@@ -1,26 +1,34 @@
-.. /Code/Generator/MethodGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/MethodGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\MethodGenerator
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 fromReflection
 --------------
 
-.. function:: fromReflection($reflectionMethod)
+.. function:: fromReflection()
 
 
-    fromReflection()
+    @param  MethodReflection $reflectionMethod
 
-    :param MethodReflection $reflectionMethod: 
+    :rtype: MethodGenerator 
+
+
+
+fromArray
+---------
+
+.. function:: fromArray()
+
+
+    Generate from array
+
+
+    :param array: 
 
     :rtype: MethodGenerator 
 
@@ -29,19 +37,25 @@ fromReflection
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$parameters = false, [$flags = 16, [$body = false, [$docBlock = false]]]]])
+.. function:: __construct()
+
+
+    @param  string $name
+
+    :param array: 
+    :param int|array: 
+    :param string: 
+    :param DocBlockGenerator|string: 
 
 
 
 setParameters
 -------------
 
-.. function:: setParameters($parameters)
+.. function:: setParameters()
 
 
-    setParameters()
-
-    :param array $parameters: 
+    @param  array $parameters
 
     :rtype: MethodGenerator 
 
@@ -50,14 +64,11 @@ setParameters
 setParameter
 ------------
 
-.. function:: setParameter($parameter)
+.. function:: setParameter()
 
 
-    setParameter()
+    @param  ParameterGenerator|string $parameter
 
-    :param ParameterGenerator|string $parameter: 
-
-    :throws Exception\InvalidArgumentException: 
 
     :rtype: MethodGenerator 
 
@@ -69,21 +80,17 @@ getParameters
 .. function:: getParameters()
 
 
-    getParameters()
-
-    :rtype: ParameterGenerator[] 
+    @return ParameterGenerator[]
 
 
 
 setBody
 -------
 
-.. function:: setBody($body)
+.. function:: setBody()
 
 
-    setBody()
-
-    :param string $body: 
+    @param  string $body
 
     :rtype: MethodGenerator 
 
@@ -95,9 +102,7 @@ getBody
 .. function:: getBody()
 
 
-    getBody()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -107,9 +112,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -117,8 +120,6 @@ __toString
 ----------
 
 .. function:: __toString()
-
-
 
 
 

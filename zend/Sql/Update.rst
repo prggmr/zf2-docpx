@@ -1,38 +1,35 @@
-.. /Db/Sql/Update.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Update.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Update
-*********************
+=====================
 
-
-@category   Zend
-
-
+@property Where $where
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$table = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|string $table: 
+    :param null|string|TableIdentifier: 
 
 
 
 table
 -----
 
-.. function:: table($table)
+.. function:: table()
 
 
     Specify table for statement
 
-    :param string $table: 
+    :param string|TableIdentifier: 
 
     :rtype: Update 
 
@@ -41,13 +38,13 @@ table
 set
 ---
 
-.. function:: set($values, [$flag = "set"])
+.. function:: set()
 
 
     Set key/value pairs to update
 
-    :param array $values: Associative array of key values
-    :param string $flag: One of the VALUES_* constants
+    :param array: Associative array of key values
+    :param string: One of the VALUES_* constants
 
     :throws Exception\InvalidArgumentException: 
 
@@ -58,13 +55,13 @@ set
 where
 -----
 
-.. function:: where($predicate, [$combination = "AND"])
+.. function:: where()
 
 
     Create where clause
 
-    :param Where|\Closure|string|array $predicate: 
-    :param string $combination: One of the OP_* constants from Predicate\PredicateSet
+    :param Where|\Closure|string|array: 
+    :param string: One of the OP_* constants from Predicate\PredicateSet
 
     :throws Exception\InvalidArgumentException: 
 
@@ -75,20 +72,20 @@ where
 getRawState
 -----------
 
-.. function:: getRawState([$key = false])
+.. function:: getRawState()
 
 
 
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
     Prepare statement
 
-    :param Adapter $adapter: 
-    :param StatementContainerInterface $statementContainer: 
+    :param AdapterInterface: 
+    :param StatementContainerInterface: 
 
     :rtype: void 
 
@@ -97,12 +94,12 @@ prepareStatement
 getSqlString
 ------------
 
-.. function:: getSqlString([$adapterPlatform = false])
+.. function:: getSqlString()
 
 
     Get SQL string for statement
 
-    :param null|PlatformInterface $adapterPlatform: If null, defaults to Sql92
+    :param null|PlatformInterface: If null, defaults to Sql92
 
     :rtype: string 
 
@@ -111,14 +108,14 @@ getSqlString
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Variable overloading
     
     Proxies to "where" only
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -141,17 +138,17 @@ __clone
 
 
 Constants
----------
++++++++++
 
 SPECIFICATION_UPDATE
-++++++++++++++++++++
+====================
 
 SPECIFICATION_WHERE
-+++++++++++++++++++
+===================
 
 VALUES_MERGE
-++++++++++++
+============
 
 VALUES_SET
-++++++++++
+==========
 

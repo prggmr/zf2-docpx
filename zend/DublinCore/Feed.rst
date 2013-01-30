@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/DublinCore/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/DublinCore/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\DublinCore\\Feed
-***********************************************
-
-
-@category Zend
-
-
+===============================================
 
 Methods
-=======
++++++++
 
 getAuthor
 ---------
 
-.. function:: getAuthor([$index = false])
+.. function:: getAuthor()
 
 
     Get a single author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -129,8 +124,6 @@ registerNamespaces
     Register the default namespaces for the current feed format
 
     :rtype: void 
-
-
 
 
 

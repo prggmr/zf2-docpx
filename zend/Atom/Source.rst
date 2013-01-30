@@ -1,26 +1,21 @@
-.. /Feed/Writer/Renderer/Feed/Atom/Source.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Feed/Atom/Source.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\Atom\\Source
-************************************************
-
-
-@category   Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param \Zend\Feed\Writer\Source $container: 
+    :param \Zend\Feed\Writer\Source: 
 
 
 
@@ -39,17 +34,15 @@ render
 _setGenerator
 -------------
 
-.. function:: _setGenerator($dom, $root)
+.. function:: _setGenerator()
 
 
     Set feed generator string
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

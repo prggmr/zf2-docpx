@@ -1,27 +1,22 @@
-.. /Db/Adapter/Driver/Sqlsrv/Result.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Sqlsrv/Result.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Sqlsrv\\Result
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($resource, [$generatedValue = false])
+.. function:: initialize()
 
 
     Initialize
 
-    :param resource $resource: 
-    :param mixed $generatedValue: 
+    :param resource: 
+    :param mixed: 
 
     :rtype: Result 
 
@@ -86,12 +81,12 @@ next
 load
 ----
 
-.. function:: load([$row = "SQLSRV_SCROLL_NEXT"])
+.. function:: load()
 
 
     Load
 
-    :param int $row: 
+    :param int: 
 
     :rtype: mixed 
 
@@ -186,8 +181,6 @@ getGeneratedValue
 
 
     @return mixed|null
-
-
 
 
 

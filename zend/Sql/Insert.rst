@@ -1,38 +1,33 @@
-.. /Db/Sql/Insert.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Insert.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Insert
-*********************
-
-
-@category   Zend
-
-
+=====================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$table = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|string $table: 
+    :param null|string|TableIdentifier: 
 
 
 
 into
 ----
 
-.. function:: into($table)
+.. function:: into()
 
 
     Crete INTO clause
 
-    :param string $table: 
+    :param string|TableIdentifier: 
 
     :rtype: Insert 
 
@@ -41,12 +36,12 @@ into
 columns
 -------
 
-.. function:: columns($columns)
+.. function:: columns()
 
 
     Specify columns
 
-    :param array $columns: 
+    :param array: 
 
     :rtype: Insert 
 
@@ -55,13 +50,13 @@ columns
 values
 ------
 
-.. function:: values($values, [$flag = "set"])
+.. function:: values()
 
 
     Specify values to insert
 
-    :param array $values: 
-    :param string $flag: one of VALUES_MERGE or VALUES_SET; defaults to VALUES_SET
+    :param array: 
+    :param string: one of VALUES_MERGE or VALUES_SET; defaults to VALUES_SET
 
     :throws Exception\InvalidArgumentException: 
 
@@ -72,20 +67,20 @@ values
 getRawState
 -----------
 
-.. function:: getRawState([$key = false])
+.. function:: getRawState()
 
 
 
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
     Prepare statement
 
-    :param Adapter $adapter: 
-    :param StatementContainerInterface $statementContainer: 
+    :param AdapterInterface: 
+    :param StatementContainerInterface: 
 
     :rtype: void 
 
@@ -94,12 +89,12 @@ prepareStatement
 getSqlString
 ------------
 
-.. function:: getSqlString([$adapterPlatform = false])
+.. function:: getSqlString()
 
 
     Get SQL string for this statement
 
-    :param null|PlatformInterface $adapterPlatform: Defaults to Sql92 if none provided
+    :param null|PlatformInterface: Defaults to Sql92 if none provided
 
     :rtype: string 
 
@@ -108,15 +103,15 @@ getSqlString
 __set
 -----
 
-.. function:: __set($name, $value)
+.. function:: __set()
 
 
     Overloading: variable setting
     
     Proxies to values, using VALUES_MERGE strategy
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Insert 
 
@@ -125,14 +120,14 @@ __set
 __unset
 -------
 
-.. function:: __unset($name)
+.. function:: __unset()
 
 
     Overloading: variable unset
     
     Proxies to values and columns
 
-    :param string $name: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -143,14 +138,14 @@ __unset
 __isset
 -------
 
-.. function:: __isset($name)
+.. function:: __isset()
 
 
     Overloading: variable isset
     
     Proxies to columns; does a column of that name exist?
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -159,14 +154,14 @@ __isset
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Overloading: variable retrieval
     
     Retrieves value by column name
 
-    :param string $name: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -177,14 +172,14 @@ __get
 
 
 Constants
----------
++++++++++
 
 SPECIFICATION_INSERT
-++++++++++++++++++++
+====================
 
 VALUES_MERGE
-++++++++++++
+============
 
 VALUES_SET
-++++++++++
+==========
 

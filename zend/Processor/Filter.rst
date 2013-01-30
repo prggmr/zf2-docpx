@@ -1,33 +1,28 @@
-.. /Config/Processor/Filter.php generated using docpx on 01/15/13 05:29pm
+.. Config/Processor/Filter.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Processor\\Filter
-*******************************
-
-
-@category   Zend
-
-
+===============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($filter)
+.. function:: __construct()
 
 
     Filter all config values using the supplied Zend\Filter
 
-    :param ZendFilter $filter: 
+    :param ZendFilter: 
 
 
 
 setFilter
 ---------
 
-.. function:: setFilter($filter)
+.. function:: setFilter()
 
 
     @param  ZendFilter $filter
@@ -49,12 +44,12 @@ getFilter
 process
 -------
 
-.. function:: process($config)
+.. function:: process()
 
 
     Process
 
-    :param Config $config: 
+    :param Config: 
 
     :rtype: Config 
 
@@ -65,16 +60,14 @@ process
 processValue
 ------------
 
-.. function:: processValue($value)
+.. function:: processValue()
 
 
     Process a single value
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: mixed 
-
-
 
 
 

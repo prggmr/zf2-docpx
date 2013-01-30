@@ -1,40 +1,35 @@
-.. /Db/Sql/Predicate/Between.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Predicate/Between.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Predicate\\Between
-*********************************
-
-
-@category   Zend
-
-
+=================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$identifier = false, [$minValue = false, [$maxValue = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $identifier: 
-    :param int|float|string $minValue: 
-    :param int|float|string $maxValue: 
+    :param string: 
+    :param int|float|string: 
+    :param int|float|string: 
 
 
 
 setIdentifier
 -------------
 
-.. function:: setIdentifier($identifier)
+.. function:: setIdentifier()
 
 
     Set identifier for comparison
 
-    :param string $identifier: 
+    :param string: 
 
     :rtype: Between 
 
@@ -55,12 +50,12 @@ getIdentifier
 setMinValue
 -----------
 
-.. function:: setMinValue($minValue)
+.. function:: setMinValue()
 
 
     Set minimum boundary for comparison
 
-    :param int|float|string $minValue: 
+    :param int|float|string: 
 
     :rtype: Between 
 
@@ -81,12 +76,12 @@ getMinValue
 setMaxValue
 -----------
 
-.. function:: setMaxValue($maxValue)
+.. function:: setMaxValue()
 
 
     Set maximum boundary for comparison
 
-    :param int|float|string $maxValue: 
+    :param int|float|string: 
 
     :rtype: Between 
 
@@ -107,12 +102,12 @@ getMaxValue
 setSpecification
 ----------------
 
-.. function:: setSpecification($specification)
+.. function:: setSpecification()
 
 
     Set specification string to use in forming SQL predicate
 
-    :param string $specification: 
+    :param string: 
 
     :rtype: Between 
 
@@ -139,8 +134,6 @@ getExpressionData
     Return "where" parts
 
     :rtype: array 
-
-
 
 
 

@@ -1,19 +1,5 @@
-.. /Cache/Storage/IteratorInterface.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/IteratorInterface.php generated using docpx on 01/30/13 03:32am
 
-
-CURRENT_AS_SELF
-+++++++++++++++
-
-@category   Zend
-
-CURRENT_AS_KEY
-++++++++++++++
-
-CURRENT_AS_VALUE
-++++++++++++++++
-
-CURRENT_AS_METADATA
-+++++++++++++++++++
 
 Zend\\Cache\\Storage\\getStorage
 ================================
@@ -47,9 +33,21 @@ Zend\\Cache\\Storage\\setMode
 
     Set iterator mode
 
-    :param int $mode: Value of IteratorInterface::CURRENT_AS_*
+    :param int: Value of IteratorInterface::CURRENT_AS_*
 
     :rtype: IteratorInterface Fluent interface
 
 
+
+CURRENT_AS_SELF
+===============
+
+CURRENT_AS_KEY
+==============
+
+CURRENT_AS_VALUE
+================
+
+CURRENT_AS_METADATA
+===================
 

@@ -1,28 +1,23 @@
-.. /Feed/Reader/Entry/AbstractEntry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Entry/AbstractEntry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Entry\\AbstractEntry
-****************************************
-
-
-@category Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($entry, $entryKey, [$type = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param DOMElement $entry: 
-    :param int $entryKey: 
-    :param string $type: 
+    :param DOMElement: 
+    :param int: 
+    :param string: 
 
 
 
@@ -101,12 +96,12 @@ getXpath
 setXpath
 --------
 
-.. function:: setXpath($xpath)
+.. function:: setXpath()
 
 
     Set the XPath query
 
-    :param DOMXPath $xpath: 
+    :param DOMXPath: 
 
     :rtype: AbstractEntry 
 
@@ -127,12 +122,12 @@ getExtensions
 getExtension
 ------------
 
-.. function:: getExtension($name)
+.. function:: getExtension()
 
 
     Return an Extension object with the matching name (postfixed with _Entry)
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Reader\Extension\AbstractEntry 
 
@@ -141,13 +136,13 @@ getExtension
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
     Method overloading: call given method on first extension implementing it
 
-    :param string $method: 
-    :param array $args: 
+    :param string: 
+    :param array: 
 
     :rtype: mixed 
 
@@ -164,8 +159,6 @@ loadExtensions
     Load extensions from Zend_Feed_Reader
 
     :rtype: void 
-
-
 
 
 

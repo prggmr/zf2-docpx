@@ -1,9 +1,8 @@
-.. /Code/Annotation/Parser/GenericAnnotationParser.php generated using docpx on 01/15/13 05:29pm
+.. Code/Annotation/Parser/GenericAnnotationParser.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Annotation\\Parser\\GenericAnnotationParser
-*******************************************************
-
+=======================================================
 
 Generic annotation parser
 
@@ -11,15 +10,13 @@ Expects registration of AnnotationInterface instances. Such instances
 will be passed annotation content to their initialize() method, which
 they are then responsible for parsing.
 
-
-
 Methods
-=======
++++++++
 
 onCreateAnnotation
 ------------------
 
-.. function:: onCreateAnnotation($e)
+.. function:: onCreateAnnotation()
 
 
     Listen to onCreateAnnotation, and attempt to return an annotation object
@@ -30,7 +27,7 @@ onCreateAnnotation
     present, calls {@link AnnotationInterface::initialize()} with the
     content.
 
-    :param EventInterface $e: 
+    :param EventInterface: 
 
     :rtype: false|AnnotationInterface 
 
@@ -39,12 +36,12 @@ onCreateAnnotation
 registerAnnotation
 ------------------
 
-.. function:: registerAnnotation($annotation)
+.. function:: registerAnnotation()
 
 
     Register annotations
 
-    :param string|AnnotationInterface $annotation: String class name of an
+    :param string|AnnotationInterface: String class name of an
         AnnotationInterface implementation, or actual instance
 
     :rtype: GenericAnnotationParser 
@@ -56,12 +53,12 @@ registerAnnotation
 registerAnnotations
 -------------------
 
-.. function:: registerAnnotations($annotations)
+.. function:: registerAnnotations()
 
 
     Register many annotations at once
 
-    :param array|Traversable $annotations: 
+    :param array|Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -72,12 +69,12 @@ registerAnnotations
 hasAnnotation
 -------------
 
-.. function:: hasAnnotation($class)
+.. function:: hasAnnotation()
 
 
     Checks if the manager has annotations for a class
 
-    :param string $class: 
+    :param string: 
 
     :rtype: bool 
 
@@ -86,13 +83,13 @@ hasAnnotation
 setAlias
 --------
 
-.. function:: setAlias($alias, $class)
+.. function:: setAlias()
 
 
     Alias an annotation name
 
-    :param string $alias: 
-    :param string $class: May be either a registered annotation name or another alias
+    :param string: 
+    :param string: May be either a registered annotation name or another alias
 
     :throws Exception\InvalidArgumentException: 
 
@@ -103,12 +100,12 @@ setAlias
 normalizeAlias
 --------------
 
-.. function:: normalizeAlias($alias)
+.. function:: normalizeAlias()
 
 
     Normalize an alias name
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: string 
 
@@ -117,12 +114,12 @@ normalizeAlias
 hasAlias
 --------
 
-.. function:: hasAlias($alias)
+.. function:: hasAlias()
 
 
     Do we have an alias by the provided name?
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: bool 
 
@@ -131,16 +128,14 @@ hasAlias
 resolveAlias
 ------------
 
-.. function:: resolveAlias($alias)
+.. function:: resolveAlias()
 
 
     Resolve an alias to a class name
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

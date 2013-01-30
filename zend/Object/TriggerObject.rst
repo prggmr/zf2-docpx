@@ -1,16 +1,11 @@
-.. /Db/Metadata/Object/TriggerObject.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Object/TriggerObject.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Object\\TriggerObject
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -27,12 +22,12 @@ getName
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set Name.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -53,12 +48,12 @@ getEventManipulation
 setEventManipulation
 --------------------
 
-.. function:: setEventManipulation($eventManipulation)
+.. function:: setEventManipulation()
 
 
     Set Event Manipulation.
 
-    :param string $eventManipulation: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -79,12 +74,12 @@ getEventObjectCatalog
 setEventObjectCatalog
 ---------------------
 
-.. function:: setEventObjectCatalog($eventObjectCatalog)
+.. function:: setEventObjectCatalog()
 
 
     Set Event Object Catalog.
 
-    :param string $eventObjectCatalog: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -105,12 +100,12 @@ getEventObjectSchema
 setEventObjectSchema
 --------------------
 
-.. function:: setEventObjectSchema($eventObjectSchema)
+.. function:: setEventObjectSchema()
 
 
     Set Event Object Schema.
 
-    :param string $eventObjectSchema: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -131,12 +126,12 @@ getEventObjectTable
 setEventObjectTable
 -------------------
 
-.. function:: setEventObjectTable($eventObjectTable)
+.. function:: setEventObjectTable()
 
 
     Set Event Object Table.
 
-    :param string $eventObjectTable: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -157,12 +152,12 @@ getActionOrder
 setActionOrder
 --------------
 
-.. function:: setActionOrder($actionOrder)
+.. function:: setActionOrder()
 
 
     Set Action Order.
 
-    :param string $actionOrder: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -183,12 +178,12 @@ getActionCondition
 setActionCondition
 ------------------
 
-.. function:: setActionCondition($actionCondition)
+.. function:: setActionCondition()
 
 
     Set Action Condition.
 
-    :param string $actionCondition: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -209,12 +204,12 @@ getActionStatement
 setActionStatement
 ------------------
 
-.. function:: setActionStatement($actionStatement)
+.. function:: setActionStatement()
 
 
     Set Action Statement.
 
-    :param string $actionStatement: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -235,12 +230,12 @@ getActionOrientation
 setActionOrientation
 --------------------
 
-.. function:: setActionOrientation($actionOrientation)
+.. function:: setActionOrientation()
 
 
     Set Action Orientation.
 
-    :param string $actionOrientation: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -261,12 +256,12 @@ getActionTiming
 setActionTiming
 ---------------
 
-.. function:: setActionTiming($actionTiming)
+.. function:: setActionTiming()
 
 
     Set Action Timing.
 
-    :param string $actionTiming: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -287,12 +282,12 @@ getActionReferenceOldTable
 setActionReferenceOldTable
 --------------------------
 
-.. function:: setActionReferenceOldTable($actionReferenceOldTable)
+.. function:: setActionReferenceOldTable()
 
 
     Set Action Reference Old Table.
 
-    :param string $actionReferenceOldTable: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -313,12 +308,12 @@ getActionReferenceNewTable
 setActionReferenceNewTable
 --------------------------
 
-.. function:: setActionReferenceNewTable($actionReferenceNewTable)
+.. function:: setActionReferenceNewTable()
 
 
     Set Action Reference New Table.
 
-    :param string $actionReferenceNewTable: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -339,12 +334,12 @@ getActionReferenceOldRow
 setActionReferenceOldRow
 ------------------------
 
-.. function:: setActionReferenceOldRow($actionReferenceOldRow)
+.. function:: setActionReferenceOldRow()
 
 
     Set Action Reference Old Row.
 
-    :param string $actionReferenceOldRow: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -365,12 +360,12 @@ getActionReferenceNewRow
 setActionReferenceNewRow
 ------------------------
 
-.. function:: setActionReferenceNewRow($actionReferenceNewRow)
+.. function:: setActionReferenceNewRow()
 
 
     Set Action Reference New Row.
 
-    :param string $actionReferenceNewRow: 
+    :param string: 
 
     :rtype: TriggerObject 
 
@@ -391,16 +386,14 @@ getCreated
 setCreated
 ----------
 
-.. function:: setCreated($created)
+.. function:: setCreated()
 
 
     Set Created.
 
-    :param \DateTime $created: 
+    :param \DateTime: 
 
     :rtype: TriggerObject 
-
-
 
 
 

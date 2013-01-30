@@ -1,32 +1,45 @@
-.. /Code/Scanner/MethodScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/MethodScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\MethodScanner
-**********************************
-
-
+==================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($methodTokens, [$nameInformation = false])
+.. function:: __construct()
+
+
+    @param  array $methodTokens
+
+    :param NameInformation: 
 
 
 
 setClass
 --------
 
-.. function:: setClass($class)
+.. function:: setClass()
+
+
+    @param  string $class
+
+    :rtype: MethodScanner 
 
 
 
 setScannerClass
 ---------------
 
-.. function:: setScannerClass($scannerClass)
+.. function:: setScannerClass()
+
+
+    @param  ClassScanner  $scannerClass
+
+    :rtype: MethodScanner 
 
 
 
@@ -36,11 +49,17 @@ getClassScanner
 .. function:: getClassScanner()
 
 
+    @return MethodScanner
+
+
 
 getName
 -------
 
 .. function:: getName()
+
+
+    @return string
 
 
 
@@ -50,11 +69,17 @@ getLineStart
 .. function:: getLineStart()
 
 
+    @return int
+
+
 
 getLineEnd
 ----------
 
 .. function:: getLineEnd()
+
+
+    @return int
 
 
 
@@ -64,16 +89,19 @@ getDocComment
 .. function:: getDocComment()
 
 
+    @return string
+
+
 
 getAnnotations
 --------------
 
-.. function:: getAnnotations($annotationManager)
+.. function:: getAnnotations()
 
 
-    @param  Annotation\AnnotationManager $annotationManager
+    @param  AnnotationManager $annotationManager
 
-    :rtype: Annotation\AnnotationCollection 
+    :rtype: AnnotationScanner 
 
 
 
@@ -83,11 +111,17 @@ isFinal
 .. function:: isFinal()
 
 
+    @return bool
+
+
 
 isAbstract
 ----------
 
 .. function:: isAbstract()
+
+
+    @return bool
 
 
 
@@ -97,11 +131,17 @@ isPublic
 .. function:: isPublic()
 
 
+    @return bool
+
+
 
 isProtected
 -----------
 
 .. function:: isProtected()
+
+
+    @return bool
 
 
 
@@ -111,11 +151,17 @@ isPrivate
 .. function:: isPrivate()
 
 
+    @return bool
+
+
 
 isStatic
 --------
 
 .. function:: isStatic()
+
+
+    @return bool
 
 
 
@@ -125,18 +171,33 @@ getNumberOfParameters
 .. function:: getNumberOfParameters()
 
 
+    @return int
+
+
 
 getParameters
 -------------
 
-.. function:: getParameters([$returnScanner = false])
+.. function:: getParameters()
+
+
+    @param  bool $returnScanner
+
+    :rtype: array 
 
 
 
 getParameter
 ------------
 
-.. function:: getParameter($parameterNameOrInfoIndex)
+.. function:: getParameter()
+
+
+    @param  int|string $parameterNameOrInfoIndex
+
+    :rtype: ParameterScanner 
+
+    :throws: Exception\InvalidArgumentException 
 
 
 
@@ -144,6 +205,9 @@ getBody
 -------
 
 .. function:: getBody()
+
+
+    @return string
 
 
 
@@ -165,32 +229,6 @@ scan
 ----
 
 .. function:: scan()
-
-
-
-use
----
-
-.. function:: use()
-
-
-    Variables & Setup
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
 
 
 

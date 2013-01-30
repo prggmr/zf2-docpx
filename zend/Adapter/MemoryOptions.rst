@@ -1,21 +1,18 @@
-.. /Cache/Storage/Adapter/MemoryOptions.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/MemoryOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\MemoryOptions
-********************************************
-
+============================================
 
 These are options specific to the APC adapter
 
-
-
 Methods
-=======
++++++++
 
 setMemoryLimit
 --------------
 
-.. function:: setMemoryLimit($memoryLimit)
+.. function:: setMemoryLimit()
 
 
     Set memory limit
@@ -26,11 +23,7 @@ setMemoryLimit
       will be thrown.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string|int $memoryLimit: 
+    :param string|int: 
 
     :rtype: MemoryOptions 
 
@@ -54,18 +47,16 @@ getMemoryLimit
 normalizeMemoryLimit
 --------------------
 
-.. function:: normalizeMemoryLimit($value)
+.. function:: normalizeMemoryLimit()
 
 
     Normalized a given value of memory limit into the number of bytes
 
-    :param string|int $value: 
+    :param string|int: 
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: int 
-
-
 
 
 

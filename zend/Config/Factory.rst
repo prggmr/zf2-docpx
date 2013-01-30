@@ -1,27 +1,22 @@
-.. /Config/Factory.php generated using docpx on 01/15/13 05:29pm
+.. Config/Factory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Factory
-*********************
-
-
-@category  Zend
-
-
+=====================
 
 Methods
-=======
++++++++
 
 fromFile
 --------
 
-.. function:: fromFile($filename, [$returnConfigObject = false])
+.. function:: fromFile()
 
 
     Read a config from a file.
 
-    :param string $filename: 
-    :param bool $returnConfigObject: 
+    :param string: 
+    :param bool: 
 
     :rtype: array|Config 
 
@@ -33,27 +28,47 @@ fromFile
 fromFiles
 ---------
 
-.. function:: fromFiles($files, [$returnConfigObject = false])
+.. function:: fromFiles()
 
 
     Read configuration from multiple files and merge them.
 
-    :param array $files: 
-    :param bool $returnConfigObject: 
+    :param array: 
+    :param bool: 
 
     :rtype: array|Config 
+
+
+
+toFile
+------
+
+.. function:: toFile()
+
+
+    Writes a config to a file
+
+    :param string: 
+    :param array|Config: 
+
+    :rtype: boolean TRUE on success | FALSE on failure
+
+    :throws: Exception\RuntimeException 
+    :throws: Exception\InvalidArgumentException 
 
 
 
 setReaderPluginManager
 ----------------------
 
-.. function:: setReaderPluginManager($readers)
+.. function:: setReaderPluginManager()
 
 
     Set reader plugin manager
 
-    :param ReaderPluginManager $readers: 
+    :param ReaderPluginManager: 
+
+    :rtype: void 
 
 
 
@@ -69,20 +84,61 @@ getReaderPluginManager
 
 
 
+setWriterPluginManager
+----------------------
+
+.. function:: setWriterPluginManager()
+
+
+    Set writer plugin manager
+
+    :param WriterPluginManager: 
+
+    :rtype: void 
+
+
+
+getWriterPluginManager
+----------------------
+
+.. function:: getWriterPluginManager()
+
+
+    Get the writer plugin manager
+
+    :rtype: WriterPluginManager 
+
+
+
 registerReader
 --------------
 
-.. function:: registerReader($extension, $reader)
+.. function:: registerReader()
 
 
     Set config reader for file extension
 
-    :param string $extension: 
-    :param string|Reader\ReaderInterface $reader: 
+    :param string: 
+    :param string|Reader\ReaderInterface: 
 
     :throws Exception\InvalidArgumentException: 
 
+    :rtype: void 
 
+
+
+registerWriter
+--------------
+
+.. function:: registerWriter()
+
+
+    Set config writer for file extension
+
+    :param string: 
+    :param string|Writer\AbstractWriter: @throw Exception\InvalidArgumentException
+
+    :rtype: void 
 
 
 

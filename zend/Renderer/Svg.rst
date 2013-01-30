@@ -1,26 +1,23 @@
-.. /Barcode/Renderer/Svg.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Renderer/Svg.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Renderer\\Svg
-****************************
-
+============================
 
 Class for rendering the barcode as svg
 
-
-
 Methods
-=======
++++++++
 
 setHeight
 ---------
 
-.. function:: setHeight($value)
+.. function:: setHeight()
 
 
     Set height of the result image
 
-    :param null|integer $value: 
+    :param null|integer: 
 
     :throws Exception\OutOfRangeException: 
 
@@ -43,12 +40,12 @@ getHeight
 setWidth
 --------
 
-.. function:: setWidth($value)
+.. function:: setWidth()
 
 
     Set barcode width
 
-    :param mixed $value: 
+    :param mixed: 
 
     :throws Exception\OutOfRangeException: 
 
@@ -71,12 +68,12 @@ getWidth
 setResource
 -----------
 
-.. function:: setResource($svg)
+.. function:: setResource()
 
 
     Set an image resource to draw the barcode inside
 
-    :param DOMDocument $svg: 
+    :param DOMDocument: 
 
     :rtype: Svg 
 
@@ -104,28 +101,28 @@ readRootElement
 appendRootElement
 -----------------
 
-.. function:: appendRootElement($tagName, [$attributes = false, [$textContent = false]])
+.. function:: appendRootElement()
 
 
     Append a new DOMElement to the root element
 
-    :param string $tagName: 
-    :param array $attributes: 
-    :param string $textContent: 
+    :param string: 
+    :param array: 
+    :param string: 
 
 
 
 createElement
 -------------
 
-.. function:: createElement($tagName, [$attributes = false, [$textContent = false]])
+.. function:: createElement()
 
 
     Create DOMElement
 
-    :param string $tagName: 
-    :param array $attributes: 
-    :param string $textContent: 
+    :param string: 
+    :param array: 
+    :param string: 
 
     :rtype: DOMElement 
 
@@ -183,34 +180,32 @@ render
 drawPolygon
 -----------
 
-.. function:: drawPolygon($points, $color, [$filled = true])
+.. function:: drawPolygon()
 
 
     Draw a polygon in the svg resource
 
-    :param array $points: 
-    :param integer $color: 
-    :param bool $filled: 
+    :param array: 
+    :param integer: 
+    :param bool: 
 
 
 
 drawText
 --------
 
-.. function:: drawText($text, $size, $position, $font, $color, [$alignment = "center", [$orientation = false]])
+.. function:: drawText()
 
 
     Draw a polygon in the svg resource
 
-    :param string $text: 
-    :param float $size: 
-    :param array $position: 
-    :param string $font: 
-    :param integer $color: 
-    :param string $alignment: 
-    :param float $orientation: 
-
-
+    :param string: 
+    :param float: 
+    :param array: 
+    :param string: 
+    :param integer: 
+    :param string: 
+    :param float: 
 
 
 

@@ -1,26 +1,23 @@
-.. /Barcode/Renderer/Image.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Renderer/Image.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Renderer\\Image
-******************************
-
+==============================
 
 Class for rendering the barcode as image
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :throws RendererCreationException: 
 
@@ -29,12 +26,12 @@ __construct
 setHeight
 ---------
 
-.. function:: setHeight($value)
+.. function:: setHeight()
 
 
     Set height of the result image
 
-    :param null|integer $value: 
+    :param null|integer: 
 
     :throws Exception\OutOfRangeException: 
 
@@ -57,12 +54,12 @@ getHeight
 setWidth
 --------
 
-.. function:: setWidth($value)
+.. function:: setWidth()
 
 
     Set barcode width
 
-    :param mixed $value: 
+    :param mixed: 
 
     :throws Exception\OutOfRangeException: 
 
@@ -85,12 +82,12 @@ getWidth
 setResource
 -----------
 
-.. function:: setResource($image)
+.. function:: setResource()
 
 
     Set an image resource to draw the barcode inside
 
-    :param resource $image: 
+    :param resource: 
 
     :rtype: Image 
 
@@ -101,12 +98,12 @@ setResource
 setImageType
 ------------
 
-.. function:: setImageType($value)
+.. function:: setImageType()
 
 
     Set the image type to produce (png, jpeg, gif)
 
-    :param string $value: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -178,36 +175,34 @@ render
 drawPolygon
 -----------
 
-.. function:: drawPolygon($points, $color, [$filled = true])
+.. function:: drawPolygon()
 
 
     Draw a polygon in the image resource
 
-    :param array $points: 
-    :param integer $color: 
-    :param bool $filled: 
+    :param array: 
+    :param integer: 
+    :param bool: 
 
 
 
 drawText
 --------
 
-.. function:: drawText($text, $size, $position, $font, $color, [$alignment = "center", [$orientation = false]])
+.. function:: drawText()
 
 
     Draw a polygon in the image resource
 
-    :param string $text: 
-    :param float $size: 
-    :param array $position: 
-    :param string $font: 
-    :param integer $color: 
-    :param string $alignment: 
-    :param float $orientation: 
+    :param string: 
+    :param float: 
+    :param array: 
+    :param string: 
+    :param integer: 
+    :param string: 
+    :param float: 
 
     :throws Exception\RuntimeException: 
-
-
 
 
 

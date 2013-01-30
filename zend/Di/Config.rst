@@ -1,26 +1,23 @@
-.. /Di/Config.php generated using docpx on 01/15/13 05:29pm
+.. Di/Config.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Config
-****************
-
+================
 
 Configures Di instances
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($options)
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -29,12 +26,12 @@ __construct
 configure
 ---------
 
-.. function:: configure($di)
+.. function:: configure()
 
 
     Configure
 
-    :param Di $di: 
+    :param Di: 
 
     :rtype: void 
 
@@ -43,27 +40,25 @@ configure
 configureDefinition
 -------------------
 
-.. function:: configureDefinition($di, $definition)
+.. function:: configureDefinition()
 
 
     @param Di    $di
 
-    :param array $definition: 
+    :param array: 
 
 
 
 configureInstance
 -----------------
 
-.. function:: configureInstance($di, $instanceData)
+.. function:: configureInstance()
 
 
     Configures a given Di instance
 
-    :param Di $di: 
+    :param Di: 
     :param $instanceData: 
-
-
 
 
 

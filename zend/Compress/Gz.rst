@@ -1,26 +1,23 @@
-.. /Filter/Compress/Gz.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/Gz.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\Gz
-**************************
-
+==========================
 
 Compression adapter for Gzip (ZLib)
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param null|array|\Traversable $options: (Optional) Options to set
+    :param null|array|\Traversable: (Optional) Options to set
 
     :throws Exception\ExtensionNotLoadedException: if zlib extension not loaded
 
@@ -41,12 +38,12 @@ getLevel
 setLevel
 --------
 
-.. function:: setLevel($level)
+.. function:: setLevel()
 
 
     Sets a new compression level
 
-    :param integer $level: 
+    :param integer: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -69,12 +66,12 @@ getMode
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Sets a new compression mode
 
-    :param string $mode: Supported are 'compress', 'deflate' and 'file'
+    :param string: Supported are 'compress', 'deflate' and 'file'
 
     :rtype: Gz 
 
@@ -97,12 +94,12 @@ getArchive
 setArchive
 ----------
 
-.. function:: setArchive($archive)
+.. function:: setArchive()
 
 
     Sets the archive to use for de-/compression
 
-    :param string $archive: Archive to use
+    :param string: Archive to use
 
     :rtype: Gz 
 
@@ -111,12 +108,12 @@ setArchive
 compress
 --------
 
-.. function:: compress($content)
+.. function:: compress()
 
 
     Compresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -127,12 +124,12 @@ compress
 decompress
 ----------
 
-.. function:: decompress($content)
+.. function:: decompress()
 
 
     Decompresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -149,8 +146,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

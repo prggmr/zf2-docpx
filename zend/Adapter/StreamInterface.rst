@@ -1,4 +1,4 @@
-.. /Http/Client/Adapter/StreamInterface.php generated using docpx on 01/15/13 05:29pm
+.. Http/Client/Adapter/StreamInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\Client\\Adapter\\setOutputStream
@@ -11,7 +11,7 @@ Zend\\Http\\Client\\Adapter\\setOutputStream
     
     This function sets output stream where the result will be stored.
 
-    :param resource $stream: Stream to write the output to
+    :param resource: Stream to write the output to
 
 
 

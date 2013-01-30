@@ -1,21 +1,18 @@
-.. /Di/DefinitionList.php generated using docpx on 01/15/13 05:29pm
+.. Di/DefinitionList.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\DefinitionList
-************************
-
+========================
 
 Class definition based on multiple definitions
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($definitions)
+.. function:: __construct()
 
 
     @param Definition\DefinitionInterface|Definition\DefinitionInterface[] $definitions
@@ -25,13 +22,13 @@ __construct
 addDefinition
 -------------
 
-.. function:: addDefinition($definition, [$addToBackOfList = true])
+.. function:: addDefinition()
 
 
     Add definitions
 
-    :param Definition\DefinitionInterface $definition: 
-    :param bool $addToBackOfList: 
+    :param Definition\DefinitionInterface: 
+    :param bool: 
 
     :rtype: void 
 
@@ -40,7 +37,7 @@ addDefinition
 getDefinitionsByType
 --------------------
 
-.. function:: getDefinitionsByType($type)
+.. function:: getDefinitionsByType()
 
 
     @param  string       $type
@@ -52,12 +49,12 @@ getDefinitionsByType
 getDefinitionByType
 -------------------
 
-.. function:: getDefinitionByType($type)
+.. function:: getDefinitionByType()
 
 
     Get definition by type
 
-    :param string $type: 
+    :param string: 
 
     :rtype: Definition\DefinitionInterface 
 
@@ -66,7 +63,7 @@ getDefinitionByType
 getDefinitionForClass
 ---------------------
 
-.. function:: getDefinitionForClass($class)
+.. function:: getDefinitionForClass()
 
 
     @param  string                              $class
@@ -78,7 +75,7 @@ getDefinitionForClass
 forClass
 --------
 
-.. function:: forClass($class)
+.. function:: forClass()
 
 
     @param  string                              $class
@@ -100,7 +97,7 @@ getClasses
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
     {@inheritDoc}
@@ -110,7 +107,7 @@ hasClass
 getClassSupertypes
 ------------------
 
-.. function:: getClassSupertypes($class)
+.. function:: getClassSupertypes()
 
 
     {@inheritDoc}
@@ -120,7 +117,7 @@ getClassSupertypes
 getInstantiator
 ---------------
 
-.. function:: getInstantiator($class)
+.. function:: getInstantiator()
 
 
     {@inheritDoc}
@@ -130,7 +127,7 @@ getInstantiator
 hasMethods
 ----------
 
-.. function:: hasMethods($class)
+.. function:: hasMethods()
 
 
     {@inheritDoc}
@@ -140,7 +137,7 @@ hasMethods
 hasMethod
 ---------
 
-.. function:: hasMethod($class, $method)
+.. function:: hasMethod()
 
 
     {@inheritDoc}
@@ -150,7 +147,7 @@ hasMethod
 getMethods
 ----------
 
-.. function:: getMethods($class)
+.. function:: getMethods()
 
 
     {@inheritDoc}
@@ -160,7 +157,7 @@ getMethods
 hasMethodParameters
 -------------------
 
-.. function:: hasMethodParameters($class, $method)
+.. function:: hasMethodParameters()
 
 
     {@inheritDoc}
@@ -170,12 +167,10 @@ hasMethodParameters
 getMethodParameters
 -------------------
 
-.. function:: getMethodParameters($class, $method)
+.. function:: getMethodParameters()
 
 
     {@inheritDoc}
-
-
 
 
 

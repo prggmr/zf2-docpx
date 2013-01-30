@@ -1,9 +1,8 @@
-.. /Code/Annotation/Parser/DoctrineAnnotationParser.php generated using docpx on 01/15/13 05:29pm
+.. Code/Annotation/Parser/DoctrineAnnotationParser.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Annotation\\Parser\\DoctrineAnnotationParser
-********************************************************
-
+========================================================
 
 A parser for docblock annotations that utilizes the annotation parser from
 Doctrine\Common.
@@ -13,10 +12,8 @@ AnnotationManager. If the annotation examined is in the list of classes we
 are interested in, the raw annotation is passed to the DocParser in order to
 retrieve the annotation object instance. Otherwise, it is skipped.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -28,22 +25,15 @@ __construct
 
 
 
-$class
-------
-
-.. function:: $class()
-
-
-
 setDocParser
 ------------
 
-.. function:: setDocParser($docParser)
+.. function:: setDocParser()
 
 
     Set the DocParser instance
 
-    :param DocParser $docParser: 
+    :param DocParser: 
 
     :rtype: DoctrineAnnotationParser 
 
@@ -66,12 +56,12 @@ getDocParser
 onCreateAnnotation
 ------------------
 
-.. function:: onCreateAnnotation($e)
+.. function:: onCreateAnnotation()
 
 
     Handle annotation creation
 
-    :param EventInterface $e: 
+    :param EventInterface: 
 
     :rtype: false|\stdClass 
 
@@ -80,12 +70,12 @@ onCreateAnnotation
 registerAnnotation
 ------------------
 
-.. function:: registerAnnotation($annotation)
+.. function:: registerAnnotation()
 
 
     Specify an allowed annotation class
 
-    :param string $annotation: 
+    :param string: 
 
     :rtype: DoctrineAnnotationParser 
 
@@ -94,19 +84,17 @@ registerAnnotation
 registerAnnotations
 -------------------
 
-.. function:: registerAnnotations($annotations)
+.. function:: registerAnnotations()
 
 
     Set many allowed annotations at once
 
-    :param array|Traversable $annotations: Array or traversable object of
+    :param array|Traversable: Array or traversable object of
         annotation class names
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: DoctrineAnnotationParser 
-
-
 
 
 

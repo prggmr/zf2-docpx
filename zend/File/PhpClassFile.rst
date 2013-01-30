@@ -1,16 +1,13 @@
-.. /File/PhpClassFile.php generated using docpx on 01/15/13 05:29pm
+.. File/PhpClassFile.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\File\\PhpClassFile
-************************
-
+========================
 
 Locate files containing PHP classes, interfaces, abstracts or traits
 
-
-
 Methods
-=======
++++++++
 
 getClasses
 ----------
@@ -27,16 +24,14 @@ getClasses
 addClass
 --------
 
-.. function:: addClass($class)
+.. function:: addClass()
 
 
     Add class
 
-    :param string $class: 
+    :param string: 
 
     :rtype: PhpClassFile 
-
-
 
 
 

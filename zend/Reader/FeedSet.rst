@@ -1,21 +1,18 @@
-.. /Feed/Reader/FeedSet.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/FeedSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\FeedSet
-***************************
-
-
-@category Zend
+===========================
 
 
 
 Methods
-=======
++++++++
 
 addLinks
 --------
 
-.. function:: addLinks($links, $uri)
+.. function:: addLinks()
 
 
     Import a DOMNodeList from any document containing a set of links
@@ -29,8 +26,8 @@ addLinks
     Note that feeds are not loaded at this point, but will be lazy
     loaded automatically when each links 'feed' array key is accessed.
 
-    :param DOMNodeList $links: 
-    :param string $uri: 
+    :param DOMNodeList: 
+    :param string: 
 
     :rtype: void 
 
@@ -39,7 +36,7 @@ addLinks
 absolutiseUri
 -------------
 
-.. function:: absolutiseUri($link, [$uri = false])
+.. function:: absolutiseUri()
 
 
     Attempt to turn a relative URI into an absolute URI
@@ -49,7 +46,7 @@ absolutiseUri
 canonicalizePath
 ----------------
 
-.. function:: canonicalizePath($path)
+.. function:: canonicalizePath()
 
 
     Canonicalize relative path
@@ -59,17 +56,15 @@ canonicalizePath
 offsetGet
 ---------
 
-.. function:: offsetGet($offset)
+.. function:: offsetGet()
 
 
     Supports lazy loading of feeds using Reader::import() but
     delegates any other operations to the parent class.
 
-    :param string $offset: 
+    :param string: 
 
     :rtype: mixed 
-
-
 
 
 

@@ -1,26 +1,23 @@
-.. /Cache/Storage/Adapter/FilesystemOptions.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/FilesystemOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\FilesystemOptions
-************************************************
-
+================================================
 
 These are options specific to the Filesystem adapter
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array|Traversable|null $options: 
+    :param array|Traversable|null: 
 
     :rtype: FilesystemOptions 
 
@@ -31,12 +28,12 @@ __construct
 setCacheDir
 -----------
 
-.. function:: setCacheDir($cacheDir)
+.. function:: setCacheDir()
 
 
     Set cache dir
 
-    :param string $cacheDir: 
+    :param string: 
 
     :rtype: FilesystemOptions 
 
@@ -59,12 +56,12 @@ getCacheDir
 setClearStatCache
 -----------------
 
-.. function:: setClearStatCache($clearStatCache)
+.. function:: setClearStatCache()
 
 
     Set clear stat cache
 
-    :param bool $clearStatCache: 
+    :param bool: 
 
     :rtype: FilesystemOptions 
 
@@ -85,12 +82,12 @@ getClearStatCache
 setDirLevel
 -----------
 
-.. function:: setDirLevel($dirLevel)
+.. function:: setDirLevel()
 
 
     Set dir level
 
-    :param int $dirLevel: 
+    :param int: 
 
     :rtype: FilesystemOptions 
 
@@ -113,31 +110,19 @@ getDirLevel
 setDirPermission
 ----------------
 
-.. function:: setDirPermission($dirPermission)
+.. function:: setDirPermission()
 
 
     Set permission to create directories on unix systems
 
-    :param false|string|int $dirPermission: FALSE to disable explicit permission or an octal number
+    :param false|string|int: FALSE to disable explicit permission or an octal number
 
     :rtype: FilesystemOptions 
 
+    :see:  
+    :see:  
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :link:  
 
 
 
@@ -156,12 +141,12 @@ getDirPermission
 setFileLocking
 --------------
 
-.. function:: setFileLocking($fileLocking)
+.. function:: setFileLocking()
 
 
     Set file locking
 
-    :param bool $fileLocking: 
+    :param bool: 
 
     :rtype: FilesystemOptions 
 
@@ -182,31 +167,19 @@ getFileLocking
 setFilePermission
 -----------------
 
-.. function:: setFilePermission($filePermission)
+.. function:: setFilePermission()
 
 
     Set permission to create files on unix systems
 
-    :param false|string|int $filePermission: FALSE to disable explicit permission or an octal number
+    :param false|string|int: FALSE to disable explicit permission or an octal number
 
     :rtype: FilesystemOptions 
 
+    :see:  
+    :see:  
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :link:  
 
 
 
@@ -225,12 +198,12 @@ getFilePermission
 setNamespaceSeparator
 ---------------------
 
-.. function:: setNamespaceSeparator($namespaceSeparator)
+.. function:: setNamespaceSeparator()
 
 
     Set namespace separator
 
-    :param string $namespaceSeparator: 
+    :param string: 
 
     :rtype: FilesystemOptions 
 
@@ -251,12 +224,12 @@ getNamespaceSeparator
 setNoAtime
 ----------
 
-.. function:: setNoAtime($noAtime)
+.. function:: setNoAtime()
 
 
     Set no atime
 
-    :param bool $noAtime: 
+    :param bool: 
 
     :rtype: FilesystemOptions 
 
@@ -277,12 +250,12 @@ getNoAtime
 setNoCtime
 ----------
 
-.. function:: setNoCtime($noCtime)
+.. function:: setNoCtime()
 
 
     Set no ctime
 
-    :param bool $noCtime: 
+    :param bool: 
 
     :rtype: FilesystemOptions 
 
@@ -303,38 +276,22 @@ getNoCtime
 setUmask
 --------
 
-.. function:: setUmask($umask)
+.. function:: setUmask()
 
 
     Set the umask to create files and directories on unix systems
     
     Note: On multithreaded webservers it's better to explicit set file and dir permission.
 
-    :param false|string|int $umask: FALSE to disable umask or an octal number
+    :param false|string|int: FALSE to disable umask or an octal number
 
     :rtype: FilesystemOptions 
 
+    :see:  
+    :see:  
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :link:  
+    :link:  
 
 
 
@@ -347,8 +304,6 @@ getUmask
     Get the umask to create files and directories on unix systems
 
     :rtype: false|int 
-
-
 
 
 

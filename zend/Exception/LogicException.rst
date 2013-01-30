@@ -1,13 +1,8 @@
-.. /Cache/Exception/LogicException.php generated using docpx on 01/15/13 05:29pm
+.. Stdlib/Exception/LogicException.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Cache\\Exception\\LogicException
-**************************************
+Zend\\Stdlib\\Exception\\LogicException
+=======================================
 
-
-@category   Zend
-
-
-
-
+Logic exception
 

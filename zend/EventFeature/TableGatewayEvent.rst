@@ -1,16 +1,11 @@
-.. /Db/TableGateway/Feature/EventFeature/TableGatewayEvent.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/EventFeature/TableGatewayEvent.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\EventFeature\\TableGatewayEvent
-****************************************************************
-
-
-@category   Zend
-
-
+================================================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -51,13 +46,13 @@ getParams
 getParam
 --------
 
-.. function:: getParam($name, [$default = false])
+.. function:: getParam()
 
 
     Get a single parameter by name
 
-    :param string $name: 
-    :param mixed $default: Default value to return if parameter does not exist
+    :param string: 
+    :param mixed: Default value to return if parameter does not exist
 
     :rtype: mixed 
 
@@ -66,12 +61,12 @@ getParam
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set the event name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
 
@@ -80,12 +75,12 @@ setName
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Set the event target/context
 
-    :param null|string|object $target: 
+    :param null|string|object: 
 
     :rtype: void 
 
@@ -94,12 +89,12 @@ setTarget
 setParams
 ---------
 
-.. function:: setParams($params)
+.. function:: setParams()
 
 
     Set event parameters
 
-    :param string $params: 
+    :param string: 
 
     :rtype: void 
 
@@ -108,13 +103,13 @@ setParams
 setParam
 --------
 
-.. function:: setParam($name, $value)
+.. function:: setParam()
 
 
     Set a single parameter by key
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -123,12 +118,12 @@ setParam
 stopPropagation
 ---------------
 
-.. function:: stopPropagation([$flag = true])
+.. function:: stopPropagation()
 
 
     Indicate whether or not the parent EventManagerInterface should stop propagating events
 
-    :param bool $flag: 
+    :param bool: 
 
     :rtype: void 
 
@@ -143,8 +138,6 @@ propagationIsStopped
     Has this event indicated event propagation should stop?
 
     :rtype: bool 
-
-
 
 
 

@@ -1,4 +1,4 @@
-.. /Db/Adapter/Driver/ConnectionInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/ConnectionInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\getCurrentSchema
@@ -105,7 +105,7 @@ Zend\\Db\\Adapter\\Driver\\execute
 
     Execute
 
-    :param string $sql: 
+    :param string: 
 
     :rtype: ResultInterface 
 
@@ -119,7 +119,7 @@ Zend\\Db\\Adapter\\Driver\\getLastGeneratedValue
 
     Get last generated id
 
-    :param null $name: Ignored
+    :param null: Ignored
 
     :rtype: integer 
 

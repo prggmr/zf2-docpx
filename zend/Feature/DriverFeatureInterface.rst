@@ -1,4 +1,4 @@
-.. /Db/Adapter/Driver/Feature/DriverFeatureInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Feature/DriverFeatureInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Feature\\setupDefaultFeatures
@@ -21,8 +21,8 @@ Zend\\Db\\Adapter\\Driver\\Feature\\addFeature
 
     Add feature
 
-    :param string $name: 
-    :param mixed $feature: 
+    :param string: 
+    :param mixed: 
 
     :rtype: DriverFeatureInterface 
 

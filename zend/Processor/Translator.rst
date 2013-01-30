@@ -1,36 +1,31 @@
-.. /Config/Processor/Translator.php generated using docpx on 01/15/13 05:29pm
+.. Config/Processor/Translator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Processor\\Translator
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($translator, [$textDomain = "default", [$locale = false]])
+.. function:: __construct()
 
 
     Translator uses the supplied Zend\I18n\Translator\Translator to find
     and translate language strings in config.
 
-    :param ZendTranslator $translator: 
-    :param string $textDomain: 
-    :param string|null $locale: 
+    :param ZendTranslator: 
+    :param string: 
+    :param string|null: 
 
 
 
 setTranslator
 -------------
 
-.. function:: setTranslator($translator)
+.. function:: setTranslator()
 
 
     @param  ZendTranslator $translator
@@ -52,7 +47,7 @@ getTranslator
 setLocale
 ---------
 
-.. function:: setLocale($locale)
+.. function:: setLocale()
 
 
     @param  string|null $locale
@@ -74,7 +69,7 @@ getLocale
 setTextDomain
 -------------
 
-.. function:: setTextDomain($textDomain)
+.. function:: setTextDomain()
 
 
     @param  string $textDomain
@@ -96,12 +91,12 @@ getTextDomain
 process
 -------
 
-.. function:: process($config)
+.. function:: process()
 
 
     Process
 
-    :param Config $config: 
+    :param Config: 
 
     :rtype: Config 
 
@@ -112,7 +107,7 @@ process
 processValue
 ------------
 
-.. function:: processValue($value)
+.. function:: processValue()
 
 
     Process a single value
@@ -120,8 +115,6 @@ processValue
     :param $value: 
 
     :rtype: mixed 
-
-
 
 
 

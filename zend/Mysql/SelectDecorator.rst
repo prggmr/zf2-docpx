@@ -1,18 +1,16 @@
-.. /Db/Sql/Platform/Mysql/SelectDecorator.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Platform/Mysql/SelectDecorator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Platform\\Mysql\\SelectDecorator
-***********************************************
-
-
+===============================================
 
 Methods
-=======
++++++++
 
 setSubject
 ----------
 
-.. function:: setSubject($select)
+.. function:: setSubject()
 
 
     @param Select $select
@@ -22,19 +20,19 @@ setSubject
 prepareStatement
 ----------------
 
-.. function:: prepareStatement($adapter, $statementContainer)
+.. function:: prepareStatement()
 
 
-    @param Adapter $adapter
+    @param AdapterInterface $adapter
 
-    :param StatementContainerInterface $statementContainer: 
+    :param StatementContainerInterface: 
 
 
 
 getSqlString
 ------------
 
-.. function:: getSqlString([$platform = false])
+.. function:: getSqlString()
 
 
     @param PlatformInterface $platform
@@ -46,16 +44,14 @@ getSqlString
 processLimit
 ------------
 
-.. function:: processLimit($platform, [$adapter = false, [$parameterContainer = false]])
+.. function:: processLimit()
 
 
 
 processOffset
 -------------
 
-.. function:: processOffset($platform, [$adapter = false, [$parameterContainer = false]])
-
-
+.. function:: processOffset()
 
 
 

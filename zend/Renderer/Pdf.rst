@@ -1,27 +1,24 @@
-.. /Barcode/Renderer/Pdf.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Renderer/Pdf.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Renderer\\Pdf
-****************************
-
+============================
 
 Class for rendering the barcode in PDF resource
 
-
-
 Methods
-=======
++++++++
 
 setResource
 -----------
 
-.. function:: setResource($pdf, [$page = false])
+.. function:: setResource()
 
 
     Set a PDF resource to draw the barcode inside
 
-    :param PdfDocument $pdf: 
-    :param integer $page: 
+    :param PdfDocument: 
+    :param integer: 
 
     :rtype: Pdf 
 
@@ -66,51 +63,49 @@ initRenderer
 drawPolygon
 -----------
 
-.. function:: drawPolygon($points, $color, [$filled = true])
+.. function:: drawPolygon()
 
 
     Draw a polygon in the rendering resource
 
-    :param array $points: 
-    :param integer $color: 
-    :param bool $filled: 
+    :param array: 
+    :param integer: 
+    :param bool: 
 
 
 
 drawText
 --------
 
-.. function:: drawText($text, $size, $position, $font, $color, [$alignment = "center", [$orientation = false]])
+.. function:: drawText()
 
 
     Draw a polygon in the rendering resource
 
-    :param string $text: 
-    :param float $size: 
-    :param array $position: 
-    :param string $font: 
-    :param integer $color: 
-    :param string $alignment: 
-    :param float $orientation: 
+    :param string: 
+    :param float: 
+    :param array: 
+    :param string: 
+    :param integer: 
+    :param string: 
+    :param float: 
 
 
 
 widthForStringUsingFontSize
 ---------------------------
 
-.. function:: widthForStringUsingFontSize($text, $font, $fontSize)
+.. function:: widthForStringUsingFontSize()
 
 
     Calculate the width of a string:
     in case of using alignment parameter in drawText
 
-    :param string $text: 
-    :param Font $font: 
-    :param float $fontSize: 
+    :param string: 
+    :param Font: 
+    :param float: 
 
     :rtype: float 
-
-
 
 
 

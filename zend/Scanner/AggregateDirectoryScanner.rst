@@ -1,55 +1,44 @@
-.. /Code/Scanner/AggregateDirectoryScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/AggregateDirectoryScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\AggregateDirectoryScanner
-**********************************************
-
-
+==============================================
 
 Methods
-=======
++++++++
 
 getNamespaces
 -------------
 
-.. function:: getNamespaces([$returnScannerClass = false])
+.. function:: getNamespaces()
 
 
-    Get namespaces
+    @param  bool $returnScannerClass
 
-    :param bool $returnScannerClass: 
-
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :todo n: n
 
 
 
 getIncludes
 -----------
 
-.. function:: getIncludes([$returnScannerClass = false])
+.. function:: getIncludes()
 
 
 
 getClasses
 ----------
 
-.. function:: getClasses([$returnScannerClass = false, [$returnDerivedScannerClass = false]])
+.. function:: getClasses()
 
 
 
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
-    Check for a class
-
-    :param string $class: 
+    @param  string $class
 
     :rtype: bool 
 
@@ -58,14 +47,13 @@ hasClass
 getClass
 --------
 
-.. function:: getClass($class, [$returnScannerClass = true, [$returnDerivedScannerClass = false]])
+.. function:: getClass()
 
 
-    Get class
+    @param  string $class
 
-    :param string $class: 
-    :param bool $returnScannerClass: 
-    :param bool $returnDerivedScannerClass: 
+    :param bool: 
+    :param bool: 
 
     :rtype: ClassScanner|DerivedClassScanner 
 
@@ -76,9 +64,10 @@ getClass
 getFunctions
 ------------
 
-.. function:: getFunctions([$returnScannerClass = false])
+.. function:: getFunctions()
 
 
+    @param bool $returnScannerClass
 
 
 

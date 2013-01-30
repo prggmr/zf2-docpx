@@ -1,16 +1,11 @@
-.. /Code/Reflection/DocBlock/Tag/ParamTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/ParamTag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\ParamTag
-***********************************************
-
-
-@category   Zend
-
-
+===============================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -25,12 +20,12 @@ getName
 initialize
 ----------
 
-.. function:: initialize($tagDocBlockLine)
+.. function:: initialize()
 
 
     Initializer
 
-    :param string $tagDocBlockLine: 
+    :param string: 
 
 
 
@@ -43,6 +38,15 @@ getType
     Get parameter variable type
 
     :rtype: string 
+
+    :deprecated:  
+
+
+
+getTypes
+--------
+
+.. function:: getTypes()
 
 
 
@@ -64,6 +68,7 @@ getDescription
 .. function:: getDescription()
 
 
+    @return string
 
 
 

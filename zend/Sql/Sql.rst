@@ -1,21 +1,29 @@
-.. /Db/Sql/Sql.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Sql.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Sql
-******************
-
-
-@category   Zend
-
-
+==================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($adapter, [$table = false, [$sqlPlatform = false]])
+.. function:: __construct()
+
+
+    @var Platform\Platform */
+
+
+
+getAdapter
+----------
+
+.. function:: getAdapter()
+
+
+    @return null|\Zend\Db\Adapter\AdapterInterface
 
 
 
@@ -29,7 +37,7 @@ hasTable
 setTable
 --------
 
-.. function:: setTable($table)
+.. function:: setTable()
 
 
 
@@ -40,47 +48,59 @@ getTable
 
 
 
+getSqlPlatform
+--------------
+
+.. function:: getSqlPlatform()
+
+
+
 select
 ------
 
-.. function:: select([$table = false])
+.. function:: select()
 
 
 
 insert
 ------
 
-.. function:: insert([$table = false])
+.. function:: insert()
 
 
 
 update
 ------
 
-.. function:: update([$table = false])
+.. function:: update()
 
 
 
 delete
 ------
 
-.. function:: delete([$table = false])
+.. function:: delete()
 
 
 
 prepareStatementForSqlObject
 ----------------------------
 
-.. function:: prepareStatementForSqlObject($sqlObject, [$statement = false])
+.. function:: prepareStatementForSqlObject()
+
+
+    @param PreparableSqlInterface $sqlObject
+
+    :param StatementInterface|null: 
+
+    :rtype: StatementInterface 
 
 
 
 getSqlStringForSqlObject
 ------------------------
 
-.. function:: getSqlStringForSqlObject($sqlObject, [$platform = false])
-
-
+.. function:: getSqlStringForSqlObject()
 
 
 

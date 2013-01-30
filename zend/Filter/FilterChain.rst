@@ -1,21 +1,16 @@
-.. /Filter/FilterChain.php generated using docpx on 01/15/13 05:29pm
+.. Filter/FilterChain.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\FilterChain
-*************************
-
-
-@category   Zend
-
-
+=========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Initialize filter chain
@@ -25,7 +20,7 @@ __construct
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
 
@@ -56,12 +51,12 @@ getPluginManager
 setPluginManager
 ----------------
 
-.. function:: setPluginManager($plugins)
+.. function:: setPluginManager()
 
 
     Set plugin manager instance
 
-    :param FilterPluginManager $plugins: 
+    :param FilterPluginManager: 
 
     :rtype: FilterChain 
 
@@ -70,13 +65,13 @@ setPluginManager
 plugin
 ------
 
-.. function:: plugin($name, [$options = false])
+.. function:: plugin()
 
 
     Retrieve a filter plugin by name
 
-    :param mixed $name: 
-    :param array $options: 
+    :param mixed: 
+    :param array: 
 
     :rtype: FilterInterface 
 
@@ -85,13 +80,13 @@ plugin
 attach
 ------
 
-.. function:: attach($callback, [$priority = 1000])
+.. function:: attach()
 
 
     Attach a filter to the chain
 
-    :param callable|FilterInterface $callback: A Filter implementation or valid PHP callback
-    :param int $priority: Priority at which to enqueue filter; defaults to 1000 (higher executes earlier)
+    :param callable|FilterInterface: A Filter implementation or valid PHP callback
+    :param int: Priority at which to enqueue filter; defaults to 1000 (higher executes earlier)
 
     :throws Exception\InvalidArgumentException: 
 
@@ -102,7 +97,7 @@ attach
 attachByName
 ------------
 
-.. function:: attachByName($name, [$options = false, [$priority = 1000]])
+.. function:: attachByName()
 
 
     Attach a filter to the chain using a short name
@@ -110,9 +105,9 @@ attachByName
     Retrieves the filter from the attached plugin manager, and then calls attach()
     with the retrieved instance.
 
-    :param string $name: 
-    :param mixed $options: 
-    :param int $priority: Priority at which to enqueue filter; defaults to 1000 (higher executes earlier)
+    :param string: 
+    :param mixed: 
+    :param int: Priority at which to enqueue filter; defaults to 1000 (higher executes earlier)
 
     :rtype: FilterChain 
 
@@ -121,12 +116,12 @@ attachByName
 merge
 -----
 
-.. function:: merge($filterChain)
+.. function:: merge()
 
 
     Merge the filter chain with the one given in parameter
 
-    :param FilterChain $filterChain: 
+    :param FilterChain: 
 
     :rtype: FilterChain 
 
@@ -147,14 +142,14 @@ getFilters
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Returns $value filtered through each filter in the chain
     
     Filters are run in the order in which they were added to the chain (FIFO)
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -188,10 +183,10 @@ __sleep
 
 
 Constants
----------
++++++++++
 
 DEFAULT_PRIORITY
-++++++++++++++++
+================
 
 Default priority at which filters are added
 

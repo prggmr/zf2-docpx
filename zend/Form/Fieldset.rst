@@ -1,39 +1,34 @@
-.. /Form/Fieldset.php generated using docpx on 01/15/13 05:29pm
+.. Form/Fieldset.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Fieldset
-********************
-
-
-@category   Zend
-
-
+====================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$options = false]])
+.. function:: __construct()
 
 
     @param  null|int|string  $name    Optional name for the element
 
-    :param array $options: Optional options for the element
+    :param array: Optional options for the element
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options for a fieldset. Accepted options are:
     - use_as_base_fieldset: is this fieldset use as the base fieldset?
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Element|ElementInterface 
 
@@ -44,12 +39,12 @@ setOptions
 setFormFactory
 --------------
 
-.. function:: setFormFactory($factory)
+.. function:: setFormFactory()
 
 
     Compose a form factory to use when calling add() with a non-element/fieldset
 
-    :param Factory $factory: 
+    :param Factory: 
 
     :rtype: Form 
 
@@ -72,7 +67,7 @@ getFormFactory
 add
 ---
 
-.. function:: add($elementOrFieldset, [$flags = false])
+.. function:: add()
 
 
     Add an element or fieldset
@@ -81,12 +76,8 @@ add
     the element or fieldset, order in which to prioritize it, etc.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array|Traversable|ElementInterface $elementOrFieldset: 
-    :param array $flags: 
+    :param array|Traversable|ElementInterface: 
+    :param array: 
 
     :rtype: Fieldset|FieldsetInterface 
 
@@ -97,12 +88,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 has
 ---
 
-.. function:: has($elementOrFieldset)
+.. function:: has()
 
 
     Does the fieldset have an element/fieldset by the given name?
 
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: bool 
 
@@ -111,17 +102,13 @@ has
 get
 ---
 
-.. function:: get($elementOrFieldset)
+.. function:: get()
 
 
     Retrieve a named element or fieldset
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: ElementInterface 
 
@@ -130,12 +117,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 remove
 ------
 
-.. function:: remove($elementOrFieldset)
+.. function:: remove()
 
 
     Remove a named element or fieldset
 
-    :param string $elementOrFieldset: 
+    :param string: 
 
     :rtype: FieldsetInterface 
 
@@ -144,13 +131,13 @@ remove
 setPriority
 -----------
 
-.. function:: setPriority($elementOrFieldset, $priority)
+.. function:: setPriority()
 
 
     Set/change the priority of an element or fieldset
 
-    :param string $elementOrFieldset: 
-    :param int $priority: 
+    :param string: 
+    :param int: 
 
     :rtype: FieldsetInterface 
 
@@ -187,12 +174,12 @@ getFieldsets
 setMessages
 -----------
 
-.. function:: setMessages($messages)
+.. function:: setMessages()
 
 
     Set a hash of element names/messages to use when validation fails
 
-    :param array|Traversable $messages: 
+    :param array|Traversable: 
 
     :rtype: Element|ElementInterface|FieldsetInterface 
 
@@ -203,7 +190,7 @@ setMessages
 getMessages
 -----------
 
-.. function:: getMessages([$elementName = false])
+.. function:: getMessages()
 
 
     Get validation error messages, if any
@@ -212,7 +199,7 @@ getMessages
     validation, or, if $elementName is provided, messages for that element
     only.
 
-    :param null|string $elementName: 
+    :param null|string: 
 
     :rtype: array|Traversable 
 
@@ -223,13 +210,13 @@ getMessages
 prepareElement
 --------------
 
-.. function:: prepareElement($form)
+.. function:: prepareElement()
 
 
     Ensures state is ready for use. Here, we append the name of the fieldsets to every elements in order to avoid
     name clashes if the same fieldset is used multiple times
 
-    :param Form $form: 
+    :param FormInterface: 
 
     :rtype: mixed|void 
 
@@ -238,12 +225,12 @@ prepareElement
 populateValues
 --------------
 
-.. function:: populateValues($data)
+.. function:: populateValues()
 
 
     Recursively populate values of attached elements and fieldsets
 
-    :param array|Traversable $data: 
+    :param array|Traversable: 
 
     :rtype: void 
 
@@ -278,12 +265,12 @@ getIterator
 setObject
 ---------
 
-.. function:: setObject($object)
+.. function:: setObject()
 
 
     Set the object used by the hydrator
 
-    :param object $object: 
+    :param object: 
 
     :rtype: Fieldset|FieldsetInterface 
 
@@ -306,12 +293,12 @@ getObject
 allowObjectBinding
 ------------------
 
-.. function:: allowObjectBinding($object)
+.. function:: allowObjectBinding()
 
 
     Checks if the object can be set in this fieldset
 
-    :param object $object: 
+    :param object: 
 
     :rtype: bool 
 
@@ -320,12 +307,12 @@ allowObjectBinding
 setHydrator
 -----------
 
-.. function:: setHydrator($hydrator)
+.. function:: setHydrator()
 
 
     Set the hydrator to use when binding an object to the element
 
-    :param HydratorInterface $hydrator: 
+    :param HydratorInterface: 
 
     :rtype: FieldsetInterface 
 
@@ -360,12 +347,12 @@ allowValueBinding
 bindValues
 ----------
 
-.. function:: bindValues([$values = false])
+.. function:: bindValues()
 
 
     Bind values to the bound object
 
-    :param array $values: 
+    :param array: 
 
     :rtype: mixed|void 
 
@@ -374,12 +361,12 @@ bindValues
 setUseAsBaseFieldset
 --------------------
 
-.. function:: setUseAsBaseFieldset($useAsBaseFieldset)
+.. function:: setUseAsBaseFieldset()
 
 
     Set if this fieldset is used as a base fieldset
 
-    :param bool $useAsBaseFieldset: 
+    :param bool: 
 
     :rtype: Fieldset 
 
@@ -418,8 +405,6 @@ __clone
     Make a deep clone of a fieldset
 
     :rtype: void 
-
-
 
 
 

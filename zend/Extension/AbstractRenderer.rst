@@ -1,26 +1,23 @@
-.. /Feed/Writer/Extension/AbstractRenderer.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/AbstractRenderer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\AbstractRenderer
-***********************************************
-
-
-@category Zend
+===============================================
 
 
 
 Methods
-=======
++++++++
 
 setDataContainer
 ----------------
 
-.. function:: setDataContainer($container)
+.. function:: setDataContainer()
 
 
     Set the data container
 
-    :param mixed $container: 
+    :param mixed: 
 
     :rtype: AbstractRenderer 
 
@@ -29,12 +26,12 @@ setDataContainer
 setEncoding
 -----------
 
-.. function:: setEncoding($enc)
+.. function:: setEncoding()
 
 
     Set feed encoding
 
-    :param string $enc: 
+    :param string: 
 
     :rtype: AbstractRenderer 
 
@@ -55,13 +52,13 @@ getEncoding
 setDomDocument
 --------------
 
-.. function:: setDomDocument($dom, $base)
+.. function:: setDomDocument()
 
 
     Set DOMDocument and DOMElement on which to operate
 
-    :param DOMDocument $dom: 
-    :param DOMElement $base: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: AbstractRenderer 
 
@@ -82,12 +79,12 @@ getDataContainer
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set feed type
 
-    :param string $type: 
+    :param string: 
 
     :rtype: AbstractRenderer 
 
@@ -108,12 +105,12 @@ getType
 setRootElement
 --------------
 
-.. function:: setRootElement($root)
+.. function:: setRootElement()
 
 
     Set root element of document
 
-    :param DOMElement $root: 
+    :param DOMElement: 
 
     :rtype: AbstractRenderer 
 
@@ -140,8 +137,6 @@ _appendNamespaces
     Append namespaces to feed
 
     :rtype: void 
-
-
 
 
 

@@ -1,26 +1,21 @@
-.. /Form/View/Helper/Captcha/ReCaptcha.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/Captcha/ReCaptcha.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\Captcha\\ReCaptcha
-********************************************
-
-
-@category   Zend
-
-
+============================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render ReCaptcha form elements
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
@@ -31,14 +26,14 @@ render
 __invoke
 --------
 
-.. function:: __invoke([$element = false])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
 
@@ -47,15 +42,15 @@ __invoke
 renderHiddenInput
 -----------------
 
-.. function:: renderHiddenInput($challengeName, $challengeId, $responseName, $responseId)
+.. function:: renderHiddenInput()
 
 
     Render hidden input elements for the challenge and response
 
-    :param string $challengeName: 
-    :param string $challengeId: 
-    :param string $responseName: 
-    :param string $responseId: 
+    :param string: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
 
@@ -64,17 +59,15 @@ renderHiddenInput
 renderJsEvents
 --------------
 
-.. function:: renderJsEvents($challengeId, $responseId)
+.. function:: renderJsEvents()
 
 
     Create the JS events used to bind the challenge and response values to the submitted form.
 
-    :param string $challengeId: 
-    :param string $responseId: 
+    :param string: 
+    :param string: 
 
     :rtype: string 
-
-
 
 
 

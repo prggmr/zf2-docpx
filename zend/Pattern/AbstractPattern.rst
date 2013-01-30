@@ -1,26 +1,21 @@
-.. /Cache/Pattern/AbstractPattern.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/AbstractPattern.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\AbstractPattern
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set pattern options
 
-    :param array|Traversable|PatternOptions $options: 
+    :param array|Traversable|PatternOptions: 
 
     :rtype: AbstractPattern 
 
@@ -37,8 +32,6 @@ getOptions
     Get all pattern options
 
     :rtype: PatternOptions 
-
-
 
 
 

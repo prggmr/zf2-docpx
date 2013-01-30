@@ -1,28 +1,23 @@
-.. /Db/Adapter/Driver/Mysqli/Result.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Mysqli/Result.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Mysqli\\Result
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
 
-.. function:: initialize($resource, $generatedValue, [$isBuffered = false])
+.. function:: initialize()
 
 
     Initialize
 
-    :param mixed $resource: 
-    :param mixed $generatedValue: 
-    :param bool|null $isBuffered: 
+    :param mixed: 
+    :param mixed: 
+    :param bool|null: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -112,10 +107,6 @@ loadDataFromMysqliStatement
     Mysqli requires you to bind variables to the extension in order to
     get data out.  These values have to be references:
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
 
     :rtype: bool 
@@ -217,8 +208,6 @@ getGeneratedValue
     Get generated value
 
     :rtype: mixed|null 
-
-
 
 
 

@@ -1,16 +1,13 @@
-.. /EventManager/FilterChain.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/FilterChain.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\FilterChain
-*******************************
-
+===============================
 
 FilterChain: intercepting filter manager
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -27,15 +24,15 @@ __construct
 run
 ---
 
-.. function:: run($context, [$argv = false])
+.. function:: run()
 
 
     Apply the filters
     
     Begins iteration of the filters.
 
-    :param mixed $context: Object under observation
-    :param mixed $argv: Associative array of arguments
+    :param mixed: Object under observation
+    :param mixed: Associative array of arguments
 
     :rtype: mixed 
 
@@ -44,13 +41,13 @@ run
 attach
 ------
 
-.. function:: attach($callback, [$priority = 1])
+.. function:: attach()
 
 
     Connect a filter to the chain
 
-    :param callable $callback: PHP Callback
-    :param int $priority: Priority in the queue at which to execute; defaults to 1 (higher numbers == higher priority)
+    :param callable: PHP Callback
+    :param int: Priority in the queue at which to execute; defaults to 1 (higher numbers == higher priority)
 
     :rtype: CallbackHandler (to allow later unsubscribe)
 
@@ -61,12 +58,12 @@ attach
 detach
 ------
 
-.. function:: detach($filter)
+.. function:: detach()
 
 
     Detach a filter from the chain
 
-    :param CallbackHandler $filter: 
+    :param CallbackHandler: 
 
     :rtype: bool Returns true if filter found and unsubscribed; returns false otherwise
 
@@ -108,8 +105,6 @@ getResponses
     current ResponseCollection.
 
     :rtype: null|ResponseCollection 
-
-
 
 
 

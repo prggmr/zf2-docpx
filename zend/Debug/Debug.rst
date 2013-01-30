@@ -1,16 +1,13 @@
-.. /Debug/Debug.php generated using docpx on 01/15/13 05:29pm
+.. Debug/Debug.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Debug\\Debug
-******************
-
+==================
 
 Concrete class for generating debug dumps related to the output source.
 
-
-
 Methods
-=======
++++++++
 
 getSapi
 -------
@@ -28,13 +25,13 @@ getSapi
 setSapi
 -------
 
-.. function:: setSapi($sapi)
+.. function:: setSapi()
 
 
     Set the debug output environment.
     Setting a value of null causes Zend_Debug to use PHP_SAPI.
 
-    :param string $sapi: 
+    :param string: 
 
     :rtype: void; 
 
@@ -43,12 +40,12 @@ setSapi
 setEscaper
 ----------
 
-.. function:: setEscaper($escaper)
+.. function:: setEscaper()
 
 
     Set Escaper instance
 
-    :param Escaper $escaper: 
+    :param Escaper: 
 
 
 
@@ -69,20 +66,18 @@ getEscaper
 dump
 ----
 
-.. function:: dump($var, [$label = false, [$echo = true]])
+.. function:: dump()
 
 
     Debug helper function.  This is a wrapper for var_dump() that adds
     the <pre /> tags, cleans up newlines and indents, and runs
     htmlentities() before output.
 
-    :param mixed $var: The variable to dump.
-    :param string $label: OPTIONAL Label to prepend to output.
-    :param bool $echo: OPTIONAL Echo output if true.
+    :param mixed: The variable to dump.
+    :param string: OPTIONAL Label to prepend to output.
+    :param bool: OPTIONAL Echo output if true.
 
     :rtype: string 
-
-
 
 
 

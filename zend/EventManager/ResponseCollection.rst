@@ -1,16 +1,13 @@
-.. /EventManager/ResponseCollection.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/ResponseCollection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\ResponseCollection
-**************************************
-
+======================================
 
 Collection of signal handler return values
 
-
-
 Methods
-=======
++++++++
 
 stopped
 -------
@@ -27,12 +24,12 @@ stopped
 setStopped
 ----------
 
-.. function:: setStopped($flag)
+.. function:: setStopped()
 
 
     Mark the collection as stopped (or its opposite)
 
-    :param bool $flag: 
+    :param bool: 
 
     :rtype: ResponseCollection 
 
@@ -68,16 +65,14 @@ last
 contains
 --------
 
-.. function:: contains($value)
+.. function:: contains()
 
 
     Check if any of the responses match the given value.
 
-    :param mixed $value: The value to look for among responses
+    :param mixed: The value to look for among responses
 
     :rtype: bool 
-
-
 
 
 

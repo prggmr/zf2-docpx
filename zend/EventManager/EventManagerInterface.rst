@@ -1,4 +1,4 @@
-.. /EventManager/EventManagerInterface.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/EventManagerInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\trigger
@@ -17,10 +17,10 @@ Zend\\EventManager\\trigger
     
     Can emulate triggerUntil() if the last argument provided is a callback.
 
-    :param string $event: 
-    :param object|string $target: 
-    :param array|object $argv: 
-    :param null|callable $callback: 
+    :param string: 
+    :param object|string: 
+    :param array|object: 
+    :param null|callable: 
 
     :rtype: ResponseCollection 
 
@@ -40,10 +40,10 @@ Zend\\EventManager\\triggerUntil
     - Passing event name, target, Event object, and callback
     - Passing event name, target, array|ArrayAccess of arguments, and callback
 
-    :param string $event: 
-    :param object|string $target: 
-    :param array|object $argv: 
-    :param callable $callback: 
+    :param string: 
+    :param object|string: 
+    :param array|object: 
+    :param callable: 
 
     :rtype: ResponseCollection 
 
@@ -57,9 +57,9 @@ Zend\\EventManager\\attach
 
     Attach a listener to an event
 
-    :param string $event: 
-    :param callable $callback: 
-    :param int $priority: Priority at which to register listener
+    :param string: 
+    :param callable: 
+    :param int: Priority at which to register listener
 
     :rtype: CallbackHandler 
 
@@ -73,7 +73,7 @@ Zend\\EventManager\\detach
 
     Detach an event listener
 
-    :param CallbackHandler|ListenerAggregateInterface $listener: 
+    :param CallbackHandler|ListenerAggregateInterface: 
 
     :rtype: bool 
 
@@ -99,7 +99,7 @@ Zend\\EventManager\\getListeners
 
     Retrieve a list of listeners registered to a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: array|object 
 
@@ -113,7 +113,7 @@ Zend\\EventManager\\clearListeners
 
     Clear all listeners for a given event
 
-    :param string $event: 
+    :param string: 
 
     :rtype: void 
 
@@ -127,7 +127,7 @@ Zend\\EventManager\\setEventClass
 
     Set the event class to utilize
 
-    :param string $class: 
+    :param string: 
 
     :rtype: EventManagerInterface 
 
@@ -153,7 +153,7 @@ Zend\\EventManager\\setIdentifiers
 
     Set the identifiers (overrides any currently set identifiers)
 
-    :param string|int|array|Traversable $identifiers: 
+    :param string|int|array|Traversable: 
 
     :rtype: EventManagerInterface 
 
@@ -167,7 +167,7 @@ Zend\\EventManager\\addIdentifiers
 
     Add some identifier(s) (appends to any currently set identifiers)
 
-    :param string|int|array|Traversable $identifiers: 
+    :param string|int|array|Traversable: 
 
     :rtype: EventManagerInterface 
 
@@ -181,8 +181,8 @@ Zend\\EventManager\\attachAggregate
 
     Attach a listener aggregate
 
-    :param ListenerAggregateInterface $aggregate: 
-    :param int $priority: If provided, a suggested priority for the aggregate to use
+    :param ListenerAggregateInterface: 
+    :param int: If provided, a suggested priority for the aggregate to use
 
     :rtype: mixed return value of {@link ListenerAggregateInterface::attach()}
 
@@ -196,7 +196,7 @@ Zend\\EventManager\\detachAggregate
 
     Detach a listener aggregate
 
-    :param ListenerAggregateInterface $aggregate: 
+    :param ListenerAggregateInterface: 
 
     :rtype: mixed return value of {@link ListenerAggregateInterface::detach()}
 

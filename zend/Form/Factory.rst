@@ -1,26 +1,31 @@
-.. /Form/Factory.php generated using docpx on 01/15/13 05:29pm
+.. Form/Factory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Factory
-*******************
-
-
-@category   Zend
-
-
+===================
 
 Methods
-=======
++++++++
+
+__construct
+-----------
+
+.. function:: __construct()
+
+
+    @param FormElementManager $formElementManager
+
+
 
 setInputFilterFactory
 ---------------------
 
-.. function:: setInputFilterFactory($inputFilterFactory)
+.. function:: setInputFilterFactory()
 
 
     Set input filter factory to use when creating forms
 
-    :param InputFilterFactory $inputFilterFactory: 
+    :param InputFilterFactory: 
 
     :rtype: Factory 
 
@@ -40,10 +45,36 @@ getInputFilterFactory
 
 
 
+setFormElementManager
+---------------------
+
+.. function:: setFormElementManager()
+
+
+    Set the form element manager
+
+    :param FormElementManager: 
+
+    :rtype: Factory 
+
+
+
+getFormElementManager
+---------------------
+
+.. function:: getFormElementManager()
+
+
+    Get form element manager
+
+    :rtype: FormElementManager 
+
+
+
 create
 ------
 
-.. function:: create($spec)
+.. function:: create()
 
 
     Create an element, fieldset, or form
@@ -52,7 +83,7 @@ create
     type is being requested; if none is provided, assumes the spec
     represents simply an element.
 
-    :param array|Traversable $spec: 
+    :param array|Traversable: 
 
     :rtype: ElementInterface 
 
@@ -63,10 +94,52 @@ create
 createElement
 -------------
 
-.. function:: createElement($spec)
+.. function:: createElement()
 
 
-    Create an element based on the provided specification
+    Create an element
+
+    :param array: 
+
+    :rtype: ElementInterface 
+
+
+
+createFieldset
+--------------
+
+.. function:: createFieldset()
+
+
+    Create a fieldset
+
+    :param array: 
+
+    :rtype: ElementInterface 
+
+
+
+createForm
+----------
+
+.. function:: createForm()
+
+
+    Create a form
+
+    :param array: 
+
+    :rtype: ElementInterface 
+
+
+
+configureElement
+----------------
+
+.. function:: configureElement()
+
+
+    Configure an element based on the provided specification
     
     Specification can contain any of the following:
     - type: the Element class to use; defaults to \Zend\Form\Element
@@ -75,22 +148,22 @@ createElement
     - attributes: an array, Traversable, or ArrayAccess object of element
       attributes to assign
 
-    :param array|Traversable|ArrayAccess $spec: 
+    :param ElementInterface: 
+    :param array|Traversable|ArrayAccess: 
+
+    :throws Exception\DomainException: 
 
     :rtype: ElementInterface 
 
-    :throws: Exception\InvalidArgumentException for an invalid $spec
-    :throws: Exception\DomainException for an invalid element type
 
 
+configureFieldset
+-----------------
 
-createFieldset
---------------
-
-.. function:: createFieldset($spec)
+.. function:: configureFieldset()
 
 
-    Create a fieldset based on the provided specification
+    Configure a fieldset based on the provided specification
     
     Specification can contain any of the following:
     - type: the Fieldset class to use; defaults to \Zend\Form\Fieldset
@@ -101,53 +174,51 @@ createFieldset
     - elements: an array or Traversable object where each entry is an array
       or ArrayAccess object containing the keys:
       - flags: (optional) array of flags to pass to FieldsetInterface::add()
-      - spec: the actual element specification, per {@link createElement()}
+      - spec: the actual element specification, per {@link configureElement()}
 
-    :param array|Traversable|ArrayAccess $spec: 
+    :param FieldsetInterface: 
+    :param array|Traversable|ArrayAccess: 
+
+    :throws Exception\DomainException: 
 
     :rtype: FieldsetInterface 
 
-    :throws: Exception\InvalidArgumentException for an invalid $spec
-    :throws: Exception\DomainException for an invalid fieldset type
 
 
+configureForm
+-------------
 
-createForm
-----------
-
-.. function:: createForm($spec)
+.. function:: configureForm()
 
 
-    Create a form based on the provided specification
+    Configure a form based on the provided specification
     
-    Specification follows that of {@link createFieldset()}, and adds the
+    Specification follows that of {@link configureFieldset()}, and adds the
     following keys:
     
     - input_filter: input filter instance, named input filter class, or
       array specification for the input filter factory
     - hydrator: hydrator instance or named hydrator class
 
-    :param array|Traversable|ArrayAccess $spec: 
+    :param FormInterface: 
+    :param array|Traversable|ArrayAccess: 
 
     :rtype: FormInterface 
-
-    :throws: Exception\InvalidArgumentException for an invalid $spec
-    :throws: Exception\DomainException for an invalid form type
 
 
 
 validateSpecification
 ---------------------
 
-.. function:: validateSpecification($spec, $method)
+.. function:: validateSpecification()
 
 
     Validate a provided specification
     
     Ensures we have an array, Traversable, or ArrayAccess object, and returns it.
 
-    :param array|Traversable|ArrayAccess $spec: 
-    :param string $method: Method invoking the validator
+    :param array|Traversable|ArrayAccess: 
+    :param string: Method invoking the validator
 
     :rtype: array|ArrayAccess 
 
@@ -158,14 +229,14 @@ validateSpecification
 prepareAndInjectElements
 ------------------------
 
-.. function:: prepareAndInjectElements($elements, $fieldset, $method)
+.. function:: prepareAndInjectElements()
 
 
     Takes a list of element specifications, creates the elements, and injects them into the provided fieldset
 
-    :param array|Traversable|ArrayAccess $elements: 
-    :param FieldsetInterface $fieldset: 
-    :param string $method: Method invoking this one (for exception messages)
+    :param array|Traversable|ArrayAccess: 
+    :param FieldsetInterface: 
+    :param string: Method invoking this one (for exception messages)
 
     :rtype: void 
 
@@ -174,14 +245,14 @@ prepareAndInjectElements
 prepareAndInjectFieldsets
 -------------------------
 
-.. function:: prepareAndInjectFieldsets($fieldsets, $masterFieldset, $method)
+.. function:: prepareAndInjectFieldsets()
 
 
     Takes a list of fieldset specifications, creates the fieldsets, and injects them into the master fieldset
 
-    :param array|Traversable|ArrayAccess $fieldsets: 
-    :param FieldsetInterface $masterFieldset: 
-    :param string $method: Method invoking this one (for exception messages)
+    :param array|Traversable|ArrayAccess: 
+    :param FieldsetInterface: 
+    :param string: Method invoking this one (for exception messages)
 
     :rtype: void 
 
@@ -190,7 +261,7 @@ prepareAndInjectFieldsets
 prepareAndInjectObject
 ----------------------
 
-.. function:: prepareAndInjectObject($objectName, $fieldset, $method)
+.. function:: prepareAndInjectObject()
 
 
     Prepare and inject an object
@@ -198,9 +269,9 @@ prepareAndInjectObject
     Takes a string indicating a class name, instantiates the class
     by that name, and injects the class instance as the bound object.
 
-    :param string $objectName: 
-    :param FieldsetInterface $fieldset: 
-    :param string $method: 
+    :param string: 
+    :param FieldsetInterface: 
+    :param string: 
 
     :throws Exception\DomainException: 
 
@@ -211,17 +282,17 @@ prepareAndInjectObject
 prepareAndInjectHydrator
 ------------------------
 
-.. function:: prepareAndInjectHydrator($hydratorOrName, $fieldset, $method)
+.. function:: prepareAndInjectHydrator()
 
 
     Prepare and inject a named hydrator
     
-    Takes a string indicating a hydrator class name (or a concrete instance), instantiates the class
-    by that name, and injects the hydrator instance into the form.
+    Takes a string indicating a hydrator class name (or a concrete instance), try first to instantiates the class
+    by pulling it from service manager, and injects the hydrator instance into the form.
 
-    :param string $hydratorOrName: 
-    :param FieldsetInterface $fieldset: 
-    :param string $method: 
+    :param string|array|Hydrator\HydratorInterface: 
+    :param FieldsetInterface: 
+    :param string: 
 
     :rtype: void 
 
@@ -233,7 +304,7 @@ prepareAndInjectHydrator
 prepareAndInjectInputFilter
 ---------------------------
 
-.. function:: prepareAndInjectInputFilter($spec, $form, $method)
+.. function:: prepareAndInjectInputFilter()
 
 
     Prepare an input filter instance and inject in the provided form
@@ -245,9 +316,9 @@ prepareAndInjectInputFilter
     Otherwise, $spec is passed on to the attached InputFilter Factory
     instance in order to create the input filter.
 
-    :param string|array|Traversable $spec: 
-    :param FormInterface $form: 
-    :param string $method: 
+    :param string|array|Traversable: 
+    :param FormInterface: 
+    :param string: 
 
     :rtype: void 
 
@@ -258,16 +329,16 @@ prepareAndInjectInputFilter
 prepareAndInjectValidationGroup
 -------------------------------
 
-.. function:: prepareAndInjectValidationGroup($spec, $form, $method)
+.. function:: prepareAndInjectValidationGroup()
 
 
     Prepare a validation group and inject in the provided form
     
     Takes an array of elements names
 
-    :param string|array|Traversable $spec: 
-    :param FormInterface $form: 
-    :param string $method: 
+    :param string|array|Traversable: 
+    :param FormInterface: 
+    :param string: 
 
     :rtype: void 
 
@@ -275,29 +346,19 @@ prepareAndInjectValidationGroup
 
 
 
-isSubclassOf
-------------
+getHydratorFromName
+-------------------
 
-.. function:: isSubclassOf($className, $type)
-
-
-    Checks if the object has this class as one of its parents
+.. function:: getHydratorFromName()
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
+    Try to pull hydrator from service manager, or instantiates it from its name
 
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
+    :param string: 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
+    :rtype: mixed 
 
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $className: 
-    :param string $type: 
-
-    :rtype: bool 
-
-
+    :throws: Exception\DomainException 
 
 
 

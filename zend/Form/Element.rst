@@ -1,40 +1,48 @@
-.. /Form/Element.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element
-*******************
-
-
-@category   Zend
-
-
+===================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$options = false]])
+.. function:: __construct()
 
 
     @param  null|int|string  $name    Optional name for the element
 
-    :param array $options: Optional options for the element
+    :param array: Optional options for the element
 
     :throws Exception\InvalidArgumentException: 
+
+
+
+init
+----
+
+.. function:: init()
+
+
+    This function is automatically called when creating element with factory. It
+    allows to perform various operations (add elements...)
+
+    :rtype: void 
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set value for name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Element|ElementInterface 
 
@@ -55,14 +63,14 @@ getName
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options for an element. Accepted options are:
     - label: label to associate with the element
     - label_attributes: attributes to use when the label is rendered
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Element|ElementInterface 
 
@@ -85,12 +93,12 @@ getOptions
 getOption
 ---------
 
-.. function:: getOption($option)
+.. function:: getOption()
 
 
     Return the specified option
 
-    :param string $option: 
+    :param string: 
 
     :rtype: NULL|mixed 
 
@@ -99,13 +107,13 @@ getOption
 setAttribute
 ------------
 
-.. function:: setAttribute($key, $value)
+.. function:: setAttribute()
 
 
     Set a single element attribute
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Element|ElementInterface 
 
@@ -114,7 +122,7 @@ setAttribute
 getAttribute
 ------------
 
-.. function:: getAttribute($key)
+.. function:: getAttribute()
 
 
     Retrieve a single element attribute
@@ -125,15 +133,29 @@ getAttribute
 
 
 
+removeAttribute
+---------------
+
+.. function:: removeAttribute()
+
+
+    Remove a single attribute
+
+    :param string: 
+
+    :rtype: ElementInterface 
+
+
+
 hasAttribute
 ------------
 
-.. function:: hasAttribute($key)
+.. function:: hasAttribute()
 
 
     Does the element has a specific attribute ?
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -142,14 +164,14 @@ hasAttribute
 setAttributes
 -------------
 
-.. function:: setAttributes($arrayOrTraversable)
+.. function:: setAttributes()
 
 
     Set many attributes at once
     
     Implementation will decide if this will overwrite or merge.
 
-    :param array|Traversable $arrayOrTraversable: 
+    :param array|Traversable: 
 
     :rtype: Element|ElementInterface 
 
@@ -169,6 +191,20 @@ getAttributes
 
 
 
+removeAttributes
+----------------
+
+.. function:: removeAttributes()
+
+
+    Remove many attributes at once
+
+    :param array: 
+
+    :rtype: ElementInterface 
+
+
+
 clearAttributes
 ---------------
 
@@ -184,12 +220,12 @@ clearAttributes
 setValue
 --------
 
-.. function:: setValue($value)
+.. function:: setValue()
 
 
     Set the element value
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: Element 
 
@@ -210,7 +246,7 @@ getValue
 setLabel
 --------
 
-.. function:: setLabel($label)
+.. function:: setLabel()
 
 
     Set the label used for this element
@@ -236,12 +272,12 @@ getLabel
 setLabelAttributes
 ------------------
 
-.. function:: setLabelAttributes($labelAttributes)
+.. function:: setLabelAttributes()
 
 
     Set the attributes to use with the label
 
-    :param array $labelAttributes: 
+    :param array: 
 
     :rtype: Element|ElementInterface 
 
@@ -262,12 +298,12 @@ getLabelAttributes
 setMessages
 -----------
 
-.. function:: setMessages($messages)
+.. function:: setMessages()
 
 
     Set a list of messages to report when validation fails
 
-    :param array|Traversable $messages: 
+    :param array|Traversable: 
 
     :rtype: Element|ElementInterface 
 
@@ -286,8 +322,6 @@ getMessages
     Returns a list of validation failure messages, if any.
 
     :rtype: array|Traversable 
-
-
 
 
 

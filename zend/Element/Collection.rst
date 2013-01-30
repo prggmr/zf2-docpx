@@ -1,21 +1,16 @@
-.. /Form/Element/Collection.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Collection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Collection
-*******************************
-
-
-@category   Zend
-
-
+===============================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Accepted options for Collection:
@@ -26,7 +21,7 @@ setOptions
     - should_create_template: if set to true, a template is generated (inside a <span>)
     - template_placeholder: placeholder used in the data template
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Collection 
 
@@ -35,12 +30,12 @@ setOptions
 allowObjectBinding
 ------------------
 
-.. function:: allowObjectBinding($object)
+.. function:: allowObjectBinding()
 
 
     Checks if the object can be set in this fieldset
 
-    :param object $object: 
+    :param object: 
 
     :rtype: bool 
 
@@ -49,13 +44,13 @@ allowObjectBinding
 setObject
 ---------
 
-.. function:: setObject($object)
+.. function:: setObject()
 
 
     Set the object used by the hydrator
     In this case the "object" is a collection of objects
 
-    :param array|\Traversable $object: 
+    :param array|\Traversable: 
 
     :rtype: Fieldset|FieldsetInterface 
 
@@ -66,12 +61,12 @@ setObject
 populateValues
 --------------
 
-.. function:: populateValues($data)
+.. function:: populateValues()
 
 
     Populate values
 
-    :param array|\Traversable $data: 
+    :param array|\Traversable: 
 
     :throws \Zend\Form\Exception\InvalidArgumentException: 
     :throws \Zend\Form\Exception\DomainException: 
@@ -95,12 +90,12 @@ allowValueBinding
 bindValues
 ----------
 
-.. function:: bindValues([$values = false])
+.. function:: bindValues()
 
 
     Bind values to the object
 
-    :param array $values: 
+    :param array: 
 
     :rtype: array|mixed|void 
 
@@ -109,7 +104,7 @@ bindValues
 setCount
 --------
 
-.. function:: setCount($count)
+.. function:: setCount()
 
 
     Set the initial count of target element
@@ -135,12 +130,12 @@ getCount
 setTargetElement
 ----------------
 
-.. function:: setTargetElement($elementOrFieldset)
+.. function:: setTargetElement()
 
 
     Set the target element
 
-    :param ElementInterface|array|Traversable $elementOrFieldset: 
+    :param ElementInterface|array|Traversable: 
 
     :rtype: Collection 
 
@@ -163,12 +158,12 @@ getTargetElement
 setAllowAdd
 -----------
 
-.. function:: setAllowAdd($allowAdd)
+.. function:: setAllowAdd()
 
 
     Get allow add
 
-    :param bool $allowAdd: 
+    :param bool: 
 
     :rtype: Collection 
 
@@ -189,7 +184,7 @@ allowAdd
 setAllowRemove
 --------------
 
-.. function:: setAllowRemove($allowRemove)
+.. function:: setAllowRemove()
 
 
     @param bool $allowRemove
@@ -211,12 +206,12 @@ allowRemove
 setShouldCreateTemplate
 -----------------------
 
-.. function:: setShouldCreateTemplate($shouldCreateTemplate)
+.. function:: setShouldCreateTemplate()
 
 
     If set to true, a template prototype is automatically added to the form to ease the creation of dynamic elements through JavaScript
 
-    :param bool $shouldCreateTemplate: 
+    :param bool: 
 
     :rtype: Collection 
 
@@ -237,12 +232,12 @@ shouldCreateTemplate
 setTemplatePlaceholder
 ----------------------
 
-.. function:: setTemplatePlaceholder($templatePlaceholder)
+.. function:: setTemplatePlaceholder()
 
 
     Set the placeholder used in the template generated to help create new elements in JavaScript
 
-    :param string $templatePlaceholder: 
+    :param string: 
 
     :rtype: Collection 
 
@@ -275,12 +270,12 @@ getTemplateElement
 prepareElement
 --------------
 
-.. function:: prepareElement($form)
+.. function:: prepareElement()
 
 
     Prepare the collection by adding a dummy template element if the user want one
 
-    :param Form $form: 
+    :param FormInterface: 
 
     :rtype: mixed|void 
 
@@ -335,10 +330,10 @@ createTemplateElement
 
 
 Constants
----------
++++++++++
 
 DEFAULT_TEMPLATE_PLACEHOLDER
-++++++++++++++++++++++++++++
+============================
 
 Default template placeholder
 

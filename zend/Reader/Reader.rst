@@ -1,16 +1,13 @@
-.. /Feed/Reader/Reader.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Reader.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Reader
-**************************
-
-
-@category Zend
+==========================
 
 
 
 Methods
-=======
++++++++
 
 getCache
 --------
@@ -27,12 +24,12 @@ getCache
 setCache
 --------
 
-.. function:: setCache($cache)
+.. function:: setCache()
 
 
     Set the feed cache
 
-    :param CacheStorage $cache: 
+    :param CacheStorage: 
 
     :rtype: void 
 
@@ -41,14 +38,14 @@ setCache
 setHttpClient
 -------------
 
-.. function:: setHttpClient($httpClient)
+.. function:: setHttpClient()
 
 
     Set the HTTP client instance
     
     Sets the HTTP client object to use for retrieving the feeds.
 
-    :param \Zend\Http\Client $httpClient: 
+    :param \Zend\Http\Client: 
 
     :rtype: void 
 
@@ -69,7 +66,7 @@ getHttpClient
 setHttpMethodOverride
 ---------------------
 
-.. function:: setHttpMethodOverride([$override = true])
+.. function:: setHttpMethodOverride()
 
 
     Toggle using POST instead of PUT and DELETE HTTP methods
@@ -81,7 +78,7 @@ setHttpMethodOverride
     X-Method-Override header will be sent with a value of PUT or
     DELETE as appropriate.
 
-    :param bool $override: Whether to override PUT and DELETE.
+    :param bool: Whether to override PUT and DELETE.
 
     :rtype: void 
 
@@ -102,12 +99,12 @@ getHttpMethodOverride
 useHttpConditionalGet
 ---------------------
 
-.. function:: useHttpConditionalGet([$bool = true])
+.. function:: useHttpConditionalGet()
 
 
     Set the flag indicating whether or not to use HTTP conditional GET
 
-    :param bool $bool: 
+    :param bool: 
 
     :rtype: void 
 
@@ -116,14 +113,14 @@ useHttpConditionalGet
 import
 ------
 
-.. function:: import($uri, [$etag = false, [$lastModified = false]])
+.. function:: import()
 
 
     Import a feed by providing a URI
 
-    :param string $uri: The URI to the feed
-    :param string $etag: OPTIONAL Last received ETag for this resource
-    :param string $lastModified: OPTIONAL Last-Modified value for this resource
+    :param string: The URI to the feed
+    :param string: OPTIONAL Last received ETag for this resource
+    :param string: OPTIONAL Last-Modified value for this resource
 
     :rtype: Feed\FeedInterface 
 
@@ -134,12 +131,12 @@ import
 importString
 ------------
 
-.. function:: importString($string)
+.. function:: importString()
 
 
     Import a feed from a string
 
-    :param string $string: 
+    :param string: 
 
     :rtype: Feed\FeedInterface 
 
@@ -151,12 +148,12 @@ importString
 importFile
 ----------
 
-.. function:: importFile($filename)
+.. function:: importFile()
 
 
     Imports a feed from a file located at $filename.
 
-    :param string $filename: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -167,7 +164,7 @@ importFile
 findFeedLinks
 -------------
 
-.. function:: findFeedLinks($uri)
+.. function:: findFeedLinks()
 
 
     Find feed links
@@ -183,13 +180,13 @@ findFeedLinks
 detectType
 ----------
 
-.. function:: detectType($feed, [$specOnly = false])
+.. function:: detectType()
 
 
     Detect the feed type of the provided feed
 
-    :param Feed\AbstractFeed|DOMDocument|string $feed: 
-    :param bool $specOnly: 
+    :param Feed\AbstractFeed|DOMDocument|string: 
+    :param bool: 
 
     :rtype: string 
 
@@ -201,12 +198,12 @@ detectType
 setExtensionManager
 -------------------
 
-.. function:: setExtensionManager($extensionManager)
+.. function:: setExtensionManager()
 
 
     Set plugin manager for use with Extensions
 
-    :param ExtensionManager $extensionManager: 
+    :param ExtensionManager: 
 
 
 
@@ -225,12 +222,12 @@ getExtensionManager
 registerExtension
 -----------------
 
-.. function:: registerExtension($name)
+.. function:: registerExtension()
 
 
     Register an Extension by name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
 
@@ -241,12 +238,12 @@ registerExtension
 isRegistered
 ------------
 
-.. function:: isRegistered($extensionName)
+.. function:: isRegistered()
 
 
     Is a given named Extension registered?
 
-    :param string $extensionName: 
+    :param string: 
 
     :rtype: bool 
 
@@ -291,7 +288,7 @@ registerCoreExtensions
 arrayUnique
 -----------
 
-.. function:: arrayUnique($array)
+.. function:: arrayUnique()
 
 
     Utility method to apply array_unique operation to a multidimensional
@@ -306,69 +303,69 @@ arrayUnique
 
 
 Constants
----------
++++++++++
 
 NAMESPACE_ATOM_03
-+++++++++++++++++
+=================
 
 Namespace constants
 
 NAMESPACE_ATOM_10
-+++++++++++++++++
+=================
 
 NAMESPACE_RDF
-+++++++++++++
+=============
 
 NAMESPACE_RSS_090
-+++++++++++++++++
+=================
 
 NAMESPACE_RSS_10
-++++++++++++++++
+================
 
 TYPE_ANY
-++++++++
+========
 
 Feed type constants
 
 TYPE_ATOM_03
-++++++++++++
+============
 
 TYPE_ATOM_10
-++++++++++++
+============
 
 TYPE_ATOM_10_ENTRY
-++++++++++++++++++
+==================
 
 TYPE_ATOM_ANY
-+++++++++++++
+=============
 
 TYPE_RSS_090
-++++++++++++
+============
 
 TYPE_RSS_091
-++++++++++++
+============
 
 TYPE_RSS_091_NETSCAPE
-+++++++++++++++++++++
+=====================
 
 TYPE_RSS_091_USERLAND
-+++++++++++++++++++++
+=====================
 
 TYPE_RSS_092
-++++++++++++
+============
 
 TYPE_RSS_093
-++++++++++++
+============
 
 TYPE_RSS_094
-++++++++++++
+============
 
 TYPE_RSS_10
-+++++++++++
+===========
 
 TYPE_RSS_20
-+++++++++++
+===========
 
 TYPE_RSS_ANY
-++++++++++++
+============
 

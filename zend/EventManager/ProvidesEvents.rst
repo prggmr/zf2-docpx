@@ -1,4 +1,4 @@
-.. /EventManager/ProvidesEvents.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/ProvidesEvents.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\setEventManager
@@ -9,7 +9,7 @@ Zend\\EventManager\\setEventManager
 
     Set the event manager instance used by this context
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: mixed 
 

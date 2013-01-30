@@ -1,21 +1,18 @@
-.. /Di/ServiceLocator.php generated using docpx on 01/15/13 05:29pm
+.. Di/ServiceLocator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\ServiceLocator
-************************
-
+========================
 
 Simple service locator implementation capable of using closures to generate instances
 
-
-
 Methods
-=======
++++++++
 
 set
 ---
 
-.. function:: set($name, $service)
+.. function:: set()
 
 
     {@inheritDoc}
@@ -25,7 +22,7 @@ set
 get
 ---
 
-.. function:: get($name, [$params = false])
+.. function:: get()
 
 
     Retrieve a registered service
@@ -41,12 +38,10 @@ get
     value of that method is returned. Parameters are passed to the matching
     method.
 
-    :param string $name: 
-    :param array $params: 
+    :param string: 
+    :param array: 
 
     :rtype: mixed 
-
-
 
 
 

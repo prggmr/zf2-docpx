@@ -1,13 +1,8 @@
-.. /Db/Exception/ErrorException.php generated using docpx on 01/15/13 05:29pm
+.. Json/Server/Exception/ErrorException.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Db\\Exception\\ErrorException
-***********************************
+Zend\\Json\\Server\\Exception\\ErrorException
+=============================================
 
-
-@category   Zend
-
-
-
-
+Thrown by Zend\Json\Server\Client when an JSON-RPC fault response is returned.
 

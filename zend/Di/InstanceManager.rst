@@ -1,26 +1,23 @@
-.. /Di/InstanceManager.php generated using docpx on 01/15/13 05:29pm
+.. Di/InstanceManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\InstanceManager
-*************************
-
+=========================
 
 Registry of instantiated objects, their names and the parameters used to build them
 
-
-
 Methods
-=======
++++++++
 
 hasSharedInstance
 -----------------
 
-.. function:: hasSharedInstance($classOrAlias)
+.. function:: hasSharedInstance()
 
 
     Does this instance manager have this shared instance
 
-    :param string $classOrAlias: 
+    :param string: 
 
     :rtype: bool 
 
@@ -29,7 +26,7 @@ hasSharedInstance
 getSharedInstance
 -----------------
 
-.. function:: getSharedInstance($classOrAlias)
+.. function:: getSharedInstance()
 
 
     getSharedInstance()
@@ -39,13 +36,13 @@ getSharedInstance
 addSharedInstance
 -----------------
 
-.. function:: addSharedInstance($instance, $classOrAlias)
+.. function:: addSharedInstance()
 
 
     Add shared instance
 
-    :param object $instance: 
-    :param string $classOrAlias: 
+    :param object: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -54,14 +51,14 @@ addSharedInstance
 hasSharedInstanceWithParameters
 -------------------------------
 
-.. function:: hasSharedInstanceWithParameters($classOrAlias, $params, [$returnFastHashLookupKey = false])
+.. function:: hasSharedInstanceWithParameters()
 
 
     hasSharedInstanceWithParameters()
 
-    :param string $classOrAlias: 
-    :param array $params: 
-    :param bool $returnFastHashLookupKey: 
+    :param string: 
+    :param array: 
+    :param bool: 
 
     :rtype: bool|string 
 
@@ -70,14 +67,14 @@ hasSharedInstanceWithParameters
 addSharedInstanceWithParameters
 -------------------------------
 
-.. function:: addSharedInstanceWithParameters($instance, $classOrAlias, $params)
+.. function:: addSharedInstanceWithParameters()
 
 
     addSharedInstanceWithParameters()
 
-    :param object $instance: 
-    :param string $classOrAlias: 
-    :param array $params: 
+    :param object: 
+    :param string: 
+    :param array: 
 
     :rtype: void 
 
@@ -86,14 +83,14 @@ addSharedInstanceWithParameters
 getSharedInstanceWithParameters
 -------------------------------
 
-.. function:: getSharedInstanceWithParameters($classOrAlias, $params, [$fastHashFromHasLookup = false])
+.. function:: getSharedInstanceWithParameters()
 
 
     Retrieves an instance by its name and the parameters stored at its instantiation
 
-    :param string $classOrAlias: 
-    :param array $params: 
-    :param bool|null $fastHashFromHasLookup: 
+    :param string: 
+    :param array: 
+    :param bool|null: 
 
     :rtype: object|bool false if no instance was found
 
@@ -102,12 +99,12 @@ getSharedInstanceWithParameters
 hasAlias
 --------
 
-.. function:: hasAlias($alias)
+.. function:: hasAlias()
 
 
     Check for an alias
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: bool 
 
@@ -128,7 +125,7 @@ getAliases
 getClassFromAlias
 -----------------
 
-.. function:: getClassFromAlias($alias)
+.. function:: getClassFromAlias()
 
 
     getClassFromAlias()
@@ -144,7 +141,7 @@ getClassFromAlias
 getBaseAlias
 ------------
 
-.. function:: getBaseAlias($alias)
+.. function:: getBaseAlias()
 
 
     @param  string                     $alias
@@ -158,15 +155,15 @@ getBaseAlias
 addAlias
 --------
 
-.. function:: addAlias($alias, $class, [$parameters = false])
+.. function:: addAlias()
 
 
     Add alias
 
 
-    :param string $alias: 
-    :param string $class: 
-    :param array $parameters: 
+    :param string: 
+    :param string: 
+    :param array: 
 
     :rtype: void 
 
@@ -175,12 +172,12 @@ addAlias
 hasConfig
 ---------
 
-.. function:: hasConfig($aliasOrClass)
+.. function:: hasConfig()
 
 
     Check for configuration
 
-    :param string $aliasOrClass: 
+    :param string: 
 
     :rtype: bool 
 
@@ -189,14 +186,14 @@ hasConfig
 setConfig
 ---------
 
-.. function:: setConfig($aliasOrClass, $configuration, [$append = false])
+.. function:: setConfig()
 
 
     Sets configuration for a single alias/class
 
-    :param string $aliasOrClass: 
-    :param array $configuration: 
-    :param bool $append: 
+    :param string: 
+    :param array: 
+    :param bool: 
 
 
 
@@ -215,7 +212,7 @@ getClasses
 getConfig
 ---------
 
-.. function:: getConfig($aliasOrClass)
+.. function:: getConfig()
 
 
     @param  string $aliasOrClass
@@ -227,14 +224,14 @@ getConfig
 setParameters
 -------------
 
-.. function:: setParameters($aliasOrClass, $parameters)
+.. function:: setParameters()
 
 
     setParameters() is a convenience method for:
        setConfig($type, array('parameters' => array(...)), true);
 
-    :param string $aliasOrClass: Alias or Class
-    :param array $parameters: Multi-dim array of parameters and their values
+    :param string: Alias or Class
+    :param array: Multi-dim array of parameters and their values
 
     :rtype: void 
 
@@ -243,14 +240,14 @@ setParameters
 setInjections
 -------------
 
-.. function:: setInjections($aliasOrClass, $injections)
+.. function:: setInjections()
 
 
     setInjections() is a convenience method for:
        setConfig($type, array('injections' => array(...)), true);
 
-    :param string $aliasOrClass: Alias or Class
-    :param array $injections: Multi-dim array of methods and their parameters
+    :param string: Alias or Class
+    :param array: Multi-dim array of methods and their parameters
 
     :rtype: void 
 
@@ -259,13 +256,13 @@ setInjections
 setShared
 ---------
 
-.. function:: setShared($aliasOrClass, $isShared)
+.. function:: setShared()
 
 
     Set shared
 
-    :param string $aliasOrClass: 
-    :param bool $isShared: 
+    :param string: 
+    :param bool: 
 
     :rtype: void 
 
@@ -274,12 +271,12 @@ setShared
 hasTypePreferences
 ------------------
 
-.. function:: hasTypePreferences($interfaceOrAbstract)
+.. function:: hasTypePreferences()
 
 
     Check for type preferences
 
-    :param string $interfaceOrAbstract: 
+    :param string: 
 
     :rtype: bool 
 
@@ -288,13 +285,13 @@ hasTypePreferences
 setTypePreference
 -----------------
 
-.. function:: setTypePreference($interfaceOrAbstract, $preferredImplementations)
+.. function:: setTypePreference()
 
 
     Set type preference
 
-    :param string $interfaceOrAbstract: 
-    :param array $preferredImplementations: 
+    :param string: 
+    :param array: 
 
     :rtype: InstanceManager 
 
@@ -303,12 +300,12 @@ setTypePreference
 getTypePreferences
 ------------------
 
-.. function:: getTypePreferences($interfaceOrAbstract)
+.. function:: getTypePreferences()
 
 
     Get type preferences
 
-    :param string $interfaceOrAbstract: 
+    :param string: 
 
     :rtype: array 
 
@@ -317,12 +314,12 @@ getTypePreferences
 unsetTypePreferences
 --------------------
 
-.. function:: unsetTypePreferences($interfaceOrAbstract)
+.. function:: unsetTypePreferences()
 
 
     Unset type preferences
 
-    :param string $interfaceOrAbstract: 
+    :param string: 
 
     :rtype: void 
 
@@ -331,14 +328,14 @@ unsetTypePreferences
 addTypePreference
 -----------------
 
-.. function:: addTypePreference($interfaceOrAbstract, $preferredImplementation)
+.. function:: addTypePreference()
 
 
     Adds a type preference. A type preference is a redirection to a preferred alias or type when an abstract type
     $interfaceOrAbstract is requested
 
-    :param string $interfaceOrAbstract: 
-    :param string $preferredImplementation: 
+    :param string: 
+    :param string: 
 
     :rtype: self 
 
@@ -347,13 +344,13 @@ addTypePreference
 removeTypePreference
 --------------------
 
-.. function:: removeTypePreference($interfaceOrAbstract, $preferredType)
+.. function:: removeTypePreference()
 
 
     Removes a previously set type preference
 
-    :param string $interfaceOrAbstract: 
-    :param string $preferredType: 
+    :param string: 
+    :param string: 
 
     :rtype: bool|self 
 
@@ -362,12 +359,12 @@ removeTypePreference
 createHashForKeys
 -----------------
 
-.. function:: createHashForKeys($classOrAlias, $paramKeys)
+.. function:: createHashForKeys()
 
 
     @param  string   $classOrAlias
 
-    :param string[] $paramKeys: 
+    :param string[]: 
 
     :rtype: string 
 
@@ -376,16 +373,14 @@ createHashForKeys
 createHashForValues
 -------------------
 
-.. function:: createHashForValues($classOrAlias, $paramValues)
+.. function:: createHashForValues()
 
 
     @param  string $classOrAlias
 
-    :param array $paramValues: 
+    :param array: 
 
     :rtype: string 
-
-
 
 
 

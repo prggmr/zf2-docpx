@@ -1,31 +1,17 @@
-.. /Config/Processor/ProcessorInterface.php generated using docpx on 01/15/13 05:29pm
+.. Log/Processor/ProcessorInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Config\\Processor\\process
-================================
+Zend\\Log\\Processor\\process
+=============================
 
-.. function:: Zend\Config\Processor\process()
-
-
-    Process the whole Config structure and recursively parse all its values.
-
-    :param Config $value: 
-
-    :rtype: Config 
+.. function:: Zend\Log\Processor\process()
 
 
+    Processes a log message before it is given to the writers
 
-Zend\\Config\\Processor\\processValue
-=====================================
+    :param array: 
 
-.. function:: Zend\Config\Processor\processValue()
-
-
-    Process a single value
-
-    :param mixed $value: 
-
-    :rtype: mixed 
+    :rtype: WriterInterface 
 
 
 

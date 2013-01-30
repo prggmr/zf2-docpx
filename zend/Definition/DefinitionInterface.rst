@@ -1,4 +1,4 @@
-.. /Di/Definition/DefinitionInterface.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/DefinitionInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\getClasses
@@ -9,10 +9,6 @@ Zend\\Di\\Definition\\getClasses
 
     Retrieves classes in this definition
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :rtype: string[] 
 
@@ -27,11 +23,7 @@ Zend\\Di\\Definition\\hasClass
     Return whether the class exists in this definition
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $class: 
+    :param string: 
 
     :rtype: bool 
 
@@ -46,11 +38,7 @@ Zend\\Di\\Definition\\getClassSupertypes
     Return the supertypes for this class
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $class: 
+    :param string: 
 
     :rtype: string[] 
 
@@ -64,7 +52,7 @@ Zend\\Di\\Definition\\getInstantiator
 
     @abstract
 
-    :param string $class: 
+    :param string: 
 
     :rtype: string|array 
 
@@ -79,11 +67,7 @@ Zend\\Di\\Definition\\hasMethods
     Return if there are injection methods
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $class: 
+    :param string: 
 
     :rtype: bool 
 
@@ -98,11 +82,7 @@ Zend\\Di\\Definition\\getMethods
     Return an array of the injection methods for a given class
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $class: 
+    :param string: 
 
     :rtype: string[] 
 
@@ -116,8 +96,8 @@ Zend\\Di\\Definition\\hasMethod
 
     @abstract
 
-    :param string $class: 
-    :param string $method: 
+    :param string: 
+    :param string: 
 
     :rtype: bool 
 
@@ -157,12 +137,8 @@ Zend\\Di\\Definition\\getMethodParameters
     );
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $class: 
-    :param string $method: 
+    :param string: 
+    :param string: 
 
     :rtype: array 
 

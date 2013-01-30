@@ -1,26 +1,23 @@
-.. /Filter/Compress/Tar.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/Tar.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\Tar
-***************************
-
+===========================
 
 Compression adapter for Tar
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param array $options: (Optional) Options to set
+    :param array: (Optional) Options to set
 
     :throws Exception\ExtensionNotLoadedException: if Archive_Tar component not available
 
@@ -41,12 +38,12 @@ getArchive
 setArchive
 ----------
 
-.. function:: setArchive($archive)
+.. function:: setArchive()
 
 
     Sets the archive to use for de-/compression
 
-    :param string $archive: Archive to use
+    :param string: Archive to use
 
     :rtype: Tar 
 
@@ -67,12 +64,12 @@ getTarget
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Sets the target path to use
 
-    :param string $target: 
+    :param string: 
 
     :rtype: Tar 
 
@@ -95,14 +92,14 @@ getMode
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Compression mode to use
     
     Either Gz or Bz2.
 
-    :param string $mode: 
+    :param string: 
 
     :rtype: Tar 
 
@@ -115,12 +112,12 @@ setMode
 compress
 --------
 
-.. function:: compress($content)
+.. function:: compress()
 
 
     Compresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -132,12 +129,12 @@ compress
 decompress
 ----------
 
-.. function:: decompress($content)
+.. function:: decompress()
 
 
     Decompresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: string 
 
@@ -155,8 +152,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

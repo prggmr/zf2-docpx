@@ -1,34 +1,27 @@
-.. /Db/TableGateway/TableGateway.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/TableGateway.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\TableGateway
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($table, $adapter, [$features = false, [$resultSetPrototype = false, [$sql = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $table: 
-    :param Adapter $adapter: 
-    :param Feature\AbstractFeature|Feature\FeatureSet|Feature\AbstractFeature[] $features: 
-    :param ResultSetInterface $resultSetPrototype: 
-    :param Sql $sql: 
+    :param string: 
+    :param Adapter: 
+    :param Feature\AbstractFeature|Feature\FeatureSet|Feature\AbstractFeature[]: 
+    :param ResultSetInterface: 
+    :param Sql: 
 
     :throws Exception\InvalidArgumentException: 
-
-
 
 
 

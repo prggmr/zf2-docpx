@@ -1,21 +1,18 @@
-.. /Cache/Storage/Adapter/MemcachedOptions.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/MemcachedOptions.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\MemcachedOptions
-***********************************************
-
+===============================================
 
 These are options specific to the APC adapter
 
-
-
 Methods
-=======
++++++++
 
 setNamespace
 ------------
 
-.. function:: setNamespace($namespace)
+.. function:: setNamespace()
 
 
     Set namespace.
@@ -24,27 +21,47 @@ setNamespace
     It can't be longer than 128 characters.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
 
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
+setNamespaceSeparator
+---------------------
 
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
+.. function:: setNamespaceSeparator()
+
+
+    Set namespace separator
+
+    :param string: 
+
+    :rtype: MemcachedOptions 
+
+
+
+getNamespaceSeparator
+---------------------
+
+.. function:: getNamespaceSeparator()
+
+
+    Get namespace separator
+
+    :rtype: string 
 
 
 
 setMemcachedResource
 --------------------
 
-.. function:: setMemcachedResource([$memcachedResource = false])
+.. function:: setMemcachedResource()
 
 
     A memcached resource to share
 
-    :param null|MemcachedResource $memcachedResource: 
+    :param null|MemcachedResource: 
 
     :rtype: MemcachedOptions 
+
+    :deprecated:  
 
 
 
@@ -56,35 +73,117 @@ getMemcachedResource
 
     Get memcached resource to share
 
-    :rtype: null|MemcachedResource 
+    :rtype: MemcachedResource 
+
+    :deprecated:  
+
+
+
+setResourceManager
+------------------
+
+.. function:: setResourceManager()
+
+
+    Set the memcached resource manager to use
+
+    :param null|MemcachedResourceManager: 
+
+    :rtype: MemcachedOptions 
+
+
+
+getResourceManager
+------------------
+
+.. function:: getResourceManager()
+
+
+    Get the memcached resource manager
+
+    :rtype: MemcachedResourceManager 
+
+
+
+getResourceId
+-------------
+
+.. function:: getResourceId()
+
+
+    Get the memcached resource id
+
+    :rtype: string 
+
+
+
+setResourceId
+-------------
+
+.. function:: setResourceId()
+
+
+    Set the memcached resource id
+
+    :param string: 
+
+    :rtype: MemcachedOptions 
+
+
+
+getPersistentId
+---------------
+
+.. function:: getPersistentId()
+
+
+    Get the persistent id
+
+    :rtype: string 
+
+
+
+setPersistentId
+---------------
+
+.. function:: setPersistentId()
+
+
+    Set the persistent id
+
+    :param string: 
+
+    :rtype: MemcachedOptions 
 
 
 
 addServer
 ---------
 
-.. function:: addServer($host, [$port = 11211, [$weight = false]])
+.. function:: addServer()
 
 
     Add a server to the list
 
-    :param string $host: 
-    :param int $port: 
-    :param int $weight: 
+    :param string: 
+    :param int: 
+    :param int: 
 
     :rtype: MemcachedOptions 
+
+    :deprecated:  
 
 
 
 setServers
 ----------
 
-.. function:: setServers($servers)
+.. function:: setServers()
 
 
     Set a list of memcached servers to add on initialize
 
-    :param string|array $servers: list of servers
+    :param string|array: list of servers
 
     :rtype: MemcachedOptions 
 
@@ -107,41 +206,35 @@ getServers
 setLibOptions
 -------------
 
-.. function:: setLibOptions($libOptions)
+.. function:: setLibOptions()
 
 
     Set libmemcached options
 
-    :param array $libOptions: 
+    :param array: 
 
     :rtype: MemcachedOptions 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :link:  
 
 
 
 setLibOption
 ------------
 
-.. function:: setLibOption($key, $value)
+.. function:: setLibOption()
 
 
     Set libmemcached option
 
-    :param string|int $key: 
-    :param mixed $value: 
+    :param string|int: 
+    :param mixed: 
 
     :rtype: MemcachedOptions 
 
+    :link:  
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :deprecated:  
 
 
 
@@ -155,47 +248,25 @@ getLibOptions
 
     :rtype: array 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
+    :link:  
 
 
 
 getLibOption
 ------------
 
-.. function:: getLibOption($key)
+.. function:: getLibOption()
 
 
     Get libmemcached option
 
-    :param string|int $key: 
+    :param string|int: 
 
     :rtype: mixed 
 
+    :link:  
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :link: h h
-
-
-
-normalizeLibOptionKey
----------------------
-
-.. function:: normalizeLibOptionKey($key)
-
-
-    Normalize libmemcached option name into it's constant value
-
-    :param string|int $key: 
-
-    :throws Exception\InvalidArgumentException: 
-
-
+    :deprecated:  
 
 
 

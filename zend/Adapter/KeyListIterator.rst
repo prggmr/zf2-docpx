@@ -1,27 +1,22 @@
-.. /Cache/Storage/Adapter/KeyListIterator.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/KeyListIterator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\KeyListIterator
-**********************************************
-
-
-@category   Zend
-
-
+==============================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($storage, $keys)
+.. function:: __construct()
 
 
     Constructor
 
-    :param StorageInterface $storage: 
-    :param array $keys: 
+    :param StorageInterface: 
+    :param array: 
 
 
 
@@ -52,12 +47,12 @@ getMode
 setMode
 -------
 
-.. function:: setMode($mode)
+.. function:: setMode()
 
 
     Set iterator mode
 
-    :param int $mode: 
+    :param int: 
 
     :rtype: KeyListIterator Fluent interface
 
@@ -132,8 +127,6 @@ count
     Count number of items
 
     :rtype: int 
-
-
 
 
 

@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/Atom/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/Atom/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\Atom\\Feed
-*****************************************
-
-
-@category Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 getAuthor
 ---------
 
-.. function:: getAuthor([$index = false])
+.. function:: getAuthor()
 
 
     Get a single author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -209,12 +204,12 @@ getCategories
 getAuthorFromElement
 --------------------
 
-.. function:: getAuthorFromElement($element)
+.. function:: getAuthorFromElement()
 
 
     Get an author entry in RSS format
 
-    :param DOMElement $element: 
+    :param DOMElement: 
 
     :rtype: string 
 
@@ -223,7 +218,7 @@ getAuthorFromElement
 absolutiseUri
 -------------
 
-.. function:: absolutiseUri($link)
+.. function:: absolutiseUri()
 
 
     Attempt to absolutise the URI, i.e. if a relative URI apply the
@@ -248,8 +243,6 @@ getAtomType
 
 
     Detect the presence of any Atom namespaces in use
-
-
 
 
 

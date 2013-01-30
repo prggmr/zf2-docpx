@@ -1,29 +1,49 @@
-.. /Db/Adapter/Adapter.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Adapter.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Adapter
-**************************
+==========================
 
-
-@category   Zend
-
-
+@property Driver\DriverInterface $driver
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($driver, [$platform = false, [$queryResultPrototype = false]])
+.. function:: __construct()
 
 
     @param Driver\DriverInterface|array $driver
 
-    :param Platform\PlatformInterface $platform: 
-    :param ResultSet\ResultSetInterface $queryResultPrototype: 
+    :param Platform\PlatformInterface: 
+    :param ResultSet\ResultSetInterface: 
+    :param Profiler\ProfilerInterface: 
 
     :throws Exception\InvalidArgumentException: 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Adapter 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
@@ -70,13 +90,13 @@ getCurrentSchema
 query
 -----
 
-.. function:: query($sql, [$parametersOrQueryMode = "prepare"])
+.. function:: query()
 
 
     query() is a convenience function
 
-    :param string $sql: 
-    :param string|array $parametersOrQueryMode: 
+    :param string: 
+    :param string|array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -87,13 +107,13 @@ query
 createStatement
 ---------------
 
-.. function:: createStatement([$initialSql = false, [$initialParameters = false]])
+.. function:: createStatement()
 
 
     Create statement
 
-    :param string $initialSql: 
-    :param ParameterContainer $initialParameters: 
+    :param string: 
+    :param ParameterContainer: 
 
     :rtype: Driver\StatementInterface 
 
@@ -106,24 +126,10 @@ getHelpers
 
 
 
-$value
-------
-
-.. function:: $value()
-
-
-
-$value
-------
-
-.. function:: $value()
-
-
-
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     @param $name
@@ -133,10 +139,10 @@ __get
 
 
 
-createDriverFromParameters
---------------------------
+createDriver
+------------
 
-.. function:: createDriverFromParameters($parameters)
+.. function:: createDriver()
 
 
     @param array $parameters
@@ -148,10 +154,10 @@ createDriverFromParameters
 
 
 
-createPlatformFromDriver
-------------------------
+createPlatform
+--------------
 
-.. function:: createPlatformFromDriver($driver)
+.. function:: createPlatform()
 
 
     @param Driver\DriverInterface $driver
@@ -160,36 +166,74 @@ createPlatformFromDriver
 
 
 
+createProfiler
+--------------
+
+.. function:: createProfiler()
+
+
+
+createDriverFromParameters
+--------------------------
+
+.. function:: createDriverFromParameters()
+
+
+    @param array $parameters
+
+    :rtype: Driver\DriverInterface 
+
+    :throws: \InvalidArgumentException 
+    :throws: Exception\InvalidArgumentException 
+
+    :deprecated:  
+
+
+
+createPlatformFromDriver
+------------------------
+
+.. function:: createPlatformFromDriver()
+
+
+    @param Driver\DriverInterface $driver
+
+    :rtype: Platform\PlatformInterface 
+
+    :deprecated:  
+
+
+
 
 
 Constants
----------
++++++++++
 
 QUERY_MODE_EXECUTE
-++++++++++++++++++
+==================
 
 Query Mode Constants
 
 QUERY_MODE_PREPARE
-++++++++++++++++++
+==================
 
 PREPARE_TYPE_POSITIONAL
-+++++++++++++++++++++++
+=======================
 
 Prepare Type Constants
 
 PREPARE_TYPE_NAMED
-++++++++++++++++++
+==================
 
 FUNCTION_FORMAT_PARAMETER_NAME
-++++++++++++++++++++++++++++++
+==============================
 
 FUNCTION_QUOTE_IDENTIFIER
-+++++++++++++++++++++++++
+=========================
 
 FUNCTION_QUOTE_VALUE
-++++++++++++++++++++
+====================
 
 VALUE_QUOTE_SEPARATOR
-+++++++++++++++++++++
+=====================
 

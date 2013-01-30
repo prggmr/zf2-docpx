@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/DublinCore/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/DublinCore/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\DublinCore\\Entry
-************************************************
-
-
-@category Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 getAuthor
 ---------
 
-.. function:: getAuthor([$index = false])
+.. function:: getAuthor()
 
 
     Get an author entry
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string 
 
@@ -117,8 +112,6 @@ registerNamespaces
     Register DC namespaces
 
     :rtype: void 
-
-
 
 
 

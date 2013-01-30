@@ -1,33 +1,30 @@
-.. /EventManager/Event.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/Event.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\Event
-*************************
-
+=========================
 
 Representation of an event
 
 Encapsulates the target context and parameters passed, and provides some
 behavior for interacting with the event manager.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$target = false, [$params = false]]])
+.. function:: __construct()
 
 
     Constructor
     
     Accept a target and its parameters.
 
-    :param string $name: Event name
-    :param string|object $target: 
-    :param array|ArrayAccess $params: 
+    :param string: Event name
+    :param string|object: 
+    :param array|ArrayAccess: 
 
 
 
@@ -60,14 +57,14 @@ getTarget
 setParams
 ---------
 
-.. function:: setParams($params)
+.. function:: setParams()
 
 
     Set parameters
     
     Overwrites parameters
 
-    :param array|ArrayAccess|object $params: 
+    :param array|ArrayAccess|object: 
 
     :rtype: Event 
 
@@ -90,15 +87,15 @@ getParams
 getParam
 --------
 
-.. function:: getParam($name, [$default = false])
+.. function:: getParam()
 
 
     Get an individual parameter
     
     If the parameter does not exist, the $default value will be returned.
 
-    :param string|int $name: 
-    :param mixed $default: 
+    :param string|int: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -107,12 +104,12 @@ getParam
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
     Set the event name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Event 
 
@@ -121,12 +118,12 @@ setName
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Set the event target/context
 
-    :param null|string|object $target: 
+    :param null|string|object: 
 
     :rtype: Event 
 
@@ -135,13 +132,13 @@ setTarget
 setParam
 --------
 
-.. function:: setParam($name, $value)
+.. function:: setParam()
 
 
     Set an individual parameter to a value
 
-    :param string|int $name: 
-    :param mixed $value: 
+    :param string|int: 
+    :param mixed: 
 
     :rtype: Event 
 
@@ -150,12 +147,12 @@ setParam
 stopPropagation
 ---------------
 
-.. function:: stopPropagation([$flag = true])
+.. function:: stopPropagation()
 
 
     Stop further event propagation
 
-    :param bool $flag: 
+    :param bool: 
 
     :rtype: void 
 
@@ -170,8 +167,6 @@ propagationIsStopped
     Is propagation stopped?
 
     :rtype: bool 
-
-
 
 
 

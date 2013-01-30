@@ -1,28 +1,23 @@
-.. /Authentication/Storage/Session.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Storage/Session.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Storage\\Session
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$namespace = false, [$member = false, [$manager = false]]])
+.. function:: __construct()
 
 
     Sets session storage options and initializes session namespace object
 
-    :param mixed $namespace: 
-    :param mixed $member: 
-    :param SessionManager $manager: 
+    :param mixed: 
+    :param mixed: 
+    :param SessionManager: 
 
 
 
@@ -77,12 +72,12 @@ read
 write
 -----
 
-.. function:: write($contents)
+.. function:: write()
 
 
     Defined by Zend\Authentication\Storage\StorageInterface
 
-    :param mixed $contents: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -103,15 +98,15 @@ clear
 
 
 Constants
----------
++++++++++
 
 NAMESPACE_DEFAULT
-+++++++++++++++++
+=================
 
 Default session namespace
 
 MEMBER_DEFAULT
-++++++++++++++
+==============
 
 Default session object member name
 

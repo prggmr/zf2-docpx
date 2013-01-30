@@ -1,40 +1,35 @@
-.. /Db/Sql/Predicate/PredicateSet.php generated using docpx on 01/15/13 05:29pm
+.. Db/Sql/Predicate/PredicateSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Sql\\Predicate\\PredicateSet
-**************************************
-
-
-@category   Zend
-
-
+======================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$predicates = false, [$defaultCombination = "AND"]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|array $predicates: 
-    :param string $defaultCombination: 
+    :param null|array: 
+    :param string: 
 
 
 
 addPredicate
 ------------
 
-.. function:: addPredicate($predicate, [$combination = false])
+.. function:: addPredicate()
 
 
     Add predicate to set
 
-    :param PredicateInterface $predicate: 
-    :param string $combination: 
+    :param PredicateInterface: 
+    :param string: 
 
     :rtype: PredicateSet 
 
@@ -55,12 +50,12 @@ getPredicates
 orPredicate
 -----------
 
-.. function:: orPredicate($predicate)
+.. function:: orPredicate()
 
 
     Add predicate using OR operator
 
-    :param PredicateInterface $predicate: 
+    :param PredicateInterface: 
 
     :rtype: PredicateSet 
 
@@ -69,12 +64,12 @@ orPredicate
 andPredicate
 ------------
 
-.. function:: andPredicate($predicate)
+.. function:: andPredicate()
 
 
     Add predicate using AND operator
 
-    :param PredicateInterface $predicate: 
+    :param PredicateInterface: 
 
     :rtype: PredicateSet 
 
@@ -107,17 +102,17 @@ count
 
 
 Constants
----------
++++++++++
 
 COMBINED_BY_AND
-+++++++++++++++
+===============
 
 OP_AND
-++++++
+======
 
 COMBINED_BY_OR
-++++++++++++++
+==============
 
 OP_OR
-+++++
+=====
 

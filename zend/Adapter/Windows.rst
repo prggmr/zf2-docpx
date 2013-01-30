@@ -1,16 +1,11 @@
-.. /Console/Adapter/Windows.php generated using docpx on 01/15/13 05:29pm
+.. Console/Adapter/Windows.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Adapter\\Windows
-*******************************
-
-
-@category   Zend
-
-
+===============================
 
 Methods
-=======
++++++++
 
 getWidth
 --------
@@ -79,13 +74,13 @@ isUtf8
 setPos
 ------
 
-.. function:: setPos($x, $y)
+.. function:: setPos()
 
 
     Set cursor position
 
-    :param int $x: 
-    :param int $y: 
+    :param int: 
+    :param int: 
 
 
 
@@ -104,12 +99,12 @@ getTitle
 setCharset
 ----------
 
-.. function:: setCharset($charset)
+.. function:: setCharset()
 
 
     Set Console charset to use.
 
-    :param Charset\CharsetInterface $charset: 
+    :param Charset\CharsetInterface: 
 
 
 
@@ -170,12 +165,12 @@ clearLine
 readChar
 --------
 
-.. function:: readChar([$mask = false])
+.. function:: readChar()
 
 
     Read a single character from the console input
 
-    :param string|null $mask: A list of allowed chars
+    :param string|null: A list of allowed chars
 
     :throws Exception\RuntimeException: 
 
@@ -183,26 +178,17 @@ readChar
 
 
 
-$char
------
-
-.. function:: $char()
-
-
-
 readLine
 --------
 
-.. function:: readLine([$maxLength = 2048])
+.. function:: readLine()
 
 
     Read a single line from the console input.
 
-    :param int $maxLength: Maximum response length
+    :param int: Maximum response length
 
     :rtype: string 
-
-
 
 
 

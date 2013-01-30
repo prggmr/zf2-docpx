@@ -1,26 +1,21 @@
-.. /Cache/Storage/Adapter/Memcached.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/Memcached.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\Memcached
-****************************************
-
-
-@package    Zend_Cache
-
-
+========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|array|Traversable|MemcachedOptions $options: 
+    :param null|array|Traversable|MemcachedOptions: 
 
     :throws Exception\ExceptionInterface: 
 
@@ -38,30 +33,19 @@ getMemcachedResource
 
 
 
-$event
-------
-
-.. function:: $event()
-
-
-
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options.
 
-    :param array|Traversable|MemcachedOptions $options: 
+    :param array|Traversable|MemcachedOptions: 
 
     :rtype: Memcached 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
+    :see:  
 
 
 
@@ -75,11 +59,7 @@ getOptions
 
     :rtype: MemcachedOptions 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
 
 
 
@@ -122,14 +102,14 @@ getAvailableSpace
 internalGetItem
 ---------------
 
-.. function:: internalGetItem($normalizedKey, [$success = false, [$casToken = false]])
+.. function:: internalGetItem()
 
 
     Internal method to get an item.
 
-    :param string $normalizedKey: 
-    :param bool $success: 
-    :param mixed $casToken: 
+    :param string: 
+    :param bool: 
+    :param mixed: 
 
     :rtype: mixed Data on success, null on failure
 
@@ -140,12 +120,12 @@ internalGetItem
 internalGetItems
 ----------------
 
-.. function:: internalGetItems($normalizedKeys)
+.. function:: internalGetItems()
 
 
     Internal method to get multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Associative array of keys and values
 
@@ -156,12 +136,12 @@ internalGetItems
 internalHasItem
 ---------------
 
-.. function:: internalHasItem($normalizedKey)
+.. function:: internalHasItem()
 
 
     Internal method to test if an item exists.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -172,12 +152,12 @@ internalHasItem
 internalHasItems
 ----------------
 
-.. function:: internalHasItems($normalizedKeys)
+.. function:: internalHasItems()
 
 
     Internal method to test multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Array of found keys
 
@@ -188,12 +168,12 @@ internalHasItems
 internalGetMetadatas
 --------------------
 
-.. function:: internalGetMetadatas($normalizedKeys)
+.. function:: internalGetMetadatas()
 
 
     Get metadata of multiple items
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Associative array of keys and metadata
 
@@ -204,13 +184,13 @@ internalGetMetadatas
 internalSetItem
 ---------------
 
-.. function:: internalSetItem($normalizedKey, $value)
+.. function:: internalSetItem()
 
 
     Internal method to store an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -221,12 +201,12 @@ internalSetItem
 internalSetItems
 ----------------
 
-.. function:: internalSetItems($normalizedKeyValuePairs)
+.. function:: internalSetItems()
 
 
     Internal method to store multiple items.
 
-    :param array $normalizedKeyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -237,13 +217,13 @@ internalSetItems
 internalAddItem
 ---------------
 
-.. function:: internalAddItem($normalizedKey, $value)
+.. function:: internalAddItem()
 
 
     Add an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -254,13 +234,13 @@ internalAddItem
 internalReplaceItem
 -------------------
 
-.. function:: internalReplaceItem($normalizedKey, $value)
+.. function:: internalReplaceItem()
 
 
     Internal method to replace an existing item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -271,41 +251,33 @@ internalReplaceItem
 internalCheckAndSetItem
 -----------------------
 
-.. function:: internalCheckAndSetItem($token, $normalizedKey, $value)
+.. function:: internalCheckAndSetItem()
 
 
     Internal method to set an item only if token matches
 
-    :param mixed $token: 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param mixed: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
     :throws: Exception\ExceptionInterface 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
+    :see:  
 
 
 
 internalRemoveItem
 ------------------
 
-.. function:: internalRemoveItem($normalizedKey)
+.. function:: internalRemoveItem()
 
 
     Internal method to remove an item.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -316,12 +288,12 @@ internalRemoveItem
 internalRemoveItems
 -------------------
 
-.. function:: internalRemoveItems($normalizedKeys)
+.. function:: internalRemoveItems()
 
 
     Internal method to remove multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Array of not removed keys
 
@@ -332,13 +304,13 @@ internalRemoveItems
 internalIncrementItem
 ---------------------
 
-.. function:: internalIncrementItem($normalizedKey, $value)
+.. function:: internalIncrementItem()
 
 
     Internal method to increment an item.
 
-    :param string $normalizedKey: 
-    :param int $value: 
+    :param string: 
+    :param int: 
 
     :rtype: int|bool The new value on success, false on failure
 
@@ -349,13 +321,13 @@ internalIncrementItem
 internalDecrementItem
 ---------------------
 
-.. function:: internalDecrementItem($normalizedKey, $value)
+.. function:: internalDecrementItem()
 
 
     Internal method to decrement an item.
 
-    :param string $normalizedKey: 
-    :param int $value: 
+    :param string: 
+    :param int: 
 
     :rtype: int|bool The new value on success, false on failure
 
@@ -399,18 +371,16 @@ expirationTime
 getExceptionByResultCode
 ------------------------
 
-.. function:: getExceptionByResultCode($code)
+.. function:: getExceptionByResultCode()
 
 
     Generate exception based of memcached result code
 
-    :param int $code: 
+    :param int: 
 
     :rtype: Exception\RuntimeException 
 
     :throws: Exception\InvalidArgumentException On success code
-
-
 
 
 

@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/AbstractFeed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/AbstractFeed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\AbstractFeed
-*******************************************
-
-
-@category Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 setDomDocument
 --------------
 
-.. function:: setDomDocument($dom)
+.. function:: setDomDocument()
 
 
     Set the DOM document
 
-    :param DOMDocument $dom: 
+    :param DOMDocument: 
 
     :rtype: AbstractFeed 
 
@@ -53,12 +48,12 @@ getEncoding
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the feed type
 
-    :param string $type: 
+    :param string: 
 
     :rtype: AbstractFeed 
 
@@ -93,12 +88,12 @@ toArray
 setXpath
 --------
 
-.. function:: setXpath([$xpath = false])
+.. function:: setXpath()
 
 
     Set the XPath query
 
-    :param DOMXPath $xpath: 
+    :param DOMXPath: 
 
     :rtype: AbstractEntry 
 
@@ -131,12 +126,12 @@ getXpathPrefix
 setXpathPrefix
 --------------
 
-.. function:: setXpathPrefix($prefix)
+.. function:: setXpathPrefix()
 
 
     Set the XPath prefix
 
-    :param string $prefix: 
+    :param string: 
 
     :rtype: void 
 
@@ -149,8 +144,6 @@ registerNamespaces
 
 
     Register the default namespaces for the current feed format
-
-
 
 
 

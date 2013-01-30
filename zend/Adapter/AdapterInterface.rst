@@ -1,69 +1,35 @@
-.. /Http/Client/Adapter/AdapterInterface.php generated using docpx on 01/15/13 05:29pm
+.. Serializer/Adapter/AdapterInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Http\\Client\\Adapter\\setOptions
-=======================================
-
-.. function:: Zend\Http\Client\Adapter\setOptions()
-
-
-    Set the configuration array for the adapter
-
-    :param array $options: 
-
-
-
-Zend\\Http\\Client\\Adapter\\connect
+Zend\\Serializer\\Adapter\\serialize
 ====================================
 
-.. function:: Zend\Http\Client\Adapter\connect()
+.. function:: Zend\Serializer\Adapter\serialize()
 
 
-    Connect to the remote server
+    Generates a storable representation of a value.
 
-    :param string $host: 
-    :param int $port: 
-    :param bool $secure: 
-
-
-
-Zend\\Http\\Client\\Adapter\\write
-==================================
-
-.. function:: Zend\Http\Client\Adapter\write()
-
-
-    Send request to the remote server
-
-    :param string $method: 
-    :param \Zend\Uri\Uri $url: 
-    :param string $httpVer: 
-    :param array $headers: 
-    :param string $body: 
-
-    :rtype: string Request as text
-
-
-
-Zend\\Http\\Client\\Adapter\\read
-=================================
-
-.. function:: Zend\Http\Client\Adapter\read()
-
-
-    Read response from server
+    :param mixed: Data to serialize
 
     :rtype: string 
 
+    :throws: \Zend\Serializer\Exception\ExceptionInterface 
 
 
-Zend\\Http\\Client\\Adapter\\close
-==================================
 
-.. function:: Zend\Http\Client\Adapter\close()
+Zend\\Serializer\\Adapter\\unserialize
+======================================
+
+.. function:: Zend\Serializer\Adapter\unserialize()
 
 
-    Close the connection to the server
+    Creates a PHP value from a stored representation.
+
+    :param string: Serialized string
+
+    :rtype: mixed 
+
+    :throws: \Zend\Serializer\Exception\ExceptionInterface 
 
 
 

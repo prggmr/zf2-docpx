@@ -1,33 +1,28 @@
-.. /Db/Adapter/StatementContainer.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/StatementContainer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\StatementContainer
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$sql = false, [$parameterContainer = false]])
+.. function:: __construct()
 
 
     @param string|null $sql
 
-    :param ParameterContainer|null $parameterContainer: 
+    :param ParameterContainer|null: 
 
 
 
 setSql
 ------
 
-.. function:: setSql($sql)
+.. function:: setSql()
 
 
     @param $sql
@@ -49,7 +44,7 @@ getSql
 setParameterContainer
 ---------------------
 
-.. function:: setParameterContainer($parameterContainer)
+.. function:: setParameterContainer()
 
 
     @param ParameterContainer $parameterContainer
@@ -65,8 +60,6 @@ getParameterContainer
 
 
     @return null|ParameterContainer
-
-
 
 
 

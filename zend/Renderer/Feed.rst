@@ -1,16 +1,13 @@
-.. /Feed/Writer/Extension/ITunes/Renderer/Feed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Extension/ITunes/Renderer/Feed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Extension\\ITunes\\Renderer\\Feed
-*****************************************************
-
-
-@category Zend
+=====================================================
 
 
 
 Methods
-=======
++++++++
 
 render
 ------
@@ -39,13 +36,13 @@ _appendNamespaces
 _setAuthors
 -----------
 
-.. function:: _setAuthors($dom, $root)
+.. function:: _setAuthors()
 
 
     Set feed authors
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -54,13 +51,13 @@ _setAuthors
 _setBlock
 ---------
 
-.. function:: _setBlock($dom, $root)
+.. function:: _setBlock()
 
 
     Set feed itunes block
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -69,13 +66,13 @@ _setBlock
 _setCategories
 --------------
 
-.. function:: _setCategories($dom, $root)
+.. function:: _setCategories()
 
 
     Set feed categories
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -84,13 +81,13 @@ _setCategories
 _setImage
 ---------
 
-.. function:: _setImage($dom, $root)
+.. function:: _setImage()
 
 
     Set feed image (icon)
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -99,13 +96,13 @@ _setImage
 _setDuration
 ------------
 
-.. function:: _setDuration($dom, $root)
+.. function:: _setDuration()
 
 
     Set feed cumulative duration
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -114,13 +111,13 @@ _setDuration
 _setExplicit
 ------------
 
-.. function:: _setExplicit($dom, $root)
+.. function:: _setExplicit()
 
 
     Set explicit flag
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -129,13 +126,13 @@ _setExplicit
 _setKeywords
 ------------
 
-.. function:: _setKeywords($dom, $root)
+.. function:: _setKeywords()
 
 
     Set feed keywords
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -144,13 +141,13 @@ _setKeywords
 _setNewFeedUrl
 --------------
 
-.. function:: _setNewFeedUrl($dom, $root)
+.. function:: _setNewFeedUrl()
 
 
     Set feed's new URL
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -159,13 +156,13 @@ _setNewFeedUrl
 _setOwners
 ----------
 
-.. function:: _setOwners($dom, $root)
+.. function:: _setOwners()
 
 
     Set feed owners
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -174,13 +171,13 @@ _setOwners
 _setSubtitle
 ------------
 
-.. function:: _setSubtitle($dom, $root)
+.. function:: _setSubtitle()
 
 
     Set feed subtitle
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -189,17 +186,15 @@ _setSubtitle
 _setSummary
 -----------
 
-.. function:: _setSummary($dom, $root)
+.. function:: _setSummary()
 
 
     Set feed summary
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

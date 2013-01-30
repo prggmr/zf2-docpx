@@ -1,28 +1,25 @@
-.. /Di/ServiceLocator/GeneratorInstance.php generated using docpx on 01/15/13 05:29pm
+.. Di/ServiceLocator/GeneratorInstance.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\ServiceLocator\\GeneratorInstance
-*******************************************
-
+===========================================
 
 Container for methods and parameters used by by Di to create a particular instance
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($class, $alias, $constructor, $params)
+.. function:: __construct()
 
 
     @param string|null $class
 
-    :param string|null $alias: 
-    :param mixed $constructor: 
-    :param array $params: 
+    :param string|null: 
+    :param mixed: 
+    :param array: 
 
 
 
@@ -65,7 +62,7 @@ getAlias
 setClass
 --------
 
-.. function:: setClass($class)
+.. function:: setClass()
 
 
     Set class name
@@ -73,7 +70,7 @@ setClass
     In the case of an instance created via a callback, we need to set the
     class name after creating the generator instance.
 
-    :param string $class: 
+    :param string: 
 
     :rtype: GeneratorInstance 
 
@@ -82,12 +79,12 @@ setClass
 setAlias
 --------
 
-.. function:: setAlias($alias)
+.. function:: setAlias()
 
 
     Set instance alias
 
-    :param string $alias: 
+    :param string: 
 
     :rtype: GeneratorInstance 
 
@@ -121,12 +118,12 @@ getParams
 setMethods
 ----------
 
-.. function:: setMethods($methods)
+.. function:: setMethods()
 
 
     Set methods
 
-    :param array $methods: 
+    :param array: 
 
     :rtype: GeneratorInstance 
 
@@ -135,7 +132,7 @@ setMethods
 addMethod
 ---------
 
-.. function:: addMethod($method)
+.. function:: addMethod()
 
 
     Add a method called on the instance
@@ -163,7 +160,7 @@ getMethods
 setShared
 ---------
 
-.. function:: setShared($shared)
+.. function:: setShared()
 
 
     @param bool $shared
@@ -179,8 +176,6 @@ isShared
     Retrieves whether the instance is shared or not
 
     :rtype: bool 
-
-
 
 
 

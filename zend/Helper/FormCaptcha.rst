@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormCaptcha.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormCaptcha.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormCaptcha
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a form captcha for an element
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string 
 
@@ -31,18 +26,16 @@ render
 __invoke
 --------
 
-.. function:: __invoke($element)
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :rtype: string|FormCaptcha 
-
-
 
 
 

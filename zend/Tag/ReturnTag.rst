@@ -1,16 +1,11 @@
-.. /Code/Reflection/DocBlock/Tag/ReturnTag.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/DocBlock/Tag/ReturnTag.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\DocBlock\\Tag\\ReturnTag
-************************************************
-
-
-@category   Zend
-
-
+================================================
 
 Methods
-=======
++++++++
 
 getName
 -------
@@ -25,7 +20,7 @@ getName
 initialize
 ----------
 
-.. function:: initialize($tagDocBlockLine)
+.. function:: initialize()
 
 
     @param  string $tagDocBlockLine
@@ -40,9 +35,15 @@ getType
 .. function:: getType()
 
 
-    Get return variable type
+    @return string
 
-    :rtype: string 
+
+
+
+getTypes
+--------
+
+.. function:: getTypes()
 
 
 
@@ -52,6 +53,7 @@ getDescription
 .. function:: getDescription()
 
 
+    @return string
 
 
 

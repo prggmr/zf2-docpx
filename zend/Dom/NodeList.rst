@@ -1,29 +1,26 @@
-.. /Dom/NodeList.php generated using docpx on 01/15/13 05:29pm
+.. Dom/NodeList.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Dom\\NodeList
-*******************
-
+===================
 
 Nodelist for DOM XPath query
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($cssQuery, $xpathQuery, $document, $nodeList)
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $cssQuery: 
-    :param string|array $xpathQuery: 
-    :param DOMDocument $document: 
-    :param DOMNodeList $nodeList: 
+    :param string: 
+    :param string|array: 
+    :param DOMDocument: 
+    :param DOMNodeList: 
 
     :rtype: void 
 
@@ -136,6 +133,56 @@ count
     :rtype: int 
 
 
+
+offsetExists
+------------
+
+.. function:: offsetExists()
+
+
+    ArrayAccess: offset exists
+
+    :rtype: bool 
+
+
+
+offsetGet
+---------
+
+.. function:: offsetGet()
+
+
+    ArrayAccess: get offset
+
+    :rtype: mixed 
+
+
+
+offsetSet
+---------
+
+.. function:: offsetSet()
+
+
+    ArrayAccess: set offset
+
+    :rtype: void 
+
+    :throws: Exception\BadMethodCallException when attemptingn to write to a read-only item
+
+
+
+offsetUnset
+-----------
+
+.. function:: offsetUnset()
+
+
+    ArrayAccess: unset offset
+
+    :rtype: void 
+
+    :throws: Exception\BadMethodCallException when attemptingn to unset a read-only item
 
 
 

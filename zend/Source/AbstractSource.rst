@@ -1,26 +1,21 @@
-.. /Db/Metadata/Source/AbstractSource.php generated using docpx on 01/15/13 05:29pm
+.. Db/Metadata/Source/AbstractSource.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Metadata\\Source\\AbstractSource
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($adapter)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Adapter $adapter: 
+    :param Adapter: 
 
 
 
@@ -37,13 +32,13 @@ getSchemas
 getTableNames
 -------------
 
-.. function:: getTableNames([$schema = false, [$includeViews = false]])
+.. function:: getTableNames()
 
 
     Get table names
 
-    :param string $schema: 
-    :param bool $includeViews: 
+    :param string: 
+    :param bool: 
 
     :rtype: string[] 
 
@@ -52,13 +47,13 @@ getTableNames
 getTables
 ---------
 
-.. function:: getTables([$schema = false, [$includeViews = false]])
+.. function:: getTables()
 
 
     Get tables
 
-    :param string $schema: 
-    :param bool $includeViews: 
+    :param string: 
+    :param bool: 
 
     :rtype: Object\TableObject[] 
 
@@ -67,13 +62,13 @@ getTables
 getTable
 --------
 
-.. function:: getTable($tableName, [$schema = false])
+.. function:: getTable()
 
 
     Get table
 
-    :param string $tableName: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: Object\TableObject 
 
@@ -82,12 +77,12 @@ getTable
 getViewNames
 ------------
 
-.. function:: getViewNames([$schema = false])
+.. function:: getViewNames()
 
 
     Get view names
 
-    :param string $schema: 
+    :param string: 
 
     :rtype: array 
 
@@ -96,12 +91,12 @@ getViewNames
 getViews
 --------
 
-.. function:: getViews([$schema = false])
+.. function:: getViews()
 
 
     Get views
 
-    :param string $schema: 
+    :param string: 
 
     :rtype: array 
 
@@ -110,13 +105,13 @@ getViews
 getView
 -------
 
-.. function:: getView($viewName, [$schema = false])
+.. function:: getView()
 
 
     Get view
 
-    :param string $viewName: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: \Zend\Db\Metadata\Object\TableObject 
 
@@ -125,13 +120,13 @@ getView
 getColumnNames
 --------------
 
-.. function:: getColumnNames($table, [$schema = false])
+.. function:: getColumnNames()
 
 
     Gt column names
 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: array 
 
@@ -140,13 +135,13 @@ getColumnNames
 getColumns
 ----------
 
-.. function:: getColumns($table, [$schema = false])
+.. function:: getColumns()
 
 
     Get columns
 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: array 
 
@@ -155,14 +150,14 @@ getColumns
 getColumn
 ---------
 
-.. function:: getColumn($columnName, $table, [$schema = false])
+.. function:: getColumn()
 
 
     Get column
 
-    :param string $columnName: 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: Object\ColumnObject 
 
@@ -171,13 +166,13 @@ getColumn
 getConstraints
 --------------
 
-.. function:: getConstraints($table, [$schema = false])
+.. function:: getConstraints()
 
 
     Get constraints
 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: array 
 
@@ -186,14 +181,14 @@ getConstraints
 getConstraint
 -------------
 
-.. function:: getConstraint($constraintName, $table, [$schema = false])
+.. function:: getConstraint()
 
 
     Get constraint
 
-    :param string $constraintName: 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: Object\ConstraintObject 
 
@@ -202,14 +197,14 @@ getConstraint
 getConstraintKeys
 -----------------
 
-.. function:: getConstraintKeys($constraint, $table, [$schema = false])
+.. function:: getConstraintKeys()
 
 
     Get constraint keys
 
-    :param string $constraint: 
-    :param string $table: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
+    :param string: 
 
     :rtype: array 
 
@@ -218,12 +213,12 @@ getConstraintKeys
 getTriggerNames
 ---------------
 
-.. function:: getTriggerNames([$schema = false])
+.. function:: getTriggerNames()
 
 
     Get trigger names
 
-    :param string $schema: 
+    :param string: 
 
     :rtype: array 
 
@@ -232,12 +227,12 @@ getTriggerNames
 getTriggers
 -----------
 
-.. function:: getTriggers([$schema = false])
+.. function:: getTriggers()
 
 
     Get triggers
 
-    :param string $schema: 
+    :param string: 
 
     :rtype: array 
 
@@ -246,13 +241,13 @@ getTriggers
 getTrigger
 ----------
 
-.. function:: getTrigger($triggerName, [$schema = false])
+.. function:: getTrigger()
 
 
     Get trigger
 
-    :param string $triggerName: 
-    :param string $schema: 
+    :param string: 
+    :param string: 
 
     :rtype: Object\TriggerObject 
 
@@ -261,13 +256,13 @@ getTrigger
 prepareDataHierarchy
 --------------------
 
-.. function:: prepareDataHierarchy($type)
+.. function:: prepareDataHierarchy()
 
 
     Prepare data hierarchy
 
-    :param string $type: 
-    :param string $key: ...
+    :param string: 
+    :param string: ...
 
 
 
@@ -281,36 +276,36 @@ loadSchemaData
 loadTableNameData
 -----------------
 
-.. function:: loadTableNameData($schema)
+.. function:: loadTableNameData()
 
 
 
 loadColumnData
 --------------
 
-.. function:: loadColumnData($table, $schema)
+.. function:: loadColumnData()
 
 
 
 loadConstraintData
 ------------------
 
-.. function:: loadConstraintData($table, $schema)
+.. function:: loadConstraintData()
 
 
 
 loadTriggerData
 ---------------
 
-.. function:: loadTriggerData($schema)
+.. function:: loadTriggerData()
 
 
 
 
 
 Constants
----------
++++++++++
 
 DEFAULT_SCHEMA
-++++++++++++++
+==============
 

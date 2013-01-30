@@ -1,31 +1,24 @@
-.. /Config/Reader/Json.php generated using docpx on 01/15/13 05:29pm
+.. Config/Reader/Json.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Reader\\Json
-**************************
-
+==========================
 
 JSON config reader.
 
-
-
 Methods
-=======
++++++++
 
 fromFile
 --------
 
-.. function:: fromFile($filename)
+.. function:: fromFile()
 
 
     fromFile(): defined by Reader interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $filename: 
+    :param string: 
 
     :rtype: array 
 
@@ -36,17 +29,13 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 fromString
 ----------
 
-.. function:: fromString($string)
+.. function:: fromString()
 
 
     fromString(): defined by Reader interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string $string: 
+    :param string: 
 
     :rtype: array|bool 
 
@@ -57,18 +46,16 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 process
 -------
 
-.. function:: process($data)
+.. function:: process()
 
 
     Process the array for @include
 
-    :param array $data: 
+    :param array: 
 
     :rtype: array 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

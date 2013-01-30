@@ -1,16 +1,11 @@
-.. /Code/Reflection/ClassReflection.php generated using docpx on 01/15/13 05:29pm
+.. Code/Reflection/ClassReflection.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Reflection\\ClassReflection
-***************************************
-
-
-@category   Zend
-
-
+=======================================
 
 Methods
-=======
++++++++
 
 getDeclaringFile
 ----------------
@@ -34,31 +29,31 @@ getDocBlock
 
     :rtype: DocBlockReflection 
 
-    :throws: \Zend\Code\Reflection\Exception\ExceptionInterface for missing DocBock or invalid reflection class
+    :throws: Exception\ExceptionInterface for missing DocBock or invalid reflection class
 
 
 
 getAnnotations
 --------------
 
-.. function:: getAnnotations($annotationManager)
+.. function:: getAnnotations()
 
 
-    @param  Annotation\AnnotationManager $annotationManager
+    @param  AnnotationManager $annotationManager
 
-    :rtype: Annotation\AnnotationCollection 
+    :rtype: AnnotationCollection 
 
 
 
 getStartLine
 ------------
 
-.. function:: getStartLine([$includeDocComment = false])
+.. function:: getStartLine()
 
 
     Return the start line of the class
 
-    :param bool $includeDocComment: 
+    :param bool: 
 
     :rtype: int 
 
@@ -67,12 +62,12 @@ getStartLine
 getContents
 -----------
 
-.. function:: getContents([$includeDocBlock = true])
+.. function:: getContents()
 
 
     Return the contents of the class
 
-    :param bool $includeDocBlock: 
+    :param bool: 
 
     :rtype: string 
 
@@ -93,12 +88,12 @@ getInterfaces
 getMethod
 ---------
 
-.. function:: getMethod($name)
+.. function:: getMethod()
 
 
     Return method reflection by name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: MethodReflection 
 
@@ -107,12 +102,12 @@ getMethod
 getMethods
 ----------
 
-.. function:: getMethods([$filter = -1])
+.. function:: getMethods()
 
 
     Get reflection objects of all methods
 
-    :param string $filter: 
+    :param string: 
 
     :rtype: MethodReflection[] 
 
@@ -126,19 +121,19 @@ getParentClass
 
     Get parent reflection class of reflected class
 
-    :rtype: \Zend\Code\Reflection\ClassReflection|bool 
+    :rtype: ClassReflection|bool 
 
 
 
 getProperty
 -----------
 
-.. function:: getProperty($name)
+.. function:: getProperty()
 
 
     Return reflection property of this class by name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: PropertyReflection 
 
@@ -147,12 +142,12 @@ getProperty
 getProperties
 -------------
 
-.. function:: getProperties([$filter = -1])
+.. function:: getProperties()
 
 
     Return reflection properties of this class
 
-    :param int $filter: 
+    :param int: 
 
     :rtype: PropertyReflection[] 
 
@@ -169,8 +164,6 @@ __toString
 ----------
 
 .. function:: __toString()
-
-
 
 
 

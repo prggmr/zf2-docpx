@@ -1,30 +1,23 @@
-.. /Config/Writer/Json.php generated using docpx on 01/15/13 05:29pm
+.. Config/Writer/Json.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Writer\\Json
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 processConfig
 -------------
 
-.. function:: processConfig($config)
+.. function:: processConfig()
 
 
     processConfig(): defined by AbstractWriter.
 
-    :param array $config: 
+    :param array: 
 
     :rtype: string 
-
-
 
 
 

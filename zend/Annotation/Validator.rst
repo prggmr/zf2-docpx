@@ -1,9 +1,8 @@
-.. /Form/Annotation/Validator.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/Validator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\Validator
-*********************************
-
+=================================
 
 Validator annotation
 
@@ -17,10 +16,8 @@ validator constructor.
 This annotation may be specified multiple times; validators will be added
 to the validator chain in the order specified.
 
-
-
 Methods
-=======
++++++++
 
 getValidator
 ------------
@@ -31,8 +28,6 @@ getValidator
     Retrieve the validator specification
 
     :rtype: null|array 
-
-
 
 
 

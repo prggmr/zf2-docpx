@@ -1,26 +1,21 @@
-.. /Feed/Reader/Extension/Atom/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/Atom/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\Atom\\Entry
-******************************************
-
-
-@category Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 getAuthor
 ---------
 
-.. function:: getAuthor([$index = false])
+.. function:: getAuthor()
 
 
     Get the specified author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -53,7 +48,7 @@ getContent
 collectXhtml
 ------------
 
-.. function:: collectXhtml($xhtml, $prefix)
+.. function:: collectXhtml()
 
 
     Parse out XHTML to remove the namespacing
@@ -140,12 +135,12 @@ getBaseUrl
 getLink
 -------
 
-.. function:: getLink([$index = false])
+.. function:: getLink()
 
 
     Get a specific link
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string 
 
@@ -214,12 +209,12 @@ getCommentLink
 getCommentFeedLink
 ------------------
 
-.. function:: getCommentFeedLink([$type = "atom"])
+.. function:: getCommentFeedLink()
 
 
     Returns a URI pointing to a feed of all comments for this entry
 
-    :param string $type: 
+    :param string: 
 
     :rtype: string 
 
@@ -252,7 +247,7 @@ getSource
 absolutiseUri
 -------------
 
-.. function:: absolutiseUri($link)
+.. function:: absolutiseUri()
 
 
     Attempt to absolutise the URI, i.e. if a relative URI apply the
@@ -267,12 +262,12 @@ absolutiseUri
 getAuthorFromElement
 --------------------
 
-.. function:: getAuthorFromElement($element)
+.. function:: getAuthorFromElement()
 
 
     Get an author entry
 
-    :param DOMElement $element: 
+    :param DOMElement: 
 
     :rtype: string 
 
@@ -297,8 +292,6 @@ getAtomType
     Detect the presence of any Atom namespaces in use
 
     :rtype: string 
-
-
 
 
 

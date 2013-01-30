@@ -1,39 +1,34 @@
-.. /Db/ResultSet/ResultSet.php generated using docpx on 01/15/13 05:29pm
+.. Db/ResultSet/ResultSet.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\ResultSet\\ResultSet
-******************************
-
-
-@category   Zend
-
-
+==============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$returnType = "arrayobject", [$arrayObjectPrototype = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $returnType: 
-    :param null|ArrayObject $arrayObjectPrototype: 
+    :param string: 
+    :param null|ArrayObject: 
 
 
 
 setArrayObjectPrototype
 -----------------------
 
-.. function:: setArrayObjectPrototype($arrayObjectPrototype)
+.. function:: setArrayObjectPrototype()
 
 
     Set the row object prototype
 
-    :param ArrayObject $arrayObjectPrototype: 
+    :param ArrayObject: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -78,11 +73,11 @@ current
 
 
 Constants
----------
++++++++++
 
 TYPE_ARRAYOBJECT
-++++++++++++++++
+================
 
 TYPE_ARRAY
-++++++++++
+==========
 

@@ -1,28 +1,25 @@
-.. /File/Transfer/Transfer.php generated using docpx on 01/15/13 05:29pm
+.. File/Transfer/Transfer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\File\\Transfer\\Transfer
-******************************
-
+==============================
 
 Base class for all protocols supporting file transfers
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$adapter = "Http", [$direction = false, [$options = false]]])
+.. function:: __construct()
 
 
     Creates a file processing handler
 
-    :param string $adapter: Adapter to use
-    :param bool $direction: OPTIONAL False means Download, true means upload
-    :param array $options: OPTIONAL Options to set for this adapter
+    :param string: Adapter to use
+    :param bool: OPTIONAL False means Download, true means upload
+    :param array: OPTIONAL Options to set for this adapter
 
     :throws Exception\InvalidArgumentException: 
 
@@ -31,14 +28,14 @@ __construct
 setAdapter
 ----------
 
-.. function:: setAdapter($adapter, [$direction = false, [$options = false]])
+.. function:: setAdapter()
 
 
     Sets a new adapter
 
-    :param string $adapter: Adapter to use
-    :param bool $direction: OPTIONAL False means Download, true means upload
-    :param array $options: OPTIONAL Options to set for this adapter
+    :param string: Adapter to use
+    :param bool: OPTIONAL False means Download, true means upload
+    :param array: OPTIONAL Options to set for this adapter
 
     :rtype: Transfer 
 
@@ -49,12 +46,12 @@ setAdapter
 getAdapter
 ----------
 
-.. function:: getAdapter([$direction = false])
+.. function:: getAdapter()
 
 
     Returns all set adapters
 
-    :param bool $direction: On null, all directions are returned
+    :param bool: On null, all directions are returned
                           On false, download direction is returned
                           On true, upload direction is returned
 
@@ -65,19 +62,17 @@ getAdapter
 __call
 ------
 
-.. function:: __call($method, $options)
+.. function:: __call()
 
 
     Calls all methods from the adapter
 
-    :param string $method: Method to call
-    :param array $options: Options for this method
+    :param string: Method to call
+    :param array: Options for this method
 
     :throws Exception\BadMethodCallException: if unknown method
 
     :rtype: mixed 
-
-
 
 
 

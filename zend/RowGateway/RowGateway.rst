@@ -1,32 +1,25 @@
-.. /Db/RowGateway/RowGateway.php generated using docpx on 01/15/13 05:29pm
+.. Db/RowGateway/RowGateway.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\RowGateway\\RowGateway
-********************************
-
-
-@category   Zend
-
-
+================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($primaryKeyColumn, $table, [$adapterOrSql = false])
+.. function:: __construct()
 
 
     Constructor
 
-    :param string $primaryKeyColumn: 
-    :param string|\Zend\Db\Sql\TableIdentifier $table: 
-    :param Adapter|Sql $adapterOrSql: 
+    :param string: 
+    :param string|\Zend\Db\Sql\TableIdentifier: 
+    :param Adapter|Sql: 
 
     :throws Exception\InvalidArgumentException: 
-
-
 
 
 

@@ -1,27 +1,22 @@
-.. /Cache/Storage/Plugin/Serializer.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Plugin/Serializer.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Plugin\\Serializer
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 attach
 ------
 
-.. function:: attach($events, [$priority = 1])
+.. function:: attach()
 
 
     Attach
 
-    :param EventManagerInterface $events: 
-    :param int $priority: 
+    :param EventManagerInterface: 
+    :param int: 
 
     :rtype: Serializer 
 
@@ -32,12 +27,12 @@ attach
 detach
 ------
 
-.. function:: detach($events)
+.. function:: detach()
 
 
     Detach
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: Serializer 
 
@@ -48,12 +43,12 @@ detach
 onReadItemPost
 --------------
 
-.. function:: onReadItemPost($event)
+.. function:: onReadItemPost()
 
 
     On read item post
 
-    :param PostEvent $event: 
+    :param PostEvent: 
 
     :rtype: void 
 
@@ -62,12 +57,12 @@ onReadItemPost
 onReadItemsPost
 ---------------
 
-.. function:: onReadItemsPost($event)
+.. function:: onReadItemsPost()
 
 
     On read items post
 
-    :param PostEvent $event: 
+    :param PostEvent: 
 
     :rtype: void 
 
@@ -76,12 +71,12 @@ onReadItemsPost
 onWriteItemPre
 --------------
 
-.. function:: onWriteItemPre($event)
+.. function:: onWriteItemPre()
 
 
     On write item pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: void 
 
@@ -90,12 +85,12 @@ onWriteItemPre
 onWriteItemsPre
 ---------------
 
-.. function:: onWriteItemsPre($event)
+.. function:: onWriteItemsPre()
 
 
     On write items pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: void 
 
@@ -104,12 +99,12 @@ onWriteItemsPre
 onIncrementItemPre
 ------------------
 
-.. function:: onIncrementItemPre($event)
+.. function:: onIncrementItemPre()
 
 
     On increment item pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: mixed 
 
@@ -118,12 +113,12 @@ onIncrementItemPre
 onIncrementItemsPre
 -------------------
 
-.. function:: onIncrementItemsPre($event)
+.. function:: onIncrementItemsPre()
 
 
     On increment items pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: mixed 
 
@@ -132,12 +127,12 @@ onIncrementItemsPre
 onDecrementItemPre
 ------------------
 
-.. function:: onDecrementItemPre($event)
+.. function:: onDecrementItemPre()
 
 
     On decrement item pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: mixed 
 
@@ -146,12 +141,12 @@ onDecrementItemPre
 onDecrementItemsPre
 -------------------
 
-.. function:: onDecrementItemsPre($event)
+.. function:: onDecrementItemsPre()
 
 
     On decrement items pre
 
-    :param Event $event: 
+    :param Event: 
 
     :rtype: mixed 
 
@@ -160,16 +155,14 @@ onDecrementItemsPre
 onGetCapabilitiesPost
 ---------------------
 
-.. function:: onGetCapabilitiesPost($event)
+.. function:: onGetCapabilitiesPost()
 
 
     On get capabilities
 
-    :param PostEvent $event: 
+    :param PostEvent: 
 
     :rtype: void 
-
-
 
 
 

@@ -1,29 +1,29 @@
-.. /Cache/Storage/Plugin/PluginInterface.php generated using docpx on 01/15/13 05:29pm
+.. Mvc/Controller/Plugin/PluginInterface.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Cache\\Storage\\Plugin\\setOptions
-========================================
+Zend\\Mvc\\Controller\\Plugin\\setController
+============================================
 
-.. function:: Zend\Cache\Storage\Plugin\setOptions()
-
-
-    Set options
-
-    :param PluginOptions $options: 
-
-    :rtype: PluginInterface 
+.. function:: Zend\Mvc\Controller\Plugin\setController()
 
 
+    Set the current controller instance
 
-Zend\\Cache\\Storage\\Plugin\\getOptions
-========================================
+    :param Dispatchable: 
 
-.. function:: Zend\Cache\Storage\Plugin\getOptions()
+    :rtype: void 
 
 
-    Get options
 
-    :rtype: PluginOptions 
+Zend\\Mvc\\Controller\\Plugin\\getController
+============================================
+
+.. function:: Zend\Mvc\Controller\Plugin\getController()
+
+
+    Get the current controller instance
+
+    :rtype: null|Dispatchable 
 
 
 

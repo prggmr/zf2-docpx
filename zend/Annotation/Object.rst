@@ -1,18 +1,15 @@
-.. /Form/Annotation/Object.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/Object.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\Object
-******************************
-
+==============================
 
 Object annotation
 
 Use this annotation to specify an object to use as the bound object of a form or fieldset
 
-
-
 Methods
-=======
++++++++
 
 getObject
 ---------
@@ -23,8 +20,6 @@ getObject
     Retrieve the object
 
     :rtype: null|string 
-
-
 
 
 

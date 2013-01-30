@@ -1,16 +1,13 @@
-.. /Barcode/Object/Upce.php generated using docpx on 01/15/13 05:29pm
+.. Barcode/Object/Upce.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Barcode\\Object\\Upce
-***************************
-
+===========================
 
 Class for generate UpcA barcode
 
-
-
 Methods
-=======
++++++++
 
 getDefaultOptions
 -----------------
@@ -75,14 +72,14 @@ drawText
 validateSpecificText
 --------------------
 
-.. function:: validateSpecificText($value, [$options = false])
+.. function:: validateSpecificText()
 
 
     Particular validation for Upce barcode objects
     (to suppress checksum character substitution)
 
-    :param string $value: 
-    :param array $options: 
+    :param string: 
+    :param array: 
 
     :throws Exception\BarcodeValidationException: 
 
@@ -91,16 +88,14 @@ validateSpecificText
 getChecksum
 -----------
 
-.. function:: getChecksum($text)
+.. function:: getChecksum()
 
 
     Get barcode checksum
 
-    :param string $text: 
+    :param string: 
 
     :rtype: int 
-
-
 
 
 

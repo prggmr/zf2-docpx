@@ -1,34 +1,25 @@
-.. /Cache/Storage/Adapter/Filesystem.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Adapter/Filesystem.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Adapter\\Filesystem
-*****************************************
-
-
-@category   Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options.
 
-    :param array|\Traversable|FilesystemOptions $options: 
+    :param array|\Traversable|FilesystemOptions: 
 
     :rtype: Filesystem 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
+    :see:  
 
 
 
@@ -42,11 +33,7 @@ getOptions
 
     :rtype: FilesystemOptions 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
 
 
 
@@ -60,13 +47,6 @@ flush
 
 
     :rtype: bool 
-
-
-
-$dir
-----
-
-.. function:: $dir()
 
 
 
@@ -85,12 +65,12 @@ clearExpired
 clearByNamespace
 ----------------
 
-.. function:: clearByNamespace($namespace)
+.. function:: clearByNamespace()
 
 
     Remove items by given namespace
 
-    :param string $namespace: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -101,12 +81,12 @@ clearByNamespace
 clearByPrefix
 -------------
 
-.. function:: clearByPrefix($prefix)
+.. function:: clearByPrefix()
 
 
     Remove items matching given prefix
 
-    :param string $prefix: 
+    :param string: 
 
     :throws Exception\RuntimeException: 
 
@@ -117,14 +97,14 @@ clearByPrefix
 setTags
 -------
 
-.. function:: setTags($key, $tags)
+.. function:: setTags()
 
 
     Set tags to an item by given key.
     An empty array will remove all tags.
 
-    :param string $key: 
-    :param string[] $tags: 
+    :param string: 
+    :param string[]: 
 
     :rtype: bool 
 
@@ -133,12 +113,12 @@ setTags
 getTags
 -------
 
-.. function:: getTags($key)
+.. function:: getTags()
 
 
     Get tags of an item by given key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: string[]|FALSE 
 
@@ -147,7 +127,7 @@ getTags
 clearByTags
 -----------
 
-.. function:: clearByTags($tags, [$disjunction = false])
+.. function:: clearByTags()
 
 
     Remove items matching given tags.
@@ -155,8 +135,8 @@ clearByTags
     If $disjunction only one of the given tags must match
     else all given tags must match.
 
-    :param string[] $tags: 
-    :param bool $disjunction: 
+    :param string[]: 
+    :param bool: 
 
     :rtype: bool 
 
@@ -200,13 +180,6 @@ getTotalSpace
 
 
 
-$event
-------
-
-.. function:: $event()
-
-
-
 getAvailableSpace
 -----------------
 
@@ -223,14 +196,14 @@ getAvailableSpace
 getItem
 -------
 
-.. function:: getItem($key, [$success = false, [$casToken = false]])
+.. function:: getItem()
 
 
     Get an item.
 
-    :param string $key: 
-    :param bool $success: 
-    :param mixed $casToken: 
+    :param string: 
+    :param bool: 
+    :param mixed: 
 
     :rtype: mixed Data on success, null on failure
 
@@ -243,12 +216,12 @@ getItem
 getItems
 --------
 
-.. function:: getItems($keys)
+.. function:: getItems()
 
 
     Get multiple items.
 
-    :param array $keys: 
+    :param array: 
 
     :rtype: array Associative array of keys and values
 
@@ -261,14 +234,14 @@ getItems
 internalGetItem
 ---------------
 
-.. function:: internalGetItem($normalizedKey, [$success = false, [$casToken = false]])
+.. function:: internalGetItem()
 
 
     Internal method to get an item.
 
-    :param string $normalizedKey: 
-    :param bool $success: 
-    :param mixed $casToken: 
+    :param string: 
+    :param bool: 
+    :param mixed: 
 
     :rtype: mixed Data on success, null on failure
 
@@ -279,12 +252,12 @@ internalGetItem
 internalGetItems
 ----------------
 
-.. function:: internalGetItems($normalizedKeys)
+.. function:: internalGetItems()
 
 
     Internal method to get multiple items.
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Associative array of keys and values
 
@@ -295,12 +268,12 @@ internalGetItems
 hasItem
 -------
 
-.. function:: hasItem($key)
+.. function:: hasItem()
 
 
     Test if an item exists.
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -313,12 +286,12 @@ hasItem
 hasItems
 --------
 
-.. function:: hasItems($keys)
+.. function:: hasItems()
 
 
     Test multiple items.
 
-    :param array $keys: 
+    :param array: 
 
     :rtype: array Array of found keys
 
@@ -331,12 +304,12 @@ hasItems
 internalHasItem
 ---------------
 
-.. function:: internalHasItem($normalizedKey)
+.. function:: internalHasItem()
 
 
     Internal method to test if an item exists.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -347,12 +320,12 @@ internalHasItem
 getMetadata
 -----------
 
-.. function:: getMetadata($key)
+.. function:: getMetadata()
 
 
     Get metadata
 
-    :param string $key: 
+    :param string: 
 
     :rtype: array|bool Metadata on success, false on failure
 
@@ -361,13 +334,13 @@ getMetadata
 getMetadatas
 ------------
 
-.. function:: getMetadatas($keys, [$options = false])
+.. function:: getMetadatas()
 
 
     Get metadatas
 
-    :param array $keys: 
-    :param array $options: 
+    :param array: 
+    :param array: 
 
     :rtype: array Associative array of keys and metadata
 
@@ -376,12 +349,12 @@ getMetadatas
 internalGetMetadata
 -------------------
 
-.. function:: internalGetMetadata($normalizedKey)
+.. function:: internalGetMetadata()
 
 
     Get info by key
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: array|bool Metadata on success, false on failure
 
@@ -390,12 +363,12 @@ internalGetMetadata
 internalGetMetadatas
 --------------------
 
-.. function:: internalGetMetadatas($normalizedKeys)
+.. function:: internalGetMetadatas()
 
 
     Internal method to get multiple metadata
 
-    :param array $normalizedKeys: 
+    :param array: 
 
     :rtype: array Associative array of keys and metadata
 
@@ -406,13 +379,13 @@ internalGetMetadatas
 setItem
 -------
 
-.. function:: setItem($key, $value)
+.. function:: setItem()
 
 
     Store an item.
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -425,12 +398,12 @@ setItem
 setItems
 --------
 
-.. function:: setItems($keyValuePairs)
+.. function:: setItems()
 
 
     Store multiple items.
 
-    :param array $keyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -443,13 +416,13 @@ setItems
 addItem
 -------
 
-.. function:: addItem($key, $value)
+.. function:: addItem()
 
 
     Add an item.
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -462,12 +435,12 @@ addItem
 addItems
 --------
 
-.. function:: addItems($keyValuePairs)
+.. function:: addItems()
 
 
     Add multiple items.
 
-    :param array $keyValuePairs: 
+    :param array: 
 
     :rtype: bool 
 
@@ -480,13 +453,13 @@ addItems
 replaceItem
 -----------
 
-.. function:: replaceItem($key, $value)
+.. function:: replaceItem()
 
 
     Replace an existing item.
 
-    :param string $key: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -499,12 +472,12 @@ replaceItem
 replaceItems
 ------------
 
-.. function:: replaceItems($keyValuePairs)
+.. function:: replaceItems()
 
 
     Replace multiple existing items.
 
-    :param array $keyValuePairs: 
+    :param array: 
 
     :rtype: bool 
 
@@ -517,13 +490,13 @@ replaceItems
 internalSetItem
 ---------------
 
-.. function:: internalSetItem($normalizedKey, $value)
+.. function:: internalSetItem()
 
 
     Internal method to store an item.
 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -534,12 +507,12 @@ internalSetItem
 internalSetItems
 ----------------
 
-.. function:: internalSetItems($normalizedKeyValuePairs)
+.. function:: internalSetItems()
 
 
     Internal method to store multiple items.
 
-    :param array $normalizedKeyValuePairs: 
+    :param array: 
 
     :rtype: array Array of not stored keys
 
@@ -550,7 +523,7 @@ internalSetItems
 checkAndSetItem
 ---------------
 
-.. function:: checkAndSetItem($token, $key, $value)
+.. function:: checkAndSetItem()
 
 
     Set an item only if token matches
@@ -558,65 +531,49 @@ checkAndSetItem
     It uses the token received from getItem() to check if the item has
     changed before overwriting it.
 
-    :param mixed $token: 
-    :param string $key: 
-    :param mixed $value: 
+    :param mixed: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
     :throws: Exception\ExceptionInterface 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
+    :see:  
 
 
 
 internalCheckAndSetItem
 -----------------------
 
-.. function:: internalCheckAndSetItem($token, $normalizedKey, $value)
+.. function:: internalCheckAndSetItem()
 
 
     Internal method to set an item only if token matches
 
-    :param mixed $token: 
-    :param string $normalizedKey: 
-    :param mixed $value: 
+    :param mixed: 
+    :param string: 
+    :param mixed: 
 
     :rtype: bool 
 
     :throws: Exception\ExceptionInterface 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: g g
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: s s
+    :see:  
+    :see:  
 
 
 
 touchItem
 ---------
 
-.. function:: touchItem($key)
+.. function:: touchItem()
 
 
     Reset lifetime of an item
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -629,12 +586,12 @@ touchItem
 touchItems
 ----------
 
-.. function:: touchItems($keys)
+.. function:: touchItems()
 
 
     Reset lifetime of multiple items.
 
-    :param array $keys: 
+    :param array: 
 
     :rtype: array Array of not updated keys
 
@@ -647,12 +604,12 @@ touchItems
 internalTouchItem
 -----------------
 
-.. function:: internalTouchItem($normalizedKey)
+.. function:: internalTouchItem()
 
 
     Internal method to reset lifetime of an item
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -663,12 +620,12 @@ internalTouchItem
 removeItem
 ----------
 
-.. function:: removeItem($key)
+.. function:: removeItem()
 
 
     Remove an item.
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -681,12 +638,12 @@ removeItem
 removeItems
 -----------
 
-.. function:: removeItems($keys)
+.. function:: removeItems()
 
 
     Remove multiple items.
 
-    :param array $keys: 
+    :param array: 
 
     :rtype: array Array of not removed keys
 
@@ -699,12 +656,12 @@ removeItems
 internalRemoveItem
 ------------------
 
-.. function:: internalRemoveItem($normalizedKey)
+.. function:: internalRemoveItem()
 
 
     Internal method to remove an item.
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: bool 
 
@@ -724,23 +681,16 @@ internalGetCapabilities
 
 
 
-$event
-------
-
-.. function:: $event()
-
-
-
 rmDir
 -----
 
-.. function:: rmDir($dir, $prefix)
+.. function:: rmDir()
 
 
     Removes directories recursive by namespace
 
-    :param string $dir: Directory to delete
-    :param string $prefix: Namespace + Separator
+    :param string: Directory to delete
+    :param string: Namespace + Separator
 
     :rtype: bool 
 
@@ -749,12 +699,12 @@ rmDir
 getFileSpec
 -----------
 
-.. function:: getFileSpec($normalizedKey)
+.. function:: getFileSpec()
 
 
     Get file spec of the given key and namespace
 
-    :param string $normalizedKey: 
+    :param string: 
 
     :rtype: string 
 
@@ -763,14 +713,14 @@ getFileSpec
 readInfoFile
 ------------
 
-.. function:: readInfoFile($file, [$nonBlocking = false, [$wouldblock = false]])
+.. function:: readInfoFile()
 
 
     Read info file
 
-    :param string $file: 
-    :param bool $nonBlocking: Don't block script if file is locked
-    :param bool $wouldblock: The optional argument is set to TRUE if the lock would block
+    :param string: 
+    :param bool: Don't block script if file is locked
+    :param bool: The optional argument is set to TRUE if the lock would block
 
     :rtype: array|bool The info array or false if file wasn't found
 
@@ -781,14 +731,14 @@ readInfoFile
 getFileContent
 --------------
 
-.. function:: getFileContent($file, [$nonBlocking = false, [$wouldblock = false]])
+.. function:: getFileContent()
 
 
     Read a complete file
 
-    :param string $file: File complete path
-    :param bool $nonBlocking: Don't block script if file is locked
-    :param bool $wouldblock: The optional argument is set to TRUE if the lock would block
+    :param string: File complete path
+    :param bool: Don't block script if file is locked
+    :param bool: The optional argument is set to TRUE if the lock would block
 
     :rtype: string 
 
@@ -799,13 +749,13 @@ getFileContent
 prepareDirectoryStructure
 -------------------------
 
-.. function:: prepareDirectoryStructure($file)
+.. function:: prepareDirectoryStructure()
 
 
     Prepares a directory structure for the given file(spec)
     using the configured directory level.
 
-    :param string $file: 
+    :param string: 
 
     :rtype: void 
 
@@ -816,15 +766,15 @@ prepareDirectoryStructure
 putFileContent
 --------------
 
-.. function:: putFileContent($file, $data, [$nonBlocking = false, [$wouldblock = false]])
+.. function:: putFileContent()
 
 
     Write content to a file
 
-    :param string $file: File complete path
-    :param string $data: Data to write
-    :param bool $nonBlocking: Don't block script if file is locked
-    :param bool $wouldblock: The optional argument is set to TRUE if the lock would block
+    :param string: File complete path
+    :param string: Data to write
+    :param bool: Don't block script if file is locked
+    :param bool: The optional argument is set to TRUE if the lock would block
 
     :rtype: void 
 
@@ -835,16 +785,14 @@ putFileContent
 unlink
 ------
 
-.. function:: unlink($file)
+.. function:: unlink()
 
 
     Unlink a file
 
-    :param string $file: 
+    :param string: 
 
     :rtype: void @throw RuntimeException
-
-
 
 
 

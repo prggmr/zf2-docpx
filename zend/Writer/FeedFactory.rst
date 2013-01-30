@@ -1,26 +1,21 @@
-.. /Feed/Writer/FeedFactory.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/FeedFactory.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\FeedFactory
-*******************************
-
-
-@category   Zend
-
-
+===============================
 
 Methods
-=======
++++++++
 
 factory
 -------
 
-.. function:: factory($data)
+.. function:: factory()
 
 
     Create and return a Feed based on data provided.
 
-    :param array|\Traversable $data: 
+    :param array|\Traversable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -31,12 +26,12 @@ factory
 convertKey
 ----------
 
-.. function:: convertKey($key)
+.. function:: convertKey()
 
 
     Normalize a key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: string 
 
@@ -45,19 +40,17 @@ convertKey
 createEntries
 -------------
 
-.. function:: createEntries($entries, $feed)
+.. function:: createEntries()
 
 
     Create and attach entries to a feed
 
-    :param array|Traversable $entries: 
-    :param Feed $feed: 
+    :param array|Traversable: 
+    :param Feed: 
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: void 
-
-
 
 
 

@@ -1,4 +1,4 @@
-.. /Db/Adapter/AdapterAwareInterface.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/AdapterAwareInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\setDbAdapter
@@ -9,7 +9,7 @@ Zend\\Db\\Adapter\\setDbAdapter
 
     Set db adapter
 
-    :param Adapter $adapter: 
+    :param Adapter: 
 
     :rtype: AdapterAwareInterface 
 

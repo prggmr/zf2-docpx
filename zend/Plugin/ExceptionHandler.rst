@@ -1,27 +1,22 @@
-.. /Cache/Storage/Plugin/ExceptionHandler.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Storage/Plugin/ExceptionHandler.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Storage\\Plugin\\ExceptionHandler
-**********************************************
-
-
-@category   Zend
-
-
+==============================================
 
 Methods
-=======
++++++++
 
 attach
 ------
 
-.. function:: attach($events, [$priority = 1])
+.. function:: attach()
 
 
     Attach
 
-    :param EventManagerInterface $events: 
-    :param int $priority: 
+    :param EventManagerInterface: 
+    :param int: 
 
     :rtype: ExceptionHandler 
 
@@ -32,12 +27,12 @@ attach
 detach
 ------
 
-.. function:: detach($events)
+.. function:: detach()
 
 
     Detach
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: ExceptionHandler 
 
@@ -48,16 +43,14 @@ detach
 onException
 -----------
 
-.. function:: onException($event)
+.. function:: onException()
 
 
     On exception
 
-    :param ExceptionEvent $event: 
+    :param ExceptionEvent: 
 
     :rtype: void 
-
-
 
 
 

@@ -1,40 +1,35 @@
-.. /Feed/PubSubHubbub/Publisher.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/Publisher.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\Publisher
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor; accepts an array or Zend_Config instance to preset
     options for the Publisher without calling all supported setter
     methods in turn.
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Process any injected configuration options
 
-    :param array|Traversable $options: Options array or Traversable object
+    :param array|Traversable: Options array or Traversable object
 
     :rtype: Publisher 
 
@@ -45,12 +40,12 @@ setOptions
 addHubUrl
 ---------
 
-.. function:: addHubUrl($url)
+.. function:: addHubUrl()
 
 
     Add a Hub Server URL supported by Publisher
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Publisher 
 
@@ -61,12 +56,12 @@ addHubUrl
 addHubUrls
 ----------
 
-.. function:: addHubUrls($urls)
+.. function:: addHubUrls()
 
 
     Add an array of Hub Server URLs supported by Publisher
 
-    :param array $urls: 
+    :param array: 
 
     :rtype: Publisher 
 
@@ -75,12 +70,12 @@ addHubUrls
 removeHubUrl
 ------------
 
-.. function:: removeHubUrl($url)
+.. function:: removeHubUrl()
 
 
     Remove a Hub Server URL
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Publisher 
 
@@ -101,12 +96,12 @@ getHubUrls
 addUpdatedTopicUrl
 ------------------
 
-.. function:: addUpdatedTopicUrl($url)
+.. function:: addUpdatedTopicUrl()
 
 
     Add a URL to a topic (Atom or RSS feed) which has been updated
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Publisher 
 
@@ -117,12 +112,12 @@ addUpdatedTopicUrl
 addUpdatedTopicUrls
 -------------------
 
-.. function:: addUpdatedTopicUrls($urls)
+.. function:: addUpdatedTopicUrls()
 
 
     Add an array of Topic URLs which have been updated
 
-    :param array $urls: 
+    :param array: 
 
     :rtype: Publisher 
 
@@ -131,12 +126,12 @@ addUpdatedTopicUrls
 removeUpdatedTopicUrl
 ---------------------
 
-.. function:: removeUpdatedTopicUrl($url)
+.. function:: removeUpdatedTopicUrl()
 
 
     Remove an updated topic URL
 
-    :param string $url: 
+    :param string: 
 
     :rtype: Publisher 
 
@@ -157,12 +152,12 @@ getUpdatedTopicUrls
 notifyHub
 ---------
 
-.. function:: notifyHub($url)
+.. function:: notifyHub()
 
 
     Notifies a single Hub Server URL of changes
 
-    :param string $url: The Hub Server's URL
+    :param string: The Hub Server's URL
 
     :rtype: void 
 
@@ -193,13 +188,13 @@ notifyAll
 setParameter
 ------------
 
-.. function:: setParameter($name, [$value = false])
+.. function:: setParameter()
 
 
     Add an optional parameter to the update notification requests
 
-    :param string $name: 
-    :param string|null $value: 
+    :param string: 
+    :param string|null: 
 
     :rtype: Publisher 
 
@@ -210,12 +205,12 @@ setParameter
 setParameters
 -------------
 
-.. function:: setParameters($parameters)
+.. function:: setParameters()
 
 
     Add an optional parameter to the update notification requests
 
-    :param array $parameters: 
+    :param array: 
 
     :rtype: Publisher 
 
@@ -224,12 +219,12 @@ setParameters
 removeParameter
 ---------------
 
-.. function:: removeParameter($name)
+.. function:: removeParameter()
 
 
     Remove an optional parameter for the notification requests
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Publisher 
 
@@ -287,8 +282,6 @@ _getHttpClient
     :rtype: \Zend\Http\Client 
 
     :throws: Exception\RuntimeException 
-
-
 
 
 

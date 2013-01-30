@@ -1,13 +1,8 @@
-.. /Form/Element/Textarea.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Textarea.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Textarea
-*****************************
+=============================
 
-
-@category   Zend
-
-
-
-
+@copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 

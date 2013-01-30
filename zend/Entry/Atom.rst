@@ -1,26 +1,21 @@
-.. /Feed/Writer/Renderer/Entry/Atom.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Entry/Atom.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Entry\\Atom
-*****************************************
-
-
-@category Zend
-
-
+=========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\Entry $container: 
+    :param Writer\Entry: 
 
 
 
@@ -39,13 +34,13 @@ render
 _setTitle
 ---------
 
-.. function:: _setTitle($dom, $root)
+.. function:: _setTitle()
 
 
     Set entry title
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -56,13 +51,13 @@ _setTitle
 _setDescription
 ---------------
 
-.. function:: _setDescription($dom, $root)
+.. function:: _setDescription()
 
 
     Set entry description
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -71,13 +66,13 @@ _setDescription
 _setDateModified
 ----------------
 
-.. function:: _setDateModified($dom, $root)
+.. function:: _setDateModified()
 
 
     Set date entry was modified
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -88,13 +83,13 @@ _setDateModified
 _setDateCreated
 ---------------
 
-.. function:: _setDateCreated($dom, $root)
+.. function:: _setDateCreated()
 
 
     Set date entry was created
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -103,13 +98,13 @@ _setDateCreated
 _setAuthors
 -----------
 
-.. function:: _setAuthors($dom, $root)
+.. function:: _setAuthors()
 
 
     Set entry authors
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -118,13 +113,13 @@ _setAuthors
 _setEnclosure
 -------------
 
-.. function:: _setEnclosure($dom, $root)
+.. function:: _setEnclosure()
 
 
     Set entry enclosure
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -133,20 +128,20 @@ _setEnclosure
 _setLink
 --------
 
-.. function:: _setLink($dom, $root)
+.. function:: _setLink()
 
 
 
 _setId
 ------
 
-.. function:: _setId($dom, $root)
+.. function:: _setId()
 
 
     Set entry identifier
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -157,12 +152,12 @@ _setId
 _validateTagUri
 ---------------
 
-.. function:: _validateTagUri($id)
+.. function:: _validateTagUri()
 
 
     Validate a URI using the tag scheme (RFC 4151)
 
-    :param string $id: 
+    :param string: 
 
     :rtype: bool 
 
@@ -171,13 +166,13 @@ _validateTagUri
 _setContent
 -----------
 
-.. function:: _setContent($dom, $root)
+.. function:: _setContent()
 
 
     Set entry content
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -188,7 +183,7 @@ _setContent
 _loadXhtml
 ----------
 
-.. function:: _loadXhtml($content)
+.. function:: _loadXhtml()
 
 
     Load a HTML string and attempt to normalise to XML
@@ -198,13 +193,13 @@ _loadXhtml
 _setCategories
 --------------
 
-.. function:: _setCategories($dom, $root)
+.. function:: _setCategories()
 
 
     Set entry categories
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
 
@@ -213,17 +208,15 @@ _setCategories
 _setSource
 ----------
 
-.. function:: _setSource($dom, $root)
+.. function:: _setSource()
 
 
     Append Source element (Atom 1.0 Feed Metadata)
 
-    :param DOMDocument $dom: 
-    :param DOMElement $root: 
+    :param DOMDocument: 
+    :param DOMElement: 
 
     :rtype: void 
-
-
 
 
 

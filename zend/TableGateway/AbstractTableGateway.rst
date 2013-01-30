@@ -1,16 +1,13 @@
-.. /Db/TableGateway/AbstractTableGateway.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/AbstractTableGateway.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\AbstractTableGateway
-********************************************
+============================================
 
-
-@category   Zend
-
-
+@property AdapterInterface $adapter
 
 Methods
-=======
++++++++
 
 isInitialized
 -------------
@@ -55,7 +52,7 @@ getAdapter
 
     Get adapter
 
-    :rtype: Adapter 
+    :rtype: AdapterInterface 
 
 
 
@@ -104,12 +101,12 @@ getSql
 select
 ------
 
-.. function:: select([$where = false])
+.. function:: select()
 
 
     Select
 
-    :param Where|\Closure|string|array $where: 
+    :param Where|\Closure|string|array: 
 
     :rtype: ResultSet 
 
@@ -118,7 +115,7 @@ select
 selectWith
 ----------
 
-.. function:: selectWith($select)
+.. function:: selectWith()
 
 
     @param Select $select
@@ -132,7 +129,7 @@ selectWith
 executeSelect
 -------------
 
-.. function:: executeSelect($select)
+.. function:: executeSelect()
 
 
     @param Select $select
@@ -146,12 +143,12 @@ executeSelect
 insert
 ------
 
-.. function:: insert($set)
+.. function:: insert()
 
 
     Insert
 
-    :param array $set: 
+    :param array: 
 
     :rtype: int 
 
@@ -160,7 +157,7 @@ insert
 insertWith
 ----------
 
-.. function:: insertWith($insert)
+.. function:: insertWith()
 
 
     @param Insert $insert
@@ -172,12 +169,12 @@ insertWith
 executeInsert
 -------------
 
-.. function:: executeInsert($insert)
+.. function:: executeInsert()
 
 
     @todo add $columns support
 
-    :param Insert $insert: 
+    :param Insert: 
 
     :rtype: mixed 
 
@@ -188,13 +185,13 @@ executeInsert
 update
 ------
 
-.. function:: update($set, [$where = false])
+.. function:: update()
 
 
     Update
 
-    :param array $set: 
-    :param string|array|closure $where: 
+    :param array: 
+    :param string|array|closure: 
 
     :rtype: int 
 
@@ -203,7 +200,7 @@ update
 updateWith
 ----------
 
-.. function:: updateWith($update)
+.. function:: updateWith()
 
 
     @param \Zend\Db\Sql\Update $update
@@ -215,12 +212,12 @@ updateWith
 executeUpdate
 -------------
 
-.. function:: executeUpdate($update)
+.. function:: executeUpdate()
 
 
     @todo add $columns support
 
-    :param Update $update: 
+    :param Update: 
 
     :rtype: mixed 
 
@@ -231,12 +228,12 @@ executeUpdate
 delete
 ------
 
-.. function:: delete($where)
+.. function:: delete()
 
 
     Delete
 
-    :param Where|\Closure|string|array $where: 
+    :param Where|\Closure|string|array: 
 
     :rtype: int 
 
@@ -245,7 +242,7 @@ delete
 deleteWith
 ----------
 
-.. function:: deleteWith($delete)
+.. function:: deleteWith()
 
 
     @param Delete $delete
@@ -257,12 +254,12 @@ deleteWith
 executeDelete
 -------------
 
-.. function:: executeDelete($delete)
+.. function:: executeDelete()
 
 
     @todo add $columns support
 
-    :param Delete $delete: 
+    :param Delete: 
 
     :rtype: mixed 
 
@@ -285,12 +282,12 @@ getLastInsertValue
 __get
 -----
 
-.. function:: __get($property)
+.. function:: __get()
 
 
     __get
 
-    :param string $property: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -301,12 +298,12 @@ __get
 __set
 -----
 
-.. function:: __set($property, $value)
+.. function:: __set()
 
 
     @param string $property
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -317,7 +314,7 @@ __set
 __call
 ------
 
-.. function:: __call($method, $arguments)
+.. function:: __call()
 
 
     @param $method
@@ -337,8 +334,6 @@ __clone
 
 
     __clone
-
-
 
 
 

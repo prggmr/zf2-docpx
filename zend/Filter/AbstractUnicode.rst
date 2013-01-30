@@ -1,26 +1,21 @@
-.. /Filter/AbstractUnicode.php generated using docpx on 01/15/13 05:29pm
+.. Filter/AbstractUnicode.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\AbstractUnicode
-*****************************
-
-
-@category   Zend
-
-
+=============================
 
 Methods
-=======
++++++++
 
 setEncoding
 -----------
 
-.. function:: setEncoding([$encoding = false])
+.. function:: setEncoding()
 
 
     Set the input encoding for the given string
 
-    :param string|null $encoding: 
+    :param string|null: 
 
     :rtype: StringToLower 
 
@@ -38,8 +33,6 @@ getEncoding
     Returns the set encoding
 
     :rtype: string 
-
-
 
 
 

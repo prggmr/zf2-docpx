@@ -1,4 +1,4 @@
-.. /Feed/PubSubHubbub/Model/SubscriptionPersistenceInterface.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/Model/SubscriptionPersistenceInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\Model\\setSubscription
@@ -9,7 +9,7 @@ Zend\\Feed\\PubSubHubbub\\Model\\setSubscription
 
     Save subscription to RDMBS
 
-    :param array $data: The key must be stored here as a $data['id'] entry
+    :param array: The key must be stored here as a $data['id'] entry
 
     :rtype: bool 
 
@@ -23,7 +23,7 @@ Zend\\Feed\\PubSubHubbub\\Model\\getSubscription
 
     Get subscription by ID/key
 
-    :param string $key: 
+    :param string: 
 
     :rtype: array 
 
@@ -37,7 +37,7 @@ Zend\\Feed\\PubSubHubbub\\Model\\hasSubscription
 
     Determine if a subscription matching the key exists
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 
@@ -51,7 +51,7 @@ Zend\\Feed\\PubSubHubbub\\Model\\deleteSubscription
 
     Delete a subscription
 
-    :param string $key: 
+    :param string: 
 
     :rtype: bool 
 

@@ -1,26 +1,23 @@
-.. /Feed/Writer/Renderer/Feed/Atom.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Renderer/Feed/Atom.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Renderer\\Feed\\Atom
-****************************************
-
-
-@category Zend
+========================================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($container)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Writer\Feed $container: 
+    :param Writer\Feed: 
 
 
 
@@ -33,8 +30,6 @@ render
     Render Atom feed
 
     :rtype: Atom 
-
-
 
 
 

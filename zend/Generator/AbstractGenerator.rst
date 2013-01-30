@@ -1,118 +1,168 @@
-.. /Code/Generator/AbstractGenerator.php generated using docpx on 01/15/13 05:29pm
+.. XmlRpc/Generator/AbstractGenerator.php generated using docpx on 01/30/13 03:32am
 
 
-Zend\\Code\\Generator\\AbstractGenerator
-****************************************
+Zend\\XmlRpc\\Generator\\AbstractGenerator
+==========================================
 
-
-@category   Zend
-
-
+Abstract XML generator adapter
 
 Methods
-=======
++++++++
 
-setSourceDirty
---------------
+__construct
+-----------
 
-.. function:: setSourceDirty([$isSourceDirty = true])
+.. function:: __construct()
 
 
-    setSourceDirty()
+    Construct new instance of the generator
 
-    :param bool $isSourceDirty: 
-
-    :rtype: AbstractGenerator 
+    :param string: XML encoding, default UTF-8
 
 
 
-isSourceDirty
--------------
+_init
+-----
 
-.. function:: isSourceDirty()
-
-
-    isSourceDirty()
-
-    :rtype: bool 
+.. function:: _init()
 
 
+    Initialize internal objects
 
-setIndentation
---------------
-
-.. function:: setIndentation($indentation)
-
-
-    setIndentation()
-
-    :param string|int $indentation: 
-
-    :rtype: AbstractGenerator 
+    :rtype: void 
 
 
 
-getIndentation
---------------
+openElement
+-----------
 
-.. function:: getIndentation()
-
-
-    getIndentation()
-
-    :rtype: string|int 
+.. function:: openElement()
 
 
+    Start XML element
+    
+    Method opens a new XML element with an element name and an optional value
 
-setSourceContent
-----------------
+    :param string: XML tag name
+    :param string: Optional value of the XML tag
 
-.. function:: setSourceContent($sourceContent)
-
-
-    setSourceContent()
-
-    :param string $sourceContent: 
-
-    :rtype: AbstractGenerator 
+    :rtype: AbstractGenerator Fluent interface
 
 
 
-getSourceContent
-----------------
+closeElement
+------------
 
-.. function:: getSourceContent()
+.. function:: closeElement()
 
 
-    getSourceContent()
+    End of an XML element
+    
+    Method marks the end of an XML element
+
+    :param string: XML tag name
+
+    :rtype: AbstractGenerator Fluent interface
+
+
+
+getEncoding
+-----------
+
+.. function:: getEncoding()
+
+
+    Return encoding
 
     :rtype: string 
 
 
 
-setOptions
+setEncoding
+-----------
+
+.. function:: setEncoding()
+
+
+    Set XML encoding
+
+    :param string: 
+
+    :rtype: AbstractGenerator 
+
+
+
+flush
+-----
+
+.. function:: flush()
+
+
+    Returns the XML as a string and flushes all internal buffers
+
+    :rtype: string 
+
+
+
+__toString
 ----------
 
-.. function:: setOptions($options)
+.. function:: __toString()
 
 
-    setOptions()
+    Returns XML without document declaration
 
-    :param array|Traversable $options: 
-
-    :throws Exception\InvalidArgumentException: 
-
-    :rtype: self 
+    :rtype: string 
 
 
 
+stripDeclaration
+----------------
+
+.. function:: stripDeclaration()
 
 
-Constants
----------
+    Removes XML declaration from a string
 
-LINE_FEED
-+++++++++
+    :param string: 
 
-Line feed to use in place of EOL
+    :rtype: string 
+
+
+
+_openElement
+------------
+
+.. function:: _openElement()
+
+
+    Start XML element
+
+    :param string: XML element name
+
+
+
+_writeTextData
+--------------
+
+.. function:: _writeTextData()
+
+
+    Write XML text data into the currently opened XML element
+
+    :param string: 
+
+
+
+_closeElement
+-------------
+
+.. function:: _closeElement()
+
+
+    End XML element
+
+    :param string: 
+
+
 

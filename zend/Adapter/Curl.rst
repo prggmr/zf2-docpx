@@ -1,17 +1,14 @@
-.. /Http/Client/Adapter/Curl.php generated using docpx on 01/15/13 05:29pm
+.. Http/Client/Adapter/Curl.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\Client\\Adapter\\Curl
-*********************************
-
+=================================
 
 An adapter class for Zend\Http\Client based on the curl extension.
 Curl requires libcurl. See for full requirements the PHP manual: http://php.net/curl
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -29,12 +26,12 @@ __construct
 setOptions
 ----------
 
-.. function:: setOptions([$options = false])
+.. function:: setOptions()
 
 
     Set the configuration array for the adapter
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :rtype: Curl 
 
@@ -57,13 +54,13 @@ getConfig
 setCurlOption
 -------------
 
-.. function:: setCurlOption($option, $value)
+.. function:: setCurlOption()
 
 
     Direct setter for cURL adapter related options.
 
-    :param string|int $option: 
-    :param mixed $value: 
+    :param string|int: 
+    :param mixed: 
 
     :rtype: Curl 
 
@@ -72,14 +69,14 @@ setCurlOption
 connect
 -------
 
-.. function:: connect($host, [$port = 80, [$secure = false]])
+.. function:: connect()
 
 
     Initialize curl
 
-    :param string $host: 
-    :param int $port: 
-    :param bool $secure: 
+    :param string: 
+    :param int: 
+    :param bool: 
 
     :rtype: void 
 
@@ -90,16 +87,16 @@ connect
 write
 -----
 
-.. function:: write($method, $uri, [$httpVersion = 1.1, [$headers = false, [$body = false]]])
+.. function:: write()
 
 
     Send request to the remote server
 
-    :param string $method: 
-    :param \Zend\Uri\Uri $uri: 
-    :param float $httpVersion: 
-    :param array $headers: 
-    :param string $body: 
+    :param string: 
+    :param \Zend\Uri\Uri: 
+    :param float: 
+    :param array: 
+    :param string: 
 
     :rtype: string $request
 
@@ -145,12 +142,12 @@ getHandle
 setOutputStream
 ---------------
 
-.. function:: setOutputStream($stream)
+.. function:: setOutputStream()
 
 
     Set output stream for the response
 
-    :param resource $stream: 
+    :param resource: 
 
     :rtype: Curl 
 
@@ -159,17 +156,15 @@ setOutputStream
 readHeader
 ----------
 
-.. function:: readHeader($curl, $header)
+.. function:: readHeader()
 
 
     Header reader function for CURL
 
-    :param resource $curl: 
-    :param string $header: 
+    :param resource: 
+    :param string: 
 
     :rtype: int 
-
-
 
 
 

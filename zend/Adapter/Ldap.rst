@@ -1,28 +1,23 @@
-.. /Authentication/Adapter/Ldap.php generated using docpx on 01/15/13 05:29pm
+.. Authentication/Adapter/Ldap.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Authentication\\Adapter\\Ldap
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false, [$username = false, [$password = false]]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param array $options: An array of arrays of Zend\Ldap\Ldap options
-    :param string $username: The username of the account being authenticated
-    :param string $password: The password of the account being authenticated
+    :param array: An array of arrays of Zend\Ldap\Ldap options
+    :param string: The username of the account being authenticated
+    :param string: The password of the account being authenticated
 
 
 
@@ -41,13 +36,13 @@ getOptions
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Sets the array of arrays of Zend\Ldap\Ldap options to be used by
     this adapter.
 
-    :param array $options: The array of arrays of Zend\Ldap\Ldap options
+    :param array: The array of arrays of Zend\Ldap\Ldap options
 
     :rtype: Ldap Provides a fluent interface
 
@@ -69,12 +64,12 @@ getUsername
 setUsername
 -----------
 
-.. function:: setUsername($username)
+.. function:: setUsername()
 
 
     Sets the username for binding
 
-    :param string $username: The username for binding
+    :param string: The username for binding
 
     :rtype: Ldap Provides a fluent interface
 
@@ -96,48 +91,12 @@ getPassword
 setPassword
 -----------
 
-.. function:: setPassword($password)
+.. function:: setPassword()
 
 
     Sets the password for the account
 
-    :param string $password: The password of the account being authenticated
-
-    :rtype: Ldap Provides a fluent interface
-
-
-
-setIdentity
------------
-
-.. function:: setIdentity($identity)
-
-
-    setIdentity() - set the identity (username) to be used
-    
-    Proxies to {@see setUsername()}
-    
-    Closes ZF-6813
-
-    :param string $identity: 
-
-    :rtype: Ldap Provides a fluent interface
-
-
-
-setCredential
--------------
-
-.. function:: setCredential($credential)
-
-
-    setCredential() - set the credential (password) value to be used
-    
-    Proxies to {@see setPassword()}
-    
-    Closes ZF-6813
-
-    :param string $credential: 
+    :param string: The password of the account being authenticated
 
     :rtype: Ldap Provides a fluent interface
 
@@ -158,12 +117,12 @@ getLdap
 setLdap
 -------
 
-.. function:: setLdap($ldap)
+.. function:: setLdap()
 
 
     Set an Ldap connection
 
-    :param ZendLdap\Ldap $ldap: An existing Ldap object
+    :param ZendLdap\Ldap: An existing Ldap object
 
     :rtype: Ldap Provides a fluent interface
 
@@ -199,13 +158,13 @@ authenticate
 prepareOptions
 --------------
 
-.. function:: prepareOptions($ldap, $options)
+.. function:: prepareOptions()
 
 
     Sets the LDAP specific options on the Zend\Ldap\Ldap instance
 
-    :param ZendLdap\Ldap $ldap: 
-    :param array $options: 
+    :param ZendLdap\Ldap: 
+    :param array: 
 
     :rtype: array of auth-adapter specific options
 
@@ -214,15 +173,15 @@ prepareOptions
 checkGroupMembership
 --------------------
 
-.. function:: checkGroupMembership($ldap, $canonicalName, $dn, $adapterOptions)
+.. function:: checkGroupMembership()
 
 
     Checks the group membership of the bound user
 
-    :param ZendLdap\Ldap $ldap: 
-    :param string $canonicalName: 
-    :param string $dn: 
-    :param array $adapterOptions: 
+    :param ZendLdap\Ldap: 
+    :param string: 
+    :param string: 
+    :param array: 
 
     :rtype: string|true 
 
@@ -231,7 +190,7 @@ checkGroupMembership
 getAccountObject
 ----------------
 
-.. function:: getAccountObject([$returnAttribs = false, [$omitAttribs = false]])
+.. function:: getAccountObject()
 
 
     getAccountObject() - Returns the result entry as a stdClass object
@@ -239,8 +198,8 @@ getAccountObject
     This resembles the feature {@see Zend\Authentication\Adapter\DbTable::getResultRowObject()}.
     Closes ZF-6813
 
-    :param array $returnAttribs: 
-    :param array $omitAttribs: 
+    :param array: 
+    :param array: 
 
     :rtype: stdClass|bool 
 
@@ -249,16 +208,14 @@ getAccountObject
 optionsToString
 ---------------
 
-.. function:: optionsToString($options)
+.. function:: optionsToString()
 
 
     Converts options to string
 
-    :param array $options: 
+    :param array: 
 
     :rtype: string 
-
-
 
 
 

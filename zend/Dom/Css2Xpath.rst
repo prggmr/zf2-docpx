@@ -1,26 +1,23 @@
-.. /Dom/Css2Xpath.php generated using docpx on 01/15/13 05:29pm
+.. Dom/Css2Xpath.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Dom\\Css2Xpath
-********************
-
+====================
 
 Transform CSS selectors to XPath
 
-
-
 Methods
-=======
++++++++
 
 transform
 ---------
 
-.. function:: transform($path)
+.. function:: transform()
 
 
     Transform CSS expression to XPath
 
-    :param string $path: 
+    :param string: 
 
     :rtype: string 
 
@@ -29,37 +26,14 @@ transform
 _tokenize
 ---------
 
-.. function:: _tokenize($expression)
+.. function:: _tokenize()
 
 
     Tokenize CSS expressions to XPath
 
-    :param string $expression: 
+    :param string: 
 
     :rtype: string 
-
-
-
-$matches
---------
-
-.. function:: $matches()
-
-
-
-$matches
---------
-
-.. function:: $matches()
-
-
-
-$matches
---------
-
-.. function:: $matches()
-
-
 
 
 

@@ -1,16 +1,11 @@
-.. /Form/Element/Week.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Week.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Week
-*************************
-
-
-@category   Zend
-
-
+=========================
 
 Methods
-=======
++++++++
 
 getDateValidator
 ----------------
@@ -33,8 +28,6 @@ getStepValidator
     Retrieves a DateStep Validator configured for a Week Input type
 
     :rtype: \Zend\Validator\ValidatorInterface 
-
-
 
 
 

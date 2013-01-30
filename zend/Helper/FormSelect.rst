@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormSelect.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormSelect.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormSelect
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a form <select> element from the provided $element
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\DomainException: 
@@ -32,7 +27,7 @@ render
 renderOptions
 -------------
 
-.. function:: renderOptions($options, [$selectedOptions = false])
+.. function:: renderOptions()
 
 
     Render an array of options
@@ -48,8 +43,8 @@ renderOptions
     )
     </code>
 
-    :param array $options: 
-    :param array $selectedOptions: Option values that should be marked as selected
+    :param array: 
+    :param array: Option values that should be marked as selected
 
     :rtype: string 
 
@@ -58,7 +53,7 @@ renderOptions
 renderOptgroup
 --------------
 
-.. function:: renderOptgroup($optgroup, [$selectedOptions = false])
+.. function:: renderOptgroup()
 
 
     Render an optgroup
@@ -67,8 +62,8 @@ renderOptgroup
     an optgroup is simply an option that has an additional "options" key
     with an array following the specification for renderOptions().
 
-    :param array $optgroup: 
-    :param array $selectedOptions: 
+    :param array: 
+    :param array: 
 
     :rtype: string 
 
@@ -77,14 +72,14 @@ renderOptgroup
 __invoke
 --------
 
-.. function:: __invoke([$element = false])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface|null $element: 
+    :param ElementInterface|null: 
 
     :rtype: string|FormSelect 
 
@@ -93,7 +88,7 @@ __invoke
 validateMultiValue
 ------------------
 
-.. function:: validateMultiValue($value, $attributes)
+.. function:: validateMultiValue()
 
 
     Ensure that the value is set appropriately
@@ -103,14 +98,12 @@ validateMultiValue
     a domain issue -- you cannot have multiple options selected unless the
     multiple attribute is present and enabled.
 
-    :param mixed $value: 
-    :param array $attributes: 
+    :param mixed: 
+    :param array: 
 
     :rtype: array 
 
     :throws: Exception\DomainException 
-
-
 
 
 

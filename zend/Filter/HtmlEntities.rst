@@ -1,26 +1,21 @@
-.. /Filter/HtmlEntities.php generated using docpx on 01/15/13 05:29pm
+.. Filter/HtmlEntities.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\HtmlEntities
-**************************
-
-
-@category   Zend
-
-
+==========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Sets filter options
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
 
 
@@ -39,12 +34,12 @@ getQuoteStyle
 setQuoteStyle
 -------------
 
-.. function:: setQuoteStyle($quoteStyle)
+.. function:: setQuoteStyle()
 
 
     Sets the quoteStyle option
 
-    :param integer $quoteStyle: 
+    :param integer: 
 
     :rtype: HtmlEntities Provides a fluent interface
 
@@ -65,12 +60,12 @@ getEncoding
 setEncoding
 -----------
 
-.. function:: setEncoding($value)
+.. function:: setEncoding()
 
 
     Set encoding
 
-    :param string $value: 
+    :param string: 
 
     :rtype: HtmlEntities 
 
@@ -93,14 +88,14 @@ getCharSet
 setCharSet
 ----------
 
-.. function:: setCharSet($charSet)
+.. function:: setCharSet()
 
 
     Sets the charSet option
     
     Proxies to {@link setEncoding()}
 
-    :param string $charSet: 
+    :param string: 
 
     :rtype: HtmlEntities Provides a fluent interface
 
@@ -121,12 +116,12 @@ getDoubleQuote
 setDoubleQuote
 --------------
 
-.. function:: setDoubleQuote($doubleQuote)
+.. function:: setDoubleQuote()
 
 
     Sets the doubleQuote option
 
-    :param bool $doubleQuote: 
+    :param bool: 
 
     :rtype: HtmlEntities Provides a fluent interface
 
@@ -135,7 +130,7 @@ setDoubleQuote
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
@@ -143,13 +138,11 @@ filter
     Returns the string $value, converting characters to their corresponding HTML entity
     equivalents where they exist
 
-    :param string $value: 
+    :param string: 
 
     :throws Exception\DomainException: 
 
     :rtype: string 
-
-
 
 
 

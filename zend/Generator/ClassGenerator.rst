@@ -1,26 +1,21 @@
-.. /Code/Generator/ClassGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/ClassGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\ClassGenerator
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 fromReflection
 --------------
 
-.. function:: fromReflection($classReflection)
+.. function:: fromReflection()
 
 
     Build a Code Generation Php Object from a Class Reflection
 
-    :param ClassReflection $classReflection: 
+    :param ClassReflection: 
 
     :rtype: ClassGenerator 
 
@@ -29,13 +24,13 @@ fromReflection
 fromArray
 ---------
 
-.. function:: fromArray($array)
+.. function:: fromArray()
 
 
     Generate from array
 
 
-    :param array $array: 
+    :param array: 
 
     :rtype: ClassGenerator 
 
@@ -44,28 +39,28 @@ fromArray
 __construct
 -----------
 
-.. function:: __construct([$name = false, [$namespaceName = false, [$flags = false, [$extends = false, [$interfaces = false, [$properties = false, [$methods = false, [$docBlock = false]]]]]]]])
+.. function:: __construct()
 
 
-    @param string            $name
+    @param  string $name
 
-    :param string $namespaceName: 
-    :param array|string $flags: 
-    :param string $extends: 
-    :param array $interfaces: 
-    :param array $properties: 
-    :param array $methods: 
-    :param DocBlockGenerator $docBlock: 
+    :param string: 
+    :param array|string: 
+    :param string: 
+    :param array: 
+    :param array: 
+    :param array: 
+    :param DocBlockGenerator: 
 
 
 
 setName
 -------
 
-.. function:: setName($name)
+.. function:: setName()
 
 
-    @param  string         $name
+    @param  string $name
 
     :rtype: ClassGenerator 
 
@@ -81,6 +76,18 @@ getName
 
 
 
+setNamespaceName
+----------------
+
+.. function:: setNamespaceName()
+
+
+    @param  string $namespaceName
+
+    :rtype: ClassGenerator 
+
+
+
 getNamespaceName
 ----------------
 
@@ -91,25 +98,13 @@ getNamespaceName
 
 
 
-setNamespaceName
-----------------
-
-.. function:: setNamespaceName($namespaceName)
-
-
-    @param  string         $namespaceName
-
-    :rtype: ClassGenerator 
-
-
-
 setContainingFileGenerator
 --------------------------
 
-.. function:: setContainingFileGenerator($fileGenerator)
+.. function:: setContainingFileGenerator()
 
 
-    @param  FileGenerator  $fileGenerator
+    @param  FileGenerator $fileGenerator
 
     :rtype: ClassGenerator 
 
@@ -128,7 +123,7 @@ getContainingFileGenerator
 setDocBlock
 -----------
 
-.. function:: setDocBlock($docBlock)
+.. function:: setDocBlock()
 
 
     @param  DocBlockGenerator $docBlock
@@ -150,22 +145,22 @@ getDocBlock
 setFlags
 --------
 
-.. function:: setFlags($flags)
+.. function:: setFlags()
 
 
-    @param  array|string                        $flags
+    @param  array|string $flags
 
-    :rtype: \Zend\Code\Generator\ClassGenerator 
+    :rtype: ClassGenerator 
 
 
 
 addFlag
 -------
 
-.. function:: addFlag($flag)
+.. function:: addFlag()
 
 
-    @param  string         $flag
+    @param  string $flag
 
     :rtype: ClassGenerator 
 
@@ -174,10 +169,10 @@ addFlag
 removeFlag
 ----------
 
-.. function:: removeFlag($flag)
+.. function:: removeFlag()
 
 
-    @param  string         $flag
+    @param  string $flag
 
     :rtype: ClassGenerator 
 
@@ -186,12 +181,12 @@ removeFlag
 setAbstract
 -----------
 
-.. function:: setAbstract($isAbstract)
+.. function:: setAbstract()
 
 
-    @param  bool                    $isAbstract
+    @param  bool $isAbstract
 
-    :rtype: AbstractMemberGenerator 
+    :rtype: ClassGenerator 
 
 
 
@@ -208,12 +203,12 @@ isAbstract
 setFinal
 --------
 
-.. function:: setFinal($isFinal)
+.. function:: setFinal()
 
 
-    @param  bool                    $isFinal
+    @param  bool $isFinal
 
-    :rtype: AbstractMemberGenerator 
+    :rtype: ClassGenerator 
 
 
 
@@ -230,10 +225,10 @@ isFinal
 setExtendedClass
 ----------------
 
-.. function:: setExtendedClass($extendedClass)
+.. function:: setExtendedClass()
 
 
-    @param  string         $extendedClass
+    @param  string $extendedClass
 
     :rtype: ClassGenerator 
 
@@ -252,10 +247,10 @@ getExtendedClass
 setImplementedInterfaces
 ------------------------
 
-.. function:: setImplementedInterfaces($implementedInterfaces)
+.. function:: setImplementedInterfaces()
 
 
-    @param  array          $implementedInterfaces
+    @param  array $implementedInterfaces
 
     :rtype: ClassGenerator 
 
@@ -274,10 +269,10 @@ getImplementedInterfaces
 addProperties
 -------------
 
-.. function:: addProperties($properties)
+.. function:: addProperties()
 
 
-    @param  array          $properties
+    @param  array $properties
 
     :rtype: ClassGenerator 
 
@@ -286,14 +281,14 @@ addProperties
 addProperty
 -----------
 
-.. function:: addProperty($name, [$defaultValue = false, [$flags = 16]])
+.. function:: addProperty()
 
 
     Add Property from scalars
 
-    :param string $name: 
-    :param string|array $defaultValue: 
-    :param int $flags: 
+    :param string: 
+    :param string|array: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -304,16 +299,28 @@ addProperty
 addPropertyFromGenerator
 ------------------------
 
-.. function:: addPropertyFromGenerator($property)
+.. function:: addPropertyFromGenerator()
 
 
     Add property from PropertyGenerator
 
-    :param string|PropertyGenerator $property: 
+    :param string|PropertyGenerator: 
 
     :throws Exception\InvalidArgumentException: 
 
     :rtype: ClassGenerator 
+
+
+
+addUse
+------
+
+.. function:: addUse()
+
+
+    Add a class to "use" classes
+
+    :param string: 
 
 
 
@@ -330,19 +337,31 @@ getProperties
 getProperty
 -----------
 
-.. function:: getProperty($propertyName)
+.. function:: getProperty()
 
 
-    @param  string                  $propertyName
+    @param  string $propertyName
 
     :rtype: PropertyGenerator|false 
+
+
+
+getUses
+-------
+
+.. function:: getUses()
+
+
+    Returns the "use" classes
+
+    :rtype: array 
 
 
 
 hasProperty
 -----------
 
-.. function:: hasProperty($propertyName)
+.. function:: hasProperty()
 
 
     @param  string $propertyName
@@ -354,10 +373,10 @@ hasProperty
 addMethods
 ----------
 
-.. function:: addMethods($methods)
+.. function:: addMethods()
 
 
-    @param  array          $methods
+    @param  array $methods
 
     :rtype: ClassGenerator 
 
@@ -366,16 +385,16 @@ addMethods
 addMethod
 ---------
 
-.. function:: addMethod([$name = false, [$parameters = false, [$flags = 16, [$body = false, [$docBlock = false]]]]])
+.. function:: addMethod()
 
 
     Add Method from scalars
 
-    :param string $name: 
-    :param array $parameters: 
-    :param int $flags: 
-    :param string $body: 
-    :param string $docBlock: 
+    :param string: 
+    :param array: 
+    :param int: 
+    :param string: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -386,12 +405,12 @@ addMethod
 addMethodFromGenerator
 ----------------------
 
-.. function:: addMethodFromGenerator($method)
+.. function:: addMethodFromGenerator()
 
 
     Add Method from MethodGenerator
 
-    :param MethodGenerator $method: 
+    :param MethodGenerator: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -412,10 +431,10 @@ getMethods
 getMethod
 ---------
 
-.. function:: getMethod($methodName)
+.. function:: getMethod()
 
 
-    @param  string                $methodName
+    @param  string $methodName
 
     :rtype: MethodGenerator|false 
 
@@ -424,7 +443,7 @@ getMethod
 hasMethod
 ---------
 
-.. function:: hasMethod($methodName)
+.. function:: hasMethod()
 
 
     @param  string $methodName
@@ -456,11 +475,11 @@ generate
 
 
 Constants
----------
++++++++++
 
 FLAG_ABSTRACT
-+++++++++++++
+=============
 
 FLAG_FINAL
-++++++++++
+==========
 

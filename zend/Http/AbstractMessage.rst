@@ -1,27 +1,24 @@
-.. /Http/AbstractMessage.php generated using docpx on 01/15/13 05:29pm
+.. Http/AbstractMessage.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Http\\AbstractMessage
-***************************
-
+===========================
 
 HTTP standard message (Request/Response)
 
-
-
 Methods
-=======
++++++++
 
 setVersion
 ----------
 
-.. function:: setVersion($version)
+.. function:: setVersion()
 
 
     Set the HTTP version for this object, one of 1.0 or 1.1
     (AbstractMessage::VERSION_10, AbstractMessage::VERSION_11)
 
-    :param string $version: (Must be 1.0 or 1.1)
+    :param string: (Must be 1.0 or 1.1)
 
     :rtype: AbstractMessage 
 
@@ -44,18 +41,14 @@ getVersion
 setHeaders
 ----------
 
-.. function:: setHeaders($headers)
+.. function:: setHeaders()
 
 
     Provide an alternate Parameter Container implementation for headers in this object,
     (this is NOT the primary API for value setting, for that see getHeaders())
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param Headers $headers: 
+    :param Headers: 
 
     :rtype: AbstractMessage 
 
@@ -88,11 +81,11 @@ __toString
 
 
 Constants
----------
++++++++++
 
 VERSION_10
-++++++++++
+==========
 
 VERSION_11
-++++++++++
+==========
 

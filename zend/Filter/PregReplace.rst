@@ -1,21 +1,16 @@
-.. /Filter/PregReplace.php generated using docpx on 01/15/13 05:29pm
+.. Filter/PregReplace.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\PregReplace
-*************************
-
-
-@category   Zend
-
-
+=========================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor
@@ -23,24 +18,20 @@ __construct
         'pattern'     => matching pattern
         'replacement' => replace with this
 
-    :param array|Traversable|string|null $options: 
+    :param array|Traversable|string|null: 
 
 
 
 setPattern
 ----------
 
-.. function:: setPattern($pattern)
+.. function:: setPattern()
 
 
     Set the regex pattern to search for
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param string|array $pattern: - same as the first argument of preg_replace
+    :param string|array: - same as the first argument of preg_replace
 
     :rtype: PregReplace 
 
@@ -63,17 +54,13 @@ getPattern
 setReplacement
 --------------
 
-.. function:: setReplacement($replacement)
+.. function:: setReplacement()
 
 
     Set the replacement array/string
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array|string $replacement: - same as the second argument of preg_replace
+    :param array|string: - same as the second argument of preg_replace
 
     :rtype: PregReplace 
 
@@ -96,18 +83,30 @@ getReplacement
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Perform regexp replacement as filter
 
-    :param mixed $value: 
+    :param mixed: 
 
     :rtype: mixed 
 
     :throws: Exception\RuntimeException 
 
 
+
+validatePattern
+---------------
+
+.. function:: validatePattern()
+
+
+    Validate a pattern and ensure it does not contain the "e" modifier
+
+    :param string: 
+
+    :throws Exception\InvalidArgumentException: 
 
 
 

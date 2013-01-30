@@ -1,9 +1,8 @@
-.. /Config/Config.php generated using docpx on 01/15/13 05:29pm
+.. Config/Config.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Config
-********************
-
+====================
 
 Provides a property based interface to an array.
 The data are read-only unless $allowModifications is set to true
@@ -12,15 +11,13 @@ on construction.
 Implements Countable, Iterator and ArrayAccess
 to facilitate easy access to the data.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($array, [$allowModifications = false])
+.. function:: __construct()
 
 
     Constructor.
@@ -28,21 +25,21 @@ __construct
     Data is read-only unless $allowModifications is set to true
     on construction.
 
-    :param array $array: 
-    :param bool $allowModifications: 
+    :param array: 
+    :param bool: 
 
 
 
 get
 ---
 
-.. function:: get($name, [$default = false])
+.. function:: get()
 
 
     Retrieve a value and return $default if there is no element set.
 
-    :param string $name: 
-    :param mixed $default: 
+    :param string: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -51,12 +48,12 @@ get
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Magic function so that $obj->value will work.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -65,7 +62,7 @@ __get
 __set
 -----
 
-.. function:: __set($name, $value)
+.. function:: __set()
 
 
     Set a value in the config.
@@ -73,8 +70,8 @@ __set
     Only allow setting of a property if $allowModifications  was set to true
     on construction. Otherwise, throw an exception.
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -110,12 +107,12 @@ toArray
 __isset
 -------
 
-.. function:: __isset($name)
+.. function:: __isset()
 
 
     isset() overloading
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -124,12 +121,12 @@ __isset
 __unset
 -------
 
-.. function:: __unset($name)
+.. function:: __unset()
 
 
     unset() overloading
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
 
@@ -146,10 +143,6 @@ count
     count(): defined by Countable interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: integer 
 
 
@@ -162,10 +155,6 @@ current
 
     current(): defined by Iterator interface.
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :rtype: mixed 
 
@@ -180,10 +169,6 @@ key
     key(): defined by Iterator interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: mixed 
 
 
@@ -196,10 +181,6 @@ next
 
     next(): defined by Iterator interface.
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
 
     :rtype: void 
 
@@ -214,10 +195,6 @@ rewind
     rewind(): defined by Iterator interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: void 
 
 
@@ -231,10 +208,6 @@ valid
     valid(): defined by Iterator interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
     :rtype: bool 
 
 
@@ -242,17 +215,13 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 offsetExists
 ------------
 
-.. function:: offsetExists($offset)
+.. function:: offsetExists()
 
 
     offsetExists(): defined by ArrayAccess interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $offset: 
+    :param mixed: 
 
     :rtype: bool 
 
@@ -261,17 +230,13 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 offsetGet
 ---------
 
-.. function:: offsetGet($offset)
+.. function:: offsetGet()
 
 
     offsetGet(): defined by ArrayAccess interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $offset: 
+    :param mixed: 
 
     :rtype: mixed 
 
@@ -280,18 +245,14 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 offsetSet
 ---------
 
-.. function:: offsetSet($offset, $value)
+.. function:: offsetSet()
 
 
     offsetSet(): defined by ArrayAccess interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $offset: 
-    :param mixed $value: 
+    :param mixed: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -300,17 +261,13 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 offsetUnset
 -----------
 
-.. function:: offsetUnset($offset)
+.. function:: offsetUnset()
 
 
     offsetUnset(): defined by ArrayAccess interface.
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param mixed $offset: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -319,7 +276,7 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 merge
 -----
 
-.. function:: merge($merge)
+.. function:: merge()
 
 
     Merge another Config with this one.
@@ -329,7 +286,7 @@ merge
     - Items in $merge with INTEGER keys will be appended.
     - Items in $merge with STRING keys will overwrite current values.
 
-    :param Config $merge: 
+    :param Config: 
 
     :rtype: Config 
 
@@ -359,8 +316,6 @@ isReadOnly
     Returns whether this Config object is read only or not.
 
     :rtype: bool 
-
-
 
 
 

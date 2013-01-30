@@ -1,16 +1,13 @@
-.. /Filter/File/Decrypt.php generated using docpx on 01/15/13 05:29pm
+.. Filter/File/Decrypt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\File\\Decrypt
-***************************
-
+===========================
 
 Decrypts a given file and stores the decrypted file content
 
-
-
 Methods
-=======
++++++++
 
 getFilename
 -----------
@@ -27,12 +24,12 @@ getFilename
 setFilename
 -----------
 
-.. function:: setFilename([$filename = false])
+.. function:: setFilename()
 
 
     Sets the new filename where the content will be stored
 
-    :param string $filename: (Optional) New filename to set
+    :param string: (Optional) New filename to set
 
     :rtype: Decrypt 
 
@@ -41,21 +38,19 @@ setFilename
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend\Filter\FilterInterface
     
     Decrypts the file $value with the defined settings
 
-    :param string $value: Full path of file to change
+    :param string|array: Full path of file to change or $_FILES data array
 
-    :rtype: string The filename which has been set, or false when there were errors
+    :rtype: string|array The filename which has been set
 
     :throws: Exception\InvalidArgumentException 
     :throws: Exception\RuntimeException 
-
-
 
 
 

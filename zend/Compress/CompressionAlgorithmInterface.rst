@@ -1,4 +1,4 @@
-.. /Filter/Compress/CompressionAlgorithmInterface.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/CompressionAlgorithmInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\compress
@@ -9,7 +9,7 @@ Zend\\Filter\\Compress\\compress
 
     Compresses $value with the defined settings
 
-    :param string $value: Data to compress
+    :param string: Data to compress
 
     :rtype: string The compressed data
 
@@ -23,7 +23,7 @@ Zend\\Filter\\Compress\\decompress
 
     Decompresses $value with the defined settings
 
-    :param string $value: Data to decompress
+    :param string: Data to decompress
 
     :rtype: string The decompressed data
 

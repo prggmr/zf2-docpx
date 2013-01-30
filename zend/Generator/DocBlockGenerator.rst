@@ -1,26 +1,21 @@
-.. /Code/Generator/DocBlockGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/DocBlockGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\DocBlockGenerator
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 fromReflection
 --------------
 
-.. function:: fromReflection($reflectionDocBlock)
+.. function:: fromReflection()
 
 
     Build a DocBlock generator object from a reflection object
 
-    :param DocBlockReflection $reflectionDocBlock: 
+    :param DocBlockReflection: 
 
     :rtype: DocBlockGenerator 
 
@@ -29,13 +24,13 @@ fromReflection
 fromArray
 ---------
 
-.. function:: fromArray($array)
+.. function:: fromArray()
 
 
     Generate from array
 
 
-    :param array $array: 
+    :param array: 
 
     :rtype: DocBlockGenerator 
 
@@ -44,23 +39,23 @@ fromArray
 __construct
 -----------
 
-.. function:: __construct([$shortDescription = false, [$longDescription = false, [$tags = false]]])
+.. function:: __construct()
 
 
-    @param string $shortDescription
+    @param  string $shortDescription
 
-    :param string $longDescription: 
-    :param array $tags: 
+    :param string: 
+    :param array: 
 
 
 
 setShortDescription
 -------------------
 
-.. function:: setShortDescription($shortDescription)
+.. function:: setShortDescription()
 
 
-    @param  string            $shortDescription
+    @param  string $shortDescription
 
     :rtype: DocBlockGenerator 
 
@@ -79,10 +74,10 @@ getShortDescription
 setLongDescription
 ------------------
 
-.. function:: setLongDescription($longDescription)
+.. function:: setLongDescription()
 
 
-    @param  string            $longDescription
+    @param  string $longDescription
 
     :rtype: DocBlockGenerator 
 
@@ -101,10 +96,10 @@ getLongDescription
 setTags
 -------
 
-.. function:: setTags($tags)
+.. function:: setTags()
 
 
-    @param  array             $tags
+    @param  array $tags
 
     :rtype: DocBlockGenerator 
 
@@ -113,10 +108,10 @@ setTags
 setTag
 ------
 
-.. function:: setTag($tag)
+.. function:: setTag()
 
 
-    @param  array|DocBlock\Tag                 $tag
+    @param  array|DockBlockTag $tag
 
 
     :rtype: DocBlockGenerator 
@@ -129,7 +124,7 @@ getTags
 .. function:: getTags()
 
 
-    @return DocBlock\Tag[]
+    @return DockBlockTag[]
 
 
 
@@ -146,14 +141,12 @@ generate
 docCommentize
 -------------
 
-.. function:: docCommentize($content)
+.. function:: docCommentize()
 
 
     @param  string $content
 
     :rtype: string 
-
-
 
 
 

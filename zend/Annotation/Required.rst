@@ -1,9 +1,8 @@
-.. /Form/Annotation/Required.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/Required.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\Required
-********************************
-
+================================
 
 Required annotation
 
@@ -12,20 +11,18 @@ input. Since the flag defaults to "true", this will typically be used to
 "unset" the flag (e.g., "@Annotation\Required(false)"). Any boolean value
 understood by \Zend\Filter\Boolean is allowed as the content.
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($data)
+.. function:: __construct()
 
 
     Receive and process the contents of an annotation
 
-    :param array $data: 
+    :param array: 
 
 
 
@@ -38,8 +35,6 @@ getRequired
     Get value of required flag
 
     :rtype: bool 
-
-
 
 
 

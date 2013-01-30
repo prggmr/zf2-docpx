@@ -1,42 +1,35 @@
-.. /Code/Generator/FileGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/FileGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\FileGenerator
-************************************
-
-
-@category   Zend
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
-    Constructor
-    
     Passes $options to {@link setOptions()}.
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
 
 
 fromReflectedFileName
 ---------------------
 
-.. function:: fromReflectedFileName($filePath, [$includeIfNotAlreadyIncluded = true])
+.. function:: fromReflectedFileName()
 
 
-    fromReflectedFilePath() - use this if you intend on generating code generation objects based on the same file.
+    Use this if you intend on generating code generation objects based on the same file.
     This will keep previous changes to the file in tact during the same PHP process
 
-    :param string $filePath: 
-    :param bool $includeIfNotAlreadyIncluded: 
+    :param string: 
+    :param bool: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -47,12 +40,10 @@ fromReflectedFileName
 fromReflection
 --------------
 
-.. function:: fromReflection($fileReflection)
+.. function:: fromReflection()
 
 
-    fromReflection()
-
-    :param FileReflection $fileReflection: 
+    @param  FileReflection $fileReflection
 
     :rtype: FileGenerator 
 
@@ -61,21 +52,23 @@ fromReflection
 fromArray
 ---------
 
-.. function:: fromArray($values)
+.. function:: fromArray()
+
+
+    @param  array $values
+
+    :rtype: FileGenerator 
 
 
 
 setDocBlock
 -----------
 
-.. function:: setDocBlock($docBlock)
+.. function:: setDocBlock()
 
 
-    setDocBlock() Set the DocBlock
+    @param  DocBlockGenerator|string $docBlock
 
-    :param DocBlockGenerator|string $docBlock: 
-
-    :throws Exception\InvalidArgumentException: 
 
     :rtype: FileGenerator 
 
@@ -87,21 +80,17 @@ getDocBlock
 .. function:: getDocBlock()
 
 
-    Get DocBlock
-
-    :rtype: DocBlockGenerator 
+    @return DocBlockGenerator
 
 
 
 setRequiredFiles
 ----------------
 
-.. function:: setRequiredFiles($requiredFiles)
+.. function:: setRequiredFiles()
 
 
-    setRequiredFiles
-
-    :param array $requiredFiles: 
+    @param  array $requiredFiles
 
     :rtype: FileGenerator 
 
@@ -113,21 +102,17 @@ getRequiredFiles
 .. function:: getRequiredFiles()
 
 
-    getRequiredFiles()
-
-    :rtype: array 
+    @return array
 
 
 
 setClasses
 ----------
 
-.. function:: setClasses($classes)
+.. function:: setClasses()
 
 
-    setClasses()
-
-    :param array $classes: 
+    @param  array $classes
 
     :rtype: FileGenerator 
 
@@ -139,21 +124,17 @@ getNamespace
 .. function:: getNamespace()
 
 
-    getNamespace()
-
-    :rtype: string 
+    @return string
 
 
 
 setNamespace
 ------------
 
-.. function:: setNamespace($namespace)
+.. function:: setNamespace()
 
 
-    setNamespace()
-
-    :param $namespace: 
+    @param  string $namespace
 
     :rtype: FileGenerator 
 
@@ -162,16 +143,14 @@ setNamespace
 getUses
 -------
 
-.. function:: getUses([$withResolvedAs = false])
+.. function:: getUses()
 
 
-    getUses()
-    
     Returns an array with the first element the use statement, second is the as part.
     If $withResolvedAs is set to true, there will be a third element that is the
     "resolved" as statement, as the second part is not required in use statements
 
-    :param bool $withResolvedAs: 
+    :param bool: 
 
     :rtype: array 
 
@@ -180,12 +159,10 @@ getUses
 setUses
 -------
 
-.. function:: setUses($uses)
+.. function:: setUses()
 
 
-    setUses()
-
-    :param array $uses: 
+    @param  array $uses
 
     :rtype: FileGenerator 
 
@@ -194,13 +171,12 @@ setUses
 setUse
 ------
 
-.. function:: setUse($use, [$as = false])
+.. function:: setUse()
 
 
-    setUse()
+    @param  string $use
 
-    :param string $use: 
-    :param string $as: 
+    :param null|string: 
 
     :rtype: FileGenerator 
 
@@ -209,12 +185,10 @@ setUse
 getClass
 --------
 
-.. function:: getClass([$name = false])
+.. function:: getClass()
 
 
-    getClass()
-
-    :param string $name: 
+    @param  string $name
 
     :rtype: ClassGenerator 
 
@@ -223,14 +197,11 @@ getClass
 setClass
 --------
 
-.. function:: setClass($class)
+.. function:: setClass()
 
 
-    setClass()
+    @param  array|string|ClassGenerator $class
 
-    :param array|string|ClassGenerator $class: 
-
-    :throws Exception\InvalidArgumentException: 
 
     :rtype: FileGenerator 
 
@@ -239,12 +210,10 @@ setClass
 setFilename
 -----------
 
-.. function:: setFilename($filename)
+.. function:: setFilename()
 
 
-    setFilename()
-
-    :param string $filename: 
+    @param  string $filename
 
     :rtype: FileGenerator 
 
@@ -256,9 +225,7 @@ getFilename
 .. function:: getFilename()
 
 
-    getFilename()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -268,21 +235,17 @@ getClasses
 .. function:: getClasses()
 
 
-    getClasses()
-
-    :rtype: ClassGenerator[] Array of ClassGenerators
+    @return ClassGenerator[]
 
 
 
 setBody
 -------
 
-.. function:: setBody($body)
+.. function:: setBody()
 
 
-    setBody()
-
-    :param string $body: 
+    @param  string $body
 
     :rtype: FileGenerator 
 
@@ -294,9 +257,7 @@ getBody
 .. function:: getBody()
 
 
-    getBody()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -306,9 +267,7 @@ isSourceDirty
 .. function:: isSourceDirty()
 
 
-    isSourceDirty()
-
-    :rtype: bool 
+    @return bool
 
 
 
@@ -318,9 +277,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
-    :rtype: string 
+    @return string
 
 
 
@@ -329,6 +286,8 @@ write
 
 .. function:: write()
 
+
+    @return FileGenerator
 
 
 

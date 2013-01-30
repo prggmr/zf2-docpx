@@ -1,16 +1,13 @@
-.. /Feed/Writer/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Entry
-*************************
-
-
-@category Zend
+=========================
 
 
 
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -26,7 +23,7 @@ __construct
 addAuthor
 ---------
 
-.. function:: addAuthor($author)
+.. function:: addAuthor()
 
 
     Set a single author
@@ -36,7 +33,7 @@ addAuthor
     'email' => (string) An optional email
     'uri'   => (string) An optional and valid URI
 
-    :param array $author: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: If any value of $author not follow the format.
 
@@ -47,17 +44,13 @@ addAuthor
 addAuthors
 ----------
 
-.. function:: addAuthors($authors)
+.. function:: addAuthors()
 
 
     Set an array with feed authors
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array $authors: 
+    :param array: 
 
     :rtype: Entry 
 
@@ -66,12 +59,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 setEncoding
 -----------
 
-.. function:: setEncoding($encoding)
+.. function:: setEncoding()
 
 
     Set the feed character encoding
 
-    :param string $encoding: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -94,12 +87,12 @@ getEncoding
 setCopyright
 ------------
 
-.. function:: setCopyright($copyright)
+.. function:: setCopyright()
 
 
     Set the copyright entry
 
-    :param string $copyright: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -110,12 +103,12 @@ setCopyright
 setContent
 ----------
 
-.. function:: setContent($content)
+.. function:: setContent()
 
 
     Set the entry's content
 
-    :param string $content: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -126,12 +119,12 @@ setContent
 setDateCreated
 --------------
 
-.. function:: setDateCreated([$date = false])
+.. function:: setDateCreated()
 
 
     Set the feed creation date
 
-    :param string|null|DateTime $date: 
+    :param string|null|DateTime: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -142,12 +135,12 @@ setDateCreated
 setDateModified
 ---------------
 
-.. function:: setDateModified([$date = false])
+.. function:: setDateModified()
 
 
     Set the feed modification date
 
-    :param string|null|DateTime $date: 
+    :param string|null|DateTime: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -158,12 +151,12 @@ setDateModified
 setDescription
 --------------
 
-.. function:: setDescription($description)
+.. function:: setDescription()
 
 
     Set the feed description
 
-    :param string $description: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -174,12 +167,12 @@ setDescription
 setId
 -----
 
-.. function:: setId($id)
+.. function:: setId()
 
 
     Set the feed ID
 
-    :param string $id: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -190,12 +183,12 @@ setId
 setLink
 -------
 
-.. function:: setLink($link)
+.. function:: setLink()
 
 
     Set a link to the HTML source of this entry
 
-    :param string $link: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -206,12 +199,12 @@ setLink
 setCommentCount
 ---------------
 
-.. function:: setCommentCount($count)
+.. function:: setCommentCount()
 
 
     Set the number of comments associated with this entry
 
-    :param int $count: 
+    :param int: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -222,12 +215,12 @@ setCommentCount
 setCommentLink
 --------------
 
-.. function:: setCommentLink($link)
+.. function:: setCommentLink()
 
 
     Set a link to a HTML page containing comments associated with this entry
 
-    :param string $link: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -238,12 +231,12 @@ setCommentLink
 setCommentFeedLink
 ------------------
 
-.. function:: setCommentFeedLink($link)
+.. function:: setCommentFeedLink()
 
 
     Set a link to an XML feed for any comments associated with this entry
 
-    :param array $link: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -254,14 +247,14 @@ setCommentFeedLink
 setCommentFeedLinks
 -------------------
 
-.. function:: setCommentFeedLinks($links)
+.. function:: setCommentFeedLinks()
 
 
     Set a links to an XML feed for any comments associated with this entry.
     Each link is an array with keys "uri" and "type", where type is one of:
     "atom", "rss" or "rdf".
 
-    :param array $links: 
+    :param array: 
 
     :rtype: Entry 
 
@@ -270,12 +263,12 @@ setCommentFeedLinks
 setTitle
 --------
 
-.. function:: setTitle($title)
+.. function:: setTitle()
 
 
     Set the feed title
 
-    :param string $title: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -443,12 +436,12 @@ getCommentFeedLinks
 addCategory
 -----------
 
-.. function:: addCategory($category)
+.. function:: addCategory()
 
 
     Add a entry category
 
-    :param array $category: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -459,12 +452,12 @@ addCategory
 addCategories
 -------------
 
-.. function:: addCategories($categories)
+.. function:: addCategories()
 
 
     Set an array of entry categories
 
-    :param array $categories: 
+    :param array: 
 
     :rtype: Entry 
 
@@ -485,7 +478,7 @@ getCategories
 setEnclosure
 ------------
 
-.. function:: setEnclosure($enclosure)
+.. function:: setEnclosure()
 
 
     Adds an enclosure to the entry. The array parameter may contain the
@@ -493,7 +486,7 @@ setEnclosure
     others must also be provided or RSS rendering (where they are required)
     will throw an Exception.
 
-    :param array $enclosure: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -516,12 +509,12 @@ getEnclosure
 remove
 ------
 
-.. function:: remove($name)
+.. function:: remove()
 
 
     Unset a specific data point
 
-    :param string $name: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -542,12 +535,12 @@ getExtensions
 getExtension
 ------------
 
-.. function:: getExtension($name)
+.. function:: getExtension()
 
 
     Return an Extension object with the matching name (postfixed with _Entry)
 
-    :param string $name: 
+    :param string: 
 
     :rtype: object 
 
@@ -556,14 +549,14 @@ getExtension
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the current feed type being exported to "rss" or "atom". This allows
     other objects to gracefully choose whether to execute or not, depending
     on their appropriateness for the current type, e.g. renderers.
 
-    :param string $type: 
+    :param string: 
 
     :rtype: Entry 
 
@@ -584,13 +577,13 @@ getType
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
     Method overloading: call given method on first extension implementing it
 
-    :param string $method: 
-    :param array $args: 
+    :param string: 
+    :param array: 
 
     :rtype: mixed 
 
@@ -615,13 +608,13 @@ createSource
 setSource
 ---------
 
-.. function:: setSource($source)
+.. function:: setSource()
 
 
     Appends a Zend_Feed_Writer_Entry object representing a new entry/item
     the feed data container's internal group of entries.
 
-    :param Source $source: 
+    :param Source: 
 
     :rtype: Entry 
 
@@ -646,8 +639,6 @@ _loadExtensions
     Load extensions from Zend_Feed_Writer
 
     :rtype: void 
-
-
 
 
 

@@ -1,9 +1,8 @@
-.. /Form/Annotation/FormAnnotationsListener.php generated using docpx on 01/15/13 05:29pm
+.. Form/Annotation/FormAnnotationsListener.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Annotation\\FormAnnotationsListener
-***********************************************
-
+===============================================
 
 Default listeners for form annotations
 
@@ -22,20 +21,18 @@ See the individual annotation classes for more details. The handlers
 registered work with the annotation values, as well as the form
 specification passed in the event object.
 
-
-
 Methods
-=======
++++++++
 
 attach
 ------
 
-.. function:: attach($events)
+.. function:: attach()
 
 
     Attach listeners
 
-    :param EventManagerInterface $events: 
+    :param EventManagerInterface: 
 
     :rtype: void 
 
@@ -44,14 +41,14 @@ attach
 handleAttributesAnnotation
 --------------------------
 
-.. function:: handleAttributesAnnotation($e)
+.. function:: handleAttributesAnnotation()
 
 
     Handle the Attributes annotation
     
     Sets the attributes key of the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -60,14 +57,14 @@ handleAttributesAnnotation
 handleFlagsAnnotation
 ---------------------
 
-.. function:: handleFlagsAnnotation($e)
+.. function:: handleFlagsAnnotation()
 
 
     Handle the Flags annotation
     
     Sets the flags key of the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -76,14 +73,14 @@ handleFlagsAnnotation
 handleHydratorAnnotation
 ------------------------
 
-.. function:: handleHydratorAnnotation($e)
+.. function:: handleHydratorAnnotation()
 
 
     Handle the Hydrator annotation
     
     Sets the hydrator class to use in the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -92,14 +89,14 @@ handleHydratorAnnotation
 handleInputFilterAnnotation
 ---------------------------
 
-.. function:: handleInputFilterAnnotation($e)
+.. function:: handleInputFilterAnnotation()
 
 
     Handle the InputFilter annotation
     
     Sets the input filter class to use in the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -108,14 +105,14 @@ handleInputFilterAnnotation
 handleObjectAnnotation
 ----------------------
 
-.. function:: handleObjectAnnotation($e)
+.. function:: handleObjectAnnotation()
 
 
     Handle the Object annotation
     
     Sets the object to bind to the form or fieldset
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -124,14 +121,14 @@ handleObjectAnnotation
 handleOptionsAnnotation
 -----------------------
 
-.. function:: handleOptionsAnnotation($e)
+.. function:: handleOptionsAnnotation()
 
 
     Handle the Options annotation
     
     Sets the options key of the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -140,14 +137,14 @@ handleOptionsAnnotation
 handleTypeAnnotation
 --------------------
 
-.. function:: handleTypeAnnotation($e)
+.. function:: handleTypeAnnotation()
 
 
     Handle the Type annotation
     
     Sets the form class to use in the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
 
@@ -156,18 +153,16 @@ handleTypeAnnotation
 handleValidationGroupAnnotation
 -------------------------------
 
-.. function:: handleValidationGroupAnnotation($e)
+.. function:: handleValidationGroupAnnotation()
 
 
     Handle the ValidationGroup annotation
     
     Sets the validation group to use in the form specification.
 
-    :param \Zend\EventManager\EventInterface $e: 
+    :param \Zend\EventManager\EventInterface: 
 
     :rtype: void 
-
-
 
 
 

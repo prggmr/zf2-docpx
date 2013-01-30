@@ -1,9 +1,8 @@
-.. /EventManager/SharedEventManager.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/SharedEventManager.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\SharedEventManager
-**************************************
-
+======================================
 
 Shared/contextual EventManager
 
@@ -11,15 +10,13 @@ Allows attaching to EMs composed by other classes without having an instance fir
 The assumption is that the SharedEventManager will be injected into EventManager
 instances, and then queried for additional listeners when triggering an event.
 
-
-
 Methods
-=======
++++++++
 
 attach
 ------
 
-.. function:: attach($id, $event, $callback, [$priority = 1])
+.. function:: attach()
 
 
     Attach a listener to an event
@@ -45,39 +42,75 @@ attach
     );
     </code>
 
-    :param string|array $id: Identifier(s) for event emitting component(s)
-    :param string $event: 
-    :param callable $callback: PHP Callback
-    :param int $priority: Priority at which listener should execute
+    :param string|array: Identifier(s) for event emitting component(s)
+    :param string: 
+    :param callable: PHP Callback
+    :param int: Priority at which listener should execute
 
     :rtype: CallbackHandler|array Either CallbackHandler or array of CallbackHandlers
+
+
+
+attachAggregate
+---------------
+
+.. function:: attachAggregate()
+
+
+    Attach a listener aggregate
+    
+    Listener aggregates accept an EventManagerInterface instance, and call attachShared()
+    one or more times, typically to attach to multiple events using local
+    methods.
+
+    :param SharedListenerAggregateInterface: 
+    :param int: If provided, a suggested priority for the aggregate to use
+
+    :rtype: mixed return value of {@link ListenerAggregateInterface::attachShared()}
 
 
 
 detach
 ------
 
-.. function:: detach($id, $listener)
+.. function:: detach()
 
 
     Detach a listener from an event offered by a given resource
 
-    :param string|int $id: 
-    :param CallbackHandler $listener: 
+    :param string|int: 
+    :param CallbackHandler: 
 
     :rtype: bool Returns true if event and listener found, and unsubscribed; returns false if either event or listener not found
+
+
+
+detachAggregate
+---------------
+
+.. function:: detachAggregate()
+
+
+    Detach a listener aggregate
+    
+    Listener aggregates accept an SharedEventManagerInterface instance, and call detachShared()
+    of all previously attached listeners.
+
+    :param SharedListenerAggregateInterface: 
+
+    :rtype: mixed return value of {@link SharedListenerAggregateInterface::detachShared()}
 
 
 
 getEvents
 ---------
 
-.. function:: getEvents($id)
+.. function:: getEvents()
 
 
     Retrieve all registered events for a given resource
 
-    :param string|int $id: 
+    :param string|int: 
 
     :rtype: array 
 
@@ -86,13 +119,13 @@ getEvents
 getListeners
 ------------
 
-.. function:: getListeners($id, $event)
+.. function:: getListeners()
 
 
     Retrieve all listeners for a given identifier and event
 
-    :param string|int $id: 
-    :param string|int $event: 
+    :param string|int: 
+    :param string|int: 
 
     :rtype: false|PriorityQueue 
 
@@ -101,17 +134,15 @@ getListeners
 clearListeners
 --------------
 
-.. function:: clearListeners($id, [$event = false])
+.. function:: clearListeners()
 
 
     Clear all listeners for a given identifier, optionally for a specific event
 
-    :param string|int $id: 
-    :param null|string $event: 
+    :param string|int: 
+    :param null|string: 
 
     :rtype: bool 
-
-
 
 
 

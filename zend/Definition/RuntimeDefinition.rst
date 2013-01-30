@@ -1,34 +1,31 @@
-.. /Di/Definition/RuntimeDefinition.php generated using docpx on 01/15/13 05:29pm
+.. Di/Definition/RuntimeDefinition.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\Definition\\RuntimeDefinition
-***************************************
-
+=======================================
 
 Class definitions based on runtime reflection
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$introspectionStrategy = false, [$explicitClasses = false]])
+.. function:: __construct()
 
 
     Constructor
 
-    :param null|IntrospectionStrategy $introspectionStrategy: 
-    :param array|null $explicitClasses: 
+    :param null|IntrospectionStrategy: 
+    :param array|null: 
 
 
 
 setIntrospectionStrategy
 ------------------------
 
-.. function:: setIntrospectionStrategy($introspectionStrategy)
+.. function:: setIntrospectionStrategy()
 
 
     @param  IntrospectionStrategy $introspectionStrategy
@@ -50,19 +47,19 @@ getIntrospectionStrategy
 setExplicitClasses
 ------------------
 
-.. function:: setExplicitClasses($explicitClasses)
+.. function:: setExplicitClasses()
 
 
     Set explicit classes
 
-    :param array $explicitClasses: 
+    :param array: 
 
 
 
 forceLoadClass
 --------------
 
-.. function:: forceLoadClass($class)
+.. function:: forceLoadClass()
 
 
     @param string $class
@@ -82,7 +79,7 @@ getClasses
 hasClass
 --------
 
-.. function:: hasClass($class)
+.. function:: hasClass()
 
 
     {@inheritDoc}
@@ -92,7 +89,7 @@ hasClass
 getClassSupertypes
 ------------------
 
-.. function:: getClassSupertypes($class)
+.. function:: getClassSupertypes()
 
 
     {@inheritDoc}
@@ -102,7 +99,7 @@ getClassSupertypes
 getInstantiator
 ---------------
 
-.. function:: getInstantiator($class)
+.. function:: getInstantiator()
 
 
     {@inheritDoc}
@@ -112,7 +109,7 @@ getInstantiator
 hasMethods
 ----------
 
-.. function:: hasMethods($class)
+.. function:: hasMethods()
 
 
     {@inheritDoc}
@@ -122,7 +119,7 @@ hasMethods
 hasMethod
 ---------
 
-.. function:: hasMethod($class, $method)
+.. function:: hasMethod()
 
 
     {@inheritDoc}
@@ -132,7 +129,7 @@ hasMethod
 getMethods
 ----------
 
-.. function:: getMethods($class)
+.. function:: getMethods()
 
 
     {@inheritDoc}
@@ -142,7 +139,7 @@ getMethods
 hasMethodParameters
 -------------------
 
-.. function:: hasMethodParameters($class, $method)
+.. function:: hasMethodParameters()
 
 
     {@inheritDoc}
@@ -152,7 +149,7 @@ hasMethodParameters
 getMethodParameters
 -------------------
 
-.. function:: getMethodParameters($class, $method)
+.. function:: getMethodParameters()
 
 
     {@inheritDoc}
@@ -162,7 +159,7 @@ getMethodParameters
 processClass
 ------------
 
-.. function:: processClass($class)
+.. function:: processClass()
 
 
     @param string $class
@@ -172,15 +169,13 @@ processClass
 processParams
 -------------
 
-.. function:: processParams($def, $rClass, $rMethod)
+.. function:: processParams()
 
 
     @param array                                  $def
 
-    :param \Zend\Code\Reflection\ClassReflection $rClass: 
-    :param \Zend\Code\Reflection\MethodReflection $rMethod: 
-
-
+    :param \Zend\Code\Reflection\ClassReflection: 
+    :param \Zend\Code\Reflection\MethodReflection: 
 
 
 

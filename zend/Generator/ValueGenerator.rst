@@ -1,21 +1,22 @@
-.. /Code/Generator/ValueGenerator.php generated using docpx on 01/15/13 05:29pm
+.. Code/Generator/ValueGenerator.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Generator\\ValueGenerator
-*************************************
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$value = false, [$type = "auto", [$outputMode = "multipleLine"]]])
+.. function:: __construct()
 
 
-    @var array
+    @param  mixed  $value
+
+    :param string: 
+    :param string: 
 
 
 
@@ -25,21 +26,17 @@ isValidConstantType
 .. function:: isValidConstantType()
 
 
-    isValidConstantType()
-
-    :rtype: bool 
+    @return bool
 
 
 
 setValue
 --------
 
-.. function:: setValue($value)
+.. function:: setValue()
 
 
-    setValue()
-
-    :param mixed $value: 
+    @param  mixed $value
 
     :rtype: ValueGenerator 
 
@@ -51,21 +48,17 @@ getValue
 .. function:: getValue()
 
 
-    getValue()
-
-    :rtype: mixed 
+    @return mixed
 
 
 
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
-    setType()
-
-    :param string $type: 
+    @param  string $type
 
     :rtype: ValueGenerator 
 
@@ -77,21 +70,17 @@ getType
 .. function:: getType()
 
 
-    getType()
-
-    :rtype: string 
+    @return string
 
 
 
 setArrayDepth
 -------------
 
-.. function:: setArrayDepth($arrayDepth)
+.. function:: setArrayDepth()
 
 
-    setArrayDepth()
-
-    :param int $arrayDepth: 
+    @param  int $arrayDepth
 
     :rtype: ValueGenerator 
 
@@ -103,21 +92,17 @@ getArrayDepth
 .. function:: getArrayDepth()
 
 
-    getArrayDepth()
-
-    :rtype: int 
+    @return int
 
 
 
 getValidatedType
 ----------------
 
-.. function:: getValidatedType($type)
+.. function:: getValidatedType()
 
 
-    _getValidatedType()
-
-    :param string $type: 
+    @param  string $type
 
     :rtype: string 
 
@@ -126,12 +111,10 @@ getValidatedType
 getAutoDeterminedType
 ---------------------
 
-.. function:: getAutoDeterminedType($value)
+.. function:: getAutoDeterminedType()
 
 
-    _getAutoDeterminedType()
-
-    :param mixed $value: 
+    @param  mixed $value
 
     :rtype: string 
 
@@ -143,8 +126,7 @@ generate
 .. function:: generate()
 
 
-    generate()
-
+    @throws Exception\RuntimeException
 
     :rtype: string 
 
@@ -153,13 +135,13 @@ generate
 escape
 ------
 
-.. function:: escape($input, [$quote = true])
+.. function:: escape()
 
 
     Quotes value for PHP code.
 
-    :param string $input: Raw string.
-    :param bool $quote: Whether add surrounding quotes or not.
+    :param string: Raw string.
+    :param bool: Whether add surrounding quotes or not.
 
     :rtype: string PHP-ready code.
 
@@ -168,10 +150,10 @@ escape
 setOutputMode
 -------------
 
-.. function:: setOutputMode($outputMode)
+.. function:: setOutputMode()
 
 
-    @param string $outputMode
+    @param  string $outputMode
 
     :rtype: ValueGenerator 
 
@@ -197,53 +179,53 @@ __toString
 
 
 Constants
----------
++++++++++
 
 TYPE_AUTO
-+++++++++
+=========
 
 TYPE_BOOLEAN
-++++++++++++
+============
 
 TYPE_BOOL
-+++++++++
+=========
 
 TYPE_NUMBER
-+++++++++++
+===========
 
 TYPE_INTEGER
-++++++++++++
+============
 
 TYPE_INT
-++++++++
+========
 
 TYPE_FLOAT
-++++++++++
+==========
 
 TYPE_DOUBLE
-+++++++++++
+===========
 
 TYPE_STRING
-+++++++++++
+===========
 
 TYPE_ARRAY
-++++++++++
+==========
 
 TYPE_CONSTANT
-+++++++++++++
+=============
 
 TYPE_NULL
-+++++++++
+=========
 
 TYPE_OBJECT
-+++++++++++
+===========
 
 TYPE_OTHER
-++++++++++
+==========
 
 OUTPUT_MULTIPLE_LINE
-++++++++++++++++++++
+====================
 
 OUTPUT_SINGLE_LINE
-++++++++++++++++++
+==================
 

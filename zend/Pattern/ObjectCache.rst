@@ -1,26 +1,21 @@
-.. /Cache/Pattern/ObjectCache.php generated using docpx on 01/15/13 05:29pm
+.. Cache/Pattern/ObjectCache.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Cache\\Pattern\\ObjectCache
-*********************************
-
-
-@category   Zend
-
-
+=================================
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param PatternOptions $options: 
+    :param PatternOptions: 
 
     :rtype: void 
 
@@ -31,13 +26,13 @@ setOptions
 call
 ----
 
-.. function:: call($method, [$args = false])
+.. function:: call()
 
 
     Call and cache a class method
 
-    :param string $method: Method name to call
-    :param array $args: Method arguments
+    :param string: Method name to call
+    :param array: Method arguments
 
     :rtype: mixed 
 
@@ -49,14 +44,14 @@ call
 generateKey
 -----------
 
-.. function:: generateKey($method, [$args = false])
+.. function:: generateKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param string $method: The method
-    :param array $args: Callback arguments
+    :param string: The method
+    :param array: Callback arguments
 
     :rtype: string 
 
@@ -67,14 +62,14 @@ generateKey
 generateCallbackKey
 -------------------
 
-.. function:: generateCallbackKey($callback, [$args = false])
+.. function:: generateCallbackKey()
 
 
     Generate a unique key in base of a key representing the callback part
     and a key representing the arguments part.
 
-    :param callable $callback: A valid callback
-    :param array $args: Callback arguments
+    :param callable: A valid callback
+    :param array: Callback arguments
 
     :rtype: string 
 
@@ -85,13 +80,13 @@ generateCallbackKey
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
     Class method call handler
 
-    :param string $method: Method name to call
-    :param array $args: Method arguments
+    :param string: Method name to call
+    :param array: Method arguments
 
     :rtype: mixed 
 
@@ -103,7 +98,7 @@ __call
 __set
 -----
 
-.. function:: __set($name, $value)
+.. function:: __set()
 
 
     Writing data to properties.
@@ -113,23 +108,19 @@ __set
     is enabled and the property doesn't exist in real. If so it calls __set
     and removes cached data of previous __get and __isset calls.
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: void 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     Reading data from properties.
@@ -138,22 +129,18 @@ __get
     Magic properties will be cached too if the option cacheMagicProperties
     is enabled and the property doesn't exist in real. If so it calls __get.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
 __isset
 -------
 
-.. function:: __isset($name)
+.. function:: __isset()
 
 
     Checking existing properties.
@@ -162,22 +149,18 @@ __isset
     Magic properties will be cached too if the option cacheMagicProperties
     is enabled and the property doesn't exist in real. If so it calls __get.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
 __unset
 -------
 
-.. function:: __unset($name)
+.. function:: __unset()
 
 
     Unseting a property.
@@ -187,15 +170,11 @@ __unset
     is enabled and the property doesn't exist in real. If so it removes
     previous cached __isset and __get calls.
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
@@ -209,11 +188,7 @@ __toString
 
     :rtype: string 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
+    :see:  
 
 
 
@@ -227,13 +202,7 @@ __invoke
 
     :rtype: mixed 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :see: h h
-
-
+    :see:  
 
 
 

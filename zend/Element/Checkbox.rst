@@ -1,21 +1,18 @@
-.. /Form/Element/Checkbox.php generated using docpx on 01/15/13 05:29pm
+.. Form/Element/Checkbox.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\Element\\Checkbox
-*****************************
+=============================
 
-
-@category   Zend
-
-
+@copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
 
 Methods
-=======
++++++++
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Accepted options for MultiCheckbox:
@@ -23,7 +20,7 @@ setOptions
     - unchecked_value: value for checkbox when unchecked
     - checked_value: value for checkbox when checked
 
-    :param array|\Traversable $options: 
+    :param array|\Traversable: 
 
     :rtype: Checkbox 
 
@@ -32,12 +29,12 @@ setOptions
 setUseHiddenElement
 -------------------
 
-.. function:: setUseHiddenElement($useHiddenElement)
+.. function:: setUseHiddenElement()
 
 
     Do we render hidden element?
 
-    :param bool $useHiddenElement: 
+    :param bool: 
 
     :rtype: Checkbox 
 
@@ -58,7 +55,7 @@ useHiddenElement
 setUncheckedValue
 -----------------
 
-.. function:: setUncheckedValue($uncheckedValue)
+.. function:: setUncheckedValue()
 
 
     Set the value to use when checkbox is unchecked
@@ -84,7 +81,7 @@ getUncheckedValue
 setCheckedValue
 ---------------
 
-.. function:: setCheckedValue($checkedValue)
+.. function:: setCheckedValue()
 
 
     Set the value to use when checkbox is checked
@@ -148,12 +145,12 @@ isChecked
 setChecked
 ----------
 
-.. function:: setChecked($value)
+.. function:: setChecked()
 
 
     Checks or unchecks the checkbox.
 
-    :param bool $value: The flag to set.
+    :param bool: The flag to set.
 
     :rtype: Checkbox 
 
@@ -162,16 +159,14 @@ setChecked
 setValue
 --------
 
-.. function:: setValue($value)
+.. function:: setValue()
 
 
     Checks or unchecks the checkbox.
 
-    :param mixed $value: A boolean flag or string that is checked against the "checked value".
+    :param mixed: A boolean flag or string that is checked against the "checked value".
 
     :rtype: Element 
-
-
 
 
 

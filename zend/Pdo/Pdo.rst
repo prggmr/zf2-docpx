@@ -1,40 +1,57 @@
-.. /Db/Adapter/Driver/Pdo/Pdo.php generated using docpx on 01/15/13 05:29pm
+.. Db/Adapter/Driver/Pdo/Pdo.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\Adapter\\Driver\\Pdo\\Pdo
-***********************************
-
-
-@category   Zend
-
-
+===================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($connection, [$statementPrototype = false, [$resultPrototype = false, [$features = "default"]]])
+.. function:: __construct()
 
 
     @param array|Connection|\PDO $connection
 
-    :param null|Statement $statementPrototype: 
-    :param null|Result $resultPrototype: 
-    :param string $features: 
+    :param null|Statement: 
+    :param null|Result: 
+    :param string: 
+
+
+
+setProfiler
+-----------
+
+.. function:: setProfiler()
+
+
+    @param Profiler\ProfilerInterface $profiler
+
+    :rtype: Pdo 
+
+
+
+getProfiler
+-----------
+
+.. function:: getProfiler()
+
+
+    @return null|Profiler\ProfilerInterface
 
 
 
 registerConnection
 ------------------
 
-.. function:: registerConnection($connection)
+.. function:: registerConnection()
 
 
     Register connection
 
-    :param Connection $connection: 
+    :param Connection: 
 
     :rtype: Pdo 
 
@@ -43,37 +60,37 @@ registerConnection
 registerStatementPrototype
 --------------------------
 
-.. function:: registerStatementPrototype($statementPrototype)
+.. function:: registerStatementPrototype()
 
 
     Register statement prototype
 
-    :param Statement $statementPrototype: 
+    :param Statement: 
 
 
 
 registerResultPrototype
 -----------------------
 
-.. function:: registerResultPrototype($resultPrototype)
+.. function:: registerResultPrototype()
 
 
     Register result prototype
 
-    :param Result $resultPrototype: 
+    :param Result: 
 
 
 
 addFeature
 ----------
 
-.. function:: addFeature($name, $feature)
+.. function:: addFeature()
 
 
     Add feature
 
-    :param string $name: 
-    :param AbstractFeature $feature: 
+    :param string: 
+    :param AbstractFeature: 
 
     :rtype: Pdo 
 
@@ -94,7 +111,7 @@ setupDefaultFeatures
 getFeature
 ----------
 
-.. function:: getFeature($name)
+.. function:: getFeature()
 
 
     Get feature
@@ -108,12 +125,12 @@ getFeature
 getDatabasePlatformName
 -----------------------
 
-.. function:: getDatabasePlatformName([$nameFormat = "camelCase"])
+.. function:: getDatabasePlatformName()
 
 
     Get database platform name
 
-    :param string $nameFormat: 
+    :param string: 
 
     :rtype: string 
 
@@ -142,7 +159,7 @@ getConnection
 createStatement
 ---------------
 
-.. function:: createStatement([$sqlOrResource = false])
+.. function:: createStatement()
 
 
     @param string|PDOStatement $sqlOrResource
@@ -154,12 +171,12 @@ createStatement
 createResult
 ------------
 
-.. function:: createResult($resource, [$context = false])
+.. function:: createResult()
 
 
     @param resource $resource
 
-    :param mixed $context: 
+    :param mixed: 
 
     :rtype: Result 
 
@@ -178,12 +195,12 @@ getPrepareType
 formatParameterName
 -------------------
 
-.. function:: formatParameterName($name, [$type = false])
+.. function:: formatParameterName()
 
 
     @param string $name
 
-    :param string|null $type: 
+    :param string|null: 
 
     :rtype: string 
 
@@ -202,10 +219,10 @@ getLastGeneratedValue
 
 
 Constants
----------
++++++++++
 
 FEATURES_DEFAULT
-++++++++++++++++
+================
 
 @const
 

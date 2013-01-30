@@ -1,13 +1,8 @@
-.. /Feed/Writer/Source.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/Source.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\Source
-**************************
-
-
-@category Zend
-
-
+==========================
 
 
 

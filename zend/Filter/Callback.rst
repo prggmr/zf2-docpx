@@ -1,38 +1,33 @@
-.. /Filter/Callback.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Callback.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Callback
-**********************
-
-
-@category   Zend
-
-
+======================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($callbackOrOptions, [$callbackParams = false])
+.. function:: __construct()
 
 
     @param callable|array|Traversable $callbackOrOptions
 
-    :param array $callbackParams: 
+    :param array: 
 
 
 
 setCallback
 -----------
 
-.. function:: setCallback($callback)
+.. function:: setCallback()
 
 
     Sets a new callback for this filter
 
-    :param callable $callback: 
+    :param callable: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -55,12 +50,12 @@ getCallback
 setCallbackParams
 -----------------
 
-.. function:: setCallbackParams($params)
+.. function:: setCallbackParams()
 
 
     Sets parameters for the callback
 
-    :param mixed $params: 
+    :param mixed: 
 
     :rtype: Callback 
 
@@ -81,16 +76,14 @@ getCallbackParams
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Calls the filter per callback
 
-    :param mixed $value: Options for the set callable
+    :param mixed: Options for the set callable
 
     :rtype: mixed Result from the filter which was called
-
-
 
 
 

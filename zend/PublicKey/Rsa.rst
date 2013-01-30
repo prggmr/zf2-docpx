@@ -1,26 +1,23 @@
-.. /Crypt/PublicKey/Rsa.php generated using docpx on 01/15/13 05:29pm
+.. Crypt/PublicKey/Rsa.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Crypt\\PublicKey\\Rsa
-***************************
-
+===========================
 
 Implementation of the RSA public key encryption algorithm.
 
-
-
 Methods
-=======
++++++++
 
 factory
 -------
 
-.. function:: factory($options)
+.. function:: factory()
 
 
     RSA instance factory
 
-    :param array|Traversable $options: 
+    :param array|Traversable: 
 
     :rtype: Rsa 
 
@@ -32,12 +29,12 @@ factory
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param RsaOptions $options: 
+    :param RsaOptions: 
 
     :throws Rsa\Exception\RuntimeException: 
 
@@ -46,12 +43,12 @@ __construct
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set options
 
-    :param RsaOptions $options: 
+    :param RsaOptions: 
 
     :rtype: Rsa 
 
@@ -72,13 +69,13 @@ getOptions
 sign
 ----
 
-.. function:: sign($data, [$privateKey = false])
+.. function:: sign()
 
 
     Sign with private key
 
-    :param string $data: 
-    :param Rsa\PrivateKey $privateKey: 
+    :param string: 
+    :param Rsa\PrivateKey: 
 
     :rtype: string 
 
@@ -89,31 +86,41 @@ sign
 verify
 ------
 
-.. function:: verify($data, $signature, [$publicKey = false])
+.. function:: verify()
 
 
     Verify signature with public key
+    
+    $signature can be encoded in base64 or not. $mode sets how the input must be processed:
+     - MODE_AUTO: Check if the $signature is encoded in base64. Not recommended for performance.
+     - MODE_BASE64: Decode $signature using base64 algorithm.
+     - MODE_RAW: $signature is not encoded.
 
-    :param string $data: 
-    :param string $signature: 
-    :param null|Rsa\PublicKey $publicKey: 
+    :param string: 
+    :param string: 
+    :param null|Rsa\PublicKey: 
+    :param int: Input encoding
 
     :rtype: bool 
 
     :throws: Rsa\Exception\RuntimeException 
+
+    :see:  
+    :see:  
+    :see:  
 
 
 
 encrypt
 -------
 
-.. function:: encrypt($data, [$key = false])
+.. function:: encrypt()
 
 
     Encrypt with private/public key
 
-    :param string $data: 
-    :param Rsa\AbstractKey $key: 
+    :param string: 
+    :param Rsa\AbstractKey: 
 
     :rtype: string 
 
@@ -124,34 +131,40 @@ encrypt
 decrypt
 -------
 
-.. function:: decrypt($data, [$key = false])
+.. function:: decrypt()
 
 
     Decrypt with private/public key
+    
+    $data can be encoded in base64 or not. $mode sets how the input must be processed:
+     - MODE_AUTO: Check if the $signature is encoded in base64. Not recommended for performance.
+     - MODE_BASE64: Decode $data using base64 algorithm.
+     - MODE_RAW: $data is not encoded.
 
-    :param string $data: 
-    :param Rsa\AbstractKey $key: 
+    :param string: 
+    :param Rsa\AbstractKey: 
+    :param int: Input encoding
 
     :rtype: string 
 
     :throws: Rsa\Exception\InvalidArgumentException 
+
+    :see:  
+    :see:  
+    :see:  
 
 
 
 generateKeys
 ------------
 
-.. function:: generateKeys([$opensslConfig = false])
+.. function:: generateKeys()
 
 
     Generate new private/public key pair
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array $opensslConfig: 
+    :param array: 
 
     :rtype: Rsa 
 
@@ -160,4 +173,16 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 
 
 
+
+Constants
++++++++++
+
+MODE_AUTO
+=========
+
+MODE_BASE64
+===========
+
+MODE_RAW
+========
 

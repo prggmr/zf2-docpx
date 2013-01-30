@@ -1,30 +1,25 @@
-.. /Console/Prompt/Number.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/Number.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\Number
-*****************************
-
-
-@category   Zend
-
-
+=============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$promptText = "Please enter a number: ", [$allowEmpty = false, [$allowFloat = false, [$min = false, [$max = false]]]]])
+.. function:: __construct()
 
 
     Ask the user for a number.
 
-    :param string $promptText: The prompt text to display in console
-    :param bool $allowEmpty: Is empty response allowed?
-    :param bool $allowFloat: Are floating (non-decimal) numbers allowed?
-    :param integer $min: Minimum value (inclusive)
-    :param integer $max: Maximum value (inclusive)
+    :param string: The prompt text to display in console
+    :param bool: Is empty response allowed?
+    :param bool: Are floating (non-decimal) numbers allowed?
+    :param integer: Minimum value (inclusive)
+    :param integer: Maximum value (inclusive)
 
 
 
@@ -43,7 +38,7 @@ show
 setAllowEmpty
 -------------
 
-.. function:: setAllowEmpty($allowEmpty)
+.. function:: setAllowEmpty()
 
 
     @param  bool $allowEmpty
@@ -63,7 +58,7 @@ getAllowEmpty
 setMaxLength
 ------------
 
-.. function:: setMaxLength($maxLength)
+.. function:: setMaxLength()
 
 
     @param int $maxLength
@@ -83,7 +78,7 @@ getMaxLength
 setPromptText
 -------------
 
-.. function:: setPromptText($promptText)
+.. function:: setPromptText()
 
 
     @param string $promptText
@@ -103,7 +98,7 @@ getPromptText
 setMax
 ------
 
-.. function:: setMax($max)
+.. function:: setMax()
 
 
     @param int $max
@@ -123,7 +118,7 @@ getMax
 setMin
 ------
 
-.. function:: setMin($min)
+.. function:: setMin()
 
 
     @param int $min
@@ -143,7 +138,7 @@ getMin
 setAllowFloat
 -------------
 
-.. function:: setAllowFloat($allowFloat)
+.. function:: setAllowFloat()
 
 
     @param  bool $allowFloat
@@ -157,8 +152,6 @@ getAllowFloat
 
 
     @return bool
-
-
 
 
 

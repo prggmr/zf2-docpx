@@ -1,24 +1,21 @@
-.. /Code/Scanner/DocBlockScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/DocBlockScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\DocBlockScanner
-************************************
-
-
+====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($docComment, [$nameInformation = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  string $docComment
 
-    :param string $docComment: 
-    :param null|NameInformation $nameInformation: 
+    :param null|NameInformation: 
 
 
 
@@ -28,9 +25,7 @@ getShortDescription
 .. function:: getShortDescription()
 
 
-    Get short description
-
-    :rtype: string 
+    @return string
 
 
 
@@ -40,9 +35,7 @@ getLongDescription
 .. function:: getLongDescription()
 
 
-    Get long description
-
-    :rtype: string 
+    @return string
 
 
 
@@ -52,7 +45,7 @@ getTags
 .. function:: getTags()
 
 
-    @return array[]
+    @return array
 
 
 
@@ -62,6 +55,9 @@ getAnnotations
 .. function:: getAnnotations()
 
 
+    @return array
+
+
 
 scan
 ----
@@ -69,9 +65,7 @@ scan
 .. function:: scan()
 
 
-    Scan
-
-    :rtype: void 
+    @return void
 
 
 
@@ -81,74 +75,7 @@ tokenize
 .. function:: tokenize()
 
 
-    Tokenize
-
-    :rtype: array 
-
-
-
-$positionsForward
------------------
-
-.. function:: $positionsForward()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-$type
------
-
-.. function:: $type()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-use
----
-
-.. function:: use()
-
-
-
-$length
--------
-
-.. function:: $length()
-
-
-
-use
----
-
-.. function:: use()
-
-
+    @return array
 
 
 

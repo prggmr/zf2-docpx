@@ -1,26 +1,23 @@
-.. /File/Transfer/Adapter/Http.php generated using docpx on 01/15/13 05:29pm
+.. File/Transfer/Adapter/Http.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\File\\Transfer\\Adapter\\Http
-***********************************
-
+===================================
 
 File transfer adapter class for the HTTP protocol
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor for Http File Transfers
 
-    :param array $options: OPTIONAL Options to set
+    :param array: OPTIONAL Options to set
 
     :throws Exception\PhpEnvironmentException: if file uploads are not allowed
 
@@ -29,13 +26,13 @@ __construct
 setValidators
 -------------
 
-.. function:: setValidators($validators, [$files = false])
+.. function:: setValidators()
 
 
     Sets a validator for the class, erasing all previous set
 
-    :param array $validators: Validator to set
-    :param string|array $files: Files to limit this validator to
+    :param array: Validator to set
+    :param string|array: Files to limit this validator to
 
     :rtype: AbstractAdapter 
 
@@ -44,12 +41,12 @@ setValidators
 removeValidator
 ---------------
 
-.. function:: removeValidator($name)
+.. function:: removeValidator()
 
 
     Remove an individual validator
 
-    :param string $name: 
+    :param string: 
 
     :rtype: AbstractAdapter 
 
@@ -70,12 +67,12 @@ clearValidators
 send
 ----
 
-.. function:: send([$options = false])
+.. function:: send()
 
 
     Send the file to the client (Download)
 
-    :param string|array $options: Options for the file(s) to send
+    :param string|array: Options for the file(s) to send
 
     :rtype: void 
 
@@ -86,12 +83,12 @@ send
 isValid
 -------
 
-.. function:: isValid([$files = false])
+.. function:: isValid()
 
 
     Checks if the files are valid
 
-    :param string|array $files: (Optional) Files to check
+    :param string|array: (Optional) Files to check
 
     :rtype: bool True if all checks are valid
 
@@ -100,12 +97,12 @@ isValid
 receive
 -------
 
-.. function:: receive([$files = false])
+.. function:: receive()
 
 
     Receive the file from the client (Upload)
 
-    :param string|array $files: (Optional) Files to receive
+    :param string|array: (Optional) Files to receive
 
     :rtype: bool 
 
@@ -114,12 +111,12 @@ receive
 isSent
 ------
 
-.. function:: isSent([$files = false])
+.. function:: isSent()
 
 
     Checks if the file was already sent
 
-    :param string|array $files: Files to check
+    :param string|array: Files to check
 
     :rtype: bool 
 
@@ -130,12 +127,12 @@ isSent
 isReceived
 ----------
 
-.. function:: isReceived([$files = false])
+.. function:: isReceived()
 
 
     Checks if the file was already received
 
-    :param string|array $files: (Optional) Files to check
+    :param string|array: (Optional) Files to check
 
     :rtype: bool 
 
@@ -144,12 +141,12 @@ isReceived
 isFiltered
 ----------
 
-.. function:: isFiltered([$files = false])
+.. function:: isFiltered()
 
 
     Checks if the file was already filtered
 
-    :param string|array $files: (Optional) Files to check
+    :param string|array: (Optional) Files to check
 
     :rtype: bool 
 
@@ -158,12 +155,12 @@ isFiltered
 isUploaded
 ----------
 
-.. function:: isUploaded([$files = false])
+.. function:: isUploaded()
 
 
     Has a file been uploaded ?
 
-    :param array|string|null $files: 
+    :param array|string|null: 
 
     :rtype: bool 
 
@@ -172,12 +169,12 @@ isUploaded
 getProgress
 -----------
 
-.. function:: getProgress([$id = false])
+.. function:: getProgress()
 
 
     Returns the actual progress of file up-/downloads
 
-    :param string|array $id: The upload to get the progress for
+    :param string|array: The upload to get the progress for
 
     :rtype: array|null 
 
@@ -219,8 +216,6 @@ prepareFiles
     Prepare the $_FILES array to match the internal syntax of one file per entry
 
     :rtype: Http 
-
-
 
 
 

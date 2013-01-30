@@ -1,36 +1,27 @@
-.. /Config/Processor/Token.php generated using docpx on 01/15/13 05:29pm
+.. Config/Processor/Token.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Config\\Processor\\Token
-******************************
-
-
-@category   Zend
-
-
+==============================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$tokens = false, [$prefix = false, [$suffix = false]]])
+.. function:: __construct()
 
 
     Token Processor walks through a Config structure and replaces all
     occurrences of tokens with supplied values.
 
-    :param array|Config|Traversable $tokens: Associative array of TOKEN => value
+    :param array|Config|Traversable: Associative array of TOKEN => value
                                             to replace it with
-    :param string $prefix: 
-    :param string $suffix: 
+    :param string: 
+    :param string: 
 
-
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-    :internal p: p
+    :internal : 
 
     :rtype: Token 
 
@@ -39,7 +30,7 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 setPrefix
 ---------
 
-.. function:: setPrefix($prefix)
+.. function:: setPrefix()
 
 
     @param  string $prefix
@@ -61,7 +52,7 @@ getPrefix
 setSuffix
 ---------
 
-.. function:: setSuffix($suffix)
+.. function:: setSuffix()
 
 
     @param  string $suffix
@@ -83,12 +74,12 @@ getSuffix
 setTokens
 ---------
 
-.. function:: setTokens($tokens)
+.. function:: setTokens()
 
 
     Set token registry.
 
-    :param array|Config|Traversable $tokens: Associative array of TOKEN => value
+    :param array|Config|Traversable: Associative array of TOKEN => value
                                            to replace it with
 
     :rtype: Token 
@@ -112,13 +103,13 @@ getTokens
 addToken
 --------
 
-.. function:: addToken($token, $value)
+.. function:: addToken()
 
 
     Add new token.
 
-    :param string $token: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Token 
 
@@ -129,13 +120,13 @@ addToken
 setToken
 --------
 
-.. function:: setToken($token, $value)
+.. function:: setToken()
 
 
     Add new token.
 
-    :param string $token: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: Token 
 
@@ -154,12 +145,12 @@ buildMap
 process
 -------
 
-.. function:: process($config)
+.. function:: process()
 
 
     Process
 
-    :param Config $config: 
+    :param Config: 
 
     :rtype: Config 
 
@@ -170,7 +161,7 @@ process
 processValue
 ------------
 
-.. function:: processValue($value)
+.. function:: processValue()
 
 
     Process a single value
@@ -178,8 +169,6 @@ processValue
     :param $value: 
 
     :rtype: mixed 
-
-
 
 
 

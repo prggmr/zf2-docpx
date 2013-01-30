@@ -1,26 +1,23 @@
-.. /Filter/Compress/Rar.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress/Rar.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress\\Rar
-***************************
-
+===========================
 
 Compression adapter for Rar
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param array $options: (Optional) Options to set
+    :param array: (Optional) Options to set
 
     :throws Exception\ExtensionNotLoadedException: if rar extension not loaded
 
@@ -41,12 +38,12 @@ getCallback
 setCallback
 -----------
 
-.. function:: setCallback($callback)
+.. function:: setCallback()
 
 
     Sets the callback to use
 
-    :param string $callback: 
+    :param string: 
 
     :rtype: Rar 
 
@@ -69,12 +66,12 @@ getArchive
 setArchive
 ----------
 
-.. function:: setArchive($archive)
+.. function:: setArchive()
 
 
     Sets the archive to use for de-/compression
 
-    :param string $archive: Archive to use
+    :param string: Archive to use
 
     :rtype: Rar 
 
@@ -95,12 +92,12 @@ getPassword
 setPassword
 -----------
 
-.. function:: setPassword($password)
+.. function:: setPassword()
 
 
     Sets the password to use
 
-    :param string $password: 
+    :param string: 
 
     :rtype: Rar 
 
@@ -121,12 +118,12 @@ getTarget
 setTarget
 ---------
 
-.. function:: setTarget($target)
+.. function:: setTarget()
 
 
     Sets the targetpath to use
 
-    :param string $target: 
+    :param string: 
 
     :rtype: Rar 
 
@@ -137,12 +134,12 @@ setTarget
 compress
 --------
 
-.. function:: compress($content)
+.. function:: compress()
 
 
     Compresses the given content
 
-    :param string|array $content: 
+    :param string|array: 
 
     :rtype: string 
 
@@ -153,12 +150,12 @@ compress
 decompress
 ----------
 
-.. function:: decompress($content)
+.. function:: decompress()
 
 
     Decompresses the given content
 
-    :param string $content: 
+    :param string: 
 
     :rtype: bool 
 
@@ -176,8 +173,6 @@ toString
     Returns the adapter name
 
     :rtype: string 
-
-
 
 
 

@@ -1,26 +1,21 @@
-.. /Form/View/Helper/FormMultiCheckbox.php generated using docpx on 01/15/13 05:29pm
+.. Form/View/Helper/FormMultiCheckbox.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Form\\View\\Helper\\FormMultiCheckbox
-*******************************************
-
-
-@category   Zend
-
-
+===========================================
 
 Methods
-=======
++++++++
 
 setLabelPosition
 ----------------
 
-.. function:: setLabelPosition($labelPosition)
+.. function:: setLabelPosition()
 
 
     Set value for labelPosition
 
-    :param mixed $labelPosition: 
+    :param mixed: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -43,12 +38,12 @@ getLabelPosition
 setSeparator
 ------------
 
-.. function:: setSeparator($separator)
+.. function:: setSeparator()
 
 
     Set separator string for checkbox elements
 
-    :param string $separator: 
+    :param string: 
 
     :rtype: FormMultiCheckbox 
 
@@ -69,12 +64,12 @@ getSeparator
 setLabelAttributes
 ------------------
 
-.. function:: setLabelAttributes($attributes)
+.. function:: setLabelAttributes()
 
 
     Sets the attributes applied to option label.
 
-    :param array|null $attributes: 
+    :param array|null: 
 
     :rtype: FormMultiCheckbox 
 
@@ -108,13 +103,13 @@ getUseHiddenElement
 setUseHiddenElement
 -------------------
 
-.. function:: setUseHiddenElement($useHiddenElement)
+.. function:: setUseHiddenElement()
 
 
     Sets the option for prefixing the element with a hidden element
     for the unset value.
 
-    :param bool $useHiddenElement: 
+    :param bool: 
 
     :rtype: FormMultiCheckbox 
 
@@ -135,12 +130,12 @@ getUncheckedValue
 setUncheckedValue
 -----------------
 
-.. function:: setUncheckedValue($value)
+.. function:: setUncheckedValue()
 
 
     Sets the unchecked value used when "UseHiddenElement" is turned on.
 
-    :param bool $value: 
+    :param bool: 
 
     :rtype: FormMultiCheckbox 
 
@@ -149,12 +144,12 @@ setUncheckedValue
 render
 ------
 
-.. function:: render($element)
+.. function:: render()
 
 
     Render a form <input> element from the provided $element
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\InvalidArgumentException: 
     :throws Exception\DomainException: 
@@ -166,15 +161,15 @@ render
 renderOptions
 -------------
 
-.. function:: renderOptions($element, $options, $selectedOptions, $attributes)
+.. function:: renderOptions()
 
 
     Render options
 
-    :param MultiCheckboxElement $element: 
-    :param array $options: 
-    :param array $selectedOptions: 
-    :param array $attributes: 
+    :param MultiCheckboxElement: 
+    :param array: 
+    :param array: 
+    :param array: 
 
     :rtype: string 
 
@@ -183,13 +178,13 @@ renderOptions
 renderHiddenElement
 -------------------
 
-.. function:: renderHiddenElement($element, $attributes)
+.. function:: renderHiddenElement()
 
 
     Render a hidden element for empty/unchecked value
 
-    :param MultiCheckboxElement $element: 
-    :param array $attributes: 
+    :param MultiCheckboxElement: 
+    :param array: 
 
     :rtype: string 
 
@@ -198,15 +193,15 @@ renderHiddenElement
 __invoke
 --------
 
-.. function:: __invoke([$element = false, [$labelPosition = false]])
+.. function:: __invoke()
 
 
     Invoke helper as functor
     
     Proxies to {@link render()}.
 
-    :param ElementInterface|null $element: 
-    :param null|string $labelPosition: 
+    :param ElementInterface|null: 
+    :param null|string: 
 
     :rtype: string|FormMultiCheckbox 
 
@@ -251,12 +246,12 @@ getLabelHelper
 getName
 -------
 
-.. function:: getName($element)
+.. function:: getName()
 
 
     Get element name
 
-    :param ElementInterface $element: 
+    :param ElementInterface: 
 
     :throws Exception\DomainException: 
 
@@ -267,11 +262,11 @@ getName
 
 
 Constants
----------
++++++++++
 
 LABEL_APPEND
-++++++++++++
+============
 
 LABEL_PREPEND
-+++++++++++++
+=============
 

@@ -1,4 +1,4 @@
-.. /EventManager/SharedEventManagerInterface.php generated using docpx on 01/15/13 05:29pm
+.. EventManager/SharedEventManagerInterface.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\EventManager\\getListeners
@@ -9,8 +9,8 @@ Zend\\EventManager\\getListeners
 
     Retrieve all listeners for a given identifier and event
 
-    :param string|int $id: 
-    :param string|int $event: 
+    :param string|int: 
+    :param string|int: 
 
     :rtype: false|PriorityQueue 
 
@@ -24,10 +24,10 @@ Zend\\EventManager\\attach
 
     Attach a listener to an event
 
-    :param string|array $id: Identifier(s) for event emitting component(s)
-    :param string $event: 
-    :param callable $callback: PHP Callback
-    :param int $priority: Priority at which listener should execute
+    :param string|array: Identifier(s) for event emitting component(s)
+    :param string: 
+    :param callable: PHP Callback
+    :param int: Priority at which listener should execute
 
     :rtype: void 
 
@@ -41,8 +41,8 @@ Zend\\EventManager\\detach
 
     Detach a listener from an event offered by a given resource
 
-    :param string|int $id: 
-    :param CallbackHandler $listener: 
+    :param string|int: 
+    :param CallbackHandler: 
 
     :rtype: bool Returns true if event and listener found, and unsubscribed; returns false if either event or listener not found
 
@@ -56,7 +56,7 @@ Zend\\EventManager\\getEvents
 
     Retrieve all registered events for a given resource
 
-    :param string|int $id: 
+    :param string|int: 
 
     :rtype: array 
 
@@ -70,8 +70,8 @@ Zend\\EventManager\\clearListeners
 
     Clear all listeners for a given identifier, optionally for a specific event
 
-    :param string|int $id: 
-    :param null|string $event: 
+    :param string|int: 
+    :param null|string: 
 
     :rtype: bool 
 

@@ -1,22 +1,19 @@
-.. /Di/ServiceLocator/DependencyInjectorProxy.php generated using docpx on 01/15/13 05:29pm
+.. Di/ServiceLocator/DependencyInjectorProxy.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Di\\ServiceLocator\\DependencyInjectorProxy
-*************************************************
-
+=================================================
 
 Proxy used to analyze how instances are created by a given Di. Overrides Zend\Di\Di to produce artifacts that
 represent the process used to instantiate a particular instance
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($di)
+.. function:: __construct()
 
 
     @param Di $di
@@ -26,7 +23,7 @@ __construct
 get
 ---
 
-.. function:: get($name, [$params = false])
+.. function:: get()
 
 
     {@inheritDoc}
@@ -38,7 +35,7 @@ get
 newInstance
 -----------
 
-.. function:: newInstance($name, [$params = false, [$isShared = true]])
+.. function:: newInstance()
 
 
     {@inheritDoc}
@@ -50,7 +47,7 @@ newInstance
 createInstanceViaConstructor
 ----------------------------
 
-.. function:: createInstanceViaConstructor($class, $params, [$alias = false])
+.. function:: createInstanceViaConstructor()
 
 
     {@inheritDoc}
@@ -62,7 +59,7 @@ createInstanceViaConstructor
 createInstanceViaCallback
 -------------------------
 
-.. function:: createInstanceViaCallback($callback, $params, $alias)
+.. function:: createInstanceViaCallback()
 
 
     {@inheritDoc}
@@ -75,7 +72,7 @@ createInstanceViaCallback
 handleInjectionMethodForObject
 ------------------------------
 
-.. function:: handleInjectionMethodForObject($class, $method, $params, $alias, $isRequired)
+.. function:: handleInjectionMethodForObject()
 
 
     {@inheritDoc}
@@ -85,7 +82,7 @@ handleInjectionMethodForObject
 resolveAndCallInjectionMethodForInstance
 ----------------------------------------
 
-.. function:: resolveAndCallInjectionMethodForInstance($instance, $method, $params, $alias, $methodIsRequired, [$methodClass = false])
+.. function:: resolveAndCallInjectionMethodForInstance()
 
 
     {@inheritDoc}
@@ -95,12 +92,10 @@ resolveAndCallInjectionMethodForInstance
 getClass
 --------
 
-.. function:: getClass($instance)
+.. function:: getClass()
 
 
     {@inheritDoc}
-
-
 
 
 

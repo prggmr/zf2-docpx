@@ -1,16 +1,11 @@
-.. /Db/RowGateway/AbstractRowGateway.php generated using docpx on 01/15/13 05:29pm
+.. Db/RowGateway/AbstractRowGateway.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\RowGateway\\AbstractRowGateway
-****************************************
-
-
-@category   Zend
-
-
+========================================
 
 Methods
-=======
++++++++
 
 initialize
 ----------
@@ -25,13 +20,13 @@ initialize
 populate
 --------
 
-.. function:: populate($rowData, [$rowExistsInDatabase = false])
+.. function:: populate()
 
 
     Populate Data
 
-    :param array $rowData: 
-    :param bool $rowExistsInDatabase: 
+    :param array: 
+    :param bool: 
 
     :rtype: AbstractRowGateway 
 
@@ -40,7 +35,7 @@ populate
 exchangeArray
 -------------
 
-.. function:: exchangeArray($array)
+.. function:: exchangeArray()
 
 
     @param mixed $array
@@ -76,12 +71,12 @@ delete
 offsetExists
 ------------
 
-.. function:: offsetExists($offset)
+.. function:: offsetExists()
 
 
     Offset Exists
 
-    :param string $offset: 
+    :param string: 
 
     :rtype: bool 
 
@@ -90,12 +85,12 @@ offsetExists
 offsetGet
 ---------
 
-.. function:: offsetGet($offset)
+.. function:: offsetGet()
 
 
     Offset get
 
-    :param string $offset: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -104,13 +99,13 @@ offsetGet
 offsetSet
 ---------
 
-.. function:: offsetSet($offset, $value)
+.. function:: offsetSet()
 
 
     Offset set
 
-    :param string $offset: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: RowGateway 
 
@@ -119,12 +114,12 @@ offsetSet
 offsetUnset
 -----------
 
-.. function:: offsetUnset($offset)
+.. function:: offsetUnset()
 
 
     Offset unset
 
-    :param string $offset: 
+    :param string: 
 
     :rtype: AbstractRowGateway 
 
@@ -155,12 +150,12 @@ toArray
 __get
 -----
 
-.. function:: __get($name)
+.. function:: __get()
 
 
     __get
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed 
 
@@ -169,13 +164,13 @@ __get
 __set
 -----
 
-.. function:: __set($name, $value)
+.. function:: __set()
 
 
     __set
 
-    :param string $name: 
-    :param mixed $value: 
+    :param string: 
+    :param mixed: 
 
     :rtype: void 
 
@@ -184,12 +179,12 @@ __set
 __isset
 -------
 
-.. function:: __isset($name)
+.. function:: __isset()
 
 
     __isset
 
-    :param string $name: 
+    :param string: 
 
     :rtype: bool 
 
@@ -198,12 +193,12 @@ __isset
 __unset
 -------
 
-.. function:: __unset($name)
+.. function:: __unset()
 
 
     __unset
 
-    :param string $name: 
+    :param string: 
 
     :rtype: void 
 
@@ -226,8 +221,6 @@ processPrimaryKeyData
 
 
     @throws Exception\RuntimeException
-
-
 
 
 

@@ -1,16 +1,11 @@
-.. /Feed/Writer/AbstractFeed.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Writer/AbstractFeed.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Writer\\AbstractFeed
-********************************
-
-
-@category Zend
-
-
+================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
@@ -26,7 +21,7 @@ __construct
 addAuthor
 ---------
 
-.. function:: addAuthor($author)
+.. function:: addAuthor()
 
 
     Set a single author
@@ -36,7 +31,7 @@ addAuthor
     'email' => (string) An optional email
     'uri'   => (string) An optional and valid URI
 
-    :param array $author: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: If any value of $author not follow the format.
 
@@ -47,17 +42,13 @@ addAuthor
 addAuthors
 ----------
 
-.. function:: addAuthors($authors)
+.. function:: addAuthors()
 
 
     Set an array with feed authors
 
 
-Warning: Illegal string offset 'type' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 43
-
-Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/rst/tags.template on line 44
-
-    :param array $authors: 
+    :param array: 
 
     :rtype: AbstractFeed 
 
@@ -66,12 +57,12 @@ Warning: Illegal string offset 'text' in /Users/prggmr/Lab/Docpx/src/templates/r
 setCopyright
 ------------
 
-.. function:: setCopyright($copyright)
+.. function:: setCopyright()
 
 
     Set the copyright entry
 
-    :param string $copyright: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -82,7 +73,7 @@ setCopyright
 setDateCreated
 --------------
 
-.. function:: setDateCreated([$date = false])
+.. function:: setDateCreated()
 
 
     Set the feed creation date
@@ -98,7 +89,7 @@ setDateCreated
 setDateModified
 ---------------
 
-.. function:: setDateModified([$date = false])
+.. function:: setDateModified()
 
 
     Set the feed modification date
@@ -114,7 +105,7 @@ setDateModified
 setLastBuildDate
 ----------------
 
-.. function:: setLastBuildDate([$date = false])
+.. function:: setLastBuildDate()
 
 
     Set the feed last-build date. Ignored for Atom 1.0.
@@ -130,12 +121,12 @@ setLastBuildDate
 setDescription
 --------------
 
-.. function:: setDescription($description)
+.. function:: setDescription()
 
 
     Set the feed description
 
-    :param string $description: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -146,14 +137,14 @@ setDescription
 setGenerator
 ------------
 
-.. function:: setGenerator($name, [$version = false, [$uri = false]])
+.. function:: setGenerator()
 
 
     Set the feed generator entry
 
-    :param array|string $name: 
-    :param null|string $version: 
-    :param null|string $uri: 
+    :param array|string: 
+    :param null|string: 
+    :param null|string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -164,12 +155,12 @@ setGenerator
 setId
 -----
 
-.. function:: setId($id)
+.. function:: setId()
 
 
     Set the feed ID - URI or URN (via PCRE pattern) supported
 
-    :param string $id: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -180,12 +171,12 @@ setId
 _validateTagUri
 ---------------
 
-.. function:: _validateTagUri($id)
+.. function:: _validateTagUri()
 
 
     Validate a URI using the tag scheme (RFC 4151)
 
-    :param string $id: 
+    :param string: 
 
     :rtype: bool 
 
@@ -194,7 +185,7 @@ _validateTagUri
 setImage
 --------
 
-.. function:: setImage($data)
+.. function:: setImage()
 
 
     Set a feed image (URI at minimum). Parameter is a single array with the
@@ -202,7 +193,7 @@ setImage
     'title' and 'link'. RSS also specifies three optional parameters 'width',
     'height' and 'description'. Only 'uri' is required and used for Atom rendering.
 
-    :param array $data: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -213,12 +204,12 @@ setImage
 setLanguage
 -----------
 
-.. function:: setLanguage($language)
+.. function:: setLanguage()
 
 
     Set the feed language
 
-    :param string $language: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -229,12 +220,12 @@ setLanguage
 setLink
 -------
 
-.. function:: setLink($link)
+.. function:: setLink()
 
 
     Set a link to the HTML source
 
-    :param string $link: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -245,13 +236,13 @@ setLink
 setFeedLink
 -----------
 
-.. function:: setFeedLink($link, $type)
+.. function:: setFeedLink()
 
 
     Set a link to an XML feed for any feed type/version
 
-    :param string $link: 
-    :param string $type: 
+    :param string: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -262,12 +253,12 @@ setFeedLink
 setTitle
 --------
 
-.. function:: setTitle($title)
+.. function:: setTitle()
 
 
     Set the feed title
 
-    :param string $title: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -278,12 +269,12 @@ setTitle
 setEncoding
 -----------
 
-.. function:: setEncoding($encoding)
+.. function:: setEncoding()
 
 
     Set the feed character encoding
 
-    :param string $encoding: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -294,12 +285,12 @@ setEncoding
 setBaseUrl
 ----------
 
-.. function:: setBaseUrl($url)
+.. function:: setBaseUrl()
 
 
     Set the feed's base URL
 
-    :param string $url: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -310,12 +301,12 @@ setBaseUrl
 addHub
 ------
 
-.. function:: addHub($url)
+.. function:: addHub()
 
 
     Add a Pubsubhubbub hub endpoint URL
 
-    :param string $url: 
+    :param string: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -326,12 +317,12 @@ addHub
 addHubs
 -------
 
-.. function:: addHubs($urls)
+.. function:: addHubs()
 
 
     Add Pubsubhubbub hub endpoint URLs
 
-    :param array $urls: 
+    :param array: 
 
     :rtype: AbstractFeed 
 
@@ -340,12 +331,12 @@ addHubs
 addCategory
 -----------
 
-.. function:: addCategory($category)
+.. function:: addCategory()
 
 
     Add a feed category
 
-    :param array $category: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: 
 
@@ -356,12 +347,12 @@ addCategory
 addCategories
 -------------
 
-.. function:: addCategories($categories)
+.. function:: addCategories()
 
 
     Set an array of feed categories
 
-    :param array $categories: 
+    :param array: 
 
     :rtype: AbstractFeed 
 
@@ -370,12 +361,12 @@ addCategories
 getAuthor
 ---------
 
-.. function:: getAuthor([$index = false])
+.. function:: getAuthor()
 
 
     Get a single author
 
-    :param int $index: 
+    :param int: 
 
     :rtype: string|null 
 
@@ -600,14 +591,14 @@ reset
 setType
 -------
 
-.. function:: setType($type)
+.. function:: setType()
 
 
     Set the current feed type being exported to "rss" or "atom". This allows
     other objects to gracefully choose whether to execute or not, depending
     on their appropriateness for the current type, e.g. renderers.
 
-    :param string $type: 
+    :param string: 
 
     :rtype: AbstractFeed 
 
@@ -628,12 +619,12 @@ getType
 remove
 ------
 
-.. function:: remove($name)
+.. function:: remove()
 
 
     Unset a specific data point
 
-    :param string $name: 
+    :param string: 
 
     :rtype: AbstractFeed 
 
@@ -642,13 +633,13 @@ remove
 __call
 ------
 
-.. function:: __call($method, $args)
+.. function:: __call()
 
 
     Method overloading: call given method on first extension implementing it
 
-    :param string $method: 
-    :param array $args: 
+    :param string: 
+    :param array: 
 
     :rtype: mixed 
 
@@ -666,8 +657,6 @@ _loadExtensions
 
 
     :rtype: void 
-
-
 
 
 

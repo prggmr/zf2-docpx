@@ -1,38 +1,35 @@
-.. /Filter/Compress.php generated using docpx on 01/15/13 05:29pm
+.. Filter/Compress.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Filter\\Compress
-**********************
-
+======================
 
 Compresses a given string
 
-
-
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Class constructor
 
-    :param string|array|Traversable $options: (Optional) Options to set
+    :param string|array|Traversable: (Optional) Options to set
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Set filter setate
 
-    :param array $options: 
+    :param array: 
 
     :throws Exception\InvalidArgumentException: if options is not an array or Traversable
 
@@ -68,12 +65,12 @@ getAdapterName
 setAdapter
 ----------
 
-.. function:: setAdapter($adapter)
+.. function:: setAdapter()
 
 
     Sets compression adapter
 
-    :param string|Compress\CompressionAlgorithmInterface $adapter: Adapter to use
+    :param string|Compress\CompressionAlgorithmInterface: Adapter to use
 
     :rtype: Compress 
 
@@ -96,12 +93,12 @@ getAdapterOptions
 setAdapterOptions
 -----------------
 
-.. function:: setAdapterOptions($options)
+.. function:: setAdapterOptions()
 
 
     Set adapter options
 
-    :param array $options: 
+    :param array: 
 
     :rtype: Compress 
 
@@ -110,12 +107,12 @@ setAdapterOptions
 getOptions
 ----------
 
-.. function:: getOptions([$option = false])
+.. function:: getOptions()
 
 
     Get individual or all options from underlying adapter
 
-    :param null|string $option: 
+    :param null|string: 
 
     :rtype: mixed 
 
@@ -124,13 +121,13 @@ getOptions
 __call
 ------
 
-.. function:: __call($method, $options)
+.. function:: __call()
 
 
     Calls adapter methods
 
-    :param string $method: Method to call
-    :param string|array $options: Options for this method
+    :param string: Method to call
+    :param string|array: Options for this method
 
     :rtype: mixed 
 
@@ -141,18 +138,16 @@ __call
 filter
 ------
 
-.. function:: filter($value)
+.. function:: filter()
 
 
     Defined by Zend_Filter_Filter
     
     Compresses the content $value with the defined settings
 
-    :param string $value: Content to compress
+    :param string: Content to compress
 
     :rtype: string The compressed content
-
-
 
 
 

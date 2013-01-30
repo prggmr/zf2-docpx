@@ -1,40 +1,35 @@
-.. /Feed/PubSubHubbub/AbstractCallback.php generated using docpx on 01/15/13 05:29pm
+.. Feed/PubSubHubbub/AbstractCallback.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\PubSubHubbub\\AbstractCallback
-******************************************
-
-
-@category   Zend
-
-
+==========================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct([$options = false])
+.. function:: __construct()
 
 
     Constructor; accepts an array or Traversable object to preset
     options for the Subscriber without calling all supported setter
     methods in turn.
 
-    :param array|Traversable $options: Options array or Traversable object
+    :param array|Traversable: Options array or Traversable object
 
 
 
 setOptions
 ----------
 
-.. function:: setOptions($options)
+.. function:: setOptions()
 
 
     Process any injected configuration options
 
-    :param array|Traversable $options: Options array or Traversable object
+    :param array|Traversable: Options array or Traversable object
 
     :rtype: AbstractCallback 
 
@@ -60,14 +55,14 @@ sendResponse
 setStorage
 ----------
 
-.. function:: setStorage($storage)
+.. function:: setStorage()
 
 
     Sets an instance of Zend\Feed\Pubsubhubbub\Model\SubscriptionPersistence used
     to background save any verification tokens associated with a subscription
     or other.
 
-    :param Model\SubscriptionPersistenceInterface $storage: 
+    :param Model\SubscriptionPersistenceInterface: 
 
     :rtype: AbstractCallback 
 
@@ -92,14 +87,14 @@ getStorage
 setHttpResponse
 ---------------
 
-.. function:: setHttpResponse($httpResponse)
+.. function:: setHttpResponse()
 
 
     An instance of a class handling Http Responses. This is implemented in
     Zend\Feed\Pubsubhubbub\HttpResponse which shares an unenforced interface with
     (i.e. not inherited from) Zend\Controller\Response\Http.
 
-    :param HttpResponse|PhpResponse $httpResponse: 
+    :param HttpResponse|PhpResponse: 
 
     :rtype: AbstractCallback 
 
@@ -124,14 +119,14 @@ getHttpResponse
 setSubscriberCount
 ------------------
 
-.. function:: setSubscriberCount($count)
+.. function:: setSubscriberCount()
 
 
     Sets the number of Subscribers for which any updates are on behalf of.
     In other words, is this class serving one or more subscribers? How many?
     Defaults to 1 if left unchanged.
 
-    :param string|int $count: 
+    :param string|int: 
 
     :rtype: AbstractCallback 
 
@@ -179,12 +174,12 @@ _getHttpHost
 _getHeader
 ----------
 
-.. function:: _getHeader($header)
+.. function:: _getHeader()
 
 
     Retrieve a Header value from either $_SERVER or Apache
 
-    :param string $header: 
+    :param string: 
 
     :rtype: bool|string 
 
@@ -199,8 +194,6 @@ _getRawBody
     Return the raw body of the request
 
     :rtype: string|false Raw body, or false if not present
-
-
 
 
 

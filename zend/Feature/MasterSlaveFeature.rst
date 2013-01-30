@@ -1,26 +1,38 @@
-.. /Db/TableGateway/Feature/MasterSlaveFeature.php generated using docpx on 01/15/13 05:29pm
+.. Db/TableGateway/Feature/MasterSlaveFeature.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Db\\TableGateway\\Feature\\MasterSlaveFeature
-***************************************************
-
-
-@category   Zend
-
-
+===================================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($slaveAdapter)
+.. function:: __construct()
 
 
     Constructor
 
-    :param Adapter $slaveAdapter: 
+    :param Adapter: 
+
+
+
+getSlaveAdapter
+---------------
+
+.. function:: getSlaveAdapter()
+
+
+
+getSlaveSql
+-----------
+
+.. function:: getSlaveSql()
+
+
+    @return Sql
 
 
 
@@ -53,8 +65,6 @@ postSelect
 
     postSelect()
     Ensure to return to the master adapter
-
-
 
 
 

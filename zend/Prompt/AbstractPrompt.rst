@@ -1,16 +1,11 @@
-.. /Console/Prompt/AbstractPrompt.php generated using docpx on 01/15/13 05:29pm
+.. Console/Prompt/AbstractPrompt.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Console\\Prompt\\AbstractPrompt
-*************************************
-
-
-@category   Zend
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 show
 ----
@@ -51,12 +46,12 @@ getConsole
 setConsole
 ----------
 
-.. function:: setConsole($adapter)
+.. function:: setConsole()
 
 
     Set console adapter to use when showing prompt.
 
-    :param ConsoleAdapter $adapter: 
+    :param ConsoleAdapter: 
 
 
 
@@ -75,8 +70,6 @@ prompt
     :rtype: mixed 
 
     :throws: Exception\BadMethodCallException 
-
-
 
 
 

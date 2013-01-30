@@ -1,25 +1,5 @@
-.. /Form/FormInterface.php generated using docpx on 01/15/13 05:29pm
+.. Form/FormInterface.php generated using docpx on 01/30/13 03:32am
 
-
-BIND_ON_VALIDATE
-++++++++++++++++
-
-@category   Zend
-
-BIND_MANUAL
-+++++++++++
-
-VALIDATE_ALL
-++++++++++++
-
-VALUES_NORMALIZED
-+++++++++++++++++
-
-VALUES_RAW
-++++++++++
-
-VALUES_AS_ARRAY
-+++++++++++++++
 
 Zend\\Form\\setData
 ===================
@@ -31,7 +11,7 @@ Zend\\Form\\setData
     
     Typically, also passes data on to the composed input filter.
 
-    :param array|\ArrayAccess $data: 
+    :param array|\ArrayAccess: 
 
     :rtype: FormInterface 
 
@@ -47,8 +27,8 @@ Zend\\Form\\bind
     
     Allows populating the object with validated values.
 
-    :param object $object: 
-    :param int $flags: 
+    :param object: 
+    :param int: 
 
     :rtype: mixed 
 
@@ -62,7 +42,7 @@ Zend\\Form\\setBindOnValidate
 
     Whether or not to bind values to the bound object when validation succeeds
 
-    :param int $bindOnValidateFlag: 
+    :param int: 
 
     :rtype: void 
 
@@ -76,7 +56,7 @@ Zend\\Form\\setInputFilter
 
     Set input filter
 
-    :param InputFilterInterface $inputFilter: 
+    :param InputFilterInterface: 
 
     :rtype: FormInterface 
 
@@ -119,7 +99,7 @@ Zend\\Form\\getData
     By default, retrieves normalized values; pass one of the VALUES_*
     constants to shape the behavior.
 
-    :param int $flag: 
+    :param int: 
 
     :rtype: array|object 
 
@@ -138,4 +118,22 @@ Zend\\Form\\setValidationGroup
     :rtype: FormInterface 
 
 
+
+BIND_ON_VALIDATE
+================
+
+BIND_MANUAL
+===========
+
+VALIDATE_ALL
+============
+
+VALUES_NORMALIZED
+=================
+
+VALUES_RAW
+==========
+
+VALUES_AS_ARRAY
+===============
 

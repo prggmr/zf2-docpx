@@ -1,36 +1,33 @@
-.. /Code/Scanner/ParameterScanner.php generated using docpx on 01/15/13 05:29pm
+.. Code/Scanner/ParameterScanner.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Code\\Scanner\\ParameterScanner
-*************************************
-
-
+=====================================
 
 Methods
-=======
++++++++
 
 __construct
 -----------
 
-.. function:: __construct($parameterTokens, [$nameInformation = false])
+.. function:: __construct()
 
 
-    Constructor
+    @param  array $parameterTokens
 
-    :param array $parameterTokens: 
-    :param NameInformation $nameInformation: 
+    :param NameInformation: 
 
 
 
 setDeclaringClass
 -----------------
 
-.. function:: setDeclaringClass($class)
+.. function:: setDeclaringClass()
 
 
     Set declaring class
 
-    :param string $class: 
+    :param string: 
 
     :rtype: void 
 
@@ -39,12 +36,12 @@ setDeclaringClass
 setDeclaringScannerClass
 ------------------------
 
-.. function:: setDeclaringScannerClass($scannerClass)
+.. function:: setDeclaringScannerClass()
 
 
     Set declaring scanner class
 
-    :param ClassScanner $scannerClass: 
+    :param ClassScanner: 
 
     :rtype: void 
 
@@ -53,12 +50,12 @@ setDeclaringScannerClass
 setDeclaringFunction
 --------------------
 
-.. function:: setDeclaringFunction($function)
+.. function:: setDeclaringFunction()
 
 
     Set declaring function
 
-    :param string $function: 
+    :param string: 
 
     :rtype: void 
 
@@ -67,12 +64,12 @@ setDeclaringFunction
 setDeclaringScannerFunction
 ---------------------------
 
-.. function:: setDeclaringScannerFunction($scannerFunction)
+.. function:: setDeclaringScannerFunction()
 
 
     Set declaring scanner function
 
-    :param MethodScanner $scannerFunction: 
+    :param MethodScanner: 
 
     :rtype: void 
 
@@ -81,12 +78,12 @@ setDeclaringScannerFunction
 setPosition
 -----------
 
-.. function:: setPosition($position)
+.. function:: setPosition()
 
 
     Set position
 
-    :param int $position: 
+    :param int: 
 
     :rtype: void 
 
@@ -245,8 +242,6 @@ isPassedByReference
     Check if is passed by reference
 
     :rtype: bool 
-
-
 
 
 

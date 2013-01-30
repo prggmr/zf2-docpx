@@ -1,16 +1,13 @@
-.. /Feed/Reader/Extension/Thread/Entry.php generated using docpx on 01/15/13 05:29pm
+.. Feed/Reader/Extension/Thread/Entry.php generated using docpx on 01/30/13 03:32am
 
 
 Zend\\Feed\\Reader\\Extension\\Thread\\Entry
-********************************************
-
-
-@category Zend
+============================================
 
 
 
 Methods
-=======
++++++++
 
 getInReplyTo
 ------------
@@ -39,12 +36,12 @@ getCommentCount
 getData
 -------
 
-.. function:: getData($name)
+.. function:: getData()
 
 
     Get the entry data specified by name
 
-    :param string $name: 
+    :param string: 
 
     :rtype: mixed|null 
 
@@ -59,8 +56,6 @@ registerNamespaces
     Register Atom Thread Extension 1.0 namespace
 
     :rtype: void 
-
-
 
 
 
